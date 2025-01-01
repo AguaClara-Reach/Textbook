@@ -1,0 +1,2696 @@
+{"clt":
+{
+  "OL": "271 mm",
+
+  "OW": "1.15 m",
+
+  "Plastic":    "true",
+
+  "Q_pi": "1",
+
+  "Qm_max": "10 L/s",
+
+  "SDR_max": "41",
+
+  "TEMP_min": "10 °C",
+
+  "backWallH": "195 mm",
+
+  "backWallLowerH": "418 mm",
+
+  "chemDrainChannelH": "200 mm",
+
+  "chemDrainChannelH_min": "200 mm",
+
+  "chemDrainChannelW": "656 mm",
+
+  "chemPipes": {
+    "TEMP_ave": "20 °C",
+
+    "Tm_min": "1.5 mm",
+
+    "chemQu_max": "3.33 mL/s",
+
+    "chlorineDoseCm_max": "2 mg/L",
+
+    "chlorineNU": "1e-6 m^2/s",
+
+    "chlorineQu_max": "1.82 mL/s",
+
+    "chlorineStockC": "11 g/L",
+
+    "coagDoseCm_max": "40 mg/L",
+
+    "coagNU": "1.21e-6 m^2/s",
+
+    "coagQu_max": "3.33 mL/s",
+
+    "coagStockC": "120 g/L",
+
+    "dosing": {
+      "ID_min": "5.51 mm",
+
+      "N": "1",
+
+      "ND": "0.5",
+
+      "SDR": "7.06",
+
+      "V_max": "140 mm/s",
+
+      "clampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "24.6 mm"
+      },
+
+      "coupling": {
+        "OD": "27 mm",
+
+        "axisL": "20.6 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.8 mm"
+      },
+
+      "elbow_90": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      },
+
+      "pipe": {
+        "ID": "15.3 mm",
+
+        "OD": "21.3 mm",
+
+        "T": "3.02 mm"
+      },
+
+      "shortSpacerClampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "69.1 mm"
+      },
+
+      "tee": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      }
+    },
+
+    "drop": {
+      "ID_min": "7.15 mm",
+
+      "N": "1",
+
+      "ND": "0.5",
+
+      "SDR": "7.06",
+
+      "clampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "24.6 mm"
+      },
+
+      "coupling": {
+        "OD": "27 mm",
+
+        "axisL": "20.6 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.8 mm"
+      },
+
+      "elbow_90": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      },
+
+      "pipe": {
+        "ID": "15.3 mm",
+
+        "OD": "21.3 mm",
+
+        "T": "3.02 mm"
+      },
+
+      "shortSpacerClampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "69.1 mm"
+      },
+
+      "tee": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      }
+    },
+
+    "flex": {
+      "ID": "6.35 mm",
+
+      "ID_min": "4.21 mm",
+
+      "N": "1",
+
+      "ND": "0.25",
+
+      "OD": "9.53 mm",
+
+      "SDR": "6",
+
+      "T": "1.59 mm",
+
+      "V_max": "240 mm/s",
+
+      "connectionStyle":        "BARBED"
+    },
+
+    "inject": {
+      "ID_min": "2.91 mm",
+
+      "N": "1",
+
+      "ND": "0.5",
+
+      "SDR": "7.06",
+
+      "V_max": "500 mm/s",
+
+      "clampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "24.6 mm"
+      },
+
+      "coupling": {
+        "OD": "27 mm",
+
+        "axisL": "20.6 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.8 mm"
+      },
+
+      "elbow_90": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      },
+
+      "pipe": {
+        "ID": "15.3 mm",
+
+        "OD": "21.3 mm",
+
+        "T": "3.02 mm"
+      },
+
+      "shortSpacerClampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "69.1 mm"
+      },
+
+      "tee": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      }
+    },
+
+    "supply": {
+      "ID_min": "3.76 mm",
+
+      "N": "1",
+
+      "ND": "0.5",
+
+      "SDR": "7.06",
+
+      "V_max": "300 mm/s",
+
+      "clampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "24.6 mm"
+      },
+
+      "coupling": {
+        "OD": "27 mm",
+
+        "axisL": "20.6 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.8 mm"
+      },
+
+      "elbow_90": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      },
+
+      "pipe": {
+        "ID": "15.3 mm",
+
+        "OD": "21.3 mm",
+
+        "T": "3.02 mm"
+      },
+
+      "shortSpacerClampingHanger": {
+        "H": "39.7 mm",
+
+        "L": "25.4 mm",
+
+        "W": "20.6 mm",
+
+        "pipeL_max": "203 m",
+
+        "pipeToWallS": "69.1 mm"
+      },
+
+      "tee": {
+        "OD": "27.8 mm",
+
+        "axisL": "31.8 mm",
+
+        "socketID": "21.5 mm",
+
+        "socketL": "19.1 mm"
+      }
+    },
+
+    "wallS": "50 mm"
+  },
+
+  "chemTankHW_max": "1 m",
+
+  "chlorineDoserTube": {
+    "B": "6.76 mm",
+
+    "HL_max": "200 mm",
+
+    "ID": "1.59 mm",
+
+    "ID_VEC": "[ 1.59 mm, 3.18 mm, 4.76 mm, 6.35 mm]",
+
+    "K": "2",
+
+    "L": "556 mm",
+
+    "N": "3",
+
+    "NU": "1e-6 m^2/s",
+
+    "OL": "591 mm",
+
+    "Q": "606 μL/s",
+
+    "Qm_max": "10 L/s",
+
+    "Qu_max": "1.82 mL/s",
+
+    "Re_max_pi": "495",
+
+    "V_max": "313 mm/s",
+
+    "bundleOD": "22.3 mm",
+
+    "chemPipes": {
+      "TEMP_ave": "20 °C",
+
+      "Tm_min": "1.5 mm",
+
+      "chemQu_max": "3.33 mL/s",
+
+      "chlorineDoseCm_max": "2 mg/L",
+
+      "chlorineNU": "1e-6 m^2/s",
+
+      "chlorineQu_max": "1.82 mL/s",
+
+      "chlorineStockC": "11 g/L",
+
+      "coagDoseCm_max": "40 mg/L",
+
+      "coagNU": "1.21e-6 m^2/s",
+
+      "coagQu_max": "3.33 mL/s",
+
+      "coagStockC": "120 g/L",
+
+      "dosing": {
+        "ID_min": "5.51 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "140 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "drop": {
+        "ID_min": "7.15 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "flex": {
+        "ID": "6.35 mm",
+
+        "ID_min": "4.21 mm",
+
+        "N": "1",
+
+        "ND": "0.25",
+
+        "OD": "9.53 mm",
+
+        "SDR": "6",
+
+        "T": "1.59 mm",
+
+        "V_max": "240 mm/s",
+
+        "connectionStyle":          "BARBED"
+      },
+
+      "inject": {
+        "ID_min": "2.91 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "500 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "supply": {
+        "ID_min": "3.76 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "300 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "wallS": "50 mm"
+    },
+
+    "chemicalResistance":      "CHLORINE",
+
+    "chlorine":      "true",
+
+    "cltND": "0.5",
+
+    "compressionL": "397 μm",
+
+    "disc": {
+      "D": "33.4 mm",
+
+      "L": "33.4 mm",
+
+      "T_min": "6 mm",
+
+      "W": "33.4 mm",
+
+      "disc": {
+        "D": "33.4 mm",
+
+        "H": "0 m",
+
+        "L": "33.4 mm",
+
+        "W": "33.4 mm",
+
+        "col":          "false",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "0.5",
+
+          "green": "0.5",
+
+          "red": "0.5"
+        },
+
+        "costBasis": "2",
+
+        "factoryL": "2.44 m",
+
+        "factoryT": "6.35 mm",
+
+        "factoryW": "1.22 m",
+
+        "id":          "MMC:8747K215",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "6.35 mm PVC sheet",
+
+        "pn":          "8747K215",
+
+        "sheetMaterial":          "PVC",
+
+        "sheetType":          "SHEET",
+
+        "unitCost": "65.1",
+
+        "vendor":          "MMC"
+      },
+
+      "ip":        "GENERIC",
+
+      "moveL": "405 mm",
+
+      "sheetMaterial":        "PVC",
+
+      "sheetType":        "SHEET",
+
+      "tubeHoleID": "4.37 mm"
+    },
+
+    "done":      "true",
+
+    "gapS": "2 mm",
+
+    "ip":      "GENERIC",
+
+    "minorHL_pi": "0.05",
+
+    "ringsN": "1",
+
+    "shell": {
+      "ND": "1",
+
+      "SDR": "9.2",
+
+      "connector": {
+        "ID": "26.1 mm",
+
+        "L": "49.2 mm",
+
+        "ND": "1",
+
+        "OD": "33.4 mm",
+
+        "SDR": "9.2",
+
+        "T": "3.63 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "1",
+
+        "factoryL": "6.1 m",
+
+        "id":          "PPS: H0400100PW2000",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "1 ND SCH 40 PVC Pipe: White, 6.096 m",
+
+        "pipeMaterial":          "PVC",
+
+        "pn":          "H0400100PW2000",
+
+        "series":          "SCHEDULE",
+
+        "slotType":          "NOT_SLOTTED",
+
+        "unitCost": "4.59",
+
+        "use":          "true",
+
+        "vendor":          "PPS"
+      },
+
+      "coupling": {
+        "OD": "41.3 mm",
+
+        "axisL": "26.6 mm",
+
+        "offsetL": "7.54 mm",
+
+        "socketID": "33.7 mm",
+
+        "socketL": "25.4 mm"
+      },
+
+      "pipe": {
+        "ID": "26.1 mm",
+
+        "L": "399 mm",
+
+        "ND": "1",
+
+        "OD": "33.4 mm",
+
+        "SDR": "9.2",
+
+        "T": "3.63 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "1",
+
+        "factoryL": "6.1 m",
+
+        "id":          "PPS: H0400100PW2000",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "1 ND SCH 40 PVC Pipe: White, 6.096 m",
+
+        "pipeMaterial":          "PVC",
+
+        "pn":          "H0400100PW2000",
+
+        "series":          "SCHEDULE",
+
+        "slotType":          "NOT_SLOTTED",
+
+        "unitCost": "4.59",
+
+        "use":          "true",
+
+        "vendor":          "PPS"
+      },
+
+      "reducer": {
+        "ND": "1",
+
+        "OD": "40.8 mm",
+
+        "axes": [
+           "[ -1, 0, 0]",
+
+           "[ 1, 0, 0]"
+        ],
+
+        "axesDimensions": [
+        ],
+
+        "axisL": "30.6 mm",
+
+        "caAxisL": "25.8 mm",
+
+        "caAxisNumber": "1",
+
+        "caConnectionStyle":          "SOCKET_CONNECT",
+
+        "caEndCondition":          "FLAT",
+
+        "caIsInnie":          "false",
+
+        "caND": "0.5",
+
+        "caOD": "27.8 mm",
+
+        "caSocketID": "21.5 mm",
+
+        "caSocketL": "17.5 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "0",
+
+        "customAxis":          "true",
+
+        "endCondition":          "FLAT",
+
+        "fittingShape":          "STRAIGHT",
+
+        "fittingType":          "REDUCER",
+
+        "id":          "MMC: 4880K001",
+
+        "implementationPartner":          "GENERIC",
+
+        "isInnie":          "false",
+
+        "makeSource":          "FS",
+
+        "material":          "PVC",
+
+        "name":          "Reducer, 1 ND Socket Female x 0.5 ND Socket Female: White",
+
+        "output": [
+           {
+            "OD": "40.8 mm",
+
+            "axis": "[ -1, 0, 0]",
+
+            "axisL": "30.6 mm",
+
+            "connectionStyle":              "SOCKET_CONNECT",
+
+            "endCondition":              "FLAT",
+
+            "isInnie":              "false",
+
+            "nominalDiameter": "1",
+
+            "socketID": "33.7 mm",
+
+            "socketL": "22.2 mm"
+          },
+
+           {
+            "OD": "27.8 mm",
+
+            "axis": "[ 1, 0, 0]",
+
+            "axisL": "25.8 mm",
+
+            "connectionStyle":              "SOCKET_CONNECT",
+
+            "endCondition":              "FLAT",
+
+            "isInnie":              "false",
+
+            "nominalDiameter": "0.5",
+
+            "socketID": "21.5 mm",
+
+            "socketL": "17.5 mm"
+          }
+        ],
+
+        "pn":          "4880K001",
+
+        "socketID": "33.7 mm",
+
+        "socketL": "22.2 mm",
+
+        "unitCost": "3.49",
+
+        "vendor":          "MMC"
+      },
+
+      "union": {
+        "ND": "1",
+
+        "OD": "40.8 mm",
+
+        "axisL": "30.2 mm",
+
+        "caAxisNumber": "-1",
+
+        "chemicalResistance":          "CHLORINE",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "0",
+
+        "customAxis":          "false",
+
+        "endCondition":          "FLAT",
+
+        "fittingShape":          "STRAIGHT",
+
+        "fittingType":          "UNION",
+
+        "id":          "MMC: 4880K303",
+
+        "implementationPartner":          "GENERIC",
+
+        "isInnie":          "false",
+
+        "makeSource":          "UNION_PS",
+
+        "material":          "PVC",
+
+        "name":          "Union Straight Connector, 1 ND Socket Female: White",
+
+        "oring": {
+          "ND": "1",
+
+          "OD": "35.1 mm",
+
+          "caAxisNumber": "-1",
+
+          "color": {
+            "alpha": "1",
+
+            "blue": "0.2",
+
+            "green": "0.2",
+
+            "red": "0.2"
+          },
+
+          "costBasis": "0",
+
+          "customAxis":            "false",
+
+          "fittingType":            "O_RING",
+
+          "id":            "MMC: 9464K87",
+
+          "implementationPartner":            "GENERIC",
+
+          "makeSource":            "UNION_PS",
+
+          "material":            "FLUOROELASTOMER_RUBBER",
+
+          "name":            "Chemical-Resistant Viton Fluoroelastomer O-Ring, Dash Number 123",
+
+          "pn":            "9464K87",
+
+          "socketID": "29.8 mm",
+
+          "unitCost": "0.414",
+
+          "vendor":            "MMC"
+        },
+
+        "pn":          "4880K303",
+
+        "ringOD": "70.5 mm",
+
+        "socketID": "33.3 mm",
+
+        "socketL": "27 mm",
+
+        "unitCost": "6.36",
+
+        "vendor":          "MMC"
+      }
+    },
+
+    "tube": {
+      "ID": "1.59 mm",
+
+      "L": "479 mm",
+
+      "ND": "0.0625",
+
+      "OD": "4.76 mm",
+
+      "SDR": "3",
+
+      "T": "1.59 mm",
+
+      "color": {
+        "alpha": "0.2",
+
+        "blue": "0.84",
+
+        "green": "0.58",
+
+        "red": "0.53"
+      },
+
+      "connectionStyle":        "BARBED",
+
+      "costBasis": "1",
+
+      "factoryL": "15.2 m",
+
+      "id":        "GENERIC: MMC: 8349T13",
+
+      "implementationPartner":        "GENERIC",
+
+      "material":        "PVC_CLEAR",
+
+      "name":        "0.0625 in. ID, 0.0625 in. T PVC Tubing for Chemicals: Clear, 15.24 m",
+
+      "pipeMaterial":        "PVC_CLEAR",
+
+      "pn":        "8349T13",
+
+      "series":        "SDR",
+
+      "slotType":        "NOT_SLOTTED",
+
+      "unitCost": "0.71",
+
+      "use":        "false",
+
+      "vendor":        "MMC"
+    },
+
+    "tubeL": "479 mm",
+
+    "tubeL_max": "1 m",
+
+    "tubeOverhangL": "39.8 mm"
+  },
+
+  "chlorineDrainPipeStubL": "445 mm",
+
+  "chlorineValve": {
+    "ND": "0.5",
+
+    "OD": "36.5 mm",
+
+    "axes": [
+       "[ -1, 0, 0]",
+
+       "[ 1, 0, 0]"
+    ],
+
+    "axesDimensions": [
+    ],
+
+    "axisL": "39.5 mm",
+
+    "caAxisNumber": "-1",
+
+    "chemicalResistance":      "CHLORINE",
+
+    "color": {
+      "alpha": "1",
+
+      "blue": "0.5",
+
+      "green": "0.5",
+
+      "red": "0.5"
+    },
+
+    "connectionStyle":      "SOCKET_CONNECT",
+
+    "costBasis": "0",
+
+    "customAxis":      "false",
+
+    "endCondition":      "SPHERICAL",
+
+    "fittingShape":      "STRAIGHT",
+
+    "fittingType":      "VALVE",
+
+    "handleL": "72 mm",
+
+    "id":      "USP: 19247",
+
+    "implementationPartner":      "GENERIC",
+
+    "isInnie":      "false",
+
+    "makeSource":      "FS",
+
+    "material":      "PVC",
+
+    "name":      "1/2 ND PVC Chlorine Resistant Valve",
+
+    "output": [
+       {
+        "OD": "36.5 mm",
+
+        "axis": "[ -1, 0, 0]",
+
+        "axisL": "39.5 mm",
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "endCondition":          "SPHERICAL",
+
+        "isInnie":          "false",
+
+        "nominalDiameter": "0.5",
+
+        "socketID": "21.3 mm",
+
+        "socketL": "19.8 mm"
+      },
+
+       {
+        "OD": "36.5 mm",
+
+        "axis": "[ 1, 0, 0]",
+
+        "axisL": "39.5 mm",
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "endCondition":          "SPHERICAL",
+
+        "isInnie":          "false",
+
+        "nominalDiameter": "0.5",
+
+        "socketID": "21.3 mm",
+
+        "socketL": "19.8 mm"
+      }
+    ],
+
+    "overallH": "65.5 mm",
+
+    "pn":      "19247",
+
+    "socketID": "21.3 mm",
+
+    "socketL": "19.8 mm",
+
+    "unitCost": "21.1",
+
+    "valveType":      "BALL_VALVE",
+
+    "vendor":      "USP"
+  },
+
+  "clampingHanger": {
+    "clampingHanger": {
+      "H": "39.7 mm",
+
+      "ID_max": "22.2 mm",
+
+      "ID_min": "19.1 mm",
+
+      "L": "25.4 mm",
+
+      "W": "20.6 mm",
+
+      "baseToClampCenterS": "24.6 mm",
+
+      "capF": "489 { kilogram : 1 , meter : 1 , second : -2 }",
+
+      "clampingHangerMaterial":        "HDPE",
+
+      "clampingHangerType":        "CLAMPING_HANGER",
+
+      "color": {
+        "alpha": "1",
+
+        "blue": "0.5",
+
+        "green": "0.5",
+
+        "red": "0.5"
+      },
+
+      "costBasis": "0",
+
+      "hangerMakeSource":        "PLASTICCLAMP_PS",
+
+      "id":        "MMC: 30075T414",
+
+      "implementationPartner":        "GENERIC",
+
+      "material":        "HDPE",
+
+      "mountingHoleW": "4.76 mm",
+
+      "name":        "Plastic Clamping Hanger, 0.75 in. to 0.875 in. ID",
+
+      "pipeOD": "21.3 mm",
+
+      "pn":        "30075T414",
+
+      "unitCost": "1.4",
+
+      "vendor":        "MMC",
+
+      "wallT": "6.35 mm",
+
+      "wallType":        "PANEL"
+    }
+  },
+
+  "coagDoserTube": {
+    "B": "6.76 mm",
+
+    "HL_max": "200 mm",
+
+    "ID": "1.59 mm",
+
+    "ID_VEC": "[ 1.59 mm, 3.18 mm, 4.76 mm, 6.35 mm]",
+
+    "K": "2",
+
+    "L": "514 mm",
+
+    "N": "6",
+
+    "NU": "1.21e-6 m^2/s",
+
+    "OL": "549 mm",
+
+    "Q": "556 μL/s",
+
+    "Qm_max": "10 L/s",
+
+    "Qu_max": "3.33 mL/s",
+
+    "Re_max_pi": "411",
+
+    "V_max": "313 mm/s",
+
+    "bundleOD": "22.3 mm",
+
+    "chemPipes": {
+      "TEMP_ave": "20 °C",
+
+      "Tm_min": "1.5 mm",
+
+      "chemQu_max": "3.33 mL/s",
+
+      "chlorineDoseCm_max": "2 mg/L",
+
+      "chlorineNU": "1e-6 m^2/s",
+
+      "chlorineQu_max": "1.82 mL/s",
+
+      "chlorineStockC": "11 g/L",
+
+      "coagDoseCm_max": "40 mg/L",
+
+      "coagNU": "1.21e-6 m^2/s",
+
+      "coagQu_max": "3.33 mL/s",
+
+      "coagStockC": "120 g/L",
+
+      "dosing": {
+        "ID_min": "5.51 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "140 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "drop": {
+        "ID_min": "7.15 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "flex": {
+        "ID": "6.35 mm",
+
+        "ID_min": "4.21 mm",
+
+        "N": "1",
+
+        "ND": "0.25",
+
+        "OD": "9.53 mm",
+
+        "SDR": "6",
+
+        "T": "1.59 mm",
+
+        "V_max": "240 mm/s",
+
+        "connectionStyle":          "BARBED"
+      },
+
+      "inject": {
+        "ID_min": "2.91 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "500 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "supply": {
+        "ID_min": "3.76 mm",
+
+        "N": "1",
+
+        "ND": "0.5",
+
+        "SDR": "7.06",
+
+        "V_max": "300 mm/s",
+
+        "clampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "24.6 mm"
+        },
+
+        "coupling": {
+          "OD": "27 mm",
+
+          "axisL": "20.6 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.8 mm"
+        },
+
+        "elbow_90": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        },
+
+        "pipe": {
+          "ID": "15.3 mm",
+
+          "OD": "21.3 mm",
+
+          "T": "3.02 mm"
+        },
+
+        "shortSpacerClampingHanger": {
+          "H": "39.7 mm",
+
+          "L": "25.4 mm",
+
+          "W": "20.6 mm",
+
+          "pipeL_max": "203 m",
+
+          "pipeToWallS": "69.1 mm"
+        },
+
+        "tee": {
+          "OD": "27.8 mm",
+
+          "axisL": "31.8 mm",
+
+          "socketID": "21.5 mm",
+
+          "socketL": "19.1 mm"
+        }
+      },
+
+      "wallS": "50 mm"
+    },
+
+    "chemicalResistance":      "WATER",
+
+    "chlorine":      "false",
+
+    "cltND": "0.5",
+
+    "compressionL": "397 μm",
+
+    "disc": {
+      "D": "33.4 mm",
+
+      "L": "33.4 mm",
+
+      "T_min": "6 mm",
+
+      "W": "33.4 mm",
+
+      "disc": {
+        "D": "33.4 mm",
+
+        "H": "0 m",
+
+        "L": "33.4 mm",
+
+        "W": "33.4 mm",
+
+        "col":          "false",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "0.5",
+
+          "green": "0.5",
+
+          "red": "0.5"
+        },
+
+        "costBasis": "2",
+
+        "factoryL": "2.44 m",
+
+        "factoryT": "6.35 mm",
+
+        "factoryW": "1.22 m",
+
+        "id":          "MMC:8747K215",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "6.35 mm PVC sheet",
+
+        "pn":          "8747K215",
+
+        "sheetMaterial":          "PVC",
+
+        "sheetType":          "SHEET",
+
+        "unitCost": "65.1",
+
+        "vendor":          "MMC"
+      },
+
+      "ip":        "GENERIC",
+
+      "moveL": "363 mm",
+
+      "sheetMaterial":        "PVC",
+
+      "sheetType":        "SHEET",
+
+      "tubeHoleID": "4.37 mm"
+    },
+
+    "done":      "true",
+
+    "gapS": "2 mm",
+
+    "ip":      "GENERIC",
+
+    "minorHL_pi": "0.05",
+
+    "ringsN": "1",
+
+    "shell": {
+      "ND": "1",
+
+      "SDR": "9.2",
+
+      "connector": {
+        "ID": "26.1 mm",
+
+        "L": "49.2 mm",
+
+        "ND": "1",
+
+        "OD": "33.4 mm",
+
+        "SDR": "9.2",
+
+        "T": "3.63 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "1",
+
+        "factoryL": "6.1 m",
+
+        "id":          "PPS: H0400100PW2000",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "1 ND SCH 40 PVC Pipe: White, 6.096 m",
+
+        "pipeMaterial":          "PVC",
+
+        "pn":          "H0400100PW2000",
+
+        "series":          "SCHEDULE",
+
+        "slotType":          "NOT_SLOTTED",
+
+        "unitCost": "4.59",
+
+        "use":          "true",
+
+        "vendor":          "PPS"
+      },
+
+      "coupling": {
+        "OD": "41.3 mm",
+
+        "axisL": "26.6 mm",
+
+        "offsetL": "7.54 mm",
+
+        "socketID": "33.7 mm",
+
+        "socketL": "25.4 mm"
+      },
+
+      "pipe": {
+        "ID": "26.1 mm",
+
+        "L": "357 mm",
+
+        "ND": "1",
+
+        "OD": "33.4 mm",
+
+        "SDR": "9.2",
+
+        "T": "3.63 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "1",
+
+        "factoryL": "6.1 m",
+
+        "id":          "PPS: H0400100PW2000",
+
+        "implementationPartner":          "GENERIC",
+
+        "material":          "PVC",
+
+        "name":          "1 ND SCH 40 PVC Pipe: White, 6.096 m",
+
+        "pipeMaterial":          "PVC",
+
+        "pn":          "H0400100PW2000",
+
+        "series":          "SCHEDULE",
+
+        "slotType":          "NOT_SLOTTED",
+
+        "unitCost": "4.59",
+
+        "use":          "true",
+
+        "vendor":          "PPS"
+      },
+
+      "reducer": {
+        "ND": "1",
+
+        "OD": "40.8 mm",
+
+        "axes": [
+           "[ -1, 0, 0]",
+
+           "[ 1, 0, 0]"
+        ],
+
+        "axesDimensions": [
+        ],
+
+        "axisL": "30.6 mm",
+
+        "caAxisL": "25.8 mm",
+
+        "caAxisNumber": "1",
+
+        "caConnectionStyle":          "SOCKET_CONNECT",
+
+        "caEndCondition":          "FLAT",
+
+        "caIsInnie":          "false",
+
+        "caND": "0.5",
+
+        "caOD": "27.8 mm",
+
+        "caSocketID": "21.5 mm",
+
+        "caSocketL": "17.5 mm",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "0",
+
+        "customAxis":          "true",
+
+        "endCondition":          "FLAT",
+
+        "fittingShape":          "STRAIGHT",
+
+        "fittingType":          "REDUCER",
+
+        "id":          "MMC: 4880K001",
+
+        "implementationPartner":          "GENERIC",
+
+        "isInnie":          "false",
+
+        "makeSource":          "FS",
+
+        "material":          "PVC",
+
+        "name":          "Reducer, 1 ND Socket Female x 0.5 ND Socket Female: White",
+
+        "output": [
+           {
+            "OD": "40.8 mm",
+
+            "axis": "[ -1, 0, 0]",
+
+            "axisL": "30.6 mm",
+
+            "connectionStyle":              "SOCKET_CONNECT",
+
+            "endCondition":              "FLAT",
+
+            "isInnie":              "false",
+
+            "nominalDiameter": "1",
+
+            "socketID": "33.7 mm",
+
+            "socketL": "22.2 mm"
+          },
+
+           {
+            "OD": "27.8 mm",
+
+            "axis": "[ 1, 0, 0]",
+
+            "axisL": "25.8 mm",
+
+            "connectionStyle":              "SOCKET_CONNECT",
+
+            "endCondition":              "FLAT",
+
+            "isInnie":              "false",
+
+            "nominalDiameter": "0.5",
+
+            "socketID": "21.5 mm",
+
+            "socketL": "17.5 mm"
+          }
+        ],
+
+        "pn":          "4880K001",
+
+        "socketID": "33.7 mm",
+
+        "socketL": "22.2 mm",
+
+        "unitCost": "3.49",
+
+        "vendor":          "MMC"
+      },
+
+      "union": {
+        "ND": "1",
+
+        "OD": "40.8 mm",
+
+        "axisL": "30.2 mm",
+
+        "caAxisNumber": "-1",
+
+        "chemicalResistance":          "WATER",
+
+        "color": {
+          "alpha": "1",
+
+          "blue": "1",
+
+          "green": "1",
+
+          "red": "1"
+        },
+
+        "connectionStyle":          "SOCKET_CONNECT",
+
+        "costBasis": "0",
+
+        "customAxis":          "false",
+
+        "endCondition":          "FLAT",
+
+        "fittingShape":          "STRAIGHT",
+
+        "fittingType":          "UNION",
+
+        "id":          "MMC: 4880K303",
+
+        "implementationPartner":          "GENERIC",
+
+        "isInnie":          "false",
+
+        "makeSource":          "UNION_PS",
+
+        "material":          "PVC",
+
+        "name":          "Union Straight Connector, 1 ND Socket Female: White",
+
+        "oring": {
+          "ND": "1",
+
+          "OD": "35.1 mm",
+
+          "caAxisNumber": "-1",
+
+          "color": {
+            "alpha": "1",
+
+            "blue": "0.2",
+
+            "green": "0.2",
+
+            "red": "0.2"
+          },
+
+          "costBasis": "0",
+
+          "customAxis":            "false",
+
+          "fittingType":            "O_RING",
+
+          "id":            "MMC: 9464K87",
+
+          "implementationPartner":            "GENERIC",
+
+          "makeSource":            "UNION_PS",
+
+          "material":            "FLUOROELASTOMER_RUBBER",
+
+          "name":            "Chemical-Resistant Viton Fluoroelastomer O-Ring, Dash Number 123",
+
+          "pn":            "9464K87",
+
+          "socketID": "29.8 mm",
+
+          "unitCost": "0.414",
+
+          "vendor":            "MMC"
+        },
+
+        "pn":          "4880K303",
+
+        "ringOD": "70.5 mm",
+
+        "socketID": "33.3 mm",
+
+        "socketL": "27 mm",
+
+        "unitCost": "6.36",
+
+        "vendor":          "MMC"
+      }
+    },
+
+    "tube": {
+      "ID": "1.59 mm",
+
+      "L": "437 mm",
+
+      "ND": "0.0625",
+
+      "OD": "4.76 mm",
+
+      "SDR": "3",
+
+      "T": "1.59 mm",
+
+      "color": {
+        "alpha": "0.2",
+
+        "blue": "0.84",
+
+        "green": "0.58",
+
+        "red": "0.53"
+      },
+
+      "connectionStyle":        "BARBED",
+
+      "costBasis": "1",
+
+      "factoryL": "15.2 m",
+
+      "id":        "GENERIC: MMC: 8349T13",
+
+      "implementationPartner":        "GENERIC",
+
+      "material":        "PVC_CLEAR",
+
+      "name":        "0.0625 in. ID, 0.0625 in. T PVC Tubing for Chemicals: Clear, 15.24 m",
+
+      "pipeMaterial":        "PVC_CLEAR",
+
+      "pn":        "8349T13",
+
+      "series":        "SDR",
+
+      "slotType":        "NOT_SLOTTED",
+
+      "unitCost": "0.71",
+
+      "use":        "false",
+
+      "vendor":        "MMC"
+    },
+
+    "tubeL": "437 mm",
+
+    "tubeL_max": "1 m",
+
+    "tubeOverhangL": "39.8 mm"
+  },
+
+  "coagDrainPipeStubL": "487 mm",
+
+  "componentS": "50 mm",
+
+  "design": {
+    "Qm_max": "10 L/s",
+
+    "chemPipes": {
+      "chlorineDoseCm_max": "2 mg/L",
+
+      "chlorineStockC": "11 g/L",
+
+      "coagDoseCm_max": "40 mg/L",
+
+      "coagStockC": "120 g/L"
+    },
+
+    "doserTubes": {
+      "L_max": "1 m"
+    },
+
+    "slabBottomtoChemLevelS": "1.5 m"
+  },
+
+  "done":    "true",
+
+  "doserGapS": "10 mm",
+
+  "doserTubes": {
+    "HL_max": "200 mm",
+
+    "HSF": "100 mm",
+
+    "K": "2",
+
+    "L_max": "1 m",
+
+    "gapS": "2 mm",
+
+    "minorHL_pi": "0.05"
+  },
+
+  "fastener": {
+    "costBasis": "0",
+
+    "driveW": "3.57 mm",
+
+    "englishThreadID":      "_8_32",
+
+    "fastenerMaterial":      "STAINLESS_STEEL",
+
+    "fastenerType":      "SOCKET_HEAD",
+
+    "headD": "6.86 mm",
+
+    "headL": "4.17 mm",
+
+    "id":      "MMC:92185A182",
+
+    "implementationPartner":      "GENERIC",
+
+    "material":      "STAINLESS_STEEL",
+
+    "pn":      "92185A182",
+
+    "shaftL": "69.9 mm",
+
+    "threadD": "4.17 mm",
+
+    "throughHoleYN":      "false",
+
+    "unitCost": "0.862",
+
+    "unitSystem":      "ENGLISH",
+
+    "vendor":      "MMC"
+  },
+
+  "fittingS": "8 mm",
+
+  "fittingT": "20 mm",
+
+  "floatValve": {
+    "HL_max": "74.3 mm",
+
+    "L": "140 mm",
+
+    "W": "38.1 mm",
+
+    "floatOD": "38.1 mm",
+
+    "orificeD": "2.36 mm",
+
+    "orificeD_min": "1.67 mm"
+  },
+
+  "floatValvePS": {
+    "valve": {
+      "L": "140 mm",
+
+      "W": "38.1 mm",
+
+      "color": {
+        "alpha": "1",
+
+        "blue": "1",
+
+        "green": "1",
+
+        "red": "1"
+      },
+
+      "costBasis": "0",
+
+      "floatOD": "38.1 mm",
+
+      "id":        "TVS: MA052",
+
+      "implementationPartner":        "GENERIC",
+
+      "material":        "STAINLESS_STEEL",
+
+      "name":        "Mini Float Valve, 1/2 Pipe Thread Inlet, Adjustable Arm, 0.093 in. Orifice",
+
+      "orificeD": "2.36 mm",
+
+      "pn":        "MA052",
+
+      "unitCost": "12.2",
+
+      "vendor":        "TVS"
+    }
+  },
+
+  "floatValveToWallS": "10 mm",
+
+  "floatvalveHL_bod": "300 mm",
+
+  "inlet": {
+    "ID_min": "3.76 mm",
+
+    "N": "1",
+
+    "ND": "0.5",
+
+    "SDR": "7.06",
+
+    "V_max": "300 mm/s",
+
+    "clampingHanger": {
+      "H": "39.7 mm",
+
+      "L": "25.4 mm",
+
+      "W": "20.6 mm",
+
+      "pipeL_max": "203 m",
+
+      "pipeToWallS": "24.6 mm"
+    },
+
+    "coupling": {
+      "OD": "27 mm",
+
+      "axisL": "20.6 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.8 mm"
+    },
+
+    "elbow_90": {
+      "OD": "27.8 mm",
+
+      "axisL": "31.8 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.1 mm"
+    },
+
+    "hangerB": "24.6 mm",
+
+    "hangerD": "25.4 mm",
+
+    "hangerW": "20.6 mm",
+
+    "pipe": {
+      "ID": "15.3 mm",
+
+      "OD": "21.3 mm",
+
+      "T": "3.02 mm"
+    },
+
+    "shortSpacerClampingHanger": {
+      "H": "39.7 mm",
+
+      "L": "25.4 mm",
+
+      "W": "20.6 mm",
+
+      "pipeL_max": "203 m",
+
+      "pipeToWallS": "69.1 mm"
+    },
+
+    "tee": {
+      "OD": "27.8 mm",
+
+      "axisL": "31.8 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.1 mm"
+    },
+
+    "valve": {
+      "ND": "0.5",
+
+      "OD": "36.5 mm",
+
+      "axisL": "39.5 mm",
+
+      "socketID": "21.3 mm",
+
+      "socketL": "19.8 mm"
+    }
+  },
+
+  "inletClampingHanger": {
+    "H": "39.7 mm",
+
+    "L": "25.4 mm",
+
+    "W": "20.6 mm",
+
+    "pipeL_max": "203 m",
+
+    "pipeToWallS": "24.6 mm"
+  },
+
+  "inletFittingS": "99.9 mm",
+
+  "ip":    "GENERIC",
+
+  "noHangerPipeB": "79.3 mm",
+
+  "orificeChemLevelB": "20 mm",
+
+  "outlet": {
+    "ID_min": "5.51 mm",
+
+    "N": "1",
+
+    "ND": "0.5",
+
+    "SDR": "7.06",
+
+    "V_max": "140 mm/s",
+
+    "clampingHanger": {
+      "H": "39.7 mm",
+
+      "L": "25.4 mm",
+
+      "W": "20.6 mm",
+
+      "pipeL_max": "203 m",
+
+      "pipeToWallS": "24.6 mm"
+    },
+
+    "coupling": {
+      "OD": "27 mm",
+
+      "axisL": "20.6 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.8 mm"
+    },
+
+    "elbow_90": {
+      "OD": "27.8 mm",
+
+      "axisL": "31.8 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.1 mm"
+    },
+
+    "hangerB": "24.6 mm",
+
+    "hangerD": "25.4 mm",
+
+    "hangerW": "20.6 mm",
+
+    "pipe": {
+      "ID": "15.3 mm",
+
+      "OD": "21.3 mm",
+
+      "T": "3.02 mm"
+    },
+
+    "shortSpacerClampingHanger": {
+      "H": "39.7 mm",
+
+      "L": "25.4 mm",
+
+      "W": "20.6 mm",
+
+      "pipeL_max": "203 m",
+
+      "pipeToWallS": "69.1 mm"
+    },
+
+    "tee": {
+      "OD": "27.8 mm",
+
+      "axisL": "31.8 mm",
+
+      "socketID": "21.5 mm",
+
+      "socketL": "19.1 mm"
+    },
+
+    "tube": {
+      "ID": "6.35 mm",
+
+      "ND": "0.25",
+
+      "OD": "9.53 mm",
+
+      "SDR": "6",
+
+      "T": "1.59 mm"
+    },
+
+    "valve": {
+      "ND": "0.5",
+
+      "OD": "36.5 mm",
+
+      "axisL": "39.5 mm",
+
+      "socketID": "21.3 mm",
+
+      "socketL": "19.8 mm"
+    }
+  },
+
+  "outletClampingHanger": {
+    "H": "39.7 mm",
+
+    "L": "25.4 mm",
+
+    "W": "20.6 mm",
+
+    "pipeL_max": "203 m",
+
+    "pipeToWallS": "24.6 mm"
+  },
+
+  "outletH": "0 m",
+
+  "pipeB": "99.9 mm",
+
+  "plastic":    "true",
+
+  "rep":    "true",
+
+  "sideWallLowerH": "40.6 mm",
+
+  "sightTubeFB": "200 mm",
+
+  "sightTubeH": "1.5 m",
+
+  "sightTubeL": "1.29 m",
+
+  "sightTubeS": "1.12 m",
+
+  "slabBottomtoChemLevelS": "1.5 m",
+
+  "slotD": "5 mm",
+
+  "slotL": "50 mm",
+
+  "tankB": "599 mm",
+
+  "tankFB": "50 mm",
+
+  "tankH": "79.1 mm",
+
+  "tankHW": "29.1 mm",
+
+  "tankL": "258 mm",
+
+  "tankW": "100 mm",
+
+  "tankW_min": "100 mm",
+
+  "union": {
+    "ND": "0.5",
+
+    "OD": "27.4 mm",
+
+    "axisL": "22.4 mm",
+
+    "socketID": "21.4 mm",
+
+    "socketL": "19.1 mm"
+  },
+
+  "valve": {
+    "ND": "0.5",
+
+    "OD": "36.5 mm",
+
+    "axisL": "34.1 mm",
+
+    "socketID": "21.3 mm",
+
+    "socketL": "19.8 mm"
+  },
+
+  "wallOpeningH": "200 mm",
+
+  "wallPipeS": "100 mm",
+
+  "wallSlotS": "50 mm",
+
+  "wallT": "6.35 mm"
+}
+}

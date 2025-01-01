@@ -1,0 +1,23 @@
+.. _toc:
+
+
+|ACRlogowithname|
+
+.. |ACRlogowithname| image:: ../Textbook/AIDE/About/Images/ACRlogowithname.png
+  :target: https://www.aguaclarareach.org/
+  :height: 40
+
+=====================================
+AguaClara Technical Report
+=====================================
+
+.. toctree::
+  :caption: Divina Providencia
+  :maxdepth: 1
+
+    ../Chemical_Dosing.rst
+  
+
+This textbook is written and maintained in `Github <https://github.com/AguaClara/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_.
+
+`Please visit our GitHub site <https://github.com/AguaClara/Textbook>`_ to submit an issue, contribute, or comment.

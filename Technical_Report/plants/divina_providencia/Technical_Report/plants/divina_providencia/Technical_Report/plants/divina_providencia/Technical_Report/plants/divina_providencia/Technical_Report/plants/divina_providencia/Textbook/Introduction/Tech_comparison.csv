@@ -1,0 +1,44 @@
+Process,Flocculation Time minimum (min),Flocculation Time maximum (min),Clarification Component loading rate minimum (gpm/ft2),Clarification Component loading rate maximum (gpm/ft2),Sludge Volume minimum (%),Sludge Volume maximum (%),Solids Concentration minimum (% by weight),Solids Concentration maximum (% by weight),Energy minimum (includes 1.25 hp for rapid mix) hp/mgd,Energy maximum (includes 1.25 hp for rapid mix) hp/mgd,Relative equipment cost,Detention time (min) (has Direct impact on construction cost),Advantages ,Disadvantages
+Conventional,20,45,0.3,0.5,2,4,0.25,0.5,1.5,2,Minimal,240,"* Robust, well proven
+* Low Operation Cost
+* Ability to incorporate PAC","* Large footprint
+* Not suitable for light solids
+* Low solids content
+* Some temperature effects"
+Plate Settlers,20,45,4,8,2,4,0.25,0.5,1.5,2,Medium,60,"* Robust, well proven
+* Small footprint
+* Low operating cost","* Not suitable for light solids
+* Low solids content
+* Some temperature effects
+* May not have sufficient time for PAC"
+Actiflo�,5,10,16,35,3,6,0.1,0.4,2,4,High,15,"* Smallest footprint
+* High quality water
+* Quick startup and optimization
+* Reduced chemical consumption","* Polymer and sand grit carryover
+* Short detention time with PAC
+* Low solids content
+* High operating costs"
+DAF (conventional) sludge scraper,10,20,4,6,1,1,2,4,4,4,Medium High,50,"* Small footprint
+* Ideal for light solids
+* Low chemical consumption","* Not suitable for high dense solids
+* Turbidity limitations
+* High operating cost
+* May need polymer"
+DAF (high rate) sludge scraper,10,20,6,15,1,1,2,4,4,4,Medium High,20,"* Small footprint
+* Ideal for light solids
+* Low chemical consumption","* Not suitable for high dense solids
+* Turbidity limitations
+* High operating cost
+* May need polymer"
+Superpulsator,1,1,2,5,0.5,2,0.2,0.3,2,2.5,Low,60,"* Ability to incorporate PAC
+* No moving parts
+* No separate flocculation
+* Performs well at cold temperatures
+* Requires polymer for high rate sed","* Poor performance during rapid temperature changes
+* Best with denser floc
+* Flow and water quality variations"
+DensaDeg,8,10,8,10,1,1,2,4,2,3,Medium High,30,"* Ability to hold PAC
+* Small footprint
+* High solids content",* Polymer carryover
+AguaClara,1,10,1.5,1.5,,,,,0,0,Ultra Low,30,,,,,
+,,,,,,,,,,,,,,

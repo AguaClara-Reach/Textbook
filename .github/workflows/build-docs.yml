@@ -1,6 +1,13 @@
 name: Documentation
 
 on:
+  workflow_dispatch:
+    inputs:
+      build_target:
+        description: 'Specify the build target: Textbook or Technical_Report'
+        required: true
+        default: 'Textbook'
+
   push:
     branches:
       - '**'
@@ -27,8 +34,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements-dev.txt
     - name: Generate Docs
-      working-directory: ./Textbook
       run: |
+        if [ "${{ github.event.inputs.build_target }}" == "Textbook" ]; then
+          cd ./Textbook
+        elif [ "${{ github.event.inputs.build_target }}" == "Technical_Report" ]; then
+          cd ./Technical_Report
+        else
+          echo "Invalid build target specified."
+          exit 1
+        fi
         make html
         touch _build/html/.nojekyll
     - name: Archive Artifacts
@@ -36,7 +50,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: docs
-        path: Textbook/_build/html/
+        path: ${{ github.event.inputs.build_target }}/_build/html/
 
   deploy:
     runs-on: ubuntu-latest

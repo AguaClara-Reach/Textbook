@@ -1,0 +1,129 @@
+As of 3:32PM on July 11th 2018 this is a list off all instaces of a section or reference as indicated by ".. _" in the Textbook repo's RST files.
+This includes: sections, figures, titles, tables (the labels will be changed very soon to make this file easier to use)
+
+
+PS C:\Users\Public\github\Textbook> Select-String -Pattern ".. _" -Path "C:\Users\Public\github\Textbook\*\*.rst"
+
+Filtration\Filtration_Derivations.rst:1:.. _filtration_derivations:
+Filtration\Filtration_Design.rst:1:.. _filtration:
+Filtration\Filtration_Design.rst:10:.. _filter_types:
+Filtration\Filtration_Design.rst:33:.. _porosity:
+Filtration\Filtration_Design.rst:110:.. _headloss_requirements:
+Filtration\Filtration_Design.rst:139:.. _backwash:
+Filtration\Filtration_Design.rst:196:.. _siphon:
+Flow_Control_and_Measurement\FCM_Derivations.rst:1:.. _flow_control_derivations:
+Flow_Control_and_Measurement\FCM_Derivations.rst:9:.. _flow_for_a_tank_with_a_valve:
+Flow_Control_and_Measurement\FCM_Derivations.rst:15:.. _drip_hypochlorinator:
+Flow_Control_and_Measurement\FCM_Derivations.rst:108:.. _hypochlorinator_variable_explanation:
+Flow_Control_and_Measurement\FCM_Derivations.rst:144:.. _diameter_and_time_tank_drain_equation:
+Flow_Control_and_Measurement\FCM_Derivations.rst:152:.. _pipe_stub_drainage:
+Flow_Control_and_Measurement\FCM_Derivations.rst:202:.. _pipe_stub_drainage_variables:
+Flow_Control_and_Measurement\FCM_Derivations.rst:212:.. _design_equations_for_the_cdc:
+Flow_Control_and_Measurement\FCM_Derivations.rst:222:.. _cdc_derivation:
+Flow_Control_and_Measurement\FCM_Derivations.rst:231:.. _cdc_design_equation_derivations:
+Flow_Control_and_Measurement\FCM_Derivations.rst:289:.. _CDC_linearity_model:
+Flow_Control_and_Measurement\FCM_Derivations.rst:399:.. _CDC_length_model:
+Flow_Control_and_Measurement\FCM_Derivations.rst:452:.. _CDC_diameter_model:
+Flow_Control_and_Measurement\FCM_Design.rst:1:.. _flow_control_design:
+Flow_Control_and_Measurement\FCM_Design.rst:12:.. _fcm_terms_eqs:
+Flow_Control_and_Measurement\FCM_Design.rst:32:.. _tank_with_a_valve:
+Flow_Control_and_Measurement\FCM_Design.rst:38:.. _qh_as_a_function_of_t:
+Flow_Control_and_Measurement\FCM_Design.rst:59:.. _hypochlorinator_variable_explanation_design:
+Flow_Control_and_Measurement\FCM_Design.rst:76:.. _tank_valve_play:
+Flow_Control_and_Measurement\FCM_Design.rst:85:.. _drain_system_for_a_tank:
+Flow_Control_and_Measurement\FCM_Design.rst:107:.. _pipe_stub_drainage_variables_in_derivation:
+Flow_Control_and_Measurement\FCM_Design.rst:117:.. _aguaclara_flow_control_and_measurement_technologies:
+Flow_Control_and_Measurement\FCM_Design.rst:133:.. _almost_linear_flow_controller:
+Flow_Control_and_Measurement\FCM_Design.rst:164:.. _lfom:
+Flow_Control_and_Measurement\FCM_Design.rst:173:.. _sutro_v_lfom:
+Flow_Control_and_Measurement\FCM_Design.rst:208:.. _linear_cdc:
+Flow_Control_and_Measurement\FCM_Design.rst:235:.. _cdc_labelled:
+Flow_Control_and_Measurement\FCM_Design.rst:290:.. _FCM_section_summary:
+Fluids_Review\Fluids_Review_Derivations.rst:1:.. _fluids_review_derivations:
+Fluids_Review\Fluids_Review_Derivations.rst:9:.. _minor_loss_equation_derivation:
+Fluids_Review\Fluids_Review_Derivations.rst:16:.. _minor_loss_pipe:
+Fluids_Review\Fluids_Review_Derivations.rst:100:.. _final_minor_loss_equations:
+Fluids_Review\Fluids_Review_Design.rst:1:.. _fluids_review_design:
+Fluids_Review\Fluids_Review_Design.rst:12:.. _fluids_terms_eqs:
+Fluids_Review\Fluids_Review_Design.rst:41:.. _introductory_concepts:
+Fluids_Review\Fluids_Review_Design.rst:48:.. _continuity_equation:
+Fluids_Review\Fluids_Review_Design.rst:86:.. _continuity_pipes:
+Fluids_Review\Fluids_Review_Design.rst:95:.. _laminar_and_turbulent_flow:
+Fluids_Review\Fluids_Review_Design.rst:101:.. _wikipedia_laminar_turbulent:
+Fluids_Review\Fluids_Review_Design.rst:137:.. _streamlines_and_control_volumes:
+Fluids_Review\Fluids_Review_Design.rst:147:.. _control_volume_simplification:
+Fluids_Review\Fluids_Review_Design.rst:157:.. _image_control_volumes:
+Fluids_Review\Fluids_Review_Design.rst:167:.. _bernoulli_and_energy_equations:
+Fluids_Review\Fluids_Review_Design.rst:174:.. _bernoulli_equation:
+Fluids_Review\Fluids_Review_Design.rst:197:.. _different_forms_of_head:
+Fluids_Review\Fluids_Review_Design.rst:214:.. _energy_equation:
+Fluids_Review\Fluids_Review_Design.rst:234:.. _headloss:
+Fluids_Review\Fluids_Review_Design.rst:241:.. _major_losses:
+Fluids_Review\Fluids_Review_Design.rst:316:.. _moody:
+Fluids_Review\Fluids_Review_Design.rst:325:.. _minor_losses:
+Fluids_Review\Fluids_Review_Design.rst:358:.. _minor_loss_pipe_FRD:
+Fluids_Review\Fluids_Review_Design.rst:371:.. _minor_loss_elbow:
+Fluids_Review\Fluids_Review_Design.rst:390:.. _head_loss_elevation_difference_trick:
+Fluids_Review\Fluids_Review_Design.rst:398:.. _head_loss_trick:
+Fluids_Review\Fluids_Review_Design.rst:451:.. _the_orifice_equation:
+Fluids_Review\Fluids_Review_Design.rst:461:.. _sluice_gate_vena_contracta:
+Fluids_Review\Fluids_Review_Design.rst:487:.. _hole_in_a_bucket:
+Fluids_Review\Fluids_Review_Design.rst:525:.. _vertical_and_horizontal_orifices:
+Fluids_Review\Fluids_Review_Design.rst:534:.. _FR_section_summary:
+Fluids_Review\Fluids_Review_Design.rst:635:.. _h_Q_proportionality:
+Textbook_Creation_Help\example_aguaclara_rst.rst:1:.. _example_aguaclara_rst:
+Textbook_Creation_Help\example_aguaclara_rst.rst:10:.. _how_to_use_this_file:
+Textbook_Creation_Help\example_aguaclara_rst.rst:21:.. _headings_bullets_and_lists:
+Textbook_Creation_Help\example_aguaclara_rst.rst:36:Each title, section and subsection should have a label before it,
+formatted like this ``.. _headings:``. There should always be a blank line between the label and the actual heading,
+else references to the label will not work. For the sake of document readability, include 3 blank lines before the
+section label and 2 blank lines before the subsection label. Lesser headings (subsubsections and beyond) do not need
+to have labels, and there should be one blank line between lower headings and the preceding content. Here is an
+example. Note the amount and location of blank lines::
+Textbook_Creation_Help\example_aguaclara_rst.rst:38:  .. _example_document_title:
+Textbook_Creation_Help\example_aguaclara_rst.rst:47:  .. _example_section:
+Textbook_Creation_Help\example_aguaclara_rst.rst:54:  .. _example_subsection:
+Textbook_Creation_Help\example_aguaclara_rst.rst:99:.. _figures:
+Textbook_Creation_Help\example_aguaclara_rst.rst:107:  .. _fluffy_cat:
+Textbook_Creation_Help\example_aguaclara_rst.rst:118:  .. _mountain_figure:
+Textbook_Creation_Help\example_aguaclara_rst.rst:130:.. _fluffy_cat:
+Textbook_Creation_Help\example_aguaclara_rst.rst:139:.. _mountain_figure:
+Textbook_Creation_Help\example_aguaclara_rst.rst:150:.. _math_and_equations:
+Textbook_Creation_Help\example_aguaclara_rst.rst:203:.. _tables:
+Textbook_Creation_Help\example_aguaclara_rst.rst:209:  .. _an_example_table:
+Textbook_Creation_Help\example_aguaclara_rst.rst:220:.. _an_example_table:
+Textbook_Creation_Help\example_aguaclara_rst.rst:232:.. _links_and_references:
+Textbook_Creation_Help\example_aguaclara_rst.rst:238:  .. _AguaClara: http://aguaclaraReach.org/
+Textbook_Creation_Help\example_aguaclara_rst.rst:265:.. _writing_code_blocks:
+Textbook_Creation_Help\example_aguaclara_rst.rst:284:.. _python_and_doctests:
+Textbook_Creation_Help\example_aguaclara_rst.rst:341:.. _assorted_convention:
+Textbook_Creation_Help\example_aguaclara_rst.rst:347:.. _AguaClara: http://aguaclara.cornell.edu/
+Textbook_Creation_Help\parameter_convention_list.rst:1:.. _parameter_convention_list:
+Textbook_Creation_Help\parameter_convention_list.rst:7:  .. _dimension_table:
+Textbook_Creation_Help\parameter_convention_list.rst:20:  .. _parameter_table:
+Textbook_Creation_Help\rst_intro.rst:1:.. _rst_intro:
+Textbook_Creation_Help\rst_intro.rst:9:.. _what_is_rst:
+Textbook_Creation_Help\rst_intro.rst:17:.. _why_rst:
+Textbook_Creation_Help\rst_intro.rst:25:.. _setting_up_rst:
+Textbook_Creation_Help\rst_intro.rst:32:.. _installing_atom:
+Textbook_Creation_Help\rst_intro.rst:39:.. _building_rst_locally:
+Textbook_Creation_Help\rst_intro.rst:52:.. _publishing_online:
+Textbook_Creation_Help\rst_intro.rst:71:.. _testing_online:
+Textbook_Creation_Help\rst_intro.rst:75:To test exactly what will be published, we have a test branch. The test branch
+is built by Travis and contains all the processed html that Travis produces in _build/html. This branch is populated
+when ANY COMMIT IS PUSHED. Meaning, the last commit to be pushed, if it passes the Travis tests, will be built and the
+output will be placed in the test branch. Also, if the PDF=True environment variable is triggered for a Travis build,
+the PDF will also be generated and placed in the test branch. To do this, use the "Trigger Build" option in Travis and
+put:
+Textbook_Creation_Help\rst_intro.rst:89:.. _brief_best_practices:
+Textbook_Creation_Help\rst_intro.rst:96:.. _how_do_i_write_rst:
+Textbook_Creation_Help\rst_intro.rst:105:* In addition to a title, every RST document in this book should have a
+refernce so that it can be linked to in other, external documents. If you view the source code of this document and
+scroll to the top, you'll see this document is labeled as ``rst_intro`` with the following code ``.. _rst_intro``.
+Call this document in another textbook RST file with ``:ref:`rst_intro```
+Textbook_Creation_Help\rst_intro.rst:109:.. _Example_to_start_from:
+Textbook_Creation_Help\rst_intro.rst:119:.. _converting_md_to_rst:
+Textbook_Creation_Help\rst_intro.rst:127:.. _Sphinx: http://www.sphinx-doc.org/en/master/
+Textbook_Creation_Help\rst_intro.rst:128:.. _Pandoc: https://pandoc.org/installing.html
+Textbook_Creation_Help\rst_intro.rst:129:.. _Atom: https://ide.atom.io/
+Textbook_Creation_Help\rst_intro.rst:130:.. _Travis: https://travis-ci.org/

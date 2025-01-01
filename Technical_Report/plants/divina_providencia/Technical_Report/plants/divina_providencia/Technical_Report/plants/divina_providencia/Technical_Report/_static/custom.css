@@ -1,0 +1,10 @@
+/* Ensure that wraptable class enforces wrapping in table cells */
+.wraptable {
+    width: 100% !important;
+    table-layout: auto !important;
+}
+
+.wraptable td, .wraptable th {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}

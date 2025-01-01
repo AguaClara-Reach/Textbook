@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Technical_Report/AIDE_YAML"
+		}
+	],
+	"settings": {
+		"esbonio.sphinx.confDir": "",
+		"iis.activeFolder": "Textbook"
+	}
+}
