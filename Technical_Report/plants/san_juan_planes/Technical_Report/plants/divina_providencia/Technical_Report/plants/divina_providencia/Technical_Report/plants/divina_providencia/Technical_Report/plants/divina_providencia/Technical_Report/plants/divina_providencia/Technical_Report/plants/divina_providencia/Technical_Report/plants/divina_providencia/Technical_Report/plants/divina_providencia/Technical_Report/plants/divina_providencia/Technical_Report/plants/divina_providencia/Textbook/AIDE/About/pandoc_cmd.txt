@@ -1,2 +1,0 @@
-use this command to create the pdf
-pandoc -V geometry:margin=1in ET.rst -o ET.pdf --pdf-engine=xelatex

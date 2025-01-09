@@ -1,9 +1,0 @@
-# sphinx build files:
-_build/
-
-# jetbrains config files:
-.idea/
-
-.DS_store
-.history
-act.exe
