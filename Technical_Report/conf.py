@@ -173,12 +173,18 @@ from plants.perseverance.conf import *
 latex_engine = 'xelatex'  # Use xelatex for better Unicode support
 
 latex_elements = {
-    'title' : 'Perseverance Technical Report',
-    'papersize': 'a4paper',  # Choose between 'a4paper' or 'letterpaper'
-    'pointsize': '12pt',    # Default font size
+    'title': 'Perseverance Technical Report',
+    'papersize': 'a4paper',       # Choose between 'a4paper' or 'letterpaper'
+    'pointsize': '12pt',          # Default font size
     'preamble': r'''
         \usepackage{amsmath}
         \usepackage{amssymb}
-        \setmainfont{Times New Roman}  # Optional: Set the main font
+        \setmainfont{Times New Roman}
+        \usepackage{longtable}    % Add this to support long tables
+    ''',
+    'tableofcontents': r'''
+        \tableofcontents
+        \clearpage
+        \setcounter{tocdepth}{2}
     ''',
 }

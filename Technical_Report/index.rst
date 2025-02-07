@@ -12,6 +12,14 @@ AguaClara Technical Report for Perseverance
 ==============================================
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents
+   :glob:
+
+   chapter1
+   chapter2
+
+.. toctree::
   :caption: Introduction
   :maxdepth: 1
 
