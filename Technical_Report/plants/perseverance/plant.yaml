@@ -17,11 +17,11 @@
 
   "Floor":    "true",
 
-  "GT_min": "35000",
+  "GT_min": 35000,
 
   "G_bod": "30 Hz",
 
-  "Q_pi": "1",
+  "Q_pi": 1,
 
   "Qm_max": "30 L/s",
 
@@ -35,7 +35,7 @@
 
   "bypassRecycleB": "178 mm",
 
-  "channelSlopePI": "0.02",
+  "channelSlopePI": 0.02,
 
   "chemPipes": {
     "TEMP_ave": "20 °C",
@@ -71,11 +71,11 @@
     "dosing": {
       "ID_min": "10.7 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "0.5",
+      "ND": 0.5,
 
-      "SDR": "13.5",
+      "SDR": 13.5,
 
       "V_max": "140 mm/s",
 
@@ -145,11 +145,11 @@
     "drop": {
       "ID_min": "12.1 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "0.5",
+      "ND": 0.5,
 
-      "SDR": "13.5",
+      "SDR": 13.5,
 
       "clampingHanger": {
         "H": "39.7 mm",
@@ -219,13 +219,13 @@
 
       "ID_min": "8.14 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "0.375",
+      "ND": 0.375,
 
       "OD": "12.7 mm",
 
-      "SDR": "8",
+      "SDR": 8,
 
       "T": "1.59 mm",
 
@@ -237,11 +237,11 @@
     "inject": {
       "ID_min": "5.64 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "0.5",
+      "ND": 0.5,
 
-      "SDR": "13.5",
+      "SDR": 13.5,
 
       "V_max": "500 mm/s",
 
@@ -329,11 +329,11 @@
     "supply": {
       "ID_min": "7.28 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "0.5",
+      "ND": 0.5,
 
-      "SDR": "13.5",
+      "SDR": 13.5,
 
       "V_max": "300 mm/s",
 
@@ -450,7 +450,7 @@
 
         "L": "5.36 m",
 
-        "N": "1",
+        "N": 1,
 
         "OL": "5.72 m",
 
@@ -751,7 +751,7 @@
 
       "bottomH": "4 mm",
 
-      "calScale_max": "424",
+      "calScale_max": 424,
 
       "chemBaseH": "1.55 m",
 
@@ -762,7 +762,7 @@
 
         "L": "-243 mm",
 
-        "N": "1",
+        "N": 1,
 
         "T": "178 mm",
 
@@ -805,11 +805,11 @@
         "dosing": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -879,11 +879,11 @@
         "drop": {
           "ID_min": "12.1 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "clampingHanger": {
             "H": "39.7 mm",
@@ -953,13 +953,13 @@
 
           "ID_min": "8.14 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.375",
+          "ND": 0.375,
 
           "OD": "12.7 mm",
 
-          "SDR": "8",
+          "SDR": 8,
 
           "T": "1.59 mm",
 
@@ -971,11 +971,11 @@
         "inject": {
           "ID_min": "5.64 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "500 mm/s",
 
@@ -1063,11 +1063,11 @@
         "supply": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -1142,11 +1142,11 @@
       "chemStairs": {
         "H": "1.7 m",
 
-        "HL_pi": "0.9",
+        "HL_pi": 0.9,
 
         "L": "1.89 m",
 
-        "N": "9",
+        "N": 9,
 
         "T": "152 mm",
 
@@ -1224,11 +1224,11 @@
           "dosing": {
             "ID_min": "10.7 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "140 mm/s",
 
@@ -1298,11 +1298,11 @@
           "drop": {
             "ID_min": "12.1 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "clampingHanger": {
               "H": "39.7 mm",
@@ -1372,13 +1372,13 @@
 
             "ID_min": "8.14 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.375",
+            "ND": 0.375,
 
             "OD": "12.7 mm",
 
-            "SDR": "8",
+            "SDR": 8,
 
             "T": "1.59 mm",
 
@@ -1390,11 +1390,11 @@
           "inject": {
             "ID_min": "5.64 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "500 mm/s",
 
@@ -1482,11 +1482,11 @@
           "supply": {
             "ID_min": "7.28 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "300 mm/s",
 
@@ -1592,7 +1592,7 @@
       },
 
       "chlorineValve": {
-        "ND": "0.5",
+        "ND": 0.5,
 
         "OD": "36.5 mm",
 
@@ -1612,11 +1612,11 @@
 
         "OW": "1.76 m",
 
-        "Q_pi": "1",
+        "Q_pi": 1,
 
         "Qm_max": "30 L/s",
 
-        "SDR_max": "41",
+        "SDR_max": 41,
 
         "TEMP_min": "5 °C",
 
@@ -1670,11 +1670,11 @@
           "dosing": {
             "ID_min": "10.7 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "140 mm/s",
 
@@ -1744,11 +1744,11 @@
           "drop": {
             "ID_min": "12.1 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "clampingHanger": {
               "H": "39.7 mm",
@@ -1818,13 +1818,13 @@
 
             "ID_min": "8.14 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.375",
+            "ND": 0.375,
 
             "OD": "12.7 mm",
 
-            "SDR": "8",
+            "SDR": 8,
 
             "T": "1.59 mm",
 
@@ -1836,11 +1836,11 @@
           "inject": {
             "ID_min": "5.64 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "500 mm/s",
 
@@ -1928,11 +1928,11 @@
           "supply": {
             "ID_min": "7.28 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "300 mm/s",
 
@@ -2013,11 +2013,11 @@
 
           "ID_VEC": "[ 1.59 mm, 3.18 mm, 4.76 mm, 6.35 mm]",
 
-          "K": "2",
+          "K": 2,
 
           "L": "618 mm",
 
-          "N": "13",
+          "N": 13,
 
           "NU": "1e-6 m^2/s",
 
@@ -2029,7 +2029,7 @@
 
           "Qu_max": "7.5 mL/s",
 
-          "Re_max_pi": "495",
+          "Re_max_pi": 495,
 
           "V_max": "313 mm/s",
 
@@ -2069,11 +2069,11 @@
             "dosing": {
               "ID_min": "10.7 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "140 mm/s",
 
@@ -2143,11 +2143,11 @@
             "drop": {
               "ID_min": "12.1 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "clampingHanger": {
                 "H": "39.7 mm",
@@ -2217,13 +2217,13 @@
 
               "ID_min": "8.14 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.375",
+              "ND": 0.375,
 
               "OD": "12.7 mm",
 
-              "SDR": "8",
+              "SDR": 8,
 
               "T": "1.59 mm",
 
@@ -2235,11 +2235,11 @@
             "inject": {
               "ID_min": "5.64 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "500 mm/s",
 
@@ -2327,11 +2327,11 @@
             "supply": {
               "ID_min": "7.28 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "300 mm/s",
 
@@ -2405,7 +2405,7 @@
 
           "chlorine":            "true",
 
-          "cltND": "0.5",
+          "cltND": 0.5,
 
           "compressionL": "397 μm",
 
@@ -2430,16 +2430,16 @@
               "col":                "false",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "0.5",
+                "blue": 0.5,
 
-                "green": "0.5",
+                "green": 0.5,
 
-                "red": "0.5"
+                "red": 0.5
               },
 
-              "costBasis": "2",
+              "costBasis": 2,
 
               "factoryL": "2.44 m",
 
@@ -2461,7 +2461,7 @@
 
               "sheetType":                "SHEET",
 
-              "unitCost": "65.1",
+              "unitCost": 65.1,
 
               "vendor":                "MMC"
             },
@@ -2483,41 +2483,41 @@
 
           "ip":            "APP",
 
-          "minorHL_pi": "0.05",
+          "minorHL_pi": 0.05,
 
-          "ringsN": "2",
+          "ringsN": 2,
 
           "shell": {
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "41",
+            "SDR": 41,
 
             "connector": {
               "ID": "44.7 mm",
 
               "L": "61.1 mm",
 
-              "ND": "1.5",
+              "ND": 1.5,
 
               "OD": "48.4 mm",
 
-              "SDR": "26",
+              "SDR": 26,
 
               "T": "1.86 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "1",
+              "costBasis": 1,
 
               "factoryL": "6 m",
 
@@ -2537,7 +2537,7 @@
 
               "slotType":                "NOT_SLOTTED",
 
-              "unitCost": "14.9",
+              "unitCost": 14.9,
 
               "use":                "true",
 
@@ -2561,27 +2561,27 @@
 
               "L": "409 mm",
 
-              "ND": "1.5",
+              "ND": 1.5,
 
               "OD": "48.4 mm",
 
-              "SDR": "26",
+              "SDR": 26,
 
               "T": "1.86 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "1",
+              "costBasis": 1,
 
               "factoryL": "6 m",
 
@@ -2601,7 +2601,7 @@
 
               "slotType":                "NOT_SLOTTED",
 
-              "unitCost": "14.9",
+              "unitCost": 14.9,
 
               "use":                "true",
 
@@ -2609,7 +2609,7 @@
             },
 
             "reducer": {
-              "ND": "1.5",
+              "ND": 1.5,
 
               "OD": "56.4 mm",
 
@@ -2626,7 +2626,7 @@
 
               "caAxisL": "31.9 mm",
 
-              "caAxisNumber": "1",
+              "caAxisNumber": 1,
 
               "caConnectionStyle":                "SOCKET_CONNECT",
 
@@ -2634,7 +2634,7 @@
 
               "caIsInnie":                "false",
 
-              "caND": "0.5",
+              "caND": 0.5,
 
               "caOD": "27.8 mm",
 
@@ -2643,18 +2643,18 @@
               "caSocketL": "17.5 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "0",
+              "costBasis": 0,
 
               "customAxis":                "true",
 
@@ -2690,7 +2690,7 @@
 
                   "isInnie":                    "false",
 
-                  "nominalDiameter": "1.5",
+                  "nominalDiameter": 1.5,
 
                   "socketID": "48.6 mm",
 
@@ -2710,7 +2710,7 @@
 
                   "isInnie":                    "false",
 
-                  "nominalDiameter": "0.5",
+                  "nominalDiameter": 0.5,
 
                   "socketID": "21.5 mm",
 
@@ -2724,35 +2724,35 @@
 
               "socketL": "27.8 mm",
 
-              "unitCost": "5.5",
+              "unitCost": 5.5,
 
               "vendor":                "MMC"
             },
 
             "union": {
-              "ND": "1.5",
+              "ND": 1.5,
 
               "OD": "56.7 mm",
 
               "axisL": "37.4 mm",
 
-              "caAxisNumber": "-1",
+              "caAxisNumber": -1,
 
               "chemicalResistance":                "CHLORINE",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "0",
+              "costBasis": 0,
 
               "customAxis":                "false",
 
@@ -2775,23 +2775,23 @@
               "name":                "Union Straight Connector, 1.5 ND Socket Female: White",
 
               "oring": {
-                "ND": "1.5",
+                "ND": 1.5,
 
                 "OD": "51.1 mm",
 
-                "caAxisNumber": "-1",
+                "caAxisNumber": -1,
 
                 "color": {
-                  "alpha": "1",
+                  "alpha": 1,
 
-                  "blue": "0.2",
+                  "blue": 0.2,
 
-                  "green": "0.2",
+                  "green": 0.2,
 
-                  "red": "0.2"
+                  "red": 0.2
                 },
 
-                "costBasis": "0",
+                "costBasis": 0,
 
                 "customAxis":                  "false",
 
@@ -2811,7 +2811,7 @@
 
                 "socketID": "44 mm",
 
-                "unitCost": "0.748",
+                "unitCost": 0.748,
 
                 "vendor":                  "MMC"
               },
@@ -2824,7 +2824,7 @@
 
               "socketL": "33.3 mm",
 
-              "unitCost": "16.8",
+              "unitCost": 16.8,
 
               "vendor":                "MMC"
             }
@@ -2835,27 +2835,27 @@
 
             "L": "505 mm",
 
-            "ND": "0.0625",
+            "ND": 0.0625,
 
             "OD": "4.76 mm",
 
-            "SDR": "3",
+            "SDR": 3,
 
             "T": "1.59 mm",
 
             "color": {
-              "alpha": "0.2",
+              "alpha": 0.2,
 
-              "blue": "0.84",
+              "blue": 0.84,
 
-              "green": "0.58",
+              "green": 0.58,
 
-              "red": "0.53"
+              "red": 0.53
             },
 
             "connectionStyle":              "BARBED",
 
-            "costBasis": "1",
+            "costBasis": 1,
 
             "factoryL": "15.2 m",
 
@@ -2875,7 +2875,7 @@
 
             "slotType":              "NOT_SLOTTED",
 
-            "unitCost": "0.71",
+            "unitCost": 0.71,
 
             "use":              "false",
 
@@ -2892,7 +2892,7 @@
         "chlorineDrainPipeStubL": "458 mm",
 
         "chlorineValve": {
-          "ND": "0.5",
+          "ND": 0.5,
 
           "OD": "36.5 mm",
 
@@ -2907,23 +2907,23 @@
 
           "axisL": "39.5 mm",
 
-          "caAxisNumber": "-1",
+          "caAxisNumber": -1,
 
           "chemicalResistance":            "CHLORINE",
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.5",
+            "blue": 0.5,
 
-            "green": "0.5",
+            "green": 0.5,
 
-            "red": "0.5"
+            "red": 0.5
           },
 
           "connectionStyle":            "SOCKET_CONNECT",
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "customAxis":            "false",
 
@@ -2961,7 +2961,7 @@
 
               "isInnie":                "false",
 
-              "nominalDiameter": "0.5",
+              "nominalDiameter": 0.5,
 
               "socketID": "21.3 mm",
 
@@ -2981,7 +2981,7 @@
 
               "isInnie":                "false",
 
-              "nominalDiameter": "0.5",
+              "nominalDiameter": 0.5,
 
               "socketID": "21.3 mm",
 
@@ -2997,7 +2997,7 @@
 
           "socketL": "19.8 mm",
 
-          "unitCost": "21.1",
+          "unitCost": 21.1,
 
           "valveType":            "BALL_VALVE",
 
@@ -3013,11 +3013,11 @@
 
           "ID_VEC": "[ 1.59 mm, 3.18 mm, 4.76 mm, 6.35 mm]",
 
-          "K": "2",
+          "K": 2,
 
           "L": "1.95 m",
 
-          "N": "6",
+          "N": 6,
 
           "NU": "1.21e-6 m^2/s",
 
@@ -3029,7 +3029,7 @@
 
           "Qu_max": "12.5 mL/s",
 
-          "Re_max_pi": "822",
+          "Re_max_pi": 822,
 
           "V_max": "313 mm/s",
 
@@ -3069,11 +3069,11 @@
             "dosing": {
               "ID_min": "10.7 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "140 mm/s",
 
@@ -3143,11 +3143,11 @@
             "drop": {
               "ID_min": "12.1 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "clampingHanger": {
                 "H": "39.7 mm",
@@ -3217,13 +3217,13 @@
 
               "ID_min": "8.14 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.375",
+              "ND": 0.375,
 
               "OD": "12.7 mm",
 
-              "SDR": "8",
+              "SDR": 8,
 
               "T": "1.59 mm",
 
@@ -3235,11 +3235,11 @@
             "inject": {
               "ID_min": "5.64 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "500 mm/s",
 
@@ -3327,11 +3327,11 @@
             "supply": {
               "ID_min": "7.28 mm",
 
-              "N": "1",
+              "N": 1,
 
-              "ND": "0.5",
+              "ND": 0.5,
 
-              "SDR": "13.5",
+              "SDR": 13.5,
 
               "V_max": "300 mm/s",
 
@@ -3405,7 +3405,7 @@
 
           "chlorine":            "false",
 
-          "cltND": "0.5",
+          "cltND": 0.5,
 
           "compressionL": "397 μm",
 
@@ -3430,16 +3430,16 @@
               "col":                "false",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "0.5",
+                "blue": 0.5,
 
-                "green": "0.5",
+                "green": 0.5,
 
-                "red": "0.5"
+                "red": 0.5
               },
 
-              "costBasis": "2",
+              "costBasis": 2,
 
               "factoryL": "2.44 m",
 
@@ -3461,7 +3461,7 @@
 
               "sheetType":                "SHEET",
 
-              "unitCost": "65.1",
+              "unitCost": 65.1,
 
               "vendor":                "MMC"
             },
@@ -3483,41 +3483,41 @@
 
           "ip":            "APP",
 
-          "minorHL_pi": "0.05",
+          "minorHL_pi": 0.05,
 
-          "ringsN": "1",
+          "ringsN": 1,
 
           "shell": {
-            "ND": "1",
+            "ND": 1,
 
-            "SDR": "26",
+            "SDR": 26,
 
             "connector": {
               "ID": "30.8 mm",
 
               "L": "49.2 mm",
 
-              "ND": "1",
+              "ND": 1,
 
               "OD": "33.3 mm",
 
-              "SDR": "26",
+              "SDR": 26,
 
               "T": "1.28 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "1",
+              "costBasis": 1,
 
               "factoryL": "6 m",
 
@@ -3537,7 +3537,7 @@
 
               "slotType":                "NOT_SLOTTED",
 
-              "unitCost": "8.4",
+              "unitCost": 8.4,
 
               "use":                "true",
 
@@ -3561,27 +3561,27 @@
 
               "L": "1.79 m",
 
-              "ND": "1",
+              "ND": 1,
 
               "OD": "33.3 mm",
 
-              "SDR": "26",
+              "SDR": 26,
 
               "T": "1.28 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "1",
+              "costBasis": 1,
 
               "factoryL": "6 m",
 
@@ -3601,7 +3601,7 @@
 
               "slotType":                "NOT_SLOTTED",
 
-              "unitCost": "8.4",
+              "unitCost": 8.4,
 
               "use":                "true",
 
@@ -3609,7 +3609,7 @@
             },
 
             "reducer": {
-              "ND": "1",
+              "ND": 1,
 
               "OD": "40.8 mm",
 
@@ -3626,7 +3626,7 @@
 
               "caAxisL": "25.8 mm",
 
-              "caAxisNumber": "1",
+              "caAxisNumber": 1,
 
               "caConnectionStyle":                "SOCKET_CONNECT",
 
@@ -3634,7 +3634,7 @@
 
               "caIsInnie":                "false",
 
-              "caND": "0.5",
+              "caND": 0.5,
 
               "caOD": "27.8 mm",
 
@@ -3643,18 +3643,18 @@
               "caSocketL": "17.5 mm",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "0",
+              "costBasis": 0,
 
               "customAxis":                "true",
 
@@ -3690,7 +3690,7 @@
 
                   "isInnie":                    "false",
 
-                  "nominalDiameter": "1",
+                  "nominalDiameter": 1,
 
                   "socketID": "33.7 mm",
 
@@ -3710,7 +3710,7 @@
 
                   "isInnie":                    "false",
 
-                  "nominalDiameter": "0.5",
+                  "nominalDiameter": 0.5,
 
                   "socketID": "21.5 mm",
 
@@ -3724,35 +3724,35 @@
 
               "socketL": "22.2 mm",
 
-              "unitCost": "3.49",
+              "unitCost": 3.49,
 
               "vendor":                "MMC"
             },
 
             "union": {
-              "ND": "1",
+              "ND": 1,
 
               "OD": "40.8 mm",
 
               "axisL": "30.2 mm",
 
-              "caAxisNumber": "-1",
+              "caAxisNumber": -1,
 
               "chemicalResistance":                "WATER",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "1",
+                "blue": 1,
 
-                "green": "1",
+                "green": 1,
 
-                "red": "1"
+                "red": 1
               },
 
               "connectionStyle":                "SOCKET_CONNECT",
 
-              "costBasis": "0",
+              "costBasis": 0,
 
               "customAxis":                "false",
 
@@ -3775,23 +3775,23 @@
               "name":                "Union Straight Connector, 1 ND Socket Female: White",
 
               "oring": {
-                "ND": "1",
+                "ND": 1,
 
                 "OD": "35.1 mm",
 
-                "caAxisNumber": "-1",
+                "caAxisNumber": -1,
 
                 "color": {
-                  "alpha": "1",
+                  "alpha": 1,
 
-                  "blue": "0.2",
+                  "blue": 0.2,
 
-                  "green": "0.2",
+                  "green": 0.2,
 
-                  "red": "0.2"
+                  "red": 0.2
                 },
 
-                "costBasis": "0",
+                "costBasis": 0,
 
                 "customAxis":                  "false",
 
@@ -3811,7 +3811,7 @@
 
                 "socketID": "29.8 mm",
 
-                "unitCost": "0.414",
+                "unitCost": 0.414,
 
                 "vendor":                  "MMC"
               },
@@ -3824,7 +3824,7 @@
 
               "socketL": "27 mm",
 
-              "unitCost": "6.36",
+              "unitCost": 6.36,
 
               "vendor":                "MMC"
             }
@@ -3835,27 +3835,27 @@
 
             "L": "1.87 m",
 
-            "ND": "0.125",
+            "ND": 0.125,
 
             "OD": "6.35 mm",
 
-            "SDR": "4",
+            "SDR": 4,
 
             "T": "1.59 mm",
 
             "color": {
-              "alpha": "0.2",
+              "alpha": 0.2,
 
-              "blue": "0.84",
+              "blue": 0.84,
 
-              "green": "0.58",
+              "green": 0.58,
 
-              "red": "0.53"
+              "red": 0.53
             },
 
             "connectionStyle":              "BARBED",
 
-            "costBasis": "1",
+            "costBasis": 1,
 
             "factoryL": "15.2 m",
 
@@ -3875,7 +3875,7 @@
 
             "slotType":              "NOT_SLOTTED",
 
-            "unitCost": "1.11",
+            "unitCost": 1.11,
 
             "use":              "true",
 
@@ -3902,13 +3902,13 @@
 
           "HSF": "100 mm",
 
-          "K": "2",
+          "K": 2,
 
           "L_max": "2.5 m",
 
           "gapS": "2 mm",
 
-          "minorHL_pi": "0.05"
+          "minorHL_pi": 0.05
         },
 
         "fittingS": "8 mm",
@@ -3936,11 +3936,11 @@
         "inlet": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -4013,7 +4013,7 @@
           },
 
           "valve": {
-            "ND": "0.5",
+            "ND": 0.5,
 
             "OD": "36.5 mm",
 
@@ -4048,11 +4048,11 @@
         "outlet": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -4127,17 +4127,17 @@
           "tube": {
             "ID": "12.7 mm",
 
-            "ND": "0.5",
+            "ND": 0.5,
 
             "OD": "15.2 mm",
 
-            "SDR": "12",
+            "SDR": 12,
 
             "T": "1.27 mm"
           },
 
           "valve": {
-            "ND": "0.5",
+            "ND": 0.5,
 
             "OD": "36.5 mm",
 
@@ -4200,7 +4200,7 @@
         "tankW_min": "100 mm",
 
         "union": {
-          "ND": "0.5",
+          "ND": 0.5,
 
           "OD": "27.4 mm",
 
@@ -4212,7 +4212,7 @@
         },
 
         "valve": {
-          "ND": "0.5",
+          "ND": 0.5,
 
           "OD": "27.8 mm",
 
@@ -4293,11 +4293,11 @@
           "dosing": {
             "ID_min": "10.7 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "140 mm/s",
 
@@ -4367,11 +4367,11 @@
           "drop": {
             "ID_min": "12.1 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "clampingHanger": {
               "H": "39.7 mm",
@@ -4441,13 +4441,13 @@
 
             "ID_min": "8.14 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.375",
+            "ND": 0.375,
 
             "OD": "12.7 mm",
 
-            "SDR": "8",
+            "SDR": 8,
 
             "T": "1.59 mm",
 
@@ -4459,11 +4459,11 @@
           "inject": {
             "ID_min": "5.64 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "500 mm/s",
 
@@ -4551,11 +4551,11 @@
           "supply": {
             "ID_min": "7.28 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "300 mm/s",
 
@@ -4661,7 +4661,7 @@
       },
 
       "coagValve": {
-        "ND": "0.5",
+        "ND": 0.5,
 
         "OD": "27.8 mm",
 
@@ -4777,11 +4777,11 @@
           "dosing": {
             "ID_min": "10.7 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "140 mm/s",
 
@@ -4851,11 +4851,11 @@
           "drop": {
             "ID_min": "12.1 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "clampingHanger": {
               "H": "39.7 mm",
@@ -4925,13 +4925,13 @@
 
             "ID_min": "8.14 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.375",
+            "ND": 0.375,
 
             "OD": "12.7 mm",
 
-            "SDR": "8",
+            "SDR": 8,
 
             "T": "1.59 mm",
 
@@ -4943,11 +4943,11 @@
           "inject": {
             "ID_min": "5.64 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "500 mm/s",
 
@@ -5035,11 +5035,11 @@
           "supply": {
             "ID_min": "7.28 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "300 mm/s",
 
@@ -5145,7 +5145,7 @@
       },
 
       "stairs": {
-        "HL_pi": "0.9",
+        "HL_pi": 0.9,
 
         "W": "991 mm",
 
@@ -5175,7 +5175,7 @@
 
         "L": "5.36 m",
 
-        "N": "1",
+        "N": 1,
 
         "OL": "5.72 m",
 
@@ -5515,11 +5515,11 @@
       "dosing": {
         "ID_min": "10.7 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "140 mm/s",
 
@@ -5589,11 +5589,11 @@
       "drop": {
         "ID_min": "12.1 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "clampingHanger": {
           "H": "39.7 mm",
@@ -5663,13 +5663,13 @@
 
         "ID_min": "8.14 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.375",
+        "ND": 0.375,
 
         "OD": "12.7 mm",
 
-        "SDR": "8",
+        "SDR": 8,
 
         "T": "1.59 mm",
 
@@ -5681,11 +5681,11 @@
       "inject": {
         "ID_min": "5.64 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "500 mm/s",
 
@@ -5773,11 +5773,11 @@
       "supply": {
         "ID_min": "7.28 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "300 mm/s",
 
@@ -5868,7 +5868,7 @@
 
       "H": "200 mm",
 
-      "Q_pi": "1",
+      "Q_pi": 1,
 
       "Qm_max": "30 L/s",
 
@@ -5884,7 +5884,7 @@
 
       "boltD": "4 mm",
 
-      "chainML_pi": "0.0649",
+      "chainML_pi": 0.0649,
 
       "chemPipes": {
         "TEMP_ave": "20 °C",
@@ -5920,11 +5920,11 @@
         "dosing": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -5994,11 +5994,11 @@
         "drop": {
           "ID_min": "12.1 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "clampingHanger": {
             "H": "39.7 mm",
@@ -6068,13 +6068,13 @@
 
           "ID_min": "8.14 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.375",
+          "ND": 0.375,
 
           "OD": "12.7 mm",
 
-          "SDR": "8",
+          "SDR": 8,
 
           "T": "1.59 mm",
 
@@ -6086,11 +6086,11 @@
         "inject": {
           "ID_min": "5.64 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "500 mm/s",
 
@@ -6178,11 +6178,11 @@
         "supply": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -6252,20 +6252,20 @@
         "wallS": "50 mm"
       },
 
-      "chlorineC_pi": "1",
+      "chlorineC_pi": 1,
 
       "chlorineNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6289,7 +6289,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.19",
+        "unitCost": 0.19,
 
         "unitSystem":          "METRIC",
 
@@ -6298,16 +6298,16 @@
 
       "chlorineSpacerData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6331,27 +6331,27 @@
 
         "threadD": "6.3 mm",
 
-        "unitCost": "5.55",
+        "unitCost": 5.55,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "chlorineSpacerN": "2",
+      "chlorineSpacerN": 2,
 
       "chlorineThinNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6375,27 +6375,27 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.15",
+        "unitCost": 0.15,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "coagC_pi": "1",
+      "coagC_pi": 1,
 
       "coagNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6419,7 +6419,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.19",
+        "unitCost": 0.19,
 
         "unitSystem":          "METRIC",
 
@@ -6430,16 +6430,16 @@
 
       "coagSpacerData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6463,27 +6463,27 @@
 
         "threadD": "6.3 mm",
 
-        "unitCost": "5.55",
+        "unitCost": 5.55,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "coagSpacerN": "2",
+      "coagSpacerN": 2,
 
       "coagThinNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6507,7 +6507,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.15",
+        "unitCost": 0.15,
 
         "unitSystem":          "METRIC",
 
@@ -6525,7 +6525,7 @@
       "counterweightBoltToSandGapS": "40 mm",
 
       "counterweightCapData": {
-        "ND": "1.25",
+        "ND": 1.25,
 
         "OD": "50 mm",
 
@@ -6538,21 +6538,21 @@
 
         "axisL": "31.8 mm",
 
-        "caAxisNumber": "-1",
+        "caAxisNumber": -1,
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "customAxis":          "false",
 
@@ -6588,7 +6588,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.25",
+            "nominalDiameter": 1.25,
 
             "socketID": "42.1 mm",
 
@@ -6602,13 +6602,13 @@
 
         "socketL": "31.8 mm",
 
-        "unitCost": "0.68",
+        "unitCost": 0.68,
 
         "vendor":          "AMN"
       },
 
       "counterweightConnectorData": {
-        "ND": "2",
+        "ND": 2,
 
         "OD": "68.3 mm",
 
@@ -6623,21 +6623,21 @@
 
         "axisL": "36.1 mm",
 
-        "caAxisNumber": "-1",
+        "caAxisNumber": -1,
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "customAxis":          "false",
 
@@ -6673,7 +6673,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "2",
+            "nominalDiameter": 2,
 
             "socketID": "60.6 mm",
 
@@ -6693,7 +6693,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "2",
+            "nominalDiameter": 2,
 
             "socketID": "60.6 mm",
 
@@ -6707,7 +6707,7 @@
 
         "socketL": "34.9 mm",
 
-        "unitCost": "1.49",
+        "unitCost": 1.49,
 
         "vendor":          "MMC"
       },
@@ -6717,27 +6717,27 @@
 
         "L": "2 m",
 
-        "ND": "2",
+        "ND": 2,
 
         "OD": "60.3 mm",
 
-        "SDR": "14.5",
+        "SDR": 14.5,
 
         "T": "4.17 mm",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "1",
+        "costBasis": 1,
 
         "curve": {
           "queryType":            "NOTHING"
@@ -6761,7 +6761,7 @@
 
         "slotType":          "NOT_SLOTTED",
 
-        "unitCost": "9.28",
+        "unitCost": 9.28,
 
         "use":          "true",
 
@@ -6770,16 +6770,16 @@
 
       "counterweightNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -6803,17 +6803,17 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.19",
+        "unitCost": 0.19,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "counterweightPipeExtraL_pi": "0.75",
+      "counterweightPipeExtraL_pi": 0.75,
 
       "counterweightReducingAdaptorData": {
-        "ND": "2",
+        "ND": 2,
 
         "OD": "60.3 mm",
 
@@ -6830,7 +6830,7 @@
 
         "caAxisL": "40.5 mm",
 
-        "caAxisNumber": "1",
+        "caAxisNumber": 1,
 
         "caConnectionStyle":          "SOCKET_CONNECT",
 
@@ -6838,7 +6838,7 @@
 
         "caIsInnie":          "false",
 
-        "caND": "1.25",
+        "caND": 1.25,
 
         "caOD": "66 mm",
 
@@ -6847,18 +6847,18 @@
         "caSocketL": "31.8 mm",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "customAxis":          "true",
 
@@ -6894,7 +6894,7 @@
 
             "isInnie":              "true",
 
-            "nominalDiameter": "2",
+            "nominalDiameter": 2,
 
             "socketID": "39 mm",
 
@@ -6914,7 +6914,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.25",
+            "nominalDiameter": 1.25,
 
             "socketID": "42.1 mm",
 
@@ -6928,7 +6928,7 @@
 
         "socketL": "36.6 mm",
 
-        "unitCost": "1.3",
+        "unitCost": 1.3,
 
         "vendor":          "AMN"
       },
@@ -6938,27 +6938,27 @@
 
         "L": "1 m",
 
-        "ND": "1",
+        "ND": 1,
 
         "OD": "33.4 mm",
 
-        "SDR": "9.2",
+        "SDR": 9.2,
 
         "T": "3.63 mm",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "1",
+        "costBasis": 1,
 
         "curve": {
           "queryType":            "NOTHING"
@@ -6982,7 +6982,7 @@
 
         "slotType":          "NOT_SLOTTED",
 
-        "unitCost": "4.59",
+        "unitCost": 4.59,
 
         "use":          "true",
 
@@ -6991,16 +6991,16 @@
 
       "counterweightThreadedRodData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "1",
+        "costBasis": 1,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7022,7 +7022,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "12.7",
+        "unitCost": 12.7,
 
         "unitSystem":          "METRIC",
 
@@ -7031,16 +7031,16 @@
 
       "counterweightWasherData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7066,7 +7066,7 @@
 
         "threadD": "6.4 mm",
 
-        "unitCost": "0.06",
+        "unitCost": 0.06,
 
         "unitSystem":          "METRIC",
 
@@ -7075,18 +7075,18 @@
 
       "counterweightWasherGapS": "1 mm",
 
-      "counterweightWasherN": "4",
+      "counterweightWasherN": 4,
 
       "done":        "true",
 
-      "doseErrorC_pi": "0.06",
+      "doseErrorC_pi": 0.06,
 
       "dripIntoLfom":        "true",
 
       "dropTube": {
         "L": "353 mm",
 
-        "ML_pi": "0.194"
+        "ML_pi": 0.194
       },
 
       "dropTubeGapS": "2 mm",
@@ -7144,7 +7144,7 @@
 
         "RHO": "1.38 kg/L",
 
-        "SF_pi": "2",
+        "SF_pi": 2,
 
         "T": "25.4 mm",
 
@@ -7155,16 +7155,16 @@
 
       "floatSwivelBoltData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "driveW": "6 mm",
 
@@ -7192,7 +7192,7 @@
 
         "threadD": "8 mm",
 
-        "unitCost": "1.17",
+        "unitCost": 1.17,
 
         "unitSystem":          "METRIC",
 
@@ -7201,16 +7201,16 @@
 
       "floatSwivelData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "driveW": "8.1 mm",
 
@@ -7238,7 +7238,7 @@
 
         "threadL": "11 mm",
 
-        "unitCost": "12.1",
+        "unitCost": 12.1,
 
         "unitSystem":          "METRIC",
 
@@ -7251,16 +7251,16 @@
 
       "floatThreadedRodData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "1",
+        "costBasis": 1,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7282,7 +7282,7 @@
 
         "threadD": "8 mm",
 
-        "unitCost": "19",
+        "unitCost": 19,
 
         "unitSystem":          "METRIC",
 
@@ -7299,16 +7299,16 @@
         "W_min": "25.4 mm",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.75",
+          "blue": 0.75,
 
-          "green": "0.75",
+          "green": 0.75,
 
-          "red": "0.75"
+          "red": 0.75
         },
 
-        "costBasis": "1",
+        "costBasis": 1,
 
         "factoryL": "2.44 m",
 
@@ -7334,7 +7334,7 @@
 
         "shapeType":          "BAR",
 
-        "unitCost": "9.34",
+        "unitCost": 9.34,
 
         "vendor":          "MMC"
       },
@@ -7353,16 +7353,16 @@
 
       "fulcrumBoltData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "driveW": "5 mm",
 
@@ -7390,7 +7390,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "2.52",
+        "unitCost": 2.52,
 
         "unitSystem":          "METRIC",
 
@@ -7399,16 +7399,16 @@
 
       "fulcrumDummyBoltData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "driveW": "5 mm",
 
@@ -7436,7 +7436,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.81",
+        "unitCost": 0.81,
 
         "unitSystem":          "METRIC",
 
@@ -7445,16 +7445,16 @@
 
       "fulcrumDummySpacerData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7478,7 +7478,7 @@
 
         "threadD": "6.3 mm",
 
-        "unitCost": "9.36",
+        "unitCost": 9.36,
 
         "unitSystem":          "METRIC",
 
@@ -7487,16 +7487,16 @@
 
       "fulcrumNutData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7520,7 +7520,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.19",
+        "unitCost": 0.19,
 
         "unitSystem":          "METRIC",
 
@@ -7529,16 +7529,16 @@
 
       "fulcrumSpacerData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7562,7 +7562,7 @@
 
         "threadD": "6.3 mm",
 
-        "unitCost": "8.06",
+        "unitCost": 8.06,
 
         "unitSystem":          "METRIC",
 
@@ -7571,16 +7571,16 @@
 
       "fulcrumWasherData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -7606,14 +7606,14 @@
 
         "threadD": "6.4 mm",
 
-        "unitCost": "0.31",
+        "unitCost": 0.31,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "fulcrumWasherN": "6",
+      "fulcrumWasherN": 6,
 
       "innerOuterFrameS": "49.7 mm",
 
@@ -7676,11 +7676,11 @@
           "dosing": {
             "ID_min": "10.7 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "140 mm/s",
 
@@ -7750,11 +7750,11 @@
           "drop": {
             "ID_min": "12.1 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "clampingHanger": {
               "H": "39.7 mm",
@@ -7824,13 +7824,13 @@
 
             "ID_min": "8.14 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.375",
+            "ND": 0.375,
 
             "OD": "12.7 mm",
 
-            "SDR": "8",
+            "SDR": 8,
 
             "T": "1.59 mm",
 
@@ -7842,11 +7842,11 @@
           "inject": {
             "ID_min": "5.64 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "500 mm/s",
 
@@ -7934,11 +7934,11 @@
           "supply": {
             "ID_min": "7.28 mm",
 
-            "N": "1",
+            "N": 1,
 
-            "ND": "0.5",
+            "ND": 0.5,
 
-            "SDR": "13.5",
+            "SDR": 13.5,
 
             "V_max": "300 mm/s",
 
@@ -8014,16 +8014,16 @@
 
         "dropTubeBoltData": {
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.85",
+            "blue": 0.85,
 
-            "green": "0.85",
+            "green": 0.85,
 
-            "red": "0.85"
+            "red": 0.85
           },
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "driveW": "4.76 mm",
 
@@ -8051,7 +8051,7 @@
 
           "threadD": "6.35 mm",
 
-          "unitCost": "0.928",
+          "unitCost": 0.928,
 
           "unitSystem":            "ENGLISH",
 
@@ -8059,7 +8059,7 @@
         },
 
         "dropTubeCapData": {
-          "ND": "0.5",
+          "ND": 0.5,
 
           "OD": "27 mm",
 
@@ -8072,21 +8072,21 @@
 
           "axisL": "18.3 mm",
 
-          "caAxisNumber": "-1",
+          "caAxisNumber": -1,
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "1",
+            "blue": 1,
 
-            "green": "1",
+            "green": 1,
 
-            "red": "1"
+            "red": 1
           },
 
           "connectionStyle":            "SOCKET_CONNECT",
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "customAxis":            "false",
 
@@ -8122,7 +8122,7 @@
 
               "isInnie":                "false",
 
-              "nominalDiameter": "0.5",
+              "nominalDiameter": 0.5,
 
               "socketID": "21.5 mm",
 
@@ -8136,7 +8136,7 @@
 
           "socketL": "18.3 mm",
 
-          "unitCost": "0.37",
+          "unitCost": 0.37,
 
           "vendor":            "MMC"
         },
@@ -8145,16 +8145,16 @@
 
         "dropTubeNutData": {
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.85",
+            "blue": 0.85,
 
-            "green": "0.85",
+            "green": 0.85,
 
-            "red": "0.85"
+            "red": 0.85
           },
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "englishThreadID":            "_025_20",
 
@@ -8178,7 +8178,7 @@
 
           "threadD": "6.35 mm",
 
-          "unitCost": "0.08",
+          "unitCost": 0.08,
 
           "unitSystem":            "ENGLISH",
 
@@ -8187,16 +8187,16 @@
 
         "dropTubeWasherData": {
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.85",
+            "blue": 0.85,
 
-            "green": "0.85",
+            "green": 0.85,
 
-            "red": "0.85"
+            "red": 0.85
           },
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "englishThreadID":            "_025",
 
@@ -8222,7 +8222,7 @@
 
           "threadD": "7.14 mm",
 
-          "unitCost": "0.07",
+          "unitCost": 0.07,
 
           "unitSystem":            "ENGLISH",
 
@@ -8241,16 +8241,16 @@
           "W_min": "25.4 mm",
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.75",
+            "blue": 0.75,
 
-            "green": "0.75",
+            "green": 0.75,
 
-            "red": "0.75"
+            "red": 0.75
           },
 
-          "costBasis": "1",
+          "costBasis": 1,
 
           "factoryL": "2.44 m",
 
@@ -8276,7 +8276,7 @@
 
           "shapeType":            "BAR",
 
-          "unitCost": "9.34",
+          "unitCost": 9.34,
 
           "vendor":            "MMC"
         },
@@ -8301,16 +8301,16 @@
           "T": "19.1 mm",
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.75",
+            "blue": 0.75,
 
-            "green": "0.75",
+            "green": 0.75,
 
-            "red": "0.75"
+            "red": 0.75
           },
 
-          "costBasis": "1",
+          "costBasis": 1,
 
           "factoryL": "2.44 m",
 
@@ -8336,7 +8336,7 @@
 
           "shapeType":            "BAR",
 
-          "unitCost": "50.9",
+          "unitCost": 50.9,
 
           "vendor":            "MMC"
         },
@@ -8352,26 +8352,26 @@
 
       "sliderRHO": "1.38 kg/L",
 
-      "sliderToCHTTubeML_pi": "0.0863",
+      "sliderToCHTTubeML_pi": 0.0863,
 
       "sliderToCHTTubeUnfastenedL": "1 m",
 
       "sodiumCarbonateAddedRodL": "56.8 mm",
 
-      "sodiumCarbonateC_pi": "1",
+      "sodiumCarbonateC_pi": 1,
 
       "sodiumCarbonateSpacerData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -8395,29 +8395,29 @@
 
         "threadD": "6.3 mm",
 
-        "unitCost": "5.55",
+        "unitCost": 5.55,
 
         "unitSystem":          "METRIC",
 
         "vendor":          "MMC"
       },
 
-      "sodiumCarbonateSpacerN": "2",
+      "sodiumCarbonateSpacerN": 2,
 
       "sodiumCarbonateToCoagSliderGapS": "20 mm",
 
       "stopperData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -8441,7 +8441,7 @@
 
         "threadD": "6 mm",
 
-        "unitCost": "0.19",
+        "unitCost": 0.19,
 
         "unitSystem":          "METRIC",
 
@@ -8594,7 +8594,7 @@
     "slopeDrainHoleB": "241 mm",
 
     "stairs": {
-      "HL_pi": "0.9",
+      "HL_pi": 0.9,
 
       "W": "991 mm",
 
@@ -8634,23 +8634,23 @@
 
       "baseToClampCenterS": "24.6 mm",
 
-      "capF": "489 { kilogram : 1 , meter : 1 , second : -2 }",
+      "capF": "489 N",
 
       "clampingHangerMaterial":        "HDPE",
 
       "clampingHangerType":        "CLAMPING_HANGER",
 
       "color": {
-        "alpha": "1",
+        "alpha": 1,
 
-        "blue": "0.5",
+        "blue": 0.5,
 
-        "green": "0.5",
+        "green": 0.5,
 
-        "red": "0.5"
+        "red": 0.5
       },
 
-      "costBasis": "0",
+      "costBasis": 0,
 
       "hangerMakeSource":        "PLASTICCLAMP_PS",
 
@@ -8668,7 +8668,7 @@
 
       "pn":        "30075T414",
 
-      "unitCost": "1.4",
+      "unitCost": 1.4,
 
       "vendor":        "MMC",
 
@@ -8691,16 +8691,16 @@
       "clampingHangerType":        "SPACER",
 
       "color": {
-        "alpha": "1",
+        "alpha": 1,
 
-        "blue": "0.5",
+        "blue": 0.5,
 
-        "green": "0.5",
+        "green": 0.5,
 
-        "red": "0.5"
+        "red": 0.5
       },
 
-      "costBasis": "0",
+      "costBasis": 0,
 
       "hangerMakeSource":        "PLASTICCLAMP_PS",
 
@@ -8716,7 +8716,7 @@
 
       "pn":        "30075T91",
 
-      "unitCost": "1.83",
+      "unitCost": 1.83,
 
       "vendor":        "MMC"
     }
@@ -8741,7 +8741,7 @@
 
     "OW": "6.4 m",
 
-    "Q_pi": "1",
+    "Q_pi": 1,
 
     "Qm_max": "30 L/s",
 
@@ -8762,7 +8762,7 @@
 
       "L_max": "5.99 m",
 
-      "N": "5",
+      "N": 5,
 
       "Qm_bod": "6 L/s",
 
@@ -8774,7 +8774,7 @@
 
       "activeL": "5.4 m",
 
-      "inactivePI_max": "0.25"
+      "inactivePI_max": 0.25
     },
 
     "bayPlastic": {
@@ -8792,7 +8792,7 @@
 
       "HW_max": "1.73 m",
 
-      "Q_pi": "1",
+      "Q_pi": 1,
 
       "Qm_max": "6 L/s",
 
@@ -8805,7 +8805,7 @@
 
         "L_max": "5.99 m",
 
-        "N": "5",
+        "N": 5,
 
         "Qm_bod": "6 L/s",
 
@@ -8817,7 +8817,7 @@
 
         "activeL": "5.4 m",
 
-        "inactivePI_max": "0.25"
+        "inactivePI_max": 0.25
       },
 
       "captureVm": "120 μm/s",
@@ -8867,11 +8867,11 @@
 
         "ID_min": "205 mm",
 
-        "ND_hyd": "8",
+        "ND_hyd": 8,
 
-        "ND_min": "3",
+        "ND_min": 3,
 
-        "Q_pi": "1",
+        "Q_pi": 1,
 
         "Qm_max": "6 L/s",
 
@@ -8890,19 +8890,19 @@
 
           "G_max": "300 Hz",
 
-          "HD_pi": "5",
+          "HD_pi": 5,
 
           "HL": "1.79 mm",
 
           "HL_max": "1.79 mm",
 
-          "ND": "1",
+          "ND": 1,
 
-          "Q_pi": "1",
+          "Q_pi": 1,
 
           "Qm_max": "6 L/s",
 
-          "SDR": "17",
+          "SDR": 17,
 
           "TEMP_max": "30 °C",
 
@@ -8930,7 +8930,7 @@
             "T": "1.96 mm"
           },
 
-          "reducedD_pi": "0.962",
+          "reducedD_pi": 0.962,
 
           "reducedH": "18 mm",
 
@@ -8952,7 +8952,7 @@
 
           "slotW_min": "3.18 mm",
 
-          "stretchL_pi": "1.1"
+          "stretchL_pi": 1.1
         },
 
         "done":          "true",
@@ -8964,7 +8964,7 @@
 
           "NU": "8.01e-7 m^2/s",
 
-          "Q_pi": "1",
+          "Q_pi": 1,
 
           "Qm_max": "6 L/s",
 
@@ -9003,9 +9003,9 @@
           "inletManifold": {
             "A": "0.0273 m^2",
 
-            "ND": "8",
+            "ND": 8,
 
-            "SDR": "41",
+            "SDR": 41,
 
             "V": "220 mm/s",
 
@@ -9020,7 +9020,7 @@
 
           "ip":            "APP",
 
-          "manPipeA_pi": "0.8",
+          "manPipeA_pi": 0.8,
 
           "port": {
             "AN": "3.4537 degrees",
@@ -9035,17 +9035,17 @@
 
             "L": "681 mm",
 
-            "Lr_pi": "10",
+            "Lr_pi": 10,
 
-            "N": "8",
+            "N": 8,
 
-            "ND": "3",
+            "ND": 3,
 
             "Q": "750 mL/s",
 
             "S": "50 mm",
 
-            "SDR": "26",
+            "SDR": 26,
 
             "V": "284 mm/s",
 
@@ -9059,9 +9059,9 @@
           },
 
           "portReverser": {
-            "ND": "3",
+            "ND": 3,
 
-            "SDR": "26",
+            "SDR": 26,
 
             "pipe": {
               "ID": "82.1 mm",
@@ -9088,13 +9088,13 @@
 
           "ID_min": "216 mm",
 
-          "ND": "8",
+          "ND": 8,
 
-          "Q_pi": "1",
+          "Q_pi": 1,
 
           "Qm_max": "6 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "TEMP_min": "5 °C",
 
@@ -9130,16 +9130,16 @@
                 "bodyT": "2 mm",
 
                 "color": {
-                  "alpha": "1",
+                  "alpha": 1,
 
-                  "blue": "0.85",
+                  "blue": 0.85,
 
-                  "green": "0.85",
+                  "green": 0.85,
 
-                  "red": "0.85"
+                  "red": 0.85
                 },
 
-                "costBasis": "0",
+                "costBasis": 0,
 
                 "factoryL": "0 m",
 
@@ -9159,7 +9159,7 @@
 
                 "stainlessSteelGrade":                  "SS316",
 
-                "unitCost": "4.82",
+                "unitCost": 4.82,
 
                 "vendor":                  "MMC"
               },
@@ -9183,16 +9183,16 @@
               "col":                "false",
 
               "color": {
-                "alpha": "1",
+                "alpha": 1,
 
-                "blue": "0.85",
+                "blue": 0.85,
 
-                "green": "0.85",
+                "green": 0.85,
 
-                "red": "0.85"
+                "red": 0.85
               },
 
-              "costBasis": "2",
+              "costBasis": 2,
 
               "factoryL": "2.54 m",
 
@@ -9216,7 +9216,7 @@
 
               "sheetType":                "SHEET",
 
-              "unitCost": "208",
+              "unitCost": 208,
 
               "vendor":                "MMC"
             },
@@ -9229,7 +9229,7 @@
 
             "shearA": "0.00014 m^2",
 
-            "shearF": "58700 { kilogram : 1 , meter : 1 , second : -2 }",
+            "shearF": "58.7 kN",
 
             "shearStrengthP": "420 MPa",
 
@@ -9241,7 +9241,7 @@
           "bayL": "5.64 m",
 
           "coupling": {
-            "ND": "8",
+            "ND": 8,
 
             "OD": "237 mm",
 
@@ -9264,15 +9264,15 @@
 
           "ip":            "APP",
 
-          "manifoldND": "8",
+          "manifoldND": 8,
 
-          "manifoldPortQ_pi": "0.67",
+          "manifoldPortQ_pi": 0.67,
 
           "orificeB": "60 mm",
 
           "orificeD": "32.1 mm",
 
-          "orificeN": "92",
+          "orificeN": 92,
 
           "orificeStartB": "84.4 mm",
 
@@ -9305,7 +9305,7 @@
           "ventL": "50 mm"
         },
 
-        "manifoldPortQ_pi": "0.67",
+        "manifoldPortQ_pi": 0.67,
 
         "manifoldV_max": "182 mm/s",
 
@@ -9329,9 +9329,9 @@
 
         "ID_min": "108 mm",
 
-        "ND": "6",
+        "ND": 6,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "1 mm",
 
@@ -9363,7 +9363,7 @@
           "T": "4.1 mm"
         },
 
-        "portQ_pi": "0.75",
+        "portQ_pi": 0.75,
 
         "ventD": "10 mm"
       },
@@ -9393,9 +9393,9 @@
       "rep":        "true",
 
       "reverser": {
-        "ND": "3",
+        "ND": 3,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "Tm_min": "3 mm",
 
@@ -9444,9 +9444,9 @@
         "ip":          "APP",
 
         "lastModule": {
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "Tm_min": "1 mm",
 
@@ -9510,7 +9510,7 @@
 
           "plateL": "483 mm",
 
-          "plateN": "6",
+          "plateN": 6,
 
           "plateOverlapW": "19.2 mm",
 
@@ -9527,12 +9527,12 @@
 
         "lastModuleActiveL_x": "5.24 m",
 
-        "lastPlateN": "6",
+        "lastPlateN": 6,
 
         "module": {
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "Tm_min": "1 mm",
 
@@ -9596,7 +9596,7 @@
 
           "plateL": "483 mm",
 
-          "plateN": "11",
+          "plateN": 11,
 
           "plateOverlapW": "19.2 mm",
 
@@ -9611,7 +9611,7 @@
           "widthwiseHoleB": "400 mm"
         },
 
-        "moduleN": "16",
+        "moduleN": 16,
 
         "plateAN": "60 degrees",
 
@@ -9619,9 +9619,9 @@
 
         "plateL": "483 mm",
 
-        "plateN": "11",
+        "plateN": 11,
 
-        "plateN_max": "12",
+        "plateN_max": 12,
 
         "plateOverlapW": "19.2 mm",
 
@@ -9631,7 +9631,7 @@
 
         "rep":          "true",
 
-        "totalPlateN": "182"
+        "totalPlateN": 182
       },
 
       "settlerSupport": {
@@ -9650,11 +9650,11 @@
 
           "B_max": "1 m",
 
-          "N": "6",
+          "N": 6,
 
-          "ND": "2",
+          "ND": 2,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "coupling": {
             "OD": "68.3 mm",
@@ -9686,9 +9686,9 @@
         "long": {
           "B": "635 mm",
 
-          "ND": "3",
+          "ND": 3,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "pipe": {
             "ID": "82.1 mm",
@@ -9728,7 +9728,7 @@
 
       "L": "5.64 m",
 
-      "N": "5",
+      "N": 5,
 
       "OL": "5.82 m",
 
@@ -10040,25 +10040,25 @@
 
       "HW": "1.73 m",
 
-      "K": "2.4",
+      "K": 2.4,
 
       "L": "6.05 m",
 
-      "N": "5",
+      "N": 5,
 
-      "ND": "6",
+      "ND": 6,
 
-      "QSF_pi": "1.25",
+      "QSF_pi": 1.25,
 
-      "Q_pi": "1",
+      "Q_pi": 1,
 
       "Qm_max": "30 L/s",
 
-      "SDR": "41",
+      "SDR": 41,
 
       "Tm_min": "3 mm",
 
-      "bayQ_pi": "0.9",
+      "bayQ_pi": 0.9,
 
       "bayQm_max": "6 L/s",
 
@@ -10097,9 +10097,9 @@
 
         "L": "343 mm",
 
-        "ND": "6",
+        "ND": 6,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "3 mm",
 
@@ -10110,9 +10110,9 @@
         "belowTopofCouplingH": "1.12 m",
 
         "clarifiedPreWeir": {
-          "ND": "3",
+          "ND": 3,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "coupling": {
             "OD": "101 mm",
@@ -10133,7 +10133,7 @@
           }
         },
 
-        "clarifiedPreWeirND": "3",
+        "clarifiedPreWeirND": 3,
 
         "coupling": {
           "OD": "185 mm",
@@ -10326,15 +10326,15 @@
 
           "ID_min": "165 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -10398,15 +10398,15 @@
 
           "ID_min": "276 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "2",
+          "N": 2,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "10",
+          "ND_max": 10,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "500 mm/s",
 
@@ -10468,13 +10468,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -10538,19 +10538,19 @@
 
           "ID_min": "234 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "10",
+          "ND": 10,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "ND_min": "1",
+          "ND_min": 1,
 
-          "QSF_pi": "1.2",
+          "QSF_pi": 1.2,
 
           "Qm_max": "1 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -10608,9 +10608,9 @@
 
           "rep":            "true",
 
-          "rowN_max": "10",
+          "rowN_max": 10,
 
-          "rowN_min": "5",
+          "rowN_min": 5,
 
           "staggerRows":            "true",
 
@@ -10630,15 +10630,15 @@
 
           "ID_min": "28.6 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "2",
+          "ND": 2,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "Q_pi": "0.03",
+          "Q_pi": 0.03,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "V_max": "1.4 m/s",
 
@@ -10698,13 +10698,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -10777,7 +10777,7 @@
 
         "L": "6.05 m",
 
-        "N": "1",
+        "N": 1,
 
         "OL": "6.4 m",
 
@@ -11124,9 +11124,9 @@
     "gapS": "10 mm",
 
     "hopperPort": {
-      "ND": "3",
+      "ND": 3,
 
-      "SDR": "26",
+      "SDR": 26,
 
       "coupling": {
         "OD": "101 mm",
@@ -11147,7 +11147,7 @@
       }
     },
 
-    "hopperPortND": "3",
+    "hopperPortND": 3,
 
     "hopperPortTm_min": "3 mm",
 
@@ -11156,7 +11156,7 @@
 
       "HW": "1.73 m",
 
-      "N": "5",
+      "N": 5,
 
       "Tm_min": "1 mm",
 
@@ -11167,7 +11167,7 @@
 
         "L_max": "5.99 m",
 
-        "N": "5",
+        "N": 5,
 
         "Qm_bod": "6 L/s",
 
@@ -11179,13 +11179,13 @@
 
         "activeL": "5.4 m",
 
-        "inactivePI_max": "0.25"
+        "inactivePI_max": 0.25
       },
 
       "bayDrain": {
-        "ND": "3",
+        "ND": 3,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "coupling": {
           "OD": "101 mm",
@@ -11206,7 +11206,7 @@
         }
       },
 
-      "bayDrainND": "3",
+      "bayDrainND": 3,
 
       "bayDrainValveB": "711 mm",
 
@@ -11275,9 +11275,9 @@
       "slopeWeirS": "254 mm",
 
       "sludgeBleed": {
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "elbow_90": {
           "OD": "27 mm",
@@ -11311,9 +11311,9 @@
       },
 
       "sludgeDrain": {
-        "ND": "1",
+        "ND": 1,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "clampingHanger": {
           "H": "55.6 mm",
@@ -11376,7 +11376,7 @@
 
       "sludgeDrainL": "557 mm",
 
-      "sludgeDrainND": "1",
+      "sludgeDrainND": 1,
 
       "sludgeDrainTeeB": "68.3 mm",
 
@@ -11387,7 +11387,7 @@
 
         "L": "711 mm",
 
-        "N": "5",
+        "N": 5,
 
         "OL": "889 mm",
 
@@ -11686,13 +11686,13 @@
         }
       },
 
-      "tankN": "5",
+      "tankN": 5,
 
       "tankW": "1.07 m",
 
       "valvePortL": "203 mm",
 
-      "valvePortN": "5",
+      "valvePortN": 5,
 
       "valvePortOffsetZ": "0 m",
 
@@ -11731,15 +11731,15 @@
 
         "ID_min": "165 mm",
 
-        "K": "3.3",
+        "K": 3.3,
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -11805,15 +11805,15 @@
 
         "ID_min": "276 mm",
 
-        "K": "3.3",
+        "K": 3.3,
 
-        "N": "2",
+        "N": 2,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "10",
+        "ND_max": 10,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "500 mm/s",
 
@@ -11879,13 +11879,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -11949,19 +11949,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -12019,9 +12019,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true",
 
@@ -12041,15 +12041,15 @@
 
         "ID_min": "28.6 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "2",
+        "ND": 2,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "Q_pi": "0.03",
+        "Q_pi": 0.03,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "V_max": "1.4 m/s",
 
@@ -12109,13 +12109,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -12207,7 +12207,7 @@
 
     "slopeWeirS_bod": "203 mm",
 
-    "spare": "0",
+    "spare": 0,
 
     "twoTankQm_min": "6 L/s",
 
@@ -12225,7 +12225,7 @@
 
     "col":      "false",
 
-    "costBasis": "2",
+    "costBasis": 2,
 
     "factoryL": "2.44 m",
 
@@ -12245,7 +12245,7 @@
 
     "sheetType":      "SHEET",
 
-    "unitCost": "65.1",
+    "unitCost": 65.1,
 
     "vendor":      "MMC"
   },
@@ -12275,7 +12275,7 @@
 
     "rightX": "6.86 m",
 
-    "slopePI": "0.01",
+    "slopePI": 0.01,
 
     "toFloorH": "2.13 m"
   },
@@ -12345,9 +12345,9 @@
 
     "OW": "1.12 m",
 
-    "QSF_pi": "1.5",
+    "QSF_pi": 1.5,
 
-    "Q_pi": "1",
+    "Q_pi": 1,
 
     "Qm_max": "30 L/s",
 
@@ -12405,11 +12405,11 @@
       "dosing": {
         "ID_min": "10.7 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "140 mm/s",
 
@@ -12479,11 +12479,11 @@
       "drop": {
         "ID_min": "12.1 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "clampingHanger": {
           "H": "39.7 mm",
@@ -12553,13 +12553,13 @@
 
         "ID_min": "8.14 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.375",
+        "ND": 0.375,
 
         "OD": "12.7 mm",
 
-        "SDR": "8",
+        "SDR": 8,
 
         "T": "1.59 mm",
 
@@ -12571,11 +12571,11 @@
       "inject": {
         "ID_min": "5.64 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "500 mm/s",
 
@@ -12663,11 +12663,11 @@
       "supply": {
         "ID_min": "7.28 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "300 mm/s",
 
@@ -12754,12 +12754,12 @@
 
       "H_min": "296 mm",
 
-      "slopePI": "0.02"
+      "slopePI": 0.02
     },
 
     "dripIntoLfom":      "true",
 
-    "dripN_ports": "2",
+    "dripN_ports": 2,
 
     "dripTubeAN": "20 degrees",
 
@@ -12820,11 +12820,11 @@
 
       "L": "5.99 m",
 
-      "N": "4",
+      "N": 4,
 
-      "N_max": "4",
+      "N_max": 4,
 
-      "QSF_pi": "1.5",
+      "QSF_pi": 1.5,
 
       "Qm_max": "30 L/s",
 
@@ -12833,7 +12833,7 @@
       "W": "762 mm",
 
       "coupling": {
-        "ND": "2",
+        "ND": 2,
 
         "OD": "68.3 mm",
 
@@ -12853,21 +12853,21 @@
 
         "HW": "1.16 m",
 
-        "K": "1.5",
+        "K": 1.5,
 
-        "K_min": "0",
+        "K_min": 0,
 
         "L": "1.32 m",
 
-        "ND": "2",
+        "ND": 2,
 
-        "ND_min": "2",
+        "ND_min": 2,
 
-        "QSF_pi": "1.5",
+        "QSF_pi": 1.5,
 
         "Qm_max": "0 kL/s",
 
-        "SDR": "26",
+        "SDR": 26,
 
         "Tm_min": "2.3 mm",
 
@@ -12902,7 +12902,7 @@
 
       "drainHW": "1.16 m",
 
-      "drainND": "2",
+      "drainND": 2,
 
       "drainSlopeS": "0 m",
 
@@ -12915,7 +12915,7 @@
 
         "L": "4.78 m",
 
-        "N": "1",
+        "N": 1,
 
         "OL": "4.96 m",
 
@@ -13304,11 +13304,11 @@
         "dosing": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -13378,11 +13378,11 @@
         "drop": {
           "ID_min": "12.1 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "clampingHanger": {
             "H": "39.7 mm",
@@ -13452,13 +13452,13 @@
 
           "ID_min": "8.14 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.375",
+          "ND": 0.375,
 
           "OD": "12.7 mm",
 
-          "SDR": "8",
+          "SDR": 8,
 
           "T": "1.59 mm",
 
@@ -13470,11 +13470,11 @@
         "inject": {
           "ID_min": "5.64 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "500 mm/s",
 
@@ -13562,11 +13562,11 @@
         "supply": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -13649,19 +13649,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -13719,9 +13719,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true",
 
@@ -13747,19 +13747,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -13817,7 +13817,7 @@
 
         "orificeD_max": "64.1 mm",
 
-        "orificePerRowN_max": "19",
+        "orificePerRowN_max": 19,
 
         "orificeS": "3 mm",
 
@@ -13833,11 +13833,11 @@
 
         "rowB": "40 mm",
 
-        "rowN": "5",
+        "rowN": 5,
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "rowOrificeH_VEC": "[ 19.1 mm, 59.5 mm, 100 mm, 140 mm, 181 mm]",
 
@@ -13880,15 +13880,15 @@
 
           "ID_min": "165 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -13956,15 +13956,15 @@
 
           "ID_min": "276 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "2",
+          "N": 2,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "10",
+          "ND_max": 10,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "500 mm/s",
 
@@ -14026,13 +14026,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -14096,19 +14096,19 @@
 
           "ID_min": "234 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "10",
+          "ND": 10,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "ND_min": "1",
+          "ND_min": 1,
 
-          "QSF_pi": "1.2",
+          "QSF_pi": 1.2,
 
           "Qm_max": "1 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -14166,9 +14166,9 @@
 
           "rep":            "true",
 
-          "rowN_max": "10",
+          "rowN_max": 10,
 
-          "rowN_min": "5",
+          "rowN_min": 5,
 
           "staggerRows":            "true",
 
@@ -14188,15 +14188,15 @@
 
           "ID_min": "28.6 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "2",
+          "ND": 2,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "Q_pi": "0.03",
+          "Q_pi": 0.03,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "V_max": "1.4 m/s",
 
@@ -14260,13 +14260,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -14331,9 +14331,9 @@
       "rep":        "true",
 
       "sleeve": {
-        "ND": "1.5",
+        "ND": 1.5,
 
-        "SDR": "17",
+        "SDR": 17,
 
         "pipe": {
           "ID": "42.7 mm",
@@ -14345,7 +14345,7 @@
       },
 
       "union": {
-        "ND": "1.5",
+        "ND": 1.5,
 
         "OD": "56.7 mm",
 
@@ -14360,23 +14360,23 @@
 
         "axisL": "37.4 mm",
 
-        "caAxisNumber": "-1",
+        "caAxisNumber": -1,
 
         "chemicalResistance":          "AUTO",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "customAxis":          "false",
 
@@ -14399,26 +14399,26 @@
         "name":          "Union Straight Connector, 1.5 ND Socket Female: White",
 
         "oring": {
-          "ND": "1.5",
+          "ND": 1.5,
 
           "OD": "51.1 mm",
 
           "axesDimensions": [
           ],
 
-          "caAxisNumber": "-1",
+          "caAxisNumber": -1,
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.2",
+            "blue": 0.2,
 
-            "green": "0.2",
+            "green": 0.2,
 
-            "red": "0.2"
+            "red": 0.2
           },
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "customAxis":            "false",
 
@@ -14438,7 +14438,7 @@
 
           "socketID": "44 mm",
 
-          "unitCost": "0.748",
+          "unitCost": 0.748,
 
           "vendor":            "MMC"
         },
@@ -14457,7 +14457,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.5",
+            "nominalDiameter": 1.5,
 
             "socketID": "48.4 mm",
 
@@ -14477,7 +14477,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.5",
+            "nominalDiameter": 1.5,
 
             "socketID": "48.4 mm",
 
@@ -14491,7 +14491,7 @@
 
         "socketL": "33.3 mm",
 
-        "unitCost": "16.8",
+        "unitCost": 16.8,
 
         "vendor":          "MMC"
       },
@@ -14544,11 +14544,11 @@
         "dosing": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -14618,11 +14618,11 @@
         "drop": {
           "ID_min": "12.1 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "clampingHanger": {
             "H": "39.7 mm",
@@ -14692,13 +14692,13 @@
 
           "ID_min": "8.14 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.375",
+          "ND": 0.375,
 
           "OD": "12.7 mm",
 
-          "SDR": "8",
+          "SDR": 8,
 
           "T": "1.59 mm",
 
@@ -14710,11 +14710,11 @@
         "inject": {
           "ID_min": "5.64 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "500 mm/s",
 
@@ -14802,11 +14802,11 @@
         "supply": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -14889,19 +14889,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -14959,9 +14959,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true",
 
@@ -14987,19 +14987,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -15057,7 +15057,7 @@
 
         "orificeD_max": "64.1 mm",
 
-        "orificePerRowN_max": "19",
+        "orificePerRowN_max": 19,
 
         "orificeS": "3 mm",
 
@@ -15073,11 +15073,11 @@
 
         "rowB": "40 mm",
 
-        "rowN": "5",
+        "rowN": 5,
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "rowOrificeH_VEC": "[ 19.1 mm, 59.5 mm, 100 mm, 140 mm, 181 mm]",
 
@@ -15120,15 +15120,15 @@
 
           "ID_min": "165 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -15196,15 +15196,15 @@
 
           "ID_min": "276 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "2",
+          "N": 2,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "10",
+          "ND_max": 10,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "500 mm/s",
 
@@ -15266,13 +15266,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -15336,19 +15336,19 @@
 
           "ID_min": "234 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "10",
+          "ND": 10,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "ND_min": "1",
+          "ND_min": 1,
 
-          "QSF_pi": "1.2",
+          "QSF_pi": 1.2,
 
           "Qm_max": "1 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -15406,9 +15406,9 @@
 
           "rep":            "true",
 
-          "rowN_max": "10",
+          "rowN_max": 10,
 
-          "rowN_min": "5",
+          "rowN_min": 5,
 
           "staggerRows":            "true",
 
@@ -15428,15 +15428,15 @@
 
           "ID_min": "28.6 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "2",
+          "ND": 2,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "Q_pi": "0.03",
+          "Q_pi": 0.03,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "V_max": "1.4 m/s",
 
@@ -15500,13 +15500,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -15571,9 +15571,9 @@
       "rep":        "true",
 
       "sleeve": {
-        "ND": "1.5",
+        "ND": 1.5,
 
-        "SDR": "17",
+        "SDR": 17,
 
         "pipe": {
           "ID": "42.7 mm",
@@ -15585,7 +15585,7 @@
       },
 
       "union": {
-        "ND": "1.5",
+        "ND": 1.5,
 
         "OD": "56.7 mm",
 
@@ -15600,23 +15600,23 @@
 
         "axisL": "37.4 mm",
 
-        "caAxisNumber": "-1",
+        "caAxisNumber": -1,
 
         "chemicalResistance":          "AUTO",
 
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "1",
+          "blue": 1,
 
-          "green": "1",
+          "green": 1,
 
-          "red": "1"
+          "red": 1
         },
 
         "connectionStyle":          "SOCKET_CONNECT",
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "customAxis":          "false",
 
@@ -15639,26 +15639,26 @@
         "name":          "Union Straight Connector, 1.5 ND Socket Female: White",
 
         "oring": {
-          "ND": "1.5",
+          "ND": 1.5,
 
           "OD": "51.1 mm",
 
           "axesDimensions": [
           ],
 
-          "caAxisNumber": "-1",
+          "caAxisNumber": -1,
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.2",
+            "blue": 0.2,
 
-            "green": "0.2",
+            "green": 0.2,
 
-            "red": "0.2"
+            "red": 0.2
           },
 
-          "costBasis": "0",
+          "costBasis": 0,
 
           "customAxis":            "false",
 
@@ -15678,7 +15678,7 @@
 
           "socketID": "44 mm",
 
-          "unitCost": "0.748",
+          "unitCost": 0.748,
 
           "vendor":            "MMC"
         },
@@ -15697,7 +15697,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.5",
+            "nominalDiameter": 1.5,
 
             "socketID": "48.4 mm",
 
@@ -15717,7 +15717,7 @@
 
             "isInnie":              "false",
 
-            "nominalDiameter": "1.5",
+            "nominalDiameter": 1.5,
 
             "socketID": "48.4 mm",
 
@@ -15731,7 +15731,7 @@
 
         "socketL": "33.3 mm",
 
-        "unitCost": "16.8",
+        "unitCost": 16.8,
 
         "vendor":          "MMC"
       },
@@ -15760,19 +15760,19 @@
 
       "ID_min": "234 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "10",
+      "ND": 10,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "ND_min": "1",
+      "ND_min": 1,
 
-      "QSF_pi": "1.2",
+      "QSF_pi": 1.2,
 
       "Qm_max": "30 L/s",
 
-      "SDR": "41",
+      "SDR": 41,
 
       "Tm_min": "2 mm",
 
@@ -15830,7 +15830,7 @@
 
       "orificeD_max": "64.1 mm",
 
-      "orificePerRowN_max": "19",
+      "orificePerRowN_max": 19,
 
       "orificeS": "3 mm",
 
@@ -15846,11 +15846,11 @@
 
       "rowB": "40 mm",
 
-      "rowN": "5",
+      "rowN": 5,
 
-      "rowN_max": "10",
+      "rowN_max": 10,
 
-      "rowN_min": "5",
+      "rowN_min": 5,
 
       "rowOrificeH_VEC": "[ 19.1 mm, 59.5 mm, 100 mm, 140 mm, 181 mm]",
 
@@ -15900,21 +15900,21 @@
 
       "ID_min": "131 mm",
 
-      "K": "2",
+      "K": 2,
 
       "L": "470 mm",
 
-      "ND": "6",
+      "ND": 6,
 
-      "ND_hyd": "6",
+      "ND_hyd": 6,
 
-      "ND_min": "1",
+      "ND_min": 1,
 
-      "QSF_pi": "1.5",
+      "QSF_pi": 1.5,
 
       "Qm_max": "30 L/s",
 
-      "SDR": "41",
+      "SDR": 41,
 
       "TEMP_min": "5 °C",
 
@@ -15925,13 +15925,13 @@
 
         "ID": "260 mm",
 
-        "ND": "10",
+        "ND": 10,
 
         "OD": "273 mm",
 
         "OH": "97.5 mm",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "T": "6.66 mm"
       },
@@ -15981,9 +15981,9 @@
 
         "L": "470 mm",
 
-        "ND": "6",
+        "ND": 6,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2.3 mm",
 
@@ -15992,13 +15992,13 @@
 
           "ID": "260 mm",
 
-          "ND": "10",
+          "ND": 10,
 
           "OD": "273 mm",
 
           "OH": "97.5 mm",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "T": "6.66 mm"
         },
@@ -16063,15 +16063,15 @@
 
         "ID_min": "165 mm",
 
-        "K": "3.3",
+        "K": 3.3,
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -16139,15 +16139,15 @@
 
         "ID_min": "276 mm",
 
-        "K": "3.3",
+        "K": 3.3,
 
-        "N": "2",
+        "N": 2,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "10",
+        "ND_max": 10,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "500 mm/s",
 
@@ -16209,13 +16209,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -16279,19 +16279,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -16349,9 +16349,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true",
 
@@ -16371,15 +16371,15 @@
 
         "ID_min": "28.6 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "2",
+        "ND": 2,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "Q_pi": "0.03",
+        "Q_pi": 0.03,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "V_max": "1.4 m/s",
 
@@ -16443,13 +16443,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -16542,21 +16542,21 @@
 
       "HL_min": "4.06 mm",
 
-      "HL_pi": "1",
+      "HL_pi": 1,
 
       "L": "605 mm",
 
-      "PO": "0.667",
+      "PO": 0.667,
 
-      "PO_pi": "0.8",
+      "PO_pi": 0.8,
 
-      "Q_pi": "1",
+      "Q_pi": 1,
 
       "Qm_max": "30 L/s",
 
       "Sm": "4 mm",
 
-      "SmSF": "2",
+      "SmSF": 2,
 
       "Sm_max": "7.94 mm",
 
@@ -16623,7 +16623,7 @@
   "extWallT": "102 mm",
 
   "fastener": {
-    "costBasis": "0",
+    "costBasis": 0,
 
     "englishThreadID":      "_01875",
 
@@ -16651,7 +16651,7 @@
 
     "throughHoleYN":      "false",
 
-    "unitCost": "0.4",
+    "unitCost": 0.4,
 
     "unitSystem":      "ENGLISH",
 
@@ -16679,9 +16679,9 @@
 
     "OW": "3.91 m",
 
-    "QSF_pi": "1.5",
+    "QSF_pi": 1.5,
 
-    "Q_pi": "1",
+    "Q_pi": 1,
 
     "Qm_max": "30 L/s",
 
@@ -16703,7 +16703,7 @@
 
     "activeW": "1.41 m",
 
-    "airValveND": "0.5",
+    "airValveND": 0.5,
 
     "bayOL": "1.57 m",
 
@@ -16742,7 +16742,7 @@
 
       "W": "4.09 m",
 
-      "bwCyclesN": "2.26"
+      "bwCyclesN": 2.26
     },
 
     "bwTankOverflow": {
@@ -16754,21 +16754,21 @@
 
       "ID_min": "99.4 mm",
 
-      "K": "4",
+      "K": 4,
 
       "L": "107 mm",
 
-      "ND": "4",
+      "ND": 4,
 
-      "ND_hyd": "4",
+      "ND_hyd": 4,
 
-      "ND_min": "1",
+      "ND_min": 1,
 
-      "QSF_pi": "1.5",
+      "QSF_pi": 1.5,
 
       "Qm_max": "15 L/s",
 
-      "SDR": "26",
+      "SDR": 26,
 
       "TEMP_min": "5 °C",
 
@@ -16779,13 +16779,13 @@
 
         "ID": "160 mm",
 
-        "ND": "6",
+        "ND": 6,
 
         "OD": "168 mm",
 
         "OH": "70.3 mm",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "T": "4.1 mm"
       },
@@ -16809,7 +16809,7 @@
       "done":        "true",
 
       "elbow_90": {
-        "ND": "4",
+        "ND": 4,
 
         "OD": "127 mm",
 
@@ -16847,9 +16847,9 @@
 
         "L": "107 mm",
 
-        "ND": "4",
+        "ND": 4,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "Tm_min": "2 mm",
 
@@ -16858,13 +16858,13 @@
 
           "ID": "160 mm",
 
-          "ND": "6",
+          "ND": 6,
 
           "OD": "168 mm",
 
           "OH": "70.3 mm",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "T": "4.1 mm"
         },
@@ -16953,11 +16953,11 @@
       "dosing": {
         "ID_min": "10.7 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "140 mm/s",
 
@@ -17027,11 +17027,11 @@
       "drop": {
         "ID_min": "12.1 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "clampingHanger": {
           "H": "39.7 mm",
@@ -17101,13 +17101,13 @@
 
         "ID_min": "8.14 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.375",
+        "ND": 0.375,
 
         "OD": "12.7 mm",
 
-        "SDR": "8",
+        "SDR": 8,
 
         "T": "1.59 mm",
 
@@ -17119,11 +17119,11 @@
       "inject": {
         "ID_min": "5.64 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "500 mm/s",
 
@@ -17211,11 +17211,11 @@
       "supply": {
         "ID_min": "7.28 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "0.5",
+        "ND": 0.5,
 
-        "SDR": "13.5",
+        "SDR": 13.5,
 
         "V_max": "300 mm/s",
 
@@ -17308,7 +17308,7 @@
 
       "flocDrainH": "305 mm",
 
-      "slopePI": "0.01"
+      "slopePI": 0.01
     },
 
     "dynamicHW": "3.73 m",
@@ -17371,7 +17371,7 @@
       },
 
       "bay": {
-        "N": "2",
+        "N": 2,
 
         "Qm": "15 L/s",
 
@@ -17385,11 +17385,11 @@
 
         "pair":          "true",
 
-        "pairN": "1",
+        "pairN": 1,
 
         "single":          "false",
 
-        "spare": "0"
+        "spare": 0
       },
 
       "branch": {
@@ -17402,9 +17402,9 @@
         "bwInlet": {
           "L": "577 mm",
 
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17432,15 +17432,15 @@
 
           "portHE": "37.1 mm",
 
-          "portPSI_pi": "0.439",
+          "portPSI_pi": 0.439,
 
-          "portQ_pi": "0.8"
+          "portQ_pi": 0.8
         },
 
         "inlet": {
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17464,9 +17464,9 @@
 
           "portD": "8 mm",
 
-          "portPSI_pi": "0.439",
+          "portPSI_pi": 0.439,
 
-          "portQ_pi": "0.8",
+          "portQ_pi": 0.8,
 
           "top": {
             "portB": "92.6 mm"
@@ -17474,9 +17474,9 @@
         },
 
         "outlet": {
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17500,7 +17500,7 @@
         "T": "4.1 mm",
 
         "handle": {
-          "ND": "1",
+          "ND": 1,
 
           "OD": "33.4 mm",
 
@@ -17513,11 +17513,11 @@
       },
 
       "bwTrunk": {
-        "KE": "1.9",
+        "KE": 1.9,
 
-        "ND": "6",
+        "ND": 6,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -17563,7 +17563,7 @@
           "T": "4.1 mm"
         },
 
-        "portQ_pi": "0.9"
+        "portQ_pi": 0.9
       },
 
       "done":        "true",
@@ -17577,19 +17577,19 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -17635,15 +17635,15 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true"
       },
 
       "receptor": {
-        "ND": "3",
+        "ND": 3,
 
         "Tm_min": "2 mm",
 
@@ -17652,11 +17652,11 @@
         "pipe": {
           "ID": "82.1 mm",
 
-          "ND": "3",
+          "ND": 3,
 
           "OD": "88.9 mm",
 
-          "SDR": "26",
+          "SDR": 26,
 
           "T": "3.42 mm"
         },
@@ -17675,11 +17675,11 @@
 
         "M": "2.38 Mg",
 
-        "PO": "0.4",
+        "PO": 0.4,
 
         "RHO": "2.65 kg/L",
 
-        "UC_pi": "1.6",
+        "UC_pi": 1.6,
 
         "VOL": "2.24 kL",
 
@@ -17695,25 +17695,25 @@
 
         "deltabwH": "375 mm",
 
-        "fibwH_pi": "1.3",
+        "fibwH_pi": 1.3,
 
         "liveH": "1.25 m",
 
-        "liveHLH_pi": "0.99"
+        "liveHLH_pi": 0.99
       },
 
       "trunk": {
-        "KE": "1.9",
+        "KE": 1.9,
 
-        "ND": "6",
+        "ND": 6,
 
-        "ND_max": "6",
+        "ND_max": 6,
 
-        "ND_min": "2",
+        "ND_min": 2,
 
         "S": "15 mm",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -17765,9 +17765,9 @@
           "T": "4.1 mm"
         },
 
-        "portPSI_pi": "0.21",
+        "portPSI_pi": 0.21,
 
-        "portQ_pi": "0.9",
+        "portQ_pi": 0.9,
 
         "portTopV": "804 mm/s"
       }
@@ -17779,7 +17779,7 @@
 
     "filterBottomTankH_noround": "3.4 m",
 
-    "filterHL_pi": "0",
+    "filterHL_pi": 0,
 
     "filterIOcontrolsB": "991 mm",
 
@@ -17825,7 +17825,7 @@
       },
 
       "bay": {
-        "N": "2",
+        "N": 2,
 
         "Qm": "15 L/s",
 
@@ -17839,11 +17839,11 @@
 
         "pair":          "true",
 
-        "pairN": "1",
+        "pairN": 1,
 
         "single":          "false",
 
-        "spare": "0"
+        "spare": 0
       },
 
       "branch": {
@@ -17853,16 +17853,16 @@
 
         "L_max": "1 m",
 
-        "N": "7",
+        "N": 7,
 
         "activeL": "577 mm",
 
         "bwInlet": {
           "L": "577 mm",
 
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17890,15 +17890,15 @@
 
           "portHE": "37.1 mm",
 
-          "portPSI_pi": "0.439",
+          "portPSI_pi": 0.439,
 
-          "portQ_pi": "0.8"
+          "portQ_pi": 0.8
         },
 
         "inlet": {
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17922,9 +17922,9 @@
 
           "portD": "8 mm",
 
-          "portPSI_pi": "0.439",
+          "portPSI_pi": 0.439,
 
-          "portQ_pi": "0.8",
+          "portQ_pi": 0.8,
 
           "top": {
             "portB": "92.6 mm"
@@ -17932,9 +17932,9 @@
         },
 
         "outlet": {
-          "ND": "1.5",
+          "ND": 1.5,
 
-          "SDR": "12.3",
+          "SDR": 12.3,
 
           "Tm_min": "3 mm",
 
@@ -17958,7 +17958,7 @@
         "T": "4.1 mm",
 
         "handle": {
-          "ND": "1",
+          "ND": 1,
 
           "OD": "33.4 mm",
 
@@ -17971,11 +17971,11 @@
       },
 
       "bwTrunk": {
-        "KE": "1.9",
+        "KE": 1.9,
 
-        "ND": "6",
+        "ND": 6,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -18021,33 +18021,33 @@
           "T": "4.1 mm"
         },
 
-        "portQ_pi": "0.9"
+        "portQ_pi": 0.9
       },
 
       "bwUpliftHW_max": "1.12 m",
 
       "bwV": "11 mm/s",
 
-      "cableF": "2300 { kilogram : 1 , meter : 1 , second : -2 }",
+      "cableF": "2.3 kN",
 
       "done":        "false",
 
       "eyeBoltData": {
         "color": {
-          "alpha": "1",
+          "alpha": 1,
 
-          "blue": "0.85",
+          "blue": 0.85,
 
-          "green": "0.85",
+          "green": 0.85,
 
-          "red": "0.85"
+          "red": 0.85
         },
 
-        "costBasis": "0",
+        "costBasis": 0,
 
         "englishThreadID":          "_03125_18",
 
-        "eyeBoltCapF": "4000 { kilogram : 1 , meter : 1 , second : -2 }",
+        "eyeBoltCapF": "4 kN",
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -18069,7 +18069,7 @@
 
         "threadD": "7.94 mm",
 
-        "unitCost": "41.4",
+        "unitCost": 41.4,
 
         "unitSystem":          "ENGLISH",
 
@@ -18079,7 +18079,7 @@
       "eyeBoltDefinition": {
         "eyeBoltCapCheckYN":          "true",
 
-        "eyeBoltCapF_min": "2300 { kilogram : 1 , meter : 1 , second : -2 }",
+        "eyeBoltCapF_min": "2.3 kN",
 
         "fastenerMaterial":          "STAINLESS_STEEL",
 
@@ -18114,7 +18114,7 @@
         },
 
         "bay": {
-          "N": "2",
+          "N": 2,
 
           "Qm": "15 L/s",
 
@@ -18128,11 +18128,11 @@
 
           "pair":            "true",
 
-          "pairN": "1",
+          "pairN": 1,
 
           "single":            "false",
 
-          "spare": "0"
+          "spare": 0
         },
 
         "branch": {
@@ -18145,9 +18145,9 @@
           "bwInlet": {
             "L": "577 mm",
 
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -18175,15 +18175,15 @@
 
             "portHE": "37.1 mm",
 
-            "portPSI_pi": "0.439",
+            "portPSI_pi": 0.439,
 
-            "portQ_pi": "0.8"
+            "portQ_pi": 0.8
           },
 
           "inlet": {
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -18207,9 +18207,9 @@
 
             "portD": "8 mm",
 
-            "portPSI_pi": "0.439",
+            "portPSI_pi": 0.439,
 
-            "portQ_pi": "0.8",
+            "portQ_pi": 0.8,
 
             "top": {
               "portB": "92.6 mm"
@@ -18217,9 +18217,9 @@
           },
 
           "outlet": {
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -18243,7 +18243,7 @@
           "T": "4.1 mm",
 
           "handle": {
-            "ND": "1",
+            "ND": 1,
 
             "OD": "33.4 mm",
 
@@ -18256,11 +18256,11 @@
         },
 
         "bwTrunk": {
-          "KE": "1.9",
+          "KE": 1.9,
 
-          "ND": "6",
+          "ND": 6,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -18306,7 +18306,7 @@
             "T": "4.1 mm"
           },
 
-          "portQ_pi": "0.9"
+          "portQ_pi": 0.9
         },
 
         "done":          "true",
@@ -18320,19 +18320,19 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "ND_min": "1",
+          "ND_min": 1,
 
-          "QSF_pi": "1.2",
+          "QSF_pi": 1.2,
 
           "Qm_max": "15 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -18378,15 +18378,15 @@
 
           "rep":            "true",
 
-          "rowN_max": "10",
+          "rowN_max": 10,
 
-          "rowN_min": "5",
+          "rowN_min": 5,
 
           "staggerRows":            "true"
         },
 
         "receptor": {
-          "ND": "3",
+          "ND": 3,
 
           "Tm_min": "2 mm",
 
@@ -18395,11 +18395,11 @@
           "pipe": {
             "ID": "82.1 mm",
 
-            "ND": "3",
+            "ND": 3,
 
             "OD": "88.9 mm",
 
-            "SDR": "26",
+            "SDR": 26,
 
             "T": "3.42 mm"
           },
@@ -18418,11 +18418,11 @@
 
           "M": "2.38 Mg",
 
-          "PO": "0.4",
+          "PO": 0.4,
 
           "RHO": "2.65 kg/L",
 
-          "UC_pi": "1.6",
+          "UC_pi": 1.6,
 
           "VOL": "2.24 kL",
 
@@ -18438,25 +18438,25 @@
 
           "deltabwH": "375 mm",
 
-          "fibwH_pi": "1.3",
+          "fibwH_pi": 1.3,
 
           "liveH": "1.25 m",
 
-          "liveHLH_pi": "0.99"
+          "liveHLH_pi": 0.99
         },
 
         "trunk": {
-          "KE": "1.9",
+          "KE": 1.9,
 
-          "ND": "6",
+          "ND": 6,
 
-          "ND_max": "6",
+          "ND_max": 6,
 
-          "ND_min": "2",
+          "ND_min": 2,
 
           "S": "15 mm",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -18508,9 +18508,9 @@
             "T": "4.1 mm"
           },
 
-          "portPSI_pi": "0.21",
+          "portPSI_pi": 0.21,
 
-          "portQ_pi": "0.9",
+          "portQ_pi": 0.9,
 
           "portTopV": "804 mm/s"
         }
@@ -18530,7 +18530,7 @@
 
       "layerH": "200 mm",
 
-      "layerN": "6",
+      "layerN": 6,
 
       "lfom": {
         "FB": "100 mm",
@@ -18539,19 +18539,19 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -18597,9 +18597,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true"
       },
@@ -18611,7 +18611,7 @@
       "receptor": {
         "I": "7.12e-6 m^4",
 
-        "ND": "3",
+        "ND": 3,
 
         "Tm_min": "2 mm",
 
@@ -18620,11 +18620,11 @@
         "pipe": {
           "ID": "82.1 mm",
 
-          "ND": "3",
+          "ND": 3,
 
           "OD": "88.9 mm",
 
-          "SDR": "26",
+          "SDR": 26,
 
           "T": "3.42 mm"
         },
@@ -18645,11 +18645,11 @@
 
         "M": "2.38 Mg",
 
-        "PO": "0.4",
+        "PO": 0.4,
 
         "RHO": "2.65 kg/L",
 
-        "UC_pi": "1.6",
+        "UC_pi": 1.6,
 
         "VOL": "2.24 kL",
 
@@ -18665,11 +18665,11 @@
 
         "deltabwH": "375 mm",
 
-        "fibwH_pi": "1.3",
+        "fibwH_pi": 1.3,
 
         "liveH": "1.25 m",
 
-        "liveHLH_pi": "0.99"
+        "liveHLH_pi": 0.99
       },
 
       "spacer": {
@@ -18681,7 +18681,7 @@
 
         "anchorW": "38.1 mm",
 
-        "branchSpacesN_max": "5",
+        "branchSpacesN_max": 5,
 
         "cableD": "4.76 mm",
 
@@ -18705,16 +18705,16 @@
           "col":            "false",
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.5",
+            "blue": 0.5,
 
-            "green": "0.5",
+            "green": 0.5,
 
-            "red": "0.5"
+            "red": 0.5
           },
 
-          "costBasis": "2",
+          "costBasis": 2,
 
           "factoryL": "2.44 m",
 
@@ -18736,7 +18736,7 @@
 
           "sheetType":            "SHEET",
 
-          "unitCost": "260",
+          "unitCost": 260,
 
           "vendor":            "MMC"
         }
@@ -18747,17 +18747,17 @@
       "tankW": "1.57 m",
 
       "trunk": {
-        "KE": "1.9",
+        "KE": 1.9,
 
-        "ND": "6",
+        "ND": 6,
 
-        "ND_max": "6",
+        "ND_max": 6,
 
-        "ND_min": "2",
+        "ND_min": 2,
 
         "S": "15 mm",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -18809,14 +18809,14 @@
           "T": "4.1 mm"
         },
 
-        "portPSI_pi": "0.21",
+        "portPSI_pi": 0.21,
 
-        "portQ_pi": "0.9",
+        "portQ_pi": 0.9,
 
         "portTopV": "804 mm/s"
       },
 
-      "trunkCableF": "2300 { kilogram : 1 , meter : 1 , second : -2 }",
+      "trunkCableF": "2.3 kN",
 
       "trunkReceptorB": "705 mm"
     },
@@ -18830,7 +18830,7 @@
 
       "OL": "2.87 m",
 
-      "QSF_pi": "1.5",
+      "QSF_pi": 1.5,
 
       "Qm_max": "30 L/s",
 
@@ -18870,7 +18870,7 @@
         "D": "60 mm"
       },
 
-      "bwQ_pi": "0.85",
+      "bwQ_pi": 0.85,
 
       "bwTankWallT": "178 mm",
 
@@ -18881,19 +18881,19 @@
 
         "HW": "403 mm",
 
-        "K": "2",
+        "K": 2,
 
         "L": "556 mm",
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_min": "8",
+        "ND_min": 8,
 
-        "QSF_pi": "1.5",
+        "QSF_pi": 1.5,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "3 mm",
 
@@ -18998,11 +18998,11 @@
         "dosing": {
           "ID_min": "10.7 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "140 mm/s",
 
@@ -19072,11 +19072,11 @@
         "drop": {
           "ID_min": "12.1 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "clampingHanger": {
             "H": "39.7 mm",
@@ -19146,13 +19146,13 @@
 
           "ID_min": "8.14 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.375",
+          "ND": 0.375,
 
           "OD": "12.7 mm",
 
-          "SDR": "8",
+          "SDR": 8,
 
           "T": "1.59 mm",
 
@@ -19164,11 +19164,11 @@
         "inject": {
           "ID_min": "5.64 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "500 mm/s",
 
@@ -19246,11 +19246,11 @@
         "supply": {
           "ID_min": "7.28 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "V_max": "300 mm/s",
 
@@ -19321,9 +19321,9 @@
       },
 
       "chlorineConduit": {
-        "ND": "3",
+        "ND": 3,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "coupling": {
           "OD": "101 mm",
@@ -19374,7 +19374,7 @@
         },
 
         "bay": {
-          "N": "2",
+          "N": 2,
 
           "Qm": "15 L/s",
 
@@ -19388,11 +19388,11 @@
 
           "pair":            "true",
 
-          "pairN": "1",
+          "pairN": 1,
 
           "single":            "false",
 
-          "spare": "0"
+          "spare": 0
         },
 
         "branch": {
@@ -19405,9 +19405,9 @@
           "bwInlet": {
             "L": "577 mm",
 
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -19435,15 +19435,15 @@
 
             "portHE": "37.1 mm",
 
-            "portPSI_pi": "0.439",
+            "portPSI_pi": 0.439,
 
-            "portQ_pi": "0.8"
+            "portQ_pi": 0.8
           },
 
           "inlet": {
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -19467,9 +19467,9 @@
 
             "portD": "8 mm",
 
-            "portPSI_pi": "0.439",
+            "portPSI_pi": 0.439,
 
-            "portQ_pi": "0.8",
+            "portQ_pi": 0.8,
 
             "top": {
               "portB": "92.6 mm"
@@ -19477,9 +19477,9 @@
           },
 
           "outlet": {
-            "ND": "1.5",
+            "ND": 1.5,
 
-            "SDR": "12.3",
+            "SDR": 12.3,
 
             "Tm_min": "3 mm",
 
@@ -19505,7 +19505,7 @@
           "handle": {
             "L": "1.23 m",
 
-            "ND": "1",
+            "ND": 1,
 
             "OD": "33.4 mm",
 
@@ -19518,11 +19518,11 @@
         },
 
         "bwTrunk": {
-          "KE": "1.9",
+          "KE": 1.9,
 
-          "ND": "6",
+          "ND": 6,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -19568,7 +19568,7 @@
             "T": "4.1 mm"
           },
 
-          "portQ_pi": "0.9"
+          "portQ_pi": 0.9
         },
 
         "done":          "true",
@@ -19582,19 +19582,19 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "ND_min": "1",
+          "ND_min": 1,
 
-          "QSF_pi": "1.2",
+          "QSF_pi": 1.2,
 
           "Qm_max": "15 L/s",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -19640,15 +19640,15 @@
 
           "rep":            "true",
 
-          "rowN_max": "10",
+          "rowN_max": 10,
 
-          "rowN_min": "5",
+          "rowN_min": 5,
 
           "staggerRows":            "true"
         },
 
         "receptor": {
-          "ND": "3",
+          "ND": 3,
 
           "Tm_min": "2 mm",
 
@@ -19657,11 +19657,11 @@
           "pipe": {
             "ID": "82.1 mm",
 
-            "ND": "3",
+            "ND": 3,
 
             "OD": "88.9 mm",
 
-            "SDR": "26",
+            "SDR": 26,
 
             "T": "3.42 mm"
           },
@@ -19680,11 +19680,11 @@
 
           "M": "2.38 Mg",
 
-          "PO": "0.4",
+          "PO": 0.4,
 
           "RHO": "2.65 kg/L",
 
-          "UC_pi": "1.6",
+          "UC_pi": 1.6,
 
           "VOL": "2.24 kL",
 
@@ -19700,25 +19700,25 @@
 
           "deltabwH": "375 mm",
 
-          "fibwH_pi": "1.3",
+          "fibwH_pi": 1.3,
 
           "liveH": "1.25 m",
 
-          "liveHLH_pi": "0.99"
+          "liveHLH_pi": 0.99
         },
 
         "trunk": {
-          "KE": "1.9",
+          "KE": 1.9,
 
-          "ND": "6",
+          "ND": 6,
 
-          "ND_max": "6",
+          "ND_max": 6,
 
-          "ND_min": "2",
+          "ND_min": 2,
 
           "S": "15 mm",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "Tm_min": "2 mm",
 
@@ -19770,9 +19770,9 @@
             "T": "4.1 mm"
           },
 
-          "portPSI_pi": "0.21",
+          "portPSI_pi": 0.21,
 
-          "portQ_pi": "0.9",
+          "portQ_pi": 0.9,
 
           "portTopV": "804 mm/s"
         }
@@ -19780,34 +19780,34 @@
 
       "filterBottomTankH": "3.38 m",
 
-      "filterHL_pi": "0",
+      "filterHL_pi": 0,
 
       "filterMode":        "true",
 
       "filterPipesW_min": "1.61 m",
 
-      "filterQ_pi": "0.95",
+      "filterQ_pi": 0.95,
 
       "filterToWaste": {
         "FB": "152 mm",
 
         "HW": "1 m",
 
-        "K": "2",
+        "K": 2,
 
-        "K_min": "2",
+        "K_min": 2,
 
         "L": "1.15 m",
 
-        "ND": "4",
+        "ND": 4,
 
-        "ND_min": "2",
+        "ND_min": 2,
 
-        "QSF_pi": "1.5",
+        "QSF_pi": 1.5,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "26",
+        "SDR": 26,
 
         "Tm_min": "3 mm",
 
@@ -19906,7 +19906,7 @@
 
       "layerH": "200 mm",
 
-      "layerN": "6",
+      "layerN": 6,
 
       "lfom": {
         "FB": "152 mm",
@@ -19917,19 +19917,19 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -19987,7 +19987,7 @@
 
         "orificeD_max": "35.5 mm",
 
-        "orificePerRowN_max": "25",
+        "orificePerRowN_max": 25,
 
         "orificeS": "3 mm",
 
@@ -20003,11 +20003,11 @@
 
         "rowB": "25 mm",
 
-        "rowN": "8",
+        "rowN": 8,
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "rowOrificeH_VEC": "[ 11.1 mm, 36.5 mm, 61.9 mm, 87.3 mm, 113 mm, 138 mm, 163 mm, 189 mm]",
 
@@ -20057,21 +20057,21 @@
 
         "ID_min": "96.3 mm",
 
-        "K": "2",
+        "K": 2,
 
         "L": "152 mm",
 
-        "ND": "4",
+        "ND": 4,
 
-        "ND_hyd": "4",
+        "ND_hyd": 4,
 
-        "ND_min": "4",
+        "ND_min": 4,
 
-        "QSF_pi": "1.5",
+        "QSF_pi": 1.5,
 
         "Qm_max": "15 L/s",
 
-        "SDR": "26",
+        "SDR": 26,
 
         "TEMP_min": "5 °C",
 
@@ -20082,13 +20082,13 @@
 
           "ID": "160 mm",
 
-          "ND": "6",
+          "ND": 6,
 
           "OD": "168 mm",
 
           "OH": "70.3 mm",
 
-          "SDR": "41",
+          "SDR": 41,
 
           "T": "4.1 mm"
         },
@@ -20138,9 +20138,9 @@
 
           "L": "152 mm",
 
-          "ND": "4",
+          "ND": 4,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "Tm_min": "3 mm",
 
@@ -20149,13 +20149,13 @@
 
             "ID": "160 mm",
 
-            "ND": "6",
+            "ND": 6,
 
             "OD": "168 mm",
 
             "OH": "70.3 mm",
 
-            "SDR": "41",
+            "SDR": 41,
 
             "T": "4.1 mm"
           },
@@ -20220,15 +20220,15 @@
 
           "ID_min": "165 mm",
 
-          "K": "3.3",
+          "K": 3.3,
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -20292,15 +20292,15 @@
 
           "ID_min": "276 mm",
 
-          "K": "1.5",
+          "K": 1.5,
 
-          "N": "2",
+          "N": 2,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "10",
+          "ND_max": 10,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "500 mm/s",
 
@@ -20362,13 +20362,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -20428,15 +20428,15 @@
 
           "ID_min": "28.6 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "2",
+          "ND": 2,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "Q_pi": "0.03",
+          "Q_pi": 0.03,
 
-          "SDR": "26",
+          "SDR": 26,
 
           "V_max": "1.4 m/s",
 
@@ -20496,13 +20496,13 @@
 
           "ID_min": "165 mm",
 
-          "N": "1",
+          "N": 1,
 
-          "ND": "8",
+          "ND": 8,
 
-          "ND_max": "12",
+          "ND_max": 12,
 
-          "SDR": "41",
+          "SDR": 41,
 
           "V_max": "1.4 m/s",
 
@@ -20711,16 +20711,16 @@
       "col":        "false",
 
       "color": {
-        "alpha": "1",
+        "alpha": 1,
 
-        "blue": "0.4",
+        "blue": 0.4,
 
-        "green": "0.4",
+        "green": 0.4,
 
-        "red": "0.4"
+        "red": 0.4
       },
 
-      "costBasis": "1",
+      "costBasis": 1,
 
       "factoryL": "0 m",
 
@@ -20744,7 +20744,7 @@
 
       "sheetType":        "BEAM",
 
-      "unitCost": "10.3",
+      "unitCost": 10.3,
 
       "vendor":        "SVCWSA"
     },
@@ -20763,7 +20763,7 @@
 
     "layerH": "200 mm",
 
-    "layerN": "6",
+    "layerN": 6,
 
     "leftX": "8.56 m",
 
@@ -20781,15 +20781,15 @@
 
         "ID_min": "165 mm",
 
-        "K": "3.3",
+        "K": 3.3,
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -20853,15 +20853,15 @@
 
         "ID_min": "276 mm",
 
-        "K": "1.5",
+        "K": 1.5,
 
-        "N": "2",
+        "N": 2,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "10",
+        "ND_max": 10,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "500 mm/s",
 
@@ -20923,13 +20923,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -20993,19 +20993,19 @@
 
         "ID_min": "234 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "10",
+        "ND": 10,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "ND_min": "1",
+        "ND_min": 1,
 
-        "QSF_pi": "1.2",
+        "QSF_pi": 1.2,
 
         "Qm_max": "1 L/s",
 
-        "SDR": "41",
+        "SDR": 41,
 
         "Tm_min": "2 mm",
 
@@ -21063,9 +21063,9 @@
 
         "rep":          "true",
 
-        "rowN_max": "10",
+        "rowN_max": 10,
 
-        "rowN_min": "5",
+        "rowN_min": 5,
 
         "staggerRows":          "true",
 
@@ -21085,15 +21085,15 @@
 
         "ID_min": "28.6 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "2",
+        "ND": 2,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "Q_pi": "0.03",
+        "Q_pi": 0.03,
 
-        "SDR": "26",
+        "SDR": 26,
 
         "V_max": "1.4 m/s",
 
@@ -21153,13 +21153,13 @@
 
         "ID_min": "165 mm",
 
-        "N": "1",
+        "N": 1,
 
-        "ND": "8",
+        "ND": 8,
 
-        "ND_max": "12",
+        "ND_max": 12,
 
-        "SDR": "41",
+        "SDR": 41,
 
         "V_max": "1.4 m/s",
 
@@ -21218,29 +21218,29 @@
     },
 
     "pump": {
-      "ND": "2",
+      "ND": 2,
 
       "OH": "473 mm",
 
       "OW": "321 mm",
 
-      "SDR": "26",
+      "SDR": 26,
 
       "bottomH": "169 mm",
 
       "color": {
-        "alpha": "1",
+        "alpha": 1,
 
-        "blue": "1",
+        "blue": 1,
 
-        "green": "0.2",
+        "green": 0.2,
 
-        "red": "0.2"
+        "red": 0.2
       },
 
       "connectionStyle":        "THREADED",
 
-      "costBasis": "0",
+      "costBasis": 0,
 
       "elbow_90": {
         "OD": "68.3 mm",
@@ -21256,11 +21256,11 @@
 
       "implementationPartner":        "GENERIC",
 
-      "k0": "7.68",
+      "k0": 7.68,
 
-      "k1": "-0.386",
+      "k1": -0.386,
 
-      "k2": "-0.0147",
+      "k2": -0.0147,
 
       "material":        "CAST_IRON",
 
@@ -21284,7 +21284,7 @@
 
       "pumpOD": "248 mm",
 
-      "unitCost": "1290",
+      "unitCost": 1290,
 
       "vendor":        "PPR"
     },
@@ -21314,9 +21314,9 @@
     },
 
     "sandDrain": {
-      "ND": "1.5",
+      "ND": 1.5,
 
-      "SDR": "12.3",
+      "SDR": 12.3,
 
       "coupling": {
         "OD": "57.2 mm",
@@ -21358,17 +21358,17 @@
 
       "H_min": "991 mm",
 
-      "K": "2",
+      "K": 2,
 
       "L": "4.33 m",
 
       "L_x": "4.11 m",
 
-      "ND": "3",
+      "ND": 3,
 
       "Qm_max": "7.5 L/s",
 
-      "SDR": "26",
+      "SDR": 26,
 
       "V": "3 m/s",
 
@@ -21383,7 +21383,7 @@
       },
 
       "coupling": {
-        "ND": "3",
+        "ND": 3,
 
         "OD": "108 mm",
 
@@ -21412,13 +21412,13 @@
 
       "ID_min": "177 mm",
 
-      "K": "5.26",
+      "K": 5.26,
 
-      "ND": "8",
+      "ND": 8,
 
-      "PortQ_pi": "0.6",
+      "PortQ_pi": 0.6,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "V_max": "3.05 m/s",
 
@@ -21454,7 +21454,7 @@
 
       "manifoldH": "1.82 m",
 
-      "manifoldPortPSI_pi": "0.941",
+      "manifoldPortPSI_pi": 0.941,
 
       "pipe": {
         "ID": "208 mm",
@@ -21478,9 +21478,9 @@
     "siphonManifold": {
       "L": "1.07 m",
 
-      "ND": "8",
+      "ND": 8,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "Tm_min": "2 mm",
 
@@ -21510,16 +21510,16 @@
             "bodyT": "2 mm",
 
             "color": {
-              "alpha": "1",
+              "alpha": 1,
 
-              "blue": "0.85",
+              "blue": 0.85,
 
-              "green": "0.85",
+              "green": 0.85,
 
-              "red": "0.85"
+              "red": 0.85
             },
 
-            "costBasis": "0",
+            "costBasis": 0,
 
             "factoryL": "0 m",
 
@@ -21539,7 +21539,7 @@
 
             "stainlessSteelGrade":              "SS316",
 
-            "unitCost": "4.82",
+            "unitCost": 4.82,
 
             "vendor":              "MMC"
           },
@@ -21563,16 +21563,16 @@
           "col":            "false",
 
           "color": {
-            "alpha": "1",
+            "alpha": 1,
 
-            "blue": "0.85",
+            "blue": 0.85,
 
-            "green": "0.85",
+            "green": 0.85,
 
-            "red": "0.85"
+            "red": 0.85
           },
 
-          "costBasis": "2",
+          "costBasis": 2,
 
           "factoryL": "2.54 m",
 
@@ -21596,7 +21596,7 @@
 
           "sheetType":            "SHEET",
 
-          "unitCost": "208",
+          "unitCost": 208,
 
           "vendor":            "MMC"
         },
@@ -21609,7 +21609,7 @@
 
         "shearA": "0.00014 m^2",
 
-        "shearF": "58700 { kilogram : 1 , meter : 1 , second : -2 }",
+        "shearF": "58.7 kN",
 
         "shearStrengthP": "420 MPa",
 
@@ -21648,9 +21648,9 @@
 
       "portD": "57.1 mm",
 
-      "portN": "14",
+      "portN": 14,
 
-      "portQ_pi": "0.8",
+      "portQ_pi": 0.8,
 
       "portS_min": "10 mm",
 
@@ -21670,9 +21670,9 @@
 
       "L": "1.98 m",
 
-      "ND": "12",
+      "ND": 12,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "areaID_min": "282 mm",
 
@@ -21704,9 +21704,9 @@
     "slottedDrain": {
       "H": "38.6 mm",
 
-      "ND": "1.5",
+      "ND": 1.5,
 
-      "SDR": "12.3",
+      "SDR": 12.3,
 
       "cap": {
         "OD": "57.2 mm",
@@ -21742,7 +21742,7 @@
     },
 
     "stairs": {
-      "HL_pi": "0.9",
+      "HL_pi": 0.9,
 
       "H_bwtank": "2.29 m",
 
@@ -21754,7 +21754,7 @@
 
       "W": "991 mm",
 
-      "bwTankHL_pi": "1.1",
+      "bwTankHL_pi": 1.1,
 
       "cutoutL": "2.71 m",
 
@@ -21762,9 +21762,9 @@
 
       "headH": "2.01 m",
 
-      "lowerHL_pi": "0.796",
+      "lowerHL_pi": 0.796,
 
-      "upperHL_pi": "0.849",
+      "upperHL_pi": 0.849,
 
       "wellL": "2.69 m"
     },
@@ -21783,7 +21783,7 @@
       "slopedH": "40.9 mm"
     },
 
-    "valvePortN": "1",
+    "valvePortN": 1,
 
     "valvePorts":      "true",
 
@@ -21799,9 +21799,9 @@
 
     "G": "30 Hz",
 
-    "GT": "33900",
+    "GT": 33900,
 
-    "GT_min": "35000",
+    "GT_min": 35000,
 
     "G_bod": "30 Hz",
 
@@ -21811,7 +21811,7 @@
 
     "HL_max": "148 mm",
 
-    "HS_pi": "4.24",
+    "HS_pi": 4.24,
 
     "L": "6.35 m",
 
@@ -21819,7 +21819,7 @@
 
     "OW": "3.96 m",
 
-    "Q_pi": "1",
+    "Q_pi": 1,
 
     "Qm_max": "30 L/s",
 
@@ -21856,12 +21856,12 @@
 
       "overlapW": "20 mm",
 
-      "spacesN": "14"
+      "spacesN": 14
     },
 
     "baffleChannelW_max": "1.07 m",
 
-    "baffleK": "6.28",
+    "baffleK": 6.28,
 
     "baffleSet": {
       "FB": "100 mm",
@@ -21882,7 +21882,7 @@
         "baffle": {
           "B": "407 mm",
 
-          "N": "13",
+          "N": 13,
 
           "S": "406 mm",
 
@@ -21900,17 +21900,17 @@
 
           "overlapW": "20 mm",
 
-          "spacesN": "14"
+          "spacesN": 14
         },
 
         "baffleHolder": {
           "ID": "56.6 mm",
 
-          "ND": "2",
+          "ND": 2,
 
           "OD": "60.3 mm",
 
-          "SDR": "32.5",
+          "SDR": 32.5,
 
           "T": "1.86 mm"
         },
@@ -21922,7 +21922,7 @@
         "bottom": {
           "L": "1.33 m",
 
-          "N": "7",
+          "N": 7,
 
           "T": "800 μm",
 
@@ -21966,13 +21966,13 @@
         "frame": {
           "L": "6.32 m",
 
-          "ND": "0.5",
+          "ND": 0.5,
 
-          "SDR": "13.5",
+          "SDR": 13.5,
 
           "botvedgeB": "203 mm",
 
-          "colN": "3",
+          "colN": 3,
 
           "colS": "306 mm",
 
@@ -21992,7 +21992,7 @@
 
           "holeD": "22.4 mm",
 
-          "midrowN": "2",
+          "midrowN": 2,
 
           "pipe": {
             "ID": "18.3 mm",
@@ -22030,11 +22030,11 @@
         "spacer": {
           "ID": "23.5 mm",
 
-          "ND": "0.75",
+          "ND": 0.75,
 
           "OD": "26.6 mm",
 
-          "SDR": "17",
+          "SDR": 17,
 
           "T": "1.56 mm",
 
@@ -22046,7 +22046,7 @@
 
           "lowerL": "403 mm",
 
-          "lowerN": "12",
+          "lowerN": 12,
 
           "tobaffleS": "3.18 mm",
 
@@ -22056,17 +22056,17 @@
 
           "upperL": "810 mm",
 
-          "upperN": "5"
+          "upperN": 5
         },
 
-        "spacesN": "14",
+        "spacesN": 14,
 
         "tankH": "1.98 m",
 
         "top": {
           "L": "1.52 m",
 
-          "N": "6",
+          "N": 6,
 
           "T": "800 μm",
 
@@ -22116,7 +22116,7 @@
 
       "channelL": "6.35 m",
 
-      "channelN": "4",
+      "channelN": 4,
 
       "channelT": "178 mm",
 
@@ -22137,7 +22137,7 @@
 
     "channelHW": "[ 1.88 m, 1.84 m, 1.8 m, 1.76 m]",
 
-    "channelN": "4",
+    "channelN": 4,
 
     "channelTotalW_min": "784 mm",
 
@@ -22160,19 +22160,19 @@
 
       "HW": "1.88 m",
 
-      "K": "2",
+      "K": 2,
 
       "L": "1.98 m",
 
-      "ND": "4",
+      "ND": 4,
 
-      "ND_min": "2",
+      "ND_min": 2,
 
-      "QSF_pi": "1.5",
+      "QSF_pi": 1.5,
 
       "Qm_max": "16.1 L/s",
 
-      "SDR": "26",
+      "SDR": 26,
 
       "Tm_min": "2 mm",
 
@@ -22223,7 +22223,7 @@
 
     "drainHorizontalL": "381 mm",
 
-    "drainN": "2",
+    "drainN": 2,
 
     "drainQm_max": "16.1 L/s",
 
@@ -22265,7 +22265,7 @@
 
     "expHL": "2.64 mm",
 
-    "expN": "1",
+    "expN": 1,
 
     "humanChannelW_min": "508 mm",
 
@@ -22279,9 +22279,9 @@
 
     "leftX": "2.11 m",
 
-    "maxHS_pi": "20",
+    "maxHS_pi": 20,
 
-    "minHS_pi": "4",
+    "minHS_pi": 4,
 
     "oddChannels":      "false",
 
@@ -22298,7 +22298,7 @@
 
       "W": "1 m",
 
-      "channelN": "3",
+      "channelN": 3,
 
       "outletHW": "1.7 m"
     },
@@ -22316,7 +22316,7 @@
 
       "L": "6.35 m",
 
-      "N": "4",
+      "N": 4,
 
       "OL": "6.71 m",
 
@@ -22622,7 +22622,7 @@
 
       "L": "330 mm",
 
-      "N": "1",
+      "N": 1,
 
       "OL": "508 mm",
 
@@ -22965,19 +22965,19 @@
 
     "ID_min": "234 mm",
 
-    "N": "1",
+    "N": 1,
 
-    "ND": "10",
+    "ND": 10,
 
-    "ND_max": "12",
+    "ND_max": 12,
 
-    "ND_min": "1",
+    "ND_min": 1,
 
-    "QSF_pi": "1.2",
+    "QSF_pi": 1.2,
 
     "Qm_max": "1 L/s",
 
-    "SDR": "41",
+    "SDR": 41,
 
     "Tm_min": "2 mm",
 
@@ -23035,9 +23035,9 @@
 
     "rep":      "true",
 
-    "rowN_max": "10",
+    "rowN_max": 10,
 
-    "rowN_min": "5",
+    "rowN_min": 5,
 
     "staggerRows":      "true",
 
@@ -23066,15 +23066,15 @@
 
       "ID_min": "165 mm",
 
-      "K": "3.3",
+      "K": 3.3,
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "8",
+      "ND": 8,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "V_max": "1.4 m/s",
 
@@ -23138,15 +23138,15 @@
 
       "ID_min": "276 mm",
 
-      "K": "3.3",
+      "K": 3.3,
 
-      "N": "2",
+      "N": 2,
 
-      "ND": "8",
+      "ND": 8,
 
-      "ND_max": "10",
+      "ND_max": 10,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "V_max": "500 mm/s",
 
@@ -23208,13 +23208,13 @@
 
       "ID_min": "165 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "8",
+      "ND": 8,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "V_max": "1.4 m/s",
 
@@ -23278,19 +23278,19 @@
 
       "ID_min": "234 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "10",
+      "ND": 10,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "ND_min": "1",
+      "ND_min": 1,
 
-      "QSF_pi": "1.2",
+      "QSF_pi": 1.2,
 
       "Qm_max": "1 L/s",
 
-      "SDR": "41",
+      "SDR": 41,
 
       "Tm_min": "2 mm",
 
@@ -23348,9 +23348,9 @@
 
       "rep":        "true",
 
-      "rowN_max": "10",
+      "rowN_max": 10,
 
-      "rowN_min": "5",
+      "rowN_min": 5,
 
       "staggerRows":        "true",
 
@@ -23370,15 +23370,15 @@
 
       "ID_min": "28.6 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "2",
+      "ND": 2,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "Q_pi": "0.03",
+      "Q_pi": 0.03,
 
-      "SDR": "26",
+      "SDR": 26,
 
       "V_max": "1.4 m/s",
 
@@ -23438,13 +23438,13 @@
 
       "ID_min": "165 mm",
 
-      "N": "1",
+      "N": 1,
 
-      "ND": "8",
+      "ND": 8,
 
-      "ND_max": "12",
+      "ND_max": 12,
 
-      "SDR": "41",
+      "SDR": 41,
 
       "V_max": "1.4 m/s",
 
@@ -23515,7 +23515,7 @@
   "slab1T": "152 mm",
 
   "stairs": {
-    "HL_pi": "0.9",
+    "HL_pi": 0.9,
 
     "W": "991 mm",
 

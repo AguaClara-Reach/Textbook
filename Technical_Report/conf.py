@@ -179,12 +179,31 @@ latex_elements = {
     'preamble': r'''
         \usepackage{amsmath}
         \usepackage{amssymb}
+        \usepackage{longtable} 
+        \usepackage{float}  % Ensures precise placement of floats
+        \usepackage{graphicx}
         \setmainfont{Times New Roman}
-        \usepackage{longtable}    % Add this to support long tables
+
+        \let\origfigure\figure
+        \let\endorigfigure\endfigure
+        \renewenvironment{figure}[1][htbp]{
+            \origfigure[H]
+        }{
+            \endorigfigure
+        }
+        \let\origtable\table
+        \let\endorigtable\endtable
+        \renewenvironment{table}[1][htbp]{
+            \origtable[H]
+        }{
+            \endorigtable
+        }
     ''',
     'tableofcontents': r'''
         \tableofcontents
         \clearpage
         \setcounter{tocdepth}{2}
     ''',
+    'extraclassoptions': 'openany,oneside',
 }
+

@@ -5,7 +5,7 @@
 Construction Tolerances
 ***********************
 
-The construction tolerances are the allowable deviations from the design dimensions. The tolerances are specified in the table below. The tolerances are designed to ensure the hydraulic components of the plant will function as intended and to ensure the plant is aesthetically pleasing.
+The construction tolerances are the allowable deviations from the design dimensions. The tolerances are specified in the table below. The tolerances are designed to ensure the hydraulic components of the plant will function as intended.
 
 .. _table_Construction_Tolerances:
 

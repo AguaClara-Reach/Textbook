@@ -29,7 +29,7 @@ AguaClara Technical Report for Perseverance
   :caption: Chapter 1: Chemical Dosing
   :maxdepth: 1
 
-  Chemical_Dosing.rst
+  Chemical_Dosing_pH.rst
 
 .. toctree::
   :caption: Chapter 2: Entrance Tank
@@ -62,7 +62,4 @@ AguaClara Technical Report for Perseverance
   :maxdepth: 1
 
   Construction_Tolerances.rst
-  
-This textbook is written and maintained in `Github <https://github.com/AguaClara/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_.
 
-`Please visit our GitHub site <https://github.com/AguaClara/Textbook>`_ to submit an issue, contribute, or comment.

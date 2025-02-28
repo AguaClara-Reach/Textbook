@@ -43,14 +43,14 @@ AguaClara treatment technologies include trash and grit removal, flow measuremen
     ====  ============
     Key   Description
     ====  ============
-    1     raw water from source
-    2     entrance tank
-    3     chemical dose controller
-    4     chemical constant level tanks
-    5     flocculator
-    6     clarifier
-    7     stacked rapid sand filter
-    8     treated water to the community distribution tank
+    1     Raw water from source
+    2     Entrance tank
+    3     Chemical dose controller
+    4     Chemical constant level tanks
+    5     Flocculator
+    6     Clarifier
+    7     Stacked rapid sand filter
+    8     Treated water to the community distribution tank
     ====  ============
 
 Water Quality Parameters
@@ -68,9 +68,9 @@ The tables below summarize the raw water quality parameters for which AguaClara 
 
    Turbidity, "Raw water with turbidity less than 600 NTU can consistently be treated to less than 1 NTU. Treatment of higher turbidities may require a customized clarifier design."
    "Color/Dissolved Organic Matter (DOM)", "For raw water with high color or total organic matter content, pilot studies are recommended to confirm the efficacy of the coagulant and the ability of the flocs to settle."
-   pH, "pH can be lowered to prevent calcium carbonate scaling in distribution piping or increased to reduce corrosion potential."
-   Microbiological contamination, "The AguaClara treatment processes are designed to remove pathogens through particle removal and deactivate pathogens through disinfection."
+   pH, "pH can be lowered to prevent calcium carbonate scaling in distribution piping or increased to reduce corrosion potential."
+   Microbiological contamination, "The AguaClara treatment processes are designed to remove pathogens through particle removal and deactivate pathogens through disinfection."
 
 AguaClara plants are designed to treat the water quality parameters listed above. Some other contaminants may also be removed, but that must be verified by jar and/or pilot scale testing. All other parameters should be within acceptable ranges in the raw water or should be treated by other means.
 
-Before beginning construction of an AguaClara treatment plant, bench-scale jar testing should be performed to confirm that polyaluminum chloride, aluminum sulfate, or another proposed coagulant is able to successfully form flocs that settle. Tropical forested watersheds at elevations above about 1000 m can produce water with high concentrations of dissolved organic matter. High concentrations of dissolved organic matter are difficult to treat when the water turbidity is less than perhaps 10 NTU because the resulting flocs have a density that is close to the density of water.
+Before beginning construction of an AguaClara treatment plant, bench-scale jar testing should be performed to confirm that polyaluminum chloride, aluminum sulfate, or another proposed coagulant is able to successfully form flocs that settle. Tropical forested watersheds at elevations above about 1000 m can produce water with high concentrations of dissolved organic matter. High concentrations of dissolved organic matter are difficult to treat when the water turbidity is less than approximately 10 NTU because the resulting flocs have a density that is close to the density of water.

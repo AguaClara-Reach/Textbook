@@ -82,5 +82,5 @@ The LFOM specifications are given below.
    Head loss at max flow, :sub:`($..et.lfom.HL_max) no-sub`
    Diameter of orifices, :sub:`($..et.lfom.orificeD) no-sub`
    Space between orifices measured on the outside of the pipe,  :sub:`($..et.lfom.orificeS) no-sub`
-   Orifices in each row starting from bottom row, :sub:`($..et.lfom.rowOrificeN_VEC) no-sub`
+   Number of orifices in each row starting from bottom row, :sub:`($..et.lfom.rowOrificeN_VEC) no-sub`
    Elevation of each row from zero flow datum, :sub:`($..et.lfom.rowOrificeH_VEC) no-sub`
