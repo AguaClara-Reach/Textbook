@@ -9,7 +9,7 @@ Permission and Licensing Information
 ====================================
 
 
-Copyright © 2024 AguaClara Reach
+Copyright © 2025 AguaClara Reach
 
 Authors:  AguaClara Reach
 
@@ -74,3 +74,17 @@ The tables below summarize the raw water quality parameters for which AguaClara 
 AguaClara plants are designed to treat the water quality parameters listed above. Some other contaminants may also be removed, but that must be verified by jar and/or pilot scale testing. All other parameters should be within acceptable ranges in the raw water or should be treated by other means.
 
 Before beginning construction of an AguaClara treatment plant, bench-scale jar testing should be performed to confirm that polyaluminum chloride, aluminum sulfate, or another proposed coagulant is able to successfully form flocs that settle. Tropical forested watersheds at elevations above about 1000 m can produce water with high concentrations of dissolved organic matter. High concentrations of dissolved organic matter are difficult to treat when the water turbidity is less than approximately 10 NTU because the resulting flocs have a density that is close to the density of water.
+
+
+Notes on the Technical Report
+==============================
+
+- Figures and photos are provided for reference and are not to scale or specific to this project. Please use the provided values and dimensions from the Plant Specifications sections for your project.
+- Figure keys are unique to each chapter, except for the Chemical Dosing and Entrance Tank chapters, where figure keys are unique to each sub-chapter.
+- Use the Table of Contents to find a specific process or technology.
+- Each chapter contains:
+    - A brief description and purpose of the process or technology
+    - A brief description of flow paths
+    - Relevant labeled figures and photos
+    - Figure keys
+    - Design specifications including civil construction values, hydraulic values, and fabrication and part size values

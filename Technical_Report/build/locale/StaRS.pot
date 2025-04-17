@@ -1,0 +1,1577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-25 16:56-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../StaRS.rst:5
+msgid "Stacked Rapid Sand Filter"
+msgstr ""
+
+#: ../../StaRS.rst:8
+msgid "Design information for the AguaClara Stacked Rapid Sand Filter (StaRS) is available in `the Open Stacked Rapid Sand Filter Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Filtration/Filtration_Design.html>`_."
+msgstr ""
+
+#: ../../StaRS.rst:12
+msgid "Purpose and Description"
+msgstr ""
+
+#: ../../StaRS.rst:14
+msgid "The StaRS filter removes particles and pathogens from the clarified water. The StaRS filter was designed to eliminate the need for pumps and storage tanks that are normally required for backwashing rapid sand filters. The StaRS filter has the same flow rate in filtration mode and in backwash mode. An elegant filter hydraulic design enables switching from filtration mode to backwash mode without using any large diameter valves. Backwash is accomplished using clarified water and that increases the efficiency of water production by the AguaClara plant."
+msgstr ""
+
+#: ../../StaRS.rst:16
+msgid "The hydraulic controls are on the main plant floor and are open so that the plant operators can readily observe head loss through the filter as well as the turbidity of the clarified and filtered water."
+msgstr ""
+
+#: ../../StaRS.rst:25
+msgid "Vista superior del filtro"
+msgstr ""
+
+#: ../../StaRS.rst:25
+msgid "Top view of filter showing filter hydraulic controls and filter chambers separated by a walkway"
+msgstr ""
+
+#: ../../StaRS.rst:34
+msgid "Vista isométrica de filtro"
+msgstr ""
+
+#: ../../StaRS.rst:34
+msgid "Filter isometric view with filter wall and backwash tank wall removed, showing the filter internal piping and the pipes that connect the filter controls to the filter chamber"
+msgstr ""
+
+#: ../../StaRS.rst:43
+msgid "Vista isométrica de la sección izquierda del filtro"
+msgstr ""
+
+#: ../../StaRS.rst:43
+msgid "Filter left section isometric view showing how the inlet tank, filter chamber, and siphon pipe are all aligned"
+msgstr ""
+
+#: ../../StaRS.rst:45
+msgid "In :numref:`figure_filter_left_section_isometric`, the four inlet pipes have a straight path into the filter chamber. The outlet pipes have a 45° elbow to account for the offset to the filter controls outlet tank. The different heights of the inlet pipe stubs in the inlet tank are also shown."
+msgstr ""
+
+#: ../../StaRS.rst:54
+msgid "Controles del filtro Vista isométrica superior"
+msgstr ""
+
+#: ../../StaRS.rst:54
+msgid "Filter controls top isometric view"
+msgstr ""
+
+#: ../../StaRS.rst:56
+msgid "The filter controls provide the operator with a method to rapidly confirm filter operation. The filter controls come in pairs when there is more than one filter chamber so they can share the finished water tank."
+msgstr ""
+
+#: ../../StaRS.rst:64
+msgid "Distribución a los tanques de entrada del filtro"
+msgstr ""
+
+#: ../../StaRS.rst:64
+msgid "Top view of distribution to the filter inlet tanks"
+msgstr ""
+
+#: ../../StaRS.rst:67
+msgid "Distribution to the Filter Inlet Tanks Figure Key for :numref:`figure_filter_distribution`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Key"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Purpose"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet channel"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Receives the water from :sub:`($..filter.pipes.clarified.N) no-sub` clarified water pipe coming from the clarifier and distributes the water to :sub:`($..filter.fiPipes.bay.N) no-sub` filter chambers"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Wide weir"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Uses head loss to divide the flow equally between the filter chambers"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Removable gate"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Can be removed to provide full design flow to a filter during backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Bypass channel"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Provides option to bypass the filter by swapping the LFOM and bypass pipes"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "LFOM"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Measures the flow rate into the filter"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Bypass pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Pipe stub that can be swapped with the LFOM to bypass the filter"
+msgstr ""
+
+#: ../../StaRS.rst:86
+msgid "Filtro de entrada de un tanque de entrada"
+msgstr ""
+
+#: ../../StaRS.rst:86
+msgid "Top view of filter inlet tank"
+msgstr ""
+
+#: ../../StaRS.rst:89
+msgid "Filter Inlet Tank Figure Key for :numref:`figure_filter_inlet_tank`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "7"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Distributes the clarified water to the 4 filter inlets"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Overflow"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Automatically diverts clarified water to the filter pipe gallery to waste or recycle when the filter head loss exceeds the maximum design value"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "9"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Bubble weir"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Lifts bubbles to prevent them from entering the inlets to the filter, releasing them to the surface"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "10"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Backwash orifice plate"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Adds head loss to filter inlet 1 during filtration so that it has the same head loss as the other inlets and is removed during backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "11"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Backwash trunk"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Delivers water from the inlet tank to the filter chamber during filtration and during backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "12"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet trunks"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Delivers water from the inlet tank to the filter chamber during filtration"
+msgstr ""
+
+#: ../../StaRS.rst:108
+msgid "tanque de salida de filtro"
+msgstr ""
+
+#: ../../StaRS.rst:108
+msgid "Top view of filter outlet tank"
+msgstr ""
+
+#: ../../StaRS.rst:111
+msgid "Filter Outlet Tank Figure Key for :numref:`figure_filter_outlet_tank`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "13"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Outlet tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Collects filtered water from the 3 outlet trunks"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "14"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Outlet trunks"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Deliver water from the filter chamber to the outlet tank during filtration"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Filter to waste"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Dumps filtered water to the pipe gallery. Operators can remove the pipe stub after backwash to waste filtered water that doesn't meet treatment standards."
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "16"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Filtered water weir"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Enables filtering to waste. There is a pipe to waste that with a pipe stub in it before the weir, so when the pipe stub is pulled out, flows to waste instead of going over the weir."
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "17"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Finished water tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Adds chlorine to the filtered water and delivers the water to the finished water pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "18"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Chlorination conduit"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Provides a path for a chlorination tube to drip into the water exiting from one of the filters"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "19"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Finished water pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Delivers the finished water to the community water storage tank"
+msgstr ""
+
+#: ../../StaRS.rst:133
+msgid "Filtro controla el tanque de entrada"
+msgstr ""
+
+#: ../../StaRS.rst:133
+msgid "Isometric view of filter controls inlet tank. The backwash orifice plate is in place for filtration mode."
+msgstr ""
+
+#: ../../StaRS.rst:136
+msgid "In the filter, water flows from right to left from the inlet channel, over the wide weir to the bypass channel. During normal operation, the water enters the LFOM and flows into the filter controls inlet tank above. If there is a need to bypass a filter, the LFOM and bypass pipe stubs are simply swapped. During backwash, the gate can be removed so that the filter receives the design flow rate. The filter controls inlet tank has an overflow that dumps water to the backwash tank when the head loss through the filter exceeds the maximum design value. The bubble weir raises bubbles to minimize their entry into the filter inlets. The short pipe stubs in the filter inlets ensure that the water all enters the backwash inlet during backwash. The different heights of the pipe stubs causes the filter sand to fluidize gradually starting from the sand near the top of the filter and progressing deeper as more of the water is forced into the bottom inlets."
+msgstr ""
+
+#: ../../StaRS.rst:138
+msgid "Water exits the filter chamber through three outlet pipes and then enters the filter controls outlet tank (:numref:`figure_filter_controls_outlet_tank_section`). After backwash, the red pipe stub can be removed as shown in the foreground outlet tank to enable filtering to waste. When not filtering to waste, the water flows over the filtered water weir into the finished water tank and finally into the finished water pipe."
+msgstr ""
+
+#: ../../StaRS.rst:147
+msgid "Cámara de filtro y sifón"
+msgstr ""
+
+#: ../../StaRS.rst:147
+msgid "Top view of filter chamber and siphon"
+msgstr ""
+
+#: ../../StaRS.rst:151
+msgid "Filter Chamber and Siphon Figure Key for :numref:`figure_filter_chamber_siphon`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Filter chamber"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Contains the filter internal piping and filter sand"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "21"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Filter chamber drain"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Drains water for maintenance operations"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "22"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Sand dump pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Empties the sand from the filter"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "23"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Siphon pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Discharges backwash to the pipe gallery to waste or for recycle"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "24"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Siphon air valve"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Controls the siphon and switches the filter between filtration and backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "25"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Siphon water seal"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Prevents the water from exiting the siphon at the end of the backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "26"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Sand"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Provides the filter media and pore structure for capture of flocs and particles"
+msgstr ""
+
+#: ../../StaRS.rst:172
+msgid "Sección de tanque de salida de controles de filtro"
+msgstr ""
+
+#: ../../StaRS.rst:172
+msgid "Filter controls outlet tank section showing water levels"
+msgstr ""
+
+#: ../../StaRS.rst:174
+msgid "The outlet tank in the foreground of :numref:`figure_filter_controls_outlet_tank_section` has the pipe stub that enables filter to waste removed. The outlet tank in the background has the pipe stub in place to prevent filtering to waste."
+msgstr ""
+
+#: ../../StaRS.rst:183
+msgid "Filtro de tuberías internos isométricas"
+msgstr ""
+
+#: ../../StaRS.rst:183
+msgid "Isometric view of filter internal piping showing how the modules, siphon, and filter drain are placed in the filter chamber"
+msgstr ""
+
+#: ../../StaRS.rst:185
+msgid "The filter interal piping serves to divide the sand bed into :sub:`($..filter.layerN) no-sub` layers. The flow through each layer alternates direction with the bottom layer flowing upward and the next layer flowing downward."
+msgstr ""
+
+#: ../../StaRS.rst:187
+msgid ":numref:`figure_filter_internal_piping_modules` shows how the modules stack. The modules are prevented from lifting by cables anchored to the concrete slab, and attach to the pipes embedded in the filter chamber wall. This filter internal piping consists of 7 modules for easy assembly in the filter chamber. A module includes the internal sand filter piping in the same plane connected to inlet/outlet trunk. Each module stacks on top of the module below. The tie-down cable ensures that the modules can not shift relative to each other and it also clamps the entire set of modules in place to prevent uplift during backwash initiation."
+msgstr ""
+
+#: ../../StaRS.rst:196
+msgid "Filtrar módulos de tuberías internos"
+msgstr ""
+
+#: ../../StaRS.rst:196
+msgid "Detail isometric view of filter internal piping modules"
+msgstr ""
+
+#: ../../StaRS.rst:201
+msgid "Filter Internal Piping Figure Key for :numref:`figure_filter_internal_piping_modules`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "27"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Band clamps"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Attach the trunks to the pipes that are embedded in the filter tank chamber wall"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "28"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Winged branch pipes"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Injects clarified water into the sand bed"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "29"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Slotted branch pipes"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Extracts filtered water from the sand bed"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "30"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Receptor pipes"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Terminate and support the winged and slotted branch pipes"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "31"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Trunk spacer"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Supports the end of the trunks"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "32"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Receptor spacer"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Supports the receptors"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "33"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Anchor bolts"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Connects the cable to the concrete slab"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "34"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Cable"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Prevents the internal pipe modules from lifting during backwash initation"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "35"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Hose clamp"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Tightens all of the connections between branches, receptors, and trunks to prevent sand leaks"
+msgstr ""
+
+#: ../../StaRS.rst:225
+msgid "Filtro troncal isométrico"
+msgstr ""
+
+#: ../../StaRS.rst:225
+msgid "Filter inlet trunk isometric view"
+msgstr ""
+
+#: ../../StaRS.rst:227
+msgid ":numref:`figure_filter_trunk_isometric` shows the ports for the branches and the band clamp system that attaches to a pipe embedded in the filter chamber wall. This main trunk pipe in each module is connected to the embedded pipe that connects to either the filter control inlet tank or filter control outlet tank. The pipes are connected by a stainless steel band that is then held in place with two hose clamps. The ports for the branches are slightly smaller than the outside diameter of the branches so that the molded end of the branches can only be inserted a fixed distance into the trunk."
+msgstr ""
+
+#: ../../StaRS.rst:236
+msgid "Filtro del espaciador del tronco del tronco y las vistas superiores"
+msgstr ""
+
+#: ../../StaRS.rst:236
+msgid "Filter trunk spacer front and top views"
+msgstr ""
+
+#: ../../StaRS.rst:238
+msgid "The :sub:`($..filter.layerH) no-sub` spacing of the trunks and receptors is set by the spacers. The cable grooves alternate sides on the spacers so that the cables prevent the spacers from moving. The spacers are attached to the trunks and receptors."
+msgstr ""
+
+#: ../../StaRS.rst:247
+msgid "receptor de filtro isométrico"
+msgstr ""
+
+#: ../../StaRS.rst:247
+msgid "Filter inlet receptor isometric showing the ports for the branches"
+msgstr ""
+
+#: ../../StaRS.rst:249
+msgid "The receptors are symmetrical and have PVC disks that plug both ends. The compact design of the PVC disks enables the first and last branches to be relatively close to the filter chamber walls."
+msgstr ""
+
+#: ../../StaRS.rst:258
+msgid "ramas de entrada de filtro"
+msgstr ""
+
+#: ../../StaRS.rst:258
+msgid "Examples of different types/views of filter inlet branches. From top to bottom, a backwash branch (bottom view), a middle inlet branch (bottom view), top inlet branch (bottom view), and top inlet branch (side view)."
+msgstr ""
+
+#: ../../StaRS.rst:260
+msgid "There are three types of inlet branches, shown above. The bottom backwash branches have the most orifices to be able to handle the high backwash flow rate. This results in the backwash branches having insufficient head loss during normal filtration. To accommodate the low backwash branch head loss, an orifice plate is added to the backwash inlet during filtration. The middle two inlet modules both deliver clarified water to two sand layers and thus have at least twice as many orifices as the top inlet branches. The middle inlets have even more orifices to account for the added head loss in the inner trunks given that the inner trunks have double the flow rate of the top and bottom trunks during filtration. The ends of the branches are molded to create a sand-tight connection with the trunk and receptor pipes."
+msgstr ""
+
+#: ../../StaRS.rst:264
+msgid "Filter Appurtenances Figure Key"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "36"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Sand tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Receives, drains, and temporarily stores filter sand during filter maintenance operations"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "37"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Sand tank overflow weir"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Excess water discharges over this weir"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "38"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Slotted sand drain"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Discharges water from the sand"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "39"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Sand tank overflow drain"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Discharges overflow water from the sand tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "40"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Pipe gallery and filter backwash water tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Option to use this tank to enable recycle of backwash water"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "41"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Pipe gallery drain"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Discharges water from the pipe gallery"
+msgstr ""
+
+#: ../../StaRS.rst:278
+msgid "Plant Specifications"
+msgstr ""
+
+#: ../../StaRS.rst:283
+msgid "Distribution to the filter inlet tanks design parameters for :numref:`figure_filter_distribution` |filter_distribution_icon|"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Value"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Inlet channel**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Water depth"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.ioChannelsHW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Width"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.inletW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Height"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.ioChannelsH) no-sub``"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Wide weir**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.wideWeir.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.wideWeir.W) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum head loss"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.inletWeirHL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Removable gate**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.gateOpening.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.gateOpening.W) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Bypass channel**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bypassW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**LFOM**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Nominal diameter"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "SDR"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Number of rows of orifices"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.rowN) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum flow rate"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.Qm_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Head loss at maximum flow"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.HL_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Diameter of orifices"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.orificeD) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Space between orifices measured on the outside of the pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.orificeS) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Number of orifices in each row starting from bottom row"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.rowOrificeN_VEC) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Elevation of each row from zero flow datum"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.lfom.rowOrificeH_VEC) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Bypass pipe**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bypass.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bypass.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:318
+msgid "Inlet tanks design parameters for :numref:`figure_filter_inlet_tank` |filter_inlet_icon|"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Filter inlet tank**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Length"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.inletL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Overflow**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.overflow.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.overflow.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum water depth"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.overflow.HW_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Bubble weir**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bubbleWeir.opening.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bubbleWeir.opening.W) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Backwash orifice plate**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Orifice diameter"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.bwOrifice.D) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Backwash trunk**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum head loss during filtration"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.inletfiHE) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum velocity during filtration"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.fiV) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum head loss during backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.inletbwHE) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bwTrunk.bwV) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Inlet trunks**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.trunk.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.trunk.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.trunk.inletInnerHE) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inner trunks maximum velocity during filtration"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.trunk.innerV) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet 1 (backwash) pipe stub height"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "none"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet 2 pipe stub height above the slab"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.HSF) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet 3 pipe stub height above the slab"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "125 mm"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Inlet 4 pipe stub height above the slab"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "150 mm"
+msgstr ""
+
+#: ../../StaRS.rst:357
+msgid "Outlet tanks design parameters for :numref:`figure_filter_outlet_tank` |filter_outlet_icon|"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Outlet tank**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.outletL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.outletW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Outlet trunks**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.trunk.SDR) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Filter to waste**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.filterToWaste.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.filterToWaste.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Filtered water weir**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.HSF) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.outletWeirHL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Finished water tank**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Half of the width of the tank"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.finishedWaterW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Chlorination conduit**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.ioControls.chlorineConduit.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Finished water pipe**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.pipes.filtered.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.pipes.filtered.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:387
+msgid "Filter chambers design parameters for :numref:`figure_filter_chamber_siphon` |filter_chamber_icon|"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Filter chamber**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Number of filter chambers (duty/spare)"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.bay.N) no-sub` / :sub:`($..filter.fiPipes.bay.spare) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.L) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.bayW) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Number of stacked filters"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.layerN) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Height of each layer"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.layerH) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Filter chamber drain**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.slottedDrain.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**sand dump pipe**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandDump.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandDump.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Discharge height"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandDump.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Siphon pipe**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphon.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphon.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Initial flow rate at beginning of backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphon.initialQ) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Head loss at filter chamber design flow"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphon.HL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Number of orifices"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonManifold.portN) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonManifold.portD) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Orifice center to center spacing"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonManifold.portB) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Siphon air valve**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Nominal diameter siphon control air vent valve"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.airValveND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Siphon water seal**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Nominal diameter siphon siphon water seal"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonWaterSeal.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Head loss over the weir of the pipe"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonWaterSeal.HL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Optional concrete fill height"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.siphonWaterSeal.fillH) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Sand**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Depth of the sand that is fluidized during backwash"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.liveH) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Total depth of sand, including fluidized depth"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.H) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Density"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.RHO) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Porosity"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.PO) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Effective size"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.D_es) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Clean bed headloss at :sub:`($..filter.TEMP_min) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.HL_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Clean bed headloss at :sub:`($..filter.TEMP_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.HL_min) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Head loss to fluidize sand"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.bwHL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Bulk volume of sand per filter chamber (not accounting for volume of internal pipes)"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.VOL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Mass of sand per filter chamber (not accounting for volume of internal pipes)"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.sand.M) pending version update`"
+msgstr ""
+
+#: ../../StaRS.rst:434
+msgid "Filter internal piping design parameters for :numref:`figure_filter_internal_piping_modules` |filter_internalPiping_icon|"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Band clamps**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Band width"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.band.W) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Band thickness"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.band.T) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Winged branch pipes**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.inlet.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.inlet.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Slotted branch pipes**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.outlet.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.outlet.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Length (not including molded ends)"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.L) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Receptor pipes**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.receptor.pipe.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.fiPipes.receptor.pipe.SDR) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Trunk spacer**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Thickness"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.internalPipes.spacer.spacerData.factoryT) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Receptor spacer**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Anchor bolts**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum force on anchor bolts"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.internalPipes.trunkCableF) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Cable**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Diameter"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.internalPipes.spacer.cableD) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum force on trunk cables"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Hose clamp**"
+msgstr ""
+
+#: ../../StaRS.rst:466
+msgid "Filter appurtenances design parameters"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Sand tank**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Minimum volume"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandChannel.L) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandChannel.W) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Sand tank overflow weir**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.sandChannel.endWallH) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Length (width of sand tank)"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Slotted sand drain**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Sand tank overflow drain**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.bwTankOverflow.ND) no-sub` inch"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Pipe gallery and filter backwash water tank**"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum depth"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.bwTank.HW_max) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Volume"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid ":sub:`($..filter.bwTank.VOL) no-sub`"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "Maximum number of backwash cycles"
+msgstr ""
+
+#: ../../StaRS.rst:1
+msgid "**Pipe gallery drain**"
+msgstr ""

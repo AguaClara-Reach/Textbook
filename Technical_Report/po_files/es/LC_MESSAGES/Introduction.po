@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../Introduction.rst:5
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../../Introduction.rst:9
+msgid "Permission and Licensing Information"
+msgstr "Información de permiso y licencia"
+
+#: ../../Introduction.rst:12
+msgid "Copyright © 2025 AguaClara Reach"
+msgstr "Copyright © 2025 AguaClara Reach"
+
+#: ../../Introduction.rst:14
+msgid "Authors:  AguaClara Reach"
+msgstr "Autores: AguaClara Reach"
+
+#: ../../Introduction.rst:16
+msgid ""
+"This design was created using the AguaClara Infrastructure Design Engine "
+"developed by AguaClara Reach. This work is licensed under `CC BY-NC-SA 4.0 "
+"<https://creativecommons.org/licenses/by-nc-sa/4.0/>`_"
+msgstr ""
+"Este diseño se creó utilizando el motor de diseño de infraestructura "
+"AguaClara desarrollado por AguaClara Reach. Este trabajo tiene licencia bajo"
+" `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_"
+
+#: ../../Introduction.rst:18
+msgid ""
+"Any water treatment plants built using this WORK shall be designed and "
+"supervised by a licensed civil engineer."
+msgstr ""
+"Cualquier planta de tratamiento de agua construidas utilizando este trabajo "
+"será diseñada y supervisada por un ingeniero civil con licencia."
+
+#: ../../Introduction.rst:20
+msgid ""
+"In no event shall AguaClara Reach or their employees be liable to any party "
+"for direct, indirect, special, incidental, or consequential damages, "
+"including lost profits, arising out of the use of work and its associated "
+"copyrights, even if AguaClara Reach may have been advised of the possibility"
+" of such damage."
+msgstr ""
+"En ningún caso lo hará AguaClara Reach o sus empleados serán responsables "
+"ante cualquier parte por daños directos, indirectos, especiales, "
+"incidentales o consecuentes, incluidas las ganancias perdidas, que surgen "
+"del uso del trabajo y sus derechos de autor asociados, incluso si alcanzan "
+"AguaClara Puede haber sido informado de la posibilidad de tal daño."
+
+#: ../../Introduction.rst:22
+msgid ""
+"The work provided herein is on an \"as is\" basis, and AguaClara Reach, and "
+"their employees have no obligation to provide maintenance, support, updates,"
+" enhancements, or modifications.  AguaClara Reach and their employees make "
+"no representations and extend no warranties of any kind, either implied or "
+"expressed, including, but not limited to, the implied warranties of "
+"merchantability or fitness for a particular purpose, or that the use of work"
+" and its associated copyrights will not infringe any patent, trademark or "
+"other rights."
+msgstr ""
+"El trabajo proporcionado en este documento se basa en una base \"como es\", "
+"y AguaClara Reach y sus empleados no tienen la obligación de proporcionar "
+"mantenimiento, soporte, actualizaciones, mejoras o modificaciones. AguaClara"
+" Reach y sus empleados no hacen representaciones ni no extienden garantías "
+"de ningún tipo, ya sea implícitos o expresados, incluidas, entre otros, las "
+"garantías implícitas de comerciabilidad o idoneidad para un propósito "
+"particular, o que el uso del trabajo y sus derechos de autor asociados no "
+"infringirán ninguna patente, marca comercial u otros derechos."
+
+#: ../../Introduction.rst:24
+msgid ""
+"Users of WORK shall indemnify, hold harmless and defend AguaClara Reach, its"
+" officers, employees, agents, and the sponsors of the research that let to "
+"WORK against any and all claims, suits, losses, damage, costs, fees, and "
+"expenses resulting from or arising out of use of WORK.  This indemnification"
+" shall include, but not be limited to, any product liability.  Users of "
+"WORK, at their sole cost and expense, shall sufficiently insure their "
+"activities in connection with the WORK and obtain, keep in force, and "
+"maintain insurance or an equivalent program of self insurance.  AguaClara "
+"Reach shall notify users of WORK in writing of any claim or suit brought "
+"against AguaClara Reach in respect of which AguaClara Reach intends to "
+"invoke the provisions of this paragraph.  Users of WORK shall keep AguaClara"
+" Reach informed on a current basis of its defense of any claims under this "
+"paragraph."
+msgstr ""
+"Los usuarios del trabajo lo indemnizarán, retenerán y defenderán AguaClara "
+"Reach, sus funcionarios, empleados, agentes y los patrocinadores de la "
+"investigación que permitieron trabajar contra todos y cada uno de los "
+"reclamos, demandas, pérdidas, daños, costos, tarifas y gastos resultantes o "
+"derrotados del trabajo. Esta indemnización incluirá, entre otros, cualquier "
+"responsabilidad del producto. Los usuarios de trabajo, a su único costo y "
+"gasto, asegurarán suficientemente sus actividades en relación con el trabajo"
+" y obtendrán, mantendrán en vigor y mantengan un seguro o un programa "
+"equivalente de autosuficiencia. AguaClara Reach notificará a los usuarios "
+"del trabajo por escrito de cualquier reclamo o demanda presentada contra "
+"AguaClara Reach con respecto al cual AguaClara Reach tiene la intención de "
+"invocar las disposiciones de este párrafo. Los usuarios del trabajo deberán "
+"mantener el alcance AguaClara informado sobre una base actual de su defensa "
+"de cualquier reclamo bajo este párrafo."
+
+#: ../../Introduction.rst:27
+msgid "AguaClara Plant Design Goals"
+msgstr "Objetivos de diseño de plantas AguaClara"
+
+#: ../../Introduction.rst:29
+msgid ""
+"AguaClara drinking water treatment technologies remove turbidity and "
+"pathogens from raw water and to deactivate remaining pathogens before "
+"distribution. AguaClara technologies are best suited for centralized water "
+"treatment in communities of at least 200 people. AguaClara technologies "
+"would not be appropriate for treatment of low-turbidity groundwater where "
+"the primary contamination issues are chemical, such as nitrate, fluoride, or"
+" heavy metals. AguaClara technologies are gravity-driven and do not require "
+"electricity. When required by the topography, pumps can raise the source "
+"water to the elevation necessary for water treatment and water distribution."
+msgstr ""
+"Tecnologías de tratamiento de agua potable AguaClara Retire la turbidez y "
+"los patógenos del agua cruda y para desactivar los patógenos restantes antes"
+" de la distribución. tecnologías AguaClara son los más adecuados para el "
+"tratamiento centralizado de agua en comunidades de al menos 200 personas. "
+"tecnologías AguaClara No sería apropiado para el tratamiento del agua "
+"subterránea de baja turbidez, donde los problemas primarios de contaminación"
+" son químicos, como nitrato, fluoruro o metales pesados. tecnologías "
+"AguaClara están impulsados ​​por la gravedad y no requieren electricidad. "
+"Cuando la topografía lo requiera, las bombas pueden elevar el agua fuente a "
+"la elevación necesaria para el tratamiento del agua y la distribución del "
+"agua."
+
+#: ../../Introduction.rst:31
+msgid ""
+"AguaClara treatment technologies include trash and grit removal, flow "
+"measurement, chemical dosing, rapid mix, flocculation, floc filter, "
+"sedimentation, filtration, and disinfection (see "
+":numref:`figure_treatment_train`). The floc filter is a fluidized suspension"
+" of flocs located in the bottom of the clarifier.  An AguaClara treatment "
+"plant may be designed with all of these processes, or if raw water turbidity"
+" is consistently less than about 3 NTU, the treatment plant may be designed "
+"without flocculation, floc filter, and sedimentation."
+msgstr ""
+"tecnologías de tratamiento AguaClara Incluya la eliminación de basura y "
+"arena, medición de flujo, dosificación química, mezcla rápida, floculación, "
+"filtro de floc, sedimentación, filtración y desinfección (ver "
+":numref:`figure_treatment_train`). El filtro FLOC es una suspensión "
+"fluidizada de flocos ubicados en la parte inferior del aclarador. Una planta"
+" de tratamiento AguaClara Puede diseñarse con todos estos procesos, o si la "
+"turbidez de agua cruda es consistentemente inferior a aproximadamente 3 NTU,"
+" la planta de tratamiento puede diseñarse sin floculación, filtro de floc y "
+"sedimentación."
+
+#: ../../Introduction.rst:-1
+msgid "TREN de tratamiento de CA"
+msgstr "TREN de tratamiento de CA"
+
+#: ../../Introduction.rst:40
+msgid "Schematic showing the AguaClara treatment processes."
+msgstr "Esquema que muestra los procesos de tratamiento AguaClara."
+
+#: ../../Introduction.rst:44
+msgid "Key"
+msgstr "Llave"
+
+#: ../../Introduction.rst:44
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Introduction.rst:46
+msgid "1"
+msgstr "1"
+
+#: ../../Introduction.rst:46
+msgid "Raw water from source"
+msgstr "Agua cruda de la fuente"
+
+#: ../../Introduction.rst:47
+msgid "2"
+msgstr "2"
+
+#: ../../Introduction.rst:47
+msgid "Entrance tank"
+msgstr "Tanque de entrada"
+
+#: ../../Introduction.rst:48
+msgid "3"
+msgstr "3"
+
+#: ../../Introduction.rst:48
+msgid "Chemical dose controller"
+msgstr "Chemical dose controller"
+
+#: ../../Introduction.rst:49
+msgid "4"
+msgstr "4"
+
+#: ../../Introduction.rst:49
+msgid "Chemical constant level tanks"
+msgstr "Tanques de nivel constante químico"
+
+#: ../../Introduction.rst:50
+msgid "5"
+msgstr "5"
+
+#: ../../Introduction.rst:50
+msgid "Flocculator"
+msgstr "Floculador"
+
+#: ../../Introduction.rst:51
+msgid "6"
+msgstr "6"
+
+#: ../../Introduction.rst:51
+msgid "Clarifier"
+msgstr "Clarificador"
+
+#: ../../Introduction.rst:52
+msgid "7"
+msgstr "7"
+
+#: ../../Introduction.rst:52
+msgid "Stacked rapid sand filter"
+msgstr "Filtro de arena rápida apilada"
+
+#: ../../Introduction.rst:53
+msgid "8"
+msgstr "8"
+
+#: ../../Introduction.rst:53
+msgid "Treated water to the community distribution tank"
+msgstr "Agua tratada al tanque de distribución de la comunidad"
+
+#: ../../Introduction.rst:57
+msgid "Water Quality Parameters"
+msgstr "Parámetros de calidad del agua"
+
+#: ../../Introduction.rst:59
+msgid ""
+"The tables below summarize the raw water quality parameters for which "
+"AguaClara treatment technologies are appropriate."
+msgstr ""
+"Las tablas a continuación resumen los parámetros de calidad de agua cruda "
+"para los cuales las tecnologías de tratamiento AguaClara son apropiados."
+
+#: ../../Introduction.rst:63
+msgid "Water Quality Parameters Treated by AguaClara Plants"
+msgstr "Parámetros de calidad del agua tratados por plantas AguaClara"
+
+#: ../../Introduction.rst:1
+msgid "Water Quality Parameter"
+msgstr "Parámetro de calidad del agua"
+
+#: ../../Introduction.rst:1
+msgid "Comments"
+msgstr "Comentario"
+
+#: ../../Introduction.rst:1
+msgid "Turbidity"
+msgstr "Turbiedad"
+
+#: ../../Introduction.rst:1
+msgid ""
+"Raw water with turbidity less than 600 NTU can consistently be treated to "
+"less than 1 NTU. Treatment of higher turbidities may require a customized "
+"clarifier design."
+msgstr ""
+"El agua cruda con turbidez inferior a 600 NTU puede tratarse de manera "
+"consistente a menos de 1 NTU. El tratamiento de turbididades más altas puede"
+" requerir un diseño de aclaración personalizado."
+
+#: ../../Introduction.rst:1
+msgid "Color/Dissolved Organic Matter (DOM)"
+msgstr "Color/materia orgánica disuelta (DOM)"
+
+#: ../../Introduction.rst:1
+msgid ""
+"For raw water with high color or total organic matter content, pilot studies"
+" are recommended to confirm the efficacy of the coagulant and the ability of"
+" the flocs to settle."
+msgstr ""
+"Para el agua cruda con alto color o contenido total de materia orgánica, se "
+"recomiendan estudios piloto para confirmar la eficacia del coagulante y la "
+"capacidad de los flocos para asentarse."
+
+#: ../../Introduction.rst:1
+msgid "pH"
+msgstr "ph"
+
+#: ../../Introduction.rst:1
+msgid ""
+"pH can be lowered to prevent calcium carbonate scaling in distribution "
+"piping or increased to reduce corrosion potential."
+msgstr ""
+"El pH se puede reducir para evitar la escala de carbonato de calcio en las "
+"tuberías de distribución o aumentar para reducir el potencial de corrosión."
+
+#: ../../Introduction.rst:1
+msgid "Microbiological contamination"
+msgstr "Contaminación microbiológica"
+
+#: ../../Introduction.rst:1
+msgid ""
+"The AguaClara treatment processes are designed to remove pathogens through "
+"particle removal and deactivate pathogens through disinfection."
+msgstr ""
+"Los procesos de tratamiento AguaClara están diseñados para eliminar los "
+"patógenos a través de la eliminación de partículas y desactivar los "
+"patógenos a través de la desinfección."
+
+#: ../../Introduction.rst:74
+msgid ""
+"AguaClara plants are designed to treat the water quality parameters listed "
+"above. Some other contaminants may also be removed, but that must be "
+"verified by jar and/or pilot scale testing. All other parameters should be "
+"within acceptable ranges in the raw water or should be treated by other "
+"means."
+msgstr ""
+"plantas AguaClara están diseñados para tratar los parámetros de calidad del "
+"agua enumerados anteriormente. También se pueden eliminar algunos otros "
+"contaminantes, pero eso debe verificarse mediante pruebas de escala JAR y/o "
+"piloto. Todos los demás parámetros deben estar dentro de los rangos "
+"aceptables en el agua cruda o deben tratarse por otros medios."
+
+#: ../../Introduction.rst:76
+msgid ""
+"Before beginning construction of an AguaClara treatment plant, bench-scale "
+"jar testing should be performed to confirm that polyaluminum chloride, "
+"aluminum sulfate, or another proposed coagulant is able to successfully form"
+" flocs that settle. Tropical forested watersheds at elevations above about "
+"1000 m can produce water with high concentrations of dissolved organic "
+"matter. High concentrations of dissolved organic matter are difficult to "
+"treat when the water turbidity is less than approximately 10 NTU because the"
+" resulting flocs have a density that is close to the density of water."
+msgstr ""
+"Antes de comenzar la construcción de una planta de tratamiento AguaClara, se"
+" deben realizar pruebas de frasco a escala de banco para confirmar que el "
+"cloruro de polialuminio, el sulfato de aluminio u otro coagulante propuesto "
+"puede formar con éxito flocs que se asientan. Las cuencas boscosas "
+"tropicales en elevaciones superiores a aproximadamente 1000 m pueden "
+"producir agua con altas concentraciones de materia orgánica disuelta. Las "
+"altas concentraciones de materia orgánica disuelta son difíciles de tratar "
+"cuando la turbidez de agua es inferior a aproximadamente 10 NTU porque los "
+"flóculos resultantes tienen una densidad cercana a la densidad del agua."
+
+#: ../../Introduction.rst:80
+msgid "Notes on the Technical Report"
+msgstr "Notas sobre el informe técnico"
+
+#: ../../Introduction.rst:82
+msgid ""
+"Figures and photos are provided for reference and are not to scale or "
+"specific to this project. Please use the provided values and dimensions from"
+" the Plant Specifications sections for your project."
+msgstr ""
+"Las cifras y las fotos se proporcionan como referencia y no deben escalar o "
+"específicas de este proyecto. Utilice los valores y dimensiones "
+"proporcionados de las secciones de especificaciones de la planta para su "
+"proyecto."
+
+#: ../../Introduction.rst:83
+msgid ""
+"Figure keys are unique to each chapter, except for the Chemical Dosing and "
+"Entrance Tank chapters, where figure keys are unique to each sub-chapter."
+msgstr ""
+"Las teclas de figura son exclusivas de cada capítulo, excepto los capítulos "
+"de dosis y tanques de entrada químicos, donde las teclas de figuras son "
+"exclusivas de cada subcapítulo."
+
+#: ../../Introduction.rst:84
+msgid "Use the Table of Contents to find a specific process or technology."
+msgstr ""
+"Use la tabla de contenido para encontrar un proceso o tecnología específica."
+
+#: ../../Introduction.rst:89
+msgid "Each chapter contains:"
+msgstr "Cada capítulo contiene:"
+
+#: ../../Introduction.rst:86
+msgid "A brief description and purpose of the process or technology"
+msgstr "Una breve descripción y propósito del proceso o tecnología"
+
+#: ../../Introduction.rst:87
+msgid "A brief description of flow paths"
+msgstr "Una breve descripción de las rutas de flujo"
+
+#: ../../Introduction.rst:88
+msgid "Relevant labeled figures and photos"
+msgstr "Figuras y fotos etiquetadas relevantes"
+
+#: ../../Introduction.rst:89
+msgid "Figure keys"
+msgstr "Teclas de figura"
+
+#: ../../Introduction.rst:90
+msgid ""
+"Design specifications including civil construction values, hydraulic values,"
+" and fabrication and part size values"
+msgstr ""
+"Especificaciones de diseño que incluyen valores de construcción civil, "
+"valores hidráulicos y valores de fabricación y tamaño de pieza"
+
+#~ msgid "AC treatment train"
+#~ msgstr "Tren de tratamiento de CA"

@@ -1,0 +1,1259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../Chemical_Dosing.rst:5
+msgid "Chemical Dosing"
+msgstr "Dosificación química"
+
+#: ../../Chemical_Dosing.rst:8
+msgid "General Chemical Dosing"
+msgstr "Dosificación química general"
+
+#: ../../Chemical_Dosing.rst:11 ../../Chemical_Dosing.rst:52
+#: ../../Chemical_Dosing.rst:165 ../../Chemical_Dosing.rst:242
+#: ../../Chemical_Dosing.rst:315 ../../Chemical_Dosing.rst:359
+msgid "Purpose and Description"
+msgstr "Propósito y descripción"
+
+#: ../../Chemical_Dosing.rst:13
+msgid ""
+"The coagulation and disinfection processes require the precise dosage of "
+"coagulant to the plant influent and calcium hypochlorite to the plant "
+"effluent. To carry out this process without pumps, the AguaClara plant uses "
+"a hydraulic dosing system."
+msgstr ""
+"Los procesos de coagulación y desinfección requieren la dosis precisa de "
+"coagulante para la planta influyente e hipoclorito de calcio al efluente de "
+"la planta. Para llevar a cabo este proceso sin bombas, la planta AguaClara "
+"Utiliza un sistema de dosificación hidráulica."
+
+#: ../../Chemical_Dosing.rst:15
+msgid "The main components of the system are:"
+msgstr "Los componentes principales del sistema son:"
+
+#: ../../Chemical_Dosing.rst:17
+msgid "Tanks to store the coagulant and chlorine stock solutions"
+msgstr "Tanques para almacenar las soluciones de coagulantes y cloro"
+
+#: ../../Chemical_Dosing.rst:18
+msgid ""
+"An elevated platform to support the chemical storage tanks at the correct "
+"elevation for gravity powered dosing"
+msgstr ""
+"Una plataforma elevada para soportar los tanques de almacenamiento químico a"
+" la elevación correcta para la dosificación alimentada por gravedad"
+
+#: ../../Chemical_Dosing.rst:19
+msgid "A flow measurement calibration column for each chemical"
+msgstr "Una columna de calibración de medición de flujo para cada químico"
+
+#: ../../Chemical_Dosing.rst:20
+msgid ""
+"A pair of constant level tanks (CLTs) with float valves that maintain a "
+"constant level for both chemical solutions"
+msgstr ""
+"Un par de tanques de nivel constante (CLT) con válvulas flotantes que "
+"mantienen un nivel constante para ambas soluciones químicas"
+
+#: ../../Chemical_Dosing.rst:21
+msgid ""
+"Two dosing tube modules that provide the necessary relationship between "
+"pressure drop and chemical flow rates for each chemical"
+msgstr ""
+"Dos módulos de tubo de dosificación que proporcionan la relación necesaria "
+"entre la caída de presión y las tasas de flujo químico para cada químico"
+
+#: ../../Chemical_Dosing.rst:22
+msgid ""
+"A chemical doser (the balance) that connects the water level in the plant's "
+"entrance tank to the level at the outlet of the chemical dosing system"
+msgstr ""
+"Un dos años químico (el equilibrio) que conecta el nivel de agua en el "
+"tanque de entrada de la planta al nivel en la salida del sistema de "
+"dosificación química"
+
+#: ../../Chemical_Dosing.rst:24
+msgid ""
+"This system has the characteristic of maintaining a constant chemical "
+"**dosage** even as the flow rate through the plant varies. The plant "
+"operator can vary the chemical dosage directly, without doing any "
+"calculations, and without having to manipulate the system every time the "
+"flow rate in the plant changes. The AguaClara dosing system provides the "
+"added benefit of automatically turning off the chemical flow when there is "
+"no flow in the plant. This provides security against contamination with "
+"excess chemicals and chemical waste in the event that the plant is shut down"
+" inadvertently which may occur if the transmission line is damaged."
+msgstr ""
+"Este sistema tiene la característica de mantener una dosis constante de "
+"productos químicos **** incluso cuando el caudal a través de la planta "
+"varía. El operador de la planta puede variar la dosis química directamente, "
+"sin hacer ningún cálculo y sin tener que manipular el sistema cada vez que "
+"el caudal en la planta cambia. El sistema de dosificación AguaClara "
+"Proporciona el beneficio adicional de apagar automáticamente el flujo "
+"químico cuando no hay flujo en la planta. Esto proporciona seguridad contra "
+"la contaminación con el exceso de productos químicos y los desechos químicos"
+" en caso de que la planta se apague inadvertidamente, lo que puede ocurrir "
+"si la línea de transmisión está dañada."
+
+#: ../../Chemical_Dosing.rst:27
+msgid "Chemical Flow Path"
+msgstr "Camino de flujo químico"
+
+#: ../../Chemical_Dosing.rst:28
+msgid ""
+"The liquid chemical stock solutions are prepared and stored in the chemical "
+"stock tanks, on the chemical platform. Chemicals exit the stock tanks "
+"through a sloped tube settler (to prevent sediment from exiting the tank "
+"through the chemical supply tubing) and then continue on to the constant "
+"level tanks (CLT). The sediment in the chemical stock tanks is removed "
+"through the drain during tank cleaing. The CLT uses a float valve to provide"
+" a relatively constant chemical level. The chemicals exit the CLT and flow "
+"to a set of dosing tubes that serve as linear resistors with head loss "
+"proportional to the chemical flow rate. The chemicals continue to the dose "
+"controller where the operator can set the chemical dosages by adjusting the "
+"position of a slider. The chemicals leaving the dose controller are then "
+"routed to the chemical drip locations. The coagulant is dripped into the "
+"LFOM and the chlorine is dripped into the filter exit tank."
+msgstr ""
+"Las soluciones de stock químico líquido se preparan y almacenan en los "
+"tanques de stock químico, en la plataforma química. Los productos químicos "
+"salen de los tanques de caldo a través de un colonizador de tubo inclinado "
+"(para evitar que el sedimento salga del tanque a través del tubo de "
+"suministro químico) y luego continúe hasta los tanques de nivel constante "
+"(CLT). El sedimento en los tanques de caldo químico se retira a través del "
+"desagüe durante la escisión del tanque. El CLT utiliza una válvula flotante "
+"para proporcionar un nivel químico relativamente constante. Los productos "
+"químicos salen del CLT y fluyen a un conjunto de tubos de dosificación que "
+"sirven como resistencias lineales con pérdida de cabeza proporcional a la "
+"velocidad de flujo químico. Los productos químicos continúan hasta el "
+"controlador de dosis donde el operador puede establecer las dosis químicas "
+"ajustando la posición de un control deslizante. Los productos químicos que "
+"salen del controlador de dosis se enrutan hasta las ubicaciones de goteo "
+"químico. El coagulante se gotea en el LFOM y el cloro se gotea en el tanque "
+"de salida del filtro."
+
+#: ../../Chemical_Dosing.rst:31 ../../Chemical_Dosing.rst:133
+#: ../../Chemical_Dosing.rst:218 ../../Chemical_Dosing.rst:271
+#: ../../Chemical_Dosing.rst:344 ../../Chemical_Dosing.rst:433
+msgid "Plant Specifications"
+msgstr "Especificaciones de planta"
+
+#: ../../Chemical_Dosing.rst:33
+msgid "Chemical Dosing General Specifications"
+msgstr "Dosificación química Especificaciones generales"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Value"
+msgstr "Valor"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Required chemicals"
+msgstr "Químicos requeridos"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant, Chlorine"
+msgstr "Coagulante, cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Plant maximum flow rate"
+msgstr "Caudal máximo de la planta"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..et.lfom.Qm_max) no-sub`"
+msgstr ":sub:`($..et.lfom.Qm_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Maximum head loss thru doser tubes"
+msgstr "Pérdida máxima de la cabeza a través de tubos doser"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..doserTubes.HL_max) no-sub`"
+msgstr ":sub:`($..doserTubes.HL_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant stock concentration"
+msgstr "Concentración de stock coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.coagStockC) no-sub`"
+msgstr ":sub:`($..chemPipes.coagStockC) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant maximum dose"
+msgstr "Dosis máxima coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.coagDoseCm_max) no-sub`"
+msgstr ":sub:`($..chemPipes.coagDoseCm_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant maximum flow rate"
+msgstr "Caudal coagulante caudal"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.coagQu_max) no-sub`"
+msgstr ":sub:`($..chemPipes.coagQu_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine stock concentration"
+msgstr "Concentración de stock de cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.chlorineStockC) no-sub`"
+msgstr ":sub:`($..chemPipes.chlorineStockC) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine maximum dose"
+msgstr "Dosis máximo de cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.chlorineDoseCm_max) no-sub`"
+msgstr ":sub:`($..chemPipes.chlorineDoseCm_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine maximum flow rate"
+msgstr "Caudal máximo de cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.chlorineQu_max) no-sub`"
+msgstr ":sub:`($..chemPipes.chlorineQu_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:50
+msgid "Chemical Stock Tanks"
+msgstr "Tanques de caldo químicos"
+
+#: ../../Chemical_Dosing.rst:53
+msgid ""
+"The chemical stock tanks are used to store the following chemicals: "
+"coagulant and chlorine. There are two storage tanks for each chemical."
+msgstr ""
+"Los tanques de stock químicos se utilizan para almacenar los siguientes "
+"productos químicos: coagulante y cloro. Hay dos tanques de almacenamiento "
+"para cada químico."
+
+#: ../../Chemical_Dosing.rst:61
+msgid "descripción general del tanque de stock químico"
+msgstr "descripción general del tanque de stock químico"
+
+#: ../../Chemical_Dosing.rst:61
+msgid "Overview of the chemical platform"
+msgstr "Descripción general de la plataforma química"
+
+#: ../../Chemical_Dosing.rst:63
+msgid ""
+"Chemical Platform Overview Figure Key for "
+":numref:`figure_chemical_stock_tanks_overview`"
+msgstr ""
+"Descripción general de la plataforma química Clave de figura para "
+":numref:`figure_chemical_stock_tanks_overview`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Key"
+msgstr "Llave"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "1"
+msgstr "1"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical stock platform"
+msgstr "Plataforma de stock químico"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "2"
+msgstr "2"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant stock tanks"
+msgstr "Tanques de stock coagulantes"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "3"
+msgstr "3"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine stock tanks"
+msgstr "Tanques de stock de cloro"
+
+#: ../../Chemical_Dosing.rst:80 ../../Chemical_Dosing.rst:98
+msgid "botthera de tanque de caldo químico"
+msgstr "botthera de tanque de caldo químico"
+
+#: ../../Chemical_Dosing.rst:80
+msgid "Bottom view of the chemical stock tanks"
+msgstr "Vista inferior de los tanques de stock químico"
+
+#: ../../Chemical_Dosing.rst:83
+msgid ""
+"Chemical Platform Bottom View Figure Key for "
+":numref:`figure_chem_platform_bottom`"
+msgstr ""
+"Clave de figura de vista inferior de la plataforma química para "
+":numref:`figure_chem_platform_bottom`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "4"
+msgstr "4"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical pipes - tank to CLT"
+msgstr "Tuberías químicas: tanque a CLT"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "5"
+msgstr "5"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical drain pipes"
+msgstr "Tuberías de drenaje químico"
+
+#: ../../Chemical_Dosing.rst:98
+msgid "Detail view of the chemical stock tanks valves"
+msgstr "Vista detallada de las válvulas de tanques de stock químico"
+
+#: ../../Chemical_Dosing.rst:100
+msgid ""
+"Valves with orange handles are compatible with chlorine and other chemicals,"
+" and have chemical-resistant o'rings."
+msgstr ""
+"Las válvulas con manijas de naranja son compatibles con el cloro y otros "
+"productos químicos, y tienen O'Rings resistentes a los productos químicos."
+
+#: ../../Chemical_Dosing.rst:102
+msgid ""
+"Chemical Platform - Bottom View Cut-Out Figure Key for "
+":numref:`figure_chem_platform_cutout`"
+msgstr ""
+"Plataforma química: tecla de figura de corte de vista inferior para "
+":numref:`figure_chem_platform_cutout`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "6"
+msgstr "6"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Pipe clamping hangers"
+msgstr "Perchas de sujeción de tuberías"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "7"
+msgstr "7"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Union to connect chemical piping to CLT"
+msgstr "Unión para conectar tuberías químicas a CLT"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "8"
+msgstr "8"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve for chemical drainage"
+msgstr "Válvula para drenaje químico"
+
+#: ../../Chemical_Dosing.rst:119
+msgid "sección de tanque de stock químico"
+msgstr "sección de tanque de stock químico"
+
+#: ../../Chemical_Dosing.rst:119
+msgid "Section view of the chemical stock tank"
+msgstr "Vista de sección del tanque de stock químico"
+
+#: ../../Chemical_Dosing.rst:122
+msgid ""
+"Chemical Platform Section View Figure Key for "
+":numref:`figure_chem_stock_tank_section_basic`"
+msgstr ""
+"Clave de la vista de la sección de la plataforma química para "
+":numref:`figure_chem_stock_tank_section_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "10"
+msgstr "10"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Through-wall adaptor for chemical tank to CLT piping"
+msgstr "Adaptador de pared a través del tanque químico a la tubería CLT"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "11"
+msgstr "11"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tube settler"
+msgstr "Colonizador de tubo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "12"
+msgstr "12"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Through-wall adaptor for chemical tank to drain piping"
+msgstr "Adaptador de pared a través del tanque químico para drenar la tubería"
+
+#: ../../Chemical_Dosing.rst:134
+msgid ""
+"Chemical Platform Specifications for "
+":numref:`figure_chemical_stock_tanks_overview`-:numref:`figure_chem_stock_tank_section_basic`"
+msgstr "Especificaciones de plataforma química para __RST1 __-__ RST2__"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Width"
+msgstr "Ancho"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.OW) no-sub`"
+msgstr ":sub:`($..chemPlatform.OW) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Length"
+msgstr "Longitud"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.OL) no-sub`"
+msgstr ":sub:`($..chemPlatform.OL) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Distance between top of plant floor and top of platform floor"
+msgstr ""
+"Distancia entre la parte superior del piso de la planta y la parte superior "
+"del piso de la plataforma"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.H) no-sub`"
+msgstr ":sub:`($..chemPlatform.H) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant tank"
+msgstr "Tanque coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Volume"
+msgstr "Volumen"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.coagTank.VOLm) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.coagTank.VOLm) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Height"
+msgstr "Altura"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.coagTank.H) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.coagTank.H) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Bottom Diameter"
+msgstr "Diámetro inferior"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.coagTank.botD) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.coagTank.botD) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine tank"
+msgstr "Tanque de cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.chlorineTank.VOLm) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.chlorineTank.VOLm) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.chlorineTank.H) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.chlorineTank.H) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.chlorineTank.botD) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.chlorineTank.botD) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "5-12"
+msgstr "5-12"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Dose and drain plumbing nominal diameter"
+msgstr "Diámetro nominal de fontanería de dosis y drenaje"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.dosing.ND) no-sub` inch"
+msgstr ":sub:`($..chemPipes.dosing.ND) no-sub` pulgada"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Height of stock tanks above constant head tanks"
+msgstr ""
+"Altura de los tanques de caldo sobre los tanques constantes de la cabeza"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.platformCltHW_delta) no-sub`"
+msgstr ":sub:`($..chemPlatform.platformCltHW_delta) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Maximum head loss through the float valve orifice"
+msgstr ""
+"Pérdida máxima de la cabeza a través del orificio de la válvula flotante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPlatform.chemBase.clt.floatValve.HL_max) no-sub`"
+msgstr ":sub:`($..chemPlatform.chemBase.clt.floatValve.HL_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:158
+msgid ""
+"All of the chemical feed and drain piping uses a nominal diameter of  "
+":sub:`($..chemPipes.dosing.ND) no-sub` inch."
+msgstr ""
+"Toda la tubería química de alimentación y drenaje utiliza un diámetro "
+"nominal de :sub:`($..chemPipes.dosing.ND) no-sub` pulgadas."
+
+#: ../../Chemical_Dosing.rst:162
+msgid "Constant Level Tanks"
+msgstr "Tanques de nivel constante"
+
+#: ../../Chemical_Dosing.rst:166
+msgid ""
+"The constant level tank (CLT) system provides convenient central controls "
+"for selection of stock tank, flow calibration, purging sediment, and "
+"selection of which of the redundant chemical feed systems to use. The "
+"redundant systems facilitate cleaning and maintenance. The dosing system "
+"controls are centralized around the constant level tanks (see "
+":numref:`figure_clt_overview`)."
+msgstr ""
+"El sistema de tanque de nivel constante (CLT) proporciona controles "
+"centrales convenientes para la selección del tanque de stock, la calibración"
+" de flujo, la purga de sedimentos y la selección de los cuales utilizar los "
+"sistemas de alimentación química redundantes. Los sistemas redundantes "
+"facilitan la limpieza y el mantenimiento. Los controles del sistema de "
+"dosificación están centralizados alrededor de los tanques de nivel constante"
+" (ver :numref:`figure_clt_overview`)."
+
+#: ../../Chemical_Dosing.rst:174
+msgid "descripción general del tanque de nivel constante"
+msgstr "descripción general del tanque de nivel constante"
+
+#: ../../Chemical_Dosing.rst:174
+msgid ""
+"Overview of the constant level tank module mounted on the side of the "
+"chemical stock tank platform."
+msgstr ""
+"Descripción general del módulo de tanque de nivel constante montado en el "
+"lado de la plataforma de tanque de stock químico."
+
+#: ../../Chemical_Dosing.rst:176
+msgid "CLT Overview Figure Key for :numref:`figure_clt_overview`"
+msgstr ""
+"Clave de cifra de descripción general de CLT para "
+":numref:`figure_clt_overview`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical stock tank volume and flow calibration column sight tube"
+msgstr ""
+"Tubo de vista de la columna de calibración del tanque y calibración de flujo"
+" de flujo de flujo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Constant level tank"
+msgstr "Tanque de nivel constante"
+
+#: ../../Chemical_Dosing.rst:1 ../../Chemical_Dosing.rst:254
+msgid "Dosing tube module"
+msgstr "Módulo de tubo de dosificación"
+
+#: ../../Chemical_Dosing.rst:186
+msgid ""
+"The constant level tanks prevent the changing chemical levels in the stock "
+"tanks from influencing the flow rate through the dosing system. Float valves"
+" maintain a relatively constant level of chlorine and coagulant. The float "
+"valves are sized to provide up to the maximum chemical flow rate of "
+":sub:`($..chemPipes.chemQu_max) no-sub` given the minimum head provided by "
+"stock tanks (:sub:`($..floatvalveHL_bod) no-sub`)."
+msgstr ""
+"Los tanques de nivel constante evitan que los niveles químicos cambiantes en"
+" los tanques de stock influyan en el caudal a través del sistema de "
+"dosificación. Las válvulas flotantes mantienen un nivel relativamente "
+"constante de cloro y coagulante. Las válvulas flotantes están dimensionadas "
+"para proporcionar hasta la velocidad de flujo químico máximo de "
+":sub:`($..chemPipes.chemQu_max) no-sub` dada la cabeza mínima proporcionada "
+"por los tanques de stock (:sub:`($..floatvalveHL_bod) no-sub`)."
+
+#: ../../Chemical_Dosing.rst:194 ../../Chemical_Dosing.rst:254
+msgid "detalles del tanque de nivel constante"
+msgstr "detalles del tanque de nivel constante"
+
+#: ../../Chemical_Dosing.rst:194
+msgid ""
+"Constant level tank with associated valves and dosing tubes. The valves with"
+" orange handles are compatible with chlorine and other chemicals and have "
+"chemical resistant o'rings."
+msgstr ""
+"Tanque de nivel constante con valores asociados y tubos de dosificación. Las"
+" válvulas con manijas de naranja son compatibles con cloro y otros productos"
+" químicos y tienen O'Rings resistentes a los químicos."
+
+#: ../../Chemical_Dosing.rst:196
+msgid "CLT Details Figure Key for :numref:`figure_clt_details`"
+msgstr "CLT Detalles Clave de figura para :numref:`figure_clt_details`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant stock tank volume and flow calibration column sight tube"
+msgstr ""
+"Tubo de visión de columna de calibración de calibración y volumen de "
+"calibración de stock coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ""
+"Dosing tubes to provide linear relationship between chemical flow rate and "
+"head loss"
+msgstr ""
+"Tubos de dosificación para proporcionar una relación lineal entre la "
+"velocidad de flujo químico y la pérdida de la cabeza"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve to select constant level tank and dosing tube set"
+msgstr ""
+"Válvula para seleccionar el tanque de nivel constante y el conjunto de tubo "
+"de dosificación"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Float valve to provide constant level of coagulant"
+msgstr "Válvula flotante para proporcionar un nivel constante de coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Air vent to discharge bubbles from dosing tubes"
+msgstr "Ventilación de aire para descargar burbujas de tubos de dosificación"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve to select which stock tank to use"
+msgstr "Válvula para seleccionar qué tanque de stock usar"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve to drain constant level tank (for cleaning with vinegar)"
+msgstr ""
+"Válvula para drenar el tanque de nivel constante (para limpiar con vinagre)"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "9"
+msgstr "9"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Sediment trap to capture particles from the stock tank"
+msgstr "Trampa de sedimentos para capturar partículas del tanque de stock"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve to purge the sediment trap"
+msgstr "Válvula para purgar la trampa de sedimento"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Connection to feed line to the doser"
+msgstr "Conexión a la línea de alimentación al doser"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Valve to drain the line going to the doser (for cleaning with vinegar)"
+msgstr ""
+"Válvula para drenar la línea yendo al doser (para limpiar con vinagre)"
+
+#: ../../Chemical_Dosing.rst:215
+msgid ""
+"There is a pair of constant level tanks for each chemical feed. The "
+"specifications for each tank is given in "
+":numref:`table_Constant_Level_Tank_Specifications`."
+msgstr ""
+"Hay un par de tanques de nivel constante para cada alimento químico. Las "
+"especificaciones para cada tanque se dan en "
+":numref:`table_Constant_Level_Tank_Specifications`."
+
+#: ../../Chemical_Dosing.rst:221
+msgid ""
+"Constant Level Tank Specifications for "
+":numref:`figure_clt_overview`-:numref:`figure_clt_details`"
+msgstr ""
+"Especificaciones de tanque de nivel constante para __RST1 __-__ RST2__"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Minimum head provided by stock tanks"
+msgstr "Cabezal mínimo proporcionado por tanques de stock"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..floatvalveHL_bod) no-sub`"
+msgstr ":sub:`($..floatvalveHL_bod) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "**Float Valve**"
+msgstr "**Válvula flotante**"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..floatValve.HL_max) no-sub`"
+msgstr ":sub:`($..floatValve.HL_max) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Float valve orifice diameter"
+msgstr "Diámetro del orificio de la válvula flotante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..floatValve.orificeD) no-sub`"
+msgstr ":sub:`($..floatValve.orificeD) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "**Constant level tank**"
+msgstr "**Tanque de nivel constante**"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tank inner length"
+msgstr "Longitud interior del tanque"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..clt.tankL) no-sub`"
+msgstr ":sub:`($..clt.tankL) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tank inner width"
+msgstr "Ancho interno del tanque"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..clt.tankW) no-sub`"
+msgstr ":sub:`($..clt.tankW) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tank depth"
+msgstr "Profundidad del tanque"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..clt.tankH) no-sub`"
+msgstr ":sub:`($..clt.tankH) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tank fluid depth"
+msgstr "Profundidad del fluido del tanque"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..clt.tankHW) no-sub`"
+msgstr ":sub:`($..clt.tankHW) no-sub`"
+
+#: ../../Chemical_Dosing.rst:239
+msgid "Dosing Tubes"
+msgstr "Tubos de dosificación"
+
+#: ../../Chemical_Dosing.rst:243
+msgid ""
+"Dosing tubes use laminar flow in a long straight small diameter tube to "
+"establish a linear relationship between head loss and flow rate. The "
+"velocity in the tubes is limited to ensure that minor losses that scale with"
+" velocity squared remain less than :sub:`($..doserTubes.minorHL_pi) no-sub` "
+"of the maximum head loss, :sub:`($..doserTubes.HL_max) no-sub`, is from "
+"minor losses."
+msgstr ""
+"Los tubos de dosificación usan flujo laminar en un tubo largo de diámetro "
+"pequeño y recto para establecer una relación lineal entre la pérdida de "
+"cabeza y la velocidad de flujo. La velocidad en los tubos se limita a "
+"garantizar que las pérdidas menores que se escalan con velocidad al cuadrado"
+" siguen siendo inferiores a :sub:`($..doserTubes.minorHL_pi) no-sub` de la "
+"pérdida máxima de cabeza, :sub:`($..doserTubes.HL_max) no-sub`, es por "
+"pérdidas menores."
+
+#: ../../Chemical_Dosing.rst:245
+msgid ""
+"The number of dosing tubes is increased as needed to ensure that the maximum"
+" allowable tube velocity is not exceeded. The dosing tubes are mounted in a "
+"module to facilitate cleaning and replacement."
+msgstr ""
+"El número de tubos de dosificación se incrementa según sea necesario para "
+"garantizar que no se exceda la velocidad máxima permitida del tubo. Los "
+"tubos de dosificación están montados en un módulo para facilitar la limpieza"
+" y el reemplazo."
+
+#: ../../Chemical_Dosing.rst:256
+msgid "Dosing Tubes Figure Key for :numref:`figure_dosing_tube_module_basic`"
+msgstr ""
+"Tubos de dosificación Clave de figura para "
+":numref:`figure_dosing_tube_module_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Reducer"
+msgstr "Reducer"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Union"
+msgstr "Unión"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Part of union that is glued to the pipe shield and disk"
+msgstr "Parte de la unión que está pegada al escudo de tubería y el disco"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Dosing tubes"
+msgstr "Tubos de dosificación"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Pipe shield that maintains the dosing tubes in tension"
+msgstr "Escudo de tubería que mantiene los tubos de dosificación en tensión"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ""
+"PVC disk that is glued to the union and that has slightly undersized holes "
+"for the dosing tubes"
+msgstr ""
+"Disco de PVC que está pegado a la Unión y que tiene agujeros ligeramente de "
+"menor tamaño para los tubos de dosificación"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ""
+"Isometric view of the union showing that the dosing tubes are visible above "
+"the disk"
+msgstr ""
+"Vista isométrica de la unión que muestra que los tubos de dosificación son "
+"visibles por encima del disco"
+
+#: ../../Chemical_Dosing.rst:272
+msgid "The coagulant dosing tube specifications are given below."
+msgstr ""
+"Las especificaciones del tubo de dosificación coagulante se dan a "
+"continuación."
+
+#: ../../Chemical_Dosing.rst:276
+msgid ""
+"Coagulant dosing tube specifications for "
+":numref:`figure_dosing_tube_module_basic`"
+msgstr ""
+"Especificaciones de tubo de dosificación coagulante para "
+":numref:`figure_dosing_tube_module_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "**Dosing tubes**"
+msgstr "**Tubos de dosificación**"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Number of tubes per module"
+msgstr "Número de tubos por módulo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..coagDoserTube.N) no-sub`"
+msgstr ":sub:`($..coagDoserTube.N) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tube inner diameter"
+msgstr "Diámetro interno del tubo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..coagDoserTube.tube.ID) no-sub`"
+msgstr ":sub:`($..coagDoserTube.tube.ID) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tube outer diameter"
+msgstr "Diámetro exterior del tubo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..coagDoserTube.tube.OD) no-sub`"
+msgstr ":sub:`($..coagDoserTube.tube.OD) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tube length"
+msgstr "Longitud del tubo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..coagDoserTube.tube.L) no-sub`"
+msgstr ":sub:`($..coagDoserTube.tube.L) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "**Pipe guard**"
+msgstr "**Guardia de tubería**"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Pipe guard length"
+msgstr "Longitud de la protección de la tubería"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..coagDoserTube.shell.pipe.L) no-sub`"
+msgstr ":sub:`($..coagDoserTube.shell.pipe.L) no-sub`"
+
+#: ../../Chemical_Dosing.rst:290
+msgid "The chlorine dosing tube specifications are given below."
+msgstr ""
+"Las especificaciones del tubo de dosificación de cloro se dan a "
+"continuación."
+
+#: ../../Chemical_Dosing.rst:294
+msgid ""
+"Chlorine dosing tube specifications for "
+":numref:`figure_dosing_tube_module_basic`"
+msgstr ""
+"Especificaciones del tubo de dosificación de cloro para "
+":numref:`figure_dosing_tube_module_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.N) no-sub`"
+msgstr ":sub:`($..chlorineDoserTube.N) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.tube.ID) no-sub`"
+msgstr ":sub:`($..chlorineDoserTube.tube.ID) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.tube.OD) no-sub`"
+msgstr ":sub:`($..chlorineDoserTube.tube.OD) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.tube.L) no-sub`"
+msgstr ":sub:`($..chlorineDoserTube.tube.L) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.shell.pipe.L) no-sub`"
+msgstr ":sub:`($..chlorineDoserTube.shell.pipe.L) no-sub`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Pipe guard nominal diameter"
+msgstr "Diámetro nominal de la protección de tubería"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chlorineDoserTube.shell.ND) no-sub` inch"
+msgstr ":sub:`($..chlorineDoserTube.shell.ND) no-sub` pulgada"
+
+#: ../../Chemical_Dosing.rst:310
+msgid "Chemical Dose Controller"
+msgstr "Controlador de dosis química"
+
+#: ../../Chemical_Dosing.rst:311
+msgid ""
+"Design information for the AguaClara chemical dose controller is available "
+"in `the Flow Control chapter of The Physics of Water Treatment Design "
+"<https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-"
+"chemical-dose-controller-cdc>`_."
+msgstr ""
+"Información de diseño para el controlador de dosis química AguaClara está "
+"disponible en `the Flow Control chapter of The Physics of Water Treatment "
+"Design "
+"<https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-"
+"chemical-dose-controller-cdc>`_."
+
+#: ../../Chemical_Dosing.rst:316
+msgid ""
+"The chemical dose controller makes it easy and accurate to dose chemicals. "
+"The flow of chemicals automatically adjusts to changes in the plant flow "
+"rate to keep a constant dose, set by the operator. When a turbidity event "
+"occurs, the operator can change the dose of coagulant by moving the "
+"coagulant slider lower on the lever to increase the dose. The slider has "
+"labelled marks so the operator can record the dose accurately."
+msgstr ""
+"El controlador de dosis química hace que sea fácil y preciso para la dosis "
+"de productos químicos. El flujo de productos químicos se ajusta "
+"automáticamente a los cambios en la velocidad de flujo de la planta para "
+"mantener una dosis constante, establecida por el operador. Cuando ocurre un "
+"evento de turbidez, el operador puede cambiar la dosis de coagulante "
+"moviendo el control deslizante coagulante más bajo en la palanca para "
+"aumentar la dosis. El control deslizante ha etiquetado marcas para que el "
+"operador pueda registrar la dosis con precisión."
+
+#: ../../Chemical_Dosing.rst:324
+msgid "Descripción general del controlador Doser químico"
+msgstr "Descripción general del controlador Doser químico"
+
+#: ../../Chemical_Dosing.rst:324
+msgid "Overview of the chemical dose controller"
+msgstr "Descripción general del controlador de dosis química"
+
+#: ../../Chemical_Dosing.rst:327
+msgid ""
+"Chemical Dose Controller Figure Key for :numref:`figure_doser_overview`"
+msgstr ""
+"Clave de figura del controlador de dosis química para "
+":numref:`figure_doser_overview`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Doser slider"
+msgstr "Control deslizante de dosis"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Lever"
+msgstr "Palanca"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Float"
+msgstr "Flotar"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Counterweight"
+msgstr "Contrapeso"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical pipes from CLT"
+msgstr "Tuberías químicas de CLT"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Clamping hangers for chemical pipes from CLT"
+msgstr "Coscheros de sujeción para tuberías químicas de CLT"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tubes from CLT piping to doser"
+msgstr "Tubos de tuberías CLT a Doser"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tee connector between dosing and injection tubes"
+msgstr "Conector de camiseta entre tubos de dosificación e inyección"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tubes from doser to injection plumbing/points"
+msgstr "Tubos de Doser a plomería/puntos de inyección"
+
+#: ../../Chemical_Dosing.rst:345
+msgid ""
+"Chemical Dose Controller Specifications for :numref:`figure_doser_overview`"
+msgstr ""
+"Especificaciones del controlador de dosis química para "
+":numref:`figure_doser_overview`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "5-6"
+msgstr "5-6"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "CLT to doser pipes plumbing nominal diameter"
+msgstr "CLT TO DOSER TIPOS FLUMBING Diámetro nominal"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "7-9"
+msgstr "7-9"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chemical tube nominal diameter"
+msgstr "Diámetro nominal del tubo químico"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.flex.ND) no-sub` inch"
+msgstr ":sub:`($..chemPipes.flex.ND) no-sub` pulgada"
+
+#: ../../Chemical_Dosing.rst:356
+msgid "Injection Points"
+msgstr "Puntos de inyección"
+
+#: ../../Chemical_Dosing.rst:360
+msgid "The chemical must be injected into the flow of water within the plant."
+msgstr "El químico debe inyectarse en el flujo de agua dentro de la planta."
+
+#: ../../Chemical_Dosing.rst:362
+msgid ""
+"Coagulant: The coagulant is dripped into the top of the LFOM in the entrance"
+" tank."
+msgstr ""
+"Coagulante: el coagulante se gotea en la parte superior del LFOM en el "
+"tanque de entrada."
+
+#: ../../Chemical_Dosing.rst:363
+msgid ""
+"Chlorine: The chlorine is dripped into the water exiting the filter on its "
+"way to the community water storage tank."
+msgstr ""
+"Cloro: el cloro se gotea en el agua que sale del filtro en su camino hacia "
+"el tanque de almacenamiento de agua comunitaria."
+
+#: ../../Chemical_Dosing.rst:371
+msgid "Punto de inyección del tanque de entrada"
+msgstr "Punto de inyección del tanque de entrada"
+
+#: ../../Chemical_Dosing.rst:371
+msgid "Entrance tank injection point"
+msgstr "Punto de inyección del tanque de entrada"
+
+#: ../../Chemical_Dosing.rst:373
+msgid ""
+"Coagulant Injection Point Figure Key for "
+":numref:`figure_injection_point_entrance_tank`"
+msgstr ""
+"Clave de figura de punto de inyección coagulante para "
+":numref:`figure_injection_point_entrance_tank`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Linear dose controller"
+msgstr "Linear dose controller"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant injection tube"
+msgstr "Tubo de inyección coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "LFOM"
+msgstr "Lfom"
+
+#: ../../Chemical_Dosing.rst:388
+msgid "Camino del punto de inyección de cloro (vista de la planta)"
+msgstr "Camino del punto de inyección de cloro (vista de la planta)"
+
+#: ../../Chemical_Dosing.rst:388
+msgid "Chlorine injection point path along wall, plant view"
+msgstr ""
+"Punto de inyección de cloro camino a lo largo de la pared, vista de planta"
+
+#: ../../Chemical_Dosing.rst:396
+msgid "Ruta del punto de inyección de cloro (zoom)"
+msgstr "Ruta del punto de inyección de cloro (zoom)"
+
+#: ../../Chemical_Dosing.rst:396
+msgid "Chlorine injection point path along wall, zoomed in"
+msgstr "Punto de inyección de cloro a lo largo de la pared, ampliado"
+
+#: ../../Chemical_Dosing.rst:398
+msgid ""
+"Chlorine Injection Point at Wall Figure Key for "
+":numref:`figure_injection_point_chlorine_basic`"
+msgstr ""
+"Punto de inyección de cloro en la clave de la figura de la pared para "
+":numref:`figure_injection_point_chlorine_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Tube from linear dose controller"
+msgstr "Tubo del controlador de dosis lineal"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Reducing adaptor"
+msgstr "Reducción del adaptador"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Piping to injection point"
+msgstr "Tuberías al punto de inyección"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Drain channel"
+msgstr "Canal de drenaje"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Clamping hangers"
+msgstr "Perchas de sujeción"
+
+#: ../../Chemical_Dosing.rst:416
+msgid "Punto de inyección de cloro en el filtro"
+msgstr "Punto de inyección de cloro en el filtro"
+
+#: ../../Chemical_Dosing.rst:416
+msgid "Chlorine injection point in filter"
+msgstr "Punto de inyección de cloro en el filtro"
+
+#: ../../Chemical_Dosing.rst:418
+msgid ""
+"Chlorine Injection Point at Filter Figure Key for "
+":numref:`figure_injection_point_chlorine_filter_basic`"
+msgstr ""
+"Punto de inyección de cloro en la clave de la figura del filtro para "
+":numref:`figure_injection_point_chlorine_filter_basic`"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Union connector"
+msgstr "Conector sindical"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "PVC disc with hole for tube"
+msgstr "Disco de PVC con orificio para tubo"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Injection tube"
+msgstr "Tubo de inyección"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "In-filter straight connector for pipe encasing injection tube"
+msgstr ""
+"Conector recto en filtro para tubería que encerra el tubo de inyección"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "13"
+msgstr "13"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Piping encasing injection tube"
+msgstr "Tubería de tubo de inyección"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "14"
+msgstr "14"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Exit pipe"
+msgstr "Tubo de salida"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "15"
+msgstr "15"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Filter exit box"
+msgstr "Caja de salida de filtro"
+
+#: ../../Chemical_Dosing.rst:434
+msgid ""
+"Injection Point Specifications for "
+":numref:`figure_injection_point_entrance_tank`-:numref:`figure_injection_point_chlorine_filter_basic`"
+msgstr "Especificaciones del punto de inyección para __RST1 __-__ RST2__"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Coagulant injection tube nominal diameter"
+msgstr "Diámetro nominal del tubo de inyección coagulante"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "4 & 11"
+msgstr "4 y 11"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Chlorine injection tube nominal diameter"
+msgstr "Diámetro nominal del tubo de inyección de cloro"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Plumbing to chlorine injection point nominal diameter"
+msgstr "Fontanería al punto de inyección de cloro Diámetro nominal"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..chemPipes.inject.ND) no-sub` inch"
+msgstr ":sub:`($..chemPipes.inject.ND) no-sub` pulgada"
+
+#: ../../Chemical_Dosing.rst:1
+msgid "Piping encasing injection tube nominal diameter"
+msgstr "Tuberio encerrando el tubo de inyección diámetro nominal"
+
+#: ../../Chemical_Dosing.rst:1
+msgid ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` inch"
+msgstr ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` pulgada"
+
+#~ msgid "chemical stock tank overview"
+#~ msgstr "Descripción general del tanque de stock químico"
+
+#~ msgid "chemical stock tank bottom"
+#~ msgstr "Botthera de tanque de caldo químico"
+
+#~ msgid "chemical stock tank section"
+#~ msgstr "Sección de tanque de stock químico"
+
+#~ msgid "constant level tank overview"
+#~ msgstr "Descripción general del tanque de nivel constante"
+
+#~ msgid "constant level tank details"
+#~ msgstr "Detalles del tanque de nivel constante"
+
+#~ msgid "Chemical doser controller overview"
+#~ msgstr "Descripción general del controlador Doser químico"
+
+#~ msgid "Chlorine injection point path (plant view)"
+#~ msgstr "Camino del punto de inyección de cloro (vista de la planta)"
+
+#~ msgid "Chlorine injection point path (zoomed in)"
+#~ msgstr "Ruta del punto de inyección de cloro (zoom)"

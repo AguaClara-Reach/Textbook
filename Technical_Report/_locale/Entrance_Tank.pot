@@ -1,0 +1,539 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-28 16:15-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Entrance_Tank.rst:8
+msgid "Entrance Tank"
+msgstr ""
+
+#: ../Entrance_Tank.rst:10
+msgid "Design information for the AguaClara entrance tank is available in `the Entrance Tank Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_."
+msgstr ""
+
+#: ../Entrance_Tank.rst:13
+msgid "General"
+msgstr ""
+
+#: ../Entrance_Tank.rst:16
+#: ../Entrance_Tank.rst:88
+#: ../Entrance_Tank.rst:134
+msgid "Purpose and Description"
+msgstr ""
+
+#: ../Entrance_Tank.rst:18
+msgid "The entrance tank (see :numref:`figure_spec_ET_Diagram_Labeled`) has multiple functions in a drinking water treatment plant:"
+msgstr ""
+
+#: ../Entrance_Tank.rst:20
+msgid "Remove air bubbles to reduce splashing, turbulence, and unsteady motion of the chemical feed surface tracking lever system"
+msgstr ""
+
+#: ../Entrance_Tank.rst:21
+msgid "Remove grit to prevent accumulation in the flocculator"
+msgstr ""
+
+#: ../Entrance_Tank.rst:22
+msgid "Remove leaves and other debris to prevent clogging of the diffusers in the clarifier inlet"
+msgstr ""
+
+#: ../Entrance_Tank.rst:23
+msgid "Dissipate kinetic energy to keep the water level steady for accurate flow measurement"
+msgstr ""
+
+#: ../Entrance_Tank.rst:24
+msgid "Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) so that operators can make adjustments and respond to changes in water demand"
+msgstr ""
+
+#: ../Entrance_Tank.rst:25
+msgid "Provide a water surface elevation that is proportional to the plant flow rate that is used to automatically ensure the chemical dosages remain constant even as the plant flow rate varies"
+msgstr ""
+
+#: ../Entrance_Tank.rst:26
+msgid "Inject the coagulant and any other amendments required for flocculation"
+msgstr ""
+
+#: ../Entrance_Tank.rst:35
+msgid "entrance tank diagram"
+msgstr ""
+
+#: ../Entrance_Tank.rst:35
+msgid "Section overview of an entrance tank"
+msgstr ""
+
+#: ../Entrance_Tank.rst:37
+msgid "Entrance Tank Overview Figure Key for :numref:`figure_spec_ET_Diagram_Labeled`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Key"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "1"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Chemical doser"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "2"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Float that tracks the water level set by the LFOM"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "3"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Bypass"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "4"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "LFOM"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "5"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Sediment drain pipe stub"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "6"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Sediment hopper"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "7"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum water level set by the LFOM"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "8"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Trash rack"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "9"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Overflow"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "10"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Raw water inlet"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "11"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum water level upstream of the trash rack"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "12"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Drain channel that connects to the main plant drain channel"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "13"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Pipe leading to the flocculator"
+msgstr ""
+
+#: ../Entrance_Tank.rst:58
+#: ../Entrance_Tank.rst:92
+#: ../Entrance_Tank.rst:167
+msgid "Flow Path"
+msgstr ""
+
+#: ../Entrance_Tank.rst:60
+msgid "Raw water enters the the entrance tank as shown in :numref:`figure_spec_ET_Diagram_Labeled` and flows across the hoppers at the bottom of the tank. The first hopper contains an overflow pipe to waste any water entering the plant in excess of th design maximum plant flow rate. The overflow pipe is sized to handle the total maximum design plant flow rate. A removable drain pipe stub is installed in each hopper, allowing the operator to discharge accumulated sediment from the hoppers while the plant is in operation."
+msgstr ""
+
+#: ../Entrance_Tank.rst:64
+#: ../Entrance_Tank.rst:96
+#: ../Entrance_Tank.rst:171
+msgid "Plant Specifications"
+msgstr ""
+
+#: ../Entrance_Tank.rst:67
+msgid "Entrance Tank Specifications for :numref:`figure_spec_ET_Diagram_Labeled`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Parameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Value"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Capture velocity"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.captureVm) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Entrance tank internal width"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.W) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Entrance tank internal length"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.L) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Removable drain pipe stub nominal diameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.etHopper.drainND) no-sub` inches"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "**Hoppers**"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Number of hoppers"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.etHopper.N) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Hopper angle"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.etHopper.AN) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum depth of water at the LFOM"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfomHW) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Overflow pipe nominal diameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.overflow.ND) no-sub` inches"
+msgstr ""
+
+#: ../Entrance_Tank.rst:85
+msgid "Trash Rack"
+msgstr ""
+
+#: ../Entrance_Tank.rst:89
+msgid "The trash racks are designed to remove any debris that would be large enough to obstruct downstream processes."
+msgstr ""
+
+#: ../Entrance_Tank.rst:93
+msgid "As the raw water flows from the first hopper to the subsequent ones, it must pass through two trash racks, preventing large debris from entering the treatment process. Having two trash racks allows the operator to remove one of the trash racks for cleaning."
+msgstr ""
+
+#: ../Entrance_Tank.rst:97
+msgid "The smallest flow dimensions are the diffusers in the clarifier and the orifices in the stacked rapid sand filter inlet branches. The trash rack string spacing defined is the maximum allowable spacing of these strings."
+msgstr ""
+
+#: ../Entrance_Tank.rst:101
+msgid "Trash Rack Specifications"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "value"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Channel width"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..trashRack.W) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Trash rack height"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.L) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Fractional open area"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.PO) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Downstream water depth"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.downstreamHW) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Clean head loss"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.HL_min) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum fractional clogging"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.PO_pi) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum head loss"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.HL_max) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "String diameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.Dm) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Open space between strings"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.trashRack.Sm) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Diffuser flow width"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..inletManifold.diffuser.slotW) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "StaRS inlet branch orifice diameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..filter.fiPipes.branch.inlet.portD) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:121
+msgid "Sediment and Grit Removal"
+msgstr ""
+
+#: ../Entrance_Tank.rst:123
+msgid "The entrance tank has a capture velocity of :sub:`($..et.captureVm) no-sub` to remove particules that would otherwise settle in the bottom of the flocculator. Large particulates settle out in the hoppers, and collect near the drains at the bottom."
+msgstr ""
+
+#: ../Entrance_Tank.rst:125
+msgid "The entrance tank length of :sub:`($..et.L) no-sub` corresponds to the clarifier tank length. The width, :sub:`($..et.W) no-sub`, ensures the minimum desired capture velocity is met while still allowing enough space for a person to fit inside and construct the tank."
+msgstr ""
+
+#: ../Entrance_Tank.rst:127
+msgid "The :sub:`($..et.etHopper.N) no-sub` hoppers collect sand and grit that then settles to the bottom where the :sub:`($..et.etHopper.drain.ND) no-sub` inch nominal diameter drains are located. When too much sediment has accumulated, the drain pipes must be removed until the sludge is flushed out. Directly below the entrance tank, there is a drain channel that transfers the waste to the main plant drain channel."
+msgstr ""
+
+#: ../Entrance_Tank.rst:132
+msgid "Linear Flow Orifice Meter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:135
+msgid "The Linear Flow Orifice Meter (LFOM) is a weir shape cut into a pipe with rows of holes, or orifices, drilled into it. The LFOM creates a linear relationship between water level in the entrance tank and the flow out of the entrance tank. It does not control the flow through the plant. The flow rate is controlled by inlet valve where raw water is entering the entrance tank."
+msgstr ""
+
+#: ../Entrance_Tank.rst:138
+msgid "This serves two purposes:"
+msgstr ""
+
+#: ../Entrance_Tank.rst:140
+msgid "Allows the operator to measure the flow through the plant quickly and easily."
+msgstr ""
+
+#: ../Entrance_Tank.rst:141
+msgid "Allows for the Linear Chemical Dose Controller to automatically adjust the flow of coagulant and chlorine into the plant as the plant flow rate changes. This means the operators only need to adjust the coagulant when there is a need to change the **dose** due to a change in turbidity or organic matter concentration."
+msgstr ""
+
+#: ../Entrance_Tank.rst:151
+msgid "An LFOM"
+msgstr ""
+
+#: ../Entrance_Tank.rst:151
+msgid "An AguaClara LFOM showing the flow rate in L/s."
+msgstr ""
+
+#: ../Entrance_Tank.rst:153
+msgid "LFOM Overview Figure Key"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Maximum flow rate in L/s and maximum water level"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Zero flow and minimum water level"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Pipe stub that can be removed"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Invert of entrance tank"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Pipe coupling that is embedded in concrete"
+msgstr ""
+
+#: ../Entrance_Tank.rst:168
+msgid "Water in the entrance tank flows into and down the LFOM, towards the rapid mix orifice and flocculator."
+msgstr ""
+
+#: ../Entrance_Tank.rst:174
+msgid "LFOM Specifications"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "LFOM nominal diameter"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.ND) no-sub` inch"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Number of rows of orifices"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.rowN) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Max flow rate"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.Qm_max) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Head loss at max flow"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.HL_max) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Diameter of orifices"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.orificeD) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Space between orifices measured on the outside of the pipe"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.orificeS) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Number of orifices in each row starting from bottom row"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.rowOrificeN_VEC) no-sub`"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid "Elevation of each row from zero flow datum"
+msgstr ""
+
+#: ../Entrance_Tank.rst:1
+msgid ":sub:`($..et.lfom.rowOrificeH_VEC) no-sub`"
+msgstr ""

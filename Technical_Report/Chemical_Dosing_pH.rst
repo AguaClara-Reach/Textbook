@@ -16,7 +16,7 @@ The coagulation and disinfection processes require the precise dosage of coagula
 
 The main components of the system are:
 
-* Tanks to store the coagulant and chlorine stock solutions
+* Tanks to store the coagulant, chlorine, and pH adjustment stock solutions
 * An elevated platform to support the chemical storage tanks at the correct elevation for gravity powered dosing
 * A flow measurement calibration column for each chemical
 * A pair of constant level tanks (CLTs) with float valves that maintain a constant level for both chemical solutions
@@ -27,7 +27,7 @@ This system has the characteristic of maintaining a constant chemical **dosage**
 
 Chemical Flow Path
 ^^^^^^^^^^^^^^^^^^
-The liquid chemical stock solutions are prepared and stored in the chemical stock tanks, on the chemical platform. Chemicals exit the stock tanks through a sloped tube settler (to prevent sediment from exiting the tank through the chemical supply tubing) and then continue on to the constant level tanks (CLT). The sediment in the chemical stock tanks is removed through the drain during tank cleaing. The CLT uses a float valve to provide a relatively constant chemical level. The chemicals exit the CLT and flow to a set of dosing tubes that serve as linear resistors with head loss proportional to the chemical flow rate. The chemicals continue to the dose controller where the operator can set the chemical dosages by adjusting the position of a slider. The chemicals leaving the dose controller are then routed to the chemical drip locations. The coagulant (along with chemicals used for pH adjustment if necessary) is dripped into the LFOM and the chlorine is dripped into the filter exit tank.
+The liquid chemical stock solutions are prepared and stored in the chemical stock tanks, on the chemical platform. Chemicals exit the stock tanks through a sloped tube settler (to prevent sediment from exiting the tank through the chemical supply tubing) and then continue on to the constant level tanks (CLT). The sediment in the chemical stock tanks is removed through the drain during tank cleaing. The CLT uses a float valve to provide a relatively constant chemical level. The chemicals exit the CLT and flow to a set of dosing tubes that serve as linear resistors with head loss proportional to the chemical flow rate. The chemicals continue to the dose controller where the operator can set the chemical dosages by adjusting the position of a slider. The chemicals leaving the dose controller are then routed to the chemical drip locations. The coagulant and chemicals used for pH adjustment are dripped into the LFOM and the chlorine is dripped into the filter exit tank.
 
 Plant Specifications
 ^^^^^^^^^^^^^^^^^^^^^
@@ -56,7 +56,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
 
 .. TOCHANGE, image for non pH for replacement
 
-.. _figure_chemical_stock_tanks_overview:
+.. _figure_chemical_stock_tanks_overview_pH:
 .. figure:: Images/chem_stock_tanks_overview_pH.png
     :width: 600px
     :align: center
@@ -64,7 +64,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
 
     Overview of the chemical platform
 
-.. csv-table:: Chemical Platform Overview Figure Key for :numref:`figure_chemical_stock_tanks_overview`
+.. csv-table:: Chemical Platform Overview Figure Key for :numref:`figure_chemical_stock_tanks_overview_pH`
    :header: "Key", "Description"
    :align: left
    :widths: 20 80
@@ -75,7 +75,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
    "3", "Chlorine stock tanks"
    "4", "pH adjustment stock tanks"
 
-.. _figure_chem_platform_bottom:
+.. _figure_chem_platform_bottom_pH:
 
 .. figure:: Images/chem_platform_bottom_pH.png
    :width: 700px
@@ -85,7 +85,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
    Bottom view of the chemical stock tanks
 
 
-.. csv-table:: Chemical Platform Bottom View Figure Key for :numref:`figure_chem_platform_bottom`
+.. csv-table:: Chemical Platform Bottom View Figure Key for :numref:`figure_chem_platform_bottom_pH`
    :header: "Key", "Description"
    :align: left
    :widths: 20 80
@@ -94,7 +94,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
    "5", "Chemical pipes - tank to CLT"
    "6", "Chemical drain pipes"
 
-.. _figure_chem_platform_cutout:
+.. _figure_chem_platform_cutout_pH:
 .. figure:: Images/chem_platform_cutout_pH.png
    :width: 700px
    :align: center
@@ -104,7 +104,7 @@ The chemical stock tanks are used to store the following chemicals: coagulant, c
 
 Valves with orange handles are compatible with chlorine and other chemicals, and have chemical-resistant o'rings.
 
-.. csv-table:: Chemical Platform - Bottom View Cut-Out Figure Key for :numref:`figure_chem_platform_cutout`
+.. csv-table:: Chemical Platform - Bottom View Cut-Out Figure Key for :numref:`figure_chem_platform_cutout_pH`
    :header: "Key", "Description"
    :align: left
    :widths: 20 80
@@ -174,7 +174,7 @@ Purpose and Description
 ^^^^^^^^^^^^^^^^^^^^^^^
 The constant level tank (CLT) system provides convenient central controls for selection of stock tank, flow calibration, purging sediment, and selection of which of the redundant chemical feed systems to use. The redundant systems facilitate cleaning and maintenance. The dosing system controls are centralized around the constant level tanks (see :numref:`figure_clt_overview`).
 
-.. _figure_clt_overview:
+.. _figure_clt_overview_pH:
 .. figure:: Images/clt_overview_pH.png
    :width: 400px
    :align: center
@@ -182,7 +182,7 @@ The constant level tank (CLT) system provides convenient central controls for se
 
    Overview of the constant level tank module mounted on the side of the chemical stock tank platform.
 
-.. csv-table:: CLT Overview Figure Key for :numref:`figure_clt_overview`
+.. csv-table:: CLT Overview Figure Key for :numref:`figure_clt_overview_pH`
    :header: "Key", "Description"
    :align: left
    :widths: 20 80
@@ -194,7 +194,7 @@ The constant level tank (CLT) system provides convenient central controls for se
 
 The constant level tanks prevent the changing chemical levels in the stock tanks from influencing the flow rate through the dosing system. Float valves maintain a relatively constant level of chlorine and coagulant. The float valves are sized to provide up to the maximum chemical flow rate of :sub:`($..chemPipes.chemQu_max) no-sub` given the minimum head provided by stock tanks (:sub:`($..floatvalveHL_bod) no-sub`).
 
-.. _figure_clt_details:
+.. _figure_clt_details_pH:
 .. figure:: Images/clt_details_pH.png
    :width: 300px
    :align: center
@@ -202,7 +202,7 @@ The constant level tanks prevent the changing chemical levels in the stock tanks
 
    Constant level tank with associated valves and dosing tubes. The valves with orange handles are compatible with chlorine and other chemicals and have chemical resistant o'rings.
 
-.. csv-table:: CLT Details Figure Key for :numref:`figure_clt_details`
+.. csv-table:: CLT Details Figure Key for :numref:`figure_clt_details_pH`
    :header: "Key", "Description"
    :align: left
    :widths: 20 80
@@ -227,7 +227,7 @@ Plant Specifications
 ^^^^^^^^^^^^^^^^^^^^^
 .. _table_Constant_Level_Tank_Specifications:
 
-.. csv-table:: Constant Level Tank Specifications for :numref:`figure_clt_overview`-:numref:`figure_clt_details`
+.. csv-table:: Constant Level Tank Specifications for :numref:`figure_clt_overview`-:numref:`figure_clt_details_pH`
    :header: "Key", "Parameter", "Value"
    :align: left
    :widths: 20 50 30
@@ -315,7 +315,23 @@ The chlorine dosing tube specifications are given below.
    "", Pipe guard length, :sub:`($..chlorineDoserTube.shell.pipe.L) no-sub`
    "", Pipe guard nominal diameter, :sub:`($..chlorineDoserTube.shell.ND) no-sub` inch
   
-.. do we need to add pH adjustment here?
+The pH adjustment tube dosing tube specifications are given below.
+
+.. _table_pH_Dosing_Tube_Specifications:
+
+.. csv-table:: pH adjustment dosing tube specifications for :numref:`figure_dosing_tube_module`
+   :header: "Key", "Parameter", "Value"
+   :align: left
+   :widths: 20 50 30
+   :class: wraptable
+
+   4, **Dosing tubes**, ""
+   "", Number of tubes per module,  :sub:`($..coagDoserTube.N) no-sub`
+   "", Tube inner diameter, :sub:`($..coagDoserTube.tube.ID) no-sub`
+   "", Tube outer diameter, :sub:`($..coagDoserTube.tube.OD) no-sub`
+   "", Tube length, :sub:`($..coagDoserTube.tube.L) no-sub`
+   5, **Pipe guard**, ""
+   "", Pipe guard length, :sub:`($..coagDoserTube.shell.pipe.L) no-sub`
 
 Chemical Dose Controller
 -------------------------
@@ -397,7 +413,7 @@ Additional doser arm and injection points are added for pH adjustment.
    "2", "Coagulant and pH adjustment injection tubes"
    "3", "LFOM"
 
-.. figure:: Images/injection_point_chlorine_plantview.png
+.. figure:: Images/injection_point_chlorine_plantview_pH.png
    :width: 600px
    :align: center
    :alt: Chlorine injection point path (plant view)

@@ -1,0 +1,1125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../Clarifier.rst:5
+msgid "Clarifier"
+msgstr ""
+
+#: ../../Clarifier.rst:7
+msgid ""
+"Design information for the AguaClara clarifier is available in `the "
+"Clarifier Design chapter of The Physics of Water Treatment Design "
+"<https://aguaclara.github.io/Textbook/Clarification/Clarifier_Design.html>`_."
+msgstr ""
+
+#: ../../Clarifier.rst:11
+msgid "Purpose and Description"
+msgstr ""
+
+#: ../../Clarifier.rst:13
+msgid ""
+"The clarifier removes the majority of the particles and pathogens from the "
+"raw water source using two distinct mechanisms defined below. The goal is to"
+" concentrate the particles so they can be removed via drains."
+msgstr ""
+
+#: ../../Clarifier.rst:15
+msgid ""
+"Floc filter - Flocs that form a fluidized bed in the lower part of the "
+"clarifier are able to capture small particles as water flows through the "
+"porous flocs."
+msgstr ""
+
+#: ../../Clarifier.rst:16
+msgid ""
+"Plate settlers -  Particles with a terminal velocity greater than the plate "
+"settler capture velocity (:sub:`($..clarifier.captureVm) no-sub`) settle "
+"unto the plates and then slide back down into the floc filter as an "
+"avalanche."
+msgstr ""
+
+#: ../../Clarifier.rst:26
+msgid "vista superior del clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:26
+msgid ""
+"Clarifier top view showing the channel system and two clarifier chambers. "
+"The chamber is where the floc filter and settlers are."
+msgstr ""
+
+#: ../../Clarifier.rst:30
+msgid "Clarifier Figure Key for :numref:`figure_clarifier_top`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Key"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Purpose"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Transports the clarified water out of the clarifier chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Plate settlers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Capture particles that have a terminal velocity greater than the capture "
+"velocity"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector channel drain"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Used during plant maintenance to allow operator to clean this channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet channel drain"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Allows operator to dump clarified water that doesn't meet specifications"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump channel drain"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Sends poorly flocculated water to the plant waste channel when the inlet "
+"collectors are blocked with pipe stubs"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Sludge bleed"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Dumps flocs from the floc hopper cones to the plant drain channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "7"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Clarifier chamber drain"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Drains the clarifier for maintenance"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Sludge hopper access port"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Enables inserting a manual mixer into the floc hopper cone to fluidize the "
+"sludge when the sludge consolidates and does not flow as a liquid"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "9"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet collector"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Delivers flocculated water to the diffusers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "10"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Delivers flocculated water to the inlet collectors"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "11"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump weir"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Overflows when the inlet collectors are shut off to prevent poorly "
+"flocculated water from entering the clarifier"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "12"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Dumps poorly flocculated water when the sludge consolidates and does not "
+"flow as a liquid"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "13"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Divider wall"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Separates flocculated water from clarified water"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "14"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Delivers clarified water to pipes carrying clarified water to the filters"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet weir"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Sets the height of water in the clarifiers and helps ensure equal flow "
+"distribution to all of the clarifier chambers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "16"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector channel"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Merges the clarified water from all of the outlet collectors and ensures "
+"that all of the clarifier chambers have the same water level"
+msgstr ""
+
+#: ../../Clarifier.rst:61
+msgid "vista isométrica clarificadora"
+msgstr ""
+
+#: ../../Clarifier.rst:61
+msgid ""
+"Clarifier isometric view showing the channel system and two clarifier "
+"chambers. Clarifier chambers operate in parallel. See "
+":numref:`table_Clarifier_Key` for Figure Key."
+msgstr ""
+
+#: ../../Clarifier.rst:70
+msgid "foto del sistema de canal clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:70
+msgid ""
+"Clarifier channel system photo. See :numref:`table_Clarifier_Key` for Figure"
+" Key."
+msgstr ""
+
+#: ../../Clarifier.rst:80
+msgid "vista de sección del lado del clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:80
+msgid ""
+"Clarifier side section view showing the water flow path (blue arrows) and "
+"the floc flow path (brown arrows)."
+msgstr ""
+
+#: ../../Clarifier.rst:84
+msgid ""
+"Clarifier Side View Figure Key for :numref:`figure_clarifier_side_section`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "17"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Plate settler support frame"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Supports the plate settler modules"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "18"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet collector diffusers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Create a line jet that extends the full length of the clarifier chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "19"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Jet reverser half pipe"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Reverses the direction of the jets created by the diffusers so that the flow"
+" is vertically upward so it can resuspend flocs that have settled on the "
+"main chamber hopper"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc filter weir"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Sets the depth of the floc filter in the main chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "21"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper cone"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Concentrates the sludge before discharge"
+msgstr ""
+
+#: ../../Clarifier.rst:104
+msgid "vista de sección frontal del clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:104
+msgid ""
+"Clarifier front section view showing the floc flow path (brown arrows). See "
+":numref:`table_Clarifier_Key` and :numref:`table_Clarifier_Side_Key` for "
+"Figure Keys."
+msgstr ""
+
+#: ../../Clarifier.rst:114
+msgid "vista de sección superior del clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:114
+msgid ""
+"Clarifier top section view showing plate settler support frame, floc weir, "
+"and floc hopper cones. See :numref:`table_Clarifier_Key` and "
+":numref:`table_Clarifier_Side_Key` for Figure Keys."
+msgstr ""
+
+#: ../../Clarifier.rst:124
+msgid "vista de sección posterior del clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:124
+msgid ""
+"Clarifier back section view showing the main chamber hopper, diffusers, and "
+"jet reverser half pipe. The diffuser jet is the jet created by the diffuser "
+"and its direction is reversed by the jet reverser."
+msgstr ""
+
+#: ../../Clarifier.rst:127
+msgid ""
+"Clarifier Back View Figure Key for :numref:`figure_clarifier_back_section`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "22"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Main chamber hopper"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Ensures that all flocs that settle to the bottom of the clarifier are "
+"resuspended by the diffuser jets"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "23"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Main chamber water surface"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+"Maximum water level in the main chamber is set by the outlet weir and the "
+"head loss through the outlet collector orifices"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "24"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc filter top surface"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Marks the transition between the floc filter and the plate settlers"
+msgstr ""
+
+#: ../../Clarifier.rst:145
+msgid "recolector de entrada clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:145
+msgid "Downstream end of inlet collector showing diffusers."
+msgstr ""
+
+#: ../../Clarifier.rst:148
+msgid "Diffuser Figure Key for :numref:`figure_clarifier_inlet_collector`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "25"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet collector air vent"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Discharges air when the main chamber is being filled with water"
+msgstr ""
+
+#: ../../Clarifier.rst:163
+#, fuzzy
+msgid "aclarar difuso"
+msgstr ""
+
+#: ../../Clarifier.rst:163
+msgid "Diffuser showing isometric, side, and bottom views."
+msgstr ""
+
+#: ../../Clarifier.rst:172
+msgid "pasos de entrada de clarificador"
+msgstr ""
+
+#: ../../Clarifier.rst:172
+msgid ""
+"Clarifier view showing the steps in the inlet channel. The elevation "
+"increases from step to step."
+msgstr ""
+
+#: ../../Clarifier.rst:175
+msgid ""
+"Clarifier Inlet Steps Figure Key for :numref:`figure_clarifier_inlet_steps`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "26"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet channel steps"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Increases the elevation of water into each inlet manifol"
+msgstr ""
+
+#: ../../Clarifier.rst:185
+msgid "Plant Specifications"
+msgstr ""
+
+#: ../../Clarifier.rst:189
+msgid "Clarifier Design Inputs"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Parameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Value"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Inputs**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Maximum velocity gradient"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.G_max) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Maximum upflow velocity"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.upVm) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Capture velocity"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.captureVm) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Maximum temperature"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.TEMP_max) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Minimum temperature"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.TEMP_min) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:204
+msgid ""
+"Clarifier Civil Construction Parameters for "
+":numref:`figure_clarifier_top`-:numref:`figure_clarifier_inlet_steps`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "value"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Overall clarifier width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..plant.clarifier.OW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Overall clarifier length"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.OL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Height of clarifier measured from the bottom of the jet reverser"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.H ) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Number of clarifier chambers (duty/spare)"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bay.N) no-sub` / :sub:`($..plant.clarifier.spare) no-"
+"sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inside width of each chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bay.W) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inside length of each chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bay.L) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Main chamber hopper angle"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.slopeAN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector channel drain nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.dump.clarifiedPreWeirND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet channel drain nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.dump.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump channel drain nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "10&14"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Channel wall height"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.tank.H) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Channel elevation increase per outlet"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.inletPreWeirDeltaH) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Inlet channel**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.inletPreWeirW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Maximum velocity"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.inletPreWeirV_max) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump weir height"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.inletWeir.W) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Inlet dump channel width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.inletPostWeirW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet channel width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.outletPostWeirW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector weir height"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.outletWeirH) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector channel width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.channels.outletPreWeirW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Floc Hopper**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper access port nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hopperPort.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper weir height"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.concreteWeirH) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Floc hopper cone**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper cone angle"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.slopeAN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper cone height"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.coneH) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Floc hopper cone top diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.hopperD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:240
+msgid ""
+"Clarifier Hydraulic Parameters for "
+":numref:`figure_clarifier_top`-:numref:`figure_clarifier_inlet_steps`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Maximum flow rate per chamber"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.manifold.Qm_max) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Inlet Collector**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Head loss from inlet to diffuser exit"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.manifold.HL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.manifold.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Total length"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.manifold.pipeL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Air vent diameter (one air vent per collector)"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.manifold.ventD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Diameter of molded section of the diffuser that fits into the manifold"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.manifold.orificeD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Diffusers**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Reduced outer diameter for insertion into manifold"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.reducedOD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.diffuserL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Diffusers per inlet manifold"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.manifold.orificeN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Port diameter in manifold for diffusers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Center to center distance for diffusers"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.manifold.orificeB) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Distance to center of last diffuser from downstream end of manifold"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ""
+":sub:`($..clarifier.bayPlastic.inletManifold.manifold.orificeStartB) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Slot inner width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.slotW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Slot inner length"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.slotL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Expansion angle"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.loftAN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Diffuser jet maximum velocity gradient"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.G_jet) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Diffuser jet maximum velocity"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.V_max) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Diffuser jet head loss"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.inletManifold.diffuser.HL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Jet reverser half pipe**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.reverser.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Outlet Collector**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Outlet collector head loss (from orifice inlet to outlet)"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.outletManifold.HL) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.outletManifold.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Air vent diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.outletManifold.ventD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Orifice diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.outletManifold.orificeD) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Orifice center to center spacing"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.outletManifold.orificeB) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Sludge drains**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Sludge drain nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.sludgeDrain.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Sludge bleed valve nominal diameter"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.hoppers.sludgeBleed.ND) no-sub` inch"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "**Plate Settlers**"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Length"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.plate.L) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.plate.W) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Angle from the horizontal"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.plate.AN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Space between plates"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.plate.S) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Overlap - extra width compared with tank width"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.plate.overlapW) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Number of plate settler modules"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.settler.moduleN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Number of plates per settler module"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.settler.plateN) no-sub`"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid "Number of plates in the last settler module"
+msgstr ""
+
+#: ../../Clarifier.rst:1
+msgid ":sub:`($..clarifier.bayPlastic.settler.lastPlateN) no-sub`"
+msgstr ""
+
+#~ msgid "clarifier top view"
+#~ msgstr ""
+
+#~ msgid "clarifier isometric view"
+#~ msgstr ""
+
+#~ msgid "clarifier channel system photo"
+#~ msgstr ""
+
+#~ msgid "clarifier side section view"
+#~ msgstr ""
+
+#~ msgid "clarifier front section view"
+#~ msgstr ""
+
+#~ msgid "clarifier top section view"
+#~ msgstr ""
+
+#~ msgid "clarifier back section view"
+#~ msgstr ""
+
+#~ msgid "clarifier inlet collector"
+#~ msgstr ""
+
+#~ msgid "clarifier inlet steps"
+#~ msgstr ""

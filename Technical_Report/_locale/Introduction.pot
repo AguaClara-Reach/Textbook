@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-28 16:15-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Introduction.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../Introduction.rst:9
+msgid "Permission and Licensing Information"
+msgstr ""
+
+#: ../Introduction.rst:12
+msgid "Copyright © 2025 AguaClara Reach"
+msgstr ""
+
+#: ../Introduction.rst:14
+msgid "Authors:  AguaClara Reach"
+msgstr ""
+
+#: ../Introduction.rst:16
+msgid "This design was created using the AguaClara Infrastructure Design Engine developed by AguaClara Reach. This work is licensed under `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_"
+msgstr ""
+
+#: ../Introduction.rst:18
+msgid "Any water treatment plants built using this WORK shall be designed and supervised by a licensed civil engineer."
+msgstr ""
+
+#: ../Introduction.rst:20
+msgid "In no event shall AguaClara Reach or their employees be liable to any party for direct, indirect, special, incidental, or consequential damages, including lost profits, arising out of the use of work and its associated copyrights, even if AguaClara Reach may have been advised of the possibility of such damage."
+msgstr ""
+
+#: ../Introduction.rst:22
+msgid "The work provided herein is on an \"as is\" basis, and AguaClara Reach, and their employees have no obligation to provide maintenance, support, updates, enhancements, or modifications.  AguaClara Reach and their employees make no representations and extend no warranties of any kind, either implied or expressed, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose, or that the use of work and its associated copyrights will not infringe any patent, trademark or other rights."
+msgstr ""
+
+#: ../Introduction.rst:24
+msgid "Users of WORK shall indemnify, hold harmless and defend AguaClara Reach, its officers, employees, agents, and the sponsors of the research that let to WORK against any and all claims, suits, losses, damage, costs, fees, and expenses resulting from or arising out of use of WORK.  This indemnification shall include, but not be limited to, any product liability.  Users of WORK, at their sole cost and expense, shall sufficiently insure their activities in connection with the WORK and obtain, keep in force, and maintain insurance or an equivalent program of self insurance.  AguaClara Reach shall notify users of WORK in writing of any claim or suit brought against AguaClara Reach in respect of which AguaClara Reach intends to invoke the provisions of this paragraph.  Users of WORK shall keep AguaClara Reach informed on a current basis of its defense of any claims under this paragraph."
+msgstr ""
+
+#: ../Introduction.rst:27
+msgid "AguaClara Plant Design Goals"
+msgstr ""
+
+#: ../Introduction.rst:29
+msgid "AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and to deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution."
+msgstr ""
+
+#: ../Introduction.rst:31
+msgid "AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection (see :numref:`figure_treatment_train`). The floc filter is a fluidized suspension of flocs located in the bottom of the clarifier.  An AguaClara treatment plant may be designed with all of these processes, or if raw water turbidity is consistently less than about 3 NTU, the treatment plant may be designed without flocculation, floc filter, and sedimentation."
+msgstr ""
+
+#: ../Introduction.rst:-1
+msgid "AC treatment train"
+msgstr ""
+
+#: ../Introduction.rst:40
+msgid "Schematic showing the AguaClara treatment processes."
+msgstr ""
+
+#: ../Introduction.rst:44
+msgid "Key"
+msgstr ""
+
+#: ../Introduction.rst:44
+msgid "Description"
+msgstr ""
+
+#: ../Introduction.rst:46
+msgid "1"
+msgstr ""
+
+#: ../Introduction.rst:46
+msgid "Raw water from source"
+msgstr ""
+
+#: ../Introduction.rst:47
+msgid "2"
+msgstr ""
+
+#: ../Introduction.rst:47
+msgid "Entrance tank"
+msgstr ""
+
+#: ../Introduction.rst:48
+msgid "3"
+msgstr ""
+
+#: ../Introduction.rst:48
+msgid "Chemical dose controller"
+msgstr ""
+
+#: ../Introduction.rst:49
+msgid "4"
+msgstr ""
+
+#: ../Introduction.rst:49
+msgid "Chemical constant level tanks"
+msgstr ""
+
+#: ../Introduction.rst:50
+msgid "5"
+msgstr ""
+
+#: ../Introduction.rst:50
+msgid "Flocculator"
+msgstr ""
+
+#: ../Introduction.rst:51
+msgid "6"
+msgstr ""
+
+#: ../Introduction.rst:51
+msgid "Clarifier"
+msgstr ""
+
+#: ../Introduction.rst:52
+msgid "7"
+msgstr ""
+
+#: ../Introduction.rst:52
+msgid "Stacked rapid sand filter"
+msgstr ""
+
+#: ../Introduction.rst:53
+msgid "8"
+msgstr ""
+
+#: ../Introduction.rst:53
+msgid "Treated water to the community distribution tank"
+msgstr ""
+
+#: ../Introduction.rst:57
+msgid "Water Quality Parameters"
+msgstr ""
+
+#: ../Introduction.rst:59
+msgid "The tables below summarize the raw water quality parameters for which AguaClara treatment technologies are appropriate."
+msgstr ""
+
+#: ../Introduction.rst:63
+msgid "Water Quality Parameters Treated by AguaClara Plants"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Water Quality Parameter"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Comments"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Turbidity"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Raw water with turbidity less than 600 NTU can consistently be treated to less than 1 NTU. Treatment of higher turbidities may require a customized clarifier design."
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Color/Dissolved Organic Matter (DOM)"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "For raw water with high color or total organic matter content, pilot studies are recommended to confirm the efficacy of the coagulant and the ability of the flocs to settle."
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "pH"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "pH can be lowered to prevent calcium carbonate scaling in distribution piping or increased to reduce corrosion potential."
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "Microbiological contamination"
+msgstr ""
+
+#: ../Introduction.rst:1
+msgid "The AguaClara treatment processes are designed to remove pathogens through particle removal and deactivate pathogens through disinfection."
+msgstr ""
+
+#: ../Introduction.rst:74
+msgid "AguaClara plants are designed to treat the water quality parameters listed above. Some other contaminants may also be removed, but that must be verified by jar and/or pilot scale testing. All other parameters should be within acceptable ranges in the raw water or should be treated by other means."
+msgstr ""
+
+#: ../Introduction.rst:76
+msgid "Before beginning construction of an AguaClara treatment plant, bench-scale jar testing should be performed to confirm that polyaluminum chloride, aluminum sulfate, or another proposed coagulant is able to successfully form flocs that settle. Tropical forested watersheds at elevations above about 1000 m can produce water with high concentrations of dissolved organic matter. High concentrations of dissolved organic matter are difficult to treat when the water turbidity is less than approximately 10 NTU because the resulting flocs have a density that is close to the density of water."
+msgstr ""
+
+#: ../Introduction.rst:80
+msgid "Notes on the Technical Report"
+msgstr ""
+
+#: ../Introduction.rst:82
+msgid "Figures and photos are provided for reference and are not to scale or specific to this project. Please use the provided values and dimensions from the Plant Specifications sections for your project."
+msgstr ""
+
+#: ../Introduction.rst:83
+msgid "Figure keys are unique to each chapter, except for the Chemical Dosing and Entrance Tank chapters, where figure keys are unique to each sub-chapter."
+msgstr ""
+
+#: ../Introduction.rst:84
+msgid "Use the Table of Contents to find a specific process or technology."
+msgstr ""
+
+#: ../Introduction.rst:89
+msgid "Each chapter contains:"
+msgstr ""
+
+#: ../Introduction.rst:86
+msgid "A brief description and purpose of the process or technology"
+msgstr ""
+
+#: ../Introduction.rst:87
+msgid "A brief description of flow paths"
+msgstr ""
+
+#: ../Introduction.rst:88
+msgid "Relevant labeled figures and photos"
+msgstr ""
+
+#: ../Introduction.rst:89
+msgid "Figure keys"
+msgstr ""
+
+#: ../Introduction.rst:90
+msgid "Design specifications including civil construction values, hydraulic values, and fabrication and part size values"
+msgstr ""

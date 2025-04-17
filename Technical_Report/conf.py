@@ -10,9 +10,11 @@ project = 'AguaClara'
 copyright = '2025, AguaClara Reach'
 author = 'AguaClara Reach'
 release = '0.0.0'
+
 # root_doc = 'index'
 substitute_path = ['default.yaml']
 
+# Define LaTeX substitution macros for these variables
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -24,6 +26,15 @@ extensions = ['sphinx.ext.doctest',
               'sphinx_ext_substitution',
               ]
 
+locale_dirs = ['po_files']  # This is where your .po files will be created
+
+# In conf.py
+import os
+
+# language = os.getenv('SPHINX_LANGUAGE', 'en')  # Default to English if not set
+
+language = 'es'  # Force Spanish
+gettext_compact = False  # Ensure translations are not ignored
 
 substitute_mode = 'replace'
 
@@ -166,14 +177,16 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 print(os.path.abspath('.'))
-from plants.perseverance.conf import *
+from plants.san_juan_planes.conf import *
 
 #.divina_providencia.conf
+#.san_juan_planes.conf
+#.perseverance.conf
 
 latex_engine = 'xelatex'  # Use xelatex for better Unicode support
 
 latex_elements = {
-    'title': 'Perseverance Technical Report',
+    'title': 'San Juan Planes Technical Report',
     'papersize': 'a4paper',       # Choose between 'a4paper' or 'letterpaper'
     'pointsize': '12pt',          # Default font size
     'preamble': r'''
@@ -205,5 +218,5 @@ latex_elements = {
         \setcounter{tocdepth}{2}
     ''',
     'extraclassoptions': 'openany,oneside',
+    'babel': '\\usepackage[spanish]{babel}',
 }
-

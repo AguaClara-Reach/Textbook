@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, AguaClara Reach
+# This file is distributed under the same license as the San Juan Planes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: San Juan Planes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-25 17:59-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:22
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:36
+msgid "Chapter 1: Chemical Dosing"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "Chapter 2: Entrance Tank"
+msgstr ""
+
+#: ../../index.rst:48
+msgid "Chapter 3: Flocculator"
+msgstr ""
+
+#: ../../index.rst:55
+msgid "Chapter 4: Clarifier"
+msgstr ""
+
+#: ../../index.rst:61
+msgid "Chapter 5: Stacked Rapid Sand Filtration"
+msgstr ""
+
+#: ../../index.rst:68
+msgid "Chapter 6: Construction Tolerances"
+msgstr ""
+
+#: ../../index.rst:4
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../index.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../index.rst:6
+msgid "**San Juan Planes - AguaClara Water Treatment Plant**"
+msgstr ""
+
+#: ../../index.rst:8
+msgid "Agua Para el Pueblo"
+msgstr ""
+
+#: ../../index.rst:10
+msgid "Latter Day Saints Charities"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "San Juan Planes, Honduras"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "AguaClara Technical Report for San Juan Planes"
+msgstr ""

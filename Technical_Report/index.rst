@@ -3,12 +3,20 @@
 
 |ACRlogowithname|
 
+**San Juan Planes - AguaClara Water Treatment Plant**
+
+Partner: Agua Para el Pueblo
+
+Funder: Church of Jesus Christ of Latter-day Saints
+
+Location: San Juan Planes, Honduras
+
 .. |ACRlogowithname| image:: ../Textbook/AIDE/About/Images/ACRlogowithname.png
   :target: https://www.aguaclarareach.org/
   :height: 40
 
 ==============================================
-AguaClara Technical Report for Perseverance
+AguaClara Technical Report for San Juan Planes
 ==============================================
 
 .. toctree::
@@ -29,7 +37,7 @@ AguaClara Technical Report for Perseverance
   :caption: Chapter 1: Chemical Dosing
   :maxdepth: 1
 
-  Chemical_Dosing_pH.rst
+  Chemical_Dosing.rst
 
 .. toctree::
   :caption: Chapter 2: Entrance Tank
