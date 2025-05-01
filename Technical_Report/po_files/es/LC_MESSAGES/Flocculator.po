@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../Flocculator.rst:5
 msgid "Flocculator"
-msgstr ""
+msgstr "Floculador"
 
 #: ../../Flocculator.rst:7
 msgid ""
@@ -30,10 +30,13 @@ msgid ""
 "`Flocculation Design chapter of The Physics of Water Treatment Design "
 "<https://aguaclara.github.io/Textbook/Flocculation/Floc_Design.html>`_."
 msgstr ""
+"Información de diseño para el floculator AguaClara is available in the "
+"`Flocculation Design chapter of The Physics of Water Treatment Design "
+"<https://aguaclara.github.io/Textbook/Flocculation/Floc_Design.html>`_."
 
 #: ../../Flocculator.rst:11
 msgid "Purpose and Description"
-msgstr ""
+msgstr "Propósito y descripción"
 
 #: ../../Flocculator.rst:13
 msgid ""
@@ -42,6 +45,11 @@ msgid ""
 "weight to settle easily in the clarifier. The gentle mixing of water with "
 "coagulant in the flocculator causes collisions between particles."
 msgstr ""
+"El floculador hace que las partículas suspendidas en el agua colisionen y se"
+" aglomeren para formar agregados más grandes llamados flóculos. Estos flocs "
+"tienen suficiente peso para establecerse fácilmente en el aclarador. La "
+"suave mezcla de agua con coagulante en el floculador provoca colisiones "
+"entre partículas."
 
 #: ../../Flocculator.rst:15
 msgid ""
@@ -51,110 +59,126 @@ msgid ""
 " causes fluid deformation and ultimately promotes collisions between "
 "particles."
 msgstr ""
+"Este floculador es una serie de canales con sábanas o deflectores que "
+"dirigen el flujo de agua en una ruta serpentina. A medida que el agua da la "
+"vuelta al final de un deflector, el flujo primero se contrae y luego se "
+"expande. Esta expansión turbulenta causa la deformación del fluido y "
+"finalmente promueve colisiones entre partículas."
 
 #: ../../Flocculator.rst:24
-msgid "floculador con ruta de flujo"
-msgstr ""
+#, fuzzy
+msgid "flocculator with flow path"
+msgstr "Puerto del canal del floculador"
 
 #: ../../Flocculator.rst:24
 msgid ""
 "View of an AguaClara flocculator with one wall removed. Blue arrows indicate"
 " the direction of water flow between the baffles."
 msgstr ""
+"Vista de un floculador AguaClara con una pared retirada. Las flechas azules "
+"indican la dirección del flujo de agua entre los deflectores."
 
 #: ../../Flocculator.rst:26
 msgid "Flocculator Figure Key for :numref:`figure_flocculator_w_flow_path`"
 msgstr ""
+"Clave de figura del floculator para :numref:`figure_flocculator_w_flow_path`"
 
 #: ../../Flocculator.rst:1
 msgid "Key"
-msgstr ""
+msgstr "Llave"
 
 #: ../../Flocculator.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../Flocculator.rst:1
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../Flocculator.rst:1
 msgid "Water surface that slopes downward in the direction of flow"
 msgstr ""
+"Superficie de agua que se inclina hacia abajo en la dirección del flujo"
 
 #: ../../Flocculator.rst:1
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../Flocculator.rst:1
 msgid ""
 "Flocculator port through the channel wall for flow to pass into the next "
 "channel"
 msgstr ""
+"Puerto del floculador a través de la pared del canal para que el flujo pase "
+"al siguiente canal"
 
 #: ../../Flocculator.rst:1
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../Flocculator.rst:1
 msgid "Lower baffle"
-msgstr ""
+msgstr "Inferior desconcertante"
 
 #: ../../Flocculator.rst:1
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../Flocculator.rst:1
 msgid "Upper baffle"
-msgstr ""
+msgstr "Defensa superior"
 
 #: ../../Flocculator.rst:1
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../Flocculator.rst:1
 msgid "Location where water enters this channel through the hidden wall"
 msgstr ""
+"Ubicación donde el agua ingresa a este canal a través de la pared oculta"
 
 #: ../../Flocculator.rst:1
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../Flocculator.rst:1
 msgid "Pipe stub that can be removed to drain the flocculator"
-msgstr ""
+msgstr "Tubo de tubería que se puede quitar para drenar el floculador"
 
 #: ../../Flocculator.rst:1
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../../Flocculator.rst:1
 msgid "Channel connecting the flocculator to the clarifier"
-msgstr ""
+msgstr "Canal que conecta el floculador al aclarador"
 
 #: ../../Flocculator.rst:47
-msgid "puerto de floculador"
-msgstr ""
+#, fuzzy
+msgid "flocculator port"
+msgstr "Floculador"
 
 #: ../../Flocculator.rst:47
 msgid "View of an AguaClara flocculator highlighting a flocculator port"
-msgstr ""
+msgstr "Vista de un floculador AguaClara resaltar un puerto de floculator"
 
 #: ../../Flocculator.rst:49
 msgid "Flocculator Port Figure Key for :numref:`figure_floc_port`"
 msgstr ""
+"Clave de figura del puerto del floculator para :numref:`figure_floc_port`"
 
 #: ../../Flocculator.rst:1
 msgid "Flocculator channel port"
-msgstr ""
+msgstr "Puerto del canal del floculador"
 
 #: ../../Flocculator.rst:64
-msgid "módulo de deflocación del floculador"
-msgstr ""
+#, fuzzy
+msgid "flocculator baffle module"
+msgstr "Puerto del canal del floculador"
 
 #: ../../Flocculator.rst:64
 msgid "Photo of AguaClara modular baffle assembly"
-msgstr ""
+msgstr "Foto del conjunto de deflectores modulares AguaClara"
 
 #: ../../Flocculator.rst:66
 msgid ""
@@ -163,41 +187,51 @@ msgid ""
 "in the assembly on the right, to allow water to flow under the baffles "
 "during flocculator cleaning and during filling and emptying."
 msgstr ""
+"El ensamblaje anterior (:numref:`figure_floc_baffle_module`) simplifica "
+"tanto la fabricación como el mantenimiento. El conjunto de deflectación se "
+"puede elevar, como se muestra en el conjunto a la derecha, para permitir que"
+" el agua fluya debajo de los deflectores durante la limpieza del floculador "
+"y durante el llenado y el vaciado."
 
 #: ../../Flocculator.rst:68
 msgid ""
 "Flocculator Baffle Photo Figure Key for :numref:`figure_floc_baffle_module`"
 msgstr ""
+"Clave de figura fotográfica de Flocatulator para "
+":numref:`figure_floc_baffle_module`"
 
 #: ../../Flocculator.rst:1
 msgid "Upper polycarbonate baffle"
-msgstr ""
+msgstr "Deflector de policarbonato superior"
 
 #: ../../Flocculator.rst:1
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../Flocculator.rst:1
 msgid "PVC pipe frame"
-msgstr ""
+msgstr "Marco de tubería de PVC"
 
 #: ../../Flocculator.rst:1
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../../Flocculator.rst:1
 msgid ""
 "Temporary pipes used to elevate a baffle assembly while the flocculator is "
 "filled with water"
 msgstr ""
+"Tuberías temporales utilizadas para elevar un conjunto de deflectores "
+"mientras el floculador está lleno de agua"
 
 #: ../../Flocculator.rst:85
-msgid "detalle del espaciador de deflocos del floculator"
-msgstr ""
+#, fuzzy
+msgid "flocculator baffle spacer detail"
+msgstr "Detalle del espaciador de deflectación"
 
 #: ../../Flocculator.rst:85
 msgid "Baffle spacer detail"
-msgstr ""
+msgstr "Detalle del espaciador de deflectación"
 
 #: ../../Flocculator.rst:87
 msgid ""
@@ -206,275 +240,296 @@ msgid ""
 " baffle is first transferred to the washer before being transferred to the "
 "pipe spacer to reduce the forces applied near the hole through the baffle."
 msgstr ""
+"En :numref:`figure_floc_baffle_spacer_detail`, la lavadora se encuentra "
+"aguas abajo del deflector de policarbonato para que la fuerza del agua en el"
+" deflector se transfiera primero a la lavadora antes de ser transferida al "
+"espaciador de tubería para reducir las fuerzas aplicadas cerca del orificio "
+"a través del deflector."
 
 #: ../../Flocculator.rst:89
 msgid ""
 "Baffle/Spacer Detail Figure Key for "
 ":numref:`figure_floc_baffle_spacer_detail`"
 msgstr ""
+"Clave de figura Detalle de deflectación/espaciador para "
+":numref:`figure_floc_baffle_spacer_detail`"
 
 #: ../../Flocculator.rst:1
 msgid "Polycarbonate baffle"
-msgstr ""
+msgstr "Desconcertante"
 
 #: ../../Flocculator.rst:1
 msgid "Frame pipe that connects everything together"
-msgstr ""
+msgstr "Tubería de marco que conecta todo junto"
 
 #: ../../Flocculator.rst:1
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../Flocculator.rst:1
 msgid "Plastic washer"
-msgstr ""
+msgstr "Lavadora de plástico"
 
 #: ../../Flocculator.rst:1
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../Flocculator.rst:1
 msgid "Spacer pipe that sets the spacing between baffles"
-msgstr ""
+msgstr "Tubería espaciadora que establece el espacio entre deflectores"
 
 #: ../../Flocculator.rst:102
 msgid "Plant Specifications"
-msgstr ""
+msgstr "Especificaciones de planta"
 
 #: ../../Flocculator.rst:106
 msgid ""
 "Flocculator Civil/Pipe Specifications for "
 ":numref:`figure_flocculator_w_flow_path`-"
 msgstr ""
+"Especificaciones civiles/de tubería del floculator para "
+":numref:`figure_flocculator_w_flow_path`-"
 
 #: ../../Flocculator.rst:1
 msgid "Parameter"
-msgstr ""
+msgstr "Parámetro"
 
 #: ../../Flocculator.rst:1
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ../../Flocculator.rst:1
 msgid "**Channels**"
-msgstr ""
+msgstr "**Canales**"
 
 #: ../../Flocculator.rst:1
 msgid "Channel length"
-msgstr ""
+msgstr "Longitud del canal"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.L) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Channel width"
-msgstr ""
+msgstr "Ancho de canal"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.channelW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.channelW) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Channel wall height"
-msgstr ""
+msgstr "Altura de la pared del canal"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.H) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Number of channels"
-msgstr ""
+msgstr "Número de canales"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.channelN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.channelN) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "**Ports**"
-msgstr ""
+msgstr "**Puertos**"
 
 #: ../../Flocculator.rst:1
 msgid "Height of port between channels"
-msgstr ""
+msgstr "Altura del puerto entre canales"
 
 #: ../../Flocculator.rst:1
 msgid "Width of port between channels"
-msgstr ""
+msgstr "Ancho de puerto entre canales"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffle.S) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffle.S) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "3 & 4"
-msgstr ""
+msgstr "3 y 4"
 
 #: ../../Flocculator.rst:1
 msgid "**Baffles**"
-msgstr ""
+msgstr "**deflectores**"
 
 #: ../../Flocculator.rst:1
 msgid "Number of baffle spaces per channel"
-msgstr ""
+msgstr "Número de espacios deflectores por canal"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffle.spacesN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffle.spacesN) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Baffle extra width for improved water seal"
-msgstr ""
+msgstr "Ancho adicional de desconcierto para un sello de agua mejorado"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleSet.baffle.overlapW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleSet.baffle.overlapW) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Separation between baffles"
-msgstr ""
+msgstr "Separación entre deflectores"
 
 #: ../../Flocculator.rst:1
 msgid "Height of lower baffles"
-msgstr ""
+msgstr "Altura de los deflectores inferiores"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleSet.baffle.bafflebottomL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleSet.baffle.bafflebottomL) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Height of upper baffles"
-msgstr ""
+msgstr "Altura de los deflectores superiores"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleSet.baffle.baffletopL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleSet.baffle.baffletopL) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Drain nominal diameter"
-msgstr ""
+msgstr "Drenaje diámetro nominal"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.drain.ND) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.drain.ND) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Baffle frame nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal del marco deflector"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleSet.baffle.frame.ND) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleSet.baffle.frame.ND) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Baffle spacers nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal de los espaciadores de deflector"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleSet.baffle.spacer.ND) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleSet.baffle.spacer.ND) no-sub`"
 
 #: ../../Flocculator.rst:132
 msgid "Flocculator Hydraulic Specifications"
-msgstr ""
+msgstr "Especificaciones hidráulicas del floculator"
 
 #: ../../Flocculator.rst:1
 msgid "Collision potential G :math:`\\theta`"
-msgstr ""
+msgstr "Potencial de colisión G :math:`\theta`"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.GT) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.GT) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Average velocity gradient G"
-msgstr ""
+msgstr "Gradiente de velocidad promedio G"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.G) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.G) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Minimum water temperature"
-msgstr ""
+msgstr "Temperatura mínima del agua"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.TEMP_min) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.TEMP_min) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Maximum water viscosity"
-msgstr ""
+msgstr "Máxima viscosidad del agua"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.NU) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.NU) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Water volume"
-msgstr ""
+msgstr "Volumen de agua"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.VOL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.VOL) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Minimum retention time"
-msgstr ""
+msgstr "Tiempo de retención mínimo"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.TI) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.TI) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Depth of water at exit"
-msgstr ""
+msgstr "Profundidad de agua en la salida"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.outletHW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.outletHW) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Total head loss at maximum design flow"
-msgstr ""
+msgstr "Pérdida total de la cabeza al flujo de diseño máximo"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.HL_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.HL_max) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Average water velocity"
-msgstr ""
+msgstr "Velocidad promedio de agua"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.V) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.V) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Baffle minor loss coefficient"
-msgstr ""
+msgstr "Coeficiente de pérdida menor de desconcierto"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.baffleK) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.baffleK) no-sub`"
 
 #: ../../Flocculator.rst:1
 msgid "Baffle H/S ratio"
-msgstr ""
+msgstr "Relación de deflector H/S"
 
 #: ../../Flocculator.rst:1
 msgid ":sub:`($..floc.HS_pi) no-sub`"
-msgstr ""
+msgstr ":sub:`($..floc.HS_pi) no-sub`"
 
 #~ msgid "flocculator with flow path"
-#~ msgstr ""
+#~ msgstr "floculador con ruta de flujo"
 
 #~ msgid "flocculator port"
-#~ msgstr ""
+#~ msgstr "puerto de floculador"
 
 #~ msgid "flocculator baffle module"
-#~ msgstr ""
+#~ msgstr "módulo de deflocación del floculador"
 
 #~ msgid "flocculator baffle spacer detail"
-#~ msgstr ""
+#~ msgstr "Detalle del espaciador de deflocos del floculator"
+
+#~ msgid "floculador con ruta de flujo"
+#~ msgstr "floculador con ruta de flujo"
+
+#~ msgid "puerto de floculador"
+#~ msgstr "puerto de floculador"
+
+#~ msgid "módulo de deflocación del floculador"
+#~ msgstr "módulo de deflocación del floculador"
+
+#~ msgid "Detalle del espaciador de deflocos del floculator"
+#~ msgstr "Detalle del espaciador de deflocos del floculator"

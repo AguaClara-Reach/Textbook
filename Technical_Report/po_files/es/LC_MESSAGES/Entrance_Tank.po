@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../Entrance_Tank.rst:8
 msgid "Entrance Tank"
-msgstr ""
+msgstr "Tanque de entrada"
 
 #: ../../Entrance_Tank.rst:10
 msgid ""
@@ -30,49 +30,64 @@ msgid ""
 "Entrance Tank Design chapter of The Physics of Water Treatment Design "
 "<https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_."
 msgstr ""
+"Información de diseño para el tanque de entrada AguaClara está disponible en"
+" `the Entrance Tank Design chapter of The Physics of Water Treatment Design "
+"<https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_."
 
 #: ../../Entrance_Tank.rst:13
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../Entrance_Tank.rst:16 ../../Entrance_Tank.rst:88
 #: ../../Entrance_Tank.rst:134
 msgid "Purpose and Description"
-msgstr ""
+msgstr "Propósito y descripción"
 
 #: ../../Entrance_Tank.rst:18
 msgid ""
 "The entrance tank (see :numref:`figure_spec_ET_Diagram_Labeled`) has "
 "multiple functions in a drinking water treatment plant:"
 msgstr ""
+"El tanque de entrada (ver :numref:`figure_spec_ET_Diagram_Labeled`) tiene "
+"múltiples funciones en una planta de tratamiento de agua potable:"
 
 #: ../../Entrance_Tank.rst:20
 msgid ""
 "Remove air bubbles to reduce splashing, turbulence, and unsteady motion of "
 "the chemical feed surface tracking lever system"
 msgstr ""
+"Retire las burbujas de aire para reducir las salpicaduras, la turbulencia y "
+"el movimiento inestable del sistema de palanca de seguimiento de la "
+"superficie de alimentación química"
 
 #: ../../Entrance_Tank.rst:21
 msgid "Remove grit to prevent accumulation in the flocculator"
-msgstr ""
+msgstr "Retire la arena para evitar la acumulación en el floculador"
 
 #: ../../Entrance_Tank.rst:22
 msgid ""
 "Remove leaves and other debris to prevent clogging of the diffusers in the "
 "clarifier inlet"
 msgstr ""
+"Retire las hojas y otros escombros para evitar la obstrucción de los "
+"difusores en la entrada de aclaración"
 
 #: ../../Entrance_Tank.rst:23
 msgid ""
 "Dissipate kinetic energy to keep the water level steady for accurate flow "
 "measurement"
 msgstr ""
+"Disipar la energía cinética para mantener el nivel de agua estable para una "
+"medición de flujo precisa"
 
 #: ../../Entrance_Tank.rst:24
 msgid ""
 "Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) so "
 "that operators can make adjustments and respond to changes in water demand"
 msgstr ""
+"Mida el caudal entrante con el medidor de orificio del flujo lineal (LFOM) "
+"para que los operadores puedan hacer ajustes y responder a los cambios en la"
+" demanda de agua"
 
 #: ../../Entrance_Tank.rst:25
 msgid ""
@@ -80,142 +95,151 @@ msgid ""
 "rate that is used to automatically ensure the chemical dosages remain "
 "constant even as the plant flow rate varies"
 msgstr ""
+"Proporcione una elevación de la superficie del agua que sea proporcional a "
+"la velocidad de flujo de la planta que se utiliza para garantizar "
+"automáticamente que las dosis químicas permanezcan constantes incluso cuando"
+" varía el caudal de la planta."
 
 #: ../../Entrance_Tank.rst:26
 msgid ""
 "Inject the coagulant and any other amendments required for flocculation"
 msgstr ""
+"Inyectar el coagulante y cualquier otra enmienda requerida para la "
+"floculación"
 
 #: ../../Entrance_Tank.rst:35
-msgid "diagrama de tanque de entrada"
-msgstr ""
+msgid "entrance tank diagram"
+msgstr "diagrama de tanque de entrada"
 
 #: ../../Entrance_Tank.rst:35
 msgid "Section overview of an entrance tank"
-msgstr ""
+msgstr "Descripción general de la sección de un tanque de entrada"
 
 #: ../../Entrance_Tank.rst:37
 msgid ""
 "Entrance Tank Overview Figure Key for "
 ":numref:`figure_spec_ET_Diagram_Labeled`"
 msgstr ""
+"Clave de cifra de descripción general del tanque de entrada para "
+":numref:`figure_spec_ET_Diagram_Labeled`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Key"
-msgstr ""
+msgstr "Llave"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../Entrance_Tank.rst:1
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Chemical doser"
-msgstr ""
+msgstr "Dosis química"
 
 #: ../../Entrance_Tank.rst:1
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Float that tracks the water level set by the LFOM"
-msgstr ""
+msgstr "Flotante que rastrea el nivel de agua establecido por el LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Bypass"
-msgstr ""
+msgstr "Derivación"
 
 #: ../../Entrance_Tank.rst:1
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../Entrance_Tank.rst:1
 msgid "LFOM"
-msgstr ""
+msgstr "Lfom"
 
 #: ../../Entrance_Tank.rst:1
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Sediment drain pipe stub"
-msgstr ""
+msgstr "Tipón de drenaje de sedimentos"
 
 #: ../../Entrance_Tank.rst:1
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Sediment hopper"
-msgstr ""
+msgstr "Tolva de sedimento"
 
 #: ../../Entrance_Tank.rst:1
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum water level set by the LFOM"
-msgstr ""
+msgstr "Nivel máximo de agua establecido por el LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Trash rack"
-msgstr ""
+msgstr "Estante de la basura"
 
 #: ../../Entrance_Tank.rst:1
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Overflow"
-msgstr ""
+msgstr "Rebosar"
 
 #: ../../Entrance_Tank.rst:1
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Raw water inlet"
-msgstr ""
+msgstr "Entrada de agua cruda"
 
 #: ../../Entrance_Tank.rst:1
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum water level upstream of the trash rack"
-msgstr ""
+msgstr "Nivel máximo del agua aguas arriba de la rejilla de basura"
 
 #: ../../Entrance_Tank.rst:1
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Drain channel that connects to the main plant drain channel"
 msgstr ""
+"Canal de drenaje que se conecta al canal principal de drenaje de la planta"
 
 #: ../../Entrance_Tank.rst:1
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Pipe leading to the flocculator"
-msgstr ""
+msgstr "Tubería que conduce al floculador"
 
 #: ../../Entrance_Tank.rst:58 ../../Entrance_Tank.rst:92
 #: ../../Entrance_Tank.rst:167
 msgid "Flow Path"
-msgstr ""
+msgstr "Ruta de flujo"
 
 #: ../../Entrance_Tank.rst:60
 msgid ""
@@ -228,102 +252,116 @@ msgid ""
 "operator to discharge accumulated sediment from the hoppers while the plant "
 "is in operation."
 msgstr ""
+"El agua cruda ingresa al tanque de entrada como se muestra en "
+":numref:`figure_spec_ET_Diagram_Labeled` y fluye a través de las tolvas en "
+"la parte inferior del tanque. La primera tolva contiene una tubería de "
+"desbordamiento para desperdiciar cualquier agua que ingrese a la planta que "
+"excede el diseño máximo de flujo de la planta. La tubería de desbordamiento "
+"está dimensionada para manejar la tasa de flujo de planta de diseño máximo "
+"total. Se instala un trozo de tubería de drenaje extraíble en cada tolva, lo"
+" que permite que el operador descargue sedimentos acumulados de las tolvas "
+"mientras la planta está en funcionamiento."
 
 #: ../../Entrance_Tank.rst:64 ../../Entrance_Tank.rst:96
 #: ../../Entrance_Tank.rst:171
 msgid "Plant Specifications"
-msgstr ""
+msgstr "Especificaciones de planta"
 
 #: ../../Entrance_Tank.rst:67
 msgid ""
 "Entrance Tank Specifications for :numref:`figure_spec_ET_Diagram_Labeled`"
 msgstr ""
+"Especificaciones del tanque de entrada para "
+":numref:`figure_spec_ET_Diagram_Labeled`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Parameter"
-msgstr ""
+msgstr "Parámetro"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Capture velocity"
-msgstr ""
+msgstr "Velocidad de captura"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.captureVm) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.captureVm) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Entrance tank internal width"
-msgstr ""
+msgstr "Ancho interno del tanque de entrada"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.W) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Entrance tank internal length"
-msgstr ""
+msgstr "Longitud interna del tanque de entrada"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.L) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Removable drain pipe stub nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal de la tubería de drenaje extraíble"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.etHopper.drainND) no-sub` inches"
-msgstr ""
+msgstr ":sub:`($..et.etHopper.drainND) no-sub` pulgadas"
 
 #: ../../Entrance_Tank.rst:1
 msgid "**Hoppers**"
-msgstr ""
+msgstr "**Hoppers**"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Number of hoppers"
-msgstr ""
+msgstr "Número de tolvas"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.etHopper.N) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.etHopper.N) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Hopper angle"
-msgstr ""
+msgstr "Ángulo de la tolva"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.etHopper.AN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.etHopper.AN) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum depth of water at the LFOM"
-msgstr ""
+msgstr "Profundidad máxima de agua en el LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfomHW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfomHW) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Overflow pipe nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal de la tubería de desbordamiento"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.overflow.ND) no-sub` inches"
-msgstr ""
+msgstr ":sub:`($..et.overflow.ND) no-sub` pulgadas"
 
 #: ../../Entrance_Tank.rst:85
 msgid "Trash Rack"
-msgstr ""
+msgstr "Estante de la basura"
 
 #: ../../Entrance_Tank.rst:89
 msgid ""
 "The trash racks are designed to remove any debris that would be large enough"
 " to obstruct downstream processes."
 msgstr ""
+"Los bastidores de basura están diseñados para eliminar cualquier escombro "
+"que sea lo suficientemente grande como para obstruir los procesos aguas "
+"abajo."
 
 #: ../../Entrance_Tank.rst:93
 msgid ""
@@ -332,6 +370,10 @@ msgid ""
 "treatment process. Having two trash racks allows the operator to remove one "
 "of the trash racks for cleaning."
 msgstr ""
+"A medida que el agua cruda fluye desde la primera tolva hasta la posterior, "
+"debe pasar a través de dos bastidores de basura, evitando que los desechos "
+"grandes ingresen al proceso de tratamiento. Tener dos rejillas de basura "
+"permite al operador eliminar una de las rejillas de basura para la limpieza."
 
 #: ../../Entrance_Tank.rst:97
 msgid ""
@@ -339,106 +381,110 @@ msgid ""
 "orifices in the stacked rapid sand filter inlet branches. The trash rack "
 "string spacing defined is the maximum allowable spacing of these strings."
 msgstr ""
+"Las dimensiones de flujo más pequeñas son los difusores en el aclarador y "
+"los orificios en las ramas de entrada de filtro de arena rápida apiladas. El"
+" espaciado de la cuerda del estante de basura definido es el espacio máximo "
+"permitido de estas cuerdas."
 
 #: ../../Entrance_Tank.rst:101
 msgid "Trash Rack Specifications"
-msgstr ""
+msgstr "Especificaciones de estante de basura"
 
 #: ../../Entrance_Tank.rst:1
 msgid "value"
-msgstr ""
+msgstr "valor"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Channel width"
-msgstr ""
+msgstr "Ancho de canal"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..trashRack.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..trashRack.W) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Trash rack height"
-msgstr ""
+msgstr "Altura del estante de basura"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.L) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Fractional open area"
-msgstr ""
+msgstr "Área abierta fraccional"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.PO) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.PO) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Downstream water depth"
-msgstr ""
+msgstr "Profundidad del agua aguas abajo"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.downstreamHW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.downstreamHW) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Clean head loss"
-msgstr ""
+msgstr "Pérdida de cabeza limpia"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.HL_min) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.HL_min) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum fractional clogging"
-msgstr ""
+msgstr "Obstrucción fraccionaria máxima"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.PO_pi) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.PO_pi) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum head loss"
-msgstr ""
+msgstr "Pérdida de cabeza máxima"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.HL_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.HL_max) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "String diameter"
-msgstr ""
+msgstr "Diámetro de la cuerda"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.Dm) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.Dm) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Open space between strings"
-msgstr ""
+msgstr "Espacio abierto entre cuerdas"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.trashRack.Sm) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.trashRack.Sm) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Diffuser flow width"
-msgstr ""
+msgstr "Ancho de flujo del difusor"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..inletManifold.diffuser.slotW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..inletManifold.diffuser.slotW) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "StaRS inlet branch orifice diameter"
-msgstr ""
+msgstr "Diámetro del orificio de la rama de entrada framca"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.inlet.portD) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.inlet.portD) no-sub`"
 
 #: ../../Entrance_Tank.rst:121
 msgid "Sediment and Grit Removal"
-msgstr ""
+msgstr "Sedimento y eliminación de arena"
 
 #: ../../Entrance_Tank.rst:123
 msgid ""
@@ -447,6 +493,11 @@ msgid ""
 "flocculator. Large particulates settle out in the hoppers, and collect near "
 "the drains at the bottom."
 msgstr ""
+"El tanque de entrada tiene una velocidad de captura de "
+":sub:`($..et.captureVm) no-sub` para eliminar las partículas que de otro "
+"modo se asentarían en el fondo del floculador. Las partículas grandes se "
+"asientan en las tolvas y se acumulan cerca de los desagües en la parte "
+"inferior."
 
 #: ../../Entrance_Tank.rst:125
 msgid ""
@@ -455,6 +506,11 @@ msgid ""
 "minimum desired capture velocity is met while still allowing enough space "
 "for a person to fit inside and construct the tank."
 msgstr ""
+"La longitud del tanque de entrada de :sub:`($..et.L) no-sub` corresponde a "
+"la longitud del tanque Clarificador. El ancho, :sub:`($..et.W) no-sub`, "
+"garantiza que se cumpla la velocidad de captura mínima deseada y al mismo "
+"tiempo que permite suficiente espacio para que una persona se ajuste al "
+"interior y construya el tanque."
 
 #: ../../Entrance_Tank.rst:127
 msgid ""
@@ -465,10 +521,17 @@ msgid ""
 "out. Directly below the entrance tank, there is a drain channel that "
 "transfers the waste to the main plant drain channel."
 msgstr ""
+"Las tolvas :sub:`($..et.etHopper.N) no-sub` recolectan arena y arena que "
+"luego se asienta hasta el fondo donde se encuentran los desagües de diámetro"
+" nominal :sub:`($..et.etHopper.drain.ND) no-sub` pulgadas. Cuando se ha "
+"acumulado demasiado sedimento, las tuberías de drenaje deben retirarse hasta"
+" que el lodo se elimine. Directamente debajo del tanque de entrada, hay un "
+"canal de drenaje que transfiere los desechos al canal principal de drenaje "
+"de la planta."
 
 #: ../../Entrance_Tank.rst:132
 msgid "Linear Flow Orifice Meter"
-msgstr ""
+msgstr "Medidor de orificio de flujo lineal"
 
 #: ../../Entrance_Tank.rst:135
 msgid ""
@@ -479,16 +542,24 @@ msgid ""
 "rate is controlled by inlet valve where raw water is entering the entrance "
 "tank."
 msgstr ""
+"El medidor de orificio de flujo lineal (LFOM) es una forma de vertedero "
+"cortada en una tubería con hileras de agujeros, o orificios, perforado en "
+"él. El LFOM crea una relación lineal entre el nivel de agua en el tanque de "
+"entrada y el flujo fuera del tanque de entrada. No controla el flujo a "
+"través de la planta. El caudal se controla mediante la válvula de entrada "
+"donde el agua cruda ingresa al tanque de entrada."
 
 #: ../../Entrance_Tank.rst:138
 msgid "This serves two purposes:"
-msgstr ""
+msgstr "Esto tiene dos propósitos:"
 
 #: ../../Entrance_Tank.rst:140
 msgid ""
 "Allows the operator to measure the flow through the plant quickly and "
 "easily."
 msgstr ""
+"Permite al operador medir el flujo a través de la planta rápida y "
+"fácilmente."
 
 #: ../../Entrance_Tank.rst:141
 msgid ""
@@ -498,113 +569,116 @@ msgid ""
 "there is a need to change the **dose** due to a change in turbidity or "
 "organic matter concentration."
 msgstr ""
+"Permite que el controlador de **dosis** química lineal ajuste "
+"automáticamente el flujo de coagulante y cloro en la planta a medida que "
+"cambia la velocidad de flujo de la planta. Esto significa que los operadores"
+" solo necesitan ajustar el coagulante cuando es necesario cambiar la dosis "
+"debido a un cambio en la turbidez o la concentración de materia orgánica."
 
 #: ../../Entrance_Tank.rst:151
-#, fuzzy
-msgid "Un LFOM"
-msgstr ""
+msgid "An LFOM"
+msgstr "An LFOM"
 
 #: ../../Entrance_Tank.rst:151
 msgid "An AguaClara LFOM showing the flow rate in L/s."
-msgstr ""
+msgstr "An LFOM AguaClara Mostrando el caudal en l/s."
 
 #: ../../Entrance_Tank.rst:153
 msgid "LFOM Overview Figure Key"
-msgstr ""
+msgstr "Clave de figura de descripción general de LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Maximum flow rate in L/s and maximum water level"
-msgstr ""
+msgstr "Caudal máximo en L/S y nivel máximo de agua"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Zero flow and minimum water level"
-msgstr ""
+msgstr "Flujo cero y nivel de agua mínima"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Pipe stub that can be removed"
-msgstr ""
+msgstr "TUMBA DE PUBE que se puede quitar"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Invert of entrance tank"
-msgstr ""
+msgstr "Invertido del tanque de entrada"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Pipe coupling that is embedded in concrete"
-msgstr ""
+msgstr "Acoplamiento de tubería que está incrustado en concreto"
 
 #: ../../Entrance_Tank.rst:168
 msgid ""
 "Water in the entrance tank flows into and down the LFOM, towards the rapid "
 "mix orifice and flocculator."
 msgstr ""
+"El agua en el tanque de entrada fluye hacia el LFOM, hacia el orificio "
+"rápido de la mezcla y el floculador."
 
 #: ../../Entrance_Tank.rst:174
 msgid "LFOM Specifications"
-msgstr ""
+msgstr "Especificaciones de LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid "LFOM nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal de LFOM"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..et.lfom.ND) no-sub` pulgada"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Number of rows of orifices"
-msgstr ""
+msgstr "Número de filas de orificios"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.rowN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.rowN) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Max flow rate"
-msgstr ""
+msgstr "Caudal máximo"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.Qm_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.Qm_max) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Head loss at max flow"
-msgstr ""
+msgstr "Pérdida de la cabeza al flujo máximo"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.HL_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.HL_max) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Diameter of orifices"
-msgstr ""
+msgstr "Diámetro de orificios"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.orificeD) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.orificeD) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Space between orifices measured on the outside of the pipe"
-msgstr ""
+msgstr "Espacio entre orificios medidos en el exterior de la tubería"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.orificeS) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.orificeS) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Number of orifices in each row starting from bottom row"
-msgstr ""
+msgstr "Número de orificios en cada fila a partir de la fila inferior"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.rowOrificeN_VEC) no-sub`"
-msgstr ""
+msgstr ":sub:`($..et.lfom.rowOrificeN_VEC) no-sub`"
 
 #: ../../Entrance_Tank.rst:1
 msgid "Elevation of each row from zero flow datum"
-msgstr ""
+msgstr "Elevación de cada fila desde cero flujo datum"
 
 #: ../../Entrance_Tank.rst:1
 msgid ":sub:`($..et.lfom.rowOrificeH_VEC) no-sub`"
-msgstr ""
-
-#~ msgid "entrance tank diagram"
-#~ msgstr ""
+msgstr ":sub:`($..et.lfom.rowOrificeH_VEC) no-sub`"

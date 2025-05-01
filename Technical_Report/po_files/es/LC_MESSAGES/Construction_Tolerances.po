@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 17:31-0400\n"
+"POT-Creation-Date: 2025-04-24 14:01-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../Construction_Tolerances.rst:6 ../../Construction_Tolerances.rst:12
 msgid "Construction Tolerances"
-msgstr ""
+msgstr "Tolerancias de construcción"
 
 #: ../../Construction_Tolerances.rst:8
 msgid ""
@@ -31,187 +31,192 @@ msgid ""
 "are designed to ensure the hydraulic components of the plant will function "
 "as intended."
 msgstr ""
+"Las tolerancias de la construcción son las desviaciones permitidas de las "
+"dimensiones de diseño. Las tolerancias se especifican en la tabla a "
+"continuación. Las tolerancias están diseñadas para garantizar que los "
+"componentes hidráulicos de la planta funcionen según lo previsto."
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Parameter"
-msgstr ""
+msgstr "Parámetro"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "English Units"
-msgstr ""
+msgstr "Unidades inglesas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Metric Units"
-msgstr ""
+msgstr "Unidades métricas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Elevation"
-msgstr ""
+msgstr "Elevación"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Ledges and pipe supports"
-msgstr ""
+msgstr "Soportes y soportes de tubería"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1/2 in."
-msgstr ""
+msgstr "± 1/2 pulg."
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1.3 cm"
-msgstr ""
+msgstr "± 1. 3 cm"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Top of walls"
-msgstr ""
+msgstr "Parte superior de las paredes"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Top of weirs"
-msgstr ""
+msgstr "Top of Weirs"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1/8 in."
-msgstr ""
+msgstr "± 1/8 in."
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±0.3 cm"
-msgstr ""
+msgstr "± 0. 3 cm"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Top of slabs"
-msgstr ""
+msgstr "Parte superior de losas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±3/8 in."
-msgstr ""
+msgstr "± 3/8 in."
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1 cm"
-msgstr ""
+msgstr "± 1 cm"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Tank bottoms"
-msgstr ""
+msgstr "Fondos de tanque"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Cross-sectional"
-msgstr ""
+msgstr "Transversal"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Width of walls"
-msgstr ""
+msgstr "Ancho de las paredes"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Width of beams"
-msgstr ""
+msgstr "Ancho de vigas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1/4 in."
-msgstr ""
+msgstr "± 1/4 in."
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±0.6 cm"
-msgstr ""
+msgstr "± 0. 6 cm"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Width of columns"
-msgstr ""
+msgstr "Ancho de columnas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Thickness of slabs"
-msgstr ""
+msgstr "Espesor de losas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Internal dimensions"
-msgstr ""
+msgstr "Dimensiones internas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Width and length of tanks"
-msgstr ""
+msgstr "Ancho y longitud de los tanques"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Alignment"
-msgstr ""
+msgstr "Alineación"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Vertical alignment of walls"
-msgstr ""
+msgstr "Alineación vertical de paredes"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Horizontal alignment of walls"
-msgstr ""
+msgstr "Alineación horizontal de las paredes"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Plumbness"
-msgstr ""
+msgstr "Plomería"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Plumbness of columns"
-msgstr ""
+msgstr "Fuura de columnas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±1/4 in. per 10 ft"
-msgstr ""
+msgstr "± 1/4 pulg. Por 10 pies"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±0.6 cm per 3 meter"
-msgstr ""
+msgstr "± 0. 6 cm por 3 metros"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Plumbness of walls"
-msgstr ""
+msgstr "Fuura de las paredes"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Flatness"
-msgstr ""
+msgstr "Llanura"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Flatness of slabs including tank bottoms"
-msgstr ""
+msgstr "Planitud de losas que incluyen fondos de tanques"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±0.6 cm per 3 meters"
-msgstr ""
+msgstr "± 0. 6 cm por 3 metros"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Reinforcement"
-msgstr ""
+msgstr "Reforzamiento"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Location of reinforcing bars"
-msgstr ""
+msgstr "Ubicación de las barras de refuerzo"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Cover to reinforcing bars"
-msgstr ""
+msgstr "Cubrir a las barras de refuerzo"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Surface Finish"
-msgstr ""
+msgstr "Acabado superficial"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Surface finish of formed concrete"
-msgstr ""
+msgstr "Acabado superficial del concreto formado"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "No more than 1/8 in. deviation from a 10 ft straightedge"
-msgstr ""
+msgstr "No más de 1/8 pulg. Desviación de una recta de 10 pies"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "±0.3 cm deviation from a 3 meter straightedge"
-msgstr ""
+msgstr "Desviación de ± 0. 3 cm de una recta de 3 metros"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Pipes"
-msgstr ""
+msgstr "Tubería"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Horizontal location of embedded horizontal or vertical pipes"
 msgstr ""
+"Ubicación horizontal de tuberías horizontales o verticales incrustadas"
 
 #: ../../Construction_Tolerances.rst:1
 msgid "Vertical location of embedded horizontal pipes"
-msgstr ""
+msgstr "Ubicación vertical de tuberías horizontales incrustadas"

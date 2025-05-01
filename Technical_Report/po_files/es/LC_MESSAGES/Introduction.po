@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -169,8 +169,8 @@ msgstr ""
 "sedimentación."
 
 #: ../../Introduction.rst:-1
-msgid "TREN de tratamiento de CA"
-msgstr "TREN de tratamiento de CA"
+msgid "AC treatment train"
+msgstr "Tren de tratamiento de CA"
 
 #: ../../Introduction.rst:40
 msgid "Schematic showing the AguaClara treatment processes."
@@ -418,4 +418,7 @@ msgstr ""
 "valores hidráulicos y valores de fabricación y tamaño de pieza"
 
 #~ msgid "AC treatment train"
+#~ msgstr "Tren de tratamiento de CA"
+
+#~ msgid "Tren de tratamiento de CA"
 #~ msgstr "Tren de tratamiento de CA"

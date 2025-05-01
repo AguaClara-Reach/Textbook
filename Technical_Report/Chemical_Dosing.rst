@@ -212,7 +212,7 @@ The constant level tanks prevent the changing chemical levels in the stock tanks
    "11", "Connection to feed line to the doser"
    "12", "Valve to drain the line going to the doser (for cleaning with vinegar)"
 
-There is a pair of constant level tanks for each chemical feed. The specifications for each tank is given in :numref:`table_Constant_Level_Tank_Specifications`.
+There is a pair of constant level tanks for each chemical feed. The specifications for each tank is given below.
 
 Plant Specifications
 ^^^^^^^^^^^^^^^^^^^^^

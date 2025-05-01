@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -104,15 +104,15 @@ msgid ""
 " inadvertently which may occur if the transmission line is damaged."
 msgstr ""
 "Este sistema tiene la característica de mantener una dosis constante de "
-"productos químicos **** incluso cuando el caudal a través de la planta "
-"varía. El operador de la planta puede variar la dosis química directamente, "
-"sin hacer ningún cálculo y sin tener que manipular el sistema cada vez que "
-"el caudal en la planta cambia. El sistema de dosificación AguaClara "
-"Proporciona el beneficio adicional de apagar automáticamente el flujo "
-"químico cuando no hay flujo en la planta. Esto proporciona seguridad contra "
-"la contaminación con el exceso de productos químicos y los desechos químicos"
-" en caso de que la planta se apague inadvertidamente, lo que puede ocurrir "
-"si la línea de transmisión está dañada."
+"productos químicos incluso cuando el caudal a través de la planta varía. El "
+"operador de la planta puede variar la dosis química directamente, sin hacer "
+"ningún cálculo y sin tener que manipular el sistema cada vez que el caudal "
+"en la planta cambia. El sistema de **dosificación** AguaClara Proporciona el"
+" beneficio adicional de apagar automáticamente el flujo químico cuando no "
+"hay flujo en la planta. Esto proporciona seguridad contra la contaminación "
+"con el exceso de productos químicos y los desechos químicos en caso de que "
+"la planta se apague inadvertidamente, lo que puede ocurrir si la línea de "
+"transmisión está dañada."
 
 #: ../../Chemical_Dosing.rst:27
 msgid "Chemical Flow Path"
@@ -255,8 +255,9 @@ msgstr ""
 "para cada químico."
 
 #: ../../Chemical_Dosing.rst:61
-msgid "descripción general del tanque de stock químico"
-msgstr "descripción general del tanque de stock químico"
+#, fuzzy
+msgid "chemical stock tank overview"
+msgstr "Tanques de caldo químicos"
 
 #: ../../Chemical_Dosing.rst:61
 msgid "Overview of the chemical platform"
@@ -303,8 +304,9 @@ msgid "Chlorine stock tanks"
 msgstr "Tanques de stock de cloro"
 
 #: ../../Chemical_Dosing.rst:80 ../../Chemical_Dosing.rst:98
-msgid "botthera de tanque de caldo químico"
-msgstr "botthera de tanque de caldo químico"
+#, fuzzy
+msgid "chemical stock tank bottom"
+msgstr "Tanques de caldo químicos"
 
 #: ../../Chemical_Dosing.rst:80
 msgid "Bottom view of the chemical stock tanks"
@@ -379,8 +381,9 @@ msgid "Valve for chemical drainage"
 msgstr "Válvula para drenaje químico"
 
 #: ../../Chemical_Dosing.rst:119
-msgid "sección de tanque de stock químico"
-msgstr "sección de tanque de stock químico"
+#, fuzzy
+msgid "chemical stock tank section"
+msgstr "Tanques de caldo químicos"
 
 #: ../../Chemical_Dosing.rst:119
 msgid "Section view of the chemical stock tank"
@@ -422,7 +425,9 @@ msgstr "Adaptador de pared a través del tanque químico para drenar la tubería
 msgid ""
 "Chemical Platform Specifications for "
 ":numref:`figure_chemical_stock_tanks_overview`-:numref:`figure_chem_stock_tank_section_basic`"
-msgstr "Especificaciones de plataforma química para __RST1 __-__ RST2__"
+msgstr ""
+"Especificaciones de plataforma química para "
+":numref:`figure_chemical_stock_tanks_overview`-:numref:`figure_chem_stock_tank_section_basic`"
 
 #: ../../Chemical_Dosing.rst:1
 msgid "Width"
@@ -554,8 +559,9 @@ msgstr ""
 " (ver :numref:`figure_clt_overview`)."
 
 #: ../../Chemical_Dosing.rst:174
-msgid "descripción general del tanque de nivel constante"
-msgstr "descripción general del tanque de nivel constante"
+#, fuzzy
+msgid "constant level tank overview"
+msgstr "Tanque de nivel constante"
 
 #: ../../Chemical_Dosing.rst:174
 msgid ""
@@ -603,8 +609,9 @@ msgstr ""
 "por los tanques de stock (:sub:`($..floatvalveHL_bod) no-sub`)."
 
 #: ../../Chemical_Dosing.rst:194 ../../Chemical_Dosing.rst:254
-msgid "detalles del tanque de nivel constante"
-msgstr "detalles del tanque de nivel constante"
+#, fuzzy
+msgid "constant level tank details"
+msgstr "Tanques de nivel constante"
 
 #: ../../Chemical_Dosing.rst:194
 msgid ""
@@ -681,19 +688,18 @@ msgstr ""
 #: ../../Chemical_Dosing.rst:215
 msgid ""
 "There is a pair of constant level tanks for each chemical feed. The "
-"specifications for each tank is given in "
-":numref:`table_Constant_Level_Tank_Specifications`."
+"specifications for each tank is given below."
 msgstr ""
 "Hay un par de tanques de nivel constante para cada alimento químico. Las "
-"especificaciones para cada tanque se dan en "
-":numref:`table_Constant_Level_Tank_Specifications`."
+"especificaciones para cada tanque se dan a continuación."
 
 #: ../../Chemical_Dosing.rst:221
 msgid ""
 "Constant Level Tank Specifications for "
 ":numref:`figure_clt_overview`-:numref:`figure_clt_details`"
 msgstr ""
-"Especificaciones de tanque de nivel constante para __RST1 __-__ RST2__"
+"Especificaciones de tanque de nivel constante para "
+":numref:`figure_clt_overview`-:numref:`figure_clt_details`"
 
 #: ../../Chemical_Dosing.rst:1
 msgid "Minimum head provided by stock tanks"
@@ -969,8 +975,9 @@ msgstr ""
 "operador pueda registrar la dosis con precisión."
 
 #: ../../Chemical_Dosing.rst:324
-msgid "Descripción general del controlador Doser químico"
-msgstr "Descripción general del controlador Doser químico"
+#, fuzzy
+msgid "Chemical doser controller overview"
+msgstr "Controlador de dosis química"
 
 #: ../../Chemical_Dosing.rst:324
 msgid "Overview of the chemical dose controller"
@@ -1099,8 +1106,10 @@ msgid "LFOM"
 msgstr "Lfom"
 
 #: ../../Chemical_Dosing.rst:388
-msgid "Camino del punto de inyección de cloro (vista de la planta)"
-msgstr "Camino del punto de inyección de cloro (vista de la planta)"
+#, fuzzy
+msgid "Chlorine injection point path (plant view)"
+msgstr ""
+"Punto de inyección de cloro camino a lo largo de la pared, vista de planta"
 
 #: ../../Chemical_Dosing.rst:388
 msgid "Chlorine injection point path along wall, plant view"
@@ -1108,8 +1117,9 @@ msgstr ""
 "Punto de inyección de cloro camino a lo largo de la pared, vista de planta"
 
 #: ../../Chemical_Dosing.rst:396
-msgid "Ruta del punto de inyección de cloro (zoom)"
-msgstr "Ruta del punto de inyección de cloro (zoom)"
+#, fuzzy
+msgid "Chlorine injection point path (zoomed in)"
+msgstr "Punto de inyección de cloro a lo largo de la pared, ampliado"
 
 #: ../../Chemical_Dosing.rst:396
 msgid "Chlorine injection point path along wall, zoomed in"
@@ -1204,7 +1214,9 @@ msgstr "Caja de salida de filtro"
 msgid ""
 "Injection Point Specifications for "
 ":numref:`figure_injection_point_entrance_tank`-:numref:`figure_injection_point_chlorine_filter_basic`"
-msgstr "Especificaciones del punto de inyección para __RST1 __-__ RST2__"
+msgstr ""
+"Especificaciones del punto de inyección para "
+":numref:`figure_injection_point_entrance_tank`-:numref:`figure_injection_point_chlorine_filter_basic`"
 
 #: ../../Chemical_Dosing.rst:1
 msgid "Coagulant injection tube nominal diameter"
@@ -1256,4 +1268,28 @@ msgstr ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` pulgada"
 #~ msgstr "Camino del punto de inyección de cloro (vista de la planta)"
 
 #~ msgid "Chlorine injection point path (zoomed in)"
+#~ msgstr "Ruta del punto de inyección de cloro (zoom)"
+
+#~ msgid "Descripción general del tanque de stock químico"
+#~ msgstr "Descripción general del tanque de stock químico"
+
+#~ msgid "Botthera de tanque de caldo químico"
+#~ msgstr "Botthera de tanque de caldo químico"
+
+#~ msgid "Sección de tanque de stock químico"
+#~ msgstr "Sección de tanque de stock químico"
+
+#~ msgid "Descripción general del tanque de nivel constante"
+#~ msgstr "Descripción general del tanque de nivel constante"
+
+#~ msgid "Detalles del tanque de nivel constante"
+#~ msgstr "Detalles del tanque de nivel constante"
+
+#~ msgid "Descripción general del controlador Doser químico"
+#~ msgstr "Descripción general del controlador Doser químico"
+
+#~ msgid "Camino del punto de inyección de cloro (vista de la planta)"
+#~ msgstr "Camino del punto de inyección de cloro (vista de la planta)"
+
+#~ msgid "Ruta del punto de inyección de cloro (zoom)"
 #~ msgstr "Ruta del punto de inyección de cloro (zoom)"

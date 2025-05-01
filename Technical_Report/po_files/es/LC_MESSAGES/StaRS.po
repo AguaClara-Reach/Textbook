@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../StaRS.rst:5
 msgid "Stacked Rapid Sand Filter"
-msgstr ""
+msgstr "Filtro Rápido de Arena de Múltiples Capas"
 
 #: ../../StaRS.rst:8
 msgid ""
@@ -31,10 +31,14 @@ msgid ""
 "Physics of Water Treatment Design "
 "<https://aguaclara.github.io/Textbook/Filtration/Filtration_Design.html>`_."
 msgstr ""
+"Información de diseño para el AguaClara Filtro Rápido de Arena de Múltiples "
+"Capas (FRAMCa) is available in `the Open Stacked Rapid Sand Filter Design "
+"chapter of The Physics of Water Treatment Design "
+"<https://aguaclara.github.io/Textbook/Filtration/Filtration_Design.html>`_."
 
 #: ../../StaRS.rst:12
 msgid "Purpose and Description"
-msgstr ""
+msgstr "Propósito y descripción"
 
 #: ../../StaRS.rst:14
 msgid ""
@@ -47,6 +51,15 @@ msgid ""
 "accomplished using clarified water and that increases the efficiency of "
 "water production by the AguaClara plant."
 msgstr ""
+"El filtro Framca elimina las partículas y los patógenos del agua "
+"clarificada. El filtro FRAMCA fue diseñado para eliminar la necesidad de "
+"bombas y tanques de almacenamiento que normalmente se requieren para "
+"retrolavarse filtros de arena rápida. El filtro FRAMCA tiene el mismo caudal"
+" en el modo de filtración y en el modo de retrolavado. Un elegante diseño "
+"hidráulico de filtro permite cambiar del modo de filtración al modo de "
+"retrolavado sin usar válvulas de gran diámetro. El retrolavado se logra "
+"utilizando agua clarificada y eso aumenta la eficiencia de la producción de "
+"agua por parte de la planta AguaClara."
 
 #: ../../StaRS.rst:16
 msgid ""
@@ -54,20 +67,26 @@ msgid ""
 "plant operators can readily observe head loss through the filter as well as "
 "the turbidity of the clarified and filtered water."
 msgstr ""
+"Los controles hidráulicos están en el piso principal de la planta y están "
+"abiertos para que los operadores de la planta puedan observar fácilmente la "
+"pérdida de la cabeza a través del filtro, así como la turbidez del agua "
+"clarificada y filtrada."
 
 #: ../../StaRS.rst:25
-msgid "vista superior del filtro"
-msgstr ""
+msgid "Vista superior del filtro"
+msgstr "Vista superior del filtro"
 
 #: ../../StaRS.rst:25
 msgid ""
 "Top view of filter showing filter hydraulic controls and filter chambers "
 "separated by a walkway"
 msgstr ""
+"Vista superior del filtro que muestra los controles hidráulicos del filtro y"
+" las cámaras de filtro separadas por una pasarela"
 
 #: ../../StaRS.rst:34
-msgid "vista isométrica de filtro"
-msgstr ""
+msgid "Vista isométrica de filtro"
+msgstr "Vista isométrica de filtro"
 
 #: ../../StaRS.rst:34
 msgid ""
@@ -75,16 +94,21 @@ msgid ""
 "showing the filter internal piping and the pipes that connect the filter "
 "controls to the filter chamber"
 msgstr ""
+"Vista isométrica del filtro con la pared del filtro y la pared del tanque de"
+" retroceso retirada, mostrando la tubería interna del filtro y las tuberías "
+"que conectan los controles del filtro a la cámara del filtro"
 
 #: ../../StaRS.rst:43
-msgid "vista isométrica de la sección izquierda del filtro"
-msgstr ""
+msgid "Vista isométrica de la sección izquierda del filtro"
+msgstr "Vista isométrica de la sección izquierda del filtro"
 
 #: ../../StaRS.rst:43
 msgid ""
 "Filter left section isometric view showing how the inlet tank, filter "
 "chamber, and siphon pipe are all aligned"
 msgstr ""
+"Vista isométrica de la sección izquierda del filtro que muestra cómo se "
+"alinean el tanque de entrada, la cámara del filtro y el sifón"
 
 #: ../../StaRS.rst:45
 msgid ""
@@ -93,14 +117,20 @@ msgid ""
 "to account for the offset to the filter controls outlet tank. The different "
 "heights of the inlet pipe stubs in the inlet tank are also shown."
 msgstr ""
+"En :numref:`figure_filter_left_section_isometric`, las cuatro tuberías de "
+"entrada tienen una ruta recta en la cámara del filtro. Las tuberías de "
+"salida tienen un codo de 45 ° para tener en cuenta el desplazamiento al "
+"tanque de salida de los controles del filtro. También se muestran las "
+"diferentes alturas de los trozos de tubería de entrada en el tanque de "
+"entrada."
 
 #: ../../StaRS.rst:54
-msgid "controles del filtro vista isométrica superior"
-msgstr ""
+msgid "Controles del filtro Vista isométrica superior"
+msgstr "Controles del filtro Vista isométrica superior"
 
 #: ../../StaRS.rst:54
 msgid "Filter controls top isometric view"
-msgstr ""
+msgstr "Controles del filtro Vista isométrica superior"
 
 #: ../../StaRS.rst:56
 msgid ""
@@ -108,40 +138,46 @@ msgid ""
 "filter operation. The filter controls come in pairs when there is more than "
 "one filter chamber so they can share the finished water tank."
 msgstr ""
+"Los controles de filtro proporcionan al operador un método para confirmar "
+"rápidamente la operación del filtro. Los controles del filtro vienen en "
+"pares cuando hay más de una cámara de filtro para que puedan compartir el "
+"tanque de agua terminado."
 
 #: ../../StaRS.rst:64
-msgid "distribución a los tanques de entrada del filtro"
-msgstr ""
+msgid "Distribución a los tanques de entrada del filtro"
+msgstr "Distribución a los tanques de entrada del filtro"
 
 #: ../../StaRS.rst:64
 msgid "Top view of distribution to the filter inlet tanks"
-msgstr ""
+msgstr "Vista superior de la distribución a los tanques de entrada de filtro"
 
 #: ../../StaRS.rst:67
 msgid ""
 "Distribution to the Filter Inlet Tanks Figure Key for "
 ":numref:`figure_filter_distribution`"
 msgstr ""
+"Distribución a la tecla de figura de los tanques de entrada del filtro para "
+":numref:`figure_filter_distribution`"
 
 #: ../../StaRS.rst:1
 msgid "Key"
-msgstr ""
+msgstr "Llave"
 
 #: ../../StaRS.rst:1
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: ../../StaRS.rst:1
 msgid "Purpose"
-msgstr ""
+msgstr "Objetivo"
 
 #: ../../StaRS.rst:1
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../StaRS.rst:1
 msgid "Inlet channel"
-msgstr ""
+msgstr "Canal de entrada"
 
 #: ../../StaRS.rst:1
 msgid ""
@@ -149,205 +185,233 @@ msgid ""
 "clarified water pipe coming from the clarifier and distributes the water to "
 ":sub:`($..filter.fiPipes.bay.N) no-sub` filter chambers"
 msgstr ""
+"Recibe el agua de :sub:`($..filter.pipes.clarified.N) no-sub` tubería de "
+"agua clarificada que proviene del aclarador y distribuye el agua a "
+":sub:`($..filter.fiPipes.bay.N) no-sub` cámaras de filtro"
 
 #: ../../StaRS.rst:1
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../StaRS.rst:1
 msgid "Wide weir"
-msgstr ""
+msgstr "Weir ancho"
 
 #: ../../StaRS.rst:1
 msgid "Uses head loss to divide the flow equally between the filter chambers"
 msgstr ""
+"Utiliza la pérdida de cabeza para dividir el flujo por igual entre las "
+"cámaras del filtro"
 
 #: ../../StaRS.rst:1
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../StaRS.rst:1
 msgid "Removable gate"
-msgstr ""
+msgstr "Puerta extraíble"
 
 #: ../../StaRS.rst:1
 msgid "Can be removed to provide full design flow to a filter during backwash"
 msgstr ""
+"Se puede quitar para proporcionar un flujo de diseño completo a un filtro "
+"durante el retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../StaRS.rst:1
 msgid "Bypass channel"
-msgstr ""
+msgstr "Canal de derivación"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Provides option to bypass the filter by swapping the LFOM and bypass pipes"
 msgstr ""
+"Proporciona opción para evitar el filtro cambiando las tuberías de LFOM y "
+"derivación"
 
 #: ../../StaRS.rst:1
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../StaRS.rst:1
 msgid "LFOM"
-msgstr ""
+msgstr "Lfom"
 
 #: ../../StaRS.rst:1
 msgid "Measures the flow rate into the filter"
-msgstr ""
+msgstr "Mide el caudal en el filtro"
 
 #: ../../StaRS.rst:1
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../StaRS.rst:1
 msgid "Bypass pipe"
-msgstr ""
+msgstr "Tubería de derivación"
 
 #: ../../StaRS.rst:1
 msgid "Pipe stub that can be swapped with the LFOM to bypass the filter"
 msgstr ""
+"Tipón de tubería que se puede cambiar con el LFOM para evitar el filtro"
 
 #: ../../StaRS.rst:86
-msgid "filtro de entrada de un tanque de entrada"
-msgstr ""
+msgid "Filtro de entrada de un tanque de entrada"
+msgstr "Filtro de entrada de un tanque de entrada"
 
 #: ../../StaRS.rst:86
 msgid "Top view of filter inlet tank"
-msgstr ""
+msgstr "Vista superior del tanque de entrada de filtro"
 
 #: ../../StaRS.rst:89
 msgid "Filter Inlet Tank Figure Key for :numref:`figure_filter_inlet_tank`"
 msgstr ""
+"Clave de figura del tanque de entrada del filtro para "
+":numref:`figure_filter_inlet_tank`"
 
 #: ../../StaRS.rst:1
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../../StaRS.rst:1
 msgid "Inlet tank"
-msgstr ""
+msgstr "Tanque de entrada"
 
 #: ../../StaRS.rst:1
 msgid "Distributes the clarified water to the 4 filter inlets"
-msgstr ""
+msgstr "Distribuye el agua clarificada a las 4 entradas de filtro"
 
 #: ../../StaRS.rst:1
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../StaRS.rst:1
 msgid "Overflow"
-msgstr ""
+msgstr "Rebosar"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Automatically diverts clarified water to the filter pipe gallery to waste or"
 " recycle when the filter head loss exceeds the maximum design value"
 msgstr ""
+"Desvía automáticamente el agua clarificada a la galería de tuberías de "
+"filtro para desperdiciar o reciclar cuando la pérdida de la cabeza del "
+"filtro excede el valor máximo de diseño"
 
 #: ../../StaRS.rst:1
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../../StaRS.rst:1
 msgid "Bubble weir"
-msgstr ""
+msgstr "Burbuja vertiginoso"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Lifts bubbles to prevent them from entering the inlets to the filter, "
 "releasing them to the surface"
 msgstr ""
+"Levanta burbujas para evitar que ingresen a las entradas al filtro, "
+"liberándolas a la superficie"
 
 #: ../../StaRS.rst:1
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../StaRS.rst:1
 msgid "Backwash orifice plate"
-msgstr ""
+msgstr "Placa de orificio de retrolavado"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Adds head loss to filter inlet 1 during filtration so that it has the same "
 "head loss as the other inlets and is removed during backwash"
 msgstr ""
+"Agrega pérdida de cabeza al filtro de la entrada 1 durante la filtración "
+"para que tenga la misma pérdida de cabeza que las otras entradas y se "
+"elimine durante el retiro"
 
 #: ../../StaRS.rst:1
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../StaRS.rst:1
 msgid "Backwash trunk"
-msgstr ""
+msgstr "Baúl de retrolavado"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Delivers water from the inlet tank to the filter chamber during filtration "
 "and during backwash"
 msgstr ""
+"Entrega agua del tanque de entrada a la cámara del filtro durante la "
+"filtración y durante el retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../StaRS.rst:1
 msgid "Inlet trunks"
-msgstr ""
+msgstr "Troncos de entrada"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Delivers water from the inlet tank to the filter chamber during filtration"
 msgstr ""
+"Entrega agua del tanque de entrada a la cámara del filtro durante la "
+"filtración"
 
 #: ../../StaRS.rst:108
 msgid "tanque de salida de filtro"
-msgstr ""
+msgstr "tanque de salida de filtro"
 
 #: ../../StaRS.rst:108
 msgid "Top view of filter outlet tank"
-msgstr ""
+msgstr "Vista superior del tanque de salida de filtro"
 
 #: ../../StaRS.rst:111
 msgid "Filter Outlet Tank Figure Key for :numref:`figure_filter_outlet_tank`"
 msgstr ""
+"Clave de figura del tanque de salida del filtro para "
+":numref:`figure_filter_outlet_tank`"
 
 #: ../../StaRS.rst:1
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../../StaRS.rst:1
 msgid "Outlet tank"
-msgstr ""
+msgstr "Tanque de salida"
 
 #: ../../StaRS.rst:1
 msgid "Collects filtered water from the 3 outlet trunks"
-msgstr ""
+msgstr "Recoge agua filtrada de los 3 troncos de salida"
 
 #: ../../StaRS.rst:1
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../../StaRS.rst:1
 msgid "Outlet trunks"
-msgstr ""
+msgstr "Troncal"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Deliver water from the filter chamber to the outlet tank during filtration"
 msgstr ""
+"Entregar agua de la cámara del filtro al tanque de salida durante la "
+"filtración"
 
 #: ../../StaRS.rst:1
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../../StaRS.rst:1
 msgid "Filter to waste"
-msgstr ""
+msgstr "Filtrar para desperdiciar"
 
 #: ../../StaRS.rst:1
 msgid ""
@@ -355,14 +419,17 @@ msgid ""
 " after backwash to waste filtered water that doesn't meet treatment "
 "standards."
 msgstr ""
+"Volcados de agua filtrada a la galería de tuberías. Los operadores pueden "
+"eliminar el trozo de tubería después del retrolavado para desechos de agua "
+"filtrada que no cumple con los estándares de tratamiento."
 
 #: ../../StaRS.rst:1
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../../StaRS.rst:1
 msgid "Filtered water weir"
-msgstr ""
+msgstr "Vertedero de agua filtrada"
 
 #: ../../StaRS.rst:1
 msgid ""
@@ -370,57 +437,68 @@ msgid ""
 "in it before the weir, so when the pipe stub is pulled out, flows to waste "
 "instead of going over the weir."
 msgstr ""
+"Permite el filtrado para desperdiciar. Hay una tubería para desperdiciar que"
+" con un trozo de tubería antes del vertedero, por lo que cuando se extrae el"
+" trozo de tubería, fluye para desperdiciar en lugar de pasar por encima del "
+"vertedero."
 
 #: ../../StaRS.rst:1
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: ../../StaRS.rst:1
 msgid "Finished water tank"
-msgstr ""
+msgstr "Tanque de agua terminado"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Adds chlorine to the filtered water and delivers the water to the finished "
 "water pipe"
 msgstr ""
+"Agrega cloro al agua filtrada y entrega el agua a la tubería de agua "
+"terminada"
 
 #: ../../StaRS.rst:1
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../../StaRS.rst:1
 msgid "Chlorination conduit"
-msgstr ""
+msgstr "Conducto de cloración"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Provides a path for a chlorination tube to drip into the water exiting from "
 "one of the filters"
 msgstr ""
+"Proporciona una ruta para que un tubo de cloración gotee al agua que sale de"
+" uno de los filtros"
 
 #: ../../StaRS.rst:1
 msgid "19"
-msgstr ""
+msgstr "19"
 
 #: ../../StaRS.rst:1
 msgid "Finished water pipe"
-msgstr ""
+msgstr "Tubería de agua terminada"
 
 #: ../../StaRS.rst:1
 msgid "Delivers the finished water to the community water storage tank"
 msgstr ""
+"Entrega el agua terminada al tanque de almacenamiento de agua comunitario"
 
 #: ../../StaRS.rst:133
 #, fuzzy
-msgid "filtro controla el tanque de entrada"
-msgstr ""
+msgid "Filtro controla el tanque de entrada"
+msgstr "Sección de tanque de salida de controles de filtro"
 
 #: ../../StaRS.rst:133
 msgid ""
 "Isometric view of filter controls inlet tank. The backwash orifice plate is "
 "in place for filtration mode."
 msgstr ""
+"Vista isométrica del tanque de entrada de controles de filtro. La placa de "
+"orificio de retrolavado está en su lugar para el modo de filtración."
 
 #: ../../StaRS.rst:136
 msgid ""
@@ -438,6 +516,22 @@ msgid ""
 "fluidize gradually starting from the sand near the top of the filter and "
 "progressing deeper as more of the water is forced into the bottom inlets."
 msgstr ""
+"En el filtro, el agua fluye de derecha a izquierda desde el canal de "
+"entrada, sobre el vertedero ancho hasta el canal de derivación. Durante el "
+"funcionamiento normal, el agua ingresa al LFOM y fluye hacia el filtro "
+"controla el tanque de entrada arriba. Si es necesario evitar un filtro, los "
+"trozos de tubería LFOM y derivación simplemente se intercambian. Durante el "
+"retiro, la puerta se puede quitar para que el filtro reciba la velocidad de "
+"flujo de diseño. El filtro controla el tanque de entrada tiene un "
+"desbordamiento que arroja agua al tanque de retrolavado cuando la pérdida de"
+" cabeza a través del filtro excede el valor máximo de diseño. El vertedero "
+"de burbujas eleva burbujas para minimizar su entrada en las entradas del "
+"filtro. Los trozos de tubería corto en las entradas del filtro aseguran que "
+"todo el agua ingrese a la entrada de retrolavado durante el retrolavado. Las"
+" diferentes alturas de los trozos de tubería hacen que la arena del filtro "
+"se fluidice gradualmente desde la arena cerca de la parte superior del "
+"filtro y progresa más profundo a medida que se forja más agua a las entradas"
+" inferiores."
 
 #: ../../StaRS.rst:138
 msgid ""
@@ -449,115 +543,132 @@ msgid ""
 " the filtered water weir into the finished water tank and finally into the "
 "finished water pipe."
 msgstr ""
+"El agua sale de la cámara del filtro a través de tres tuberías de salida y "
+"luego ingresa al tanque de salida de los controles del filtro "
+"(:numref:`figure_filter_controls_outlet_tank_section`). Después del "
+"retroceso, el trozo de tubería rojo se puede quitar como se muestra en el "
+"tanque de salida en primer plano para permitir que el filtrado se "
+"desperdicie. Cuando no se filtra para desperdiciar, el agua fluye sobre el "
+"vertedero de agua filtrada en el tanque de agua terminado y finalmente en la"
+" tubería de agua terminada."
 
 #: ../../StaRS.rst:147
-msgid "cámara de filtro y sifón"
-msgstr ""
+msgid "Cámara de filtro y sifón"
+msgstr "Cámara de filtro y sifón"
 
 #: ../../StaRS.rst:147
 msgid "Top view of filter chamber and siphon"
-msgstr ""
+msgstr "Vista superior de la cámara del filtro y el sifón"
 
 #: ../../StaRS.rst:151
 msgid ""
 "Filter Chamber and Siphon Figure Key for "
 ":numref:`figure_filter_chamber_siphon`"
 msgstr ""
+"Cámara de filtro y tecla de figura de sifón para "
+":numref:`figure_filter_chamber_siphon`"
 
 #: ../../StaRS.rst:1
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../StaRS.rst:1
 msgid "Filter chamber"
-msgstr ""
+msgstr "Cámara de filtro"
 
 #: ../../StaRS.rst:1
 msgid "Contains the filter internal piping and filter sand"
-msgstr ""
+msgstr "Contiene el filtro de tuberías internos y arena del filtro"
 
 #: ../../StaRS.rst:1
 msgid "21"
-msgstr ""
+msgstr "21"
 
 #: ../../StaRS.rst:1
 msgid "Filter chamber drain"
-msgstr ""
+msgstr "Desagüe de la cámara del filtro"
 
 #: ../../StaRS.rst:1
 msgid "Drains water for maintenance operations"
-msgstr ""
+msgstr "Drena agua para operaciones de mantenimiento"
 
 #: ../../StaRS.rst:1
 msgid "22"
-msgstr ""
+msgstr "22"
 
 #: ../../StaRS.rst:1
 msgid "Sand dump pipe"
-msgstr ""
+msgstr "Tubo de volcado de arena"
 
 #: ../../StaRS.rst:1
 msgid "Empties the sand from the filter"
-msgstr ""
+msgstr "Vacía la arena del filtro"
 
 #: ../../StaRS.rst:1
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #: ../../StaRS.rst:1
 msgid "Siphon pipe"
-msgstr ""
+msgstr "Tubería de sifón"
 
 #: ../../StaRS.rst:1
 msgid "Discharges backwash to the pipe gallery to waste or for recycle"
 msgstr ""
+"Descarga el lavado de retroceso a la galería de tuberías para desperdiciar o"
+" para reciclar"
 
 #: ../../StaRS.rst:1
 msgid "24"
-msgstr ""
+msgstr "24"
 
 #: ../../StaRS.rst:1
 msgid "Siphon air valve"
-msgstr ""
+msgstr "Válvula de aire de sifón"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Controls the siphon and switches the filter between filtration and backwash"
 msgstr ""
+"Controla el sifón y cambia el filtro entre la filtración y el retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: ../../StaRS.rst:1
 msgid "Siphon water seal"
-msgstr ""
+msgstr "Sello de agua de sifón"
 
 #: ../../StaRS.rst:1
 msgid "Prevents the water from exiting the siphon at the end of the backwash"
-msgstr ""
+msgstr "Evita que el agua salga del sifón al final del retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "26"
-msgstr ""
+msgstr "26"
 
 #: ../../StaRS.rst:1
 msgid "Sand"
-msgstr ""
+msgstr "Arena"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Provides the filter media and pore structure for capture of flocs and "
 "particles"
 msgstr ""
+"Proporciona los medios de filtro y la estructura de los poros para la "
+"captura de flóculos y partículas"
 
 #: ../../StaRS.rst:172
-msgid "sección de tanque de salida de controles de filtro"
-msgstr ""
+msgid "Sección de tanque de salida de controles de filtro"
+msgstr "Sección de tanque de salida de controles de filtro"
 
 #: ../../StaRS.rst:172
 msgid "Filter controls outlet tank section showing water levels"
 msgstr ""
+"Control de filtro Sección del tanque de salida que muestra los niveles de "
+"agua"
 
 #: ../../StaRS.rst:174
 msgid ""
@@ -566,17 +677,25 @@ msgid ""
 "enables filter to waste removed. The outlet tank in the background has the "
 "pipe stub in place to prevent filtering to waste."
 msgstr ""
+"El tanque de salida en primer plano de "
+":numref:`figure_filter_controls_outlet_tank_section` tiene el trozo de "
+"tubería que permite que se elimine el filtro. El tanque de salida en el "
+"fondo tiene el trozo de tubería en su lugar para evitar que el filtrado se "
+"desperdicie."
 
 #: ../../StaRS.rst:183
 #, fuzzy
-msgid "filtro de tuberías internos isométricas"
-msgstr ""
+msgid "Filtro de tuberías internos isométricas"
+msgstr "Filtro troncal isométrico"
 
 #: ../../StaRS.rst:183
 msgid ""
 "Isometric view of filter internal piping showing how the modules, siphon, "
 "and filter drain are placed in the filter chamber"
 msgstr ""
+"Vista isométrica de la tubería interna del filtro que muestra cómo se "
+"colocan los módulos, el sifón y el drenaje del filtro en la cámara del "
+"filtro"
 
 #: ../../StaRS.rst:185
 msgid ""
@@ -585,6 +704,9 @@ msgid ""
 "alternates direction with the bottom layer flowing upward and the next layer"
 " flowing downward."
 msgstr ""
+"La tubería interna del filtro sirve para dividir el lecho de arena en capas "
+"__seu1__. El flujo a través de cada capa alterna la dirección con la capa "
+"inferior que fluye hacia arriba y la siguiente capa que fluye hacia abajo."
 
 #: ../../StaRS.rst:187
 msgid ""
@@ -598,142 +720,161 @@ msgid ""
 "relative to each other and it also clamps the entire set of modules in place"
 " to prevent uplift during backwash initiation."
 msgstr ""
+":numref:`figure_filter_internal_piping_modules` muestra cómo los módulos se "
+"pilan. Se evita que los módulos se levante mediante cables anclados a la "
+"losa de concreto y se adhieran a las tuberías incrustadas en la pared de la "
+"cámara del filtro. Esta tubería interna del filtro consta de 7 módulos para "
+"un fácil ensamblaje en la cámara del filtro. Un módulo incluye la tubería de"
+" filtro de arena interna en el mismo plano conectado al tronco de "
+"entrada/salida. Cada módulo se acumula en la parte superior del módulo a "
+"continuación. El cable de atado asegura que los módulos no puedan cambiar "
+"entre sí y también sujetan todo el conjunto de módulos en su lugar para "
+"evitar la elevación durante el inicio de retrolavado."
 
 #: ../../StaRS.rst:196
-msgid "filtrar módulos de tuberías internos"
-msgstr ""
+msgid "Filtrar módulos de tuberías internos"
+msgstr "Filtrar módulos de tuberías internos"
 
 #: ../../StaRS.rst:196
 msgid "Detail isometric view of filter internal piping modules"
 msgstr ""
+"Detalle la vista isométrica de los módulos de tuberías internas del filtro"
 
 #: ../../StaRS.rst:201
 msgid ""
 "Filter Internal Piping Figure Key for "
 ":numref:`figure_filter_internal_piping_modules`"
 msgstr ""
+"FILTRO CLAVE DE FIGURA DE TIPO INTERNA PARA "
+":numref:`figure_filter_internal_piping_modules`"
 
 #: ../../StaRS.rst:1
 msgid "27"
-msgstr ""
+msgstr "27"
 
 #: ../../StaRS.rst:1
 msgid "Band clamps"
-msgstr ""
+msgstr "Abrazaderas de la banda"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Attach the trunks to the pipes that are embedded in the filter tank chamber "
 "wall"
 msgstr ""
+"Conecte los troncos a las tuberías que están incrustadas en la pared de la "
+"cámara del tanque de filtro"
 
 #: ../../StaRS.rst:1
 msgid "28"
-msgstr ""
+msgstr "28"
 
 #: ../../StaRS.rst:1
 msgid "Winged branch pipes"
-msgstr ""
+msgstr "Tuberías de rama alada"
 
 #: ../../StaRS.rst:1
 msgid "Injects clarified water into the sand bed"
-msgstr ""
+msgstr "Inyectos agua clarificada en el lecho de arena"
 
 #: ../../StaRS.rst:1
 msgid "29"
-msgstr ""
+msgstr "29"
 
 #: ../../StaRS.rst:1
 msgid "Slotted branch pipes"
-msgstr ""
+msgstr "Tuberías de rama ranuradas"
 
 #: ../../StaRS.rst:1
 msgid "Extracts filtered water from the sand bed"
-msgstr ""
+msgstr "Extractos de agua filtrada del lecho de arena"
 
 #: ../../StaRS.rst:1
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../StaRS.rst:1
 msgid "Receptor pipes"
-msgstr ""
+msgstr "Tuberías de receptores"
 
 #: ../../StaRS.rst:1
 msgid "Terminate and support the winged and slotted branch pipes"
-msgstr ""
+msgstr "Terminar y apoyar las tuberías de rama aladas y ranuradas"
 
 #: ../../StaRS.rst:1
 msgid "31"
-msgstr ""
+msgstr "31"
 
 #: ../../StaRS.rst:1
 msgid "Trunk spacer"
-msgstr ""
+msgstr "Espaciador del maletero"
 
 #: ../../StaRS.rst:1
 msgid "Supports the end of the trunks"
-msgstr ""
+msgstr "Apoya el final de los troncos"
 
 #: ../../StaRS.rst:1
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: ../../StaRS.rst:1
 msgid "Receptor spacer"
-msgstr ""
+msgstr "Espaciador del receptor"
 
 #: ../../StaRS.rst:1
 msgid "Supports the receptors"
-msgstr ""
+msgstr "Apoya los receptores"
 
 #: ../../StaRS.rst:1
 msgid "33"
-msgstr ""
+msgstr "33"
 
 #: ../../StaRS.rst:1
 msgid "Anchor bolts"
-msgstr ""
+msgstr "Pernos de anclaje"
 
 #: ../../StaRS.rst:1
 msgid "Connects the cable to the concrete slab"
-msgstr ""
+msgstr "Conecta el cable a la losa de concreto"
 
 #: ../../StaRS.rst:1
 msgid "34"
-msgstr ""
+msgstr "34"
 
 #: ../../StaRS.rst:1
 msgid "Cable"
-msgstr ""
+msgstr "Cable"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Prevents the internal pipe modules from lifting during backwash initation"
 msgstr ""
+"Evita que los módulos internos de la tubería se levanten durante el inicio "
+"de retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "35"
-msgstr ""
+msgstr "35"
 
 #: ../../StaRS.rst:1
 msgid "Hose clamp"
-msgstr ""
+msgstr "Manguera"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Tightens all of the connections between branches, receptors, and trunks to "
 "prevent sand leaks"
 msgstr ""
+"Apriega todas las conexiones entre ramas, receptores y troncos para evitar "
+"fugas de arena"
 
 #: ../../StaRS.rst:225
 #, fuzzy
-msgid "filtro troncal isométrico"
-msgstr ""
+msgid "Filtro troncal isométrico"
+msgstr "Filtro troncal isométrico"
 
 #: ../../StaRS.rst:225
 msgid "Filter inlet trunk isometric view"
-msgstr ""
+msgstr "Vista isométrica del tronco de entrada del filtro"
 
 #: ../../StaRS.rst:227
 msgid ""
@@ -747,14 +888,24 @@ msgid ""
 "that the molded end of the branches can only be inserted a fixed distance "
 "into the trunk."
 msgstr ""
+":numref:`figure_filter_trunk_isometric` muestra los puertos para las ramas y"
+" el sistema de abrazadera de banda que se une a una tubería incrustada en la"
+" pared de la cámara del filtro. Esta tubería de troncal principal en cada "
+"módulo está conectado a la tubería incrustada que se conecta al tanque de "
+"entrada de control del filtro o al tanque de salida de control del filtro. "
+"Las tuberías están conectadas por una banda de acero inoxidable que luego se"
+" mantiene en su lugar con dos abrazaderas de manguera. Los puertos para las "
+"ramas son ligeramente más pequeños que el diámetro exterior de las ramas "
+"para que el extremo moldeado de las ramas solo se pueda insertar una "
+"distancia fija en el tronco."
 
 #: ../../StaRS.rst:236
-msgid "filtro del espaciador del tronco del tronco y las vistas superiores"
-msgstr ""
+msgid "Filtro del espaciador del tronco del tronco y las vistas superiores"
+msgstr "Filtro del espaciador del tronco del tronco y las vistas superiores"
 
 #: ../../StaRS.rst:236
 msgid "Filter trunk spacer front and top views"
-msgstr ""
+msgstr "Filtro del espaciador del tronco del tronco y las vistas superiores"
 
 #: ../../StaRS.rst:238
 msgid ""
@@ -763,15 +914,21 @@ msgid ""
 " the cables prevent the spacers from moving. The spacers are attached to the"
 " trunks and receptors."
 msgstr ""
+"Los espaciadores establecen el espacio :sub:`($..filter.layerH) no-sub` de "
+"los troncos y receptores. El cable surge de lados alternativos en los "
+"espaciadores para que los cables eviten que los espaciadores se muevan. Los "
+"espaciadores están unidos a los troncos y receptores."
 
 #: ../../StaRS.rst:247
 #, fuzzy
 msgid "receptor de filtro isométrico"
-msgstr ""
+msgstr "receptor de filtro isométrico"
 
 #: ../../StaRS.rst:247
 msgid "Filter inlet receptor isometric showing the ports for the branches"
 msgstr ""
+"Filtro del receptor de entrada isométrico que muestra los puertos para las "
+"ramas"
 
 #: ../../StaRS.rst:249
 msgid ""
@@ -779,10 +936,14 @@ msgid ""
 "compact design of the PVC disks enables the first and last branches to be "
 "relatively close to the filter chamber walls."
 msgstr ""
+"Los receptores son simétricos y tienen discos PVC que conectan ambos "
+"extremos. El diseño compacto de los discos de PVC permite que las ramas "
+"primero y las últimas estén relativamente cerca de las paredes de la cámara "
+"del filtro."
 
 #: ../../StaRS.rst:258
 msgid "ramas de entrada de filtro"
-msgstr ""
+msgstr "ramas de entrada de filtro"
 
 #: ../../StaRS.rst:258
 msgid ""
@@ -790,6 +951,10 @@ msgid ""
 "bottom, a backwash branch (bottom view), a middle inlet branch (bottom "
 "view), top inlet branch (bottom view), and top inlet branch (side view)."
 msgstr ""
+"Ejemplos de diferentes tipos/vistas de las ramas de entrada de filtro. De "
+"arriba a abajo, una rama de retrolavado (vista inferior), una rama de "
+"entrada media (vista inferior), rama de entrada superior (vista inferior) y "
+"rama de entrada superior (vista lateral)."
 
 #: ../../StaRS.rst:260
 msgid ""
@@ -805,997 +970,1036 @@ msgid ""
 "the top and bottom trunks during filtration. The ends of the branches are "
 "molded to create a sand-tight connection with the trunk and receptor pipes."
 msgstr ""
+"Hay tres tipos de ramas de entrada, que se muestran arriba. Las ramas de "
+"retrolavado inferior tienen la mayoría de los orificios para poder manejar "
+"la alta velocidad de flujo de retroceso. Esto da como resultado que las "
+"ramas de retrolavado tengan una pérdida de cabeza insuficiente durante la "
+"filtración normal. Para acomodar la pérdida de cabeza de la rama baja en "
+"retrolavado, se agrega una placa de orificio a la entrada de retrolavado "
+"durante la filtración. Los dos módulos de entrada intermedios entregan agua "
+"clarificada a dos capas de arena y, por lo tanto, tienen al menos el doble "
+"de orificios que las ramas de entrada superiores. Las entradas medias tienen"
+" aún más orificios para dar cuenta de la pérdida de cabeza adicional en los "
+"troncos internos dado que los troncos internos tienen el doble de la "
+"velocidad de flujo de los troncos superior e inferior durante la filtración."
+" Los extremos de las ramas se moldean para crear una conexión ajustada con "
+"la arena con las tuberías del tronco y el receptor."
 
 #: ../../StaRS.rst:264
 msgid "Filter Appurtenances Figure Key"
-msgstr ""
+msgstr "Clave de la figura de los accesorios del filtro"
 
 #: ../../StaRS.rst:1
 msgid "36"
-msgstr ""
+msgstr "36"
 
 #: ../../StaRS.rst:1
 msgid "Sand tank"
-msgstr ""
+msgstr "Tanque de arena"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Receives, drains, and temporarily stores filter sand during filter "
 "maintenance operations"
 msgstr ""
+"Recibe, desagüe y almacena temporalmente la arena del filtro durante las "
+"operaciones de mantenimiento del filtro"
 
 #: ../../StaRS.rst:1
 msgid "37"
-msgstr ""
+msgstr "37"
 
 #: ../../StaRS.rst:1
 msgid "Sand tank overflow weir"
-msgstr ""
+msgstr "Weir de desbordamiento del tanque de arena"
 
 #: ../../StaRS.rst:1
 msgid "Excess water discharges over this weir"
-msgstr ""
+msgstr "Descargas en exceso de agua sobre este vertedero"
 
 #: ../../StaRS.rst:1
 msgid "38"
-msgstr ""
+msgstr "38"
 
 #: ../../StaRS.rst:1
 msgid "Slotted sand drain"
-msgstr ""
+msgstr "Desagüe"
 
 #: ../../StaRS.rst:1
 msgid "Discharges water from the sand"
-msgstr ""
+msgstr "Descarga agua de la arena"
 
 #: ../../StaRS.rst:1
 msgid "39"
-msgstr ""
+msgstr "39"
 
 #: ../../StaRS.rst:1
 msgid "Sand tank overflow drain"
-msgstr ""
+msgstr "Drenaje de desbordamiento del tanque de arena"
 
 #: ../../StaRS.rst:1
 msgid "Discharges overflow water from the sand tank"
-msgstr ""
+msgstr "Descargas de desbordamiento de agua del tanque de arena"
 
 #: ../../StaRS.rst:1
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: ../../StaRS.rst:1
 msgid "Pipe gallery and filter backwash water tank"
-msgstr ""
+msgstr "Galería de tuberías y filtro Tanque de agua de retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "Option to use this tank to enable recycle of backwash water"
 msgstr ""
+"Opción para usar este tanque para habilitar el reciclaje de agua de "
+"retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "41"
-msgstr ""
+msgstr "41"
 
 #: ../../StaRS.rst:1
 msgid "Pipe gallery drain"
-msgstr ""
+msgstr "Drenaje de la galería de tubos"
 
 #: ../../StaRS.rst:1
 msgid "Discharges water from the pipe gallery"
-msgstr ""
+msgstr "Descarga agua de la galería de tuberías"
 
 #: ../../StaRS.rst:278
 msgid "Plant Specifications"
-msgstr ""
+msgstr "Especificaciones de planta"
 
 #: ../../StaRS.rst:283
 msgid ""
 "Distribution to the filter inlet tanks design parameters for "
 ":numref:`figure_filter_distribution` |filter_distribution_icon|"
 msgstr ""
+"Distribución a los parámetros de diseño de tanques de entrada de filtro para"
+" :numref:`figure_filter_distribution` |filter_distribution_icon|"
 
 #: ../../StaRS.rst:491
-msgid "filter_distribution_icon"
-msgstr ""
+#, fuzzy
+msgid "Filter_distribution_icon"
+msgstr "Filter_distribution_icon"
 
 #: ../../StaRS.rst:1
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ../../StaRS.rst:1
 msgid "**Inlet channel**"
-msgstr ""
+msgstr "**Canal de entrada**"
 
 #: ../../StaRS.rst:1
 msgid "Water depth"
-msgstr ""
+msgstr "Profundidad del agua"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.ioChannelsHW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.ioChannelsHW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Width"
-msgstr ""
+msgstr "Ancho"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.inletW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.inletW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Height"
-msgstr ""
+msgstr "Altura"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.ioChannelsH) no-sub``"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.ioChannelsH) no-sub``"
 
 #: ../../StaRS.rst:1
 msgid "**Wide weir**"
-msgstr ""
+msgstr "**Weir ancho**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.wideWeir.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.wideWeir.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.wideWeir.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.wideWeir.W) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum head loss"
-msgstr ""
+msgstr "Pérdida de cabeza máxima"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.inletWeirHL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.inletWeirHL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Removable gate**"
-msgstr ""
+msgstr "**Puerta extraíble**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.gateOpening.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.gateOpening.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.gateOpening.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.gateOpening.W) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Bypass channel**"
-msgstr ""
+msgstr "**Bypass Channel**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bypassW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bypassW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**LFOM**"
-msgstr ""
+msgstr "**lfom**"
 
 #: ../../StaRS.rst:1
 msgid "Nominal diameter"
-msgstr ""
+msgstr "Diámetro nominal"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "SDR"
-msgstr ""
+msgstr "DEG"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Number of rows of orifices"
-msgstr ""
+msgstr "Número de filas de orificios"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.rowN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.rowN) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum flow rate"
-msgstr ""
+msgstr "Caudal máximo"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.Qm_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.Qm_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Head loss at maximum flow"
-msgstr ""
+msgstr "Pérdida de la cabeza al flujo máximo"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.HL_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.HL_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Diameter of orifices"
-msgstr ""
+msgstr "Diámetro de orificios"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.orificeD) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.orificeD) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Space between orifices measured on the outside of the pipe"
-msgstr ""
+msgstr "Espacio entre orificios medidos en el exterior de la tubería"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.orificeS) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.orificeS) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Number of orifices in each row starting from bottom row"
-msgstr ""
+msgstr "Número de orificios en cada fila a partir de la fila inferior"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.rowOrificeN_VEC) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.rowOrificeN_VEC) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Elevation of each row from zero flow datum"
-msgstr ""
+msgstr "Elevación de cada fila desde cero flujo datum"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.lfom.rowOrificeH_VEC) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.lfom.rowOrificeH_VEC) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Bypass pipe**"
-msgstr ""
+msgstr "**tubería de derivación**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bypass.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bypass.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bypass.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bypass.SDR) no-sub`"
 
 #: ../../StaRS.rst:318
 msgid ""
 "Inlet tanks design parameters for :numref:`figure_filter_inlet_tank` "
 "|filter_inlet_icon|"
 msgstr ""
+"Parámetros de diseño de tanques de entrada para "
+":numref:`figure_filter_inlet_tank` |filter_inlet_icon|"
 
 #: ../../StaRS.rst:494
-msgid "filter_inlet_icon"
-msgstr ""
+#, fuzzy
+msgid "Filter_inlet_icon"
+msgstr "Filter_inlet_icon"
 
 #: ../../StaRS.rst:1
 msgid "**Filter inlet tank**"
-msgstr ""
+msgstr "**Tanque de entrada de filtro**"
 
 #: ../../StaRS.rst:1
 msgid "Length"
-msgstr ""
+msgstr "Longitud"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.inletL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.inletL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Overflow**"
-msgstr ""
+msgstr "**Rebosar**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.overflow.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.overflow.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.overflow.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.overflow.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum water depth"
-msgstr ""
+msgstr "Profundidad máxima del agua"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.overflow.HW_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.overflow.HW_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Bubble weir**"
-msgstr ""
+msgstr "**BUBBULE WEIR**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bubbleWeir.opening.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bubbleWeir.opening.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bubbleWeir.opening.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bubbleWeir.opening.W) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Backwash orifice plate**"
-msgstr ""
+msgstr "**Placa de orificio de retrolavado**"
 
 #: ../../StaRS.rst:1
 msgid "Orifice diameter"
-msgstr ""
+msgstr "Diámetro de orificio"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.bwOrifice.D) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.bwOrifice.D) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Backwash trunk**"
-msgstr ""
+msgstr "**troncal de retrolavado**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum head loss during filtration"
-msgstr ""
+msgstr "Pérdida máxima de la cabeza durante la filtración"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.inletfiHE) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.inletfiHE) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum velocity during filtration"
-msgstr ""
+msgstr "Velocidad máxima durante la filtración"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.fiV) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.fiV) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum head loss during backwash"
-msgstr ""
+msgstr "Pérdida de cabeza máxima durante el retrolavado"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.inletbwHE) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.inletbwHE) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.bwTrunk.bwV) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.bwTrunk.bwV) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Inlet trunks**"
-msgstr ""
+msgstr "**Trunks de entrada**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.trunk.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.trunk.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.trunk.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.trunk.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.trunk.inletInnerHE) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.trunk.inletInnerHE) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Inner trunks maximum velocity during filtration"
-msgstr ""
+msgstr "Velocidad máxima de troncos internos durante la filtración"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.trunk.innerV) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.trunk.innerV) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Inlet 1 (backwash) pipe stub height"
-msgstr ""
+msgstr "Entrada 1 (retrolavado) Altura de la tubería"
 
 #: ../../StaRS.rst:1
 msgid "none"
-msgstr ""
+msgstr "none"
 
 #: ../../StaRS.rst:1
 msgid "Inlet 2 pipe stub height above the slab"
-msgstr ""
+msgstr "Enlaza de buzo de tubería de entrada 2 sobre la losa"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.HSF) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.HSF) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Inlet 3 pipe stub height above the slab"
-msgstr ""
+msgstr "Enlaza de la buzo de 3 tubos de entrada por encima de la losa"
 
 #: ../../StaRS.rst:1
 msgid "125 mm"
-msgstr ""
+msgstr "125 mm"
 
 #: ../../StaRS.rst:1
 msgid "Inlet 4 pipe stub height above the slab"
-msgstr ""
+msgstr "Enlaz de 4 tubos de entrada altura sobre la losa"
 
 #: ../../StaRS.rst:1
 msgid "150 mm"
-msgstr ""
+msgstr "150 mm"
 
 #: ../../StaRS.rst:357
 msgid ""
 "Outlet tanks design parameters for :numref:`figure_filter_outlet_tank` "
 "|filter_outlet_icon|"
 msgstr ""
+"Parámetros de diseño de tanques de salida para "
+":numref:`figure_filter_outlet_tank` |filter_outlet_icon|"
 
 #: ../../StaRS.rst:497
-msgid "filter_outlet_icon"
-msgstr ""
+#, fuzzy
+msgid "Filter_outlet_icon"
+msgstr "Filter_outlet_icon"
 
 #: ../../StaRS.rst:1
 msgid "**Outlet tank**"
-msgstr ""
+msgstr "**Tanque de salida**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.outletL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.outletL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.outletW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.outletW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Outlet trunks**"
-msgstr ""
+msgstr "**Outlet Trunks**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.trunk.SDR) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.trunk.SDR) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "**Filter to waste**"
-msgstr ""
+msgstr "**Filtrar para desperdiciar**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.filterToWaste.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.filterToWaste.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.filterToWaste.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.filterToWaste.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Filtered water weir**"
-msgstr ""
+msgstr "**Pequeño de**agua**filtrada**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.HSF) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.HSF) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.outletWeirHL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.outletWeirHL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Finished water tank**"
-msgstr ""
+msgstr "**Tanque de agua terminado**"
 
 #: ../../StaRS.rst:1
 msgid "Half of the width of the tank"
-msgstr ""
+msgstr "La mitad del ancho del tanque"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.finishedWaterW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.finishedWaterW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Chlorination conduit**"
-msgstr ""
+msgstr "**Conducto de cloración**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.chlorineConduit.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.ioControls.chlorineConduit.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.ioControls.chlorineConduit.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Finished water pipe**"
-msgstr ""
+msgstr "**Tubería de agua terminada**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.pipes.filtered.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.pipes.filtered.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.pipes.filtered.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.pipes.filtered.SDR) no-sub`"
 
 #: ../../StaRS.rst:387
 msgid ""
 "Filter chambers design parameters for :numref:`figure_filter_chamber_siphon`"
 " |filter_chamber_icon|"
 msgstr ""
+"Parámetros de diseño de cámaras de filtro para "
+":numref:`figure_filter_chamber_siphon` |filter_chamber_icon|"
 
 #: ../../StaRS.rst:500
-msgid "filter_chamber_icon"
-msgstr ""
+#, fuzzy
+msgid "Filter_chamber_icon"
+msgstr "Filter_chamber_icon"
 
 #: ../../StaRS.rst:1
 msgid "**Filter chamber**"
-msgstr ""
+msgstr "**Cámara de filtro**"
 
 #: ../../StaRS.rst:1
 msgid "Number of filter chambers (duty/spare)"
-msgstr ""
+msgstr "Número de cámaras de filtro (deber/repuesto)"
 
 #: ../../StaRS.rst:1
 msgid ""
 ":sub:`($..filter.fiPipes.bay.N) no-sub` / "
 ":sub:`($..filter.fiPipes.bay.spare) no-sub`"
 msgstr ""
+":sub:`($..filter.fiPipes.bay.N) no-sub` / "
+":sub:`($..filter.fiPipes.bay.spare) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.L) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.bayW) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.bayW) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Number of stacked filters"
-msgstr ""
+msgstr "Número de filtros apilados"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.layerN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.layerN) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Height of each layer"
-msgstr ""
+msgstr "Altura de cada capa"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.layerH) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.layerH) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Filter chamber drain**"
-msgstr ""
+msgstr "**Drenaje de**la cámara**de filtro**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.slottedDrain.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.slottedDrain.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "**sand dump pipe**"
-msgstr ""
+msgstr "**tubería de volcado de arena**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandDump.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.sandDump.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandDump.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.sandDump.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Discharge height"
-msgstr ""
+msgstr "Altura de descarga"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandDump.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.sandDump.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Siphon pipe**"
-msgstr ""
+msgstr "**tubería de sifón**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphon.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.siphon.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphon.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphon.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Initial flow rate at beginning of backwash"
-msgstr ""
+msgstr "Caudal inicial al comienzo del retrolavado"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphon.initialQ) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphon.initialQ) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Head loss at filter chamber design flow"
-msgstr ""
+msgstr "Pérdida de cabeza en el flujo de diseño de la cámara del filtro"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphon.HL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphon.HL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Number of orifices"
-msgstr ""
+msgstr "Número de orificios"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonManifold.portN) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphonManifold.portN) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonManifold.portD) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphonManifold.portD) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Orifice center to center spacing"
-msgstr ""
+msgstr "Orificio Centro a Centro Espacio"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonManifold.portB) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphonManifold.portB) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Siphon air valve**"
-msgstr ""
+msgstr "**Válvula de aire de sifón**"
 
 #: ../../StaRS.rst:1
 msgid "Nominal diameter siphon control air vent valve"
 msgstr ""
+"Válvula de ventilación de aire de control de sifón de diámetro nominal"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.airValveND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.airValveND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "**Siphon water seal**"
-msgstr ""
+msgstr "**Sello de agua de sifón**"
 
 #: ../../StaRS.rst:1
 msgid "Nominal diameter siphon siphon water seal"
-msgstr ""
+msgstr "Sello de agua de sifón de sifón de diámetro nominal"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonWaterSeal.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.siphonWaterSeal.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "Head loss over the weir of the pipe"
-msgstr ""
+msgstr "Pérdida de la cabeza sobre el vertedero de la tubería"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonWaterSeal.HL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphonWaterSeal.HL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Optional concrete fill height"
-msgstr ""
+msgstr "Altura opcional de llenado de concreto"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.siphonWaterSeal.fillH) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.siphonWaterSeal.fillH) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Sand**"
-msgstr ""
+msgstr "**Arena**"
 
 #: ../../StaRS.rst:1
 msgid "Depth of the sand that is fluidized during backwash"
-msgstr ""
+msgstr "Profundidad de la arena que se fluidiza durante el retrolavado"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.liveH) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.liveH) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Total depth of sand, including fluidized depth"
-msgstr ""
+msgstr "Profundidad total de arena, incluida la profundidad fluidizada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.H) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.H) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Density"
-msgstr ""
+msgstr "Densidad"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.RHO) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.RHO) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Porosity"
-msgstr ""
+msgstr "Porosidad"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.PO) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.PO) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Effective size"
-msgstr ""
+msgstr "Tamaño efectivo"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.D_es) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.D_es) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Clean bed headloss at :sub:`($..filter.TEMP_min) no-sub`"
-msgstr ""
+msgstr "Limpie la cama de la cama en :sub:`($..filter.TEMP_min) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.HL_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.HL_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Clean bed headloss at :sub:`($..filter.TEMP_max) no-sub`"
-msgstr ""
+msgstr "Limpie la cama de la cama en :sub:`($..filter.TEMP_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.HL_min) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.HL_min) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Head loss to fluidize sand"
-msgstr ""
+msgstr "Pérdida de la cabeza a la arena de fluidización"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.bwHL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.bwHL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Bulk volume of sand per filter chamber (not accounting for volume of "
 "internal pipes)"
 msgstr ""
+"Volumen masivo de arena por cámara de filtro (no contabilizar el volumen de "
+"tuberías internas)"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.VOL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.VOL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ""
 "Mass of sand per filter chamber (not accounting for volume of internal "
 "pipes)"
 msgstr ""
+"Masa de arena por cámara de filtro (no contabilizar el volumen de tuberías "
+"internas)"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.sand.M) pending version update`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.sand.M) pending version update`"
 
 #: ../../StaRS.rst:434
 msgid ""
 "Filter internal piping design parameters for "
 ":numref:`figure_filter_internal_piping_modules` |filter_internalPiping_icon|"
 msgstr ""
+"Filtro de parámetros de diseño de tuberías internos para "
+":numref:`figure_filter_internal_piping_modules` |filter_internalPiping_icon|"
 
 #: ../../StaRS.rst:503
 #, fuzzy
 msgid "Filter_internalpiping_icon"
-msgstr ""
+msgstr "Filter_internalpiping_icon"
 
 #: ../../StaRS.rst:1
 msgid "**Band clamps**"
-msgstr ""
+msgstr "**CLAMPS DE BANDA**"
 
 #: ../../StaRS.rst:1
 msgid "Band width"
-msgstr ""
+msgstr "Ancho de la banda"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.band.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.band.W) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Band thickness"
-msgstr ""
+msgstr "Espesor de la banda"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.band.T) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.band.T) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Winged branch pipes**"
-msgstr ""
+msgstr "**tuberías de rama aladas**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.inlet.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.inlet.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.inlet.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.inlet.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Slotted branch pipes**"
-msgstr ""
+msgstr "**tuberías de rama ranuradas**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.outlet.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.outlet.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.outlet.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.outlet.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Length (not including molded ends)"
-msgstr ""
+msgstr "Longitud (sin incluir extremos moldeados)"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.branch.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.branch.L) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Receptor pipes**"
-msgstr ""
+msgstr "**Tuberías de receptores**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.receptor.pipe.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.receptor.pipe.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.fiPipes.receptor.pipe.SDR) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.fiPipes.receptor.pipe.SDR) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Trunk spacer**"
-msgstr ""
+msgstr "**espaciador de tronco**"
 
 #: ../../StaRS.rst:1
 msgid "Thickness"
-msgstr ""
+msgstr "Espesor"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.internalPipes.spacer.spacerData.factoryT) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.internalPipes.spacer.spacerData.factoryT) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Receptor spacer**"
-msgstr ""
+msgstr "**espaciador del receptor**"
 
 #: ../../StaRS.rst:1
 msgid "**Anchor bolts**"
-msgstr ""
+msgstr "**Bollos de anclaje**"
 
 #: ../../StaRS.rst:1
 msgid "Maximum force on anchor bolts"
-msgstr ""
+msgstr "Fuerza máxima en pernos de anclaje"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.internalPipes.trunkCableF) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.internalPipes.trunkCableF) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Cable**"
-msgstr ""
+msgstr "**Cable**"
 
 #: ../../StaRS.rst:1
 msgid "Diameter"
-msgstr ""
+msgstr "Diámetro"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.internalPipes.spacer.cableD) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.internalPipes.spacer.cableD) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum force on trunk cables"
-msgstr ""
+msgstr "Fuerza máxima en cables troncales"
 
 #: ../../StaRS.rst:1
 msgid "**Hose clamp**"
-msgstr ""
+msgstr "**CLAMPA DE MANGULA**"
 
 #: ../../StaRS.rst:466
 msgid "Filter appurtenances design parameters"
-msgstr ""
+msgstr "Filtro de parámetros de diseño de accesorios"
 
 #: ../../StaRS.rst:1
 msgid "**Sand tank**"
-msgstr ""
+msgstr "**Tanque de arena**"
 
 #: ../../StaRS.rst:1
 msgid "Minimum volume"
-msgstr ""
+msgstr "Volumen mínimo"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandChannel.L) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.sandChannel.L) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandChannel.W) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.sandChannel.W) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "**Sand tank overflow weir**"
-msgstr ""
+msgstr "**Sand Tank Overflow Weir**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.sandChannel.endWallH) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.sandChannel.endWallH) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Length (width of sand tank)"
-msgstr ""
+msgstr "Longitud (ancho del tanque de arena)"
 
 #: ../../StaRS.rst:1
 msgid "**Slotted sand drain**"
-msgstr ""
+msgstr "**Drenaje de arena ranurada**"
 
 #: ../../StaRS.rst:1
 msgid "**Sand tank overflow drain**"
-msgstr ""
+msgstr "**Drenaje de desbordamiento del tanque de arena**"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.bwTankOverflow.ND) no-sub` inch"
-msgstr ""
+msgstr ":sub:`($..filter.bwTankOverflow.ND) no-sub` pulgada"
 
 #: ../../StaRS.rst:1
 msgid "**Pipe gallery and filter backwash water tank**"
-msgstr ""
+msgstr "**Galería de tuberías y filtro Tanque de agua de retrolavado**"
 
 #: ../../StaRS.rst:1
 msgid "Maximum depth"
-msgstr ""
+msgstr "Profundidad máxima"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.bwTank.HW_max) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.bwTank.HW_max) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Volume"
-msgstr ""
+msgstr "Volumen"
 
 #: ../../StaRS.rst:1
 msgid ":sub:`($..filter.bwTank.VOL) no-sub`"
-msgstr ""
+msgstr ":sub:`($..filter.bwTank.VOL) no-sub`"
 
 #: ../../StaRS.rst:1
 msgid "Maximum number of backwash cycles"
-msgstr ""
+msgstr "Número máximo de ciclos de retrolavado"
 
 #: ../../StaRS.rst:1
 msgid "**Pipe gallery drain**"
-msgstr ""
+msgstr "**Drenaje de**la galería**de tuberías**"
 
 #~ msgid "filter top view"
-#~ msgstr ""
+#~ msgstr "Vista superior del filtro"
 
 #~ msgid "filter isometric view"
-#~ msgstr ""
+#~ msgstr "Vista isométrica de filtro"
 
 #~ msgid "filter left section isometric view"
-#~ msgstr ""
+#~ msgstr "Vista isométrica de la sección izquierda del filtro"
 
 #~ msgid "filter controls top isometric view"
-#~ msgstr ""
+#~ msgstr "Controles del filtro Vista isométrica superior"
 
 #~ msgid "distribution to the filter inlet tanks"
-#~ msgstr ""
+#~ msgstr "Distribución a los tanques de entrada del filtro"
 
 #~ msgid "filter inlet tank"
-#~ msgstr ""
+#~ msgstr "Filtro de entrada de un tanque de entrada"
 
 #~ msgid "filter outlet tank"
-#~ msgstr ""
+#~ msgstr "tanque de salida de filtro"
 
 #~ msgid "filter controls inlet tank"
-#~ msgstr ""
+#~ msgstr "Filtro controla el tanque de entrada"
 
 #~ msgid "filter chamber and siphon"
-#~ msgstr ""
+#~ msgstr "Cámara de filtro y sifón"
 
 #~ msgid "filter internal piping isometric"
-#~ msgstr ""
+#~ msgstr "Filtro de tuberías internos isométricas"
 
 #~ msgid "filter internal piping modules"
-#~ msgstr ""
+#~ msgstr "Filtrar módulos de tuberías internos"
 
 #~ msgid "filter trunk spacer front and top views"
-#~ msgstr ""
+#~ msgstr "Filtro del espaciador del tronco del tronco y las vistas superiores"
 
 #~ msgid "filter inlet branches"
-#~ msgstr ""
+#~ msgstr "ramas de entrada de filtro"

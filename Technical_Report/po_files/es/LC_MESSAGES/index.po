@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: San Juan Planes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 18:09-0400\n"
+"POT-Creation-Date: 2025-04-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -22,61 +22,61 @@ msgstr ""
 
 #: ../../index.rst:22
 msgid "Table of Contents"
-msgstr ""
+msgstr "Tabla de contenido"
 
 #: ../../index.rst:30
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #: ../../index.rst:36
 msgid "Chapter 1: Chemical Dosing"
-msgstr ""
+msgstr "Capítulo 1: Dosificación química"
 
 #: ../../index.rst:42
 msgid "Chapter 2: Entrance Tank"
-msgstr ""
+msgstr "Capítulo 2: tanque de entrada"
 
 #: ../../index.rst:48
 msgid "Chapter 3: Flocculator"
-msgstr ""
+msgstr "Capítulo 3: floculator"
 
 #: ../../index.rst:55
 msgid "Chapter 4: Clarifier"
-msgstr ""
+msgstr "Capítulo 4: Clairificador"
 
 #: ../../index.rst:61
 msgid "Chapter 5: Stacked Rapid Sand Filtration"
-msgstr ""
+msgstr "Capítulo 5: Filtración de arena rápida apilada"
 
 #: ../../index.rst:68
 msgid "Chapter 6: Construction Tolerances"
-msgstr ""
+msgstr "Capítulo 6: Tolerancias de construcción"
 
 #: ../../index.rst:4
 msgid "|ACRlogowithname|"
-msgstr ""
+msgstr "|ACRlogowithname|"
 
 #: ../../index.rst
 #, fuzzy
-msgid "Acrlogowithname"
-msgstr ""
+msgid "ACRlogowithname"
+msgstr "Acrlogowithname"
 
 #: ../../index.rst:6
 msgid "**San Juan Planes - AguaClara Water Treatment Plant**"
-msgstr ""
+msgstr "**- Planta de tratamiento de agua San Juan Planes AguaClara**"
 
 #: ../../index.rst:8
-msgid "Agua Para el Pueblo"
-msgstr ""
+msgid "Partner: Agua Para el Pueblo"
+msgstr "Pareja: Agua Para el Pueblo"
 
 #: ../../index.rst:10
-msgid "Latter Day Saints Charities"
-msgstr ""
+msgid "Funder: Church of Jesus Christ of Latter-day Saints"
+msgstr "Funder: Church of Jesus Christ of Latter-day Saints"
 
 #: ../../index.rst:12
-msgid "San Juan Planes, Honduras"
-msgstr ""
+msgid "Location: San Juan Planes, Honduras"
+msgstr "Ubicación: San Juan Planes, Honduras"
 
 #: ../../index.rst:20
 msgid "AguaClara Technical Report for San Juan Planes"
-msgstr ""
+msgstr "Informe técnico AguaClara para San Juan Planes"
