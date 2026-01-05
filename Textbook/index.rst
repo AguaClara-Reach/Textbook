@@ -126,6 +126,7 @@ The Physics of Water Treatment Design
   Filtration/Filtration_Design_Challenge.rst
   Filtration/Filtration_Theory_and_Future_Work.rst
   Filtration/Filtration_Design_Solution.rst
+  Filtration/EStaRS_Design.rst
 
 
 .. toctree::
