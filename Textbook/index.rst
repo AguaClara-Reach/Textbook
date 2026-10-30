@@ -133,7 +133,7 @@ The Physics of Water Treatment Design
   :maxdepth: 1
 
   AIDE/AIDE.rst
-  AIDE/Specifications.rst
+  AIDE/Specifications PF.rst
 
 .. toctree::
   :caption: Chapter 11: Dissolved Gas

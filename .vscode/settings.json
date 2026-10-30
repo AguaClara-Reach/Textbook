@@ -1,0 +1,8 @@
+{
+    "esbonio.sphinx.pythonCommand": ["/Users/imatsuda/.pyenv/versions/3.12.2/bin/python3"],
+    "esbonio.sphinx.buildArguments": [
+        "-M", "html",
+        "Textbook",
+        "${defaultBuildDir}"
+    ]
+}

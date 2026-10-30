@@ -8,7 +8,6 @@
 		}
 	],
 	"settings": {
-		"esbonio.sphinx.confDir": "",
 		"iis.activeFolder": "Textbook"
 	}
 }
