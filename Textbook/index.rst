@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/index.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/index.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -133,7 +133,8 @@ The Physics of Water Treatment Design
   :maxdepth: 1
 
   AIDE/AIDE.rst
-  AIDE/Specifications PF.rst
+  AIDE/Specifications_BIP.rst
+  AIDE/Specifications_PF.rst
 
 .. toctree::
   :caption: Chapter 11: Dissolved Gas
@@ -168,8 +169,8 @@ The Physics of Water Treatment Design
   Textbook_Creation_Help/parameter_convention_list.rst
 
 
-This textbook is written and maintained in `Github <https://github.com/AguaClara/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python library.
+This textbook is written and maintained in `Github <https://github.com/AguaClara-Reach/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python library.
 
 Please use the annotation sidebar to leave comments with requests for improvements, additions, and corrections.
 
-`Please visit our GitHub site <https://github.com/AguaClara/Textbook>`_ to submit an issue, contribute, or comment.
+`Please visit our GitHub site <https://github.com/AguaClara-Reach/Textbook>`_ to submit an issue, contribute, or comment.

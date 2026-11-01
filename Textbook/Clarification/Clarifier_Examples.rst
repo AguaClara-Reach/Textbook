@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Clarification/Clarifier_Examples.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Examples.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -305,4 +305,4 @@ The equation for this problem can be found in :ref:`Clarification Derivations<he
 Comments, Corrections, or Questions
 ====================================
 
-This textbook is an ever-evolving project. If you find any errors while you are reading, or if you find something unclear, please let the authors know. Write your comment in `this Github issue <https://github.com/AguaClara/Textbook/issues/86>`_ and it will be addressed as soon as possible. Please look at other comments before writing your own to avoid duplicate comments.
+This textbook is an ever-evolving project. If you find any errors while you are reading, or if you find something unclear, please let the authors know. Write your comment in `this Github issue <https://github.com/AguaClara-Reach/Textbook/issues/86>`_ and it will be addressed as soon as possible. Please look at other comments before writing your own to avoid duplicate comments.

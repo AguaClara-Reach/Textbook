@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Flocculation/Floc_Design_Solution.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flocculation/Floc_Design_Solution.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Flocs_Fractals_and_Forces/FFF_Intro.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flocs_Fractals_and_Forces/FFF_Intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -302,7 +302,7 @@ The following plot in :numref:`figure_terminal_velocity_floc_diam` shows the rel
 .. _figure_terminal_velocity_floc_diam:
 
 .. figure:: ../Images/terminal_velocity_floc_diam.png
-    :target: https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=KBt24x6V_a3v
+    :target: https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=KBt24x6V_a3v
     :width: 400px
     :align: center
     :alt: Terminal velocity as a function of floc diameter, taking into account the changing density of flocs formed from clay.
@@ -519,7 +519,7 @@ Given the experimental conditions used by Casey Garland where performance began 
 
 Equation :eq:`G_of_vc_and_floc_props` reveals the key relationships between jet reverser and plate settler design. The jet reverser velocity gradient must decrease in proportion to the square of the plate settler capture velocity. If AguaClara were to increase the plate settler capture velocity from 0.12 to 0.3 mm/s the jet reverser velocity gradient would need to decrease by a factor of 6.25. The dramatic effect of temperature is revealed as well. It is well known that flocculation and sedimentation processes perform poorly at low temperatures. The kinematic viscosity of water approximately doubles as the temperature drops from 20°C to 0°C. That results in a need to decrease the velocity gradient by a factor of 8! Finally, the dissolved organic matter and inorganic particles together determine the density and diameter of the core particles that make up the flocs. Organic matter reduces the density of the core particles and that requires a lower velocity gradient. The worst combination of parameters is a cold water with a high dissolved organic concentration and a low concentration of inorganic particles.
 
-The effect of water temperature and plate settler capture velocity on the maximum jet reverser velocity gradient for kaolin suspensions are shown in :numref:`figure_Gmax_of_T_and_vc` (`see Flocs, Fractals, and Forces Colab Worksheet <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=r_wm34KQ8jm4&line=3&uniqifier=1>`_).
+The effect of water temperature and plate settler capture velocity on the maximum jet reverser velocity gradient for kaolin suspensions are shown in :numref:`figure_Gmax_of_T_and_vc` (`see Flocs, Fractals, and Forces Colab Worksheet <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=r_wm34KQ8jm4&line=3&uniqifier=1>`_).
 
 .. _figure_Gmax_of_T_and_vc:
 
@@ -549,7 +549,7 @@ Given
   * :math:`\rho_{cp} = 2650 \frac{kg}{m^3}`
   * :math:`\xi_{breakup} = 50 \cdot \frac{mm^8}{s^6}`
 
-The value of :math:`F_{bond}` was calculated to be :math:`F_{bond} = 6 nN` (see `Flocs, Fractals and Forces Colab worksheet for estimate of the bond force <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=nEZGIfnHFRKo&line=3&uniqifier=1>`_) based on the measurements of `Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_.
+The value of :math:`F_{bond}` was calculated to be :math:`F_{bond} = 6 nN` (see `Flocs, Fractals and Forces Colab worksheet for estimate of the bond force <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=nEZGIfnHFRKo&line=3&uniqifier=1>`_) based on the measurements of `Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_.
 
 Note that further work is required to better estimate the density of a clay particle with coagulant nanoparticles attached. The coagulant nanoparticles effectively increase the clay plate thickness by two times the diameter of the coagulant nanoparticles. That extra thickness is composed of water and the coagulant nanoparticles and thus has a much lower density than the clay particle.
 
@@ -597,7 +597,7 @@ Each of the flocs that are colliding have half of the core particles that the co
   = \frac{ n_{cp}^\frac{1}{\Pi_{fractal}}}{ (0.5n_{cp})^\frac{1}{\Pi_{fractal}}}
   =\sqrt{2}
 
-The energy analysis of floc collisions (see :numref:`figure_floc_braking_energy_of_G` and the `Colab Worksheet for analysis of floc collisions <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_) suggests that a single bond of 0.77 aJ (464 kJ/mol) cannot adsorb the kinetic energy of one of the constituent flocs given the assumption of a core particle with diameter 5 :math:`\mu m` and density of 2650 :math:`\frac{kg}{m^3}` and assuming that the constituent flocs are offset in the velocity gradient by a distance equal to their diameters. A successful collision could occur if much of the kinetic energy is transferred to the other floc through compression rather than through shear or tension. Flocs that are separated by less than their diameters would also have a lower relative velocity. The heterogeneity of the velocity gradients created by turbulence would also provide opportunities for low energy collisions that could be successful. Each of these effects (angle of contact, separation distance, local velocity gradient) suggests that the probability of a successful collision is reduced but does not go to zero as flocs grow in size.
+The energy analysis of floc collisions (see :numref:`figure_floc_braking_energy_of_G` and the `Colab Worksheet for analysis of floc collisions <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_) suggests that a single bond of 0.77 aJ (464 kJ/mol) cannot adsorb the kinetic energy of one of the constituent flocs given the assumption of a core particle with diameter 5 :math:`\mu m` and density of 2650 :math:`\frac{kg}{m^3}` and assuming that the constituent flocs are offset in the velocity gradient by a distance equal to their diameters. A successful collision could occur if much of the kinetic energy is transferred to the other floc through compression rather than through shear or tension. Flocs that are separated by less than their diameters would also have a lower relative velocity. The heterogeneity of the velocity gradients created by turbulence would also provide opportunities for low energy collisions that could be successful. Each of these effects (angle of contact, separation distance, local velocity gradient) suggests that the probability of a successful collision is reduced but does not go to zero as flocs grow in size.
 
 .. _figure_floc_braking_energy_of_G:
 
@@ -610,7 +610,7 @@ The energy analysis of floc collisions (see :numref:`figure_floc_braking_energy_
 
 The required energy increases rapidly as the temperature decreases because larger flocs are needed to achieve the same terminal velocity. This analysis suggests that velocity gradients should be reduced for low temperature operation or that the flocculator velocity gradient should be set based on the coldest operating temperature. Although not shown here, the braking energy required also increases rapidly for lower density flocs because the diameter of the floc must increase to achieve the terminal velocity required to be removed by the plate settlers.
 
-The required energy for attachment increases rapidly with the floc diameter as shown in :numref:`figure_floc_braking_energy_of_D` (see `Colab Worksheet for analysis of the braking energy <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_).
+The required energy for attachment increases rapidly with the floc diameter as shown in :numref:`figure_floc_braking_energy_of_D` (see `Colab Worksheet for analysis of the braking energy <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_).
 
 .. _figure_floc_braking_energy_of_D:
 

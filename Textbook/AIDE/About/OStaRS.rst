@@ -63,7 +63,7 @@ Edit the configurations to create new models of the stacked rapid sand filter. S
    Filter Mode, "If selected the filter is in filtration mode, otherwise the filter is in backwash mode. The water levels change to reflect the filter mode."
 
 
-Additional information is available in the chapter on `Filter Design <https://aguaclara.github.io/Textbook/Filtration/Filtration_Design.html>`_
+Additional information is available in the chapter on `Filter Design <https://aguaclara-reach.github.io/Textbook/Filtration/Filtration_Design.html>`_
 
 
 .. |donate| image:: ./Images/donate.png
@@ -71,7 +71,7 @@ Additional information is available in the chapter on `Filter Design <https://ag
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara.github.io/Textbook/AIDE/AIDE.html
+  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

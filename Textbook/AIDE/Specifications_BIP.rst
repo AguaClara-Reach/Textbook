@@ -1,26 +1,23 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/AIDE/Specifications.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/AIDE/Specifications_BIP.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
 
-.. _title_AguaClara_PF_Specifications:
+.. _title_AguaClara_Specifications:
 
-**************************************
-Specifications for AguaClara PF Series
-**************************************
+************************
+AguaClara Specifications
+************************
 
-.. check that all see numrefs are pointing the the correct thing
-.. change where the links to onshape lead. see bottom of this document for those.
+This document specifies the design goals, the raw water quality parameters, and the design and construction requirements for an AguaClara drinking water treatment plant. The plant will produce safe, potable drinking water from a source water that may be contaminated with particles, pathogens, and dissolved organics.
 
-This document specifies the design goals, the raw water quality parameters, and the design and construction requirements for an AguaClara prefabricated (PF) drinking water treatment plant. The plant will produce safe, potable drinking water from a source water that may be contaminated with particles, pathogens, and dissolved organics.
-
-AguaClara Plant Design Goals 
+AguaClara Plant Design Goals |20-80Lpsplant|
 ============================================
 
-AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and to deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution.
+AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and to deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution.
 
 AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The  :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier.  An AguaClara treatment plant may be designed with all of these processes, or if raw water turbidity is consistently less than about 3 NTU, the treatment plant may be designed without flocculation, floc filter, and sedimentation.
 
@@ -45,10 +42,10 @@ AguaClara plants are designed to treat the water quality parameters listed above
 
 Before beginning construction of an AguaClara treatment plant, bench-scale jar testing should be performed to confirm that polyaluminum chloride, aluminum sulfate, or another proposed coagulant is able to successfully form flocs that settle.
 
-Entrance Tank
-==============
+Entrance Tank |EntranceTank|
+============================
 
-For more detailed information see :ref:`Entrance Tank Design <title_entrance_tank_design>`. The entrance tank (see :numref:`figure_spec_PF_ET_Diagram_Labeled`) has multiple functions in a drinking water treatment plant.
+For more detailed information see :ref:`Entrance Tank Design <title_entrance_tank_design>`. The entrance tank (see :numref:`figure_spec_ET_Diagram_Labeled`) has multiple functions in a drinking water treatment plant.
 
 #. Remove air bubbles to reduce splashing, turbulence, and unsteady motion of the chemical feed surface tracking lever system
 #. Remove grit to prevent accumulation in the flocculator
@@ -57,14 +54,13 @@ For more detailed information see :ref:`Entrance Tank Design <title_entrance_tan
 #. Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) so that operators can make adjustments and respond to changes in water demand
 #. Inject the coagulant and any other amendments required for flocculation
 
-.. _figure_spec_PF_ET_Diagram_Labeled:
+.. _figure_spec_ET_Diagram_Labeled:
 
-.. figure:: ../Images/PF_Images/PFETdiagram.png
+.. figure:: ../Images/ET_Diagram_Labeled.png
     :width: 900px
     :align: center
     :alt: entrance tank diagram
 
-    
     Cross-section of an entrance tank. Chemical dosing system not shown.
 
 Grit Removal
@@ -208,7 +204,24 @@ D. Function
 Flocculator
 ===========
 
-For more detailed information see :ref:`Flocculation Design <title_Flocculation_Design>`. 
+For more detailed information see :ref:`Flocculation Design <title_Flocculation_Design>`. AguaClara flocculators have three potential flow patterns (see :numref:`figure_spec_flocculator_Geometry`) depending on the flow rate, plant layout, and velocity gradient. There is overlap between the different flow geometries and ongoing work to assess how to select the best type of flocculator given a flow that could be handled by two different types.
+
+The flocculator geometries are specified by two flow directions. The first direction is the flow direction in a channel from the channel inlet to the channel outlet. The second direction is the flow direction around a baffle.
+
+#. |FlocculatorVH| Vertical - Horizontal: Plant design flows between about 0.5 L/s and 20 L/s. See :numref:`figure_VHflocculator`.
+
+#. |FlocculatorHV| Horizontal - Vertical: Plant design flows between about 3 and 200 L/s. See :numref:`figure_HVflocculator`. This geometry is also referred to as over-under.
+
+#. |FlocculatorHH| Horizontal - Horizontal: Plant design flows above about 100 L/s. See :numref:`figure_HHflocculator`. This geometry is also referred to as around-the-end.
+
+.. _figure_spec_flocculator_Geometry:
+
+.. figure:: ../Images/flocculator_Geometry.png
+  :align: center
+  :width: 500px
+  :alt:  3 flocculator geometries
+
+  The optimal flocculator geometry transitions as the flow rate increases. Note that each of these flocculators has approximately the same depth.
 
 Design Goals
 ------------
@@ -226,49 +239,49 @@ A. Provide a velocity gradient and residence time allowing aggregation of indivi
 Flow Paths
 ----------
 
-A. The length of the flocculator channels is typically determined by the size of the clarifier to create a compact plant layout.
+A. The length of the flocculator channels is typically determined by the length of the clarifier to create a compact plant layout.
 
-#. The width of each flocculation channel is determined by material constraints and to facilitate cleaning and maintenance. The flocculator baffles are made of polycarbonate sheets, so the width of the channel should be no larger than the width of a polycarbonate sheet. The width of the channel should be no smaller than 50 cm so an operator can safely enter the tank. 
+#. The width of each flocculation channel is determined by material constraints and to facilitate cleaning and maintenance. The flocculator baffles are made of polycarbonate sheets, so the width of the channel should be no larger than the width of a polycarbonate sheet. The width of the channel should be no smaller than 50 cm so an operator can safely enter the tank. Large plants treating more than about 200 L/s may be designed with horizontal flocculation channels and may use ferrocement baffles.
 
-#. The depth of the flocculation channels is determined by fabrication and operational constraints and to minimize the plan view area of the flocculators and thus the plant. Typically the flocculator and clarifier share the same slab. The water depth in the prefabricated flocculator is approximately 190 cm.
+#. The depth of the flocculation channels is determined by construction constraints and to minimize the plan view area of the flocculators and thus the plant. Typically the flocculator and clarifier share the same slab.
 
 #. The overall volume of the flocculator is determined by the individual constraints on each dimension of the flocculator, but the collision potential, Gϴ, of the flocculator must be at least 35,000 at the plant design flow.
 
-#. The spacing between baffles is designed to achieve the target velocity gradient, G, at the design flow rate and is designed to get as close to the target head loss as possible.
+#. The spacing between baffles is designed to achieve the target velocity gradient, G, at the design flow rate.
 
-#. The ports between flocculator channels (see :numref:`figure_PFflocChannelPort`) should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width.
+#. The ports between flocculator channels (see :numref:`figure_flocChannelPort` should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width.
 
-.. _figure_PFflocChannelPort:
+.. _figure_flocChannelPort:
 
-.. figure:: ../Images/PF_Images/PFflocChannelPort.png
+.. figure:: ../Images/flocChannelPort.png
   :align: center
   :width: 500px
   :alt:  ports
 
-  Flocculator with side walls removed to show the port between channels. Water flows between flocculator channels through a port that has the same flow dimensions as the space between baffles.
+  Flocculator with end and side walls removed to show the port between channels. Water flows between flocculator channels through a port that has the same flow dimensions as the space between baffles.
 
 Channel Construction
 --------------------
 
 A. The walls of the flocculation channels should be vertical, maintaining the channel width along both the length and height of each flocculator channel.
 
-#. The drain pipe is activated via valve. The drain pipe must be large enough to empty the flocculation channels in 20 minutes. The drain is located on the outer flocculator channel below the flocculator entrance.
+#. The drain pipes are activated by removing a vertical pipe stub. The drain pipes must be large enough to empty the flocculation channels in 20 minutes. The drains are placed near a port between channels so that each drain can serve two channels.
 
 #. The flocculator should have sufficient lighting for the operator to observe floc formation. The operator should also have a flashlight to observe floc formation during power outages.
 
 Baffles
 -------
 
-A. The flocculation baffles must be constructed to be removable. A baffle module (see :numref:`figure_spec_PFbaffleModule`) should be raisable by one operator working alone so that water can flow beneath the baffle and drain from the flocculator channel. Large flocculators may have baffle modules that require more than one person to completely remove from the flocculator channel.
+A. The flocculation baffles must be constructed to be removable. A baffle module (see :numref:`figure_spec_baffleModule`) should be raisable by one operator working alone so that water can flow beneath the baffle and drain from the flocculator channel. Large flocculators may have baffle modules that require more than one person to completely remove from the flocculator channel.
 
 #. The flocculation baffles should be constructed from polycarbonate sheets, and the frame for holding together baffle modules should be made from PVC pipe. Other materials may be used if justification is provided, including the use of ferrocement baffles for horizontal flocculators in large plants.
 
 #. The width of each baffle should be approximately 5 millimeters wider than the channel width so they deform slightly and created a tighter seal with the channel wall.
 
 
-.. _figure_spec_PFbaffleModule:
+.. _figure_spec_baffleModule:
 
-.. figure:: ../Images/PF_Images/PFbaffleModule.png
+.. figure:: ../Images/baffleModule.png
   :align: center
   :width: 500px
   :alt:  Baffle Module
@@ -276,33 +289,33 @@ A. The flocculation baffles must be constructed to be removable. A baffle module
   The baffle modules transfer the force of the water to the downstream wall through the PVC pipe frame. Each flocculator channels holds one baffle module.
 
 
-Clarifier 
-==========
+Clarifier |Clarifier|
+=====================
 
-For more detailed information see :ref:`Clarifier Design <title_Clarifier_Design>`. The clarifier (see :numref:`figure_spec_PFclarifierElevation`) contains three separate processes: filtration in the floc filter, sedimentation in the plate settlers, and consolidation in the floc hopper. Flocculated water flows from the inlet channel to the inlet manifold and then through the diffusers, jet reverser, floc filter, and plate settlers. Clarified water flows into the outlet manifold, and out of the clarifier to the filter.
+For more detailed information see :ref:`Clarifier Design <title_Clarifier_Design>`. The clarifier (see :numref:`figure_spec_clarifierElevation`) contains three separate processes: filtration in the floc filter, sedimentation in the plate settlers, and consolidation in the floc hopper.
 
 The clarifier must be designed based on the coldest water temperature and based on the lowest density primary particles that will need to be captured. Surface waters with high concentrations of dissolved organic matter and low concentrations of suspended solids produce low density flocs and thus the velocity gradient in the inlet manifold and jet reverser must be reduced. In some cases it may also be necessary to reduce the floc filter upflow velocity and plate settler capture velocity by increasing the clarifier plan view area.
 
-.. _figure_spec_PFclarifierElevation:
+.. _figure_spec_clarifierElevation:
 
-.. figure:: ../Images/PF_Images/PFclarifierElevation.png
+.. figure:: ../Images/clarifierElevation.png
   :align: center
   :width: 500px
   :alt:  Clarifier Elevation view
 
-  Elevation view of the clarifier with no wall, showing location of the floc filter, plate settlers, and floc hopper.
+  Elevation view of a clarifier bay showing location of the floc filter, plate settlers, and floc hopper.
 
-The clarifier may have multiple bays (see :numref:`figure_PF_clarifier_internals`) that work in parallel to treat the required plant flow.
+The clarifier may have multiple bays (see :numref:`figure_clarifier_with_4_bays`) that work in parallel to treat the required plant flow.
 
 
-.. _figure_PF_clarifier_internals:
+.. _figure_clarifier_with_4_bays:
 
-.. figure:: ../Images/PF_Images/PFclarifierInternals.png
+.. figure:: ../Images/clarifier_with_4_bays.png
   :align: center
   :width: 500px
-  :alt:  Clarifier Internals, showing 2 bays
+  :alt:  Clarifier showing 4 bays
 
-  Clarifier with two bays. 
+  Clarifier with four bays. Each bay has its own inlet, outlet, floc filter, plate settlers, and floc hopper so that a bay can be taken offline while the other bays continue to operate.
 
 Design Goals
 ------------
@@ -323,6 +336,24 @@ A. To deliver flocs to the clarifier bay without breaking them into pieces with 
 
 #. To ensure easy operation and maintenance.
 
+#. To be able to take any clarifier bay offline for maintenance while the other clarifier bays continue to operate.
+
+#. To be able to refill a clarifier bay with clarified water for rapid return to service.
+
+
+Inlet Channel
+-------------
+
+The inlet channel (see :numref:`figure_spec_ClarifierInletOutletHydraulics`) is designed to have a velocity head that is very small compared with the head loss in the outlet manifold orifices to achieve uniform flow distribution between clarifier bays. The inlet channel is sloped up in the direction of flow to maintain relatively uniform velocity for improved flow distribution and to reduce floc deposition in the channel.
+
+.. _figure_spec_ClarifierInletOutletHydraulics:
+
+.. figure:: ../Images/ClarifierInletOutletHydraulics.png
+  :align: center
+  :width: 500px
+  :alt:  Clarifier Inlet Outlet Hydraulics
+
+  Flocculated water flows from the inlet channel to the inlet manifold and then through the diffusers, jet reverser, floc filter, and plate settlers. Clarified water flows into the outlet manifold, the collector channel, across the outlet weir, and into the outlet channel.
 
 Inlet Manifold
 --------------
@@ -386,34 +417,34 @@ The clarifier bottom geometry (see :numref:`figure_spec_clarifierEndView`) preve
 Floc Hopper
 -----------
 
-The floc hopper (:numref:`figure_spec_PFflocHopper`) provides an opportunity for floc consolidation. The floc weir controls the depth of the floc filter because as the floc filter grows, it will eventually reach the top of the floc weir. Because flocs are more dense than water, the flocs “spill” over the edge of the floc weir which allows the floc filter to stay a constant height while sludge accumulates and consolidates in the floc hopper. Operators can use a flashlight to observe the floc filter moving into the lower end of the plate settlers indicating that the floc hopper is full. The sludge is drained from the floc hopper by opening a valve. The operator can observe that the sludge has completely drained from the floc hopper by the clarity of the water exiting from the drain valve.
+The floc hopper (:numref:`figure_spec_flocHopper`) provides an opportunity for floc consolidation. The floc weir controls the depth of the floc filter because as the floc filter grows, it will eventually reach the top of the floc weir. Because flocs are more dense than water, the flocs “spill” over the edge of the floc weir which allows the floc filter to stay a constant height while sludge accumulates and consolidates in the floc hopper. Operators can use a flashlight to observe the floc filter moving into the lower end of the plate settlers indicating that the floc hopper is full. The sludge is drained from the floc hopper by opening a valve. The operator can observe that the sludge has completely drained from the floc hopper by the clarity of the water exiting from the drain valve.
 
 The floc hopper allows for a self-cleaning clarifier. Operators only have to clean the clarifier once every three to six months because there is no stagnant accumulation of anoxic sludge.
 
-.. _figure_spec_PFflocHopper:
+.. _figure_spec_flocHopper:
 
-.. figure:: ../Images/PF_Images/PFflocHopper.png
+.. figure:: ../Images/flocHopper.png
    :width: 400px
    :align: center
    :alt: Floc Hopper
 
-   Flocs enter the hopper by flowing over the floc weir. Sludge is drained from the bottom of the hopper.
+   The floc hopper is located beneath the inlet and outlet channels. Flocs enter the hopper by flowing over the floc weir. Sludge is drained from the bottom of the hopper.
 
 Plate Settlers
 --------------
 
 After flowing through the floc filter, flocs reach the plate settlers. Plate settlers are sloped surfaces that provide additional settling area for flocs, thereby increasing the effective settling area of the clarifier without increasing the plan view area. AguaClara plate settlers are sloped at 60 degrees. The spacing between plates is 2.5 cm.
 
-The plate settlers are made from clear polycarbonate sheets or stainless steel. The sheets are assembled in modules (see :numref:`figure_spec_PFplateSettlerModule`). The modules are light enough to be removed from the clarifier by hand. The plate settler modules are supported by a PVC pipe frame supported by the clarifier walls.
+The plate settlers are made from clear polycarbonate sheets. The sheets are assembled in modules (see :numref:`figure_spec_plateSettlerModule`). The modules are light enough to be removed from the clarifier by hand. The plate settler modules are supported by ledges along the clarifier bay walls and by a PVC pipe frame.
 
-.. _figure_spec_PFplateSettlerModule:
+.. _figure_spec_plateSettlerModule:
 
-.. figure:: ../Images/PF_Images/PFplateSettlerModule.png
+.. figure:: ../Images/plateSettlerModule.png
    :width: 300px
    :align: center
    :alt: Plate settler module
 
-   Plate settler module assembled from sheets and piping.
+   Plate settler module assembled from polycarbonate sheets and PVC piping. 
 
 
 .. _table_Plate_Settler:
@@ -434,16 +465,28 @@ Submerged Outlet Manifold
 
 The submerged outlet manifold, sometimes called a launder, collects clarified water from the top of the clarifier. It is a horizontal pipe that extends along the length of the clarifier bay and is located above the plate settlers but below the surface of the water. The submerged pipe has orifices drilled into its top; water enters the pipe through the orifices and the pipe leads out of the clarifier bay.
 
-The outlet manifold is designed to generate 5 cm of head loss to ensure uniform flow distribution between clarifier bays and to have the majority of the head loss through the orifices to obtain uniform flow distribution between the orifices. The outlet manifold leads into the outlet pipe that takes water from the clarifier to the filter.
+The outlet manifold is designed to generate 5 cm of head loss to ensure uniform flow distribution between clarifier bays and to have the majority of the head loss through the orifices to obtain uniform flow distribution between the orifices.
 
-Shallow Open Stacked Rapid Sand Filter
+Outlet Weir
+-----------
+
+The submerged outlet manifold transports water from the clarifier bay to a collector channel that runs perpendicular to the clarifier bays (see :numref:`figure_spec_diffuser_dimensions`). All of the clarifier bay outlet manifolds deliver the clarified water to the collector channel. Water leaves the collector channel by flowing over the outlet weir. The elevation of the outlet weir controls the water levels in the clarifier and in the flocculator. The outlet weir does not need to be adjustable and small elevation errors are accommodated because water can flow in the collector channel with less head loss than the orifice head loss.
+
+The outlet weir makes it possible to refill and empty individual clarifier bays with clarified water to ensure that after returning a clarifier bay to service the first water is of high quality.
+
+Outlet Channel
+--------------
+
+After the water flows over the outlet weir, it is collected in the outlet channel. The water can be transported from the clarifier outlet channel to the filter inlet channel by pipes or by a channel.
+
+Stacked Rapid Sand Filter |OStaRS|
 ==================================
 
-For more detailed information see :ref:`Filtration Design <title_Filtration_Design>`. Stacked Rapid Sand, StaRS, filters were invented in 2010 by the AguaClara Cornell program in response to the need for a new technology that would both eliminate the need for backwash pumps and not require the construction of 6 filters for small towns. As shown in :numref:`figure_spec_OStaRSfilterMode`, this filter is divided into four independent cells, each with two inlets, one outlet, and two 20 cm layers of sand. Clarified water enters the filter bed, passes through the sand, and is collected by a central slotted pipe. Over time, accumulated sediment increases head loss, so the filter must be backwashed regularly.
+For more detailed information see :ref:`Filtration Design <title_Filtration_Design>`. Stacked Rapid Sand, StaRS, filters (see :numref:`figure_spec_OStaRSoverview`) were invented in 2010 by the AguaClara Cornell program in response to the need for a new technology that would both eliminate the need for backwash pumps and not require the construction of 6 filters for small towns. As shown in :numref:`figure_spec_OStaRSfilterMode`, StaRS filters use six 20 cm deep layers of sand with the layers stacked vertically. The six layers give a total active sand depth of 1.2 m.
 
-.. _figure_spec_ShOStaRSoverview:
+.. _figure_spec_OStaRSoverview:
 
-.. figure:: ../Images/PF_Images/ShOStaRSoverview.png
+.. figure:: ../Images/OStaRSoverview.png
    :width: 500px
    :align: center
    :alt: Floc Hopper
@@ -457,22 +500,22 @@ A. The filter operates with the same design flow rate for both filtration (see :
 
 .. _figure_spec_OStaRSfilterMode:
 
-.. figure:: ../Images/PF_Images/ShOStaRSfilterMode.png
+.. figure:: ../Images/OStaRSfilterMode.png
    :width: 500px
    :align: center
    :alt: OStaRS filtration mode
 
-   In filtration mode the flow divides four compartments. The four sand compartments operate in parallel during filtration.
+   In filtration mode the flow divides between the six sand layers. The six sand layers operate in parallel during filtration.
 
 
 .. _figure_spec_OStaRSbackwashMode:
 
-.. figure:: ../Images/PF_Images/ShOStaRSbackwashMode.png
+.. figure:: ../Images/OStaRSbackwashMode.png
    :width: 500px
    :align: center
    :alt: OStaRS backwash mode
 
-   In backwash mode, one pipe stub is removed at a time to backwash each of the four compartments. The water then exits through the backwash drain pipe.
+   In backwash mode all of the flow enters at the bottom of the filter box and flows up through the six sand layers. The six sand layers operate in series during backwash.
 
 
 Design Goals
@@ -484,76 +527,124 @@ A. Stacked Rapid Sand (StaRS) filters were developed to eliminate the need for b
 
 #. During backwash, all outlets and all inlets besides the bottom most inlet must be hydraulically isolated so all flow enters through the bottom inlet and flows out through the backwash siphon pipe.
 
-Configuration
+#. The plant shall have a minimum of two StaRS filters so that one of the StaRS filters can be in operation while the other is offline for maintenance or repairs.
+
+Configurations
 --------------
 
-A. Shallow Open StaRS (ShOStaRS) with 4 filter compartments - used for flow rates around 0.8 L/s.
+A. Open StaRS (OStaRS) with 6 filter layers - used for flow rates greater than about 20 L/s. The minimum OStaRS flow rate is set by the minimum dimensions of the filter box that can be constructed and that enable filter maintenance.
+
+#. Open StaRS (OStaRS) with 2 filter layers - used for flow between about 3 and 12 L/s. This technology is under development.
+
+#. Enclosed StaRS (EStaRS) filters - used for lower flow rates. This technology is under development
+
+   1. Can be located on the same slab as the clarifier and flocculator because the EStaRS is operated under vacuum in backwash mode to achieve the necessary head for fluidizing the sand.
+   #. Assembled using PVC pipe as the body of the filter
+   #. Inner plumbing accessed through openings in the top and bottom of the main filter body
 
 Sand Specification
 ------------------
 
-StaRS filters use (2) two 20 cm deep layers of silica sand (no dual-media required) with the layers stacked vertically. The two layers give an active sand depth of 40 cm. The grain size is 0.45 to 0.55 mm.
+StaRS filters use (6) six 20 cm deep layers of silica sand (no dual-media required) with the layers stacked vertically. The six layers give an active sand depth of 1.2 m. The grain size is 0.45 to 0.55 mm.
 
 Filter Modules
 --------------
 
-The sand layers are contiguous and the only distinction between layers is the direction of flow during filtration. Each layer of sand sits in between an inlet and outlet of the filter. One inlet module and the outlet module consists of a large diameter trunk inlet/outlet pipe, which connects to a row of smaller branch pipes. The branch pipes are supported along the filter walls by receptor pipes. The other inlet at the top of the filter does not have a pipe trunk, so the water just enters the filter through the hole.
+The sand layers are contiguous and the only distinction between layers is the direction of flow during filtration. Each layer of sand sits in between an inlet and outlet filter module. Each module consists of a large diameter trunk inlet/outlet pipe, which connects to a row of smaller branch pipes. The branch pipes are supported along the filter walls by receptor pipes.
 
-The filter manifolds are anchored to the concrete slab to prevent uplift at the transition to backwash. The uplift forces are considerable and are detailed in :ref:`Backwash Initiation Forces <heading_StaRS_Backwash_Forces>`.
+The filter modules are anchored to the concrete slab to prevent uplift at the transition to backwash. The uplift forces are considerable and are detailed in :ref:`Backwash Initiation Forces <heading_StaRS_Backwash_Forces>`.
 
-A. Inlet Filter Manifolds
+A. Inlet Filter Module
 
-   1. Small holes (orifices) are drilled into the inlet manifold (see :numref:`figure_spec_ShOStaRSinletManifold`). The orifice diameter is selected based on constructability and not being too small to risk clogging (between 4 and 10 mm).
+   1. Small holes (orifices) are drilled into the inlet branches (see :numref:`figure_spec_OStaRSinletBranches`). The orifice diameter is selected based on constructability and not being too small to risk clogging (between 4 and 10 mm).
 
-   #. During filtration mode, water flows out of the manifold through small holes, into the space created by the wing, and then into the sand.
+   #. During filtration mode, water flows into the inlet filter modules through the inlet trunk and into the branches. Water flows out of the branches through small holes, into the space created by the wing, and then into the sand.
 
    #. During the transition from the backwash to filtration modes, a small volume of water flows back into the inlet pipes. The “wings,” PVC pipes cut longitudinally, are affixed to the inlet branches to prevent sand from flowing into the inlet pipe. Wings are only included on the inlet filter modules.
 
-#. Outlet Filter Manifolds
+#. Outlet Filter Module
 
-   1. The slots in the outlet manifold (see :numref:`figure_spec_ShOStaRSoutletManifold`) are small enough to prevent sand from passing through. The filter modules shall be adequately supported to limit deflection of any of the module pipes to 2 millimeters or less to prevent significant opening or closing of the slots.
+   1. The slots in the outlet branches (see :numref:`figure_spec_OStaRSoutletBranches`) are small enough to prevent sand from passing through. The filter modules shall be adequately supported to limit deflection of any of the module pipes to 2 millimeters or less to prevent significant opening or closing of the slots.
 
-   #. During filtration mode, water flows from the filter media into the slots and through the pipe to the filter exit box.
+   #. During filtration mode, water flows from the filter media into the slots and then through the branches and into the trunk pipes.
 
-   #. During backwash mode, the outlet manifold is blocked.
+   #. During backwash mode, the outlet trunks are closed or isolated and water does not flow through the outlet modules.
 
-.. _figure_spec_ShOStaRSinternalPiping:
+.. _figure_spec_OStaRSinternalPiping:
 
-.. figure:: ../Images/PF_Images/ShOStaRSinternalPiping.png
+.. figure:: ../Images/OStaRSinternalPiping.png
    :width: 500px
    :align: center
-   :alt: ShOStaRS internal piping
+   :alt: OStaRS internal piping
 
-   The four filter cells are arranged alongside eachother in the filter box. In each filter cell is an inlet and outlet manifold.
+   The seven filter modules stack inside the filter box. Each module is held together using band clamps. The only pipe connections that are glued in the filter modules are the end caps on the trunks and receptors.
 
-.. _figure_spec_ShOStaRSinletManifold:
+.. _figure_spec_OStaRSinletBranches:
 
-.. figure:: ../Images/PF_Images/ShOStaRSinletManifold.png
+.. figure:: ../Images/OStaRSinletBranches.png
    :width: 500px
    :align: center
-   :alt: ShOStaRS inlet manifold
+   :alt: OStaRS inlet branch
 
-   The inlet manifolds use orifices to obtain uniform flow distribution and a wing system to prevent sand from entering into the branches during backwash and filter mode transitions.
+   The inlet branches use orifices to obtain uniform flow distribution and a wing system to prevent sand from entering into the branches during backwash and filter mode transitions.
 
-.. _figure_spec_ShOStaRSoutletManifold:
+.. _figure_spec_OStaRSoutletBranches:
 
-.. figure:: ../Images/PF_Images/ShOStaRSoutletManifold.png
+.. figure:: ../Images/OStaRSoutletBranches.png
    :width: 500px
    :align: center
-   :alt: ShOStaRS outlet branch
+   :alt: OStaRS outlet branch
 
-   The outlet manifolds use 0.2 mm slots to keep the sand in the filter bed.
+   The outlet branches use 0.2 mm slots to keep the sand in the filter bed.
 
 
 Backwash Siphon
 ---------------
 
-The siphon should be designed so the airlock can hold the water in the filter box at least until the filter reaches the design maximum head loss. Backwash is initiated when the operator pulls out a pipe stub in the inlet box that leads to the correponding filter cell. There are four pipe stubs that lead to the four filter cells, and removing one pipe stub at a time allows the operator to backwash one filter cell at a time. 
+The siphon should be designed so the airlock can hold the water in the filter box at least until the filter reaches the design maximum head loss. Backwash is initiated when the operator briefly opens a small diameter air release valve to remove the trapped air from the siphon pipe. The siphon diameter must be sufficient to lower the water in the filter at an average velocity that is equal to or exceeds the backwash velocity.
 
-Sand Removal
--------------
+Backwash Flow Control Weirs
+---------------------------
 
-Sand can be removed from the filter in two ways: manually with a shovel or by using a siphon. The easiest way to remove sand from the filter for maintenance is to use a hose to create a siphon when the water level in the filter core box is more than 40 centimeters above the sand. Compared to manually removing the sand with a shovel, the siphon method is faster, reduces the risk of damaging components inside the filter, and requires less physical effort.
+A. The backwash gate (see :numref:`figure_spec_OStaRShydraulicControls`) ensures there is adequate flow to backwash one filter as long as there is at least that much flow entering the plant. This is important because many water treatment plants operate under reduced flow during the dry season.
+
+#. Removing the backwash gate in front of the desired backwash filter will create the desired backwash flow rate for the filter, while evenly distributing the remaining flow rate to the other filters. By removing the backwash gate the flow control for that filter is shifted from the wide weir to the slot weir.
+
+#. The slot weir sets the backwash flow rate and ensures that the backwash flow doesn't cause sand loss by expanding the sand bed excessively. The slot weir can be partially filled at plant commissioning to reduce the maximum backwash flow if needed.
+
+.. _figure_spec_OStaRShydraulicControls:
+
+.. figure:: ../Images/OStaRShydraulicControls.png
+   :width: 500px
+   :align: center
+   :alt: OStaRS hydraulic controls
+
+   The hydraulic controls give the operator full control of filter operation while ensuring that the flow is distributed evenly between filters in filtration mode and that a filter in backwash mode receives the correct backwash flow rate.
+
+
+Sand Dump
+---------
+
+The sand dump is critical for StaRS filters because the filter bed piping would make manual removal very difficult.
+
+A. A sand dump pipe shall be installed in the filter box to allow for the filter media to be removed when the filter is in backwash mode and the sand bed is fluidized.
+
+#. The sand dump pipe must be designed so that the sand doesn’t collect at one location in the pipe and cause a clog when the flow of the sand slurry is stopped. This requirement is met by using a single straight pipe with a slope less than the angle of repose of sand in water.
+
+#. The sand dump velocity shall be at least 3 m/s to prevent the sand from settling in the sand dump pipe during operation.
+
+#. The sand dump is activated by removing a clamp on connector and cap assembly from the end of the pipe.
+
+
+
+.. _figure_spec_OStaRSsandDump:
+
+.. figure:: ../Images/OStaRSsandDump.png
+   :width: 500px
+   :align: center
+   :alt: OStaRS sand dump
+
+   The sand dump is straight to prevent sand blockages and to minimize head loss.
 
 Backwash Recycle
 ----------------
@@ -565,7 +656,7 @@ In the event of a power failure the backwash recycle system will instead use bac
 Disinfection
 ============
 
-Sodium or calcium hypochlorite is metered into the filtered water as it exits the filter box and enters the pipe that carries the water to a chlorine contact tank or directly to the community distribution tank. The chlorine is added after the previous treatment processes to reduce the production of disinfection byproducts and to enable biofiltration. The chlorine concentration is set by adjusting the position of the slider on the doser (see :numref:`figure_spec_doser`).
+Sodium or calcium hypochlorite is metered into the filtered water as it exits the filter hydraulic controls and enters the pipe that carries the water to a chlorine contact tank or directly to the community distribution tank. The chlorine is added after the previous treatment processes to reduce the production of disinfection byproducts and to enable biofiltration. The chlorine concentration is set by adjusting the position of the slider on the doser (see :numref:`figure_spec_doser`).
 
 
 .. |LFOM| image:: https://cad.onshape.com/api/thumbnails/d/49035a16b895fd8095d17a02/w/b76e9410efc3d9f5861e9516/s/300x170

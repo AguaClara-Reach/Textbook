@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

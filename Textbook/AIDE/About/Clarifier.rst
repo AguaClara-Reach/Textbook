@@ -62,7 +62,7 @@ Edit the configurations to create new models of the clarifier. Send us `feedback
    "",""
    Maximum inlet velocity gradient (1/s), Controls breakup of flocs entering the clarifier. The inlet manifold diameter increases and the diffuser openings increase in width for lower values of the velocity gradient.
 
-Additional information is available in the chapter on `Clarifier Design <https://aguaclara.github.io/Textbook/Clarification/Clarifier_Design.html>`_
+Additional information is available in the chapter on `Clarifier Design <https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Design.html>`_
 
 
 .. |donate| image:: ./Images/donate.png
@@ -70,7 +70,7 @@ Additional information is available in the chapter on `Clarifier Design <https:/
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara.github.io/Textbook/AIDE/AIDE.html
+  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

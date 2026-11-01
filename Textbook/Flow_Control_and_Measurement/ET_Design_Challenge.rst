@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design_Challenge.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/ET_Design_Challenge.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

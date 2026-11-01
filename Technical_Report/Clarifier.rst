@@ -4,7 +4,7 @@
 Clarifier
 *********
 
-Design information for the AguaClara clarifier is available in `the Clarifier Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Clarification/Clarifier_Design.html>`_
+Design information for the AguaClara clarifier is available in `the Clarifier Design chapter of The Physics of Water Treatment Design <https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Design.html>`_
 
 
 Purpose and Description

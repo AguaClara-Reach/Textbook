@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -24,7 +24,7 @@ The entrance tank has multiple functions in a drinking water treatment plant.
 #. Measure the incoming flow rate so that operators can make adjustments and respond to changes in water demand
 #. Inject the coagulant and any other amendments required for flocculation
 
-Water enters the entrance tank via the influent pipe and passes through the trash rack towards the `Linear Flow Orifice Meter (LFOM) <https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-flow-orifice-meter-lfom>`_. For water sources with large sediment loads, a grit chamber may be installed between the trash rack and LFOM to facilitate additional removal of sand and gravel. Plant operators can remove the pipe stubs blocking the drain on the bottom of each hopper, allowing water to pull settled grit into the waste channel below for disposal. An overflow pipe on the influent side of the trash rack prevents flows larger than the design flow rate from overwhelming the plant. The Chemical Dose Controller (CDC) lever arm and float sit between the trash rack and the LFOM and are used to dose the appropriate amount of chemicals into the plant as described previously in `Chapter 6 <https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-chemical-dose-controller-cdc>`_.
+Water enters the entrance tank via the influent pipe and passes through the trash rack towards the `Linear Flow Orifice Meter (LFOM) <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-flow-orifice-meter-lfom>`_. For water sources with large sediment loads, a grit chamber may be installed between the trash rack and LFOM to facilitate additional removal of sand and gravel. Plant operators can remove the pipe stubs blocking the drain on the bottom of each hopper, allowing water to pull settled grit into the waste channel below for disposal. An overflow pipe on the influent side of the trash rack prevents flows larger than the design flow rate from overwhelming the plant. The Chemical Dose Controller (CDC) lever arm and float sit between the trash rack and the LFOM and are used to dose the appropriate amount of chemicals into the plant as described previously in `Chapter 6 <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-chemical-dose-controller-cdc>`_.
 
 
 .. _figure_ET_Diagram_Labeled:

@@ -4,7 +4,7 @@
 Flocculator
 ***********
 
-Design information for the AguaClara flocculator is available in `the Flocculation Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Flocculation/Floc_Design.html>`_
+Design information for the AguaClara flocculator is available in `the Flocculation Design chapter of The Physics of Water Treatment Design <https://aguaclara-reach.github.io/Textbook/Flocculation/Floc_Design.html>`_
 
 
 Purpose and Description

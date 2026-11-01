@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Flocs_Fractals_and_Forces/FFF_Suspensions.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flocs_Fractals_and_Forces/FFF_Suspensions.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -53,7 +53,7 @@ Equation :eq:`density_suspension_2` can be rewritten in terms of the buoyant den
 Fluidized Bed Porosity
 ======================
 
-AguaClara plants have two fluidized beds. The first is the floc filter that forms in the bottom of the clarifiers and the second is the sand in the filters during backwash. The equations describing fluidized beds require multiple steps in the calculations and are easily handled in Python. The following equations are available in a `Colab worksheet <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb>`_ and the equations are from `this paper <https://doi.org/10.1016/j.ijheatmasstransfer.2004.08.008>`_.
+AguaClara plants have two fluidized beds. The first is the floc filter that forms in the bottom of the clarifiers and the second is the sand in the filters during backwash. The equations describing fluidized beds require multiple steps in the calculations and are easily handled in Python. The following equations are available in a `Colab worksheet <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb>`_ and the equations are from `this paper <https://doi.org/10.1016/j.ijheatmasstransfer.2004.08.008>`_.
 
 The hydraulic diameter is needed to account for wall effects for small reactors.
 

@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath("./_ext"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'AguaClara'
-copyright = '2024, AguaClara Reach'
+copyright = '2026, AguaClara Reach'
 author = 'AguaClara Reach'
 release = '0.0.0'
 

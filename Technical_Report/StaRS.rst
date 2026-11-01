@@ -5,7 +5,7 @@ Stacked Rapid Sand Filter
 *************************
 
 
-Design information for the AguaClara Stacked Rapid Sand Filter (StaRS) is available in `the Open Stacked Rapid Sand Filter Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Filtration/Filtration_Design.html>`_
+Design information for the AguaClara Stacked Rapid Sand Filter (StaRS) is available in `the Open Stacked Rapid Sand Filter Design chapter of The Physics of Water Treatment Design <https://aguaclara-reach.github.io/Textbook/Filtration/Filtration_Design.html>`_
 
 
 Purpose and Description

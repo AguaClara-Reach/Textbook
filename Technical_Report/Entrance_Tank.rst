@@ -4,7 +4,7 @@
 Entrance Tank
 *************
 
-Design information for the AguaClara flocculator is available in `the Entrance Tank Design chapter of The Physics of Water Treatment Design <https://aguaclara.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_
+Design information for the AguaClara flocculator is available in `the Entrance Tank Design chapter of The Physics of Water Treatment Design <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_
 
 
 Purpose and Description

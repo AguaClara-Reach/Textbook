@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Chemistry_of_Water_Treatment/Chemistry_Intro.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Chemistry_of_Water_Treatment/Chemistry_Intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

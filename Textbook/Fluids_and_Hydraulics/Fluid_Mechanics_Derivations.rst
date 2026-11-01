@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

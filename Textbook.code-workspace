@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"iis.activeFolder": "Textbook"
+		"iis.activeFolder": "Textbook",
+		"esbonio.preview.synchronizeScroll": "editorWithPreview"
 	}
 }

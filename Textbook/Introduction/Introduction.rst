@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Introduction/Introduction.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Introduction/Introduction.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -302,7 +302,7 @@ Sedimentation is the process of particles ‘falling’ because they have a high
 | :math:`D_{particle}` = particle diameter
 | :math:`\rho` = density. The :math:`p` subscript stands for particle, while :math:`w` stands for water
 
-The code to generate a plot that shows this relationship can be found `here <https://colab.research.google.com/github/AguaClara/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=sEqG7_T5Su2m>`_
+The code to generate a plot that shows this relationship can be found `here <https://colab.research.google.com/github/AguaClara-Reach/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=sEqG7_T5Su2m>`_
 
 
 The terminal velocities of particles in surface waters range over many orders of magnitude especially if you consider that mountain streams can carry large rocks. But removing rocks from water is easily accomplished, gravity will take care of it for us. Gravity is such a great force for separation of particles from water that we would like to use it to remove small particles too. Unfortunately, gravity becomes rather ineffective at separating pathogens and small inorganic particles such as clay. The terminal velocities (:eq:`eq_laminar_terminal_velocity`) of these particles is given in :numref:`figure_Terminal_velocity`.

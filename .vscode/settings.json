@@ -1,8 +1,31 @@
 {
-    "esbonio.sphinx.pythonCommand": ["/Users/imatsuda/.pyenv/versions/3.12.2/bin/python3"],
-    "esbonio.sphinx.buildArguments": [
-        "-M", "html",
-        "Textbook",
-        "${defaultBuildDir}"
-    ]
+  "esbonio.server.pythonCommand": {
+    "command": [
+      "C:\\Users\\monro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    ],
+    "env": {
+      "PYTHONPATH": "C:\\Users\\monro\\.vscode\\extensions\\swyddfa.esbonio-2.1.0\\bundled\\libs"
+    }
+  },
+  "esbonio.sphinx.pythonCommand": {
+    "command": [
+      "C:\\Users\\monro\\.virtualenvs\\Textbook-o_W9HAaq\\Scripts\\python.exe"
+    ],
+    "cwd": "C:\\Users\\monro\\Documents\\GitHub\\Textbook",
+    "env": {
+      "PYTHONPATH": "C:\\Users\\monro\\.vscode\\extensions\\swyddfa.esbonio-2.1.0\\bundled\\libs"
+    }
+  },
+  "esbonio.sphinx.buildArguments": [
+    "-b",
+    "html",
+    "Textbook",
+    "${defaultBuildDir}"
+  ],
+  "esbonio.sphinx.buildTriggers": {
+    "onSave": true,
+    "onChange": false
+  },
+  "esbonio.preview.bind": "127.0.0.1",
+  "esbonio.preview.synchronizeScroll": "editorWithPreview"
 }

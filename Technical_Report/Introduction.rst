@@ -9,7 +9,7 @@ Permission and Licensing Information
 ====================================
 
 
-Copyright © 2024 AguaClara Reach
+Copyright © 2026 AguaClara Reach
 
 Authors:  AguaClara Reach
 

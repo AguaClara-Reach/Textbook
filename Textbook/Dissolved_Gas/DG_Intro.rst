@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Dissolved_Gas/DG_Intro.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Dissolved_Gas/DG_Intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

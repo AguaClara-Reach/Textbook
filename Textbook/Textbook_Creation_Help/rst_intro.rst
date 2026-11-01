@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Textbook_Creation_Help/rst_intro.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Textbook_Creation_Help/rst_intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -74,38 +74,21 @@ To check errors with the PDF generation more quickly, it may be worthwhile to se
 
 Publishing Online
 -----------------
-We use Travis_ to ensure this site will always contain functional builds. To publish online, you need to:
+GitHub Actions builds every pull request with Sphinx and automatically publishes the textbook after changes are merged into ``master``.
 
-#. Always test your build by first :ref:` building RST locally <heading_building_rst_locally>`, and then following the :ref:`testing online <heading_testing_online>` instructions. Once you like how your build looks, follow the steps below to introduce it into the master branch.
-#. Submit a `pull request to master <https://github.com/AguaClara/Textbook/pulls>`_. You'll need to ask for someone else to review your work at this stage- "request reviewers". Every pull request **must** be reviewed by at least one other person.
-#.  Travis_ will build the site using Sphinx_, and if there aren't any errors, Travis will report success to GitHub on the "checks" part of the pull request.
-#. All your requested reviewers must now approve and comment on  your commit before the merge is allowed.
-#. Once the PR passes Travis and is approved by another author, feel free to "merge to master."
-#. To release the master branch, (build the html, pdf, and latex, and upload the pdf to Pages) you'll need to publish a `GitHub release <https://github.com/AguaClara/Textbook/releases/new>`_. Include a `semver <https://semver.org/>`_ version number as the tag (under "Tag: Choose or create"), and a brief description of the updates under "Release Title". Finally, for the description, detail the changes as much as you see fit and when ready, hit "Publish release". Example:
-    * Tag name: 0.1.5
-    * Release title: Filtration section maintenance
-    * Description: Added filter code from aguaclara 0.2.6. Also updated all broken external links.
-#. Travis will rebuild the site and push the html to Pages, and the PDF and LaTeX to GitHub Releases under the tag name.
+#. Test your build by first :ref:`building RST locally <heading_building_rst_locally>`.
+#. Submit a `pull request to master <https://github.com/AguaClara-Reach/Textbook/pulls>`_ and request a reviewer. Every pull request **must** be reviewed by at least one other person.
+#. Wait for the **Test** workflow to complete successfully in the pull request's checks.
+#. After approval, merge the pull request into ``master``. The **Documentation** workflow will build and publish the updated textbook automatically.
 
-.. important:: If your changes to the master branch aren't pushing to gh-pages, then check the status of the `Travis build here <https://travis-ci.org/AguaClara/Textbook>`_.
+.. important:: If the update is not published, check the `Documentation workflow <https://github.com/AguaClara-Reach/Textbook/actions/workflows/build-docs.yml>`_ in GitHub Actions.
 
 
 .. _heading_testing_online:
 
 Testing Online
 --------------
-To test exactly what will be published, we have a test branch. The test branch is built by Travis and contains all the processed html that Travis produces in _build/html. This branch is populated when ANY COMMIT IS PUSHED. Meaning, the last commit to be pushed, if it passes the Travis tests, will be built and the output will be placed in the test branch. Also, if the PDF=True environment variable is triggered for a Travis build, the PDF will also be generated and placed in the test branch. To do this, use the "Trigger Build" option in Travis and put:
-
-.. code::
-
-  script:
-      - PDF=True
-
-`The website output is viewable here <https://rawgit.com/AguaClara/Textbook/test/html/index.html>`_.
-
-Sharing Test Output
---------------------
-if you want to share what your latest branch developments look like without having whoever is viewing it actually have to build it, you can push a commit, and find the `rawgit URL with this site <https://rawgit.com/>`_ by entering the URL of the git file within the test branch that you'd like to share. Furthermore, if you want to point to the commit so that even if someone else pushes, the URL will still point to the code you intend it to, make sure to include the commit SHA within the rawgit URL like so: https://rawgit.com/AguaClara/Textbook/e5693e0485702b95e11d4d6bdf76d07c42fdbf99/html/index.html. That link will never change where it is pointing. To share the PDF output, follow the :ref:`testing online <heading_testing_online>` instructions to build the PDF, and point to the commit with the PDF. Happy testing!
+Open a pull request to run the same Sphinx HTML build used by the publishing workflow. The pull request's **Test** check reports whether the textbook builds successfully. For visual review, build the textbook locally and open ``Textbook/_build/html/index.html`` in a browser.
 
 
 .. _heading_brief_best_practices:
@@ -148,5 +131,4 @@ You'll need to carefully review any page converted with pandoc.
 .. _Sphinx: http://www.sphinx-doc.org/en/master/
 .. _Pandoc: https://pandoc.org/installing.html
 .. _Atom: https://ide.atom.io/
-.. _Travis: https://travis-ci.org/
 .. _Python: https://www.python.org/downloads/

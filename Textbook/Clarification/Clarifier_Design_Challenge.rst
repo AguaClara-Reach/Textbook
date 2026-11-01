@@ -1,7 +1,7 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara.github.io/Textbook/Clarification/Clarifier_Design_Challenge.html" />
+       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Design_Challenge.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -30,7 +30,7 @@ Use the full `Clarifier <https://cad.onshape.com/documents/e05915c533ee7568c4029
 
     #. What do you initially think will happen to the total cost of the 0.8 mm polycarbonate sheets used for plate settlers if you were to increase the spacing of the plate settlers? There are no wrong answers here! The cost info is in the Bill of Materials in the custom tables.
     #. Vary the plate settler spacing from 1 cm to 5 cm and observe the cost of the 0.8 mm polycarbonate sheets. What do you observe and is it what you expected?
-    #. Write a sentence or two to explain what you observed based on the underlying physics of the plate settlers. Remember that it is on the projected area (horizontal area) that particles can settle out. Refer to Equation :eq:`vc_of_vz_plate` (see `textbook <https://aguaclara.github.io/Textbook/Clarification/Clarifier_Derivations.html#equation-vc-of-vz-plate>`_) and also consider how the number of plate settlers changes as you vary the spacing.
+    #. Write a sentence or two to explain what you observed based on the underlying physics of the plate settlers. Remember that it is on the projected area (horizontal area) that particles can settle out. Refer to Equation :eq:`vc_of_vz_plate` (see `textbook <https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Derivations.html#equation-vc-of-vz-plate>`_) and also consider how the number of plate settlers changes as you vary the spacing.
     #. Why does the depth of the clarifier change when the plate settler spacing is changed? Watch the change in design carefully to see exactly which dimensions change.
     #. Reset the plate settler spacing to 2.5 cm. Now play with the plate settler angle. We haven't done any research on this parameter and different manufactures of plate settlers use slightly different angles. How much would the clarifier cost decrease if we decreased the plate settler angle from 60° to 55°?
     #. Reset the plate settler angle to 60 deg. Identify at least 3 changes in the design as you decrease the flow from 12 L/s to 1 L/s.
@@ -91,5 +91,5 @@ Answer the following questions.
 #. What is the plan view area of the entrance into the space between two plate settlers? We will use this to calculate the vertical component of the velocity entering the plate settlers.
 #. What is the vertical velocity entering the plate settlers? You'll need to use continuity to figure this out.
 #. Why is this vertical velocity entering the plate settlers greater than the floc filter upflow velocity in the clarifier in the section where the walls are vertical? You can look at the side view of the clarifier to understand why the water has to speed up when it transitions from the top of the floc filter to the plate settlers.
-#. We will check how close the design is to the specifications that were given initially. What is the capture velocity of these plate settlers (see Equation :eq:`vc_of_vz_plate` or see `textbook <https://aguaclara.github.io/Textbook/Clarification/Clarifier_Derivations.html#equation-vc-of-vz-plate>`_)?
+#. We will check how close the design is to the specifications that were given initially. What is the capture velocity of these plate settlers (see Equation :eq:`vc_of_vz_plate` or see `textbook <https://aguaclara-reach.github.io/Textbook/Clarification/Clarifier_Derivations.html#equation-vc-of-vz-plate>`_)?
 #. Is the calculated capture velocity better than or worse than the design capture velocity?

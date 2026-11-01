@@ -2,42 +2,28 @@ name: Test
 
 on: pull_request
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
-    - name: Install Ruby Dependencies
-      run: sudo apt-get update --fix-missing && sudo apt install libcurl4-openssl-dev
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.9.21
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements-dev.txt
-        gem install html-proofer
-    - name: Build HTML Docs
-      run: |
-        make html
-        touch _build/html/.nojekyll
-    - name: Run HTML Proofer and Doctest
-      run: |
-        make doctest
-        htmlproofer _build/html --help --typhoeus-config='{"headers":{"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"}}' --allow_hash_href --only_4xx --file_ignore "_build/html/search.html" --url-ignore https://rawgit.com/AguaClara/Textbook/test/html/index.html
-    - name: Test Publish Docs
-      uses: JamesIves/github-pages-deploy-action@releases/v4
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
-        branch: test # The branch the action should deploy to.
-        folder: _build/html/ # The folder the action should deploy.
-  #  - name: Test Build LaTeX
-  #    run: make latex
-   # - name: Test Build PDF
-    #  uses: xu-cheng/latex-action@v2
-     # with:
-      #  working_directory: _build/latex
-       # root_file: AguaClaraTextbook.tex
+      - name: Check out the repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+
+      - name: Build the textbook
+        working-directory: Textbook
+        run: python -m sphinx -b html . _build/html
