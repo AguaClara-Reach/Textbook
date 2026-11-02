@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:11
+msgid "Carbonate Reactions, Buffering, and pH"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:13
+msgid "Carbonates provide the majority of the buffering for drinking water as long as the pH is close to neutral. These equations provide a basis to calculate how much base or acid must be added to a natural water to achieve a target pH."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:19
+msgid "Carbonic Acid and Bicarbonate"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:21
+msgid "{H_2}CO_3^{\\star} \\overset {K_1} \\longleftrightarrow {H^+} + HCO_3^-\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:25
+msgid "Where:"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:0
+msgid ":math:`K_1` is the dissociation constant defined below."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:27
+msgid "{K_1} = \\frac{{\\left[ {{H^ + }} \\right]\\left[ {HCO_3^ - } \\right]}}{{\\left[ {{H_2}CO_3^{\\star} } \\right]}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:29
+msgid "Where the [ ] indicates concentration in mole/L. We will use the p function, :math:`p(x)=-log_{10}(x)`, to define the dissociation constant."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:31
+msgid "p{K_1} = 6.3\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:33
+msgid "At the point of equal concentrations of bicarbonate and carbonic acid the dissociation constant, :math:`K_1`, is equal to the hydrogen ion concentration, :math:`H^ +`. Thus we have equal concentrations at :math:`p{K_1} = pH`. This reaction is “centered” at pH = 6.3 and thus there is maximum buffering due to this reaction at pH = 6.3."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:38
+msgid "Bicarbonate and Carbonate"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:40
+msgid "HCO_3^ - \\overset {{K_2}} \\longleftrightarrow {H^ + } + CO_3^{ - 2}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:42
+msgid "{K_2} = \\frac{{\\left[ {{H^ + }} \\right]\\left[ {CO_3^{ - 2}} \\right]}}{{\\left[ {HCO_3^ - } \\right]}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:44
+msgid "p{K_2} = 10.3\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:46
+msgid "Thus the carbonate system also provides buffering around pH 10.3."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:51
+msgid "Total Concentration of Carbonates"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:53
+msgid "The total concentration of carbonate species is given by"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:55
+msgid "{C_T} = \\left[ {{H_2}CO_3^{\\star} } \\right] + \\left[ {HCO_3^ - } \\right] + \\left[ {CO_3^{ - 2}} \\right]\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:57
+msgid "Where: :math:`{C_T}` is the total concentration of carbonates."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:59
+msgid "The total concentration of carbonates, :math:`{C_T}`, is useful because it is conservative (in a closed system) even though the individual species concentrations change as pH changes."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:64
+msgid "Alpha Notation"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:66
+msgid "The alpha notation is used to show the concentration dependence on pH and to make the equations simpler."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:68
+msgid "\\left[ {{H_2}CO_3^{\\star} } \\right] = {\\alpha_0}{C_T}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:70
+msgid "\\left[ {HCO_3^-} \\right] = {\\alpha_1}{C_T}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:72
+msgid "\\left[ {CO_3^{-2}} \\right] = {\\alpha_2}{C_T}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:74
+msgid "The alphas sum to 1 because each :math:`\\alpha` is the fraction of the carbonates corresponding to that species. The alphas are each a function of the proton concentration and the dissociation constants of the carbonate reactions."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:76
+msgid "{\\alpha_{\\text{0}}} = \\frac{1}{{1 + \\frac{{{K_1}}}{{[{H^ + }]}} + \\frac{{{K_1}{K_2}}}{{{{[{H^ + }]}^2}}}}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:78
+msgid "{\\alpha_{\\text{0}}} = \\frac{1}{{1 + \\frac{{{K_1}}}{{[{H^ + }]}}\\left( {1 + \\frac{{{K_2}}}{{[{H^ + }]}}} \\right)}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:80
+msgid "{\\alpha_{\\text{1}}} = \\frac{1}{{\\frac{{[{{\\rm H}^ + }]}}{{{{\\rm K}_1}}} + 1 + \\frac{{{{\\rm K}_2}}}{{[{{\\rm H}^ + }]}}}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:82
+msgid "{\\alpha_{\\text{2}}} = \\frac{1}{{\\frac{{{{[{{\\rm H}^ + }]}^2}}}{{{{\\rm K}_1}{{\\rm K}_2}}} + \\frac{{[{{\\rm H}^ + }]}}{{{{\\rm K}_2}}} + 1}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:84
+msgid "{\\alpha_{\\text{2}}} = \\frac{1}{{1 + \\frac{{[{{\\rm H}^ + }]}}{{{{\\rm K}_2}}}\\left( {1 + \\frac{{[{{\\rm H}^ + }]}}{{{{\\rm K}_1}}}} \\right)}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:89
+msgid "Acid Neutralizing Capacity (ANC) or Alkalinity"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:91
+msgid "Acid neutralizing capacity or alkalinity is the ability of a water sample to react with and neutralize an input of acid. The units of ANC are equivalents (or protons) per liter. Bicarbonate, :math:`HCO_3^-`, can react with one proton, :math:`H^+`, and thus each mole of :math:`HCO_3^-` provides one equivalent per liter of ANC. The other terms in the equation have similar explanations."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:93
+msgid "{\\text{ANC}} = [HCO_3^ - {\\text{] + 2[CO}}_3^{ - 2}{\\text{] + [O}}{{\\text{H}}^{\\text{ - }}}{\\text{] - [}}{{\\text{H}}^{\\text{ + }}}{\\text{]}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:95
+msgid "Note that carbonic acid and dissolved carbon dioxide are not in the ANC equation because they have no ability to neutralize protons."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:97
+msgid "We can write the ANC equation using alpha notation"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:99
+msgid "ANC = {C_T}({\\alpha_1} + 2{\\alpha_2}) + \\frac{{{K_w}}}{{\\left[ {{H^ + }} \\right]}} - \\left[ {{H^ + }} \\right]\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:103
+msgid "For completeness we include acid neutralizing capacity for the case where the system is in equilibrium with atmospheric carbon dioxide, :math:`CO_2`."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:106
+msgid "ANC_{atm\\,equilibrium} = \\frac{{{P{C{O_2}}}{K_H}}}{{{\\alpha_0}}}({\\alpha_1} + 2{\\alpha_2}) + \\frac{{{K_w}}}{{\\left[ {{H^ + }} \\right]}} - \\left[ {{H^ + }} \\right]\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:111
+msgid "pH Adjustment"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:113
+msgid "The final ANC, :math:`ANC_1`, after base addition and aluminum coagulant addition is given by"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:115
+msgid "ANC_1 = ANC_0 + \\Pi_{base}C_B + \\Pi_{Al}C_{Al}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:117
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:129
+msgid "where:"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:118
+msgid ":math:`ANC_0` is the initial acid neutralizing capacity of the water sample."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:119
+msgid ":math:`ANC_1` is the final acid neutralizing capacity of the mixture after the base and aluminum coagulant is added."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:120
+msgid ":math:`C_B` is concentration of base in mole/liter"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:121
+msgid ":math:`\\Pi_{base}` is ANC per mole of base"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:122
+msgid ":math:`C_{Al}` is the concentration of coagulant in mole of aluminum/liter"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:123
+msgid ":math:`\\Pi_{Al}` is ANC per mole of aluminum"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:125
+msgid "The final carbonate concentration is given by"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:127
+msgid "C_{T_1} ={C_{T_0}}+ \\Pi_{CO_3^{-2}}C_B\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:130
+msgid ":math:`C_{T_1}` is the final total carbonate concentration of the mixture after the base is added."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:131
+msgid ":math:`\\Pi_{CO_3^{-2}}` is mole of carbonate per mole of base (0 for :math:`NaOH` and 1 for :math:`Na_2CO_3`)"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:133
+msgid "Substituting these values into the ANC equation we obtain"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:135
+msgid "ANC_0 + \\Pi_{base}C_B + \\Pi_{Al}C_{Al} = ({C_{T_0}}+ \\Pi_{CO_3^{-2}}C_B)({\\alpha_1} + 2{\\alpha_2}) +  \\frac{{{K_w}}}{{\\left[ {{H^ + }} \\right]}} - \\left[ {{H^ + }} \\right]\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:137
+msgid "Now we solve for :math:`C_B`, the concentration of base that must be added to reach a target pH."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:139
+msgid "(\\Pi_{base} -\\Pi_{CO_3^{-2}}({\\alpha_1} + 2{\\alpha_2}) )C_B= {C_{T_0}}({\\alpha_1} + 2{\\alpha_2}) +  \\frac{{{K_w}}}{{\\left[ {{H^ + }} \\right]}} - \\left[ {{H^ + }} \\right] - ANC_0 - \\Pi_{Al}C_{Al}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:141
+msgid " C_B= \\frac{{C_{T_0}}({\\alpha_1} + 2{\\alpha_2}) +  \\frac{{{K_w}}}{{\\left[ {{H^ + }} \\right]}} - \\left[ {{H^ + }} \\right] - ANC_0 - \\Pi_{Al}C_{Al}}{\\Pi_{base} -\\Pi_{CO_3^{-2}}({\\alpha_1} + 2{\\alpha_2})}"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:146
+msgid "Note that the equations above can also be used for the case where acid is added to reduce the pH. In that case :math:`\\Pi_{base}` will have a negative value."
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:148
+msgid "An example using this equation to find the required amount of base addition is given in :ref:`heading_Example_pH_Adjustment`."
+msgstr ""

@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|ACRlogowithname|"
+msgstr "|ACRlogowithname|"
+
+#: ../../AIDE/About/Clarifier.rst
+msgid "ACRlogowithname"
+msgstr "ACRlogowithname"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|textbook|"
+msgstr "|textbook|"
+
+#: ../../AIDE/About/Clarifier.rst
+msgid "textbook"
+msgstr "Libro de texto"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|donate|"
+msgstr "|donate|"
+
+#: ../../AIDE/About/Clarifier.rst
+msgid "donate"
+msgstr "Dona"
+
+#: ../../AIDE/About/Clarifier.rst:6
+msgid "|reportabugbig|"
+msgstr "|reportabugbig|"
+
+#: ../../AIDE/About/Clarifier.rst
+msgid "reportabugbig"
+msgstr "reportabugbig"
+
+#: ../../AIDE/About/Clarifier.rst:12
+msgid "Clarifier Configurable Component"
+msgstr "Componente configurable de Clarifier"
+
+#: ../../AIDE/About/Clarifier.rst:21
+msgid "Clarifier"
+msgstr "Clarificador"
+
+#: ../../AIDE/About/Clarifier.rst:21
+msgid ""
+"The clarifier includes a floc filter that captures small particles and plate"
+" settlers that capture particles that settle faster than the plate settler "
+"capture velocity."
+msgstr ""
+"El clarificador incluye un filtro de flóculos que captura partículas "
+"pequeñas y sedimentadores de placas que capturan partículas que se asientan "
+"más rápido que la velocidad de captura placa sedimentadora ."
+
+#: ../../AIDE/About/Clarifier.rst:31
+msgid "Location of the Clarifier"
+msgstr "Ubicación del clarificador"
+
+#: ../../AIDE/About/Clarifier.rst:31
+msgid ""
+"The clarifier (outlined in red) is attached to the flocculator to create a "
+"compact plant layout."
+msgstr ""
+"El clarificador (delineado en rojo) se conecta al floculador para crear una "
+"planta compacta."
+
+#: ../../AIDE/About/Clarifier.rst:34
+msgid "The Clarifier Features:"
+msgstr "Las características del clarificador:"
+
+#: ../../AIDE/About/Clarifier.rst:36
+msgid ""
+"A mechanism for the operator to dump poorly flocculated water before it "
+"enters the clarifier. This is important to reduce the recovery time when "
+"there is a flocculation failure."
+msgstr ""
+"Un mecanismo para que el operador vacie agua mal floculada antes de que "
+"entre en el clarificador. Esto es importante para reducir el tiempo de "
+"recuperación cuando hay un fallo de floculación."
+
+#: ../../AIDE/About/Clarifier.rst:37
+msgid "A stable floc filter that reduces the clarified water turbidity."
+msgstr "Un filtro de flóculos estable que reduce la agua clarificada la turbidez."
+
+#: ../../AIDE/About/Clarifier.rst:38
+msgid ""
+"Plate settlers cause small flocs to aggregate into large flocs that then act"
+" as filters in the floc filter."
+msgstr ""
+"Los sedimentadores de placas hacen que pequeños flócs se agrupen en grandes "
+"flócs que luego actúan como filtros en el filtro de flóculos."
+
+#: ../../AIDE/About/Clarifier.rst:39
+msgid ""
+"A inlet diffuser and jet reverser that prevents accumulation of sludge that "
+"would tend to become anaerobic and release both dissolved organics (taste "
+"and order issues) and methane bubbles that would carry flocs to the top of "
+"the clarifier."
+msgstr ""
+"Un difusor de entrada y un inversor de chorro que previenen la acumulación "
+"de lodos que tenderían a volverse anaeróbicos y liberarían tanto orgánicos "
+"disueltos (problemas de sabor y orden) como burbujas de metano que llevarían"
+" los flócs a la parte superior del clarificador."
+
+#: ../../AIDE/About/Clarifier.rst:40
+msgid ""
+"A floc hopper that removes the solids without requiring power or moving "
+"mechanical parts."
+msgstr ""
+"Un tolva de lodos que elimina los sólidos sin necesidad de energía ni de "
+"piezas mecánicas móviles."
+
+#: ../../AIDE/About/Clarifier.rst:44
+msgid "Generate New Models of the Clarifier"
+msgstr "Generar nuevos modelos del clarificador"
+
+#: ../../AIDE/About/Clarifier.rst:46
+msgid ""
+"Edit the configurations to create new models of the clarifier. Send us "
+"`feedback to share how you are using the clarifier model, to give us "
+"suggestions for how to make these models easier to use, and to "
+"<https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+"Edita las configuraciones para crear nuevos modelos del clarificador. "
+"Envíanos `feedback para compartir cómo estás usando el modelo del "
+"clarificador, para darnos sugerencias sobre cómo hacer estos modelos más "
+"fáciles de usar y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+
+#: ../../AIDE/About/Clarifier.rst
+msgid "reportabug"
+msgstr "reportabug"
+
+#: ../../AIDE/About/Clarifier.rst:49
+msgid "Clarifier configuration parameters."
+msgstr "Parámetros de configuración del clarificador."
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Flow (L/s)"
+msgstr "Flujo (L/s)"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid ""
+"The maximum flow rate sets the size of the clarifier. Vary it to see how the"
+" dimensions change. Flow rates below 2 L/s create a single clarifier bay and"
+" use a different inlet/outlet system."
+msgstr ""
+"El máximo caudal determina el tamaño del clarificador. Varía para ver cómo "
+"cambian las dimensiones. Caudales inferiores a 2 L/s crean una única bahía "
+"de clarificador y usan un sistema de entrada/salida diferente."
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr "Temperatura mínima (°C)"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "The temperature influences the design of the inlet manifold."
+msgstr "La temperatura influye en el diseño de la manifold de entrada."
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Floc filter velocity (mm/s)"
+msgstr "filtro de flóculos velocidad (mm/s)"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Upflow velocity in the vertical wall section of the floc filter."
+msgstr ""
+"Velocidad de flujo ascendente en la sección vertical de la pared del filtro "
+"de flóculos."
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Plate settler capture velocity (mm/s)"
+msgstr "placa sedimentadora velocidad de captura (mm/s)"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid ""
+"The capture velocity for removal of grit. The clarifier will capture grit "
+"that has a terminal velocity faster than this capture velocity. This "
+"determines the plan view area of the hoppers in the clarifier."
+msgstr ""
+"La velocidad de captura para la eliminación de la grana. El clarificador "
+"capturará la grana que tenga una velocidad terminal superior a esta "
+"velocidad de captura. Esto determina el área de vista en planta de las "
+"tolvas en el clarificador."
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Maximum inlet velocity gradient (1/s)"
+msgstr "Gradiente máximo de velocidad de entrada (1/s)"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid ""
+"Controls breakup of flocs entering the clarifier. The inlet manifold "
+"diameter increases and the diffuser openings increase in width for lower "
+"values of the velocity gradient."
+msgstr ""
+"Controla la ruptura de los flócs que entran en el clarificador. El diámetro "
+"de la manifold de entrada aumenta y las aberturas del difusor aumentan en "
+"ancho para valores más bajos del gradiente de velocidad."
+
+#: ../../AIDE/About/Clarifier.rst:65
+msgid ""
+"Additional information is available in the chapter on "
+":ref:`title_Clarifier_Design`."
+msgstr ""
+"Información adicional está disponible en el capítulo sobre "
+":ref:`title_Clarifier_Design`."
+

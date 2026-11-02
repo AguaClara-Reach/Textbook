@@ -1,0 +1,709 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:11
+msgid "Flocculation Model Solution"
+msgstr "Solución del modelo de floculación"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:13
+msgid ""
+"`Remember to run this code block prior to reviewing the solutions to ensure "
+"all functions are imported <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-XnD0ssGJ93DsXn#scrollTo=i0Xa-"
+"13Uyu33&line=7&uniqifier=1>`_"
+msgstr ""
+"`Recuerda ejecutar este bloque de código antes de revisar las soluciones "
+"para asegurarte de que todas las funciones se importan "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=i0Xa-13Uyu33&line=7&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:15
+msgid ""
+"Please note that certain functions were removed from the aguaclara package "
+"as the underlying equations are under suspicison. As a result, this code for"
+" this section cannot be run in its entirety and some sections have been "
+"commented out."
+msgstr ""
+"Tenga en cuenta que ciertas funciones fueron eliminadas del paquete "
+"aguaclara ya que las ecuaciones subyacentes están bajo sospecha. Como "
+"resultado, este código para esta sección no puede ejecutarse íntegramente y "
+"algunas secciones han sido comentadas."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:17
+msgid ""
+"Many of the fractal floc equations are available in the ``floc_model.py`` "
+"file in the aguaclara repository. Look through ```floc_model.py`` "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/floc_model.py>`_"
+" within the aguaclara repository. The following constants are defined in "
+"that file. NTU has been defined as an approximate empirical relationship "
+"between the concentration of kaolin clay and the turbidity, such that 1 NTU "
+"is equivalent to 1.7 mg/L. The diameter of a primary clay particle is "
+"assumed to be 7 micrometers. The fractal dimension for flocs is defined as "
+"``DIM_FRACTAL`` and is equal to 2.1. We are using PACl as a coagulant for "
+"this analysis, so you shall call ``fm.PACl``, when a function within "
+"``floc_model.py`` requires ‘coag’ as an input."
+msgstr ""
+"Muchas de las ecuaciones fractales de flóculo están disponibles en el "
+"``floc_model.py`` file in the aguaclara repository. Look through "
+"```floc_model.py`` "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/floc_model.py>`_"
+" within the aguaclara repository. The following constants are defined in "
+"that file. NTU has been defined as an approximate empirical relationship "
+"between the concentration of kaolin clay and the turbidity, such that 1 NTU "
+"is equivalent to 1.7 mg/L. The diameter of a primary clay particle is "
+"assumed to be 7 micrometers. The fractal dimension for flocs is defined as "
+"``DIM_FRACTAL`` and is equal to 2.1. We are using PACl as a coagulant for "
+"this analysis, so you shall call ``fm.PACl``, when a function within "
+"``floc_model.py`` requiere 'coag' como entrada."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:19
+msgid ""
+"Whenever possible, use variables defined within ``floc_model.py`` instead of"
+" redefining them. Relevant variables defined in ``floc_model.py`` include:"
+msgstr ""
+"Siempre que sea posible, utiliza variables definidas dentro de "
+"``floc_model.py`` en lugar de redefinirlas. Las variables relevantes "
+"definidas en ``floc_model.py`` incluyen:"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:21
+msgid "``DIM_FRACTAL`` with an estimated value of 2.1."
+msgstr "``DIM_FRACTAL`` con un valor estimado de 2,1."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:22
+msgid "``PACl``"
+msgstr "``PACl``"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:23
+msgid "``Clay``"
+msgstr "``Clay``"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:26
+msgid ""
+"**1) Estimate the diameter** of the flocs that interact with the tip of the "
+"impeller of the mechanical flocculator analyzed above. We don’t yet have a "
+"good model to predict maximum floc size as a function of velocity gradient "
+"or energy dissipation rate. We have a rough estimate, "
+"``fm.diam_floc_max(EDRmax)`` based on a small amount of data."
+msgstr ""
+"**1) Estimar el diámetro** de los flóculos que interactúan con la punta del "
+"impulsor del floculador mecánico analizado anteriormente. Aún no disponemos "
+"de un buen modelo para predecir el tamaño máximo del flóculo en función del "
+"gradiente de velocidad o la tasa de disipación de energía. Tenemos una "
+"estimación aproximada, ``fm.diam_floc_max(EDRmax)`` basada en una pequeña "
+"cantidad de datos."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:28
+msgid ""
+"`Estimate the diameter <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wg4zNSOiyyrO&line=9&uniqifier=1>`_"
+msgstr ""
+"`Estima el diámetro <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wg4zNSOiyyrO&line=9&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:30
+msgid "The diameter of the flocs that interact with the impeller is 127 um."
+msgstr "El diámetro de los flócs que interactúan con el impulsor es de 127 um."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:33
+msgid ""
+"**2) Estimate the terminal velocity** in mm/s of the flocs that interact "
+"with the tip of the impeller of the mechanical flocculator analyzed above. "
+"Use the function ``fm.vel_term_floc``. You may assume that the flocs were "
+"made from a particle suspension that had 1.5 mg/L of aluminum and 100 NTU of"
+" clay."
+msgstr ""
+"**2) Estimar la velocidad terminal** en mm/s de los flócs que interactúan "
+"con la punta del impulsor del floculador mecánico analizado arriba. Utiliza "
+"la función ``fm.vel_term_floc``. Puedes suponer que los flóclos se "
+"fabricaron a partir de una suspensión de partículas que tenía 1,5 mg/L de "
+"aluminio y 100 NTU de arcilla."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:35
+msgid "Note: AguaClara has defined the unit NTU as ``u.NTU``."
+msgstr "Nota: AguaClara ha definido la unidad NTU como ``u.NTU``."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:37
+msgid ""
+"`Estimate the terminal velocity <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=XyIJbz6O1W-P&line=2&uniqifier=1>`_"
+msgstr ""
+"`Estimar la velocidad terminal <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=XyIJbz6O1W-P&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:39
+msgid ""
+"The terminal velocity of flocs that interact with the impeller tip is "
+"estimated to be 0.738 mm/s"
+msgstr ""
+"Se estima que la velocidad terminal de los flócs que interactúan con la "
+"punta del impulsor es de 0,738 mm/s"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:42
+msgid ""
+"**3) Would these flocs be captured** by a conventional design for a "
+"clarifier `(10 State Standards) "
+"<http://10statesstandards.com/waterrev2012.pdf>`__ with a capture velocity "
+"of 1.2 m/hr? The capture velocity is a property of the clarifier. If the "
+"floc settles faster than the capture velocity, then theoretically the floc "
+"will be captured by the clarifier."
+msgstr ""
+"**3) ¿Estos flócs serían capturados** por un diseño convencional para un "
+"`clarificador (10 Normas Estatales) "
+"<http://10statesstandards.com/waterrev2012.pdf>`__ con una velocidad de "
+"captura de 1,2 m/h? La velocidad de captura es una propiedad del "
+"clarificador. Si el flóculum se asienta más rápido que la velocidad de "
+"captura, entonces teóricamente el flóculum será capturado por el "
+"clarificador."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:44
+msgid ""
+"`Determine if the flocs will be captured "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=3LNMr5OL2Jlo&line=2&uniqifier=1>`_"
+msgstr ""
+"`Determinar si los flóculos serán capturados "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=3LNMr5OL2Jlo&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:46
+msgid ""
+"The 10 State Standards capture velocity is 0.333 mm/s The 10 State Standards"
+" clarifier would capture the flocs that are able to survive the energy "
+"dissipation rate at the tip of the propeller."
+msgstr ""
+"La velocidad de captura de los 10 Estándares Estatales es de 0,333 mm/s. El "
+"clarificador de los 10 Estándares Estatales capturaría los flóculos capaces "
+"de sobrevivir a la tasa de disipación de energía en la punta de la hélice."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:49
+msgid ""
+"These flocs would be removed easily in an AguaClara clarifier (capture "
+"velocity of 0.12 mm/s). However, our use of the empirical equation to "
+"predict the size of these flocs is questionable because we are extrapolating"
+" way beyond the original data. We need more experiments to characterize the "
+"size of flocs as a function of the velocity gradient."
+msgstr ""
+"Estos flócs se eliminarían fácilmente en un clarificador AguaClara "
+"(velocidad de captura de 0,12 mm/s). Sin embargo, nuestro uso de la ecuación"
+" empírica para predecir el tamaño de estos flócs es cuestionable porque "
+"estamos extrapolando mucho más allá de los datos originales. Necesitamos más"
+" experimentos para caracterizar el tamaño de los flóculos en función del "
+"gradiente de velocidad."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:51
+msgid ""
+"**4) Estimate the average distance** between primary clay particles at the "
+"beginning and end of flocculation given an initial turbidity of 100 NTU and "
+"a target effluent unflocculated clay concentration at the end of "
+"flocculation of less than 1 NTU. Of course, the clay concentration is "
+"actually constant in flocculation since particles are not actually being "
+"removed. But here we are referring to the primary clay particles that have "
+"escaped aggregation and thus are still unattached."
+msgstr ""
+"**4) Estimar la distancia media** entre las partículas primarias de arcilla "
+"al inicio y al final de la floculación dada una turbidez inicial de 100 NTU "
+"y una concentración objetivo de arcilla no floculada en el efluente al final"
+" de la floculación inferior a 1 NTU. Por supuesto, la concentración de "
+"arcilla es en realidad constante en la floculación, ya que las partículas no"
+" se están eliminando. Pero aquí nos referimos a las partículas primarias de "
+"arcilla que han escapado de la agregación y por tanto siguen sin adherirse."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:53
+msgid ""
+"You can do this by figuring it out empirically (brownie points!) or by "
+"looking for a function that finds average distance between particles."
+msgstr ""
+"Puedes hacerlo averiguándolo empíricamente (¡puntos de recompensa!) o "
+"buscando una función que determine la distancia media entre partículas."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:55
+msgid ""
+"A little extra to think about (not necessary to answer): The AguaClara "
+"floccuation model assumes that primary clay particles mostly attach to other"
+" primary clay particles and not to larger flocs (aggregates of clay "
+"particles). Can you think of why this is?"
+msgstr ""
+"Un poco más para reflexionar (no es necesario responder): el modelo de "
+"flocuación de AguaClara asume que las partículas primarias de arcilla se "
+"adhieren principalmente a otras partículas primarias y no a flócs más "
+"grandes (agregados de partículas de arcilla). ¿Se te ocurre por qué ocurre "
+"esto?"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:57
+msgid ""
+"`Find the distance between clay particles "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=uChIRlm63hvE&line=5&uniqifier=1>`_"
+msgstr ""
+"`Encuentra la distancia entre las partículas de arcilla "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=uChIRlm63hvE&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:59
+msgid ""
+"The average distance between clay particles at 100 NTU is 0.141 mm The "
+"average distance between clay particles at 1 NTU is 0.654 mm"
+msgstr ""
+"La distancia media entre partículas de arcilla a 100 NTU es de 0,141 mm. La "
+"distancia media entre partículas de arcilla a 1 NTU es de 0,654 mm"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:62
+msgid ""
+"**5) What is the inner viscous length scale** in the mechanical flocculator "
+"at the maximum energy dissipation rate? Given that this is a very high "
+"energy dissipation rate for flocculation, it corresponds to a very small "
+"inner viscous length scale. This means that eddies are able to survive down "
+"to a small size before viscosity damps their motion. If the separation "
+"distance between clay particles that haven’t turned into flocs is less than "
+"this inner viscous scale, then it is reasonable to assume that all "
+"flocculation is dominated by viscosity. The function within "
+"``floc_model.py`` that does this is confusingly named ``lamba_vel()``."
+msgstr ""
+"**5) ¿Cuál es la escala de longitud viscosa interna** en el floculador "
+"mecánico a la tasa máxima de disipación de energía? Dado que esta es una "
+"tasa de disipación de energía muy alta para la floculación, corresponde a "
+"una escala de longitud viscosa interna muy pequeña. Esto significa que los "
+"remolinos pueden sobrevivir hasta un tamaño pequeño antes de que la "
+"viscosidad amortigue su movimiento. Si la distancia de separación entre "
+"partículas de arcilla que no se han convertido en floques es menor que esta "
+"escala viscosa interna, entonces es razonable suponer que toda floculación "
+"está dominada por la viscosidad. La función dentro de ``floc_model.py`` que "
+"hace esto se llama confusamente ``lamba_vel()``."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:65
+msgid ""
+"`Calculatethe inner viscous length scale "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lyE0jgmi3l65&line=1&uniqifier=1>`_"
+msgstr ""
+"`Calcular la escala interior de longitud viscosa "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lyE0jgmi3l65&line=1&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:67
+msgid "The inner viscous length scale is 2.39 mm"
+msgstr "La escala interior de longitud viscosa es de 2,39 mm"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:70
+msgid ""
+"**6) Below is a graph** showing the inner viscous length scale that divides "
+"flows that are dominated by inertia (eddies) from flows where viscosity is "
+"significant. **Add the data point** representing the maximum energy "
+"dissipation rate vs the maximum clay separation distance at the end of "
+"flocculation for the mechanical flocculator you have been designing. `Colab "
+"worksheet plotting the maximum energy dissipation rate for the mechanical "
+"flocculator <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lyE0jgmi3l65&line=1&uniqifier=1>`_"
+msgstr ""
+"**6) A continuación hay un gráfico** que muestra la escala interior de "
+"longitud viscosa que divide los flujos dominados por la inercia (remolinos) "
+"de los flujos donde la viscosidad es significativa. **Añade los datos** que "
+"representan la tasa máxima de disipación de energía frente a la distancia "
+"máxima de separación de arcilla al final de la floculación para el "
+"floculador mecánico que has estado diseñando. `Hoja de trabajo de Colab que "
+"representa la tasa máxima de disipación de energía para el floculador "
+"mecánico <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lyE0jgmi3l65&line=1&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:75
+msgid "0.6541789493547243 millimeter"
+msgstr "0,6541789493547243 milímetros"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:74
+msgid "422.57902694348155 milliwatt / kilogram"
+msgstr "422,57902694348155 milivatios / kilogramo"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:77
+msgid ""
+"**7) According to the plot** and analysis above, are the collisions between "
+"clay particles at a concentration of 1 NTU dominated by inertia or by "
+"viscosity? Explain why!"
+msgstr ""
+"**7) Según el gráfico** y el análisis anteriores, ¿las colisiones entre "
+"partículas de arcilla a una concentración de 1 NTU están dominadas por la "
+"inercia o por la viscosidad? ¡Explica por qué!"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:79
+msgid ""
+"The final spacing between clay particles is still smaller than the inner "
+"viscous length scale at which eddies are damped by viscosity. This suggests "
+"that all collisions in flocculation are dominated by viscosity."
+msgstr ""
+"El espaciamiento final entre partículas de arcilla sigue siendo menor que la"
+" escala interior de longitud viscosa en la que los remolinos se amortiguan "
+"por la viscosidad. Esto sugiere que todas las colisiones en floculación "
+"están dominadas por la viscosidad."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:83
+msgid "Real-World Considerations of Flocculation"
+msgstr "Consideraciones reales sobre la floculación"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:85
+msgid ""
+"Now that you have an augmented understanding of flocculation theory, we can "
+"consider a few ways in which the theory applies to real-world flocculators."
+msgstr ""
+"Ahora que tienes una comprensión ampliada de la teoría de la floculación, "
+"podemos considerar algunas formas en que la teoría se aplica a floculadores "
+"del mundo real."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:87
+msgid ""
+"In this section, there are no calculations for you to do or code for you to "
+"write - everything has been provided for you. This was done to shorten this "
+"design challenge while still detailing relevant and important information."
+msgstr ""
+"En esta sección, no hay cálculos que hacer ni código que escribir: todo se "
+"ha proporcionado para ti. Esto se hizo para acortar este reto de diseño "
+"mientras se detalla la información relevante e importante."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:89
+msgid ""
+"**There are two conceptual questions for you to answer at the end of the "
+"section.** Read through and focus on understanding the concepts before you "
+"try to answer the questions."
+msgstr ""
+"**Hay dos preguntas conceptuales que debes responder al final de la "
+"sección.** Lee y céntrate en entender los conceptos antes de intentar "
+"responder a las preguntas."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:92
+msgid "Coagulant Distribution in a Reactor"
+msgstr "Distribución de coagulantes en un reactor"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:94
+msgid ""
+"The flocculation model accounts for loss of coagulant nanoparticles to the "
+"reactor walls. The loss of coagulant nanoparticles is assumed to scale with "
+"the area of the flocculator walls divided by the total area of clay and "
+"flocculator walls. This loss is significant for low turbidity and small "
+"scale flocculators, such as the 1 liter per second flocculator AguaClara "
+"recently designed."
+msgstr ""
+"El modelo de floculación tiene en cuenta la pérdida de nanopartículas de "
+"coagulante en las paredes del reactor. Se asume que la pérdida de "
+"nanopartículas de coagulante escala con el área de las paredes de los "
+"floculadores dividida por el área total de arcilla y paredes de "
+"floculadores. Esta pérdida es significativa para floculadores de baja "
+"turbidez y a pequeña escala, como el floculador de 1 litro por segundo que "
+"AguaClara diseñó recientemente."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:96
+msgid ""
+"We will consider a flocculator built out of pipe, not one contained within a"
+" rectangular reactor. The ``diam_tube`` parameter is the flocculator "
+"diameter and is needed to estimate how much of the coagulant is lost to the "
+"walls of the flocculator. We will assume the flocculator tube is for the 1 "
+"L/s plant and has a diameter of 7.5 cm"
+msgstr ""
+"Consideraremos un floculador construido a partir de una tubería, no uno "
+"contenido dentro de un reactor rectangular. El parámetro ``diam_tube`` es el"
+" diámetro del floculador y es necesario para estimar cuánto coagulante se "
+"pierde hacia las paredes del floculador. Asumiremos que el tubo floculador "
+"es para la planta de 1 L/s y tiene un diámetro de 7,5 cm"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:98
+msgid ""
+"We will evaluate the situation where the turbidity is 10 NTU and the "
+"coagulant dose is 1 mg/L of aluminum. `The Colab worksheet calculates the "
+"loss of nanoparticles to the flocculator walls and the fractional clay "
+"particle coverage by nanoparticles : "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=5l-cWloClfxa&line=10&uniqifier=1>`_"
+msgstr ""
+"Evaluaremos la situación en la que la turbidez es de 10 NTU y la dosis de "
+"coagulante es de 1 mg/L de aluminio. `La hoja de cálculo de Colab calcula la"
+" pérdida de nanopartículas en las paredes floculadoras y la cobertura "
+"fraccionada de partículas de arcilla por nanopartículas : "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=5l-cWloClfxa&line=10&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:101
+msgid "Time Scale of Flocculation"
+msgstr "Escala temporal de la floculación"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:103
+msgid ""
+"Now we want to estimate the average time required for an initial successful "
+"collision between two primary clay particles that are partially coated with "
+"coagulant nanoclusters. Note that for the first collision, the current floc "
+"size is the same as the clay size. We will use the average energy "
+"dissipation rate for the mechanical flocculator as found above."
+msgstr ""
+"Ahora queremos estimar el tiempo medio necesario para una colisión inicial "
+"exitosa entre dos partículas primarias de arcilla parcialmente recubiertas "
+"con nanoclústeres coagulantes. Nótese que para la primera colisión, el "
+"tamaño actual del flóculo es el mismo que el tamaño de arcilla. Usaremos la "
+"tasa media de disipación de energía para el floculador mecánico como se ha "
+"visto arriba."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:105
+msgid ""
+"The `time required for the first collision is calculated in this Colab "
+"worksheet <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=7eHXqjjDljUQ&line=3&uniqifier=1>`_"
+msgstr ""
+"El tiempo `requerido para la primera colisión se calcula en esta hoja de "
+"cálculo de Colab <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=7eHXqjjDljUQ&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:107
+msgid ""
+"This collision time is quite fast and is the origin of the question, “why "
+"does flocculation require 30 minutes?” as mandated in the Ten State "
+"Standards."
+msgstr ""
+"Este tiempo de colisión es bastante rápido y es el origen de la pregunta: "
+"\"¿por qué la floculación requiere 30 minutos?\" tal y como exige los Diez "
+"Estándares Estatales."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:110
+msgid "AguaClara Flocculation Model"
+msgstr "Modelo de floculación de AguaClara"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:112
+msgid ""
+"We will now briefly consider an AguaClara flocculator design with an average"
+" energy dissipation rate of approximately 11 mW/kg and a residence time of "
+"8.1 minutes. The design temperature is 15 degC."
+msgstr ""
+"Ahora consideraremos brevemente un diseño de floculador AguaClara con una "
+"tasa media de disipación de energía de aproximadamente 11 mW/kg y un tiempo "
+"de residencia de 8,1 minutos. La temperatura de diseño es de 15 ºC."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:114
+msgid ""
+"`Colab worksheet calculation for the Gt value of this flocculator. "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=LOhI18urlnbE&line=4&uniqifier=1>`_"
+msgstr ""
+"`cálculo de la hoja de cálculo de Colab para el valor Gt de este floculador."
+" <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=LOhI18urlnbE&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:117
+msgid "Coagulant Coverage Fraction of a Particle"
+msgstr "Fracción de cobertura coagulante de una partícula"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:119
+msgid ""
+"This section solves the integrated flocculation model for :math:`\\Gamma`. "
+"We simplify the model by recognizing that the spacing between particles at "
+"the end of the flocculation process is much greater than the initial "
+"particle spacing. This means that the raw water turbidity drops out of the "
+"equation. The value of the rate constant for collisions is k = 0.24. We "
+"start with the equation below:"
+msgstr ""
+"Esta sección resuelve el modelo integrado de floculación para "
+":math:`\\Gamma`. Simplificamos el modelo reconociendo que el espaciado entre"
+" partículas al final del proceso de floculación es mucho mayor que el "
+"espaciado inicial de partículas. Esto significa que la agua cruda turbidez "
+"desaparece de la ecuación. El valor de la constante de tasa para colisiones "
+"es k = 0,24. Comenzamos con la siguiente ecuación:"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:121
+msgid ""
+"\\Gamma = \\frac{3}{2}\\cdot \\frac{\\Lambda^2 }{\\mathit{k} \\pi d_{p}^2 Gt"
+" }\n"
+"\n"
+msgstr ""
+
+#: ../../Flocculation/Floc_Model_Solution.rst:123
+msgid ""
+"We then estimate the required coagulant coverage of clay, :math:`\\Gamma`, "
+"for the AguaClara flocculator to achieve a 2 NTU settled water turbidity "
+"when starting with a raw water that is 50 NTU."
+msgstr ""
+"Luego estimamos la cobertura coagulante necesaria de arcilla, "
+":math:`\\Gamma`, para que el floculador AguaClara logre una turbidez de 2 "
+"NTU agua sedimentada al partir de un agua cruda que sea 50 NTU."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:125
+msgid ""
+"Note that the specified flocculation model applies to both hydraulic and "
+"mechanical flocculators."
+msgstr ""
+"Cabe señalar que el modelo de floculación especificado se aplica tanto a "
+"floculadores hidráulicos como mecánicos."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:127
+msgid ""
+"`Find the Gamma value <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=jHjw4X5Flr1C&line=9&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el valor Gamma <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=jHjw4X5Flr1C&line=9&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:130
+msgid "Residence Time and Coagulant Coverage"
+msgstr "Tiempo de residencia y cobertura de coagulantes"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:132
+msgid ""
+"If you doubled the residence time of the flocculator, the required coagulant"
+" coverage of clay changes according to the model. By doubling the residence "
+"time, the required coagulant coverage is reduced by a factor of 2."
+msgstr ""
+"Si duplicas el tiempo de residencia del floculador, la cobertura coagulante "
+"requerida de arcilla cambia según el modelo. Al duplicar el tiempo de "
+"permanencia, la cobertura coagulante requerida se reduce por un factor de 2."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:135
+msgid ""
+"Modeling Flocculation in the Presence of Humic Acid, With pC\\* as the "
+"Performance Metric"
+msgstr ""
+"Modelado de la floculación en presencia de ácido húmico, con pC\\* como "
+"métrica de rendimiento"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:137
+msgid ""
+"The flocculation model predicts the settled water turbidity given the "
+"composition of the raw water, the flocculator characteristics, and a fitting"
+" parameter that must be a function of the clarifier characteristics. This "
+"fitting parameter is k, which is the same as the rate constant for "
+"collisions described above. The model is far from complete - it doesn’t yet "
+"describe the effects of floc filters. Below we have created a plot showing "
+"model predictions for a range of coagulant and humic acid (dissolved organic"
+" matter) concentrations. The plot uses our approximation for pC\\* described"
+" in class and shown below:"
+msgstr ""
+"El modelo de floculación predice la agua sedimentada turbidez dada la "
+"composición de la agua cruda, las características del floculador y un "
+"parámetro de ajuste que debe ser función de las características del "
+"clarificador. Este parámetro de ajuste es k, que es el mismo que la "
+"constante de velocidad para colisiones descrita anteriormente. El modelo "
+"está lejos de ser completo: aún no describe los efectos de los filtros "
+"flóclingos. A continuación hemos creado un gráfico que muestra predicciones "
+"del modelo para un rango de concentraciones de coagulantes y ácidos húmicos "
+"(materia orgánica disuelta). El gráfico utiliza nuestra aproximación para "
+"pC\\* descrita en clase y mostrada a continuación:"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:139
+msgid ""
+"  pC^*=\\frac{3}{2}log{(\\frac{2}{3}\\pi k "
+"\\frac{d_p^{2}}{\\Lambda_0^{2}}Gt\\alpha + 1)}\n"
+"\n"
+"`Make this graph! <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=q_ISgbYcl161&line=6&uniqifier=1>`_"
+msgstr ""
+
+#: ../../Flocculation/Floc_Model_Solution.rst:145
+msgid ""
+"There is a lot to learn from this graph! It appears that for any given "
+"coagulant dose, humic acid concentration significantly affects pC*. "
+"Additionally, notice the diminishing returns of adding more coagulant. This "
+"effect appears to be independent of humic acid concentration (see the red "
+"curve)."
+msgstr ""
+"¡Hay mucho que aprender de este gráfico! Parece que para cualquier dosis de "
+"coagulante dado, la concentración de ácido húmico afecta significativamente "
+"a pC*. Además, observa los rendimientos decrecientes al añadir más "
+"coagulante. Este efecto parece ser independiente de la concentración de "
+"ácido húmico (véase la curva roja)."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:148
+msgid ""
+"Modeling Flocculation in the Presence of Humic Acid, with Settled Water "
+"Turbidity as the Performance Metric"
+msgstr ""
+"Modelado de la floculación en presencia de ácido húmico, con agua "
+"sedimentada turbidez como métrica de rendimiento"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:150
+msgid ""
+"`We will now display a similar plot <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Vi5F6XhAl6oA&line=4&uniqifier=1>`_ which shows "
+"settled water turbidity instead of pC*. Our initial turbidity is 10 NTU, and"
+" we will four curves for separate humic acid concentrations."
+msgstr ""
+"`Ahora mostraremos un gráfico similar "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Vi5F6XhAl6oA&line=4&uniqifier=1>`_ que muestra agua "
+"sedimentada turbidez en lugar de pC*. Nuestra turbidez inicial es 10 NTU, y "
+"haremos cuatro curvas para concentraciones separadas de ácido húmico."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:153
+msgid ""
+"Looking at the interactions between coagulant, clay, and humic acid from "
+"this perspective yields even more fun discoveries! For increasing humic acid"
+" concentration, more coagulant is required to even begin the process of "
+"flocculation."
+msgstr ""
+"Observar las interacciones entre coagulante, arcilla y ácido húmico desde "
+"esta perspectiva ofrece descubrimientos aún más interesantes. Para aumentar "
+"la concentración de ácido húmico, se requiere más coagulante incluso para "
+"comenzar el proceso de floculación."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:155
+msgid ""
+"**8) Why does the AguaClara flocculation model** predict that adding 1 mg/L "
+"of aluminum has no effect on turbidity when the humic acid concentration is "
+"20 mg/L?"
+msgstr ""
+"**8) ¿Por qué el modelo de floculación de AguaClara** predice que añadir 1 "
+"mg/L de aluminio no afecta a la turbidez cuando la concentración de ácido "
+"húmico es de 20 mg/L?"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:158
+msgid ""
+"At low concentrations of coagulant every coagulant nanoparticle surface is "
+"completely coated with humic acid and thus they aren’t sticky at all."
+msgstr ""
+"A bajas concentraciones de coagulante, cada superficie de nanopartícula "
+"coagulante está completamente recubierta de ácido húmico y, por tanto, no "
+"son pegajosas en absoluto."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:161
+msgid ""
+"**9) It is tempting to assume** that all the coagulant dosed gets attached "
+"to clay particles. However, if a plant operator were to make this "
+"assumption, their plant would produce low-quality water."
+msgstr ""
+"**9) Es tentador suponer** que todo el coagulante dosificado se adhiere a "
+"partículas de arcilla. Sin embargo, si un operador de planta hiciera esta "
+"suposición, su planta produciría agua de baja calidad."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:163
+msgid "Identify and explain two significant reasons as to why this assumption fails."
+msgstr ""
+"Identifica y explica dos razones importantes por las que esta suposición "
+"falla."
+
+#: ../../Flocculation/Floc_Model_Solution.rst:166
+msgid "Coagulant is lost to the walls of the reactors"
+msgstr "El coagulante se pierde en las paredes de los reactores"
+
+#: ../../Flocculation/Floc_Model_Solution.rst:167
+msgid "Coagulant is lost to humic acid (Students need to write more than this)"
+msgstr ""
+"El coagulante se pierde por el ácido húmico (los estudiantes necesitan "
+"escribir más que esto)"
+

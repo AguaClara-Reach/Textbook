@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:11
+msgid "Entrance Tank Design Challenge"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:13
+msgid "AguaClara Reach is creating the AguaClara Infrastructure Design Engine (AIDE) so that they can provide customized designs of drinking water treatment plants for implementation partners. Conventional design approaches would take months of engineering time to create a water treatment plant design for a community. AIDE makes it possible to change the design inputs and generate a new design in a matter of minutes (or seconds). AIDE makes it possible to mass produce customized designs."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:15
+msgid "This design challenge is to create a slightly simplified version of an `entrance tank <https://cad.onshape.com/documents/4c47a124da3abec33e0ce813/w/3955cd0d266daedd3eabf165/e/bcf152c5be02d9ab5b2b5285?renderMode=0&uiState=63bed8e9b21e0705e88efcae>`_ for a water treatment plant."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:18
+msgid "Assignment Logistics"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:20
+msgid "The ideal learning method is to do all of the steps of this assignment yourself while working with your teammates to help each other quickly learn the steps."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:21
+msgid "Collaborate with your classmates and TA to learn and complete all of these steps efficiently"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:22
+msgid "Work together to polish one of the documents that you and your teammates have created for submission."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:25
+msgid "You will learn how to:"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:27
+msgid "perform a series of design steps in FeatureScript"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:28
+msgid "connect design results to a 3-D geometric model"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:29
+msgid "use existing functions to connect client needs to the design of a system"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:30
+msgid "enter params that set minimum, default, and maximum values for inputs"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:31
+msgid "access AguaClara functions to calculate the diameter of a pipe"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:32
+msgid "see the results of your calculations in the variable table and in a 3-D model of the entrance tank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:35
+msgid "SetUp"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:37
+msgid "Set up your Onshape workspace so that you have access to the following custom features created by AguaClara."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:46
+msgid "Custom variable table."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:46
+msgid "Add custom features to the feature menu."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:48
+msgid "Copy the document path below and paste it into the search box for adding custom features to quickly find each feature."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:50
+msgid "Civil Tank: inside Core Parts open up tanks and select Civil Tank (cad.onshape.com/documents/c0af0d6b5703e7a8fb53f53f)"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:51
+msgid "Overflow Pipe: select overflow.fs and then select Overflow Pipe (cad.onshape.com/documents/50136809eb4dab5feb113036)"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:52
+msgid "Embed: select Embed.fs (cad.onshape.com/documents/c35baaea9a3ba0044a66bc94)"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:54
+msgid "When you have completed these steps all of these features should show up in your custom feature menu."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:56
+msgid "|civilTank|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:0
+msgid "civilTank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:57
+msgid "|overflowPipe|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:0
+msgid "overflowPipe"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:58
+msgid "|EMBED|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:0
+msgid "EMBED"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:61
+msgid "AIDE Feature Studios"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:63
+msgid "The Feature Studio is where we can do the calculations for the design of the parts that we are making in the Part Studio. AIDE Feature Studios have 3 main sections."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:65
+msgid "Tree - where we define the function calls (designers) and input parameters (params) required for the design. In more complex designs the Tree is also used to define the connections with parts that are children or subcomponents."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:66
+msgid "Designer - where we calculate the dimensions of the part we are designing. The variables that we define are all part of the design map and can be accessed as :code:`design.varName`. Thus the length of a part would be defined as :code:`design.L`."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:67
+msgid "Feature - this is the code that inserts the results of our calculations (the design map) into the part studio. This feature is inserted as the very first feature in the part studio so that all of the subsequent features have access to the  variables in the design map."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:70
+msgid "Units in AIDE"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:72
+msgid "Engineering design calculations should always be done using software tools that support units. Units provide an import check on all calculations and using units ensures that the we don't burn up our spacecraft because of a failure to use the right units in an equation. In Onshape all of our calculations include units. Unfortunately there is a limitation on how we pass parameters from one component to another component as we create complex designs with multiple components. To get around this limitation we have adopted a strict `variable naming convention <https://cad.onshape.com/documents/7e7bfd441e81a4b207bb9b86/w/36fcd65eb9f3ae9f72ccf937/e/9c67513c34ba306ef874295f>`_ so that we know what units a variable has just from looking at its name. Here are a couple examples of variable names, their units [] and an evaluation of whether or not they meet our requirements."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:74
+msgid ":code:`myFavorityDimensionIsL` [meter] YES!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:75
+msgid ":code:`V_MAX` [oops] NO! subscripts must be lower case - should be :code:`V_max`"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:76
+msgid ":code:`riverQ` [meter^3/s] YES!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:77
+msgid ":code:`riverQm` [L/s] YES! The m really means milli (m^3/s) which is the same as L/s."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:78
+msgid ":code:`pipeWallS` [meter] YES! This is the Space between a pipe and a wall"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:81
+msgid "Hydraulic functions"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:83
+msgid "AguaClara has added a limited number of hydraulic-related functions in FeatureScript in `AguaClara Core FS <https://cad.onshape.com/documents/6750b53736b16374e515f93d/w/e1f0d6546c0ebff38956e2f7/e/397556f7ec0f2b14bcbdc049>`_. The most commonly used functions for this course are in the tabs headloss and physical chemistry. The pipe design equations that work for both laminar and turbulent flow regimes are found in those two tabs. For example the function"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:85
+msgid ":code:`flowPipe (diam, headloss, length, nu, roughness, kMinor)`  will calculate the flow rate in a given pipe given the available energy (head loss)."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:86
+msgid "The companion function to calculate the minimum required pipe diameter given a desired flow rate is :code:`diamPipe(flowRate, head loss, length, nu, pipeRough, kMinor)`"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:87
+msgid "The actual head loss given a pipe and a flow rate is :code:`pipeHeadloss(flowRate, diam, length, nu, pipeRough, kMinor)`"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:88
+msgid "The density and viscosity of water are available as functions of temperature in the physical chemistry tab."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:90
+msgid "You can access these functions quickly while editing in featurescript by typing the part of the function name that you remember and Onshape will provide a list of possible functions for you to select from."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:93
+msgid "Entrance Tank Design"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:95
+msgid "An AguaClara entrance tank performs the following functions:"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:97
+msgid "removes trash with a trash rack (leaves, twigs, litter) to prevent clogging of the inlet diffusers in the sedimentation tank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:98
+msgid "removes grit by sedimentation"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:99
+msgid "dumps water that exceeds the design flow rate of the plant"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:100
+msgid "measures the flow into the plant"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:101
+msgid "water level in the entrance tank is used to set the flow of coagulant and chlorine."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:102
+msgid "coagulant is injected at the outlet of the entrance tank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:104
+msgid "For this design challenge we will do a simplified design to remove grit and dump excess water."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:107
+msgid "Part 1: Feature Studio Steps"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:109
+msgid "**If your instructor has not provided you with a link to the starting document**, you can create a copy of the `Entrance Tank Template <https://cad.onshape.com/documents/9f328e7469cf14badb5e3dc7/w/4685a40508e8c33569b72627/e/bf3d6bc51cf7511178df36b4>`_. Name the file \"[your team name] Entrance Tank\"."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:113
+msgid "Follow each step as described in the Entrance Tank.fs for problems 1-11."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:115
+msgid "Open the tab Entrance Tank.fs. You will see commented out blue directions for the code that you need to create. This is the core of the coding part of this challenge!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:117
+msgid "Check that each line of your code works before proceeding to the next step. Monitor FeatureScript Notices to make sure no warnings or errors are being reported. FeatureScript Notices will also show your printed answers as you are working if you select Monitoring Entrance Tank PS in the upper right of the FeatureScript window."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:119
+msgid "NOTE: Question 3 in the FeatureScript mentions using either an if statement or a min/max function, we recommend using the min/max function!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:121
+msgid "A few hints for FeatureScript * almost all lines of code end in a semicolon; * new variables that are part of the design map can be defined like this example: design.planViewA_min = design.Qm_max * design.captureV;"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:127
+msgid "Part 2: Part Studio Steps"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:142
+msgid "Insert the Civil Tank feature into the part studio and link design variables that you created in the Entrance Tank.fs to the Civil Tank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:144
+msgid "implementation partner |ip|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:129
+msgid "ip"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:145
+msgid "inside wall height |H|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:130
+msgid "H"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:146
+msgid "water depth |HW|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:131
+msgid "HW"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:147
+msgid "tank length |L|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:132
+msgid "L"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:148
+msgid "tank width |W|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:133
+msgid "W"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:149
+msgid "constants for other inputs |constants|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:134
+msgid "constants"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:150
+msgid "Location can be set by clicking in the blue box in the drop down menu labeled 'Location(s)' and then clicking on the origin of the Part Studio |location|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:135
+msgid "location"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:153
+msgid "Selecting the option to place design in context will take the dimensions and other part information of the tank and add that to a map (called tank in this case) so that those parameters can be used in subsequent design steps. You can see the tank map by clicking on the variable table on the middle right side of the screen."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:155
+msgid "The resulting tank should look like this!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:157
+msgid "|iso|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:136
+msgid "iso"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:159
+msgid "All of the parts we are using for design come from a database that includes costs. To view this information, access the bill of materials and cut list custom tables by clicking on custom tables."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:161
+msgid "Add the overflow pipe to the part studio. The goal is to place the overflow pipe centered in the tank and perhaps a distance of the tank width/2 from the end of the tank. The overflow pipe origin is at the center of the pipe at the top surface of the bottom of the tank. You can select a good mate connector for the location by hovering over the bottom of the tank and then moving your mouse toward the end of the tank where you want to install the overflow pipe."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:163
+msgid "|mateAtEndOfTank|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:137
+msgid "mateAtEndOfTank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:165
+msgid "Click on the mate connector to select it. The blue location box should now have a reference to the selected mate connector."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:167
+msgid "|clickToEditMate|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:138
+msgid "clickToEditMate"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:169
+msgid "Click on the reference to the mate connector in the location box to edit the mate connector. This is a cool feature that makes it easy to move the part to exactly where you want it. In this case we want to move the overflow pipe away from the very end of the tank by a distance of W/2. Enter the Y value move distance as shown."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:171
+msgid "|editMate|"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:139
+msgid "editMate"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:173
+msgid "Now close the Mate connector dialog box and the overflow pipe should be at the correct location."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:175
+msgid "Link the minimum temperature, flow rate, water depth, and maximum pipe SDR to params that are inputs for your design. The flow safety factor can be set to 1 and the depth safety factor set to 0 meter. The length of pipe below the bottom of the tank can be used to ensure that the pipe goes the whole way through the bottom slab. To do this we can link to the slab thickness. Given that the Civil Tank put its dimension info in the map \"tank\" we can access that inside the Overflow Pipe as #tank.slab.T.  You can look at the bottom of the tank and see that the pipe is trying to break through the surface."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:177
+msgid "The last step is to delete the concrete to make a hole for the overflow pipe. Use the |Embed| feature. The embed feature pass a pipe through concrete and makes a hole in the concrete for the pipe. The pipe is thus embedded in the concrete and the concrete is the embedding matrix. The embed feature allows you to select the entities to embed or the features that created the object to embed. The easiest way to select the pipes that need to go through the wall is to select the Feature that made the pipes. Thus select the overflow pipe feature in the feature list as the \"feature creating the entity to embed\" in the dialog box. Similarly you can either the specific slab of concrete or the feature creating the tank as the embedding matrix or substrate. Confirm that the concrete inside the pipe has been removed."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:181
+msgid "Play and Reflect!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:183
+msgid "Answer the following questions as a comment in FeatureScript."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:185
+msgid "How much does the entrance tank cost for a 10 L/s flow rate?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:186
+msgid "Which part is most expensive?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:188
+msgid "You can edit the overrides to get new designs quickly. Change the flow rate to 100 L/s."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:190
+msgid "Why did the tank get wider?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:191
+msgid "Which design constraint controls the width?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:192
+msgid "Why did the tank get deeper?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:193
+msgid "Which design constraint controls the depth?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:194
+msgid "Why did the overflow pipe diameter change?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:195
+msgid "We could have done this assignment using pencil and paper or and Excel spreadsheet for the design and a cad program for the drawing. List as many advantages and disadvantages as you can for the Onshape AIDE design process vs Excel and a cad program."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:196
+msgid "Make **one** change or addition to the design. It can be anything. Here are some ideas..."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:198
+msgid "Add a new param for the minimum distance between the cap of the overflow pipe and the end wall of the tank and then move the overflow pipe into that new position."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:199
+msgid "Add a channel below the entrance tank that will collect the overflow water."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:200
+msgid "Replace the tank slab with hoppers so that the sediment that is captured can drain out."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:201
+msgid "Add a pipe representing the inlet that would dump water into the entrance tank near the overflow pipe."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:202
+msgid "Your idea here!"
+msgstr ""

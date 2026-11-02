@@ -1,0 +1,931 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:10
+msgid "Flocculator Design Solution"
+msgstr "Solución de diseño de floculadores"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:12
+msgid ""
+"`Be sure to run all imports before viewing the code "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=QrnYxdOGmQ0x&line=3&uniqifier=1>`_"
+msgstr ""
+"`Asegúrate de ejecutar todas las importaciones antes de ver el código "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=QrnYxdOGmQ0x&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:14
+msgid ""
+"In this design challenge you will design a vertical flow hydraulic "
+"flocculator. You will use the flow rate of ``flow_plant = 20 L/s`` as your "
+"default design value."
+msgstr ""
+"En este reto de diseño diseñarás un floculador hidráulico de flujo vertical."
+" Usarás el caudal de ``flow_plant = 20 L/s`` como valor de diseño por "
+"defecto."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:16
+msgid ""
+"Although we don’t require that you use the nomenclature from the AguaClara "
+"variable naming guide, it provides a reasonable basis for organizing your "
+"variable names. We use the convention that the first part of the variable "
+"name describes the type of variable and always has a unique dimension. The "
+"subsequent parts of the variable name start from the big picture and slowly "
+"add more and more detail to arrive at the precise component that you are "
+"describing. Thus space_floc_baffle is the spacing between baffles in the "
+"flocculator and n_floc_channel_baffle should be the number of baffles in a "
+"flocculator channel. width_floc_channel_port should be the width of the port"
+" connecting two flocculator channels."
+msgstr ""
+"Aunque no requerimos que uses la nomenclatura de la guía de nombres de "
+"variables de AguaClara, proporciona una base razonable para organizar los "
+"nombres de tus variables. Usamos la convención de que la primera parte del "
+"nombre de la variable describe el tipo de variable y siempre tiene una "
+"dimensión única. Las partes siguientes del nombre de la variable parten "
+"desde la visión general y van añadiendo poco a poco más detalles para llegar"
+" al componente preciso que describes. Así space_floc_baffle es el espaciado "
+"entre los deflectores en el floculador y n_floc_channel_baffle debe ser el "
+"número de deflectores en un canal floculador. width_floc_channel_port debe "
+"ser el ancho del puerto que conecta dos canales floculadores."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:18
+msgid ""
+"**In this design challenge we will use functions to calculate each step of "
+"the design. Whenever we need to access a previously calculated result we "
+"will use the function call to access that value. Using this method of nested"
+" function calls will make the entire design be only a function of a few "
+"input parameters.** This makes it possible to have flexible design code and "
+"ease the creation of new plant designs."
+msgstr ""
+"**En este reto de diseño usaremos funciones para calcular cada paso del "
+"diseño. Siempre que necesitemos acceder a un resultado previamente "
+"calculado, usaremos la llamada a función para acceder a ese valor. Usando "
+"este método de llamadas a funciones anidadas hará que todo el diseño sea "
+"solo una función de unos pocos parámetros de entrada.** Esto permite tener "
+"un código de diseño flexible y facilitar la creación de nuevos diseños de "
+"plantas."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:20
+msgid ""
+"The minimum input parameters to define a flocculator are (flow_plant, "
+"headloss_floc_BOD, Gt_BOD, T_BOD). We could have included a longer list of "
+"input parameters (height_floc_end, width_PC_sheet, K_e, etc.) to make our "
+"functions even more general. But to keep our code more concise we will focus"
+" on only 4 of the input parameters. This will make it possible to easily "
+"change the input parameters to obtain new designs. We will use this "
+"capability to plot the results of varying the design flow rate."
+msgstr ""
+"Los parámetros mínimos de entrada para definir un floculador son "
+"(flow_plant, headloss_floc_BOD, Gt_BOD, T_BOD). Podríamos haber incluido una"
+" lista más larga de parámetros de entrada (height_floc_end, width_PC_sheet, "
+"K_e, etc.) para hacer nuestras funciones aún más generales. Pero para "
+"mantener nuestro código más conciso, nos centraremos solo en 4 de los "
+"parámetros de entrada. Esto permitirá cambiar fácilmente los parámetros de "
+"entrada para obtener nuevos diseños. Utilizaremos esta capacidad para "
+"graficar los resultados de variar el diseño caudal."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:23
+msgid "Hydraulic Vertical flow flocculator Design"
+msgstr "Diseño de floculador hidráulico de flujo vertical"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:25
+msgid ""
+"This challenge is design a hydraulic flocculator using the core concepts of "
+"the AguaClara design methodology."
+msgstr ""
+"Este reto consiste en diseñar un floculador hidráulico utilizando los "
+"conceptos centrales de la metodología de diseño AguaClara."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:27
+msgid ""
+"`Colab worksheet with the inputs for the design. "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=HsR9iOQUmTbu&line=5&uniqifier=1>`_ BOD stands for "
+"Basis Of Design."
+msgstr ""
+"`hoja de cálculo de Colab con las entradas para el diseño. "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=HsR9iOQUmTbu&line=5&uniqifier=1>`_ BOD significa "
+"Base del Diseño."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:31
+msgid "Design Algorithm Steps"
+msgstr "Pasos del algoritmo de diseño"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:33
+msgid ""
+"Calculate the total volume of flocculator given head loss and collision "
+"potential"
+msgstr ""
+"Calcular el volumen total del floculador dado el pérdida de carga y el "
+"potencial de colisión"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:34
+msgid ""
+"Calculate the number of channels by taking the total width and dividing by "
+"the maximum channel width"
+msgstr ""
+"Calcula el número de canales tomando el ancho total y dividiendo por el "
+"ancho máximo del canal"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:35
+msgid "Calculate the channel width (total width over number of channels)"
+msgstr "Calcular el ancho del canal (ancho total sobre el número de canales)"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:36
+msgid ""
+"Calculate the minimum number of obstacles and spacing between obstacles by "
+"assuming a maximum H/S ratio"
+msgstr ""
+"Calcula el número mínimo de obstáculos y el espaciamiento entre obstáculos "
+"asumiendo una relación máxima H/S"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:37
+msgid ""
+"Use the actual H/S ratio based on obstacle spacing to calculate the spacing "
+"between baffles"
+msgstr ""
+"Utiliza la relación H/S real basada en el espaciado de los obstáculos para "
+"calcular el espaciado entre los deflectores"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:38
+msgid ""
+"Calculate the obstacle width to obtain the same jet expansion conditions as "
+"produced by the 180 degree bend."
+msgstr ""
+"Calcula el ancho del obstáculo para obtener las mismas condiciones de "
+"expansión del chorro que producida por la curva de 180 grados."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:40
+msgid ""
+"This algorithm does not yet handle the integer number of baffles in a "
+"channel or the thickness of the baffles"
+msgstr ""
+"Este algoritmo aún no maneja el número entero de deflectores en un canal ni "
+"el grosor de los deflectores"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:42
+msgid ""
+"For this assignment **create functions for each question** and then use "
+"those function calls whenever that calculation result is required in a "
+"subsequent step. Include flow_plant, headloss_floc_BOD, Gt_BOD and T_BOD as "
+"the inputs that can be varied for each function."
+msgstr ""
+"Para esta tarea **crea funciones para cada pregunta** y luego utiliza esas "
+"llamadas a funciones siempre que ese resultado de cálculo sea necesario en "
+"un paso posterior. Incluye flow_plant, headloss_floc_BOD, Gt_BOD y T_BOD "
+"como las entradas que pueden variarse para cada función."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:44
+msgid ""
+"**Whenever you reference a previously calculated value in a function, use "
+"the function call for that value so that dependency is not broken.**"
+msgstr ""
+"**Siempre que hagas referencia a un valor previamente calculado en una "
+"función, usa la llamada a función para ese valor para que no se rompa la "
+"dependencia.**"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:46
+msgid ""
+"That way you will be able to easily vary any of the three main input "
+"parameters (flow, Gt, head loss) to see their effect on the design."
+msgstr ""
+"Así podrás variar fácilmente cualquiera de los tres parámetros principales "
+"de entrada (flujo, Gt, pérdida de carga) para ver su efecto en el diseño."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:48
+msgid ""
+"**1) Estimate the average velocity gradient** of a flocculator given head "
+"loss and collision potential. I’m going to solve this problem for you so you"
+" see how to use function calls."
+msgstr ""
+"**1) Estimar el gradiente medio de velocidad** de un floculador dado pérdida"
+" de carga y potencial de colisión. Voy a resolver este problema para que "
+"veas cómo usar llamadas a funciones."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:50
+msgid ""
+"`See Colab worksheet with the flocculator design solution "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=btxgm0xvmw7M&line=2&uniqifier=1>`_"
+msgstr ""
+"`Consulta la hoja de cálculo de Colab con la solución de diseño de "
+"floculadores <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=btxgm0xvmw7M&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:52
+msgid "The average velocity gradient of flocculator is 93.24 / second"
+msgstr "El gradiente medio de velocidad del floculador es de 93,24 por segundo"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:54
+msgid ""
+"**2) Estimate the residence time** of flocculator given the target head loss"
+" and collision potential. (Note that this ignores the decrease in water "
+"depth caused by head loss. We hope to improve this design process further in"
+" the near future.)"
+msgstr ""
+"**2) Estimar el tiempo de permanencia** del floculador dado el pérdida de "
+"carga objetivo y el potencial de colisión. (Tenga en cuenta que esto ignora "
+"la disminución de la profundidad del agua causada por pérdida de carga. "
+"Esperamos mejorar aún más este proceso de diseño en un futuro próximo.)"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:56
+msgid ""
+"`Colab worksheet residence time calculation "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=K4M3_Qaxm4OZ&line=2&uniqifier=1>`_"
+msgstr ""
+"`Cálculo del tiempo de residencia de la hoja de cálculo de Colab "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=K4M3_Qaxm4OZ&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:58
+msgid ""
+"print ('The residence time of flocculator is', t_floc_est(headloss_floc_BOD,"
+" Gt_BOD, T_BOD))"
+msgstr ""
+"Imprimir ('El tiempo de residencia del floculador es', "
+"t_floc_est(headloss_floc_BOD, Gt_BOD, T_BOD))"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:60
+msgid "The residence time of flocculator is 396.8 second"
+msgstr "El tiempo de residencia del floculador es de 396,8 segundos"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:62
+msgid ""
+"**3) Plot :math:`G\\theta` as a function of the operating temperature** "
+"given the head loss and residence time for this design. In this step you are"
+" assuming that you have built this hydraulic flocculator and you want to see"
+" how the collision potential, :math:`G\\theta`, varies with temperature of "
+"operation. Vary the temperature from 0°C to 30°C. The following equation "
+"makes it clear that the velocity gradient originates from head loss that "
+"creates fluid deformation that is limited by viscosity."
+msgstr ""
+"**3) Grafica :math:`G\\theta` en función de la temperatura de "
+"funcionamiento** dado el pérdida de carga y el tiempo de residencia de este "
+"diseño. En este paso asumes que has construido este floculador hidráulico y "
+"quieres ver cómo varía el potencial de colisión, :math:`G\\theta`, con la "
+"temperatura de operación. Varía la temperatura de 0°C a 30°C. La siguiente "
+"ecuación deja claro que el gradiente de velocidad se origina en pérdida de "
+"carga que genera deformación del fluido limitada por la viscosidad."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:64
+msgid ""
+"\\bar G\\theta =\\sqrt {\\frac{{g{h_e}\\theta }}{\\nu }}\n"
+"\n"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design_Solution.rst:66
+msgid ""
+"`See the code to generate the plot <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=u-JpICEvm8OL&line=4&uniqifier=1>`_"
+msgstr ""
+"`Consulta el código para generar el gráfico "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=u-JpICEvm8OL&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:75
+msgid "Gtheta_vs_temperature"
+msgstr "Gtheta_vs_temperature"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:75
+msgid ""
+"The :math:`\\bar G\\theta` delivered by a flocculator increases with "
+"temperature. Note that the apparent linearity of this graph is because the "
+"inverse of the square root of kinematic viscosity varies linearly with "
+"temperature over this range!"
+msgstr ""
+"La :math:`\\bar G\\theta` entregada por un floculador aumenta con la "
+"temperatura. Nótese que la aparente linealidad de este gráfico se debe a que"
+" el inverso de la raíz cuadrada de la viscosidad cinemática varía "
+"linealmente con la temperatura en este rango."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:78
+msgid ""
+"**4) The Equation** :eq:`CPlamint` creates the link between :math:`\\bar G "
+"\\theta` and flocculator performance. What does the floc model and "
+":numref:`figure_Gtheta_vs_temperature` tell you about flocculator "
+"performance and flocculator design? Explain why performance varies with "
+"temperature. Explain how temperature influences collisions between "
+"particles. What temperature should be used to design flocculators?"
+msgstr ""
+"**4) La ecuación** :eq:`CPlamint` crea el vínculo entre el rendimiento de "
+":math:`\\bar G \\theta` y el de floculadores. ¿Qué te dice el modelo de "
+"floculadores y :numref:`figure_Gtheta_vs_temperature` sobre el rendimiento y"
+" el diseño de floculadores? Explica por qué el rendimiento varía con la "
+"temperatura. Explica cómo la temperatura influye en las colisiones entre "
+"partículas. ¿Qué temperatura debería usarse para diseñar floculadores?"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:80
+msgid ""
+"Flocculator performance improves with warmer temperatures because the fluid "
+"deforms more given the same input energy. The fluid deforms more because it "
+"is less viscous at higher temperatures. Flocculators should be designed to "
+"perform well based on the coldest operating temperature that they will "
+"encounter."
+msgstr ""
+"El rendimiento de los floculadores mejora con temperaturas más cálidas "
+"porque el fluido se deforma más con la misma energía de entrada. El fluido "
+"se deforma más porque es menos viscoso a temperaturas más altas. Los "
+"floculadores deben diseñarse para funcionar bien en función de la "
+"temperatura de funcionamiento más baja que encontrarán."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:82
+msgid ""
+"**5) Calculate the volume of flocculator.** Note that this volume does not "
+"take into account the extra volume that flocculator will have due to the "
+"changing water level caused by the head loss. Simply estimate the volume "
+"based on the residence time and the flow rate."
+msgstr ""
+"**5) Calcular el volumen del floculador.** Tenga en cuenta que este volumen "
+"no tiene en cuenta el volumen extra que tendrá el floculador debido a los "
+"cambios nivel del agua causados por el pérdida de carga. Simplemente estima "
+"el volumen basándose en el tiempo de residencia y el caudal."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:84
+msgid ""
+"`Determine the volume <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=yKbX8NzxnCAx&line=2&uniqifier=1>`_"
+msgstr ""
+"`Determinar el volumen <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=yKbX8NzxnCAx&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:86
+msgid "The volume of flocculator is 7.936 meter ** 3"
+msgstr "El volumen del floculador es de 7,936 metros ** 3"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:88
+msgid ""
+"**6) Calculate the actual length** of the flocculator channels. This must "
+"meet two constraints. First, it must be less than or equal to the maximum "
+"channel length. Second, the channel length is limited by the flocculator "
+"volume, height, minimum number of channels, and minimum width of the "
+"channels. This second constraint is important for low flow rates so that the"
+" flocculator has the correct target volume. Make sure to use this floc "
+"channel length in subsequent calculations."
+msgstr ""
+"**6) Calcular la longitud real** de los canales del floculador. Esto debe "
+"cumplir dos restricciones. Primero, debe ser menor o igual a la longitud "
+"máxima del canal. Segundo, la longitud del canal está limitada por el "
+"volumen del floculador, la altura, el número mínimo de canales y el ancho "
+"mínimo de los canales. Esta segunda restricción es importante para caudales "
+"bajos de modo que el floculador tenga el volumen objetivo correcto. "
+"Asegúrese de utilizar esta longitud del canal floculador en cálculos "
+"posteriores."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:90
+msgid ""
+"`Calculat the channel length <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Q9e2Z2FVnG4K&line=1&uniqifier=1>`_"
+msgstr ""
+"`Calcular la longitud del canal <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Q9e2Z2FVnG4K&line=1&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:92
+msgid "The maximum channel length is 3.719 meters."
+msgstr "La longitud máxima del canal es de 3,719 metros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:94
+msgid ""
+"**7) Calculate the combined total width** of the flocculator channels (not "
+"including walls) based on the given length and depth."
+msgstr ""
+"**7) Calcular el ancho total combinado** de los canales floculadores (sin "
+"incluir paredes) basándose en la longitud y profundidad dadas."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:96
+msgid ""
+"`Calculate the width <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=YFINBYZynKaE&line=4&uniqifier=1>`_"
+msgstr ""
+"`Calcula el ancho <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=YFINBYZynKaE&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:98
+msgid "The total width of the flocculator channels is is 1.067 meters."
+msgstr "La anchura total de los canales floculadores es de 1,067 metros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:100
+msgid ""
+"**8) Calculate the minimum channel width** required to achieve H/S>3. The "
+"channel can be wider than this, but this is the absolute minimum width for a"
+" channel. The minimum width occurs when there is only one expansion per "
+"baffle and thus the distance between expansions is the same as the depth of "
+"water at the end of the flocculator."
+msgstr ""
+"**8) Calcular el ancho mínimo del canal** necesario para lograr H/S>3. El "
+"canal puede ser más ancho que esto, pero este es el ancho mínimo absoluto "
+"para un canal. El ancho mínimo ocurre cuando solo hay una expansión por "
+"deflector y, por tanto, la distancia entre expansiones es la misma que la "
+"profundidad del agua al final del floculador."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:102
+msgid ""
+":math:`{W_{min}} = \\frac{{\\Pi _{HS}}Q}{H_e}{\\left( "
+"{\\frac{K_e}{2{H_e}\\nu {\\bar G}^2}} \\right)^{\\frac{1}{3}}}`"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design_Solution.rst:104
+msgid ""
+"`Calculate the minimum width <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=r5K7ayIQnM_I&line=3&uniqifier=1>`_"
+msgstr ""
+"`Calcular el ancho mínimo <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=r5K7ayIQnM_I&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:106
+msgid "The minimum channel width is 11.64 centimeters."
+msgstr "La anchura mínima del canal es de 11,64 centímetros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:108
+msgid ""
+"**9) What is the minimum channel width** given the additional constraint "
+"that must be built by humans? Use the max function to find the true minimum "
+"channel width given both constraints."
+msgstr ""
+"**9) ¿Cuál es el ancho mínimo del canal** dada la restricción adicional que "
+"deben construir los humanos? Usar la función max para encontrar el ancho "
+"mínimo real del canal dado ambas restricciones."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:110
+msgid ""
+"`Calculate the practical minimum width "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=qAn6NgRdnQmv&line=3&uniqifier=1>`_"
+msgstr ""
+"`Calcular el ancho mínimo práctico <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=qAn6NgRdnQmv&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:112
+msgid "The minimum channel width is 0.5335 meter."
+msgstr "La anchura mínima del canal es de 0,5335 metros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:114
+msgid ""
+"**10) Calculate the number of channels** by taking the total flocculator "
+"width (see step 7) and dividing by the minimum channel width (round down). "
+"Include the requirement that the number of channels must be even (Use the "
+"numpy floor function - look it up!). To make this function robust, make sure"
+" that it can’t ever return zero channels (the max function might be useful "
+"here)! You can convert the float to an integer with the int() function."
+msgstr ""
+"**10) Calcula el número de canales** tomando el ancho total del floculador "
+"(ver paso 7) y dividiendo por el ancho mínimo del canal (redondeando hacia "
+"abajo). Incluye el requisito de que el número de canales debe ser par (Usa "
+"la función numpy floor, búscala!). Para que esta función sea robusta, "
+"asegúrate de que nunca pueda devolver cero canales (¡la función max podría "
+"ser útil aquí)! Puedes convertir el float en un entero con la función int()."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:116
+msgid ""
+"`Calculate the number of channels <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=oORz6cGhnRhK&line=4&uniqifier=1>`_"
+msgstr ""
+"`Calcular el número de canales <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=oORz6cGhnRhK&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:118
+msgid "There are 2 channels."
+msgstr "Hay 2 canales."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:120
+msgid ""
+"**11) Calculate the actual channel width** based on the number of channels "
+"and the total flocculator width."
+msgstr ""
+"**11) Calcular el ancho real del canal** basándose en el número de canales y"
+" el ancho total del floculador."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:122
+msgid ""
+"`Calculate the actual width <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=FFx1TDcinUMT&line=4&uniqifier=1>`_"
+msgstr ""
+"`Calcula el ancho real <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=FFx1TDcinUMT&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:124
+msgid "The actual flocculator channel width is 53.35 centimeter"
+msgstr "El ancho real del canal del floculador es de 53,35 centímetros"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:126
+msgid ""
+"**12) Calculate** the *maximum* distance between expansions. This occurs for"
+" the largest allowable H/S ratio. Note that this isn’t accounting for the "
+"integer requirement for the number of baffle spaces per channel yet."
+msgstr ""
+"**12) Calcular** la distancia *máxima* entre expansiones. Esto ocurre para "
+"la mayor relación H/S permitida. Ten en cuenta que esto aún no tiene en "
+"cuenta el requisito de enteros para el número de espacios de deflectores por"
+" canal."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:128
+msgid ""
+"{H_{{e_{max}}}} = {\\left[ {\\frac{{{K_e}}}{{2\\nu {{\\bar G}^2}}}{{\\left( "
+"{\\frac{{Q{\\Pi _{H{S_{max}}}}}}{W}} \\right)}^3}} \\right]^{\\frac{1}{4}}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design_Solution.rst:132
+msgid ""
+"`Find the maximum distance <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wzCaYvVSnY3Q&line=5&uniqifier=1>`_"
+msgstr ""
+"`Encuentra la distancia máxima <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wzCaYvVSnY3Q&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:134
+msgid "The maximum distance between expansions 1.074 meters."
+msgstr "La distancia máxima entre expansiones es de 1,074 metros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:136
+msgid "**13) Calculate the minimum number of expansions per baffle space.**"
+msgstr "**13) Calcular el número mínimo de expansiones por espacio de deflector.**"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:138
+msgid ""
+"`Find the minimum number of expansions "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=NOqKB2Iwnbgg&line=3&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el número mínimo de expansiones "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=NOqKB2Iwnbgg&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:140
+msgid "The number of expansions is 2."
+msgstr "El número de expansiones es 2."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:142
+msgid ""
+"**14) Calculate the actual distance between expansions** given the integer "
+"requirement for the number of expansions per flocculator depth."
+msgstr ""
+"**14) Calcular la distancia real entre expansiones** dado el requisito "
+"entero para el número de expansiones por profundidad de floculador."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:144
+msgid ""
+"`Find the actual distance <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Xq_jOoUJne2t&line=3&uniqifier=1>`_"
+msgstr ""
+"`Encuentra la distancia real <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Xq_jOoUJne2t&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:146
+msgid "The actual distance between expansions is 1 meter."
+msgstr "La distancia real entre expansiones es de 1 metro."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:148
+msgid ""
+"**15) Calculate the spacing between baffles** based on the target velocity "
+"gradient using :eq:`Floc_baffle_spacing_of_K`."
+msgstr ""
+"**15) Calcular el espaciado entre los deflectores** basándose en el "
+"gradiente de velocidad objetivo usando :eq:`Floc_baffle_spacing_of_K`."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:150
+msgid ""
+"`Find the baffle spacing <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=pWb4aEgFnhZe&line=6&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el espaciado del deflector "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=pWb4aEgFnhZe&line=6&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:152
+msgid "The spacing between baffles is 0.1832 meter."
+msgstr "El espacio entre los deflectores es de 0,1832 metros."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:154
+msgid ""
+"**16) How many baffle spaces would fit** in the channel(s) given the length "
+"of the flocculator and the baffle spacing? Round to the nearest integer."
+msgstr ""
+"**16) ¿Cuántos espacios de deflector cabería** en el(los) canal(es) dada la "
+"longitud del floculador y el espaciado entre los deflectores? Redondeando al"
+" entero más cercano."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:156
+msgid ""
+"`Find the number of baffle spaces <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=fPjTwCB9r8SP&line=3&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el número de espacios de deflector "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=fPjTwCB9r8SP&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:158
+msgid "The number of baffle spaces that would fit in the channels is 41"
+msgstr "El número de espacios de deflector que cabrían en los canales es 41"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:160
+msgid ""
+"**17) How many baffle spaces are needed** to create the required collision "
+"potential? Note that this isn’t necessarily the same number as found in "
+"Problem 16. Calculating the collision potential per baffle space is the "
+"advised first step."
+msgstr ""
+"**17) ¿Cuántos espacios de deflector se necesita** para crear el potencial "
+"de colisión requerido? Ten en cuenta que este no es necesariamente el mismo "
+"número que el encontrado en el Problema 16. Calcular el potencial de "
+"colisión por cada espacio de deflectores es el primer paso recomendado."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:162
+msgid ""
+"`Calculate the number of baffles needed "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=MyLau92XnkxF&line=6&uniqifier=1>`_"
+msgstr ""
+"`Calcular el número de deflectores necesarios "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=MyLau92XnkxF&line=6&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:164
+msgid ""
+"The collision potential (Gt) per baffle space is 944 dimensionless. The "
+"minimum number of baffles required is 41"
+msgstr ""
+"El potencial de colisión (Gt) por espacio de deflectores es adimensional de "
+"944. El número mínimo de deflectores requeridos es 41"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:166
+msgid "**18) Do the two estimates of the number of baffle spaces agree?**"
+msgstr ""
+"**18) ¿Coinciden las dos estimaciones del número de espacios de "
+"deflectores?**"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:168
+msgid "Yes."
+msgstr "Sí."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:170
+msgid ""
+"**19) Calculate the average velocity** of the water in the flocculator. This"
+" is the velocity after the flow has expanded through each baffle/obstacle."
+msgstr ""
+"**19) Calcular la velocidad media** del agua en el floculador. Esta es la "
+"velocidad después de que el flujo se ha expandido a través de cada "
+"deflector/obstáculo."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:172
+msgid ""
+"`Calculate average velocity <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=b5T9L7tZsAHP&line=5&uniqifier=1>`_"
+msgstr ""
+"`Calcular la velocidad media <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=b5T9L7tZsAHP&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:174
+msgid "The average velocity of the water in the flocculator is 0.2046 meter / second"
+msgstr "La velocidad media del agua en el floculador es de 0,2046 metros/segundo"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:176
+msgid ""
+"**20) Calculate the depth of water** at the beginning of the flocculator "
+"based on the design head loss."
+msgstr ""
+"**20) Calcular la profundidad del agua** al inicio del floculador basándose "
+"en el diseño pérdida de carga."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:178
+msgid ""
+"`Find the depth of water <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=DclI0a4asC0x&line=1&uniqifier=1>`_"
+msgstr ""
+"`Encuentra la profundidad del agua <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=DclI0a4asC0x&line=1&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:180
+msgid "The depth of the water at the beginning of the flocculator is 2.4 meter"
+msgstr "La profundidad del agua al inicio del floculador es de 2,4 metros"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:182
+msgid ""
+"**21) Estimate the residence time** in the hydraulic flocculator taking head"
+" loss into account. It is okay if your estimate doesn’t capture all of the "
+"details of the flocculator. You don’t need to account for the volume of the "
+"baffles. Simply account for the added water due to head loss. You can "
+"approximate the extra depth as a triangle."
+msgstr ""
+"**21) Estima el tiempo de permanencia** en el floculador hidráulico teniendo"
+" en cuenta pérdida de carga . Está bien si tu estimación no recoge todos los"
+" detalles del floculador. No necesitas tener en cuenta el volumen de los "
+"deflectores. Simplemente ten en cuenta el agua añadida debido a pérdida de "
+"carga. Puedes aproximar la profundidad extra como un triángulo."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:184
+msgid ""
+"`Determine the residence time <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=nV_MCM7gsE_s&line=1&uniqifier=1>`_"
+msgstr ""
+"`Determinar el tiempo de residencia <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=nV_MCM7gsE_s&line=1&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:186
+msgid "The residence time in the hydraulic flocculator is 7.275 minutes."
+msgstr "El tiempo de residencia en el floculador hidráulico es de 7,275 minutos."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:188
+msgid ""
+"**22) Create plots** showing number of channels, number of expansions per "
+"water depth, total number of baffles, and channel width for a flow range "
+"from 10-100 L/s. Note that the functions that we created in this design "
+"challenge are not able to handle arrays as inputs. Use ``for`` loops to "
+"create the numpy arrays of y data needed for these graphs. Use 100 points to"
+" define each plot. Remember to initialize the numpy arrays before"
+msgstr ""
+"**22) Create plots** mostrar el número de canales, el número de expansiones "
+"por profundidad de agua, el número total de deflectores y el ancho del canal"
+" para un rango de flujo desde 10-100 L/s. Ten en cuenta que las funciones "
+"que creamos en este desafío de diseño no pueden manejar arrays como "
+"entradas. Utiliza ``for`` bucles para crear los arrays numpy de datos y "
+"necesarios para estos gráficos. Usa 100 puntos para definir cada gráfico. "
+"Recuerda inicializar los arrays numpy antes"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:190
+msgid ""
+"`Colab worksheet creating plots <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=CCtncYrXsHPN&line=11&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab para crear gráficos "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=CCtncYrXsHPN&line=11&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:199
+msgid "Expansions per baffle space vs plant flow"
+msgstr "Expansiones por espacio de deflector frente a flujo de planta"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:199
+msgid ""
+"The number of expansions per baffle space decreases rapidly with flow rate. "
+"These results are a function of the flocculator depth and of the target head"
+" loss used for the design."
+msgstr ""
+"El número de expansiones por espacio de deflector disminuye rápidamente con "
+"caudal. Estos resultados dependen de la profundidad del floculador y del "
+"objetivo pérdida de carga utilizado para el diseño."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:208
+msgid "Number of channels vs plant flow"
+msgstr "Número de canales frente al caudal de la planta"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:208
+msgid ""
+"The number of channels is less than 2 for a wide range of flows. This is "
+"because the required residence time in the flocculator is so low. We may "
+"eventually want to create a design that makes it possible to have an odd "
+"number of flocculator channels so that we can use a single channel for low "
+"flow rates."
+msgstr ""
+"El número de canales es menor que 2 para un amplio rango de flujos. Esto se "
+"debe a que el tiempo de residencia requerido en el floculador es muy bajo. "
+"Quizá eventualmente queramos crear un diseño que permita tener un número "
+"impar de canales de floculador para poder usar un solo canal con caudales "
+"bajos."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:217
+msgid "Number of baffle spaces vs plant flow"
+msgstr "Número de espacios de deflectores frente al flujo de plantas"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:217
+msgid ""
+"The number of baffle spaces is lower for low flow rates because those "
+"flocculators have additional expansions. At high flow rates the number of "
+"baffles spaces increases because the residence time per baffle space "
+"decreases. The residence time per baffle space decreases when the number of "
+"channels jumps from 2 to 4."
+msgstr ""
+"El número de espacios con deflector es menor para caudales bajos porque esos"
+" floculadores tienen expansiones adicionales. A caudales altos, el número de"
+" espacios con deflectores aumenta porque disminuye el tiempo de residencia "
+"por espacio de deflector. El tiempo de residencia por espacio de deflector "
+"disminuye cuando el número de canales pasa de 2 a 4."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:226
+msgid "Floc channel width vs plant flow"
+msgstr "Ancho del canal de flocación frente al caudal de la planta"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:226
+msgid ""
+"The flocculator channel width varies linearly with flow rate for a constant "
+"number of channels. The exception is for flows below about 35 L/s. In that "
+"flow rate the requirement of 2 channels that are the length of the clarifier"
+" is excessive and results in more collision potential than needed. We need a"
+" new design solution to handle this suboptimal design for flows lower than "
+"35 L/s."
+msgstr ""
+"La anchura del canal del floculador varía linealmente con caudal para un "
+"número constante de canales. La excepción es para caudales inferiores a unos"
+" 35 L/s. En ese caudal el requisito de 2 canales de la longitud del "
+"clarificador es excesivo y resulta en un mayor potencial de colisión del "
+"necesario. Necesitamos una nueva solución de diseño para manejar este diseño"
+" subóptimo para caudales inferiores a 35 L/s."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:228
+msgid "**23) Read from the graphs to determine:**"
+msgstr "**23) Lee los gráficos para determinar:**"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:230
+msgid ""
+"At what flow rate is it no longer necessary to add extra obstacles in the "
+"flocculator?"
+msgstr "¿En qué caudal ya no es necesario añadir obstáculos extra en el floculador?"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:231
+msgid "At what flow rate does the flocculator switch from 2 channels to 4 channels?"
+msgstr "¿En qué caudal el floculador cambia de 2 canales a 4 canales?"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:232
+msgid "**Why** did the flocculator switch from 2 to 4 channels?"
+msgstr "**¿Por qué** el floculador cambió de 2 a 4 canales?"
+
+#: ../../Flocculation/Floc_Design_Solution.rst:233
+msgid "No obstacles are needed for flows greater than about 65 L/s."
+msgstr "No se necesitan obstáculos para caudales superiores a unos 65 L/s."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:234
+msgid "The flocculator switches from 2 to 4 channels at 65 L/s."
+msgstr "El floculador cambia de 2 a 4 canales a 65 L/s."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:235
+msgid "The channels had reached their maximum width at that flow rate."
+msgstr "Los canales habían alcanzado su ancho máximo en ese caudal."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:237
+msgid ""
+"**24) Change Gt_BOD to 20,000 and run the code again.** Identify at least 3 "
+"changes in the design."
+msgstr ""
+"**24) Cambiar Gt_BOD a 20.000 y ejecutar el código de nuevo.** Identificar "
+"al menos 3 cambios en el diseño."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:239
+msgid "The number of channels would be 2 for all of the flows explored here."
+msgstr "El número de canales sería 2 para todos los flujos explorados aquí."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:240
+msgid "The value of G increased."
+msgstr "El valor de G aumentó."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:241
+msgid "The spacing between baffles decreased."
+msgstr "El espacio entre los deflectores disminuyó."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:242
+msgid ""
+"The flow expansions became closer together (because the spacing between "
+"baffles decreased)."
+msgstr ""
+"Las expansiones del flujo se acercaban (porque el espaciado entre los "
+"deflectores disminuía)."
+
+#: ../../Flocculation/Floc_Design_Solution.rst:243
+msgid "The number of baffles decreased."
+msgstr "El número de deflectores disminuyó."
+

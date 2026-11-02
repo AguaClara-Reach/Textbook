@@ -60,7 +60,7 @@ Edit the configurations to create new models of the entrance tank. Some models m
    "",""
    Capture velocity (mm/s), The capture velocity for removal of grit. The entrance tank will capture grit that has a terminal velocity faster than this capture velocity. This determines the plan view area of the hoppers in the entrance tank.
 
-Additional information is available in the chapter on `Entrance Tank Design <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/ET_Design.html>`_
+Additional information is available in the chapter on :ref:`title_entrance_tank_design`.
 
 
 .. |donate| image:: ./Images/donate.png
@@ -68,7 +68,7 @@ Additional information is available in the chapter on `Entrance Tank Design <htt
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
+  :target: ../AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

@@ -49,7 +49,7 @@ Edit the configurations to create new models of the flocculator. Some models may
    "",""
    Velocity gradient (1/s), The velocity gradient influences the size of the flocs leaving the flocculator. High velocity gradients all require more energy input (more head loss).
 
-Additional information is available in the chapter on `Flocculator Design <https://aguaclara-reach.github.io/Textbook/Flocculation/Floc_Design.html>`_
+Additional information is available in the chapter on :ref:`title_Flocculation_Design`.
 
 
 .. |donate| image:: ./Images/donate.png
@@ -57,7 +57,7 @@ Additional information is available in the chapter on `Flocculator Design <https
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
+  :target: ../AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

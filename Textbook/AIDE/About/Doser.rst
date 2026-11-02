@@ -53,7 +53,7 @@ Edit the configurations to create new models of the chemical dose controller. Se
 
 
 
-Additional information is available in *The Physics of Water Treatment* in the section on `Linear Chemical Dose Controller <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-chemical-dose-controller-cdc>`_
+Additional information is available in *The Physics of Water Treatment* in the section on :ref:`heading_linear_cdc`.
 
 
 .. |donate| image:: ./Images/donate.png
@@ -61,7 +61,7 @@ Additional information is available in *The Physics of Water Treatment* in the s
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
+  :target: ../AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

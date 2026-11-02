@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Authors.rst:11
+msgid "Authors"
+msgstr ""
+
+#: ../../Authors.rst:13
+msgid "This text is a collaborative effort involving hundreds of people. Innovation requires collisions of ideas and the AguaClara program was designed to foster global and multidisciplinary interactions between students, faculty, field engineers, plant operators, implementation partner organizations, and community members. These interactions have provided a continuous and rich source of ideas that make it clear that in a social network it is impossible for anyone to claim ownership of an idea. Thus the inventions, equations, and reactor designs that are described in this text are the product of a large, collaborative, open-source community and none of us can claim that we are the sole authors. The list of authors below have contributed directly to this text."
+msgstr ""
+
+#: ../../Authors.rst:15
+msgid "Monroe Weber-Shirk"
+msgstr ""
+
+#: ../../Authors.rst:16
+msgid "Juan Guzman"
+msgstr ""
+
+#: ../../Authors.rst:17
+msgid "Clare O'Connor"
+msgstr ""
+
+#: ../../Authors.rst:18
+msgid "William Pennock"
+msgstr ""
+
+#: ../../Authors.rst:19
+msgid "Leonard Lion"
+msgstr ""
+
+#: ../../Authors.rst:20
+msgid "Yingda Du"
+msgstr ""
+
+#: ../../Authors.rst:21
+msgid "Zoe Maisel"
+msgstr ""
+
+#: ../../Authors.rst:22
+msgid "JC Conneely"
+msgstr ""
+
+#: ../../Authors.rst:23
+msgid "Anna Doyle"
+msgstr ""
+
+#: ../../Authors.rst:24
+msgid "Susan McGrattan"
+msgstr ""
+
+#: ../../Authors.rst:25
+msgid "Emily Wood"
+msgstr ""
+
+#: ../../Authors.rst:26
+#: ../../Authors.rst:30
+msgid "Andrew Pennock"
+msgstr ""
+
+#: ../../Authors.rst:28
+msgid "Reviewers have contributed by catching errors and suggesting improvements. Reviewers include:"
+msgstr ""
+
+#: ../../Authors.rst:31
+msgid "Ron Martin Jr"
+msgstr ""
+
+#: ../../Authors.rst:33
+msgid "This text would not have been possible without the advice, mentoring, and publishing system assembled by Ethan Keller."
+msgstr ""

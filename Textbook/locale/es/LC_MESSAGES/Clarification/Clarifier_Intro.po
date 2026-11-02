@@ -1,0 +1,2463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Clarification/Clarifier_Intro.rst:12
+msgid "Clarification Introduction"
+msgstr "Aclaración Introducción"
+
+#: ../../Clarification/Clarifier_Intro.rst:25
+msgid "The floc interactions in the clarifier include four processes."
+msgstr "Las interacciones de floc en el clarificador incluyen cuatro procesos."
+
+#: ../../Clarification/Clarifier_Intro.rst:27
+msgid "Floc filter: fluidized suspension of flocs that filter out smaller particles"
+msgstr ""
+"filtro de flóculos: suspensión fluidizada de flócs que filtran partículas "
+"más pequeñas"
+
+#: ../../Clarification/Clarifier_Intro.rst:28
+msgid ""
+"Plate settler particle capture: capture small flocs that settle slower than "
+"the upflow velocity in the floc filter"
+msgstr ""
+"placa sedimentadora captura de partículas: captura pequeños flócs que se "
+"asientan más lentamente que la velocidad de flujo ascendente en el filtro de"
+" flóculos"
+
+#: ../../Clarification/Clarifier_Intro.rst:29
+msgid ""
+"Plate settler aggregation: small flocs aggregate into large flocs as they "
+"slide down the plate settler incline"
+msgstr ""
+"placa sedimentadora agregación: los flóclos pequeños se agrupan en flóclos "
+"grandes mientras se deslizan por la pendiente placa sedimentadora "
+
+#: ../../Clarification/Clarifier_Intro.rst:30
+msgid ""
+"Floc hopper consolidation: excess flocs flow into the floc hopper where they"
+" consolidate before being wasted"
+msgstr ""
+"tolva de lodos consolidación: los flócs excedentes fluyen hacia la tolva de "
+"lodos donde se consolidan antes de desperdiciarse"
+
+#: ../../Clarification/Clarifier_Intro.rst:37
+msgid "Floc and particle types in the clarifier."
+msgstr "Tipos de flóculo y partículas en el clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "Symbol"
+msgstr "Símbolo"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "Terminal velocity"
+msgstr "Velocidad terminal"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "|small_floc|"
+msgstr "|small_floc|"
+
+#: ../../Clarification/Clarifier_Intro.rst:21
+msgid "small_floc"
+msgstr "small_floc"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid ""
+"Flocs and raw water particles that settle too slowly to be captured by the "
+"plate settlers"
+msgstr ""
+"Flocs y partículas agua cruda que se asientan demasiado despacio para ser "
+"capturadas por los asentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid ":math:`v_t < v_c`"
+msgstr ":math:`v_t < v_c`"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "|flocculator_floc|"
+msgstr "|flocculator_floc|"
+
+#: ../../Clarification/Clarifier_Intro.rst:19
+msgid "flocculator_floc"
+msgstr "flocculator_floc"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid ""
+"Flocculator flocs that settle fast enough to be captured by the plate "
+"settlers"
+msgstr ""
+"Flocadores floculadores que se asientan lo suficientemente rápido como para "
+"ser capturados por los asentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid ":math:`\\bar v_{z_{ff}} > v_t > v_c`"
+msgstr ":math:`\\bar v_{z_{ff}} > v_t > v_c`"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "|empty_floc_filter|"
+msgstr "|empty_floc_filter|"
+
+#: ../../Clarification/Clarifier_Intro.rst:15
+msgid "empty_floc_filter"
+msgstr "empty_floc_filter"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "Floc filters that form as |flocculator_floc| slide down the plate settlers"
+msgstr ""
+"Filtros de flóculo que se forman a medida que |flocculator_floc| deslizan "
+"por los sedimentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid ":math:`v_t > \\bar v_{z_{ff}}`"
+msgstr ":math:`v_t > \\bar v_{z_{ff}}`"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "|full_floc_filter|"
+msgstr "|full_floc_filter|"
+
+#: ../../Clarification/Clarifier_Intro.rst:17
+msgid "full_floc_filter"
+msgstr "full_floc_filter"
+
+#: ../../Clarification/Clarifier_Intro.rst:1
+msgid "Floc filters that no longer have capacity to capture |small_floc|"
+msgstr "Filtros de flóculo que ya no tienen capacidad para capturar |small_floc|"
+
+#: ../../Clarification/Clarifier_Intro.rst:48
+msgid ""
+"The video linked to :numref:`figure_clarifier_flocs` provides the context "
+"for the following description of the processes."
+msgstr ""
+"El vídeo enlazado a :numref:`figure_clarifier_flocs` proporciona el contexto"
+" para la siguiente descripción de los procesos."
+
+#: ../../Clarification/Clarifier_Intro.rst
+msgid "Clarifier with flocs."
+msgstr "Clarificador con flocs."
+
+#: ../../Clarification/Clarifier_Intro.rst:59
+msgid ""
+"AguaClara clarifier showing the four types of flocs and animation (click for"
+" video)."
+msgstr ""
+"Clarificador AguaClara mostrando los cuatro tipos de flóculos y animación "
+"(haz clic para ver vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:61
+msgid ""
+"The inlet manifold supplies |small_floc| that settle too slowly to be "
+"captured by the plate settlers and |flocculator_floc| that will be captured "
+"by the plate settlers. Before the floc filter forms the |small_floc| are not"
+" removed by the clarifier and exit through the outlet manifold."
+msgstr ""
+"Los suministros de manifold de entrada  |small_floc| que se asientan "
+"demasiado lentamente para ser capturados por los asentadores de placas y "
+"|flocculator_floc| que serán capturados por los asentadores de placas. Antes"
+" de que se forme el filtro de flóculos , los |small_floc| no se eliminan con"
+" el clarificador y salen por el colector de salida."
+
+#: ../../Clarification/Clarifier_Intro.rst:63
+msgid ""
+"The |flocculator_floc| settle on the plate settlers and then eventually "
+"slide down the plates in an avalanche  `(see animation of floc aggregation "
+"on a plate settler) <https://youtu.be/jCjKz6bCD7Y>`_. As the flocs slide "
+"down they aggregate into |empty_floc_filter|. The conversion of "
+"|flocculator_floc| into |empty_floc_filter| provides the mechanism for the "
+"flocs that are captured on the plate settlers to increase their terminal "
+"velocity so that they can fall back into the bottom of the clarifier. If "
+"|flocculator_floc| didn't convert into |empty_floc_filter| there wouldn't be"
+" any way for flocs captured by the plate settlers to exit from the bottom of"
+" the plate settlers."
+msgstr ""
+"Los |flocculator_floc| se depositan sobre los sedimentadores de placas y "
+"luego finalmente se deslizan por las placas en una `de avalancha (véase la "
+"animación de agregación de flócs en un placa sedimentadora) "
+"<https://youtu.be/jCjKz6bCD7Y>`_. A medida que los flócs se deslizan hacia "
+"abajo, se agregan en |empty_floc_filter|. La conversión de "
+"|flocculator_floc| en |empty_floc_filter| proporciona el mecanismo para que "
+"los flócs capturados en los sedimentadores de placas aumenten su velocidad "
+"terminal para que puedan caer de nuevo en el fondo del clarificador. Si "
+"|flocculator_floc| no se convirtiera en |empty_floc_filter| no habría forma "
+"de que los flócs capturados por los asentadores de placas pudieran salir por"
+" la base de los sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:65
+msgid ""
+"The |empty_floc_filter| have a fractal dimension of approximately 2 and thus"
+" are very porous. A significant amount of water flows right through these "
+"porous flocs (:numref:`figure_flow_thru_floc` and  `animation of floc "
+"capture <https://youtu.be/DZdF7_Krb2s>`_). As water flows through the floc "
+"some of the |small_floc| collide with similar sized particles that are held "
+"in place inside the floc."
+msgstr ""
+"Los |empty_floc_filter| tienen una dimensión fractal de aproximadamente 2 y,"
+" por tanto, son muy porosos. Una cantidad significativa de agua fluye "
+"directamente a través de estos flócs porosos "
+"(:numref:`figure_flow_thru_floc` y `animación de captura de flócs "
+"<https://youtu.be/DZdF7_Krb2s>`_). A medida que el agua fluye a través del "
+"flóc, algunos de los |small_floc| chocan con partículas de tamaño similar "
+"que se mantienen en su lugar dentro del flóc."
+
+#: ../../Clarification/Clarifier_Intro.rst
+msgid "Flow through a floc."
+msgstr "Flujo a través de un floco."
+
+#: ../../Clarification/Clarifier_Intro.rst:75
+msgid ""
+"Streamlines go around and through a floc filter. The fraction of the flow "
+"that goes through the floc is a function of the floc porosity."
+msgstr ""
+"Las líneas de corriente rodean y atraviesan un filtro de flóculos. La "
+"fracción del flujo que atraviesa el flóculo es función de la porosidad del "
+"flóc."
+
+#: ../../Clarification/Clarifier_Intro.rst:78
+msgid ""
+"As the floc filters, |empty_floc_filter|, capture the particles that "
+"otherwise would have escaped the clarifier, |small_floc|, the porosity of "
+"the |empty_floc_filter| decreases and less flow goes through the floc. "
+"Eventually the floc becomes loaded to capacity with |small_floc| and the "
+"resulting |full_floc_filter| is no longer able to capture any more "
+"|small_floc|."
+msgstr ""
+"A medida que los filtros de flóc, |empty_floc_filter|, capturan las "
+"partículas que de otro modo habrían escapado del clarificador, |small_floc|,"
+" la porosidad del |empty_floc_filter| disminuye y pasa menos flujo por el "
+"flóculo. Finalmente, el flóculo se carga hasta su capacidad con |small_floc|"
+" y el |full_floc_filter| resultante ya no puede capturar más |small_floc|."
+
+#: ../../Clarification/Clarifier_Intro.rst:80
+msgid ""
+"Mass conservation requires that at steady state the mass flux of solids into"
+" the clarifier match the flux of solids out of the clarifier. If the "
+"clarifier is functioning as designed and the coagulant dose is correct the "
+"majority of the incoming solids will be converted into large flocs "
+"(|empty_floc_filter| and |full_floc_filter|) and those flocs will flow over "
+"the top of the floc weir."
+msgstr ""
+"La conservación de masa requiere que, en estado estacionario, el flujo de "
+"masa de sólidos hacia el clarificador coincida con el flujo de sólidos que "
+"sale del clarificador. Si el clarificador funciona según lo diseñado y la "
+"dosis de coagulante es correcta, la mayoría de los sólidos entrantes se "
+"convertirán en grandes flócs (|empty_floc_filter| y |full_floc_filter|) y "
+"esos flócs pasarán por encima de la presa de flócs."
+
+#: ../../Clarification/Clarifier_Intro.rst:83
+msgid "Inlet and Floc Resuspension"
+msgstr "Resuspensión de admisión y floc"
+
+#: ../../Clarification/Clarifier_Intro.rst:85
+msgid ""
+"Delivering the flocculated water to the clarifier is one of the most "
+"critical design steps for ensuring successful operation of a water treatment"
+" plant. Design failures commonly produced much higher turbidity in the "
+"clarifier effluent due to large scale circulation that is set up in the "
+"clarifier basin due to the momentum of the incoming flow. The AguaClara "
+"design has evolved to eliminate large scale circulation and to ensure that "
+"the flow is distributed equally to all of the clarifier bays."
+msgstr ""
+"Suministrar el agua floculada al clarificador es uno de los pasos de diseño "
+"más críticos para asegurar el funcionamiento exitoso de una planta "
+"tratamiento de agua . Los fallos de diseño suelen producir una turbidez "
+"mucho mayor en el efluente clarificador debido a la circulación a gran "
+"escala que se establece en la cuenca clarificadora debido al impulso del "
+"flujo entrante. El diseño AguaClara ha evolucionado para eliminar la "
+"circulación a gran escala y asegurar que el flujo se distribuya por igual en"
+" todas las bahías del clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:87
+msgid ""
+"Water enters the clarifier bay through the influent manifold. Water exits "
+"the influent manifold through a series  **diffusers** in the bottom of the "
+"pipe shown in :numref:`figure_influent_manifold_diffuser_base`. Diffusers "
+"are what we call short stubs of pipe that extend perpendicular to the "
+"influent manifold. The diffusers point down to the bottom of the clarifier "
+"bay and extend along the length of the influent manifold at regular "
+"intervals to ensure that water is evenly distributed within the bay. The "
+"ends of the diffuser tubes are flattened so that they are thin rectangles "
+"and when placed side-by-side achieve a line-jet effect. The end of the "
+"influent manifold is capped."
+msgstr ""
+"El agua entra en la bahía de clarificadores a través del colector "
+"influyente. El agua sale del colector de influencia a través de una serie de"
+" **difusores** en la parte inferior de la tubería mostrada en "
+":numref:`figure_influent_manifold_diffuser_base`. Los difusores son lo que "
+"llamamos cortos muñones de tubería que se extienden perpendicularmente al "
+"colector influyente. Los difusores apuntan hacia abajo hasta el fondo de la "
+"bahía de clarificadores y se extienden a lo largo de la variedad de "
+"influencia a intervalos regulares para asegurar que el agua se distribuya "
+"uniformemente dentro de la bahía. Los extremos de los tubos difusores se "
+"aplanan de modo que queden rectángulos delgados y, al colocarse uno al lado "
+"del otro, logran un efecto de chorro de línea. El extremo del colector "
+"influyente está tapado."
+
+#: ../../Clarification/Clarifier_Intro.rst:96
+msgid "Influent manifold with diffusers."
+msgstr "Múltiple influente con difusores."
+
+#: ../../Clarification/Clarifier_Intro.rst:99
+msgid ""
+"The influent manifold diffuser system straightens the fluid jets that are "
+"exiting the manifold so that they have no horizontal velocity component as "
+"shown in :numref:`figure_flow_straightening`. This is critical because even "
+"a small horizontal velocity causes a large scale circulation that transports"
+" flocs directly to the top of the clarifier as shown in "
+":numref:`figure_flow_circulation`. Influent manifolds without flow "
+"straightening diffusers are commonly used in vertical flow clarifiers "
+"including designs by leading manufacturers."
+msgstr ""
+"El sistema difusor de colectores influentes endereza los chorros de fluido "
+"que salen del colector de modo que no tengan componente de velocidad "
+"horizontal, como se muestra en :numref:`figure_flow_straightening`. Esto es "
+"fundamental porque incluso una pequeña velocidad horizontal provoca una "
+"circulación a gran escala que transporta los flócs directamente a la parte "
+"superior del clarificador, como se muestra en "
+":numref:`figure_flow_circulation`. Los colectores influents sin difusores de"
+" rectificación de flujo se usan comúnmente en clarificadores verticales de "
+"flujo, incluyendo diseños de fabricantes líderes."
+
+#: ../../Clarification/Clarifier_Intro.rst:108
+msgid ""
+"Flow with a horizontal velocity component that causes problematic flow "
+"circulation."
+msgstr ""
+"Flujo con componente de velocidad horizontal que causa una circulación "
+"problemática."
+
+#: ../../Clarification/Clarifier_Intro.rst:110
+msgid ""
+"The horizontal flow created by the direction of flow inside the manifold "
+"results in preferential flow through the plate settlers at the terminal end "
+"of the manifold. This is a common problem in conventional clarifiers that "
+"don't have flow straightening diffusers or that have horizontal flow in the "
+"tank."
+msgstr ""
+"El flujo horizontal creado por la dirección del flujo dentro del colector da"
+" lugar a un flujo preferente a través de los sedimentadores de placas en el "
+"extremo terminal del múltiple. Este es un problema común en clarificadores "
+"convencionales que no tienen difusores de enderezamiento de flujo o que "
+"tienen flujo horizontal en el tanque."
+
+#: ../../Clarification/Clarifier_Intro.rst:112
+msgid ""
+"The underlying cause of the poor flow distribution between plate settlers "
+"(shown in :numref:`figure_flow_circulation`) is because the head loss "
+"through the plate settlers is inconsequential and thus there can't be "
+"**any** significant horizontal velocity below the plate settlers. It is "
+"possible that some plate settler manufactures address this issue by adding "
+"flow control orifices at the top of the plate settlers that add sufficient "
+"head loss to the flow through every plate settler to minimize the impact of "
+"velocity differences below the plates."
+msgstr ""
+"La causa subyacente de la mala distribución del flujo entre los "
+"sedimentadores de placas (mostrada en :numref:`figure_flow_circulation`) es "
+"que la pérdida de carga a través de los sedimentadores de placas es "
+"irrelevante y, por tanto, no puede haber **ninguna** velocidad horizontal "
+"significativa por debajo de los sedimentadores de placas. Es posible que "
+"algunos fabricantes de placa sedimentadora aborden este problema añadiendo "
+"orificios de control de flujo en la parte superior de los sedimentadores de "
+"placas que añadan suficiente pérdida de carga al flujo a través de cada "
+"placa sedimentadora para minimizar el impacto de las diferencias de "
+"velocidad bajo las placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:114
+msgid ""
+"The AguaClara solution is to use flow diffusers that simultaneously "
+"eliminate horizontal flow and create a line jet that resuspends settled "
+"flocs to maintain the floc filter in suspension."
+msgstr ""
+"La solución de AguaClara consiste en utilizar difusores de flujo que "
+"eliminan simultáneamente el flujo horizontal y crean un chorro de línea que "
+"resuspende los flócs asentados para mantener el filtro de flóculos en "
+"suspensión."
+
+#: ../../Clarification/Clarifier_Intro.rst:123
+msgid ""
+"Flow with the diffusers to remove horizontal velocity component to prevent "
+"problematic flow circulation."
+msgstr ""
+"Flujo con los difusores para eliminar el componente horizontal de velocidad "
+"y evitar una circulación problemática del flujo."
+
+#: ../../Clarification/Clarifier_Intro.rst:125
+msgid ""
+"The diffusers create a line jet that spans the entire length of the "
+"clarifier. This line jet enters the bay going down, but we want the water to"
+" ultimately flow up to make our vertical flow clarifier. To get the flow to "
+"redirect upwards, we use a **jet reverser**, which is half of a pipe that is"
+" laid in the bottom of the bay."
+msgstr ""
+"Los difusores crean un chorro de línea que abarca toda la longitud del "
+"clarificador. Este chorro de línea entra en la bahía bajando, pero queremos "
+"que el agua fluya finalmente hacia arriba para formar nuestro clarificador "
+"vertical de flujo. Para que el flujo se redirija hacia arriba, usamos un "
+"**inversor de chorro**, que es la mitad de una tubería colocada en el fondo "
+"de la bahía."
+
+#: ../../Clarification/Clarifier_Intro.rst:134
+msgid "Detail of the bottom of the clarifier."
+msgstr "Detalle de la parte inferior del clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:134
+#: ../../Clarification/Clarifier_Intro.rst:186
+msgid "Cross-section of the bottom of the clarifier."
+msgstr "Sección transversal de la parte inferior del clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:136
+msgid ""
+"You may be wondering, why do we need a jet reverser in the first place? Why "
+"don't we just have the diffusers point up to avoid having to change the flow"
+" in the first place? The answer has multiple components."
+msgstr ""
+"Quizá te preguntes, ¿por qué necesitamos un inversor de chorro en primer "
+"lugar? ¿Por qué no dejamos que los difusores apunten hacia arriba para "
+"evitar tener que cambiar el flujo en primer lugar? La respuesta tiene varios"
+" componentes."
+
+#: ../../Clarification/Clarifier_Intro.rst:138
+msgid ""
+"If the diffusers were to point up, that would mean that any sedimentation "
+"that happens near the terminal end of the manifold would accumulate and the "
+"sediment would have no way of being removed."
+msgstr ""
+"Si los difusores apuntaran hacia arriba, eso significaría que cualquier "
+"sedimentación que ocurra cerca del extremo terminal del colector se "
+"acumularía y el sedimento no tendría forma de ser eliminado."
+
+#: ../../Clarification/Clarifier_Intro.rst:139
+msgid ""
+"If flow were just to point directly up, it would not have an opportunity to "
+"sufficiently spread into the width of the clarifier bay, which could lead to"
+" \"short-circuiting\" and poor flow distribution overall."
+msgstr ""
+"Si el flujo solo apuntara directamente hacia arriba, no tendría oportunidad "
+"de extenderse suficientemente por el ancho de la bahía clarificadora, lo que"
+" podría provocar \"cortocircuitos\" y una mala distribución general del "
+"flujo."
+
+#: ../../Clarification/Clarifier_Intro.rst:140
+msgid ""
+"The jet reverser functions as a way to keep flocs suspended by ensuring that"
+" anything that settles will be propelled back up from the force of the "
+"diffuser jet. The jet reverser and diffuser alignment is not symmetrical; "
+"the diffusers are directed to one side of the jet reverser (either by slight"
+" rotation of the inlet manifold or by an offset). This is intentionally done"
+" to ensure that the diffuser jet never collapses to promote a floc filter, "
+"which will be discussed next. :numref:`figure_jet_placement` shows that flat"
+" bottomed and centered jets do not create a floc filter while offset jets "
+"are stable."
+msgstr ""
+"El inversor de chorro funciona como una forma de mantener los flóculos "
+"suspendidos asegurando que cualquier cosa que se asiente sea impulsada hacia"
+" arriba por la fuerza del chorro difusor. La alineación del inversor y "
+"difusor del chorro no es simétrica; los difusores se dirigen a un lado del "
+"inversor del chorro (ya sea por una ligera rotación del manifold de entrada "
+"o por un desplazamiento). Esto se hace intencionadamente para asegurar que "
+"el chorro del difusor nunca colapse para promover un filtro de flóculos, que"
+" se discutirá a continuación. :numref:`figure_jet_placement` muestra que los"
+" chorros con fondo plano y centrado no crean un filtro de flóculos mientras "
+"que los chorros desplazados son estables."
+
+#: ../../Clarification/Clarifier_Intro.rst:149
+msgid ""
+"The jet reverser and diffuser alignments; the offset jet is the most "
+"successful."
+msgstr ""
+"Las alineaciones del inversor y difusor del chorro; el chorro desplazado es "
+"el más exitoso."
+
+#: ../../Clarification/Clarifier_Intro.rst:151
+msgid ""
+"There is a lot of research interest in determining the optimal upflow "
+"velocity for floc filters considering that high velocity is better for "
+"resuspension but breaks more flocs. Currently, AguaClara plants use an "
+"upflow velocity of 1 mm/s."
+msgstr ""
+"Hay mucho interés en la investigación en determinar la velocidad óptima de "
+"flujo ascendente para los filtros de flócs, considerando que una alta "
+"velocidad es mejor para la resuspensión pero rompe más flocas. Actualmente, "
+"las plantas de AguaClara utilizan una velocidad de flujo ascendente de 1 "
+"mm/s."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:161
+msgid "Flat bottomed tank with settled flocs (click to be sent to video)."
+msgstr "Acuario de fondo plano con flócs asentados (haz clic para enviarlo al vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:163
+msgid ""
+"As shown in :numref:`figure_flat_bottomed_tank` and the linked video, in a "
+"flat bottom geometry, flocs settle in the corners of the tank because there "
+"is no direct flow of water to resuspend it. Flocs fall in such a way that "
+"the corners of the tank will fill first, with more and more flocs settling "
+"until the angle of repose is created. This angle that is occupied by flocs "
+"suggests that if we want to avoid having flocs settle, we should fill the "
+"sides of the tank in with concrete and create a sloped bottom so that there "
+"are no surfaces for settling."
+msgstr ""
+"Como se muestra en :numref:`figure_flat_bottomed_tank` y en el vídeo "
+"enlazado, en una geometría de fondo plano, los flócs se asientan en las "
+"esquinas del acuario porque no hay un flujo directo de agua que los "
+"resuspenda. Los flócs caen de tal manera que las esquinas del acuario se "
+"llenan primero, y cada vez más flócs se asientan hasta que se crea el ángulo"
+" de reposo. Este ángulo que ocupan los flócs sugiere que, si queremos evitar"
+" que los flócs se asienten, deberíamos rellenar los laterales del tanque con"
+" hormigón y crear un fondo inclinado para que no haya superficies para el "
+"asentamiento."
+
+#: ../../Clarification/Clarifier_Intro.rst:165
+msgid ""
+"Successful floc filter formation is shown in "
+":numref:`figure_floc_filter_experiment`. Studies by AguaClara researchers "
+"have found that floc filters improve the performance of a clarifier and "
+"reduce settled water turbidity by a factor of 10 for multiple reasons "
+"(`Garland et al., 2017 "
+"<https://www.liebertpub.com/doi/10.1089/ees.2016.0174>`_)."
+msgstr ""
+"La formación exitosa de filtro de flóculos se ha demostrado en "
+":numref:`figure_floc_filter_experiment`. Estudios de investigadores de "
+"AguaClara han encontrado que los filtros flóculos mejoran el rendimiento de "
+"un clarificante y reducen la turbidez agua sedimentada por un factor de 10 "
+"por múltiples razones (`Garland et al., 2017 "
+"<https://www.liebertpub.com/doi/10.1089/ees.2016.0174>`_)."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:175
+msgid "Floc filter formation over time (click to be sent to video)."
+msgstr ""
+"filtro de flóculos formación con el tiempo (haz clic para que se envíe al "
+"vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:177
+msgid ""
+"The influent manifold, diffusers, and jet reverser work with a **sloped "
+"bottom geometry** in an AguaClara plant. The slope on either side of the "
+"diffusers is at a 50 degree angle. The bottom geometry allows for smooth "
+"flow expansion to the entire plan view area of the bay, and ensures that all"
+" flocs that settle are transported to the jet reverser. The diffusers do not"
+" touch the bottom of the tank so that flocs on both sides of the diffuser "
+"can fall into the jet reverser for resuspension. Thus, there is no "
+"accumulation of settled flocs in the clarifier bays. Sludge that is allowed "
+"to accumulate in the bottom of clarifiers in tropical and temperate climates"
+" decomposes anaerobically and generates methane. The methane forms gas "
+"bubbles that carry suspended solids to the top of the clarifier and cause a "
+"reduction in particle removal efficiency. The AguaClara clarifier bottom "
+"geometry prevents sludge accumulation while also ensuring good flow "
+"distribution."
+msgstr ""
+"El colector influente, los difusores y el inversor de chorro funcionan con "
+"una **geometría de fondo inclinado** en una planta de AguaClara. La "
+"pendiente a ambos lados de los difusores está en un ángulo de 50 grados. La "
+"geometría del fondo permite una expansión suave del flujo en toda la zona de"
+" vista en planta de la bahía y asegura que todos los flócs que se asientan "
+"se transporten al inversor de chorro. Los difusores no tocan el fondo del "
+"tanque, por lo que los flócs a ambos lados del difusor pueden caer en el "
+"inversor de chorro para su resuspensión. Así, no hay acumulación de flócs "
+"asentados en las bahías de clarificadores. Los lodos que se dejan acumular "
+"en el fondo de los clarificadores en climas tropicales y templados se "
+"descomponen anaeróbicamente y generan metano. El metano forma burbujas de "
+"gas que llevan sólidos suspendidos a la parte superior del clarificador y "
+"reducen la eficiencia de eliminación de partículas. La geometría inferior "
+"del clarificador AguaClara previene la acumulación de lodos y también "
+"garantiza una buena distribución del flujo."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:196
+msgid "Sloped bottom tank with fully suspended flocs (click to be sent to video)."
+msgstr ""
+"Acuario con fondo inclinado y flóculos totalmente suspendidos (haz clic para"
+" enviarlo al vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:198
+msgid ""
+"So we know that the diffusers, jet reverser, and sloped bottom ensure that "
+"no sludge accumulates in the bay by creating a system to resuspend any "
+"settled flocs."
+msgstr ""
+"Así que sabemos que los difusores, el inversor de chorro y el fondo "
+"inclinado aseguran que no se acumule lodo en la bahía creando un sistema "
+"para resuspender cualquier flócs asentado."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:208
+msgid ""
+"Distribution of flocculated water and resuspension of settling flocs (click "
+"to be sent to video)."
+msgstr ""
+"Distribución de agua floculada y resuspensión de floques de sedimentación "
+"(haz clic para pasar al vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:210
+msgid ""
+"What are the failure modes for this system? For one, we need to ensure that "
+"the jet of water exiting the diffuser is able to maintain its upward "
+"direction after the jet reverser. The jet is influenced by the flows that "
+"are coming down the sloped sides of the tank. Thus, the jet must have enough"
+" momentum to remain upwards even with the momentum from other flows "
+"downwards. We can control the momentum of the jet by controlling the cross-"
+"sectional area of the diffuser slot. A smaller cross-sectional area will "
+"increase the velocity of the jet but the mass is the same because the flow "
+"rate for the plant is the same, thus increasing the momentum."
+msgstr ""
+"¿Cuáles son los modos de fallo de este sistema? Por un lado, debemos "
+"asegurarnos de que el chorro de agua que sale del difusor pueda mantener su "
+"dirección ascendente tras el inversor del chorro. El chorro está "
+"influenciado por los flujos que bajan por los lados inclinados del tanque. "
+"Por tanto, el chorro debe tener suficiente momento para mantenerse hacia "
+"arriba incluso con el momento de otros flujos hacia abajo. Podemos controlar"
+" el momento del chorro controlando el área de sección transversal de la "
+"ranura del difusor. Un área de sección transversal más pequeña aumentará la "
+"velocidad del chorro, pero la masa es la misma porque la caudal para la "
+"planta es la misma, aumentando así el momento."
+
+#: ../../Clarification/Clarifier_Intro.rst:212
+msgid ""
+"`Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_ showed that the jet"
+" was unable to resuspend the flocs when the jet velocity was 57 mm/s and was"
+" successful for all velocities greater than 75 mm/s. The momentum of the "
+"floc density current will increase with the concentration of flocs in the "
+"primary filter which is in turn a function of the density and size of the "
+"core particles. The primary filter floc concentration will decrease at lower"
+" temperatures and thus failure of the jet reverser will occur at high "
+"temperatures. Given that Dr. Garland did the research at room temperature "
+"using a kaolin suspension it is likely that the 75 mm/s guidelines is "
+"sufficiently conservative for all designs that have a 1 mm/s upflow "
+"velocity. The jet reverser will fail at some point as the flow rate through "
+"the clarifier is decreased. The solution for that case would be to take a "
+"fraction of the clarifiers off line to maintain a higher jet velocity."
+msgstr ""
+"`Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_ demostró que el "
+"chorro no podía volver a suspender los flócs cuando la velocidad del chorro "
+"era de 57 mm/s y tuvo éxito para todas las velocidades superiores a 75 mm/s."
+" El momento de la corriente de densidad de flócs aumentará con la "
+"concentración de flóculos en el filtro primario, lo que a su vez depende de "
+"la densidad y el tamaño de las partículas del núcleo. La concentración "
+"primaria de flóculos del filtro disminuirá a temperaturas bajas y, por "
+"tanto, el fallo del inversor del chorro ocurrirá a altas temperaturas. Dado "
+"que el Dr. Garland investigó a temperatura ambiente usando una suspensión de"
+" caolín, es probable que las directrices de 75 mm/s sean suficientemente "
+"conservadoras para todos los diseños que tengan una velocidad ascendente de "
+"1 mm/s. El inversor del chorro fallará en algún momento a medida que "
+"disminuye la caudal a través del clarificador. La solución en ese caso sería"
+" desconectar una fracción de los clarificadores para mantener una mayor "
+"velocidad del chorro."
+
+#: ../../Clarification/Clarifier_Intro.rst:221
+msgid "Jet diameter and current of settled flocs."
+msgstr "Diámetro del chorro y corriente de los flócs sedimentados."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:231
+msgid "Jet reverser resuspending flocs (click to be sent to video)."
+msgstr "Reversor de chorro que resuspende los flócs (haz clic para enviarlo a vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:235
+msgid "Diffuser Fabrication"
+msgstr "Fabricación de difusores"
+
+#: ../../Clarification/Clarifier_Intro.rst:237
+msgid ""
+"Diffusers are shaped so that one end is a circular pipe that fits into the "
+"influent manifold orifice, and the other end is deformed to the shape of a "
+"thin rectangle, as shown in :numref:`figure_diffuser_side_top_bottom`."
+msgstr ""
+"Los difusores están moldeados de modo que un extremo es un tubo circular que"
+" encaja en el orificio influyente del múltiple, y el otro extremo está "
+"deformado en forma de rectángulo delgado, como se muestra en "
+":numref:`figure_diffuser_side_top_bottom`."
+
+#: ../../Clarification/Clarifier_Intro.rst:246
+msgid "Side, top, and bottom view of a diffuser."
+msgstr "Vista lateral, superior e inferior de un difusor."
+
+#: ../../Clarification/Clarifier_Intro.rst:248
+msgid ""
+"Recall that this deformation is done to create a line jet entering the jet "
+"reverser in the bottom of the clarifier. Diffusers are shaped by dipping the"
+" pipe stubs in hot oil, and then pushing the maleable and heated pipe onto a"
+" metal form, as shown in :numref:`figure_diffuser_fabrication`. This metal "
+"form is sized so that the target shape is achieved."
+msgstr ""
+"Recuerda que esta deformación se realiza para crear un chorro de línea que "
+"entra en el inversor del chorro en la parte inferior del clarificador. Los "
+"difusores se moldean sumergiendo los muñones de tubería en aceite caliente y"
+" luego empujando el tubo malezable y calentado sobre una forma metálica, "
+"como se muestra en :numref:`figure_diffuser_fabrication`. Esta forma "
+"metálica está dimensionada para lograr la forma objetivo."
+
+#: ../../Clarification/Clarifier_Intro.rst:257
+msgid ""
+"Process of heating the PVC in oil and molding the diffuser shape on the "
+"metal forms."
+msgstr ""
+"Proceso de calentar el PVC en aceite y moldear la forma del difusor en los "
+"moldes metálicos."
+
+#: ../../Clarification/Clarifier_Intro.rst:261
+msgid "Sedimentation and Plate Settlers"
+msgstr "Sedimentación y colonizadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:263
+msgid ""
+"Sedimentation is a gravity-driven unit process in which suspended flocs are "
+"settled out from water. Large flocs made up of many primary particles and "
+"coagulant will settle if given enough time. Clarification is commonly "
+"preceded by flocculation to form flocs which will be large enough to settle "
+"in the clarifier - and is commonly followed by filtration to capture "
+"particles that passed through the clarifier. Sludge consolidation processes "
+"are often present alongside clarifiers to reduce the waste stream of settled"
+" flocs. Optimizing clarification is important because the more particles "
+"that clarifiers can remove, the fewer particles the filter will have to "
+"remove. This is good because filters can only handle a small amount of "
+"solids, and cleaning the filters with backwash uses a lot of water so we "
+"want to reduce the number of backwashes."
+msgstr ""
+"La sedimentación es un proceso unitario impulsado por gravedad en el que los"
+" flócs suspendidos se depositan del agua. Los flócs grandes formados por "
+"muchas partículas primarias y coagulante se asientan si se les da suficiente"
+" tiempo. La clarificación suele ir precedida por la floculación para formar "
+"flócs lo suficientemente grandes como para depositarse en el clarificador, y"
+" suele ir seguida de una filtración para capturar partículas que han pasado "
+"por el clarificador. Los procesos de consolidación de lodos suelen estar "
+"presentes junto con los clarificadores para reducir el flujo de residuos de "
+"flócs sedimentados. Optimizar la clarificación es importante porque cuantas "
+"más partículas puedan eliminar los clarificadores, menos partículas tendrá "
+"que eliminar el filtro. Esto es bueno porque los filtros solo pueden manejar"
+" una pequeña cantidad de sólidos, y limpiar los filtros con contralavado "
+"consume mucha agua, por lo que queremos reducir el número de contralavados."
+
+#: ../../Clarification/Clarifier_Intro.rst:265
+msgid ""
+"To introduce you to sedimentation, we will begin with a simple example. If a"
+" jar of water filled with flocs was left at rest, flocs would begin to "
+"settle due to gravitational forces pulling them down. Large flocs would "
+"settle first, but if left for long enough, all flocs would settle to the "
+"bottom of the jar. In its most basic form, the jar represents a clarifier in"
+" which flocculated water is treated. Settled flocs are waste and the water "
+"on the top of the jar, referred to as the supernatant, is the clarified "
+"water."
+msgstr ""
+"Para introducirte en la sedimentación, empezaremos con un ejemplo sencillo. "
+"Si un frasco lleno de flocas se dejara en reposo, las flocas empezarían a "
+"asentarse debido a las fuerzas gravitatorias que los tiran hacia abajo. Las "
+"flocas grandes se asentarían primero, pero si se dejan el tiempo suficiente,"
+" todas las flocas se depositarían en el fondo del tarro. En su forma más "
+"básica, la jarra representa un clarificador en el que se trata el agua "
+"floculada. Las flocas sedimentadas son desechos y el agua en la parte "
+"superior del tarro, llamada sobrenadante, es la agua clarificada."
+
+#: ../../Clarification/Clarifier_Intro.rst:267
+msgid ""
+"Constraints of space, time, and cost make it important to optimize the "
+"settling process. It would not be realistic to design water treatment "
+"systems that use the basic jar-like system to settle flocs because large "
+"flow rates would require unreasonably large reactor volumes and long "
+"retention times. The goal of clarifier design is to employ geometries that "
+"promote settling and allow for fast treatment with small footprints."
+msgstr ""
+"Las limitaciones de espacio, tiempo y coste hacen importante optimizar el "
+"proceso de sedimentación. No sería realista diseñar sistemas tratamiento de "
+"agua que utilicen el sistema básico tipo frasco para decantar flocas, porque"
+" caudales elevados requerirían volúmenes de reactor desproporcionadamente "
+"grandes y tiempos de retención largos. El objetivo del diseño de "
+"clarificadores es emplear geometrías que favorezcan el asentamiento y "
+"permitan un tratamiento rápido con huellas pequeñas."
+
+#: ../../Clarification/Clarifier_Intro.rst:269
+msgid ""
+"What if we were to do the same jar experiment with raw water that did not go"
+" through successful coagulation and flocculation? Would we observe the same "
+"settling and successful particle removal? To answer this, we must recall "
+"information learned in the section on coagulation and flocculation; those "
+"two treatment processes serve to destabilize and agglomerate particles to "
+"form flocs that will be heavy enough to settle. If the particles are "
+"colloids and are not destabilized, no amount of time will allow for the "
+"settling. This emphasizes the fact that successful clarification can only "
+"happen after successful flocculation."
+msgstr ""
+"¿Y si hiciéramos el mismo experimento del frasco con agua cruda que no "
+"pasaron por coagulación y floculación exitosas? ¿Observaríamos el mismo "
+"asentamiento y eliminación exitosa de partículas? Para responder a esto, "
+"debemos recordar la información aprendida en la sección sobre coagulación y "
+"floculación; esos dos procesos de tratamiento sirven para desestabilizar y "
+"aglomerar partículas para formar flócs lo suficientemente pesados como para "
+"asentarse. Si las partículas son coloides y no están desestabilizadas, no se"
+" permitirá el asentamiento de tiempo. Esto enfatiza que la aclaración "
+"exitosa solo puede ocurrir tras una floculación exitosa."
+
+#: ../../Clarification/Clarifier_Intro.rst:271
+msgid ""
+"The three main steps that need to be accomplished for a clarifier to be "
+"successful are as follows:"
+msgstr ""
+"Los tres pasos principales que deben completarse para que un clarificador "
+"tenga éxito son los siguientes:"
+
+#: ../../Clarification/Clarifier_Intro.rst:273
+msgid "Small flocs need to be able to settle to a plate or tube settler surface."
+msgstr ""
+"Los flócs pequeños deben poder asentarse en una superficie de placa o tubo "
+"de sedimentación."
+
+#: ../../Clarification/Clarifier_Intro.rst:274
+msgid ""
+"Settling flocs in the floc filter need to be able to move from wherever they"
+" settle to a resuspension zone."
+msgstr ""
+"Los floques de sedimentación en la filtro de flóculos deben poder moverse "
+"desde donde se asientan hasta una zona de resuspensión."
+
+#: ../../Clarification/Clarifier_Intro.rst:275
+msgid ""
+"Excess flocs must be removed from the floc filter and allowed to consolidate"
+" before being wasted."
+msgstr ""
+"Los flócs excedentes deben retirarse del filtro de flóculos y dejarse "
+"consolidar antes de desperdiciarse."
+
+#: ../../Clarification/Clarifier_Intro.rst:277
+msgid ""
+"Clarification is ubiquitous in water treatment. Nevertheless, the process is"
+" very complex with many failure modes and there are many active research "
+"areas. The following sections will explore the state of conventional "
+"sedimentation systems and their challenges, gaps in knowledge, and the "
+"AguaClara approach to clarification."
+msgstr ""
+"La clarificación es omnipresente en tratamiento de agua. No obstante, el "
+"proceso es muy complejo, con muchos modos de fallo y existen muchas áreas de"
+" investigación activas. Las siguientes secciones explorarán el estado de los"
+" sistemas de sedimentación convencionales y sus desafíos, lagunas de "
+"conocimiento y el enfoque de AguaClara para la clarificación."
+
+#: ../../Clarification/Clarifier_Intro.rst:279
+msgid ""
+"To understand how clarification works, a few key concepts must first be "
+"developed. This includes understanding how and why flocs move in water. "
+"Remember, one of the goals of clarifiers is to optimize the floc-settling "
+"process."
+msgstr ""
+"Para entender cómo funciona la clarificación, primero deben desarrollarse "
+"algunos conceptos clave. Esto incluye comprender cómo y por qué se mueven "
+"los flóculos en el agua. Recuerda, uno de los objetivos de los "
+"clarificadores es optimizar el proceso de asentamiento de flóculos."
+
+#: ../../Clarification/Clarifier_Intro.rst:286
+msgid "Terminal Velocity and Capture Velocity"
+msgstr "Velocidad terminal y velocidad de captura"
+
+#: ../../Clarification/Clarifier_Intro.rst:288
+msgid ""
+"Sedimentation is the process of particles ‘falling’ because they have a "
+"higher density then the water, and its governing equation is "
+":eq:`eq_laminar_terminal_velocity`. The terminal velocities of particles in "
+"surface waters range over many orders of magnitude especially if you "
+"consider that mountain streams can carry large rocks. But removing rocks "
+"from water is easily accomplished, gravity will take care of it for us. "
+"Gravity is such a great force for separation of particles from water that we"
+" would like to use it to remove small particles too. Unfortunately, gravity "
+"becomes rather ineffective at separating pathogens and small inorganic "
+"particles such as clay. The terminal velocities (Equation "
+":eq:`eq_laminar_terminal_velocity`) of these particles is given in "
+":numref:`figure_terminal_velocity_copy`."
+msgstr ""
+"La sedimentación es el proceso de que las partículas 'caen' porque tienen "
+"una densidad mayor que el agua, y su ecuación que lo rege es "
+":eq:`eq_laminar_terminal_velocity`. Las velocidades terminales de las "
+"partículas en aguas superficiales varían en muchos órdenes de magnitud, "
+"especialmente si se considera que los arroyos de montaña pueden transportar "
+"rocas grandes. Pero extraer rocas del agua es fácil, la gravedad se "
+"encargará de ello por nosotros. La gravedad es una fuerza tan grande para la"
+" separación de partículas del agua que nos gustaría usarla también para "
+"eliminar partículas pequeñas. Desafortunadamente, la gravedad se vuelve "
+"bastante ineficaz para separar patógenos y pequeñas partículas inorgánicas "
+"como la arcilla. Las velocidades terminales (Ecuación "
+":eq:`eq_laminar_terminal_velocity`) de estas partículas se dan en "
+":numref:`figure_terminal_velocity_copy`."
+
+#: ../../Clarification/Clarifier_Intro.rst:290
+msgid ""
+"`Colab worksheet plotting the terminal velocity "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=7r75Qu4yPC80&line=18&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab que grafica la velocidad terminal "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=7r75Qu4yPC80&line=18&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Intro.rst:299
+msgid "Terminal Velocity"
+msgstr "Velocidad terminal"
+
+#: ../../Clarification/Clarifier_Intro.rst:299
+msgid ""
+"The terminal velocity of a 1 :math:`\\mu m` bacteria cell is approximately "
+"20 nanometers per second. The terminal velocity of a 5 :math:`\\mu m` clay "
+"particles is 30 :math:`\\mu m/s`. The velocity estimates for the faster "
+"settling particles may be too slow because those particles are transitioning"
+" to turbulent flow."
+msgstr ""
+"La velocidad terminal de una célula bacteriana de 1 :math:`\\mu m` es "
+"aproximadamente de 20 nanómetros por segundo. La velocidad terminal de una "
+"célula de arcilla de 5 :math:`\\mu m` es de 30 :math:`\\mu m/s`. Las "
+"estimaciones de velocidad para las partículas que se asientan más rápido "
+"pueden ser demasiado lentas porque esas partículas están en transición hacia"
+" un flujo turbulento."
+
+#: ../../Clarification/Clarifier_Intro.rst:301
+msgid ""
+"The low terminal velocities of particles that we need to remove from surface"
+" waters reveals that sedimentation alone will not work. The time required "
+"for a small particle to settle even a few mm would require excessively large"
+" clarifiers. This is why flocculation, the process of sticking particles "
+"together so that they can attain higher terminal velocities, is perhaps the "
+"most important unit process in surface water treatment plants."
+msgstr ""
+"Las bajas velocidades terminales de las partículas que necesitamos eliminar "
+"de las aguas superficiales revelan que la sedimentación por sí sola no "
+"funcionará. El tiempo necesario para que una partícula pequeña se asiente "
+"incluso unos pocos mm requeriría clarificadores excesivamente grandes. Por "
+"eso la floculación, el proceso de unir partículas para que alcancen "
+"velocidades terminales más altas, es quizás el proceso unitario más "
+"importante en plantas tratamiento de agua superficies."
+
+#: ../../Clarification/Clarifier_Intro.rst:303
+msgid ""
+"Capture velocity is defined as the velocity of the slowest settling particle"
+" that a clarifier captures reliably. It is a property of the geometry of the"
+" clarifier. Because it is a property of geometry, we can use it as an "
+"important design tool; because we can control reactor geometry, we can "
+"control the sizes of particles that we can settle. However, the size of "
+"particles that a clarifier can capture is also a function of the viscosity "
+"of the water and thus is influenced by temperature."
+msgstr ""
+"La velocidad de captura se define como la velocidad de la partícula de "
+"sedimentación más lenta que un clarificador captura de forma fiable. Es una "
+"propiedad de la geometría del clarificador. Como es una propiedad de la "
+"geometría, podemos usarla como una herramienta importante de diseño; como "
+"podemos controlar la geometría del reactor, podemos controlar el tamaño de "
+"las partículas que podemos depositar. Sin embargo, el tamaño de las "
+"partículas que un clarificador puede capturar también depende de la "
+"viscosidad del agua y, por tanto, está influenciado por la temperatura."
+
+#: ../../Clarification/Clarifier_Intro.rst:305
+msgid ""
+"Note that there are a couple of different terms used to describe the "
+"sedimentation process. We can say that clarifiers \"capture\" particles when"
+" particles settled. We can also say that clarifiers \"remove\" particles. "
+"Both terms refer to the process of particles or floc settling out of "
+"suspension in water. Clarification tanks separate some particles from the "
+"water and eventually divert those captured particles into a waste stream."
+msgstr ""
+"Ten en cuenta que existen un par de términos diferentes para describir el "
+"proceso de sedimentación. Podemos decir que los clarificadores \"capturan\" "
+"partículas cuando las partículas se asientan. También podemos decir que los "
+"clarificadores \"eliminan\" partículas. Ambos términos se refieren al "
+"proceso de partículas o flocaciones que se asientan fuera de la suspensión "
+"en el agua. Los tanques de clarificación separan algunas partículas del agua"
+" y finalmente desvían esas partículas capturadas hacia un flujo de residuos."
+
+#: ../../Clarification/Clarifier_Intro.rst:307
+msgid ""
+"We will develop our definition of settle capture velocity using examples of "
+"horizontal flow and vertical flow clarifiers. It should be noted that there "
+"are many idealizations and simplifications made for modeling clarifiers. We "
+"assume that water will move through the reactor as expected (in the case of "
+"the horizontal flow clarifier, from one end to the other), but we know that "
+"there are many more fluids complications than are described here. We assume "
+"that everything is moving at the average velocity and there are no "
+"turbulence or velocity profiles. For the time being, we will ignore what "
+"will happen to particles once they are captured by the clarifier. Our "
+"intuition tells us that particles which settle will need to be removed "
+"somehow, and that is correct. For now, we only care about capturing the "
+"particles, and later we will care about what we do with them once they are "
+"captured."
+msgstr ""
+"Desarrollaremos nuestra definición de velocidad de captura de sedimentación "
+"usando ejemplos de clarificadores de flujo horizontal y vertical. Cabe "
+"señalar que existen muchas idealizaciones y simplificaciones para modelar "
+"clarificadores. Asumimos que el agua se moverá a través del reactor como se "
+"espera (en el caso del clarificador de flujo horizontal, de un extremo al "
+"otro), pero sabemos que hay muchas más complicaciones de fluidos de las que "
+"se describen aquí. Asumimos que todo se mueve a la velocidad media y que no "
+"hay turbulencias ni perfiles de velocidad. Por el momento, ignoraremos lo "
+"que ocurrirá con las partículas una vez que sean capturadas por el "
+"clarificador. Nuestra intuición nos dice que las partículas que se asientan "
+"deberán ser eliminadas de alguna manera, y eso es correcto. Por ahora, solo "
+"nos importa capturar las partículas, y más adelante nos importará qué "
+"hagamos con ellas una vez capturadas."
+
+#: ../../Clarification/Clarifier_Intro.rst:309
+msgid ""
+"Temperature plays an important role in sedimentation processes. Colder "
+"temperatures mean more viscous fluid; particles suspended in viscous fluid "
+"don't fall as quickly as they would in warmer, less viscous fluid. "
+"Clarification tanks don't work as well in cold temperatures as they do in "
+"warm temperatures. If the goal is for the clarifier to remove a certain size"
+" of particle, then the required capture velocity must also be a function of "
+"temperature. Keep this in mind throughout the chapter as you learn how "
+"capture velocity drives to plant design."
+msgstr ""
+"La temperatura juega un papel importante en los procesos de sedimentación. "
+"Las temperaturas más bajas significan más fluido viscoso; las partículas "
+"suspendidas en fluido viscoso no caen tan rápido como caen en un fluido más "
+"cálido y menos viscoso. Los tanques de clarificación no funcionan tan bien "
+"en temperaturas frías como en temperaturas cálidas. Si el objetivo es que el"
+" clarificador elimine un cierto tamaño de partícula, entonces la velocidad "
+"de captura requerida también debe depender de la temperatura. Ten esto en "
+"cuenta a lo largo del capítulo mientras aprendes cómo la velocidad de "
+"captura influye en el diseño de plantas."
+
+#: ../../Clarification/Clarifier_Intro.rst:312
+msgid "Horizontal Flow Clarifier"
+msgstr "Purificador de flujo horizontal"
+
+#: ../../Clarification/Clarifier_Intro.rst:321
+msgid "Horizontal flow clarifier."
+msgstr "Clarificador de flujo horizontal."
+
+#: ../../Clarification/Clarifier_Intro.rst:323
+#: ../../Clarification/Clarifier_Intro.rst:339
+#: ../../Clarification/Clarifier_Intro.rst:417
+msgid "Where:"
+msgstr "Donde:"
+
+#: ../../Clarification/Clarifier_Intro.rst:324
+msgid ":math:`L =` length [L]"
+msgstr ":math:`L =` longitud [L]"
+
+#: ../../Clarification/Clarifier_Intro.rst:325
+msgid ":math:`W =` width [L]"
+msgstr ":math:`W =` ancho [L]"
+
+#: ../../Clarification/Clarifier_Intro.rst:326
+msgid ":math:`H =` height [L]"
+msgstr ":math:`H =` altura [L]"
+
+#: ../../Clarification/Clarifier_Intro.rst:327
+msgid ":math:`A_p =` plan view area of the tank [:math:`L^2`]"
+msgstr ":math:`A_p =` área de vista en planta del tanque [:math:`L^2`]"
+
+#: ../../Clarification/Clarifier_Intro.rst:329
+msgid ""
+"Let's begin with a few questions that will describe our horizontal flow "
+"clarifier in :numref:`figure_horizontal_flow_tank_base`. We will assume that"
+" 1) water travels uniformly from one end of the tank to the other, and 2) "
+"the particle that we are discussing is 35 :math:`\\mu m` (which is the size "
+"of particle that AguaClara plate settlers can capture)."
+msgstr ""
+"Empecemos con algunas preguntas que describirán nuestro clarificador de "
+"flujo horizontal en :numref:`figure_horizontal_flow_tank_base`. Asumiremos "
+"que 1) el agua viaja uniformemente de un extremo al otro del tanque, y 2) la"
+" partícula que estamos discutiendo tiene 35 :math:`\\mu m` (que es el tamaño"
+" de la partícula que los sedimentadores de placas de AguaClara pueden "
+"capturar)."
+
+#: ../../Clarification/Clarifier_Intro.rst:331
+msgid "**1) How much time is required** for water to pass through the tank?"
+msgstr "**1) ¿Cuánto tiempo se necesita** para que el agua pase por el depósito?"
+
+#: ../../Clarification/Clarifier_Intro.rst:333
+msgid ""
+"To determine this value, we can use the given volume and flow rate "
+"information by the following relationship:"
+msgstr ""
+"Para determinar este valor, podemos usar el volumen y la información caudal "
+"dados mediante la siguiente relación:"
+
+#: ../../Clarification/Clarifier_Intro.rst:335
+#: ../../Clarification/Clarifier_Intro.rst:413
+msgid "\\theta = \\frac{\\forall_{tank}}{Q}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:340
+msgid ":math:`\\theta =` residence time :math:`[T]`"
+msgstr ":math:`\\theta =` tiempo de residencia :math:`[T]`"
+
+#: ../../Clarification/Clarifier_Intro.rst:341
+msgid ":math:`\\forall_{tank} =` volume of the clarifier :math:`\\left[L^3\\right]`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:342
+msgid ":math:`Q =` flow rate through the tank :math:`\\left[\\frac{L^3}{T}\\right]`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:344
+msgid ""
+"**2) In the \"worst case scenario\", how far** must a particle fall to reach"
+" the bottom of the tank?"
+msgstr ""
+"**2) In the \"worst case scenario\", how far** debe caer una partícula para "
+"llegar al fondo del tanque?"
+
+#: ../../Clarification/Clarifier_Intro.rst:346
+msgid ""
+"The \"worst case scenario\" is the condition in which a particle must travel"
+" the furthest in order to be successfully captured by the clarifier. We "
+"assume that particles are evenly distributed throughout the height and width"
+" of the reactor entrance. Therefore, a particle entering at the top of the "
+"entrance of the reactor would need to fall a distance of :math:`H` to reach "
+"the bottom. Any particle entering from a position lower than the top of the "
+"tank would need to fall a distance :math:`< H`. We refer to the \"worst case"
+" scenario\" pathway as the \"critical path\" of the particle in the "
+"clarifier design because this is the case which we must design to treat. The"
+" height that the particle must fall is called the \"critical height\", "
+":math:`H_c`."
+msgstr ""
+"El \"peor escenario posible\" es la condición en la que una partícula debe "
+"recorrer la mayor distancia posible para ser capturada con éxito por el "
+"clarificador. Asumimos que las partículas están distribuidas uniformemente a"
+" lo largo de la altura y anchura de la entrada del reactor. Por lo tanto, "
+"una partícula que entre por la parte superior de la entrada del reactor "
+"tendría que caer una distancia de :math:`H` para llegar al fondo. Cualquier "
+"partícula que entre desde una posición inferior a la parte superior del "
+"tanque tendría que caer una distancia :math:`< H`. Nos referimos a la vía "
+"del \"peor escenario posible\" como la \"trayectoria crítica\" de la "
+"partícula en el diseño del clarificador porque este es el caso que debemos "
+"diseñar para tratar el tratamiento. La altura a la que debe caer la "
+"partícula se denomina la \"altura crítica\", :math:`H_c`."
+
+#: ../../Clarification/Clarifier_Intro.rst:348
+msgid "**3) How fast** must the particle fall?"
+msgstr "**3) ¿A qué velocidad** debe caer la partícula?"
+
+#: ../../Clarification/Clarifier_Intro.rst:350
+msgid ""
+"We know that for a particle to fall to the bottom successfully, it needs to "
+"fall fast enough that it can reach the bottom before the water that is "
+"carrying it leaves the reactor. Water is carrying the particle across the "
+"reactor at the horizontal velocity speed, :math:`v_H`. Gravity is causing "
+"the particle to settle at its terminal velocity, :math:`v_t`. In order to "
+"reach the bottom, that settling velocity needs to be the capture velocity, "
+":math:`\\bar v_c`, to ensure that the particle will reach the bottom of the "
+"reactor. We can see the critical path of the particle in "
+":numref:`figure_horizontal_flow_tank_capture`."
+msgstr ""
+"Sabemos que para que una partícula caiga con éxito al fondo, necesita caer "
+"lo suficientemente rápido como para llegar antes de que el agua que la "
+"transporta salga del reactor. El agua transporta la partícula a través del "
+"reactor a la velocidad horizontal, :math:`v_H`. La gravedad está haciendo "
+"que la partícula se asiente a su velocidad terminal, :math:`v_t`. Para "
+"llegar al fondo, esa velocidad de sedimentación debe ser la velocidad de "
+"captura, :math:`\\bar v_c`, para asegurar que la partícula llegue al fondo "
+"del reactor. Podemos ver la trayectoria crítica de la partícula en "
+":numref:`figure_horizontal_flow_tank_capture`."
+
+#: ../../Clarification/Clarifier_Intro.rst:359
+msgid "Horizontal flow clarifier with capture velocity."
+msgstr "Clarificador de flujo horizontal con velocidad de captura."
+
+#: ../../Clarification/Clarifier_Intro.rst:362
+msgid ""
+"Capture velocity can be determined by the distance that a particle must "
+"travel and the time that the particle has to travel."
+msgstr ""
+"La velocidad de captura puede determinarse por la distancia que debe "
+"recorrer una partícula y el tiempo que tiene para recorrer."
+
+#: ../../Clarification/Clarifier_Intro.rst:364
+#: ../../Clarification/Clarifier_Intro.rst:432
+msgid "\\bar v_c = \\frac{H}{\\theta}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:368
+msgid ""
+"We can make some substitutions into the equation for :math:`\\bar v_c` to "
+"solve for it in explicit terms of reactor plan view area. We are interested "
+"in plan view area because this will indicate the efficiency and cost of an "
+"associated reactor."
+msgstr ""
+"Podemos hacer algunas sustituciones en la ecuación para :math:`\\bar v_c` "
+"resolverla en términos explícitos del área de vista en planta del reactor. "
+"Nos interesa el área de vista en planta porque esto indicará la eficiencia y"
+" el coste de un reactor asociado."
+
+#: ../../Clarification/Clarifier_Intro.rst:370
+msgid ""
+"\\bar v_c = \\frac{H}{\\theta} = \\frac{HQ}{\\forall_{tank}} = \\frac{Q}{LW}"
+" = \\frac{Q}{A_p}\n"
+"\n"
+"\\bar v_c = \\frac{Q}{A_p}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:376
+msgid ""
+"Thus, we have capture velocity which is a descriptor of a clarifier. It "
+"determines how fast a particle has to settle in order to be reliably "
+"captured by a particular clarifier, assuming idealized flow. The capture "
+"velocity is not a particle property, but rather a clarifier property."
+msgstr ""
+"Así, tenemos la velocidad de captura, que es un descriptor de clarificador. "
+"Determina la rapidez con la que una partícula debe asentarse para ser "
+"capturada de forma fiable por un clarificador particular, asumiendo un flujo"
+" idealizado. La velocidad de captura no es una propiedad de la partícula, "
+"sino una propiedad de clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:378
+#: ../../Clarification/Clarifier_Intro.rst:450
+msgid ""
+"**4) Will any particles** that are smaller than 35 :math:`\\mu m` be "
+"captured in the clarifier?"
+msgstr ""
+"**4) Will any particles** que sean más pequeños que 35 :math:`\\mu m` quedar"
+" reflejados en el clarificador?"
+
+#: ../../Clarification/Clarifier_Intro.rst:380
+msgid ""
+"This question is important because as stated in the beginning of this "
+"section, our discussion assumed that the particle in question was 35 "
+":math:`\\mu m`. If we design a clarifier to capture particles that are 35 "
+":math:`\\mu m`, we also have to understand the impact of our design on "
+"particles smaller than 35 :math:`\\mu m`."
+msgstr ""
+"Esta pregunta es importante porque, como se ha indicado al principio de esta"
+" sección, nuestra discusión asumió que la partícula en cuestión tenía 35 "
+":math:`\\mu m`. Si diseñamos un clarificador para capturar partículas de 35 "
+":math:`\\mu m`, también tenemos que entender el impacto de nuestro diseño en"
+" partículas menores de 35 :math:`\\mu m`."
+
+#: ../../Clarification/Clarifier_Intro.rst:382
+msgid "To answer this question, think about the two extremes of our reactor."
+msgstr ""
+"Para responder a esta pregunta, piensa en los dos extremos de nuestro "
+"reactor."
+
+#: ../../Clarification/Clarifier_Intro.rst:384
+msgid ""
+"We could have a small particle entering the reactor at the top, defining the"
+" critical path in the same \"worst case scenario\". This particle would not "
+"be successfully captured by the tank because its terminal velocity is less "
+"than the capture velocity, meaning that it doesn't have enough time in the "
+"reactor to settle."
+msgstr ""
+"Podríamos tener una partícula pequeña entrando en el reactor por la parte "
+"superior, definiendo la trayectoria crítica en el mismo \"peor escenario\". "
+"Esta partícula no sería capturada con éxito por el tanque porque su "
+"velocidad terminal es menor que la velocidad de captura, lo que significa "
+"que no tiene tiempo suficiente en el reactor para asentarse."
+
+#: ../../Clarification/Clarifier_Intro.rst:385
+msgid ""
+"We could have a small particle entering the reactor near the bottom, in a "
+"\"best case scenario\". In this case, the particle does not have a large "
+"distance to fall because it is already close to the bottom of the tank. "
+"Small particles entering the reactor may be able to be captured by a tank "
+"designed for particles 35 :math:`\\mu m` or larger, but it depends on the "
+"height at which they enter the reactor as shown in "
+":numref:`figure_horizontal_flow_tank_small_capture`."
+msgstr ""
+"Podríamos tener una partícula pequeña entrando en el reactor cerca del "
+"fondo, en el \"mejor escenario\". En este caso, la partícula no tiene una "
+"gran distancia para caer porque ya está cerca del fondo del tanque. Las "
+"partículas pequeñas que entran en el reactor pueden ser capturadas por un "
+"tanque diseñado para partículas de 35 :math:`\\mu m` o mayores, pero depende"
+" de la altura a la que entren en el reactor como se muestra en "
+":numref:`figure_horizontal_flow_tank_small_capture`."
+
+#: ../../Clarification/Clarifier_Intro.rst:394
+msgid "Horizontal flow clarifier with critical path and small particle."
+msgstr "Clarificador de flujo horizontal con trayectoria crítica y partícula pequeña."
+
+#: ../../Clarification/Clarifier_Intro.rst:397
+msgid "Vertical Flow Clarifier"
+msgstr "Clarificador de flujo vertical"
+
+#: ../../Clarification/Clarifier_Intro.rst:398
+msgid ""
+"We will complete the same exercise for vertical flow clarifiers shown in "
+":numref:`figure_vertical_flow_tank_base`. In vertical flow clarifiers, water"
+" flows up from the bottom of the reactor and exits near the top of the "
+"reactor."
+msgstr ""
+"Completaremos el mismo ejercicio para los clarificadores de flujo vertical "
+"mostrado en :numref:`figure_vertical_flow_tank_base`. En los clarificadores "
+"de flujo vertical, el agua fluye hacia arriba desde la parte inferior del "
+"reactor y sale cerca de la parte superior del mismo."
+
+#: ../../Clarification/Clarifier_Intro.rst:407
+msgid "Vertical flow clarifier."
+msgstr "Clarificador de flujo vertical."
+
+#: ../../Clarification/Clarifier_Intro.rst:409
+msgid "**1) How much time** is required for water to pass through the tank?"
+msgstr "**1) ¿Cuánto tiempo** se necesita para que el agua pase por el depósito?"
+
+#: ../../Clarification/Clarifier_Intro.rst:411
+msgid ""
+"The answer is the same for the horizontal flow clarifier because this is a "
+"property of reactor flow rate and volume."
+msgstr ""
+"La respuesta es la misma para el clarificador de flujo horizontal porque "
+"esta es una propiedad de la caudal y volumen del reactor."
+
+#: ../../Clarification/Clarifier_Intro.rst:418
+msgid ":math:`\\theta =` residence time [T]"
+msgstr ":math:`\\theta =` tiempo de residencia [T]"
+
+#: ../../Clarification/Clarifier_Intro.rst:419
+msgid ":math:`\\forall_{tank} =` volume of the clarifier [:math:`L^3`]"
+msgstr ":math:`\\forall_{tank} =` volumen del clarificador [:math:`L^3`]"
+
+#: ../../Clarification/Clarifier_Intro.rst:420
+msgid ":math:`Q =` flow rate through the tank [:math:`\\frac{L^3}{T}`]"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:422
+msgid ""
+"**2) How far** must a particle fall relative to the fluid to not be carried "
+"out the exit?"
+msgstr ""
+"**2) How far** debe caer una partícula respecto al fluido para que no se "
+"lleve por la salida?"
+
+#: ../../Clarification/Clarifier_Intro.rst:424
+msgid ""
+"Note how this question is different from the question we asked for the "
+"horizontal flow clarifier. In the horizontal flow clarifier, particles could"
+" settle to the bottom of the reactor. We care about particles settling to "
+"the bottom because we assume that if particles hit the bottom of the "
+"reactor, then they would be captured and would not leave the reactor. "
+"Remember, the goal of sedimentation is to remove particles from suspension "
+"in water. In the vertical flow clarifier, we also want to remove particles "
+"from suspension, but because there is a different geometry, we are now "
+"interested in the relative movement of particle to water. If a particle is "
+"falling due to the forces of gravity, but also water is pushing up on it, "
+"the only way for a particle to remain in the reactor is if it either falls "
+"at the same velocity or faster than the water is pushing it."
+msgstr ""
+"Fíjate en qué esta pregunta difiere de la que hicimos sobre el clarificador "
+"de flujo horizontal. En el clarificador de flujo horizontal, las partículas "
+"podrían depositarse en el fondo del reactor. Nos importa que las partículas "
+"se asienten en el fondo porque asumimos que si las partículas impactan en el"
+" fondo del reactor, serían capturadas y no saldrían del reactor. Recuerda, "
+"el objetivo de la sedimentación es eliminar partículas de la suspensión en "
+"el agua. En el clarificador de flujo vertical, también queremos eliminar "
+"partículas de la suspensión, pero debido a que hay una geometría diferente, "
+"ahora nos interesa el movimiento relativo de la partícula al agua. Si una "
+"partícula cae debido a las fuerzas de la gravedad, pero también el agua "
+"empuja hacia arriba, la única forma de que una partícula permanezca en el "
+"reactor es si cae a la misma velocidad o más rápido de lo que el agua la "
+"empuja."
+
+#: ../../Clarification/Clarifier_Intro.rst:426
+msgid ""
+"If a particle is falling at the same velocity that water is moving it, it "
+"will be stationary in the reactor. Water flowing through the reactor moves a"
+" distance :math:`H` in time :math:`\\theta`, which means that a stationary "
+"particle must settle the same distance :math:`H` in the same time "
+":math:`\\theta`. Therefore, the answer is :math:`H`."
+msgstr ""
+"Si una partícula cae a la misma velocidad que el agua la mueve, estará "
+"estacionaria en el reactor. El agua que fluye a través del reactor se "
+"desplaza una distancia :math:`H` en el tiempo :math:`\\theta`, lo que "
+"significa que una partícula estacionaria debe asentarse a la misma distancia"
+" :math:`H` en el mismo tiempo :math:`\\theta`. Por lo tanto, la respuesta es"
+" :math:`H`."
+
+#: ../../Clarification/Clarifier_Intro.rst:428
+msgid "**3) How fast** must the particle fall (relative to the fluid)?"
+msgstr "**3) ¿A qué velocidad** debe caer la partícula (en relación con el fluido)?"
+
+#: ../../Clarification/Clarifier_Intro.rst:430
+msgid ""
+"We determined in the previous question that a particle must fall a distance "
+":math:`H` in time :math:`\\theta`. Therefore, we determine the same capture "
+"velocity for vertical flow clarifiers as for horizontal flow clarifiers."
+msgstr ""
+"Determinamos en la pregunta anterior que una partícula debe caer a una "
+"distancia :math:`H` en el tiempo :math:`\\theta`. Por lo tanto, determinamos"
+" la misma velocidad de captura para los clarificadores de flujo vertical que"
+" para los horizontales."
+
+#: ../../Clarification/Clarifier_Intro.rst:436
+msgid "We can the same substitutions to show,"
+msgstr "Podemos hacer las mismas sustituciones para mostrar,"
+
+#: ../../Clarification/Clarifier_Intro.rst:438
+msgid ""
+"\\bar v_c = \\frac{H}{\\theta} = \\frac{HQ}{\\forall_{tank}} = \\frac{Q}{LW}"
+" = \\frac{Q}{A_p}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:442
+msgid "Again, we find that capture velocity is,"
+msgstr "De nuevo, encontramos que la velocidad de captura es,"
+
+#: ../../Clarification/Clarifier_Intro.rst:444
+msgid "\\bar v_c = \\frac{Q}{A_p}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:448
+msgid ""
+"It doesn't matter whether water is flowing horizontally or vertically in the"
+" tank. What determines the capture velocity is the flow rate and the plan "
+"view area of the clarifier."
+msgstr ""
+"No importa si el agua fluye horizontal o verticalmente en el tanque. Lo que "
+"determina la velocidad de captura es la caudal y el área de vista en planta "
+"del clarificador."
+
+#: ../../Clarification/Clarifier_Intro.rst:452
+msgid ""
+"This question is surprisingly complex because we have to consider what we "
+"have learned so far about sedimentation and also recall what we have learned"
+" about flocculation."
+msgstr ""
+"Esta cuestión es sorprendentemente compleja porque tenemos que considerar lo"
+" que hemos aprendido hasta ahora sobre sedimentación y también recordar lo "
+"que hemos aprendido sobre la floculación."
+
+#: ../../Clarification/Clarifier_Intro.rst:454
+msgid ""
+"Let's start with the simple sedimentation approach. We can compare the "
+"vertical flow clarifier with the horizontal flow clarifier. In a horizontal "
+"flow tank, the capture of particles smaller than the design particle (35 "
+":math:`\\mu m`) is possible depending on the height which the particle "
+"enters the reactor. In a vertical flow tank, all particles enter the reactor"
+" at the same height (which is the bottom of the tank). This means that any "
+"particle entering the reactor will need to fall the same distance :math:`H` "
+"in time :math:`\\theta` relative to the water if it will be captured. If "
+"particles smaller than 35 :math:`\\mu m` enter the reactor, they will not be"
+" captured because they are not able to settle fast enough."
+msgstr ""
+"Empecemos con el enfoque simple de sedimentación. Podemos comparar el "
+"clarificador de flujo vertical con el clarificador de flujo horizontal. En "
+"un tanque de flujo horizontal, la captura de partículas más pequeñas que la "
+"partícula de diseño (35 :math:`\\mu m`) es posible dependiendo de la altura "
+"a la que la partícula entre en el reactor. En un tanque de flujo vertical, "
+"todas las partículas entran en el reactor a la misma altura (que es el fondo"
+" del tanque). Esto significa que cualquier partícula que entre en el reactor"
+" tendrá que caer a la misma distancia :math:`H` en el tiempo :math:`\\theta`"
+" respecto al agua si va a ser capturada. Si partículas menores de 35 "
+":math:`\\mu m` entran en el reactor, no serán capturadas porque no pueden "
+"depositarse lo suficientemente rápido."
+
+#: ../../Clarification/Clarifier_Intro.rst:456
+msgid ""
+"However, we must also consider potential flocculation processes that could "
+"occur in the clarifier. A clarifier is still subject to the same laws of "
+"fluids as the flocculator, meaning that there will still be shear in the "
+"reactor. While it may not be as much shear as that introduced in the "
+"flocculator, there are still velocity gradients which mean that there could "
+"be some additional flocculation happening in the clarifier. In the "
+"flocculator, the main mechanism that led to flocculation was the deformation"
+" of fluid which caused particles to collide. In the clarifier, the main "
+"mechanism that can lead to flocculation is velocity gradients. Flocculation "
+"is provided by an opportunity for collision by differences in relative "
+"velocities of particles. Big particles in the clarifier settle out but are "
+"still in suspension, and small particles continue to move up through the "
+"large particles. There is relative velocity between particles based on their"
+" terminal velocities."
+msgstr ""
+"Sin embargo, también debemos considerar los posibles procesos de floculación"
+" que podrían ocurrir en el clarificador. Un clarificador sigue estando "
+"sujeto a las mismas leyes de fluidos que el floculador, lo que significa que"
+" seguirá habiendo cizalladura en el reactor. Aunque puede que no sea tanta "
+"cizalladura como la introducida en el floculador, todavía existen gradientes"
+" de velocidad que indican que podría haber floculación adicional en el "
+"clarificador. En el floculador, el principal mecanismo que llevó a la "
+"floculación fue la deformación del fluido que provocó la colisión de las "
+"partículas. En el clarificador, el principal mecanismo que puede provocar la"
+" floculación son los gradientes de velocidad. La floculación se ofrece "
+"mediante la posibilidad de colisión por diferencias en las velocidades "
+"relativas de las partículas. Las partículas grandes en el clarificador se "
+"asientan pero siguen en suspensión, y las partículas pequeñas continúan "
+"subiendo a través de las partículas grandes. Hay una velocidad relativa "
+"entre partículas basada en sus velocidades terminales."
+
+#: ../../Clarification/Clarifier_Intro.rst:458
+msgid ""
+"Understanding relative velocities is very important to understand how "
+"vertical flow clarifiers work. Let's consider an example to develop our "
+"understanding of differential sedimentation. Imagine that two people are "
+"skydiving; one person is 150 lbs and the other person is 300 lbs. Assume "
+"that both people are using the same size parachutes and are jumping out of "
+"the same stationary helicopter. If the 150 lb person jumps out first and the"
+" 300 lb person jumps out a few moments after, what will happen? The 300 lb "
+"person will fall faster than the 150 lb person, causing a collision in the "
+"air. In a clarifier, we would describe the collision due to differential "
+"sedimentation as flocculation because particles are colliding and growing."
+msgstr ""
+"Entender las velocidades relativas es muy importante para entender cómo "
+"funcionan los clarificadores de flujo vertical. Veamos un ejemplo para "
+"desarrollar nuestra comprensión de la sedimentación diferencial. Imagina que"
+" dos personas están haciendo paracaidismo; una pesa 150 libras y la otra "
+"pesa 300 libras. Supongamos que ambas personas usan paracaídas del mismo "
+"tamaño y saltan desde el mismo helicóptero estacionario. Si la persona de "
+"150 libras salta primero y la persona de 300 libras salta unos momentos "
+"después, ¿qué ocurrirá? La persona de 300 libras caerá más rápido que la "
+"persona de 150 libras, causando una colisión en el aire. En un aclarador, "
+"describiríamos la colisión debida a la sedimentación diferencial como "
+"floculación porque las partículas colisionan y crecen."
+
+#: ../../Clarification/Clarifier_Intro.rst:460
+msgid ""
+"Now that we understand differential settling and the potential for "
+"flocculation in a clarifier, let's revisit the original question. Can "
+"smaller particles be captured? The answer is that smaller particles can be "
+"captured only if they collide with other particles and grow so that they "
+"have a terminal velocity that is greater than the capture velocity. This "
+"flocculation that happens in the clarifier is an additional mechanism for "
+"removing particles."
+msgstr ""
+"Ahora que entendemos el asentamiento diferencial y el potencial de "
+"floculación en un clarificador, volvamos a la pregunta original. ¿Se pueden "
+"capturar partículas más pequeñas? La respuesta es que partículas más "
+"pequeñas solo pueden capturarse si colisionan con otras partículas y crecen "
+"hasta que tienen una velocidad terminal mayor que la velocidad de captura. "
+"Esta floculación que ocurre en el clarificador es un mecanismo adicional "
+"para eliminar partículas."
+
+#: ../../Clarification/Clarifier_Intro.rst:462
+msgid ""
+"There are some important differences between horizontal and vertical "
+"clarifiers. Many of these points will be discussed next when we learn "
+"specifically about the :ref:`AguaClara design process "
+"<heading_Clarifier_Design>`, but it is important to get introduced to these "
+"ideas now:"
+msgstr ""
+"Existen algunas diferencias importantes entre los clarificadores "
+"horizontales y verticales. Muchos de estos puntos se discutirán a "
+"continuación cuando aprendamos específicamente sobre el :ref:`AguaClara "
+"design process <heading_Clarifier_Design>`, pero es importante introducirse "
+"a estas ideas ahora:"
+
+#: ../../Clarification/Clarifier_Intro.rst:464
+msgid ""
+"vertical flow tanks require careful attention to the delivery of water in "
+"the bottom of the tank and the extraction of water in the top of the tank;"
+msgstr ""
+"Los tanques de flujo vertical requieren una atención cuidadosa al suministro"
+" de agua en el fondo y a la extracción del agua en la parte superior;"
+
+#: ../../Clarification/Clarifier_Intro.rst:465
+msgid ""
+"vertical and horizontal flow tanks may have different velocities and "
+"turbulence capacities due to plan view areas;"
+msgstr ""
+"Los tanques de flujo vertical y horizontal pueden tener diferentes "
+"velocidades y capacidades de turbulencia debido a las áreas de vista en "
+"planta;"
+
+#: ../../Clarification/Clarifier_Intro.rst:466
+msgid ""
+"research on tube settlers by `Brentwood Industries "
+"<https://www.brentwoodindustries.com/water-wastewater-products/tube-"
+"settlers/>`_ suggests that settle capture velocities should be 0.12 - 0.36 "
+"mm/s;"
+msgstr ""
+"investigaciones sobre sedimentadores tubulares realizadas por `Brentwood "
+"Industries <https://www.brentwoodindustries.com/water-wastewater-products"
+"/tube-settlers/>`_ sugieren que las velocidades de captura de sedimentación "
+"deberían ser de 0,12 a 0,36 mm/s;"
+
+#: ../../Clarification/Clarifier_Intro.rst:467
+msgid ""
+"research on horizontal flow tanks in *Surface Water Treatment for "
+"Communities in Developing Countries* by Schulz and Okun suggests that settle"
+" capture velocities should be 0.24 - 0.72 mm/s. However, the very low head "
+"loss through plate settlers suggests that horizonal flow tanks will have "
+"preferential flow up through the plate settlers at the end of the tank "
+"furthest from the tank inlet."
+msgstr ""
+"investigaciones sobre tanques de flujo horizontal en *Surface tratamiento de"
+" agua for Communities in Developing Countries* por Schulz y Okun sugieren "
+"que las velocidades de captura de sedimentación deberían ser de 0,24 a 0,72 "
+"mm/s. Sin embargo, los sedimentadores de placas pérdida de carga muy bajos "
+"sugieren que los tanques de flujo horizontal tendrán flujo preferente hacia "
+"arriba a través de los sedimentadores de placas al final del tanque más "
+"alejado de la entrada del tanque."
+
+#: ../../Clarification/Clarifier_Intro.rst:472
+msgid "Plate Settlers"
+msgstr "Colonos de Placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:474
+msgid ""
+"Plate settlers are sloped surfaces that provide additional settling area for"
+" flocs, thereby increasing the effective settling area of the clarifier "
+"without increasing the plan view area. AguaClara plate settlers are sloped "
+"at 60 degrees. In our discussion of horizontal and vertical flow clarifiers,"
+" an important design parameter was capture velocity which was set by flow "
+"rate and plan view area of the clarifier. With the introduction of plate "
+"settlers, the important design parameter changes. What matters is not just "
+"the plan view area of the clarifier, but instead the projected area of all "
+"of the surfaces where particles can settle out, which we call the effective "
+"settling area. Without plate settlers, the only way we could improve "
+"performance and impact the capture velocity was by increasing the plan view "
+"area of the clarifier. With plate settlers, we can improve performance by "
+"adding additional settling area without increasing the plan view area. This "
+"allows for greater treatment efficiency at lower cost because we can "
+"maintain a small footprint. Note that plate settlers can also be referred to"
+" as lamella settlers, or lamellas."
+msgstr ""
+"Los sedimentadores de placas son superficies inclinadas que proporcionan "
+"área adicional de sedimentación para los flocas, aumentando así el área "
+"efectiva de asentamiento del clarificador sin aumentar el área de vista en "
+"planta. Los sedimentadores de placas AguaClara tienen una pendiente de 60 "
+"grados. En nuestra discusión sobre clarificadores de flujo horizontal y "
+"vertical, un parámetro importante de diseño fue la velocidad de captura, que"
+" se estableció por caudal y el área de vista en planta del clarificador. Con"
+" la introducción de los sedimentadores de placas, cambian los parámetros de "
+"diseño importantes. Lo que importa no es solo el área de vista en planta del"
+" clarificador, sino el área proyectada de todas las superficies donde las "
+"partículas pueden depositarse, que llamamos área efectiva de asentamiento. "
+"Sin sedimentadores de placas, la única forma de mejorar el rendimiento e "
+"impactar la velocidad de captura era aumentando el área de vista en planta "
+"del clarificador. Con los sedimentadores de placas, podemos mejorar el "
+"rendimiento añadiendo área de sedimentación adicional sin aumentar el área "
+"de vista en planta. Esto permite una mayor eficiencia de tratamiento a menor"
+" coste porque podemos mantener una huella pequeña. Ten en cuenta que los "
+"asentadores de placas también pueden denominarse asentadores de lamelas, o "
+"lamelas."
+
+#: ../../Clarification/Clarifier_Intro.rst:479
+msgid "Capture Velocity"
+msgstr "Velocidad de captura"
+
+#: ../../Clarification/Clarifier_Intro.rst:481
+msgid ""
+"The first thing that we will discuss is how flocs can settle on plates. To "
+"understand this, we will ask a few questions about how particles and flocs "
+"will flow between two plate settlers."
+msgstr ""
+"Lo primero que vamos a discutir es cómo los flocs pueden asentarse en las "
+"placas. Para entender esto, haremos algunas preguntas sobre cómo las "
+"partículas y los flócs fluyen entre dos sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:483
+msgid "What is the critical path?"
+msgstr "¿Cuál es el camino crítico?"
+
+#: ../../Clarification/Clarifier_Intro.rst:485
+msgid ""
+"We need particles to settle on the bottom plate for it to be effectively "
+"captured. Thus, the critical path can be shown by a floc that enters the "
+"plate settlers closest to the upper plate, because it will have the greatest"
+" distance to settle."
+msgstr ""
+"Necesitamos que las partículas se depositen en la placa inferior para que "
+"sean capturadas eficazmente. Así, el camino crítico puede mostrarse mediante"
+" un flóculo que entra en los sedimentadores de placas más cercanos a la "
+"placa superior, porque tendrá la mayor distancia para asentarse."
+
+#: ../../Clarification/Clarifier_Intro.rst:494
+msgid "Critical path between two plate settlers."
+msgstr "Camino crítico entre dos asentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:496
+msgid "How far must the particle settle to reach the lower plate?"
+msgstr "¿Hasta dónde debe asentarse la partícula para llegar a la placa inferior?"
+
+#: ../../Clarification/Clarifier_Intro.rst:498
+msgid ""
+"Let's make a simplification and assume that water is flowing with uniform "
+"velocity between the plates, represented by a \"top hat\" velocity profile. "
+"This is a significant assumption, but it is used to help us understand the "
+"critical path. The fluid is carrying the floc between the inclined plates "
+"while gravity is pulling the floc down. Therefore, a particle must fall the "
+"vertical distance between the plates, which is the critical height, "
+":math:`H_c`. The plates are positioned at an angle, :math:`\\alpha`, to "
+"ensure that settling flocs slide down to the floc filter. The critical "
+"height :math:`H_c` can be expressed in terms of plate settler length, "
+":math:`L`, and plate settler angle, :math:`\\alpha`, by "
+":math:`H_c=\\frac{S}{cos\\alpha}`."
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:507
+msgid "Critical height between two plate settlers."
+msgstr "Altura crítica entre dos asentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:509
+msgid "What is the total vertical distance that the critical particle will travel?"
+msgstr "¿Cuál es la distancia vertical total que recorrerá la partícula crítica?"
+
+#: ../../Clarification/Clarifier_Intro.rst:511
+msgid ""
+"Taking the vertical component of the critical path, we see that the total "
+"vertical distance is :math:`H` where :math:`H =L sin\\alpha`."
+msgstr ""
+"Tomando la componente vertical del camino crítico, vemos que la distancia "
+"vertical total es :math:`H` donde :math:`H =L sin\\alpha`."
+
+#: ../../Clarification/Clarifier_Intro.rst:513
+msgid "What is the net vertical velocity of a floc between the plate settlers?"
+msgstr ""
+"¿Cuál es la velocidad vertical neta de un flóculo entre los asentadores de "
+"placas?"
+
+#: ../../Clarification/Clarifier_Intro.rst:515
+msgid ""
+"The fluid carries the floc between the plate settlers while gravity pulls "
+"the floc down. The velocity through the plate settlers has both a horizontal"
+" component, :math:`\\bar v_{x_{Plate}}`, and vertical component, "
+":math:`\\bar v_{z_{Plate}}`, with a resultant velocity we call :math:`\\bar "
+"v_{\\alpha_{Plate}}`."
+msgstr ""
+"El fluido transporta el flóculo entre los decantadores de placas mientras la"
+" gravedad tira del flóculo hacia abajo. La velocidad a través de los "
+"sedimentadores de placas tiene tanto un componente horizontal, :math:`\\bar "
+"v_{x_{Plate}}`, como un componente vertical, :math:`\\bar v_{z_{Plate}}`, "
+"con una velocidad resultante que llamamos :math:`\\bar v_{\\alpha_{Plate}}`."
+
+#: ../../Clarification/Clarifier_Intro.rst:524
+msgid "Velocity components between two plate settlers."
+msgstr "Componentes de velocidad entre dos sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:526
+msgid ""
+"This means that the net vertical velocity :math:`v_{z_{net}}` is the "
+"vertical component of flow minus the settling velocity of the floc. Recall "
+"our previous discussion of terminal velocity and capture velocity; in this "
+"case, because we are designing a plate settler specifically to capture the "
+"critical particle, the terminal velocity equals the capture velocity. The "
+"terminal velocity is a function of the velocity that the critical particle "
+"settles at and the capture velocity is a function of the reactor geometry "
+"which we are designing to capture the critical particle. Thus, :math:`\\bar "
+"v_{z_{net}} = \\bar v_{z_{Plate}} - \\bar v_{c}`."
+msgstr ""
+"Esto significa que la velocidad vertical neta :math:`v_{z_{net}}` es el "
+"componente vertical del flujo menos la velocidad de asentamiento del floc. "
+"Recuerda nuestra discusión anterior sobre la velocidad terminal y la "
+"velocidad de captura; en este caso, dado que estamos diseñando un placa "
+"sedimentadora específicamente para capturar la partícula crítica, la "
+"velocidad terminal es igual a la velocidad de captura. La velocidad terminal"
+" es función de la velocidad en la que se asienta la partícula crítica y la "
+"velocidad de captura es función de la geometría del reactor que estamos "
+"diseñando para capturar la partícula crítica. Así, :math:`\\bar v_{z_{net}} "
+"= \\bar v_{z_{Plate}} - \\bar v_{c}`."
+
+#: ../../Clarification/Clarifier_Intro.rst:535
+msgid "Net velocity between two plate settlers."
+msgstr "Velocidad neta entre dos asentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:537
+msgid ""
+"From answering the questions above, we know that the particle must fall the "
+"distance :math:`H_c` at its terminal velocity in the same amount of time "
+"that it rises a distance :math:`H` at its net upward velocity, because "
+"otherwise it would not be captured; time to travel :math:`H_c` = time to "
+"travel :math:`H`"
+msgstr ""
+"Al responder a las preguntas anteriores, sabemos que la partícula debe caer "
+"la distancia :math:`H_c` a su velocidad terminal en el mismo tiempo que sube"
+" una distancia :math:`H` a su velocidad neta ascendente, porque de lo "
+"contrario no sería capturada; tiempo para viajar :math:`H_c` = tiempo para "
+"viajar :math:`H`"
+
+#: ../../Clarification/Clarifier_Intro.rst:539
+msgid "Finding time by dividing by distance by velocity for each travel,"
+msgstr "Encontrar el tiempo dividiendo por distancia por velocidad de cada viaje,"
+
+#: ../../Clarification/Clarifier_Intro.rst:541
+msgid "Time = \\frac{H_c}{\\bar v_c} = \\frac{H}{\\bar v_{z_{net}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:545
+msgid "Substituting for :math:`\\bar v_{z_{net}} = \\bar v_{z_{Plate}}-v_{c}`,"
+msgstr "Sustituyendo por :math:`\\bar v_{z_{net}} = \\bar v_{z_{Plate}}-v_{c}`,"
+
+#: ../../Clarification/Clarifier_Intro.rst:547
+msgid "Time = \\frac{H_c}{\\bar v_c} = \\frac{H}{\\bar v_{z_{Plate}}- \\bar v_{c}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:551
+msgid "Using trigonometric substitutions for :math:`H_c` and :math:`H`,"
+msgstr "Usando sustituciones trigonométricas para :math:`H_c` y :math:`H`,"
+
+#: ../../Clarification/Clarifier_Intro.rst:553
+msgid ""
+"Time = \\frac{S}{\\bar v_c cos\\alpha} = \\frac{L sin\\alpha}{\\bar "
+"v_{z_{Plate}} - \\bar v_{c}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:557
+msgid "Rearranging to solve for :math:`\\bar v_{c}`,"
+msgstr "Reorganizando para resolver para :math:`\\bar v_{c}`,"
+
+#: ../../Clarification/Clarifier_Intro.rst:559
+#: ../../Clarification/Clarifier_Intro.rst:593
+msgid "\\bar v_c = \\frac{S \\bar v_{z_{Plate}}}{Lsin\\alpha cos\\alpha + S}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:563
+msgid "Rearranging to solve for :math:`\\frac{\\bar v_{z_{Plate}}}{\\bar v_{c}}`,"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:565
+msgid ""
+"\\frac{\\bar v_{z_{Plate}}}{\\bar v_{c}} = 1+\\frac{L}{S}cos\\alpha "
+"sin\\alpha"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:569
+msgid ""
+"The equation that we determined for capture velocity, :math:`\\bar v_c`, "
+"shows its dependence on plate settler geometry. Through another derivation, "
+"we can prove that by considering the total projected area over which "
+"particles can settle, we determine the same capture velocity."
+msgstr ""
+"La ecuación que determinamos para la velocidad de captura, :math:`\\bar "
+"v_c`, muestra su dependencia de la geometría placa sedimentadora . Mediante "
+"otra derivación, podemos demostrar que considerando el área proyectada total"
+" sobre la que las partículas pueden asentarse, determinamos la misma "
+"velocidad de captura."
+
+#: ../../Clarification/Clarifier_Intro.rst:571
+msgid ""
+"Beginning with :math:`Q = \\bar vA`, we can modify the equation to fit the "
+"specific flow through a plate settler, :math:`Q = \\bar "
+"v_{\\alpha_{Plate}}SW`."
+msgstr ""
+"Empezando por :math:`Q = \\bar vA`, podemos modificar la ecuación para "
+"ajustar el flujo específico a través de un placa sedimentadora, :math:`Q = "
+"\\bar v_{\\alpha_{Plate}}SW`."
+
+#: ../../Clarification/Clarifier_Intro.rst:573
+msgid ""
+"Using trigonometric substitutions, we know that :math:`\\frac{\\bar "
+"v_{z_{Plate}}}{\\bar v_{\\alpha_{Plate}}} = sin\\alpha` and "
+":math:`\\frac{\\bar v_{z_{Plate}}}{sin\\alpha} = v_{\\alpha}`. So,"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:575
+msgid "Q = \\frac{\\bar v_{z_{Plate}}SW}{sin\\alpha}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:579
+msgid "Determining the horizontal projection of the plate settlers,"
+msgstr "Determinar la proyección horizontal de los sedimentadores de placas,"
+
+#: ../../Clarification/Clarifier_Intro.rst:581
+msgid "S = Lcos\\alpha + \\frac{S}{sin\\alpha}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:585
+msgid "Substituting for area, :math:`A`,"
+msgstr "Sustituyendo por área, :math:`A`,"
+
+#: ../../Clarification/Clarifier_Intro.rst:587
+msgid "A = (Lcos\\alpha + \\frac{S}{sin\\alpha})W"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:591
+msgid "Solving for :math:`\\bar v_c = \\frac{Q}{A}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:597
+msgid ""
+"We can see that there are five parameters which will impact each other in "
+"our design :math:`\\bar v_{z_{Plate}}, \\bar v_{c}, L, S`, and "
+":math:`\\alpha`. AguaClara plants typically use constants for :math:`\\bar "
+"v_{z_{Plate}}, \\bar v_{c}, S`, and :math:`\\alpha`, leaving :math:`L` to be"
+" calculated. More information is found in the section on :ref:`plate settler"
+" design <heading_Clarifier_Plate_Settler_Design>`."
+msgstr ""
+"Podemos ver que hay cinco parámetros que se afectarán mutuamente en nuestro "
+"diseño :math:`\\bar v_{z_{Plate}}, \\bar v_{c}, L, S`, y :math:`\\alpha`. "
+"Las plantas de AguaClara suelen usar constantes para :math:`\\bar "
+"v_{z_{Plate}}, \\bar v_{c}, S`, y :math:`\\alpha`, dejando :math:`L` por "
+"calcular. Más información se encuentra en la sección sobre :ref:`plate "
+"settler design <heading_Clarifier_Plate_Settler_Design>`."
+
+#: ../../Clarification/Clarifier_Intro.rst:599
+msgid ""
+"The 'active' sedimentation zone refers to the area of the tank in which "
+"water can flow through the plate settlers where:"
+msgstr ""
+"La zona de sedimentación 'activa' se refiere a la zona del tanque por la que"
+" el agua puede fluir a través de los sedimentadores de placas donde:"
+
+#: ../../Clarification/Clarifier_Intro.rst:601
+msgid ""
+":math:`L_{SedActive} =` length of the clarifier that includes entrance to a "
+"plate settlers"
+msgstr ""
+":math:`L_{SedActive} =` longitud del clarificador que incluye la entrada de "
+"un asentador de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:602
+msgid ""
+":math:`\\bar v_{z_{Active}} =` upflow velocity of the water entering the "
+"plate settlers; vertical velocity in 'active' region"
+msgstr ""
+":math:`\\bar v_{z_{Active}} =` velocidad ascendente del agua que entra en "
+"los sedimentadores de placas; velocidad vertical en la región 'activa'"
+
+#: ../../Clarification/Clarifier_Intro.rst:604
+msgid ""
+"The only reason that there is a distinction between this area and the floc "
+"filter area is because plate settlers are built at an angle. This angle "
+"creates a \"lost triangle\" because there is a space in which the plate "
+"settlers are not effective and water does not flow through them. Because the"
+" active length is less than the floc filter length, :math:`L_{SedActive} < "
+"L_{SedFloc}`, and because flow must be conserved, the average active "
+"velocity must be greater than the average upflow velocity through the floc "
+"filter, :math:`\\bar v_{z_{Active}} > \\bar v_{z_{ff}}`. The same flow going"
+" through less area means that the velocity must increase."
+msgstr ""
+"La única razón por la que hay una distinción entre esta zona y el área "
+"filtro de flóculos es porque los sedimentadores de placas se construyen en "
+"ángulo. Este ángulo crea un \"triángulo perdido\" porque hay un espacio en "
+"el que los sedimentadores de placas no son efectivos y el agua no fluye a "
+"través de ellos. Como la longitud activa es menor que la longitud filtro de "
+"flóculos , :math:`L_{SedActive} < L_{SedFloc}`, y porque el flujo debe "
+"conservarse, la velocidad activa media debe ser mayor que la velocidad media"
+" de flujo ascendente a través del filtro de flóculos, :math:`\\bar "
+"v_{z_{Active}} > \\bar v_{z_{ff}}`. El mismo flujo que atraviesa menos área "
+"implica que la velocidad debe aumentar."
+
+#: ../../Clarification/Clarifier_Intro.rst:606
+msgid ""
+"Thus, :math:`Q_{Clarifier} = W_{Clarifier} L_{SedActive} \\bar "
+"v_{z_{Active}}`, and :math:`\\bar v_{z_{Active}} > \\bar v_{z_{ff}}`."
+msgstr ""
+"Así, :math:`Q_{Clarifier} = W_{Clarifier} L_{SedActive} \\bar "
+"v_{z_{Active}}`, y :math:`\\bar v_{z_{Active}} > \\bar v_{z_{ff}}`."
+
+#: ../../Clarification/Clarifier_Intro.rst:608
+msgid "Now, we will discuss flow through plate settlers where:"
+msgstr ""
+"Ahora, hablaremos de los sedimentadores de placas de flujo a través de los "
+"siguientes lugares:"
+
+#: ../../Clarification/Clarifier_Intro.rst:610
+msgid ""
+":math:`\\bar v_{z_{Plate}} =` upflow velocity of the water in the plate "
+"settlers; vertical velocity component between the plate settlers"
+msgstr ""
+":math:`\\bar v_{z_{Plate}} =` velocidad de flujo ascendente del agua en los "
+"sedimentadores de placas; componente de velocidad vertical entre los "
+"sedimentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:611
+msgid ":math:`S =` spacing between plate settlers"
+msgstr ":math:`S =` espaciamiento entre los asentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:612
+msgid ":math:`B =` center-to-center distance between plate settlers"
+msgstr ":math:`B =` distancia de centro a centro entre los asentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:613
+msgid ":math:`T =` thickness of plate settlers"
+msgstr ":math:`T =` grosor de los sedimentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:614
+msgid ":math:`L =` length of plate settlers"
+msgstr ":math:`L =` longitud de los asentadores de placas"
+
+#: ../../Clarification/Clarifier_Intro.rst:616
+msgid ""
+"We know that plate settlers have a certain thickness and take up area, which"
+" means that once we reach the plate settler zone, there is less area for "
+"water to travel through. Because flow is conserved and there is a decrease "
+"in area, we know that the upflow velocity of water through the plate "
+"settlers must increase compared to the upflow velocity of water below the "
+"plate settlers, :math:`\\bar v_{z_{Plate}} > \\bar v_{z_{Active}}`."
+msgstr ""
+"Sabemos que los sedimentadores de placas tienen un cierto grosor y área de "
+"ocupación, lo que significa que una vez que llegamos a la zona placa "
+"sedimentadora , hay menos espacio por donde el agua puede viajar. Como el "
+"flujo se conserva y hay una disminución en el área, sabemos que la velocidad"
+" de ascenso del agua a través de los sedimentadores de placas debe aumentar "
+"en comparación con la velocidad de subir del agua por debajo de los "
+"sedimentadores de placas, :math:`\\bar v_{z_{Plate}} > \\bar "
+"v_{z_{Active}}`."
+
+#: ../../Clarification/Clarifier_Intro.rst:618
+msgid "Thus, :math:`\\bar v_{z_{Plate}} > \\bar v_{z_{Active}} > \\bar v_{z_{ff}}`"
+msgstr "Así, :math:`\\bar v_{z_{Plate}} > \\bar v_{z_{Active}} > \\bar v_{z_{ff}}`"
+
+#: ../../Clarification/Clarifier_Intro.rst:620
+msgid ""
+"In addition to the vertical velocity component increasing between the "
+"plates, the resultant velocity of water between the plates increases "
+"compared to :math:`\\bar v_{z_{Active}}`. What are the two reasons that this"
+" is true?"
+msgstr ""
+"Además de que el componente de velocidad vertical aumenta entre las placas, "
+"la velocidad resultante del agua entre las placas aumenta en comparación con"
+" :math:`\\bar v_{z_{Active}}`. ¿Cuáles son las dos razones por las que esto "
+"es cierto?"
+
+#: ../../Clarification/Clarifier_Intro.rst:622
+msgid ""
+"The first reason, as already discussed, is that the vertical velocity "
+"component needs to increase to ensure conservation of flow."
+msgstr ""
+"La primera razón, como ya se ha comentado, es que el componente de velocidad"
+" vertical debe aumentar para asegurar la conservación del flujo."
+
+#: ../../Clarification/Clarifier_Intro.rst:624
+msgid ""
+"The second reason has to do with the fact that the resultant velocity of "
+"water between the plates is at an angle. This means that there is a "
+"horizontal component introduced. Because we know that the vertical velocity "
+"increases, and there is a new positive horizontal velocity component, the "
+"resultant velocity must also increase."
+msgstr ""
+"La segunda razón tiene que ver con el hecho de que la velocidad resultante "
+"del agua entre las placas está en ángulo. Esto significa que se introduce un"
+" componente horizontal. Como sabemos que la velocidad vertical aumenta y hay"
+" un nuevo componente positivo de velocidad horizontal, la velocidad "
+"resultante también debe aumentar."
+
+#: ../../Clarification/Clarifier_Intro.rst:626
+msgid ""
+"Now, consider a tube settler used in a lab setting instead of a plate "
+"settler. If a tube settler was designed with an angle to mimic a plate "
+"settler, would the water change vertical velocity after the angle? How does "
+"this compare to the plate settler scenario? In the case of the tube settler,"
+" the vertical velocity does not increase because there is no change in flow "
+"area; the diameter of the tube is constant throughout, meaning that for the "
+"flow to remain constant, the velocity does not change."
+msgstr ""
+"Ahora, consideremos un sedimentador de tubos usado en un laboratorio en "
+"lugar de un placa sedimentadora. Si un decantador de tubos se diseñara con "
+"un ángulo para imitar un placa sedimentadora, ¿cambiaría el agua la "
+"velocidad vertical tras ese ángulo? ¿Cómo se compara esto con el escenario "
+"placa sedimentadora ? En el caso del decantador de tubos, la velocidad "
+"vertical no aumenta porque no hay cambio en el área del flujo; el diámetro "
+"del tubo es constante en todo el cuerpo, lo que significa que para que el "
+"flujo se mantenga constante, la velocidad no cambia."
+
+#: ../../Clarification/Clarifier_Intro.rst:628
+msgid ""
+"For another example of flow conservation, let's consider the relationship "
+"between :math:`\\bar v_{z_{Plate}} S` and :math:`\\bar v_{z_{Active}} B`. "
+":math:`B` is the center-to-center distance between plate settlers, and does "
+"not take into account the thickness of plate settlers. Considering only the "
+"center-to-center distance means that the area for water to travel through "
+"does to change from before the plate settlers to within the plate settlers "
+"because we are not accounting for any thickness. If the area does not "
+"change, then velocity should also not change to keep flow conserved. "
+"However, if we are to account for thickness, we must discuss :math:`S` which"
+" is the spacing between plate settlers. This does take into account the "
+"change in area,  which means that the velocity would need to increase "
+"through the lesser area. So if we look at the flow through plate settlers, "
+"we can confirm that :math:`\\bar v_{z_{Plate}} S = \\bar v_{z_{Active}} B`. "
+"By using flow conservation and plate settler geometry, we can begin to "
+"understand the mathematical relationships that drive design."
+msgstr ""
+"Para otro ejemplo de conservación del flujo, consideremos la relación entre "
+":math:`\\bar v_{z_{Plate}} S` y :math:`\\bar v_{z_{Active}} B`. :math:`B` es"
+" la distancia centro a centro entre los asentadores de placas, y no tiene en"
+" cuenta el grosor de los asentadores de placas. Considerar solo la distancia"
+" centro a centro significa que el área por la que viaja el agua cambia de "
+"antes de los sedimentadores de placas a dentro de los asentadores de placas "
+"porque no estamos teniendo en cuenta ningún espesor. Si el área no cambia, "
+"entonces la velocidad tampoco debería cambiar para mantener el flujo "
+"conservado. Sin embargo, si queremos tener en cuenta el grosor, debemos "
+"hablar de :math:`S` que es el espaciamiento entre los asentadores de placas."
+" Esto sí tiene en cuenta el cambio de área, lo que significa que la "
+"velocidad tendría que aumentar a través del área menor. Así que si "
+"observamos los sedimentadores de placas de flujo a través de la placa, "
+"podemos confirmar que :math:`\\bar v_{z_{Plate}} S = \\bar v_{z_{Active}} "
+"B`. Utilizando la conservación del flujo y la geometría placa sedimentadora "
+", podemos empezar a entender las relaciones matemáticas que impulsan el "
+"diseño."
+
+#: ../../Clarification/Clarifier_Intro.rst:630
+msgid ""
+"Now that we have established how flocs settle on the plate and the increase "
+"in plan view area that plate settlers offer, we need to discuss how flocs "
+"will act once they are on the plates. We want particles and flocs that "
+"settle to agglomerate and slide down the plate settlers to be returned to "
+"the floc filter. We will explore this concept by first considering the "
+"desired spacing between plate settlers."
+msgstr ""
+"Ahora que hemos establecido cómo se asientan los flócs en la placa y el "
+"aumento del área de vista en planta que ofrecen los sedimentadores de "
+"placas, necesitamos hablar de cómo actuarán los flócs una vez que estén "
+"sobre las placas. Queremos que las partículas y flócs que se asientan para "
+"aglomerarse y deslizarse por los sedimentadores de placas sean devueltos a "
+"la filtro de flóculos. Exploraremos este concepto primero considerando el "
+"espaciamiento deseado entre los sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:632
+msgid ""
+"Let's start with a basic question. If we know that adding plate settlers "
+"improves performance, why don't we just keep adding more and more plate "
+"settlers to our system? Is there any impact of placing plates closer "
+"together?"
+msgstr ""
+"Empecemos con una pregunta básica. Si sabemos que añadir asentadores de "
+"placas mejora el rendimiento, ¿por qué no seguimos añadiendo cada vez más "
+"asentadores de placas a nuestro sistema? ¿Tiene algún impacto colocar los "
+"platos más juntos?"
+
+#: ../../Clarification/Clarifier_Intro.rst:634
+msgid ""
+"We know that more plates means more effective settling area which means that"
+" we could remover more particles and make our tank smaller to save money and"
+" limit the use of concrete. But how close can those plates be?"
+msgstr ""
+"Sabemos que más placas significan un área de sedimentación más eficaz, lo "
+"que significa que podríamos eliminar más partículas y hacer nuestro acuario "
+"más pequeño para ahorrar dinero y limitar el uso de hormigón. ¿Pero qué tan "
+"cerca pueden estar esas placas?"
+
+#: ../../Clarification/Clarifier_Intro.rst:636
+msgid ""
+"The Ten State Standards report that plate settlers should have a separation "
+"of two inches, with very long plate settlers, which means very deep tanks. "
+"Clarification tanks are usually 4 meters deep, maybe because filters are "
+"also deep. This is a result of the engineering context rather than the basic"
+" design principles. The Ten State Standards are primarily based off the "
+"modification of existing clarifiers which were usually built deep and then "
+"plate settlers were added. This means that there wasn't added incentive to "
+"optimize the entire plate settler and tank process because the tanks were "
+"already built. However, AguaClara designs are made to use all of the "
+"AguaClara innovations in a green field, meaning that we are incentivized to "
+"optimize every part of this design process."
+msgstr ""
+"Las Normas de los Diez Estados indican que los decantadores de placas deben "
+"tener una separación de dos pulgadas, con los decantadores de placas muy "
+"largos, lo que significa tanques muy profundos. Los tanques de clarificación"
+" suelen tener 4 metros de profundidad, quizá porque los filtros también son "
+"profundos. Esto es resultado del contexto de ingeniería más que de los "
+"principios básicos de diseño. Los Diez Estándares Estatales se basan "
+"principalmente en la modificación de clarificadores existentes que "
+"normalmente se construían en profundidad y luego se añadieron sedimentadores"
+" de placas. Esto significa que no hubo incentivo adicional para optimizar "
+"todo el proceso de placa sedimentadora y tanque porque los tanques ya "
+"estaban construidos. Sin embargo, los diseños de AguaClara están diseñados "
+"para utilizar todas las innovaciones de AguaClara en un campo verde, lo que "
+"significa que estamos incentivados a optimizar cada parte de este proceso de"
+" diseño."
+
+#: ../../Clarification/Clarifier_Intro.rst:638
+msgid ""
+"AguaClara plants can design for changes in the depth and/or plan view area "
+"of the tank for optimal plate settler efficiency. We want to have the "
+"smallest and shallowest tanks possible for low cost and ease of "
+"construction. We know that in the plate settler design, there is a "
+"dimensionless parameter of plate spacing to length, :math:`\\frac{S}{L}`. "
+"The ratio is close to constant, which means that if we double the length of "
+"the plate settler, we can double the spacing between the plate settler and "
+"get the same performance as when we started. Conversely, if we halve the "
+"distance between the plate settlers, we can halve the length of the plate "
+"settlers. But how far can we push this? Can we make really compact plate "
+"settlers?"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Intro.rst:640
+msgid ""
+"What we really want to know is: what is the connection between spacing of "
+"plate settlers and performance?"
+msgstr ""
+"Lo que realmente queremos saber es: ¿cuál es la relación entre el "
+"espaciamiento de los asentadores de placas y el rendimiento?"
+
+#: ../../Clarification/Clarifier_Intro.rst:649
+msgid "Relationship between plate settler length and clarifier depth."
+msgstr "Relación entre la longitud placa sedimentadora y la profundidad más clara."
+
+#: ../../Clarification/Clarifier_Intro.rst:649
+msgid "Relationship between plate settler spacing and clarifier depth."
+msgstr "Relación entre el espaciado placa sedimentadora y la profundidad más clara."
+
+#: ../../Clarification/Clarifier_Intro.rst:651
+msgid ""
+"When we were discussed how plate settlers promote settling, we assumed a "
+"uniform velocity profile between the plates. However, we know from fluid "
+"mechanics and boundary layer rules that in reality, there is a nonuniform "
+"velocity profile. The flow between the plates, as determined by the Reynolds"
+" number, is laminar which means that there is a parabolic velocity profile "
+"between the plates and the shape of the parabola is affected by the distance"
+" between the plates."
+msgstr ""
+"Cuando discutimos cómo los asentadores de placas promueven el asentamiento, "
+"asumimos un perfil de velocidad uniforme entre las placas. Sin embargo, "
+"sabemos por mecánica de fluidos y reglas de la capa límite que en realidad "
+"existe un perfil de velocidad no uniforme. El flujo entre las placas, "
+"determinado por el número de Reynolds, es laminar, lo que significa que "
+"existe un perfil de velocidad parabólica entre las placas y la forma de la "
+"parábola se ve afectada por la distancia entre las placas."
+
+#: ../../Clarification/Clarifier_Intro.rst:657
+msgid "Floc Rollup"
+msgstr "Floc Rollup"
+
+#: ../../Clarification/Clarifier_Intro.rst:659
+msgid ""
+"There are some cases in which the plates are so close that even if flocs "
+"settle on the plate, they do not slide down. This is called **floc rollup**."
+" Consider the following questions:"
+msgstr ""
+"Hay casos en los que las placas están tan juntas que, aunque los flócs se "
+"asienten sobre la placa, no se deslizan hacia abajo. Esto se llama **floc "
+"rollup**. Consideremos las siguientes preguntas:"
+
+#: ../../Clarification/Clarifier_Intro.rst:661
+msgid "Why would flocs roll up?"
+msgstr "¿Por qué se enrollarían los flocos?"
+
+#: ../../Clarification/Clarifier_Intro.rst:663
+msgid ""
+"It is a force balance! There is a force of gravity pulling the particle "
+"down, balanced with the force that the fluid flow exerts through drag "
+"related to viscosity. But why does it matter if plates are close together "
+"for floc roll up? The average velocity between plates is about 1 mm/s and is"
+" the same for any spacing. However, when plates are closer together the "
+"velocity profile is much steeper. Compared with plates with greater spacing,"
+" the closer plates cause there to be a higher velocity closer to the surface"
+" of the plate. This means that flocs between closely spaced plates will see "
+"a greater velocity closer to the plate settler, which will impact the force "
+"balance. The derivation of the force balance is found in the section on "
+":ref:`plate settler design <heading_Floc_Rollup_Derivation>`."
+msgstr ""
+"¡Es un equilibrio de fuerzas! Hay una fuerza de gravedad que tira de la "
+"partícula hacia abajo, equilibrada con la fuerza que ejerce el flujo del "
+"fluido a través del arrastre relacionada con la viscosidad. Pero, ¿por qué "
+"importa si las placas están juntas para el rollo de flóc? La velocidad media"
+" entre placas es de aproximadamente 1 mm/s y es la misma para cualquier "
+"espaciamiento. Sin embargo, cuando las placas están más juntas, el perfil de"
+" velocidad es mucho más pronunciado. En comparación con placas con mayor "
+"espaciamiento, las placas más cercanas provocan una mayor velocidad más "
+"cercana a la superficie de la placa. Esto significa que los flocos entre "
+"placas muy cercanas verán una mayor velocidad más cercana a la placa "
+"sedimentadora, lo que afectará al equilibrio de fuerzas. La derivación del "
+"balance de fuerzas se encuentra en la sección sobre :ref:`plate settler "
+"design <heading_Floc_Rollup_Derivation>`."
+
+#: ../../Clarification/Clarifier_Intro.rst:665
+msgid ""
+"How would you define the transition between floc rollup and slide down? What"
+" would describe the case for a floc that is stationary on the plate settler "
+"(not rolling up or sliding down?)"
+msgstr ""
+"¿Cómo definirías la transición entre el rollup del flóculo y el "
+"deslizamiento hacia abajo? ¿Cómo describirías el caso de un flóculum que "
+"está fijo en el placa sedimentadora (no enrollándose hacia arriba ni "
+"deslizándose hacia abajo)?"
+
+#: ../../Clarification/Clarifier_Intro.rst:667
+msgid ""
+"The transition is defined as when the gravitational forces and the fluid "
+"drag forces match."
+msgstr ""
+"La transición se define como cuando las fuerzas gravitatorias y las fuerzas "
+"de arrastre del fluido coinciden."
+
+#: ../../Clarification/Clarifier_Intro.rst:669
+msgid "Will little flocs or big flocs be most vulnerable to floc rollup?"
+msgstr ""
+"¿Serán los floques pequeños o grandes los más vulnerables al enrollamiento "
+"de flocas?"
+
+#: ../../Clarification/Clarifier_Intro.rst:671
+msgid ""
+"This is a very complicated question. We would expect big flocs to slide down"
+" because they are heavier and have a greater gravitational force. However, "
+"bigger flocs also have a greater drag force and are out further into the "
+"flow. Because of the velocity profile, they will feel a higher velocity than"
+" smaller flocs. This means that the answer to this question should be "
+"determine mathematically, which it is in the next section."
+msgstr ""
+"Esta es una pregunta muy complicada. Esperaríamos que los flócs grandes se "
+"deslizaran hacia abajo porque son más pesados y tienen una mayor fuerza "
+"gravitatoria. Sin embargo, los flócs más grandes también tienen una mayor "
+"fuerza de arrastre y están más adentro del flujo. Debido al perfil de "
+"velocidad, sentirán una velocidad mayor que los flócs más pequeños. Esto "
+"significa que la respuesta a esta pregunta debe determinarse "
+"matemáticamente, que es lo que ocurre en la siguiente sección."
+
+#: ../../Clarification/Clarifier_Intro.rst:673
+msgid "Will large or small spacing between plates cause more floc rollup?"
+msgstr ""
+"¿El espaciamiento grande o pequeño entre placas causará más enrollamiento de"
+" flocas?"
+
+#: ../../Clarification/Clarifier_Intro.rst:675
+msgid ""
+"As we have already suggested, small spacing between plates will cause more "
+"floc rollup due to the steeper resulting velocity profile between the "
+"plates."
+msgstr ""
+"Como ya hemos sugerido, un pequeño espaciamiento entre placas provocará más "
+"enrollamiento de flócs debido al perfil de velocidad más pronunciado que "
+"resulta entre las placas."
+
+#: ../../Clarification/Clarifier_Intro.rst
+#: ../../Clarification/Clarifier_Intro.rst:685
+msgid "Floc rollup between two plates (click to be sent to video)."
+msgstr "Enrollamiento de flóculo entre dos placas (haz clic para enviarlo al vídeo)."
+
+#: ../../Clarification/Clarifier_Intro.rst:687
+msgid ""
+"So what does this mean for plate settler spacing? Let's review some results "
+"from lab experiments. The following graph shows minimum plate settler "
+"spacing (mm) as a function of floc terminal velocity (mm/s). Some important "
+"things to note are that AguaClara plate settlers are designed for a capture "
+"velocity of 0.12 mm/s (recall that this capture velocity means that we want "
+"to capture flocs that are settling at 0.12 mm/s and faster). Before "
+"AguaClara filters were designed and deployed, AguaClara adopted the 0.12 "
+"mm/s capture velocity in an effort to reduce effluent turbidity as much as "
+"possible."
+msgstr ""
+"¿Qué significa esto para el espaciamiento placa sedimentadora ? Vamos a "
+"revisar algunos resultados de experimentos de laboratorio. El siguiente "
+"gráfico muestra el espaciamiento mínimo de placa sedimentadora (mm) en "
+"función de la velocidad terminal de flóculos (mm/s). Algunos aspectos "
+"importantes a tener en cuenta son que los sedimentadores de placas AguaClara"
+" están diseñados para una velocidad de captura de 0,12 mm/s (recordemos que "
+"esta velocidad de captura significa que queremos capturar flócs que se "
+"asientan a 0,12 mm/s o más rápido). Antes de que se diseñaran y desplegaran "
+"los filtros AguaClara, AguaClara adoptó la velocidad de captura de 0,12 mm/s"
+" para reducir la turbidez del efluente tanto como sea posible."
+
+#: ../../Clarification/Clarifier_Intro.rst:690
+msgid ""
+"Why does the plate settling distance matter so much? How much does it impact"
+" the rest of the clarifier and its design?"
+msgstr ""
+"¿Por qué importa tanto la distancia sedimentación con placas ? ¿Cuánto "
+"afecta al resto del clarificador y a su diseño?"
+
+#: ../../Clarification/Clarifier_Intro.rst:692
+msgid ""
+"One impact of plate settler spacing is on clarifier depth. We know that the "
+"spacing between plate settlers has a strong influence on clarifier depth and"
+" closer plate settlers allows for shallower tanks. There is a diminishing "
+"effect for small spacings, meaning that the difference in depth between 5 "
+"and 2.5 cm spacing is greater than the different in depth between 2.5 and 1 "
+"cm spacing. Because AguaClara does not yet have a good model for non-clay "
+"flocs, we cannot optimize our plate settler spacing and thus cannot optimize"
+" for the shallowest tanks possible."
+msgstr ""
+"Un impacto del espaciamiento de placa sedimentadora es en la profundidad del"
+" clarificador. Sabemos que el espaciamiento entre los asentadores de placas "
+"influye fuertemente en la profundidad del clarificador y que los asentadores"
+" de placas más cercanos permiten acuarios más superficiales. Hay un efecto "
+"decreciente para espaciamientos pequeños, lo que significa que la diferencia"
+" de profundidad entre 5 y 2,5 cm es mayor que la diferencia de profundidad "
+"entre 2,5 y 1 cm. Como AguaClara aún no dispone de un buen modelo para "
+"floques no arcillosos, no podemos optimizar el espaciamiento de placa "
+"sedimentadora y, por tanto, no podemos optimizar para los tanques más "
+"superficiales posibles."
+
+#: ../../Clarification/Clarifier_Intro.rst:698
+msgid "Plate Settler Head Loss"
+msgstr "placa sedimentadora pérdida de carga"
+
+#: ../../Clarification/Clarifier_Intro.rst:700
+msgid ""
+"Another impact of plate settler spacing is on flow distribution in the tank."
+" This is related to our previous discussion of pressure recovery and flow "
+"distribution. Reduced spacing between plates leads to an increased pressure "
+"drop through the plate settlers due to higher head loss as shown in Equation"
+" :eq:`plate_settler_headloss`. Therefore, plate settlers with small spacing "
+"will have more uniform flow distributions because head loss will dominate. "
+"This use of head loss can potentially get us better flow distribution. When "
+"the plates are brought closer together, there is more shear between the "
+"plates because the average velocity remains the same. The velocity gradient "
+"is higher between closer plates, which leads to higher shear, and thus "
+"higher head loss."
+msgstr ""
+"Otro impacto del espaciamiento de placa sedimentadora es en la distribución "
+"del flujo en el tanque. Esto está relacionado con nuestra discusión previa "
+"sobre la recuperación de presión y la distribución del flujo. La reducción "
+"del espaciamiento entre placas provoca una mayor caída de presión a través "
+"de los sedimentadores de placas debido a un mayor pérdida de carga como se "
+"muestra en la Ecuación :eq:`plate_settler_headloss`. Por lo tanto, los "
+"sedimentadores de placas con espaciamiento pequeño tendrán distribuciones de"
+" flujo más uniformes porque pérdida de carga dominarán. Este uso de pérdida "
+"de carga puede potencialmente darnos una mejor distribución del flujo. "
+"Cuando las placas se acercan, hay más cizalladura entre ellas porque la "
+"velocidad media se mantiene igual. El gradiente de velocidad es mayor entre "
+"placas más cercanas, lo que conduce a un mayor cizallamiento y, por tanto, a"
+" un mayor pérdida de carga."
+
+#: ../../Clarification/Clarifier_Intro.rst:702
+msgid ""
+"However, if the plates are closer together, then they will be shorter in "
+"length to keep the capture velocity constant. The decrease in length "
+"decreases the total amount of shear. The head loss from the competing "
+"impacts to shear can be determined through a force balance and the Navier-"
+"Stokes equation, as shown in the derivation of :ref:`head loss through a "
+"plate settler <heading_Clarifier_Hl_thru_Plate_Settlers>`."
+msgstr ""
+"Sin embargo, si las placas están más juntas, entonces serán más cortas en "
+"longitud para mantener constante la velocidad de captura. La disminución de "
+"longitud disminuye la cantidad total de cizallamiento. La pérdida de carga "
+"de los impactos en competencia al corte puede determinarse mediante un "
+"balance de fuerzas y la ecuación de Navier-Stokes, como se muestra en la "
+"derivación de :ref:`head loss through a plate settler "
+"<heading_Clarifier_Hl_thru_Plate_Settlers>`."
+
+#: ../../Clarification/Clarifier_Intro.rst:711
+msgid "Head loss as a function of plate settler spacing."
+msgstr "pérdida de carga en función del espacio placa sedimentadora ."
+
+#: ../../Clarification/Clarifier_Intro.rst:713
+msgid ""
+"The important thing to note is that after determining head loss as a "
+"function of plate settler spacing, we realize that the plate settlers do not"
+" provide much head loss at the design separation of 2.5 cm. Head loss "
+"through plate settlers is really small, which means that they do not "
+"contribute much to equalizing flow distribution."
+msgstr ""
+"Lo importante a tener en cuenta es que, tras determinar pérdida de carga en "
+"función del espaciamiento de placa sedimentadora , nos damos cuenta de que "
+"los sedimentadores de placas no proporcionan mucho pérdida de carga a la "
+"separación de diseño de 2,5 cm. pérdida de carga sedimentadores de placas "
+"pasantes son realmente pequeños, lo que significa que no contribuyen mucho a"
+" igualar la distribución del flujo."
+
+#: ../../Clarification/Clarifier_Intro.rst:715
+msgid ""
+"The velocities of any eddies or mean flow need to be less than 4 mm/s to "
+"achieve uniform flow through plate settlers. This means that if there is any"
+" flow entering the plate settlers at greater than 4 mm/s, the head loss "
+"provided by the plate settlers will not be sufficient to dampen the "
+"nonuniformity and there will not be adequate flow distribution. Luckily for "
+"us, the upflow velocity through the clarifier is on average 1 mm/s, which "
+"fulfills the requirement of less than 4 mm/s. The floc filter plays a very "
+"important role here in providing uniform vertical flow of 1 mm/s so that the"
+" flow between the plate settlers can be close to uniform."
+msgstr ""
+"Las velocidades de cualquier remolino o flujo medio deben ser inferiores a 4"
+" mm/s para lograr un flujo uniforme a través de los sedimentadores de "
+"placas. Esto significa que si hay algún flujo que entra en los "
+"sedimentadores de placas a una velocidad superior a 4 mm/s, la pérdida de "
+"carga proporcionada por los sedimentadores de placas no será suficiente para"
+" amortiguar la no uniformidad y no habrá una distribución adecuada del "
+"flujo. Por suerte para nosotros, la velocidad de flujo ascendente a través "
+"del clarificador es de media 1 mm/s, lo que cumple con el requisito de menos"
+" de 4 mm/s. El filtro de flóculos desempeña un papel muy importante aquí al "
+"proporcionar un flujo vertical uniforme de 1 mm/s para que el flujo entre "
+"los sedimentadores de placas sea casi uniforme."
+
+#: ../../Clarification/Clarifier_Intro.rst:719
+msgid "References"
+msgstr "Referencias"
+
+#: ../../Clarification/Clarifier_Intro.rst:721
+msgid ""
+"Schulz, C. R., Okun, D. A., & Water and Sanitation for Health Project "
+"(U.S.). (1984). Surface water treatment for communities in developing "
+"countries. New York: Wiley."
+msgstr ""
+"Schulz, C. R., Okun, D. A., y Proyecto de Agua y Saneamiento para la Salud "
+"(EE.UU.). (1984). tratamiento de agua de superficie para comunidades en "
+"países en desarrollo. Nueva York: Wiley."
+

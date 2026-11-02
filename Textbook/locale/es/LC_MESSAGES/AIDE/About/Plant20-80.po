@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "|ACRlogowithname|"
+msgstr "|ACRlogowithname|"
+
+#: ../../AIDE/About/Plant20-80.rst
+msgid "ACRlogowithname"
+msgstr "ACRlogowithname"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "|textbook|"
+msgstr "|textbook|"
+
+#: ../../AIDE/About/Plant20-80.rst
+msgid "textbook"
+msgstr "Libro de texto"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "|donate|"
+msgstr "|donate|"
+
+#: ../../AIDE/About/Plant20-80.rst
+msgid "donate"
+msgstr "Dona"
+
+#: ../../AIDE/About/Plant20-80.rst:6
+msgid "|reportabugbig|"
+msgstr "|reportabugbig|"
+
+#: ../../AIDE/About/Plant20-80.rst
+msgid "reportabugbig"
+msgstr "reportabugbig"
+
+#: ../../AIDE/About/Plant20-80.rst:12
+msgid "Full Plant (20-80 L/s) Configurable Component"
+msgstr "Componente configurable de planta completa (20-80 L/s)"
+
+#: ../../AIDE/About/Plant20-80.rst:21
+msgid "Full plant"
+msgstr "Planta completa"
+
+#: ../../AIDE/About/Plant20-80.rst:21
+msgid ""
+"The full plant includes a gravity powered chemical dosing system, trash "
+"removal, flow measurement, hydraulic flocculation, floc filter, plate "
+"settlers, and stacked rapid sand filtration."
+msgstr ""
+"La planta completa incluye un sistema de dosificación de químicos accionado "
+"por gravedad, retirada de basura, medición de caudal, floculación "
+"hidráulica, filtro de flóculos, sedimentadores de placas y filtración rápida"
+" de arena apilada."
+
+#: ../../AIDE/About/Plant20-80.rst:25
+msgid "Generate New Models of the Full Plant"
+msgstr "Generar nuevos modelos de la planta completa"
+
+#: ../../AIDE/About/Plant20-80.rst:27
+msgid ""
+"Edit the configurations to create new models of the full plant. Send us "
+"`feedback to share how you are using the full plant model, to give us "
+"suggestions for how to make these models easier to use, and to "
+"<https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+"Edita las configuraciones para crear nuevos modelos de la planta completa. "
+"Envíanos `comentarios para compartir cómo estás usando el modelo completo de"
+" la planta, para darnos sugerencias sobre cómo hacer que estos modelos sean "
+"más accesibles y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+
+#: ../../AIDE/About/Plant20-80.rst
+msgid "reportabug"
+msgstr "reportabug"
+
+#: ../../AIDE/About/Plant20-80.rst:29
+msgid "Full plant configuration parameters."
+msgstr "Parámetros completos de configuración de la planta."
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "Flow (L/s)"
+msgstr "Flujo (L/s)"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid ""
+"The maximum flow rate sets the size of all of the processes in the plant. "
+"Vary it to see how everything changes."
+msgstr ""
+"El máximo caudal fija el tamaño de todos los procesos en la planta. Varía "
+"para ver cómo cambia todo."
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr "Temperatura mínima (°C)"
+
+#: ../../AIDE/About/Plant20-80.rst:1
+msgid "Temperature changes the design for the flocculator, clarifier, and filter."
+msgstr "La temperatura cambia el diseño del floculador, el clarificador y el filtro."
+

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:11
+msgid "Flow Measure Design Challenge"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:14
+msgid "You will learn how to:"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:16
+msgid "show a water surface elevation"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:17
+msgid "place a linear flow meter (LFOM) in the entrance tank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:18
+msgid "find an error in the design logic and then fix it!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:21
+msgid "Part 1 - Feature Studio Steps"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:23
+msgid "**If your instructor has not provided you with a link to the starting document**, you can create a copy of the `Flow Measure Template <https://cad.onshape.com/documents/e96b1dc31f9865978dc1316b/w/582d94287ee1ead74b494009/e/863630f2d9361f5eb9ad5c5c>`_."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:25
+msgid "We need the minimum water level in the entrance tank (associated with zero flow through the plant) to be perhaps 10 cm. Create a new param called :code:`lfomHW_min` with a default of 10 cm. (remember that the units of parameters are set by the name of the variable and thus :code:`lfomHW_min` has units of meters). Modify the logic for the water depth to account for this increase in required water depth. When you make this change in Featurescript the part studio should update and the entrance tank depth should increase. What is the height of the entrance tank walls?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:26
+msgid "Our next task is to draw the water surface in the entrance tank and have it adjust as a function of the actual flow rate. Create a dimensionless parameter that represents the fraction of the design flow (:code:`Q_pi`) that is passing through the entrance tank. Here we take advantage of the fact that any variable name that ends in _pi is dimensionless. Create an equation that calculates the depth of water in the entrance tank as a function of :code:`Q_pi`. You can assume that the LFOM creates a linear relationship between flow rate and water depth. Set the default value of :code:`Q_pi` to be 0.5. What is the depth of water in the entrance tank?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:29
+msgid "Part 2 - Part Studio Steps"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:31
+msgid "Insert an LFOM into the entrance tank. You can add the LFOM to your custom feature list by searching for this `url <https://cad.onshape.com/documents/dee0144c157c5703f51281e7/w/a2ccabbc0ee38a095820fcd7/e/75288022c06a94b868c9d1ae>`_. Use variables for the inputs of the LFOM except for the following that can be the default (Flow safety factor, minimum pipe nominal diameter, minimum spacing between orifices, maximum number of orifice rows, minimum number of orifice rows, maximum drill diameter). Use a mate connector to set the lfom location at the opposite end from the overflow and equal distance from the end and side walls. Note that the LFOM feature has a required Module Name (enter \"lfom\" without the quotes) and Mate Name (enter \"bottom\" without the quotes)."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:32
+msgid "Create a hole for the LFOM pipe coupling through the bottom of the entrance tank using the Pipe Hole feature."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:33
+msgid "Our next goal is to create the water surface."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:35
+msgid "Begin by creating a sketch on the Front plane with a line that is the width of the tank and at the water surface. There are many ways to constrain the length of this line including using the end wall of the tank or the origin and then dimensioning the line to be #W long."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:36
+msgid "The height of the line above the tank bottom must be set using the dimensioning tool and the variable for the water height."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:37
+msgid "Use the extrude tool with the \"Surface\" option to create a new surface starting from the line in the sketch and extending for the length of the tank (#L)."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:38
+msgid "Rename \"Surface 1\" that is below the parts list at the left of the window to \"water\"."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:39
+msgid "Edit the appearance of the surface to make it blue and 0.2 on the transparency scale so you can see through it."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:41
+msgid "Change Q_pi to 1. What is the distance between the inlet of the overflow pipe and the water surface? The top of the overflow pipe is the inlet."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:42
+msgid "Modify the design so the overflow inlet is 1 cm higher than the water surface at the design flow rate. Do this by creating a new input parameter (call it overflowHSF) in FeatureScript and then adding that as an input to the Overflow Pipe feature."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:43
+msgid "Time to play with the design."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:45
+msgid "What is the total cost of the Entrance Tank?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:46
+msgid "Change the lfomHL to 0.1 meter, by entering {\"lfomHL\":0.1} in the overrides"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:47
+msgid "Does the cost of the entrance tank increase or decrease with this change. Explain why!"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:48
+msgid "Revert to 20 cm of lfomHL and then increase the flow rate to 40 L/s. Find the error in the design that causes the tank to get deeper but the LFOM to not adjust to the correct elevation."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:49
+msgid "What caused this error (What did we forget to account for)? This error should be a design error, not a Featurescript error. If you are getting Featurescript errors you will also need to debug."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:50
+msgid "Fix the error by making a simple change to the FeatureScript."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:51
+msgid "With Q_pi at 1, where is the water surface relative to the top row of orifices in the LFOM?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:52
+msgid "Change Q_pi to 0. Where is the water surface relative to the bottom row of orifices in the LFOM?"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:53
+msgid "Why are the orifices not centered vertically in their rows? The reason for this does not have to do with flow distribution around the LFOM."
+msgstr ""

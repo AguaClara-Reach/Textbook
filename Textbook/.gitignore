@@ -1,6 +1,10 @@
 # sphinx build files:
 _build/
 
+# compiled gettext catalogs (generated from versioned PO files)
+*.mo
+locale/pot/.doctrees/
+
 # jetbrains config files:
 .idea/
 

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "|textbook|"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:0
+msgid "textbook"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "|donate|"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:0
+msgid "donate"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:6
+msgid "|reportabugbig|"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:0
+msgid "reportabugbig"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:12
+msgid "Chemical Dose Controller Configurable Component"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:21
+msgid "Chemical Dose Controller"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:21
+msgid "Chemical dose controller designed for two independent chemical feeds."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:31
+msgid "Location of the Chemical Dose Controller in the Entrance Tank"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:31
+msgid "The chemical dose controller (outlined in red) is mounted on the wall of the entrance tank."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:34
+msgid "Generate New Models of the Chemical Dose Controller"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:36
+msgid "Edit the configurations to create new models of the chemical dose controller. Send us `feedback to share how you are using the doser model, to give us suggestions for how to make these models easier to use, and to <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:0
+msgid "reportabug"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:38
+msgid "Chemical dose controller configuration parameters."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Configuration"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Fraction of plant design flow rate"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "The entrance tank water level is proportional to plant flow rate. The angle of the doser will change with this input."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Fraction of maximum coagulant dose"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "The coagulant slider position will change with this input."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Fraction of maximum chlorine dose"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "The chlorine slider position will change with this input."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Water elevation range (m)"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Change in water elevation in the entrance tank that corresponds to the flow varying from 0 L/s up to the maximum design flow rate."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "Entrance tank width (m)"
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:1
+msgid "The float position will be adjusted to ensure that it is inside the entrance tank."
+msgstr ""
+
+#: ../../AIDE/About/Doser.rst:56
+msgid "Additional information is available in *The Physics of Water Treatment* in the section on :ref:`heading_linear_cdc`."
+msgstr ""

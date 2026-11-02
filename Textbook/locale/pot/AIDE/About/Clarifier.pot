@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|textbook|"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:0
+msgid "textbook"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "|donate|"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:0
+msgid "donate"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:6
+msgid "|reportabugbig|"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:0
+msgid "reportabugbig"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:12
+msgid "Clarifier Configurable Component"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:21
+msgid "Clarifier"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:21
+msgid "The clarifier includes a floc filter that captures small particles and plate settlers that capture particles that settle faster than the plate settler capture velocity."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:31
+msgid "Location of the Clarifier"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:31
+msgid "The clarifier (outlined in red) is attached to the flocculator to create a compact plant layout."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:34
+msgid "The Clarifier Features:"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:36
+msgid "A mechanism for the operator to dump poorly flocculated water before it enters the clarifier. This is important to reduce the recovery time when there is a flocculation failure."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:37
+msgid "A stable floc filter that reduces the clarified water turbidity."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:38
+msgid "Plate settlers cause small flocs to aggregate into large flocs that then act as filters in the floc filter."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:39
+msgid "A inlet diffuser and jet reverser that prevents accumulation of sludge that would tend to become anaerobic and release both dissolved organics (taste and order issues) and methane bubbles that would carry flocs to the top of the clarifier."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:40
+msgid "A floc hopper that removes the solids without requiring power or moving mechanical parts."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:44
+msgid "Generate New Models of the Clarifier"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:46
+msgid "Edit the configurations to create new models of the clarifier. Send us `feedback to share how you are using the clarifier model, to give us suggestions for how to make these models easier to use, and to <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:0
+msgid "reportabug"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:49
+msgid "Clarifier configuration parameters."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Configuration"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Flow (L/s)"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "The maximum flow rate sets the size of the clarifier. Vary it to see how the dimensions change. Flow rates below 2 L/s create a single clarifier bay and use a different inlet/outlet system."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "The temperature influences the design of the inlet manifold."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Floc filter velocity (mm/s)"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Upflow velocity in the vertical wall section of the floc filter."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Plate settler capture velocity (mm/s)"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "The capture velocity for removal of grit. The clarifier will capture grit that has a terminal velocity faster than this capture velocity. This determines the plan view area of the hoppers in the clarifier."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Maximum inlet velocity gradient (1/s)"
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:1
+msgid "Controls breakup of flocs entering the clarifier. The inlet manifold diameter increases and the diffuser openings increase in width for lower values of the velocity gradient."
+msgstr ""
+
+#: ../../AIDE/About/Clarifier.rst:65
+msgid "Additional information is available in the chapter on :ref:`title_Clarifier_Design`."
+msgstr ""

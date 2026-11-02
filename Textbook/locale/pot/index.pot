@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:30
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../index.rst:37
+msgid "Chapter 1: Introduction"
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Chapter 2: Fluids and Hydraulics"
+msgstr ""
+
+#: ../../index.rst:55
+msgid "Chapter 3: Fluid Deformation, Fractals, and Forces"
+msgstr ""
+
+#: ../../index.rst:65
+msgid "Chapter 4: Chemistry of Water Treatment"
+msgstr ""
+
+#: ../../index.rst:72
+msgid "Chapter 5: Flow Control and Measurement"
+msgstr ""
+
+#: ../../index.rst:84
+msgid "Chapter 6: Rapid Mix"
+msgstr ""
+
+#: ../../index.rst:95
+msgid "Chapter 7: Flocculation"
+msgstr ""
+
+#: ../../index.rst:108
+msgid "Chapter 8: Clarification"
+msgstr ""
+
+#: ../../index.rst:119
+msgid "Chapter 9: Filtration"
+msgstr ""
+
+#: ../../index.rst:130
+msgid "Chapter 10: Design and Implementation"
+msgstr ""
+
+#: ../../index.rst:138
+msgid "Chapter 11: Dissolved Gas"
+msgstr ""
+
+#: ../../index.rst:145
+msgid "Chapter 12: Operation"
+msgstr ""
+
+#: ../../index.rst:153
+msgid "Appendix 1 + Resources"
+msgstr ""
+
+#: ../../index.rst:162
+msgid "Contributor's guide"
+msgstr ""
+
+#: ../../index.rst:13
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../index.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "|donate|"
+msgstr ""
+
+#: ../../index.rst:0
+msgid "donate"
+msgstr ""
+
+#: ../../index.rst:28
+msgid "The Physics of Water Treatment Design"
+msgstr ""
+
+#: ../../index.rst:172
+msgid "This textbook is written and maintained in `Github <https://github.com/AguaClara-Reach/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python library."
+msgstr ""
+
+#: ../../index.rst:174
+msgid "Please use the annotation sidebar to leave comments with requests for improvements, additions, and corrections."
+msgstr ""
+
+#: ../../index.rst:176
+msgid "`Please visit our GitHub site <https://github.com/AguaClara-Reach/Textbook>`_ to submit an issue, contribute, or comment."
+msgstr ""

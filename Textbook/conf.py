@@ -22,7 +22,8 @@ release = '0.0.0'
 extensions = ['sphinx.ext.doctest',
               'sphinx.ext.mathjax',
               'sphinxcontrib.bibtex',
-              'sphinxcontrib.disqus'
+              'sphinxcontrib.disqus',
+              'language_switcher'
               ]
 
 todo_include_todos = False
@@ -38,6 +39,14 @@ disqus_shortname = 'AguaClara'
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# Translations are maintained as gettext PO catalogs. English remains the
+# source language; translated builds override this with ``-D language=es``.
+language = 'en'
+locale_dirs = ['locale/']
+gettext_compact = False
+gettext_allow_fuzzy_translations = False
+translation_base_url = 'https://aguaclara-reach.github.io/Textbook'
+
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
@@ -49,6 +58,7 @@ root_doc = 'index'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_css_files = ['css/custom.css']
 
 rinoh_documents = [
     dict(doc=root_doc, target='aguaclara')

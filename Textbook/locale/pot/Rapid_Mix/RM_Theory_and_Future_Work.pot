@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:11
+msgid "Rapid Mix Theory and Future Work"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:14
+msgid "Our understanding of the coagulant nanoparticle attachment to suspended particles and dissolved species is currently quite speculative. This is an area that requires substantial research and modeling because it has the potential to significantly influence the design of flocculators. We have anecdotal evidence that the process of transporting coagulant nanoparticles to suspended particle surfaces may be a slow, rate-limiting process, especially when coupled with high rate flocculators. Dissolved organic matter may slow the rate of coagulant nanoparticle transport by effectively increasing the size of the coagulant nanoparticles and thus reducing the diffusion rate."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:16
+msgid "Developing a fundamental understanding of the mixing and transport processes that occur between coagulant addition and flocculation is a very high priority for the AguaClara program."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:21
+msgid "Diffusion and Shear Transport Coagulant Nanoparticles to Clay"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:23
+msgid "The time required for shear and diffusion to transport coagulant nanoparticles to clay has previously been assumed to be a rapid process."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:25
+msgid "Our analysis suggests that this critical step may require significant time especially given our effort to reduce the time allotted for flocculation."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:27
+msgid "Turbulent eddies, viscous shear, and diffusion blends the coagulant with the raw water sufficiently (:ref:`in a few seconds<heading_Mixing_time>`) so that the coagulant precipitates and forms nanoparticles."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:28
+msgid "Dissolved organic molecules diffuse to the coagulant nanoparticles and adhere to the nanoparticle surface."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:29
+msgid "The coagulant nanoparticles are transported to suspended particle surfaces by a combination of diffusion and fluid shear."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:31
+msgid "The following is a very preliminary estimate of the time required for attachment of the nanoparticles to the clay particles. This analysis includes multiple simplifying assumptions and there is a reasonable possibility that some of those assumptions are wrong. However, the core assumption that coagulant nanoparticles are transported to clay particles by a combination of fluid deformation (shear) and molecular diffusion is reasonable."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:33
+msgid "The following analysis is similar to the collision analysis that was developed in the AguaClara flocculation model. The core idea is that viscous shear dominated fluid deformation causes relative motion between the coagulant nanoparticles and the clay particles (or other suspended particles) with which they eventually will collide. The collision between these particles that are very different in size is difficult to achieve because there is a viscous layer of fluid around the clay particles that the clay particles drag with them as they rotate in deforming fluid. Diffusion helps transport the coagulant nanoparticles through this viscous layer."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:35
+msgid "The volume of the suspension that is cleared of nanoparticles is proportional to a collision area defined by a ring around the clay particles with width of the diameter of the nanoparticle diffusion band. This diffusion band is the length scale over which diffusion is able to transport coagulant particles to the clay surface during the time that the nanoparticles are sliding past the clay particles."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:37
+msgid "If we go backwards in time, the ring of fluid around the clay particles would deform into two separate highly distorted volumes of fluid, one located to the left of the clay particle and one to the right (see figure :numref:`figure_Coagulant_nanoparticle_clay_collisions`). This volume of fluid is assumed to receive nanoparticles that are transported in by fluid deformation."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:46
+msgid "Coagulant nanoparticle clay collisions"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:46
+msgid "Fluid deformation moves coagulant nanoparticles close to clay particles and diffusion helps transport the nanoparticles the last nanometers toward a successful collision."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:48
+msgid "The time required for shear to transport all of the fluid past the clay so that diffusion can transport the coagulant nanoparticles to the clay surface is significant. The diffusion coefficient for coagulant nanoparticles is given by"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:50
+msgid "D_{Diffusion} = \\frac{k_B T}{3 \\pi \\mu d_{CN}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:52
+msgid "where :math:`d_{cn}` is the diameter of the coagulant nanoparticles. The length scale over which diffusion is occurring can be estimate from the diffusion coefficient and the time allotted."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:54
+msgid " L_{Diff} \\approx \\sqrt{D_{Diffusion} t_{Diffusion}}"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:59
+msgid "The time for coagulant nanoparticles to diffuse through the boundary layer around the clay particles is equal to the distance they travel around the clay particles divided by their velocity. The distance they travel scales with :math:`d_{Clay}` and their average velocity scales with the thickness of the diffusion layer/2 \\* the velocity gradient."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:61
+msgid " t_{Diffusion} = \\frac{ 2d_{Clay}} {L_{Diff} G}"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:66
+msgid "We can eliminate the diffusion time in Equation :eq:`Diffusion_Length_scale` using Equation :eq:`Diffusion_Layer_time`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:68
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:163
+msgid "L_{Diff} \\approx \\left( \\frac{2k_B T d_{Clay}}{3 \\pi \\,\\mu  \\, d_{CN} G}\\right)^\\frac{1}{3}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:70
+msgid "This diffusion layer thickness is the length scale over which diffusion becomes the dominant transport mechanism for coagulant nanoparticles. Let’s estimate the diffusion layer thickness."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:72
+msgid "`Colab worksheet to estimate the diffusion layer thickness <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=xLb8eJza5gs0&line=1&uniqifier=1>`_."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:81
+msgid "Diffusion band thickness"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:81
+msgid "Molecular diffusion band thickness as a function of velocity gradient. This length scale marks the transition between transport by fluid deformation and by diffusion."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:83
+msgid "Diffusion transports the coagulant nanoparticles a relatively short distance, a fraction of a :math:`\\mu m`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:85
+msgid "We need to calculate the rate at which coagulant nanoparticles attach to the clay particles. The long range transport is assumed to be the rate limiting step. The volume cleared is proportional to the area of this ring with the ring thickness equal to the molecular diffusion band thickness. Here we assume that the :math:`L_{Diff_{CN}} << d_{Clay}`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:87
+msgid "{\\forall_{\\rm{Cleared}}} \\propto \\pi \\, d_{Clay} \\, L_{Diff_{CN}}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:89
+msgid "The volume cleared is proportional to time."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:91
+msgid "{\\forall_{\\rm{Cleared}}} \\propto t\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:93
+msgid "The volume cleared is proportional to the relative velocity between clay and nanoparticles. This relative velocity is in the viscous layer of fluid in the ring surrounding the clay particle."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:95
+msgid "{\\forall_{\\rm{Cleared}}} \\propto v_r\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:97
+msgid "We use dimensional analysis to get a relative velocity for the long range transport controlled by shear. The relative velocity between coagulant nanoparticles and the clay particles that they will eventually collide with is assumed to be proportional to the average distance between clay particles. This assumption is both critical for the following derivation and is suspect. It is critical because if we were to assume that the relative velocity caused by shear is proportional to the nanoparticle diameter, the clay diameter, or the diffusion length scale, then the velocity would be extremely small and the time to clear the volume of fluid associated with one clay particle would take a very long time. However, wishing for a speedy process doesn't justify incorrect scaling. The relative velocity is assumed to be the velocity at which coagulant nanoparticles are transported into the two separate fluid volumes that will deform into the ring around the clay particles in the next few seconds."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:99
+msgid "The assumption that the relative velocity scales with the average distance between clay particles leads to the following steps. The first step is just a proposed functional relationship. We could also have jumped to the assumption that the relative velocity is a function of the length scale and the velocity gradient."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:101
+msgid "v_r = f \\left( \\varepsilon ,\\nu ,\\Lambda_{Clay} \\right)\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:103
+msgid "In a uniform shear environment the velocity gradient is linear. Thus the relative velocity must be proportional to the length scale."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:105
+msgid "v_r = \\Lambda_{Clay} f \\left( \\varepsilon ,\\nu \\right)\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:107
+msgid "The only way to for :math:`\\varepsilon` and :math:`\\nu` to produce dimensions of time is to combine them to create 1/G."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:109
+msgid "v_r \\approx \\Lambda_{Clay} G\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:111
+msgid "Combining the three equations for :math:`{\\forall_{\\rm{Cleared}}}` and the equation for :math:`v_r` we obtain the volume cleared as a function of time."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:113
+msgid "{\\forall_{\\rm{Cleared}}} \\approx \\pi  d_{Clay} \\, L_{Diff_{CN}}  \\Lambda_{Clay} G  t_c\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:119
+msgid "Collision Rates and Particle Removal"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:121
+msgid "The time for all of the fluid to have had one opportunity for a collision occurs when:"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:123
+msgid "{\\forall_{\\rm{Cleared}}} = {\\forall_{\\rm{Occupied}}} = \\Lambda_{Clay}^3\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:125
+msgid "t_c = \\frac{\\Lambda_{Clay}^3}{\\pi d_{Clay} L_{Diff_{CN}} \\Lambda_{Clay} G}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:127
+msgid "The successful collision rate (the attachment rate) is given by:"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:129
+msgid "\\frac{dN_c}{dt} = \\frac{1}{t_c}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:131
+msgid "Substitute the equation for :math:`t_c`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:133
+msgid "dN_c = \\pi d_{Clay} L_{Diff_{CN}}{\\Lambda^{-2}_{Clay}} G dt\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:135
+msgid "A fraction of the remaining coagulant nanoparticles are removed during the time required for one sweep past the clay particles."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:137
+msgid "\\frac{dn_{CN}}{ - k \\, n_{CN}} = dN_c\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:139
+msgid "\\frac{dn_{CN}}{ - k \\, n_{CN}} = \\pi d_{Clay} L_{Diff_{CN}}{\\Lambda^{-2}_{Clay}} G dt\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:141
+msgid "Integrate from the initial coagulant nanoparticle concentration to the concentration at time t."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:143
+msgid "\\int \\limits_{n_{CN_0}}^{n_{CN}} n_{CN}^{- 1} \\, dn_{CN}  =  - \\pi d_{Clay} L_{Diff_{CN}} \\Lambda^{-2}_{Clay} G \\, k  \\int \\limits_0^t {dt}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:145
+msgid "Use pC notation to be consistent with how we describe removal efficiency of other contaminants."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:147
+msgid "2.3 p C_{CN} = \\pi d_{Clay}\\,  L_{Diff_{CN}}\\,  \\Lambda^{-2}_{Clay}\\,  G k  t\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:149
+msgid "Solve for the time required to reach a target efficiency of application of coagulant nanoparticles to clay."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:151
+msgid "t_{coagulant, \\, application} = \\frac{2.3p C_{CN} \\Lambda_{Clay}^2}{\\pi G k \\, d_{Clay}  L_{Diff_{CN}} }"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:155
+msgid "If we assume that we are willing to invest a certain amount of energy in the process, then we can estimate the time required to achieve a target coagulant nanoparticle application efficiency. The velocity gradient in the reactor where the coagulant is attaching to the clay particles is related to the head loss or drop in water level, :math:`\\Delta h`, through the reactor."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:157
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:202
+msgid "\\Delta h =  \\frac{G^2 \\nu \\theta}{g}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:159
+msgid "Replace :math:`\\theta` with :math:`t_{coagulant, \\, application}`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:161
+msgid "\\Delta h =  \\frac{G^2 \\nu}{g} \\frac{2.3p C_{CN} \\, \\Lambda_{Clay}^2}{\\pi G k \\, d_{Clay}\\,  L_{Diff_{CN}} }\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:165
+msgid "\\Delta h =  \\frac{G^2 \\nu}{g} \\frac{2.3p C_{CN} \\, \\Lambda_{Clay}^2}{\\pi G k \\, d_{Clay}} \\left( \\frac{3 \\pi \\,\\mu  \\, d_{CN} G}{2k_B T d_{Clay}}\\right)^\\frac{1}{3}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:167
+msgid "Solve for the velocity gradient."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:169
+msgid "\\Delta h =  \\frac{G^\\frac{4}{3} \\nu}{g} \\frac{2.3p C_{CN} \\, \\Lambda_{Clay}^2}{\\pi k \\, d_{Clay}} \\left( \\frac{3 \\pi \\,\\mu  \\, d_{CN} }{2k_B T d_{Clay}}\\right)^\\frac{1}{3}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:171
+msgid "G_{coagulant, \\, application} =  d_{Clay}\\left(\\frac{\\pi k \\,g\\Delta h }{2.3p C_{CN} \\, \\Lambda_{Clay}^2 \\nu} \\right)^\\frac{3}{4} \\left( \\frac{2k_B T }{3 \\pi \\,\\mu  \\, d_{CN} }\\right)^\\frac{1}{4}"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:179
+msgid "Using the equation for :math:`L_{Diff}` above, we can solve for  the time required to reach a target efficiency of application of coagulant nanoparticles to clay:"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:181
+msgid "t_{coagulant, \\, application} = \\frac{2.3p C_{CN} \\, \\Lambda_{Clay}^2}{\\pi G k \\, d_{Clay}\\,  L_{Diff_{CN}} }\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:183
+msgid "The time required for the coagulant to be transported to clay surfaces is strongly dependent on the turbidity as indicated by the average spacing of clay particles, :math:`\\Lambda_{Clay}`. As turbidity increases the spacing between clay particles decreases and the time required for shear to transport coagulant nanoparticles to the clay decreases. Increasing the shear also results in faster transport of the coagulant nanoparticles to clay surfaces. The times required are strongly influenced by the size of the coagulant nanoparticles because larger nanoparticles diffuse more slowly."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:185
+msgid "`Colab worksheet estimating the time required to achieve 80% attachment of nanoparticles in a 10 NTU clay suspension in a reactor with a G of 100 Hz <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=FiqAt0PF6L1t&line=13&uniqifier=1>`_."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:194
+msgid "Coag attach time"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:194
+msgid "An estimate of the time required for 80% of the coagulant nanoparticles to attach to clay particles given a raw water turbidity of 10 NTU."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:200
+msgid "Energy Tradeoff for Coagulant Transport"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:204
+msgid "`This code <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=lSrjJEAT6-Gd&line=8&uniqifier=1>`_ shows how the following plot can be generated"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:213
+msgid "Coag attach head loss"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:213
+msgid "The total energy required to attach coagulant nanoparticles to raw water inorganic particles increases rapidly with the velocity gradient used in the rapid mix process."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:215
+msgid "There is an economic tradeoff between reactor volume and energy input. The reactor volume results in a higher capital cost and the energy input requires both higher operating costs and higher capital costs. This provides an opportunity to optimize rapid mix design once we have a confirmed model characterizing the process."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:217
+msgid "The total potential energy used to operate an AguaClara plant is approximately 2 m. This represents the difference in elevation between where the raw water enters the plant and where the filtered water exits the plant. If we assume that the rapid mix energy budget is a fraction of that total and thus for subsequent analysis we will assume somewhat arbitrarily that the energy available to attach the coagulant nanoparticles to the raw water particles is 50 cm."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:219
+msgid "We solve the coagulant transport model, :math:`t_{coagulant, \\, application} = \\frac{2.3p C_{CN} \\, \\Lambda_{Clay}^2}{\\pi G k \\, d_{Clay}\\, L_{Diff_{CN}} }`, for G given a head loss."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:223
+msgid "G_{coagulant, \\, application} =  d_{Clay}\\left(\\frac{\\pi k \\,g\\Delta h }{2.3p C_{CN} \\, \\Lambda_{Clay}^2 \\nu} \\right)^\\frac{3}{4} \\left( \\frac{2k_B T }{3 \\pi \\,\\mu  \\, d_{CN} }\\right)^\\frac{1}{4}\n"
+"\n"
+""
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:227
+msgid "`The maximum velocity gradient <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=6cWi2zks8tiD&line=10&uniqifier=1>`_  that can be used to achieve 80% coagulant nanoparticle attachment using 50 cm of head loss is 283 Hz. This requires a residence time of 61 seconds. These model results must be experimentally verified and it is very likely that the model will need to be modified."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:229
+msgid "The analysis of the time required for shear and diffusion to transport the coagulant nanoparticles the last few millimeters suggests that it is the last step of diffusion to the clay particles that requires the most time. Indeed, the time required for coagulant nanoparticle attachment to raw water particles is comparable to the time that will be required for the next step in the process, flocculation."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:234
+msgid "Coagulant Attachment Mechanism"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:235
+msgid "We do not yet understand the origin of the bonds that form between coagulant nanoparticles, between a coagulant nanoparticle and a suspended particle, and between coagulant nanoparticles and dissolved organic molecules. Historically the role of the coagulant was assumed to be to reduce the repulsive force between particles so that the particles could get close enough for Van der Waals forces to hold the particles together. That neglected the fact that Van der Waals forces were already acting between the water molecules and the suspended particle surfaces. In order for the water molecules to be pushed out of the way it is necessary for the coagulant nanoparticles to have stronger bonds with the suspended particles than the bonds between water molecules and the suspended particles."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:237
+msgid "The water molecules are subject to Brownian motion and thus it is possible that they are frequently vibrated free from the Van der Waals attractive forces. The coagulant nanoparticles are much larger, less affected by Brownian motion, and thus less likely to be vibrated. The fractal nature of the coagulant nanoparticles may also make it possible for multiple well aligned connections between the two surfaces. The fractal tentacles of the coagulant nanoparticle can align as needed to enable many strong bonding connections to the clay surface."
+msgstr ""

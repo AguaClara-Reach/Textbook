@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:11
+msgid "Fluid Mechanics Derivations"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:18
+msgid "Minor Loss Equation"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:20
+msgid "This section contains the derivation of the minor loss equation using the following figure as a reference. The derivation begins with a slightly simplified energy equation across the control volume shown. Our energy equation begins with :math:`h_P` and :math:`h_T` having been eliminated."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:30
+msgid "Example of flow expansion resulting in a minor loss"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:30
+msgid "This is the system we will use to derive the minor loss equation."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:32
+msgid "\\frac{p_{in}}{\\rho g} + {z_{in}} + \\frac{\\bar v_{in}^2}{2g} = \\frac{p_{out}}{\\rho g} + z_{out} + \\frac{\\bar v_{out}^2}{2g} + h_L"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:36
+msgid "Since the elevations at the center of the :math:`in` and :math:`out` control surfaces are the same, we can eliminate :math:`z_{in}` and :math:`z_{out}`. As we are considering such a small length of pipe, we will neglect the major loss component of head loss. Thus, :math:`h_L = h_e + \\cancel{h_f}`. The following three equations are all the same, simply rearranged to solve for :math:`h_e`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:38
+msgid "\\frac{p_{in}}{\\rho g} + \\frac{\\bar v_{in}^2}{2g} = \\frac{p_{out}}{\\rho g} + \\frac{\\bar v_{out}^2}{2g} + h_e"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:42
+msgid "\\frac{p_{in} - p_{out}}{\\rho g} = \\frac{\\bar v_{out}^2 - \\bar v_{in}^2}{2g} + h_e"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:46
+msgid "  h_e = \\frac{p_{in} - p_{out}}{\\rho g} + \\frac{\\bar v_{in}^2 - \\bar v_{out}^2}{2g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:51
+msgid "This last equation has :math:`h_e` as a function of four variables :math:`(p_{in}, \\, p_{out}, \\, v_{in}`, and :math:`v_{out})`; we would like it to be a function of only one. Thus, we will invoke conservation of momentum in the horizontal direction across our control volume to remove variables. The difference in momentum from the :math:`in` point to the :math:`out` point is driven by the pressure difference between each end of the control volume. We will be considering the pressure at the centroid of our control surfaces, and we will neglect shear along the pipe walls. After these assumptions, our momentum equation becomes the following:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:53
+msgid "M_{in, \\, x} + M_{out, \\, x} = F_{p_{in, \\, x}} + F_{p_{out, \\, x}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:57
+msgid "Such that:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:58
+msgid ":math:`M_{x}` = momentum flowing through the control volume in the x-direction"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:59
+msgid ":math:`F_{p_x}` = force due to pressure acting on the boundaries of the control volume in the x-direction"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:61
+msgid "Recall that momentum is mass times velocity for solids, :math:`m v`, with units of :math:`\\frac{[M][L]}{[T]}`. Since we consider water flowing through a pipe, there is not one singular mass or one singular velocity. Instead, there is a mass flow rate, or a mass per time indicated by :math:`\\dot m = \\rho Q`, which has units of :math:`\\frac{[M]}{[T]}`. Therefore, the momentum for a fluid is :math:`\\rho Q \\bar v`. Applying the continuity Equation :math:`Q = \\bar v A`, we get to the following equation for the momentum of a fluid flowing through a pipe which we will use in this derivation, :math:`M = \\rho \\bar v^2 A`. The pressure force is simply the pressure at the centroid of the flow multiplied by the area the pressure is acting upon, :math:`p A`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:63
+msgid "To ensure correct sign convention, we will make each side of the equation negative for reasons discussed shortly. Since :math:`\\bar v_{in} > \\bar v_{out}`, the left hand side will be :math:`M_{out} - M_{in}` in order to be negative. The reduction in velocity from :math:`in` to :math:`out` causes an increase in pressure, therefore :math:`p_{in} - p_{out}` is negative. With these substitutions, the conservation of momentum equation becomes as follows:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:65
+msgid "M_{out} - M_{in} = p_{in} - p_{out}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:69
+msgid "\\rho \\bar v_{out}^2 A_{out} - \\rho \\bar v_{in}^2 A_{in} = p_{in} A_{out} - p_{out} A_{out}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:73
+msgid "Note that the area term attached to :math:`p_{in}` is actually :math:`A_{out}` instead of :math:`A_{in}`, as one might think. This is because :math:`A_{out} = A_{in}`. We chose our control volume to start a few millimeters into the larger pipe, which means that the cross-sectional area does not change over the course of the control volume."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:75
+msgid "Dividing both sides of the equation by :math:`A_{out} \\rho g`, we obtain the following equation, which contains the very same pressure term as our adjusted energy equation above, Equation :eq:`minor_loss_energy_eq`. This is why we chose a negative sign convention."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:77
+msgid "\\frac{p_{in} - p_{out}}{\\rho g} = \\frac{\\bar v_{out}^2 - \\bar v_{in}^2 \\frac{A_{in}}{A_{out}}}{g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:81
+msgid "Now, we combine the momentum, continuity, and adjusted energy equations:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:83
+msgid "{\\rm{Energy \\, equation:}} \\,\\,\\,  h_e = \\frac{p_{in} - p_{out}}{\\rho g} + \\frac{\\bar v_{in}^2 - \\bar v_{out}^2}{2g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:87
+msgid "{\\rm{Momentum \\, equation:}} \\,\\,\\, \\frac{p_{in} - p_{out}}{\\rho g} = \\frac{\\bar v_{out}^2 - \\bar v_{in}^2 \\frac{A_{in}}{A_{out}}}{g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:91
+msgid "{\\rm{Continuity \\, equation:}} \\,\\,\\, \\frac{A_{in}}{A_{out}} = \\frac{\\bar v_{out}}{\\bar v_{in}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:95
+msgid "To obtain an equation for minor losses with just two variables, :math:`\\bar v_{in}` and :math:`\\bar v_{out}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:97
+msgid "h_e = \\frac{\\bar v_{out}^2 - \\bar v_{in}^2\\frac{\\bar v_{out}}{\\bar v_{in}}}{g} + \\frac{\\bar v_{in}^2 - \\bar v_{out}^2}{2g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:101
+msgid "Now we will combine the two terms. The numerator and denominator of the first term, :math:`\\frac{\\bar v_{out}^2 - \\bar v_{in}^2\\frac{\\bar v_{out}}{\\bar v_{in}}}{g}` will be multiplied by :math:`2` to become :math:`\\frac{2 \\bar v_{out}^2 - 2 \\bar v_{in}^2\\frac{\\bar v_{out}}{\\bar v_{in}}}{2 g}`. The equation then looks like:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:103
+msgid "h_e = \\frac{\\bar v_{out}^2 - 2 \\bar v_{in} \\bar v_{out} + \\bar v_{in}^2}{2g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:111
+msgid "Final Forms of the Minor Loss Equation"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:113
+msgid "Factoring the numerator yields to the first ‘final’ form of the minor loss equation:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:115
+msgid "{\\rm{ \\mathbf{First \\, form:} }} \\quad h_e = \\frac{\\left( \\bar v_{in}  - \\bar v_{out} \\right)^2}{2g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:119
+msgid "From here, the two other forms of the minor loss equation can be derived by solving for either :math:`\\bar v_{in}` or :math:`\\bar v_{out}` using the ubiquitous continuity Equation :math:`\\bar v_{in} A_{in} = \\bar v_{out} A_{out}`:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:121
+msgid "{\\rm{ \\mathbf{Second \\, form:} }} \\quad h_e = \\left( 1 - \\frac{A_{in}}{A_{out}} \\right)^2 \\, \\frac{\\bar v_{in}^2}{2g} \\, \\, = \\, \\, K_e^{'} \\frac{\\bar v_{in}^2}{2g}, \\quad {\\rm where} \\quad K_e^{'} = \\left( 1 - \\frac{A_{in}}{A_{out}} \\right)^2"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:125
+msgid "   {\\rm{ \\mathbf{Third \\, form:} }} \\quad h_e = \\left( \\frac{A_{out}}{A_{in}} -1 \\right)^2 \\, \\frac{\\bar  v_{out}^2}{2g} \\, \\, = \\, \\, K_e \\frac{\\bar v_{out}^2}{2g}, \\quad {\\rm where} \\quad K_e = \\left( \\frac{A_{out}}{A_{in}} - 1 \\right)^2"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:132
+msgid "You will often see :math:`K_e^{'}` and :math:`K_e` used without the :math:`e` subscript, they will appear as :math:`K^{'}` and :math:`K`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:134
+msgid "Being familiar with these three forms and how they are used will be of great help throughout the class. The third form is the one that is most commonly used."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:136
+msgid "We can convert the minor loss coefficient, :math:`K_e`, into a flow contraction using the minor loss equation (see Equation :eq:`minor_loss_equation`)"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:138
+msgid " K_e = \\left(\\frac{1}{\\Pi_{vc}}  - 1 \\right)^2"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:143
+msgid "where :math:`\\Pi_{vc}` is the ratio of the contracted area to the full expanded flow area."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:145
+msgid "\\Pi_{vc} = \\frac{A_{in}}{A_{out}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:150
+msgid "Given that :math:`\\Pi_{vc}` is the ratio of the contracted area to the full expanded flow area we obtain the relationship between the contracted diameter, :math:`D_{vc}`, and the expanded diameter, :math:`D_{pipe}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:152
+msgid "D_{pipe} = \\frac{D_{vc}}{\\sqrt{\\Pi_{vc}}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:157
+msgid "Solving Equation :eq:`minor_K_of_pi_vc` for :math:`\\Pi_{vc}` we obtain"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:159
+msgid "\\Pi_{vc} = \\frac{1}{\\sqrt{K_e} + 1}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:164
+msgid "The extent of a flow contraction, :math:`\\Pi_{vc}` can be estimated from the measured minor loss coefficient."
+msgstr ""

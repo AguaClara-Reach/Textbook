@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:11
+msgid "Plant Hydraulics"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:13
+msgid "Pipes that carry the plant flow rate are used for:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:15
+msgid "source water from the surface water"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:16
+msgid "linear flow orifice meter and connecting pipe from the entrance tank to the flocculator"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:17
+msgid "bypass the plant taking the water from the entrance tank (by moving the linear flow orifice meter to the bypass socket) to the filter outlet tank where it is chlorinated"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:18
+msgid "clarified water to filters"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:19
+msgid "recycle backwash water to the entrance tank"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:20
+msgid "filtered water to distribution tank"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:22
+msgid "Minor losses dominate the head loss in most pipes in a water treatment plant. An exception is the dosing tubes that are specifically designed to have major losses dominate. We can solve the minor loss Equation, :eq:`minor_loss` for the maximum velocity in a pipe given a constraint of head loss and the sum of the minor loss coefficients."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:24
+msgid "\\bar v_{max}^2 = \\sqrt{\\frac{2gh_{e_{max}}}{K_e}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:29
+msgid "This calculations for the maximum velocities for different sections of the plant piping are in the `PipeMap Onshape document <https://cad.onshape.com/documents/feb8f8b15585d57ecb0091f2/w/11145594f45115d4e255d7ae/e/b3519c65bc0794966e96cb8e>`_."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:31
+msgid "Kawamura :cite:`plantHydraulics-kawamura2000integrated` recommends maximum velocities of about 2 m/s except where floc breakup is a concern. He also recommends that the plant hydraulics be designed to handle 1.2 to 1.5 of the plant design flow rate. If we use the less conservative factor we obtain a maximum plant pipe velocity of 1.7 m/s."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:33
+msgid "The bypass line requires a careful design because the elevation difference is slightly greater than 1 m and contains an entrance (K = 0.5), 6 elbows (K = 0.9), and an exit (K = 1). The minor loss equation gives a maximum velocity of 1.7 m/s without any additional safety factor."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:35
+msgid "The linear flow orifice (LFOM) is sized based on a maximum velocity of Equation :eq:`LFOM_V_max`. For the AguaClara standard LFOM head loss of 20 cm the maximum velocity is 0.84 m/s. With a safety factor of 1.2 this results in a maximum velocity of 0.7 m/s. Thus the LFOM requires a larger diameter pipe than the plant bypass line. Given the high cost of switching to larger pipes and fittings it is worth designing for the precise bypass line requirements rather than simple using the LFOM diameter for other pipes."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:37
+msgid "The plant bypass line, backwash recycle line and source water pipes will all be designed using the bypass line nominal diameter. The bypass line will be designed based on the minor losses of the entrance, elbows, and exit as well as the total elevation difference between the entrance tank and the filter outlet tank."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:39
+msgid "Pipes used to connect the clarifier to the filter need to be designed in context because the head loss directly influences the overall plant head loss and hence the height of the building. In that case the head loss should be limited to about 0.1 m. The velocity will be limited based on the number of elbows required. As plant flow rates increase the clarified pipe will quickly reach the maximum pipe diameter that the implementation partner is willing to install. In that case the options are to use multiple pipes or switch to open channel flow."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:41
+msgid "The chemical pipes have three sections with different constraints."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:45
+msgid "Design constraints for the chemical feed piping."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "Location"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "Constraint"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "maximum velocity"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "stock tanks to float valves"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "low head loss so that chem platform doesn't need to be raised significantly"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "constant level tank through dosing tubes and to doser"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "low head loss compared with dosing tube head loss"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "drop tube to flexible tubing"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "tube must contain air to the elevation where full pipe flow begins"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "small head loss compared with the hydraulic safety factor (10 cm)"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing to injection point (coagulant)"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing to drip point (chlorine)"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:58
+msgid "Stock tanks to float valves"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:63
+msgid "Constant level tank through dosing tubes and to the doser"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:65
+msgid "Any loses that scale with the velocity squared must be minimized in this section of tubing. The minor losses should be less than about 5% of the 20 cm doser tube head loss (1 cm of head loss). There are about 6 elbows in this trajectory and this sets the maximum velocity in this section of piping to 0.14 m/s."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:68
+msgid "Drop tube to flexible tubing"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:70
+msgid "The flow transitions from full pipe flow to open channel flow in the horizontal pipe leading to the drop tube. The vertical (or almost vertical) drop tube has supercritical open channel flow. In supercritical flow downstream conditions have no influence on the flow. An example of supercritical flow is flow down a spillway from a dam. The supercritical flow prevents the water level at the injection point for the coagulant from having any influence on the coagulant flow rate that is controlled by the head loss through the dosing tubes. The chemical will have the lowest vertical velocity at the point where it transitions from horizontal to vertical flow. The open channel flow condition must begin at the end of the horizontal section."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:72
+msgid "We can specify that the chemical depth at the end of the horizontal section should not exceed 50% of the pipe diameter. The flow at the transition from the horizontal to vertical pipe is critical flow. The equation for critical flow for an arbitrary channel cross section is given by:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:74
+msgid "Fr^2 = \\frac{Q^2 T}{gA^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:79
+msgid "where Fr is the Froude number, Q is the flow rate, T is the top width of the fluid surface, g is the acceleration due to gravity, and A is the cross sectional area of the flow. The Froude number has a value of 1 for critical flow. We can apply the constraint that the horizontal pipe be half full at the transition to the vertical pipe and replace the flow rate with velocity times area to obtain:"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:81
+msgid "1 = \\frac{V^2 A^2 D}{g A^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:86
+msgid "The area, A, in Equation :eq:`criticalFlow1` is half of the pipe cross sectional area, :math:`\\frac{\\pi D^2}{8}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:88
+msgid "1 = \\frac{8 V^2 D}{g \\pi D^2}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:93
+msgid "Equation :eq:`criticalFlow2` can be solved for the maximum fluid velocity in half full pipe."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:95
+msgid "V_{max_{halfPipe}} = \\frac{\\sqrt{2\\pi g D}}{4}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:100
+msgid "For design purposes we want a constraint on the maximum velocity over the entire pipe. The entire pipe has twice the area and thus the maximum velocity over the entire pipe is half of the value in Equation :eq:`V_max_halfPipe`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:102
+msgid "V_{max_{dropTube}} =  \\frac{\\sqrt{2\\pi g D}}{8}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:108
+msgid "Try again using flow as the parameter. The flow area, A, is 1/2 of the pipe cross sectional area when T is the diameter."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:110
+msgid "1 = \\frac{Q^2 D}{g\\left(\\frac{\\pi D^2}{8}\\right)^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:115
+msgid "Now solve for D."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:117
+msgid "D = \\left[\\frac{Q^2}{g }\\left(\\frac{8}{\\pi}\\right)^3\\right]^\\frac{1}{5}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:122
+msgid "The critical flow constraint is less severe than the constant level tank to the doser. To minimize the number of different sizes of piping that are used the drop tube will have the same diameter as the pipes leaving the constant level tank."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:125
+msgid "Flexible tubing"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:126
+msgid "All designed to have less than 1 cm of minor losses so the same tubing can be used both entering and exiting the doser."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:129
+msgid "Doser to injection point (coagulant)"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:132
+msgid "Doser to drip point (chlorine)"
+msgstr ""

@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../AIDE/AIDE.rst:14
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:15
+msgid "|donate|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "donate"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:19
+msgid "AguaClara Infrastructure Design Engine"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:21
+msgid "The AguaClara Infrastructure Design Engine (AIDE) is created and continuously improved by AguaClara Reach using the |Onshape| platform.  AIDE is a long term effort that began in 2005 and represents the contributions of thousands of individuals. AguaClara Reach is providing open access to this beta release of AIDE configurable components for educational purposes and so AguaClara implementation partners can explore our technologies (see our :ref:`Disclaimer <heading_Disclaimer>`)."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "Onshape"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:23
+msgid "We rely on donor support to develop AIDE and to create this textbook. Please |donate| to support our mission of developing and providing the next generation of drinking water treatment plants so that many more communities can have safe water on tap."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:25
+msgid "In the :ref:`table below <table_AIDE_configurable_components>` are links to configurable component models. Information on how to :ref:`access and modify the models is given below the table <heading_Using_AIDE>`. We welcome `your feedback on the AIDE models <https://docs.google.com/forms/d/e/1FAIpQLSdYHVinzW-xZskW74rpZ_7prHAqjLQDwadCNiRP39nyu7NHMw/viewform?>`_. If you are interested in AguaClara technologies to produce safe water on tap please fill out our `survey for potential implementation partners <https://docs.google.com/forms/d/e/1FAIpQLSdU7ZrWlnugDqEutdELWLoj5jq8JW6yzOeUg3Al4R7LUSYzRA/viewform?>`_."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:36
+msgid "AIDE configurable components."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Link to Onshape"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Approximate time to generate model component (s)"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|20-80Lpsplant|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "20-80Lpsplant"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "20-80 L/s plant: Integrated plant for flows between 20 and 80 L/s (see `AIDE: Introductory Video <https://www.loom.com/share/272ed6d0570a4b489ca630a10aa5a65d>`_)"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "180"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|LFOM|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "LFOM"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Linear Flow Orifice Meter (see `AIDE: Linear Flow Orifice Meter <https://www.loom.com/share/59c642e57000459290eeeaf4eae794c2>`_)"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|Doser|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "Doser"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Chemical Dose Controller"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|EntranceTank|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "EntranceTank"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Entrance Tank: trash racks, grit removal, chemical dose controller, and linear flow orifice meter"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|FlocculatorVH|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "FlocculatorVH"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Flocculator VH: Vertical-Horizontal Flocculator for flows below about 20 L/s"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|FlocculatorHV|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "FlocculatorHV"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Flocculator HV: Horizontal-Vertical Flocculator for flows between about 10 and 100 L/s"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|FlocculatorHH|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "FlocculatorHH"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Flocculator HH: Horizontal-Horizontal Flocculator for flows above about 100 L/s"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|Clarifier|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "Clarifier"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Clarifier: floc filter, plate settlers, and floc hopper"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "32"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|OStaRS|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "OStaRS"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "OStaRS: Open Stacked Rapid Sand Filter"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "25"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:51
+msgid "The AIDE components will be updated as we continue to improve the designs and we will be adding new components as we extend our designs to a wide range of flow rates."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:56
+msgid "Disclaimer"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:58
+msgid "The configurable components created by AIDE are not engineering designs. The configurable components are provided for educational purposes. The configurable components create models that have not been reviewed and are likely NOT suitable for any particular application."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:60
+msgid "**In no event shall AguaClara Reach, or their employees be liable to any party for direct, indirect, special, incidental, or consequential damages, including lost profits, arising out of the use of AIDE, even if AguaClara Reach may have been advised of the possibility of such damage.**"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:64
+msgid "Introduction to AIDE"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:66
+msgid "AIDE is based on parametric design. The vast majority of the dimensions are calculated from hydraulic constraints. Pipe diameters are sometimes based on a head loss constraint, sometimes are designed to not break up flocs, and in the chemical doser are designed to ensure laminar flow. Wall thicknesses are based on the construction methods used by the implementation partner and vary based on the depth of water in the tank. Thus the filter has thicker walls than the clarifier."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:68
+msgid "AIDE is built from many modular components that are all connected so they can share design information. The entire water treatment plant is an example of a top level component, a trunk, that has an entrance tank, flocculator, clarifier, and filter as branches. Each of the branches also has its own twigs. We call the connections between trunk, branch, and twigs a part studio tree. The part studio tree is assembled level by level in a way that allows the trunk to know everything about all of the branches and their twigs. This sharing of design parameters between components enables an integrated design and an optimized plant layout."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:70
+msgid "All of the parts used to assemble the design originate in a parts database.  The database can be customized for different implementation partners so that the part dimensions and costs match their requirements.  The database approach to design ensures that when an alternative part is selected that all plant dimensions update to accommodate the new part dimensions."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:72
+msgid "The AIDE configurable components are not engineering designs. AguaClara Reach uses AIDE configurable components, expertise in drinking water treatment, and site specific conditions detailed by AguaClara Implementation Partners to develop customized designs for community-scale water treatment plants."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:74
+msgid "Most of the configurable component models have two or more check boxes that provide increasing level of model detail. A few models have more options to turn on computationally intensive parts of the design."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:76
+msgid "*Add plastic components* - Enables the modeling of pipes, baffles, and other plastic components and creates a complete bill of materials. For some of the components it will only show an example rather than fully replicating all of the parts."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:78
+msgid "*Replicate all parts* - Fully replicates all parts and may significantly extend the time required to generate a new model. Note that the Bill of Materials includes the correct quantity of each of the parts even if the parts are not all replicated."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:80
+msgid "*Print parameter map* - Prints a full map in the FeatureScript notices of all of the model inputs. Only a small fraction of the available inputs are exposed in the model configuration parameters. Click on show FeatureScript Notices |showFSNotices| to open a new pane at the bottom of the browser window where the full parameter map will be displayed."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:173
+msgid "showFSNotices"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:82
+msgid "The full plant can take up to several minutes to generate a new model that shows internal components fully replicated (see the column of *time to generate model component* in :numref:`table_AIDE_configurable_components` for estimates of the time required for regenerating a fully detailed model). If you are interested in exploring the overall size or layout of the components the time to generate a new model can be substantially reduced by not replicating all parts and not showing internal components."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:84
+msgid "If you would like to explore possible configurations, change the values to generate new models. The configurations have minimum and maximum values. This does not imply that the models created in that range are viable designs. The intent of providing the configuration options is to allow exploration to see how the models change when the input configurations are changed. If a configuration input is red, it is out of range."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:91
+msgid "Using AIDE to Explore AguaClara Technologies"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:93
+msgid "If you do not yet have an |Onshape| account, then you will be able to make changes to the component configuration by using the `view only toolbar <https://cad.onshape.com/help/Content/viewonlytoolbar.htm>`_. You can sign up for a `free public Onshape account <https://www.onshape.com/en/products/free>`_ that will enable you to access the parts lists and *estimated* materials cost for each of the AIDE configurable components. The AIDE videos (see :numref:`table_AIDE_videos`) introduce the core AIDE features."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:97
+msgid "AIDE play list of videos."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "Link to video"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|AIDEIntroduction|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "AIDEIntroduction"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "AIDE | Introduction"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|AIDEConfigurations|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "AIDEConfigurations"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "AIDE | Configurations"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|AIDEBOM|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "AIDEBOM"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "AIDE | Bill of Materials"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "|AIDEconfigurableComponent|"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:0
+msgid "AIDEconfigurableComponent"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:1
+msgid "AIDE | Configurable component example"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:110
+msgid "How AguaClara Reach Uses AIDE"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:112
+msgid "AguaClara Reach (ACR) uses AIDE to provide Implementation Partners (IPs) with customized hydraulic designs. AguaClara Reach works with IPs to customize the AIDE parts database so that the design reflects construction practices and part availability in the IP's region. This includes pipes and fittings from preferred vendors and custom dimensions used for the civil work based on the construction methods used by each Implementation Partner. The designs are customized based on water quality. ACR also provides training and technical support to IPs."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:114
+msgid "There are approximately 300 input parameters required to design a full AguaClara water treatment plant. In addition there are many hundreds of parts in the parts database that each require dimensions. AIDE makes it possible to modify both the parts database and the input parameters for each IP."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:116
+msgid "ACR developed AIDE to reduce the time required to customize the designs and to make it possible to provide detailed designs quickly. With AIDE ACR can provide an IP with a quick bill of materials so they can see if the parts are available in country and a quick **estimate** of material cost. AIDE has the additional benefit of enabling ACR to upgrade the design algorithms as new insights come in from both IPs and the AguaClara academic partners. New design algorithms can be deployed across the entire suite of AIDE components and updated designs can be provided to IPs when they are ready to adopt the new features."
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:119
+msgid "Next Steps for Potential Implementation Partners"
+msgstr ""
+
+#: ../../AIDE/AIDE.rst:121
+msgid "AguaClara Reach is ready to develop partnerships with both non-profit organizations and engineering firms. Our partners use the AguaClara technologies to provide sustainable safe water on tap to cities, towns, and villages. The :ref:`title_AguaClara_Specifications` are available for IP reference."
+msgstr ""

@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../glossary.rst:2
+msgid "Glossary"
+msgstr "Glosario"
+
+#: ../../glossary.rst:4
+msgid ""
+"To add a term to this glossary please add it with the definition in quote "
+"marks so that the whole thing is treated as a string rather than further "
+"separated by commas."
+msgstr ""
+"Para añadir un término a este glosario, por favor añádelo con la definición "
+"entre comillas para que todo se trate como una cadena en lugar de estar "
+"separado por comas."
+
+#: ../../glossary.rst:1
+msgid "Term"
+msgstr "Término"
+
+#: ../../glossary.rst:1
+msgid "Definition"
+msgstr "Definición"
+
+#: ../../glossary.rst:1
+msgid "Alkalinity"
+msgstr "Alcalinidad"
+
+#: ../../glossary.rst:1
+msgid ""
+"The ability of a water sample to react with and neutralize an input of acid;"
+" also referred to as acid neutralizing capacity (ANC)."
+msgstr ""
+"La capacidad de una muestra de agua para reaccionar y neutralizar una "
+"entrada de ácido; también conocida como capacidad neutralizante de ácido "
+"(CNA)."
+
+#: ../../glossary.rst:1
+msgid "Backwash"
+msgstr "Contracorriente"
+
+#: ../../glossary.rst:1
+msgid ""
+"The process of pumping water upward through a filter to flush captured "
+"particles out of the filter media."
+msgstr ""
+"El proceso de bombear agua hacia arriba a través de un filtro para eliminar "
+"las partículas capturadas del medio filtrante."
+
+#: ../../glossary.rst:1
+msgid "Baffles"
+msgstr "Baffles"
+
+#: ../../glossary.rst:1
+msgid ""
+"Obstructions in the channel of a flocculator that restrain flow in a "
+"particular direction."
+msgstr ""
+"Obstrucciones en el canal de un floculador que restringen el flujo en una "
+"dirección determinada."
+
+#: ../../glossary.rst:1
+msgid "Buffer"
+msgstr "Buffer"
+
+#: ../../glossary.rst:1
+msgid ""
+"A solution containing a weak acid-base pair that resists pH change by "
+"maintaining its hydrogen ion concentration."
+msgstr ""
+"Una solución que contiene un par ácido-base débil que resiste el cambio de "
+"pH manteniendo su concentración de iones hidrógeno."
+
+#: ../../glossary.rst:1
+msgid "Capture Velocity"
+msgstr "Velocidad de captura"
+
+#: ../../glossary.rst:1
+msgid ""
+"The velocity of the slowest settling particle that a clarifier can reliably "
+"capture."
+msgstr ""
+"La velocidad de la partícula de sedimentación más lenta que un clarificador "
+"puede capturar de forma fiable."
+
+#: ../../glossary.rst:1
+msgid "Chlorination"
+msgstr "Cloración"
+
+#: ../../glossary.rst:1
+msgid ""
+"The process of disinfection in water treatment that uses chlorine compounds "
+"to kill bacteria, viruses, and microbes."
+msgstr ""
+"El proceso de desinfección en tratamiento de agua que utiliza compuestos de "
+"cloro para eliminar bacterias, virus y microbios."
+
+#: ../../glossary.rst:1
+msgid "Coagulant"
+msgstr "Coagulante"
+
+#: ../../glossary.rst:1
+msgid "A sticky substance added to water to enable particle to attach to each other."
+msgstr ""
+"Una sustancia pegajosa añadida al agua para permitir que las partículas se "
+"adhieran entre sí."
+
+#: ../../glossary.rst:1
+msgid "Collision Potential"
+msgstr "Potencial de colisión"
+
+#: ../../glossary.rst:1
+msgid ""
+"A measure of the potential for particles in a fluid to hit each other, "
+"serving as a performance metric for flocculators with higher values "
+"representing better flocculation; the dimensionless product of velocity "
+"gradient and residence time."
+msgstr ""
+"Una medida del potencial de que las partículas en un fluido choquen entre "
+"sí, sirviendo como métrica de rendimiento para floculadores con valores más "
+"altos que representan mejor floculación; el producto adimensional del "
+"gradiente de velocidad y el tiempo de residencia."
+
+#: ../../glossary.rst:1
+msgid "Constant Head Tank"
+msgstr "carga constante Tank"
+
+#: ../../glossary.rst:1
+msgid ""
+"A container that uses set differences in elevation and a float valve to "
+"ensure constant flow."
+msgstr ""
+"Un contenedor que utiliza diferencias fijas en elevación y un válvula de "
+"flotador para asegurar un flujo constante."
+
+#: ../../glossary.rst:1
+msgid "Control Volume"
+msgstr "Volumen de control"
+
+#: ../../glossary.rst:1
+msgid ""
+"An imaginary 3-dimensional space with fixed boundaries that remain at steady"
+" state."
+msgstr ""
+"Un espacio imaginario 3dimensional con fronteras fijas que permanecen en "
+"estado estacionario."
+
+#: ../../glossary.rst:1
+msgid "Diffusion"
+msgstr "Difusión"
+
+#: ../../glossary.rst:1
+msgid ""
+"The net movement of a fluid from an area of higher concentration to an area "
+"of lower concentration."
+msgstr ""
+"El movimiento neto de un fluido desde un área de mayor concentración a una "
+"de menor concentración."
+
+#: ../../glossary.rst:1
+msgid "Dose"
+msgstr "Dosis"
+
+#: ../../glossary.rst:1
+msgid "The concentration of a chemical being added to water undergoing treatment."
+msgstr "La concentración de un químico que se añade al agua en tratamiento."
+
+#: ../../glossary.rst:1
+msgid "Driving Head"
+msgstr "Cabeza de Conducción"
+
+#: ../../glossary.rst:1
+msgid "An elevation difference that causes a fluid to flow."
+msgstr "Una diferencia de elevación que provoca el flujo de un fluido."
+
+#: ../../glossary.rst:1
+msgid "Eddy"
+msgstr "Eddy"
+
+#: ../../glossary.rst:1
+msgid ""
+"The swirling of a fluid in turbulent flow that moves in a direction "
+"different from the surrounding flow."
+msgstr ""
+"El remolino de un fluido en un flujo turbulento que se mueve en una "
+"dirección diferente al flujo circundante."
+
+#: ../../glossary.rst:1
+msgid "Energy Dissipation Rate"
+msgstr "Tasa de disipación de energía"
+
+#: ../../glossary.rst:1
+msgid ""
+"The amount of energy lost from viscous forces in turbulent flow; equivalent "
+"to head loss in a reactor."
+msgstr ""
+"La cantidad de energía perdida por fuerzas viscosas en el flujo turbulento; "
+"equivalente a pérdida de carga en un reactor."
+
+#: ../../glossary.rst:1
+msgid "Floc"
+msgstr "Floc"
+
+#: ../../glossary.rst:1
+msgid ""
+"A cluster of colloidal particles formed through collision and adhesion in "
+"the processes of coagulation and flocculation."
+msgstr ""
+"Un grupo de partículas coloidales formado por colisión y adhesión en los "
+"procesos de coagulación y floculación."
+
+#: ../../glossary.rst:1
+msgid "Floc Filter"
+msgstr "filtro de flóculos"
+
+#: ../../glossary.rst:1
+msgid ""
+"A fluidized layer of flocs that is maintained in the bottom of an upflow "
+"clarifier."
+msgstr ""
+"Una capa fluidizada de flócs que se mantiene en el fondo de un clarificador "
+"de flujo ascendente."
+
+#: ../../glossary.rst:1
+msgid "Floc Hopper"
+msgstr "tolva de lodos"
+
+#: ../../glossary.rst:1
+msgid ""
+"The collection area in a clarifier where flocs accumulate after overflowing "
+"from the floc filter."
+msgstr ""
+"El área de recogida está en un clarificador donde los flócs se acumulan tras"
+" desbordarse del filtro de flóculos."
+
+#: ../../glossary.rst:1
+msgid "Fractal"
+msgstr "Fractal"
+
+#: ../../glossary.rst:1
+msgid ""
+"A geometric structure in which each part shares the characteristics of the "
+"whole, forming the same pattern at any scale."
+msgstr ""
+"Una estructura geométrica en la que cada parte comparte las características "
+"del conjunto, formando el mismo patrón a cualquier escala."
+
+#: ../../glossary.rst:1
+msgid "Friction Factor"
+msgstr "Factor de fricción"
+
+#: ../../glossary.rst:1
+msgid ""
+"A dimensionless quantity approximating the magnitude of friction between a "
+"fluid and pipe wall, for use in the Darcy-Weisbach equation of major head "
+"loss."
+msgstr ""
+"Una cantidad adimensional que aproxima la magnitud de la fricción entre un "
+"fluido y una pared de tubería, para su uso en la ecuación de Darcy-Weisbach "
+"de pérdida de carga mayor."
+
+#: ../../glossary.rst:1
+msgid "Head Loss"
+msgstr "pérdida de carga"
+
+#: ../../glossary.rst:1
+msgid ""
+"Reduction in the energy of a fluid as it flows through a system, including "
+"major and minor losses."
+msgstr ""
+"Reducción de la energía de un fluido a medida que fluye a través de un "
+"sistema, incluyendo pérdidas mayores y menores."
+
+#: ../../glossary.rst:1
+msgid "Hydraulic Head"
+msgstr "Cabeza hidráulica"
+
+#: ../../glossary.rst:1
+msgid ""
+"The energy of an incompressible fluid expressed as a unit of length "
+"representing the height of the fluid in an equivalent static column; the sum"
+" of the pressure and elevation terms in the energy equation."
+msgstr ""
+"La energía de un fluido incompresible expresada como unidad de longitud que "
+"representa la altura del fluido en una columna estática equivalente; la suma"
+" de los términos de presión y elevación en la ecuación de energía."
+
+#: ../../glossary.rst:1
+msgid "Inner Viscous Length Scale"
+msgstr "Escala de longitud viscosa interna"
+
+#: ../../glossary.rst:1
+msgid ""
+"The order of magnitude where the kinetic energy of small eddies is "
+"dissipated by the fluid’s resistance to deformation."
+msgstr ""
+"El orden de magnitud en el que la energía cinética de pequeños remolinos se "
+"disipa por la resistencia del fluido a la deformación."
+
+#: ../../glossary.rst:1
+msgid "Kolmogorov Length Scale"
+msgstr "Escala de longitud de Kolmogorov"
+
+#: ../../glossary.rst:1
+msgid ""
+"The order of magnitude where the kinetic energy of turbulence is dominated "
+"by viscosity."
+msgstr ""
+"El orden de magnitud donde la energía cinética de la turbulencia está "
+"dominada por la viscosidad."
+
+#: ../../glossary.rst:1
+msgid "Laminar Flow"
+msgstr "Flujo laminar"
+
+#: ../../glossary.rst:1
+msgid ""
+"Fluid particles moving in smooth and highly ordered layers with minimal "
+"lateral mixing; flow with a Reynold’s number less than 2,100."
+msgstr ""
+"Partículas de fluido que se mueven en capas lisas y altamente ordenadas con "
+"mezcla lateral mínima; flujo con un número de Reynolds inferior a 2.100."
+
+#: ../../glossary.rst:1
+msgid "Linearity Error Ratio"
+msgstr "Relación de error de linealidad"
+
+#: ../../glossary.rst:1
+msgid ""
+"The amount of acceptable error in the linear relationship between head and "
+"flow."
+msgstr ""
+"La cantidad de error aceptable en la relación lineal entre la carga y el "
+"flujo."
+
+#: ../../glossary.rst:1
+msgid "Major Loss"
+msgstr "Pérdida importante"
+
+#: ../../glossary.rst:1
+msgid "Energy lost through friction between a fluid and material surfaces."
+msgstr "Energía perdida por fricción entre un fluido y las superficies del material."
+
+#: ../../glossary.rst:1
+msgid "Minor Loss"
+msgstr "Pérdida menor"
+
+#: ../../glossary.rst:1
+msgid "Energy lost through the expansion of flow, often pipe fittings."
+msgstr ""
+"La energía perdida por la expansión del flujo, a menudo en conexiones de "
+"tuberías."
+
+#: ../../glossary.rst:1
+msgid "Obstacles"
+msgstr "Obstáculos"
+
+#: ../../glossary.rst:1
+msgid ""
+"Obstructions formed by half-pipes that were created by AguaClara to add "
+"extra head loss between baffles in a flocculator channel, which makes it "
+"possible to design smaller flocculators without compromising efficiency."
+msgstr ""
+"Obstrucciones formadas por half-pipes creadas por AguaClara para añadir "
+"pérdida de carga extra entre deflectores en un canal de floculador, lo que "
+"permite diseñar floculadores más pequeños sin comprometer la eficiencia."
+
+#: ../../glossary.rst:1
+msgid "Organic Matter"
+msgstr "Materia orgánica"
+
+#: ../../glossary.rst:1
+msgid "Carbon-based compounds found in the environment."
+msgstr "Compuestos a base de carbono presentes en el medio ambiente."
+
+#: ../../glossary.rst:1
+msgid "pH"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid ""
+"A measure of the acidity and basicity of a solution, ranging from 0 (acid) "
+"to 14 (basic), with neutrality at 7."
+msgstr ""
+"Una medida de la acidez y basicidad de una solución, que varía de 0 (ácido) "
+"a 14 (básico), con neutralidad en 7."
+
+#: ../../glossary.rst:1
+msgid "Piezometric Head"
+msgstr "Cabeza piezométrica"
+
+#: ../../glossary.rst:1
+msgid "See Hydraulic Head."
+msgstr "Ver Cabeza hidráulica."
+
+#: ../../glossary.rst:1
+msgid "Plate Settlers"
+msgstr "Colonos de Placas"
+
+#: ../../glossary.rst:1
+msgid ""
+"A series of inclined plastic sheets that provide a large effective area for "
+"particles to accumulate in a clarifier."
+msgstr ""
+"Una serie de láminas de plástico inclinadas que proporcionan un gran espacio"
+" efectivo para que las partículas se acumulen en un clarificador."
+
+#: ../../glossary.rst:1
+msgid "Porosity"
+msgstr "Porosidad"
+
+#: ../../glossary.rst:1
+msgid ""
+"The ratio of empty volume between individual particles and the total volume "
+"of a material."
+msgstr ""
+"La proporción del volumen vacío entre partículas individuales y el volumen "
+"total de un material."
+
+#: ../../glossary.rst:1
+msgid "Precipitation"
+msgstr "Precipitaciones"
+
+#: ../../glossary.rst:1
+msgid ""
+"The process by which a dissolved substance in an aqueous solution forms an "
+"insoluble solid."
+msgstr ""
+"El proceso por el cual una sustancia disuelta en una solución acuosa forma "
+"un sólido insoluble."
+
+#: ../../glossary.rst:1
+msgid "Residence Time"
+msgstr "Tiempo de residencia"
+
+#: ../../glossary.rst:1
+msgid "The amount of time that a fluid spends in a control volume."
+msgstr "La cantidad de tiempo que un fluido pasa en un volumen de control."
+
+#: ../../glossary.rst:1
+msgid "Reynolds Number"
+msgstr "Número de Reynolds"
+
+#: ../../glossary.rst:1
+msgid ""
+"The ratio of inertial to viscous forces acting on a fluid, indicating that "
+"the fluid’s movement is dominated by laminar flow (low Re) or turbulent flow"
+" (high Re)."
+msgstr ""
+"La relación entre fuerzas inerciales y viscosas que actúan sobre un fluido, "
+"lo que indica que el movimiento del fluido está dominado por el flujo "
+"laminar (bajo Re) o el flujo turbulento (alto Re)."
+
+#: ../../glossary.rst:1
+msgid "Settling Velocity"
+msgstr "Velocidad de sedimentación"
+
+#: ../../glossary.rst:1
+msgid "The speed of a particle falling at terminal velocity in a still fluid."
+msgstr ""
+"La velocidad de una partícula cayendo a velocidad terminal en un fluido "
+"quieto."
+
+#: ../../glossary.rst:1
+msgid "Shear"
+msgstr "Cizallamiento"
+
+#: ../../glossary.rst:1
+msgid "A type of fluid flow where parallel layers move at different speeds."
+msgstr ""
+"Un tipo de flujo de fluido en el que capas paralelas se mueven a diferentes "
+"velocidades."
+
+#: ../../glossary.rst:1
+msgid "Streamline"
+msgstr "Streamline"
+
+#: ../../glossary.rst:1
+msgid ""
+"A line that is parallel to the local velocity vector at all points; the path"
+" that a particle would take if it could be placed in the fluid without "
+"changing the original flow."
+msgstr ""
+"Una línea que es paralela al vector de velocidad local en todos los puntos; "
+"el camino que tomaría una partícula si pudiera ser colocada en el fluido sin"
+" cambiar el flujo original."
+
+#: ../../glossary.rst:1
+msgid "Suspension"
+msgstr "Suspensión"
+
+#: ../../glossary.rst:1
+msgid "A heterogeneous fluid mixture containing particles."
+msgstr "Una mezcla de fluido heterogénea que contiene partículas."
+
+#: ../../glossary.rst:1
+msgid "Sutro Weir"
+msgstr "Presa de Sutro"
+
+#: ../../glossary.rst:1
+msgid ""
+"A rectangular overflow dam sides that curve parabolically outward at the "
+"base causing discharge flow to be proportional to head; also referred to as "
+"a proportional weir."
+msgstr ""
+"Un desbordamiento rectangular en lados de presa que se curvan "
+"parabólicamente hacia afuera en la base, haciendo que el flujo de descarga "
+"sea proporcional a la carga; también conocido como azud proporcional."
+
+#: ../../glossary.rst:1
+msgid "Terminal Velocity"
+msgstr "Velocidad terminal"
+
+#: ../../glossary.rst:1
+msgid ""
+"The maximum velocity of a particle falling through fluid, achieved when the "
+"drag and buoyancy forces equal gravity."
+msgstr ""
+"La velocidad máxima de una partícula que cae a través del fluido, alcanzada "
+"cuando las fuerzas de arrastre y flotabilidad igualan la gravedad."
+
+#: ../../glossary.rst:1
+msgid "Turbidity"
+msgstr "Turbidez"
+
+#: ../../glossary.rst:1
+msgid ""
+"The optical clarity of water, measured by light scattering off suspended "
+"solid particles; turbidity is low in clear water and high in cloudy water."
+msgstr ""
+"La claridad óptica del agua, medida por la dispersión de la luz sobre "
+"partículas sólidas suspendidas; la turbidez es baja en agua clara y alta en "
+"agua turbia."
+
+#: ../../glossary.rst:1
+msgid "Turbulent Flow"
+msgstr "Flujo turbulento"
+
+#: ../../glossary.rst:1
+msgid ""
+"Fluid particles moving in disordered paths due to chaotic changes in "
+"velocity and pressure that lead to mixing; flow with a Reynold’s number "
+"greater than 2,100."
+msgstr ""
+"Partículas de fluido que se mueven en trayectorias desordenadas debido a "
+"cambios caóticos de velocidad y presión que conducen a la mezcla; flujo con "
+"un número de Reynolds superior a 2.100."
+
+#: ../../glossary.rst:1
+msgid "Velocity Gradient"
+msgstr "Gradiente de velocidad"
+
+#: ../../glossary.rst:1
+msgid ""
+"A measure of fluid deformation defined by how quickly one point of water "
+"along one streamline moves in comparison to another point on another "
+"streamline, taking into account the distance between the streamlines."
+msgstr ""
+"Una medida de deformación del fluido definida por la rapidez con la que se "
+"mueve un punto de agua a lo largo de una línea corriente en comparación con "
+"otro punto en otra línea corriente, teniendo en cuenta la distancia entre "
+"las líneas de corriente."
+
+#: ../../glossary.rst:1
+msgid "Vena Contracta"
+msgstr "Vena Contracta"
+
+#: ../../glossary.rst:1
+msgid ""
+"A point of contracting flow with the minimum cross sectional area and "
+"maximum velocity."
+msgstr ""
+"Un flujo en punto de contracción con la superficie mínima de sección "
+"transversal y velocidad máxima."
+
+#: ../../glossary.rst:1
+msgid "Viscosity"
+msgstr "Viscosidad"
+
+#: ../../glossary.rst:1
+msgid ""
+"The resistance of a fluid to flow or deformation, also referred to as the "
+"“thickness” of liquid, related to the force applied (dynamic viscosity) or "
+"velocity of movement (kinematic viscosity)."
+msgstr ""
+"La resistencia de un fluido al flujo o deformación, también conocida como el"
+" \"grosor\" del líquido, está relacionada con la fuerza aplicada (viscosidad"
+" dinámica) o la velocidad de movimiento (viscosidad cinemática)."
+

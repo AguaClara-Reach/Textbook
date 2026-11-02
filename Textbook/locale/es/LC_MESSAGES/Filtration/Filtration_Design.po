@@ -1,0 +1,2458 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Filtration/Filtration_Design.rst:13
+msgid "Open Stacked Rapid Sand Filter Design"
+msgstr "Diseño de filtro de arena Rápida Apilada Abierta"
+
+#: ../../Filtration/Filtration_Design.rst:22
+msgid "Floc Hopper"
+msgstr "tolva de lodos"
+
+#: ../../Filtration/Filtration_Design.rst:22
+msgid ""
+"The open stacked rapid sand filters include advanced hydraulic controls to "
+"ensure stable operation during both filtration and backwash modes."
+msgstr ""
+"Los filtros rápidos de arena apilados abiertos incluyen controles "
+"hidráulicos avanzados para asegurar un funcionamiento estable tanto en modo "
+"de filtración como de retrolavado."
+
+#: ../../Filtration/Filtration_Design.rst:25
+msgid "Nomenclature"
+msgstr "Nomenclatura"
+
+#: ../../Filtration/Filtration_Design.rst:27
+msgid "B - branch"
+msgstr "B - rama"
+
+#: ../../Filtration/Filtration_Design.rst:29
+msgid "P - port (or orifice)"
+msgstr "P - puerto (u orificio)"
+
+#: ../../Filtration/Filtration_Design.rst:31
+msgid "T - trunk"
+msgstr "T - tronco"
+
+#: ../../Filtration/Filtration_Design.rst:36
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../../Filtration/Filtration_Design.rst:38
+msgid ""
+"The hydraulic design of both the enclosed and open stacked rapid sand filter"
+" is complicated by the number of parallel flows, the manifolds in series, "
+"and the need to handle both backwash and filter modes. The design requires "
+"careful attention to weir hydraulics to achieve the target backwash flows "
+"when the plant is operating at less than full capacity. The siphon system "
+"has a tight design constraint to ensure that the siphon doesn't trigger "
+"prematurely."
+msgstr ""
+"El diseño hidráulico tanto del filtro de arena rápido apilado cerrado como "
+"abierto se complica por el número de flujos paralelos, los colectores en "
+"serie y la necesidad de manejar tanto los modos de retrolavado como los de "
+"filtro. El diseño requiere una atención cuidadosa a la hidráulica de "
+"vertederos para lograr los flujos de retrolavado objetivo cuando la planta "
+"opera a menos de su capacidad máxima. El sistema de sifón tiene una "
+"restricción de diseño estricta para asegurar que el sifón no se active "
+"prematuramente."
+
+#: ../../Filtration/Filtration_Design.rst:43
+msgid "Filter Inlet Channel with Rectangular Weir Flow Distribution"
+msgstr ""
+"Canal de entrada del filtro con distribución rectangular del flujo del "
+"vertedero"
+
+#: ../../Filtration/Filtration_Design.rst:45
+msgid ""
+"In plants with flow rates large enough to use open stacked rapid sand "
+"filters the settled water is delivered to those filters through an open "
+"channel. The water exits the channel by flowing across a rectangular weir "
+"(see :numref:`figure_Filter_channel`). As is the case in a manifold pipe the"
+" water in the channel is decelerating and thus the piezometric head is "
+"increasing in the direction of flow. This increase in piezometric head is "
+"equivalent to the increase in the depth of water in the channel. This "
+"increase in water depth results in more water flowing across the final weir "
+"exiting the channel."
+msgstr ""
+"En plantas con caudales lo suficientemente grandes como para usar filtros "
+"rápidos de arena apilados abiertos, el agua sedimentada se entrega a esos "
+"filtros a través de un canal abierto. El agua sale del canal fluyendo a "
+"través de un azud rectangular (véase :numref:`figure_Filter_channel`). Como "
+"ocurre en una tubería de colector, el agua en el canal se desacelera y, por "
+"tanto, la carga piezométrica aumenta en la dirección del flujo. Este aumento"
+" de la altura piezométrica equivale al aumento de la profundidad del agua en"
+" el canal. Este aumento de la profundidad del agua provoca que más agua "
+"fluya a través del azud final que sale del canal."
+
+#: ../../Filtration/Filtration_Design.rst:54
+msgid "Filter channel"
+msgstr "Canal de filtro"
+
+#: ../../Filtration/Filtration_Design.rst:54
+msgid ""
+"The filter inlet channel distributes flow to all of the filters. The water "
+"in the channel flows across sharp crested weirs into the filter inlet boxes."
+" The velocity in the channel decreases in the direction of flow and thus the"
+" kinetic energy of the flow is converted into height. That added height "
+"results in greater flow into downstream filter inlet boxes."
+msgstr ""
+"El canal de entrada del filtro distribuye el flujo a todos los filtros. El "
+"agua en el canal fluye a través de azuds con crestas afiladas hacia las "
+"cajas de entrada del filtro. La velocidad en el canal disminuye en la "
+"dirección del flujo y, por tanto, la energía cinética del flujo se convierte"
+" en altura. Esa altura añadida resulta en un mayor flujo hacia las cajas de "
+"entrada del filtro aguas abajo."
+
+#: ../../Filtration/Filtration_Design.rst:56
+msgid ""
+"The flow across the weirs into the filter inlet boxes is complicated by "
+"several factors. First, there must be a *vena contracta* as the flow changes"
+" direction to flow across the weir and thus the :math:`90^{\\circ}` *vena "
+"contracta* coefficient should enter the equations. Second, the weirs as they"
+" are fabricated are neither sharp nor broad and thus it isn't clear which "
+"equations are best suited. Sharp crested weirs are known to have a reduced "
+"depth of flow above the weir due to the acceleration of water approaching "
+"the weir and this effect is normally ignored and then thrown into the weir "
+"coefficient. Given that our weirs do not have a rounded upstream edge "
+"required by broad crested weirs we will use the sharp crested weir equation."
+msgstr ""
+"El flujo a través de las presas hacia las cajas de entrada del filtro se "
+"complica por varios factores. Primero, debe haber una *vena contracta* "
+"cuando el flujo cambia de dirección para fluir a través de la presa y, por "
+"tanto, el coeficiente de :math:`90^{\\circ}` *vena contracta* debería entrar"
+" en las ecuaciones. En segundo lugar, las presas tal como están fabricadas "
+"no son ni afiladas ni anchas, por lo que no está claro cuáles ecuaciones son"
+" las más adecuadas. Se sabe que las presas de cresta afilada tienen una "
+"profundidad de flujo reducida sobre la presa debido a la aceleración del "
+"agua que se acerca a la presa y este efecto normalmente se ignora y luego se"
+" introduce en el coeficiente de la presa de cresta ancha. Dado que nuestras "
+"presas no tienen un borde redondeado aguas arriba requerido por las presas "
+"de cresta ancha, usaremos la ecuación de la presa de cresta afilada."
+
+#: ../../Filtration/Filtration_Design.rst:59
+msgid "Side Exit Sharp Crested Weir"
+msgstr "Salida lateral Sharp Crested Weir"
+
+#: ../../Filtration/Filtration_Design.rst:61
+msgid ""
+" Q = \\Pi_{vc}\\frac{2}{3} \\sqrt{2g} w "
+"\\left(H_{channel}\\right)^\\frac{3}{2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:67
+msgid ""
+"where :math:`H_{channel}` is the height of the water in the channel above "
+"the top of the weir. (see equation 10.30 in Fundamentals of Fluid Mechanics,"
+" Fifth Edition by Munson, Young, and Okiishi)"
+msgstr ""
+"donde :math:`H_{channel}` es la altura del agua en el canal sobre la parte "
+"superior del azud. (véase la ecuación 10.30 en Fundamentals of Fluid "
+"Mechanics, Quinta Edición de Munson, Young y Okiishi)"
+
+#: ../../Filtration/Filtration_Design.rst:70
+msgid "Inlet Channel Design for Equal Filter Flow"
+msgstr "Diseño del canal de entrada para un flujo de filtro igual"
+
+#: ../../Filtration/Filtration_Design.rst:72
+msgid ""
+"We will simplify this manifold problem by assuming that the average water "
+"height in the channel above the weirs corresponds to the average flow across"
+" the weirs and that the upstream depth is decreased by 1/2 of the channel "
+"velocity head and the downstream depth is increased by 1/2 the channel "
+"velocity head."
+msgstr ""
+"Simplificaremos este problema del colector asumiendo que la altura media del"
+" agua en el canal por encima de las presas corresponde al caudal medio a "
+"través de las presas y que la profundidad aguas arriba se reduce en 1/2 de "
+"la altura de velocidad del canal y la profundidad aguas abajo aumenta en 1/2"
+" la altura de velocidad del canal."
+
+#: ../../Filtration/Filtration_Design.rst:76
+msgid ""
+"The ratio of flows from the first filter and the last filter in the channel "
+"is given by"
+msgstr ""
+"La relación entre los caudales del primer filtro y el último filtro en el "
+"canal se da por"
+
+#: ../../Filtration/Filtration_Design.rst:78
+msgid ""
+"\\Pi_{Q_{weir}} = \\frac{Q_{Filter_1}}{Q_{Filter_n}} = "
+"\\frac{\\Pi_{vc}\\frac{2}{3} \\sqrt{2g} w \\left(\\bar H_{channel} - "
+"\\frac{\\bar v_{M_1}^2}{4g}\\right)^\\frac{3}{2}}{\\Pi_{vc}\\frac{2}{3} "
+"\\sqrt{2g} w \\left(\\bar H_{channel} + \\frac{\\bar "
+"v_{M_1}^2}{4g}\\right)^\\frac{3}{2}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:84
+msgid ""
+"where :math:`\\bar H_{channel}` is the average height of water in the "
+"channel relative to the top of the weir. Equation "
+":eq:`Sharp_weir_flow_ratio_messy` simplifies to"
+msgstr ""
+"donde :math:`\\bar H_{channel}` es la altura media del agua en el canal en "
+"relación con la parte superior del azud. La ecuación "
+":eq:`Sharp_weir_flow_ratio_messy` se simplifica a"
+
+#: ../../Filtration/Filtration_Design.rst:86
+msgid ""
+"\\Pi_{Q_{weir}} = \\frac{ \\left(\\bar H_{channel} - \\frac{\\bar "
+"v_{M_1}^2}{4g}\\right)^\\frac{3}{2}}{\\left(\\bar H_{channel} + \\frac{\\bar"
+" v_{M_1}^2}{4g}\\right)^\\frac{3}{2}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:91
+msgid ""
+"The slower the velocity in the channel the more uniform the flow "
+"distribution will be between the filters."
+msgstr ""
+"Cuanto más lenta sea la velocidad en el canal, más uniforme será la "
+"distribución del flujo entre los filtros."
+
+#: ../../Filtration/Filtration_Design.rst:93
+msgid ""
+"Solve for the maximum velocity in the channel given the average depth of "
+"water above the weirs and the required flow distribution."
+msgstr ""
+"Resuelve la velocidad máxima en el canal dada la profundidad media del agua "
+"por encima de las presas y la distribución requerida del caudal."
+
+#: ../../Filtration/Filtration_Design.rst:95
+msgid ""
+" \\bar H_{channel}\\Pi_{Q_{weir}}^\\frac{2}{3} + \\frac{\\bar "
+"v_{M_1}^2}{4g}\\Pi_{Q_{weir}}^\\frac{2}{3}= { \\bar H_{channel} - "
+"\\frac{\\bar v_{M_1}^2}{4g}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:100
+msgid "Now we can solve for maximum manifold channel velocity."
+msgstr "Ahora podemos resolver la velocidad máxima del canal de la variedad."
+
+#: ../../Filtration/Filtration_Design.rst:102
+msgid ""
+"\\bar v_{M_1} =  2\\sqrt{g\\bar "
+"H_{channel}\\frac{\\left(1-\\Pi_{Q_{weir}}^\\frac{2}{3}\\right)}{\\left(\\Pi_{Q_{weir}}^\\frac{2}{3}"
+" + 1\\right)}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:108
+msgid ""
+"The channel depth of water above the weir, :math:`\\bar H_{channel}`, and "
+"the flow uniformity target set the maximum velocity in the manifold channel "
+"(see :numref:`figure_Filter_channel_v_max`)."
+msgstr ""
+"La profundidad del agua del canal por encima del azud, :math:`\\bar "
+"H_{channel}`, y el objetivo de uniformidad del flujo establecen la velocidad"
+" máxima en el canal del colector (véase "
+":numref:`figure_Filter_channel_v_max`)."
+
+#: ../../Filtration/Filtration_Design.rst:110
+msgid ""
+"`Generate the following plot "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=MyYpzYxOU5px&line=5&uniqifier=1>`_"
+msgstr ""
+"`Genera el siguiente gráfico "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=MyYpzYxOU5px&line=5&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design.rst:120
+msgid "Filter channel velocities"
+msgstr "Velocidades de los canales de filtro"
+
+#: ../../Filtration/Filtration_Design.rst:120
+msgid ""
+"The maximum velocity in the filter inlet channel decreases as the target "
+"flow ratio, :math:`\\Pi_{Q_{weir}}`, approaches 1. This graph was created "
+"assuming :math:`\\bar H_{channel}` of 5 cm."
+msgstr ""
+"La velocidad máxima en el canal de entrada del filtro disminuye a medida que"
+" la relación de flujo objetivo, :math:`\\Pi_{Q_{weir}}`, se aproxima a 1. "
+"Este gráfico se creó asumiendo :math:`\\bar H_{channel}` de 5 cm."
+
+#: ../../Filtration/Filtration_Design.rst:125
+msgid "Backwash Weir Slot Design"
+msgstr "Diseño de ranuras de retensión para el vertedero de retrolavado"
+
+#: ../../Filtration/Filtration_Design.rst:127
+#, python-format
+msgid ""
+"The goal of the backwash weir slot is to provide close to the design flow "
+"rate to a filter while it is in backwash mode. To accomplish this the wide "
+"gate weir is opened and the weir slot controls the flow of water into the "
+"inlet box. During backwash the water level in the inlet box is much lower "
+"and thus the backwash weir slot can extend deep into the box. The design "
+"constraint for this slot is that it must deliver the design flow when the "
+"water level in the inlet channel is at the design flow height and it must "
+"deliver at least 80% of the design flow  when there is no flow going to any "
+"of the other filters. The difference in water level between the two cases is"
+" :math:`H_{channel}` because this is the height of water flowing over the "
+"wide weir at the design flow rate. The height of the slot, :math:`H_{slot}`,"
+" is measured relative to the design flow water level in the inlet channel."
+msgstr ""
+"El objetivo de la ranura de la presa de contralavado es proporcionar cerca "
+"de la caudal de diseño a un filtro mientras está en modo de contralavado. "
+"Para lograrlo, se abre la presa ancha y la ranura controla el flujo de agua "
+"hacia la caja de entrada. Durante el contralavado, la nivel del agua en la "
+"caja de entrada es mucho menor y, por tanto, la ranura de la presa de "
+"contralavado puede extenderse profundamente dentro de la caja. La "
+"restricción de diseño para esta ranura es que debe suministrar el flujo de "
+"diseño cuando la nivel del agua en el canal de entrada está a la altura de "
+"flujo de diseño y debe entregar al menos el 80% del flujo de diseño cuando "
+"no hay flujo hacia ninguno de los otros filtros. La diferencia de nivel del "
+"agua entre ambos casos es :math:`H_{channel}` porque esta es la altura del "
+"agua que fluye sobre la presa ancha en la caudal de diseño. La altura de la "
+"ranura, :math:`H_{slot}`, se mide en relación con el flujo de diseño nivel "
+"del agua en el canal de entrada."
+
+#: ../../Filtration/Filtration_Design.rst:129
+msgid ""
+"This design will result in more water available for backwash than is "
+"absolutely needed and if it turns out that too much water is directed to "
+"this filter than the bottom of the slot can be elevated by adding a few stop"
+" logs."
+msgstr ""
+"Este diseño dará como resultado más agua disponible para el retrolavado de "
+"la absolutamente necesaria y, si resulta que se dirige demasiada agua a este"
+" filtro, entonces se puede elevar el fondo de la ranura añadiendo unos "
+"cuantos troncos de parado."
+
+#: ../../Filtration/Filtration_Design.rst:131
+msgid ""
+"The equation is based on the sharp crested weir (Equation "
+":eq:`Sharp_weir_Q_of_channel_depth`). The head loss through the gate weir "
+"should be subtracted from both the top and bottom terms"
+msgstr ""
+"La ecuación se basa en el vertedero de cresta afilada (Ecuación "
+":eq:`Sharp_weir_Q_of_channel_depth`). El pérdida de carga a través del "
+"vertedero de puerta debe restarse tanto de los términos superior como "
+"inferior"
+
+#: ../../Filtration/Filtration_Design.rst:133
+msgid ""
+"\\Pi_{Q_{BW}} = \\frac{Q_{BW_{min}}}{Q_{BW_{max}}} = "
+"\\frac{\\Pi_{vc}\\frac{2}{3} \\sqrt{2g} w \\left(H_{slot} - H_{channel} - "
+"HL_{Gate}\\right)^\\frac{3}{2}}{\\Pi_{vc}\\frac{2}{3} \\sqrt{2g} w "
+"\\left(H_{slot}- HL_{Gate}\\right)^\\frac{3}{2}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:138
+msgid "Simplify and solve for :math:`H_{slot}`."
+msgstr "Simplifica y resuelve :math:`H_{slot}`."
+
+#: ../../Filtration/Filtration_Design.rst:140
+msgid "   H_{slot} = \\frac{H_{channel}}{1-\\Pi_{Q_{BW}}^\\frac{2}{3}} + HL_{Gate}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:145
+msgid ""
+"There are two possible constraints on the trunk size. Either the trunk size "
+"is dictated by backwash flow distribution requirements or the trunk size is "
+"dictated by the need to have uniform flow distribution between filter layers"
+" and hence to have exactly twice the flow rate through the inner inlets."
+msgstr ""
+"Existen dos posibles limitaciones sobre el tamaño del tronco. O bien el "
+"tamaño del tronco está determinado por los requisitos de distribución del "
+"flujo de retrolavado, o el tamaño del tronco está determinado por la "
+"necesidad de tener una distribución uniforme del flujo entre capas de filtro"
+" y, por tanto, tener exactamente el doble de caudal a través de las entradas"
+" interiores."
+
+#: ../../Filtration/Filtration_Design.rst:147
+msgid ""
+"There are 4 levels of flow distribution in StaRS filters. The direction of "
+"the design (top-down or bottom-up) is determined by the fact that when there"
+" is head loss in series that all of the head loss helps to achieve flow "
+"distribution. Thus the head loss through the orifices will be a required "
+"part of the design of the branches and that head loss will be an input for "
+"the trunk design. Thus we need to start at the bottom and work up."
+msgstr ""
+"Hay 4 niveles de distribución de flujo en los filtros StaRS. La dirección "
+"del diseño (de arriba abajo o de abajo arriba) está determinada por el hecho"
+" de que cuando hay pérdida de carga en serie, toda la pérdida de carga ayuda"
+" a lograr la distribución del flujo. Así, la pérdida de carga a través de "
+"los orificios será una parte necesaria del diseño de las ramas y esa pérdida"
+" de carga será una entrada para el diseño del tronco. Por tanto, debemos "
+"empezar desde abajo y subir."
+
+#: ../../Filtration/Filtration_Design.rst:149
+msgid ""
+"between orifices (branchPortQ_pi): made less important by the winged design "
+"that allows correcting flow in the winged space before the water enters the "
+"sand bed. This flow distribution does not benefit from the head loss through"
+" the sand. Suggest using a value of 0.8 for this constraint because of the "
+"balancing provided by the wings. The flow distribution constraint only "
+"provides a ratio of the port and branch velocities. The constraint for the "
+"maximum velocity allowable is either set by head loss or by the strength of "
+"the branch to span its length and not bend to much at the initiation of "
+"backwash. Either of those constraints can be converted into a maximum "
+"velocity for the inner branches and that will be used as an input to the "
+"design."
+msgstr ""
+"Entre orificios (branchPortQ_pi): Menos importante por el diseño alado que "
+"permite corregir el flujo en el espacio alado antes de que el agua entre en "
+"el lecho arenoso. Esta distribución de flujo no se beneficia de la pérdida "
+"de carga a través de la arena. Sugiero usar un valor de 0,8 para esta "
+"restricción debido al equilibrio proporcionado por las alas. La restricción "
+"de distribución de flujo solo proporciona una relación entre las velocidades"
+" de puerto y rama. La restricción para la velocidad máxima permitida se "
+"establece por pérdida de carga o por la resistencia de la rama para cubrir "
+"su longitud y no doblarse demasiado al inicio del retroceso. Cualquiera de "
+"esas restricciones puede convertirse en una velocidad máxima para las ramas "
+"interiores y eso se usará como entrada al diseño."
+
+#: ../../Filtration/Filtration_Design.rst:151
+msgid ""
+"The velocity constraint will determine the maximum length of a branch given "
+"its diameter."
+msgstr ""
+"La restricción de velocidad determinará la longitud máxima de una rama dado "
+"su diámetro."
+
+#: ../../Filtration/Filtration_Design.rst:152
+msgid ""
+"Use Equation :eq:`Manifold_max_v_no_hl_series` combined with the maximum "
+"branch velocity constraint to calculate the port velocity. Calculate the "
+"required branch diameter given the length (or vice versa)."
+msgstr ""
+"Utiliza la ecuación :eq:`Manifold_max_v_no_hl_series` combinada con la "
+"restricción máxima de velocidad de rama para calcular la velocidad del "
+"puerto. Calcula el diámetro de rama requerido dada la longitud (o "
+"viceversa)."
+
+#: ../../Filtration/Filtration_Design.rst:153
+msgid ""
+"The orifice diameter will be selected based on constructability and not "
+"being too small to risk clogging (between 4 and 10 mm)"
+msgstr ""
+"El diámetro del orificio se seleccionará en función de la capacidad de "
+"construcción y de no ser demasiado pequeño como para arriesgarse a obstruir "
+"(entre 4 y 10 mm)"
+
+#: ../../Filtration/Filtration_Design.rst:154
+msgid ""
+"Calculate the orifice spacing for the inner branches based on mass "
+"conservation and the maximum port velocity."
+msgstr ""
+"Calcula el espaciado de los orificios para las ramas internas basándote en "
+"la conservación de masa y la velocidad máxima de los puertos."
+
+#: ../../Filtration/Filtration_Design.rst:155
+msgid ""
+"Calculate the maximum length of the branches given mass conservation and the"
+" maximum branch velocity."
+msgstr ""
+"Calcular la longitud máxima de las ramas dada la conservación de masa y la "
+"velocidad máxima de las ramas."
+
+#: ../../Filtration/Filtration_Design.rst:157
+msgid ""
+"between branches (trunkPortQ_pi): aided considerably by the head loss "
+"through the sand and is helped by the head loss though the orifices. Suggest"
+" using a value of 0.9 for this constraint. This constraint will be combined "
+"with a maximum permissible head loss during backwash to determine the "
+"required diameter of the trunk lines and will be combined with the equal "
+"trunk head loss constraint to obtain the diameter of the orifices."
+msgstr ""
+"Entre ramas (trunkPortQ_pi): Ayudado considerablemente por el pérdida de "
+"carga a través de la arena y ayudado por la pérdida de carga a través de los"
+" orificios. Sugiero usar un valor de 0,9 para esta restricción. Esta "
+"restricción se combinará con un pérdida de carga máximo permitido durante el"
+" retrolavado para determinar el diámetro requerido de las líneas troncales y"
+" se combinará con la pérdida de carga restricción de tronco igual para "
+"obtener el diámetro de los orificios."
+
+#: ../../Filtration/Filtration_Design.rst:159
+msgid ""
+"Use Equation :eq:`Manifold_max_v_with_hl_series` to solve for the maximum "
+"trunk velocity."
+msgstr ""
+"Utiliza la Ecuación :eq:`Manifold_max_v_with_hl_series` para resolver la "
+"velocidad máxima del tronco."
+
+#: ../../Filtration/Filtration_Design.rst:160
+msgid ""
+"Use the fact that the head loss is the same for outer and inner inlets to "
+"determine the :math:`K_{e_{outerOrifices}}`."
+msgstr ""
+"Utiliza el hecho de que la pérdida de carga es la misma para las entradas "
+"exteriores e internas para determinar la :math:`K_{e_{outerOrifices}}`."
+
+#: ../../Filtration/Filtration_Design.rst:162
+msgid ""
+"between sand layers: easily obtained by simply requiring that inlet head "
+"losses be identical in the 4 inlets under conditions of the target flow and "
+"accounting for the fact that the inner inlets have double the flow of the "
+"outer inlets."
+msgstr ""
+"entre capas de arena: fácilmente obtenido simplemente requiriendo que las "
+"pérdidas de altura de entrada sean idénticas en las 4 entradas bajo "
+"condiciones de flujo objetivo y teniendo en cuenta que las entradas internas"
+" tienen el doble de flujo que las exteriores."
+
+#: ../../Filtration/Filtration_Design.rst:163
+msgid ""
+"between filters: will be handled by design of the weirs into the filter "
+"inlet boxes"
+msgstr ""
+"Entre filtros: Se gestionará por diseño de las presas en las cajas de "
+"entrada del filtro"
+
+#: ../../Filtration/Filtration_Design.rst:165
+msgid ""
+"The clean bed sand head loss and including the head loss right at the point "
+"where the water enters the sand helps with the flow distribution between "
+"branches and between orifices. We are not currently including the benefit of"
+" the high velocity at the point where the water enters the sand."
+msgstr ""
+"La arena limpia del lecho pérdida de carga e incluyendo el pérdida de carga "
+"justo en el punto donde el agua entra en la arena, ayuda a la distribución "
+"del flujo entre ramas y orificios. Actualmente no estamos incluyendo el "
+"beneficio de la alta velocidad en el punto donde el agua entra en la arena."
+
+#: ../../Filtration/Filtration_Design.rst:170
+msgid "Design Steps"
+msgstr "Pasos de diseño"
+
+#: ../../Filtration/Filtration_Design.rst:175
+msgid "Inner Trunk"
+msgstr "Interior del tronco"
+
+#: ../../Filtration/Filtration_Design.rst:177
+msgid ""
+"The diameter of the trunk lines is set by the filtration flow distribution "
+"between ports in the inner trunks and the maximum acceptable inlet head loss"
+" during backwash. The backwash head loss constraint is directly connected to"
+" the head loss during filtration because the velocity in the backwash trunk "
+"changes by a factor of the number of filter layers. The backwash inlet head "
+"loss sets the required depth of the open filter box and so is an important "
+"constraint for O-StaRS. Both the inner and outer inlet head loss during "
+"filtration is :math:`\\frac{1}{N_{layers}^2}` times the backwash inlet head "
+"loss because the head loss is proportional to the flow ratio squared and "
+"because we will set the inlet head losses to be identical during filtration."
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:179
+msgid ""
+"The equation for flow distribution between branches with additional head "
+"loss in series is :eq:`Manifold_max_v_with_hl_series`."
+msgstr ""
+"La ecuación para la distribución del flujo entre ramas con pérdida de carga "
+"adicionales en serie es :eq:`Manifold_max_v_with_hl_series`."
+
+#: ../../Filtration/Filtration_Design.rst:181
+msgid ""
+" \\frac{\\bar v_{T_{innerMax}}^2}{2g}=  \\left(h_{e_{B_{inner}}} + "
+"h_{e_{P_{inner}}} + h_{l_{sand}} \\right)\\Pi_{\\Psi_B}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:187
+msgid ""
+"The head loss through the inner ports or orifices required to achieve "
+"reasonable flow distribution into the winged area of the inlet branches can "
+"be expressed in the minor loss equation form. The flow distribution "
+"constraint is given by Equation :eq:`Manifold_max_v_no_hl_series`."
+msgstr ""
+"La pérdida de carga a través de los puertos u orificios internos necesarios "
+"para lograr una distribución razonable del flujo en la zona alada de las "
+"ramas de entrada puede expresarse en la forma de la ecuación de pérdida "
+"menor. La restricción de distribución del flujo está dada por la ecuación "
+":eq:`Manifold_max_v_no_hl_series`."
+
+#: ../../Filtration/Filtration_Design.rst:189
+msgid ""
+"h_{e_{P_{inner}}} = \\frac{\\bar v_{P_{inner}}^2}{2g} = \\frac{\\bar "
+"v_{B_{inner}}^2}{2g}\\frac{1}{\\Pi_{\\Psi_P}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:194
+msgid ""
+"where the port velocity :math:`\\bar v_{P_{inner}}` is the *contracted* "
+"velocity out of the orifice."
+msgstr ""
+"donde la velocidad del puerto :math:`\\bar v_{P_{inner}}` es la velocidad "
+"*contraída* al salir del orificio."
+
+#: ../../Filtration/Filtration_Design.rst:196
+msgid "The branch entrance loss is given by"
+msgstr "La pérdida de entrada de ramal se da por"
+
+#: ../../Filtration/Filtration_Design.rst:198
+msgid "h_{e_{B_{inner}}} = K_{e_B}\\frac{\\bar v_{B_{innerMax}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:203
+msgid ""
+"The minor loss associated with entering the branch is given by Equation "
+":eq:`he_branch`). The :math:`h_{l_{series}}` is the sum of the orifice head "
+"loss (see Equation :eq:`eq_he_port`) and the head loss through the sand. "
+"Making those substitutions into Equation "
+":eq:`Trunk_to_branch_flow_distribution` we obtain"
+msgstr ""
+"La pérdida menor asociada a entrar en la rama está dada por la Ecuación "
+":eq:`he_branch`). La :math:`h_{l_{series}}` es la suma del orificio pérdida "
+"de carga (véase Ecuación :eq:`eq_he_port`) y la pérdida de carga a través de"
+" la arena. Al convertir esas sustituciones en la Ecuación "
+":eq:`Trunk_to_branch_flow_distribution` obtenemos"
+
+#: ../../Filtration/Filtration_Design.rst:205
+msgid ""
+" \\bar v_{T_{innerMax}}^2 =  \\Pi_{\\Psi_B}\\left[\\bar "
+"v_{B_{innerMax}}^2\\left(K_{e_B} + \\frac{1}{\\Pi_{\\Psi_P}}\\right) + "
+"2gh_{l_{sand}} \\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:210
+msgid ""
+"This is a constraint on the maximum branch velocity assuming that the port "
+"velocity is set to achieve flow distribution to the wings within a branch "
+"(rather than setting the port velocity to achieve flow distribution between "
+"branches)."
+msgstr ""
+"Esto es una restricción sobre la velocidad máxima de la rama asumiendo que "
+"la velocidad del puerto se establece para lograr la distribución del flujo "
+"hacia las alas dentro de una rama (en lugar de establecer la velocidad del "
+"puerto para lograr la distribución del flujo entre ramas)."
+
+#: ../../Filtration/Filtration_Design.rst:212
+msgid ""
+"This shows that the trunk velocity is limited by the branch velocity even "
+"without applying the head loss constraint. However, even if the branch "
+"velocity approaches zero, the trunk velocity can still be quite high because"
+" of the balancing effect of the sand head loss. This constraint ends up not "
+"being useful because flow division between branches is not a critical "
+"constraint."
+msgstr ""
+"Esto muestra que la velocidad del tronco está limitada por la velocidad de "
+"la rama incluso sin aplicar la restricción de pérdida de carga . Sin "
+"embargo, incluso si la velocidad de la rama se acerca a cero, la velocidad "
+"del tronco puede seguir siendo bastante alta debido al efecto de equilibrio "
+"de la arena pérdida de carga. Esta restricción acaba sin ser útil porque la "
+"división de flujo entre ramas no es una restricción crítica."
+
+#: ../../Filtration/Filtration_Design.rst:214
+msgid "The head loss constraint is"
+msgstr "La restricción pérdida de carga es"
+
+#: ../../Filtration/Filtration_Design.rst:216
+msgid ""
+"h_{e_{outerInlet_{Bw}}} = N_{layer}^2 h_{e_{innerInlet}} = N_{layer}^2 "
+"\\left(h_{e_{T_{inner}}} + h_{e_{B_{inner}}} + h_{e_{P_{inner}}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:222
+#: ../../Filtration/Filtration_Design.rst:493
+msgid "The trunk entrance and elbow losses are given by"
+msgstr "Las pérdidas en la entrada y el codo del tronco se determinan por"
+
+#: ../../Filtration/Filtration_Design.rst:224
+#: ../../Filtration/Filtration_Design.rst:495
+msgid "h_{e_{T_{inner}}} = K_{e_T}\\frac{\\bar v_{T_{innerMax}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:229
+#: ../../Filtration/Filtration_Design.rst:500
+msgid "Substitute with minor loss relationships."
+msgstr "Sustituye por relaciones de pérdida menor."
+
+#: ../../Filtration/Filtration_Design.rst:231
+msgid ""
+"2gh_{e_{outerInlet_{Bw}}} = N_{layer}^2 \\left(K_{e_T}\\bar "
+"v_{T_{innerMax}}^2 + K_{e_B}\\bar v_{B_{innerMax}}^2 + \\bar "
+"v_{B_{innerMax}}^2\\frac{1}{\\Pi_{\\Psi_P}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:236
+#: ../../Filtration/Filtration_Design.rst:507
+msgid "Solve for :math:`\\bar v_{T_{innerMax}}`."
+msgstr "Resuelve :math:`\\bar v_{T_{innerMax}}`."
+
+#: ../../Filtration/Filtration_Design.rst:238
+msgid ""
+"\\bar v_{T_{innerMax}} = \\sqrt{\\frac{2gh_{e_{outerInlet_{Bw}}}}{K_{e_T} "
+"N_{layer}^2} -\\frac{\\bar v_{B_{innerMax}}^2}{K_{e_T}}\\left(K_{e_B} + "
+"\\frac{1}{\\Pi_{\\Psi_P}} \\right)}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:243
+msgid ""
+"The head loss constraint reveals that we can achieve the highest trunk "
+"velocity by setting the branch velocity to zero! This is because the branch "
+"head loss is not needed to achieve flow distribution between branches. Thus "
+"we will design the branches to have low velocities to increase the flow that"
+" can be achieved with a given size trunk. First define a dimensionless ratio"
+" of branch to trunk kinetic energy that will be used as a user specified "
+"constraint to allow the exploration of the tradeoff."
+msgstr ""
+"La restricción de pérdida de carga revela que podemos alcanzar la mayor "
+"velocidad del tronco estableciendo la velocidad del tronco a cero. Esto se "
+"debe a que el pérdida de carga de rama no es necesario para lograr la "
+"distribución del flujo entre ramas. Por tanto, diseñaremos las ramas para "
+"que tengan velocidades bajas y así aumentar el flujo que se puede lograr con"
+" un tronco de un tamaño dado. Primero definimos una relación adimensional "
+"entre la energía cinética de rama y tronco que se usará como restricción "
+"especificada por el usuario para permitir la exploración del compromiso."
+
+#: ../../Filtration/Filtration_Design.rst:245
+msgid "\\bar v_{B_{innerMax}}^2 = \\Pi_{BT} \\bar v_{T_{innerMax}}^2"
+msgstr "\\bar v_{B_{innerMax}}^2 = \\Pi_{BT} \\bar v_{T_{innerMax}}^2"
+
+#: ../../Filtration/Filtration_Design.rst:250
+msgid ""
+"Use Equation :eq:`Branch_Trunk_Pi` to eliminate :math:`\\bar "
+"v_{B_{innerMax}}` in Equation :eq:`he_T_inner_of_V`."
+msgstr ""
+"Utiliza la Ecuación :eq:`Branch_Trunk_Pi` para eliminar :math:`\\bar "
+"v_{B_{innerMax}}` en la Ecuación :eq:`he_T_inner_of_V`."
+
+#: ../../Filtration/Filtration_Design.rst:252
+msgid ""
+"2gh_{e_{outerInlet_{Bw}}} = N_{layer}^2 \\left(K_{e_T}\\bar "
+"v_{T_{innerMax}}^2 + K_{e_B}\\Pi_{BT} \\bar v_{T_{innerMax}}^2 + \\Pi_{BT} "
+"\\bar v_{T_{innerMax}}^2\\frac{1}{\\Pi_{\\Psi_P}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:257
+msgid "solve for :math:`\\bar v_{T_{innerMax}}`."
+msgstr "resuelve :math:`\\bar v_{T_{innerMax}}`."
+
+#: ../../Filtration/Filtration_Design.rst:259
+msgid ""
+"\\bar v_{T_{innerMax}} = "
+"\\sqrt{\\frac{2gh_{e_{outerInlet_{Bw}}}}{N_{layer}^2 \\left[K_{e_T} + "
+"\\Pi_{BT}\\left(K_{e_B} + \\frac{1}{\\Pi_{\\Psi_P}} \\right)\\right]}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:267
+msgid "Inner branch"
+msgstr "Rama interior"
+
+#: ../../Filtration/Filtration_Design.rst:269
+msgid ""
+"Use Equation :eq:`Branch_Trunk_Pi` to solve for the maximum branch velocity "
+"given the results from Equation :eq:`V_trunk_of_HE_BW`."
+msgstr ""
+"Utiliza la ecuación :eq:`Branch_Trunk_Pi` para resolver la velocidad máxima "
+"de ramificación dado el resultado de la ecuación :eq:`V_trunk_of_HE_BW`."
+
+#: ../../Filtration/Filtration_Design.rst:271
+msgid ""
+"Given the constraint of maximum branch velocity use the relationship between"
+" port velocity and branch velocity given by Equation "
+":eq:`Manifold_max_v_no_hl_series` to solve for the port velocity."
+msgstr ""
+"Dada la restricción de la velocidad máxima de rama, utiliza la relación "
+"entre la velocidad del puerto y la velocidad de rama dada por la ecuación "
+":eq:`Manifold_max_v_no_hl_series` para resolver la velocidad del puerto."
+
+#: ../../Filtration/Filtration_Design.rst:273
+msgid ""
+"\\bar v_{P_{innerMax}} = \\bar "
+"v_{B_{innerMax}}\\sqrt{\\frac{1}{\\Pi_{\\Psi_P}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:278
+msgid ""
+"The orifice diameter will be constrained by the wing fabrication. Apply "
+"conservation of mass to obtain the port velocity to filter velocity ratio. "
+"Each port serves an area equal to the branch spacing times the port spacing."
+msgstr ""
+"El diámetro del orificio estará limitado por la fabricación del ala. Aplica "
+"conservación de masa para obtener la relación velocidad del puerto respecto "
+"a la velocidad del filtro. Cada puerto cumple un área igual al espaciado "
+"entre las ramas y el espaciado entre los puertos."
+
+#: ../../Filtration/Filtration_Design.rst:280
+msgid ""
+"\\frac{\\bar v_{P_{innerMax}}}{2 v_{Fi}} = \\frac{B_{branch} "
+"B_{orifice_{inner}}}{\\Pi_{vc}\\frac{\\pi}{4} D_{orifice}^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:285
+msgid ""
+"where the factor of 2 is because the inner trunks serve two layers of sand. "
+"Combine equations :eq:`v_port_inner_branch` and :eq:`v_port_inner_to_v_Fi` "
+"and solve for the center to center spacing of the orifices."
+msgstr ""
+"donde el factor 2 es porque los troncos interiores sirven a dos capas de "
+"arena. Combina las ecuaciones :eq:`v_port_inner_branch` y "
+":eq:`v_port_inner_to_v_Fi` y resuelve el espaciado centro a centro de los "
+"orificios."
+
+#: ../../Filtration/Filtration_Design.rst:287
+msgid ""
+"B_{orifice_{inner}} = \\frac{\\bar v_{B_{innerMax}}\\Pi_{vc}\\pi "
+"D_{orifice}^2}{8 v_{Fi}B_{branch}}\\sqrt{\\frac{1}{\\Pi_{\\Psi_P}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:292
+msgid ""
+"We will assume that the user sets the target branch diameter as an input. "
+"The maximum length of a branch is set by mass conservation and the flow "
+"required to serve the filter area corresponding to the length of the branch."
+msgstr ""
+"Asumiremos que el usuario establece el diámetro objetivo de la rama como "
+"entrada. La longitud máxima de una rama se determina por la conservación de "
+"masa y el flujo necesario para servir el área del filtro correspondiente a "
+"la longitud de la rama."
+
+#: ../../Filtration/Filtration_Design.rst:294
+msgid "2 v_{Fi} L_{branch_{max}} B_{branch} = \\bar v_{B_{innerMax}} A_{pipe}"
+msgstr "2 v_{Fi} L_{branch_{max}} B_{branch} = \\bar v_{B_{innerMax}} A_{pipe}"
+
+#: ../../Filtration/Filtration_Design.rst:299
+msgid "Solve for :math:`L_{branch_{max}}`."
+msgstr "Resuelve :math:`L_{branch_{max}}`."
+
+#: ../../Filtration/Filtration_Design.rst:301
+msgid ""
+" L_{branch_{max}} = \\frac{\\bar v_{B_{innerMax}} A_{pipe}}{2 v_{Fi}  "
+"B_{branch}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:306
+msgid "Solve for the minimum pipe ID."
+msgstr "Resuelve el ID mínimo de la tubería."
+
+#: ../../Filtration/Filtration_Design.rst:308
+msgid ""
+" D_{branch_{min}}= \\sqrt\\frac{8 v_{Fi}  B_{branch} L_{branch}}{\\pi \\bar "
+"v_{B_{innerMax}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:315
+#: ../../Filtration/Filtration_Design.rst:516
+msgid ""
+"At this stage in the design process we have set the flow rate through the "
+"filter, the trunk and branch diameters (except for the backwash branches), "
+"the length of the branches, and the orifice spacing on the inner inlets."
+msgstr ""
+"En esta fase del proceso de diseño hemos colocado el caudal a través del "
+"filtro, los diámetros del tronco y de las ramas (excepto las ramas de "
+"retrolavado), la longitud de las ramas y el espaciamiento de los orificios "
+"en las entradas interiores."
+
+#: ../../Filtration/Filtration_Design.rst:320
+#: ../../Filtration/Filtration_Design.rst:521
+msgid "Outer branch"
+msgstr "Rama exterior"
+
+#: ../../Filtration/Filtration_Design.rst:322
+msgid ""
+"The outer trunk branch orifices must be designed so that the head loss "
+"during filtration is identical between inner and outer inlets. This will "
+"result spacing between the outer branch orifices that is more than double "
+"that of the inner branch orifices. The derivation is similar to that used to"
+" obtain Equation :eq:`B_orifice_inner`. Equate the head loss in the inner "
+"and outer inlets during filtration. We will use the maximum velocity in the "
+"inner trunks as our reference velocity. Note that the results would be the "
+"same if we used the actual velocity in the inner trunks because the velocity"
+" will drop out of the equation in the end. First the head loss from the "
+"inlet box to the orifices in the inner inlets is given by"
+msgstr ""
+"Los orificios de las ramas exteriores deben diseñarse de modo que la pérdida"
+" de carga durante la filtración sea idéntica entre las entradas interior y "
+"exterior. Esto resultará en un espaciamiento entre los orificios de las "
+"ramas exteriores que es más del doble que los orificios de las ramas "
+"interiores. La derivación es similar a la utilizada para obtener la Ecuación"
+" :eq:`B_orifice_inner`. Igualar las pérdida de carga en las entradas "
+"interior y exterior durante la filtración. Utilizaremos la velocidad máxima "
+"en los troncos interiores como nuestra velocidad de referencia. Ten en "
+"cuenta que los resultados serían los mismos si usáramos la velocidad real en"
+" los troncos interiores, porque la velocidad desaparecerá de la ecuación al "
+"final. Primero, la pérdida de carga desde la caja de entrada hasta los "
+"orificios en las entradas internas se da por"
+
+#: ../../Filtration/Filtration_Design.rst:324
+msgid ""
+"2gh_{e_{innerInlet}} = \\left(K_{e_T}\\bar v_{T_{inner}}^2 + K_{e_B}\\bar "
+"v_{B_{inner}}^2 + \\bar v_{B_{inner}}^2\\frac{1}{\\Pi_{\\Psi_P}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:329
+msgid ""
+"Substitute Equation :eq:`Branch_Trunk_Pi` to eliminate :math:`\\bar "
+"v_{B_{inner}}`."
+msgstr ""
+"Ecuación de sustitución :eq:`Branch_Trunk_Pi` para eliminar :math:`\\bar "
+"v_{B_{inner}}`."
+
+#: ../../Filtration/Filtration_Design.rst:331
+msgid ""
+"2gh_{e_{innerInlet}} = \\left[K_{e_T} + \\Pi_{BT}\\left( K_{e_B}  + "
+"\\frac{1}{\\Pi_{\\Psi_P}}\\right) \\right]\\bar v_{T_{inner}}^2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:336
+msgid ""
+"The orifices for the outer inlets are not constrained by the flow "
+"distribution to the ports. Thus the factor :math:`\\frac{1}{\\Pi_{\\Psi_P}}`"
+" does not apply. The unknown that we are solving for is port velocity which "
+"we will obtain from the ratio between port and branch kinetic energy."
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:338
+msgid "\\bar v_{P_{outer}}^2 = \\Pi_{PB_{outer}} \\bar v_{B_{outer}}^2"
+msgstr "\\bar v_{P_{outer}}^2 = \\Pi_{PB_{outer}} \\bar v_{B_{outer}}^2"
+
+#: ../../Filtration/Filtration_Design.rst:344
+msgid "The head loss in the outer inlet is given by"
+msgstr "La pérdida de carga en la entrada exterior está dada por"
+
+#: ../../Filtration/Filtration_Design.rst:346
+msgid ""
+"2gh_{e_{outerInlet}} = \\left(K_{e_T} + K_{e_B}\\Pi_{BT}  + \\Pi_{BT} "
+"\\Pi_{PB_{outer}} \\right)\\frac{1}{4}\\bar v_{T_{inner}}^2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:351
+msgid ""
+"where the factor of 4 difference is because the velocity in the outer inlets"
+" is half the inner inlets because each inner inlet serves 2 filter layers. "
+"Now set the inner and outer head loss to be equal."
+msgstr ""
+"donde el factor de diferencia de 4 es porque la velocidad en las entradas "
+"exteriores es la mitad de la interior, ya que cada entrada interna sirve a 2"
+" capas de filtro. Ahora establece las pérdida de carga interior y exterior "
+"iguales."
+
+#: ../../Filtration/Filtration_Design.rst:353
+msgid ""
+"\\left(K_{e_T} + K_{e_B}\\Pi_{BT}  + \\Pi_{BT} \\Pi_{PB_{outer}} "
+"\\right)\\frac{1}{4}\\bar v_{T_{inner}}^2 = \\left(K_{e_T} + "
+"K_{e_B}\\Pi_{BT}  + \\Pi_{BT} \\frac{1}{\\Pi_{\\Psi_P}} \\right)\\bar "
+"v_{T_{inner}}^2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:358
+msgid "Simplify and solve for the unknown, :math:`\\Pi_{PB}`."
+msgstr "Simplificar y resolver lo desconocido, :math:`\\Pi_{PB}`."
+
+#: ../../Filtration/Filtration_Design.rst:360
+msgid ""
+"\\Pi_{PB_{outer}}= \\left(3\\frac{K_{e_T}}{\\Pi_{BT}} + 3K_{e_B}  + "
+"4\\frac{1}{\\Pi_{\\Psi_P}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:365
+msgid ""
+"Apply conservation of mass to obtain the port velocity to filter velocity "
+"ratio. Each port serves an area equal to the branch spacing times the port "
+"spacing."
+msgstr ""
+"Aplica conservación de masa para obtener la relación velocidad del puerto "
+"respecto a la velocidad del filtro. Cada puerto sirve a un área igual al "
+"espaciado de las ramas multiplicado por el espaciamiento de los puertos."
+
+#: ../../Filtration/Filtration_Design.rst:367
+msgid ""
+"\\frac{\\bar v_{P_{outer}}}{v_{Fi}} = \\frac{B_{branch} "
+"B_{orifice_{outer}}}{\\Pi_{vc}\\frac{\\pi}{4} D_{orifice}^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:372
+msgid ""
+"We need an equation for :math:`\\bar v_{P_{outer}}` as a function of "
+":math:`\\bar v_{T_{inner}}`."
+msgstr ""
+"Necesitamos una ecuación para :math:`\\bar v_{P_{outer}}` en función de "
+":math:`\\bar v_{T_{inner}}`."
+
+#: ../../Filtration/Filtration_Design.rst:374
+msgid "\\frac{1}{4} \\bar v_{T_{innerMax}}^2 = \\bar v_{T_{outerMax}}^2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:379
+msgid "\\bar v_{B_{outerMax}}^2 = \\Pi_{BT} \\bar v_{T_{outerMax}}^2"
+msgstr "\\bar v_{B_{outerMax}}^2 = \\Pi_{BT} \\bar v_{T_{outerMax}}^2"
+
+#: ../../Filtration/Filtration_Design.rst:384
+msgid "\\bar v_{P_{outerMax}}^2 = \\Pi_{PB_{outer}} \\bar v_{B_{outerMax}}^2"
+msgstr "\\bar v_{P_{outerMax}}^2 = \\Pi_{PB_{outer}} \\bar v_{B_{outerMax}}^2"
+
+#: ../../Filtration/Filtration_Design.rst:389
+msgid "Combine the previous 3 equations to obtain"
+msgstr "Combina las 3 ecuaciones anteriores para obtener"
+
+#: ../../Filtration/Filtration_Design.rst:391
+msgid ""
+"\\bar v_{P_{outerMax}} = \\frac{\\bar v_{T_{innerMax}}}{2} "
+"\\sqrt{\\Pi_{PB_{outer}}  \\Pi_{BT}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:396
+msgid ""
+"The orifice spacing should be designed based on the maximum inner trunk "
+"velocity rather than the actual inner trunk velocity so that the branches "
+"have the same design for all filters. Otherwise the orifice spacing would be"
+" different for every design and that would only make fabrication needlessly "
+"confusing."
+msgstr ""
+"El espaciado entre orificios debería diseñarse en función de la velocidad "
+"máxima del tronco interior en lugar de la velocidad real del tronco "
+"interior, para que las ramas tengan el mismo diseño para todos los filtros. "
+"De lo contrario, el espaciamiento entre orificios sería diferente para cada "
+"diseño y eso solo haría que la fabricación fuera innecesariamente confusa."
+
+#: ../../Filtration/Filtration_Design.rst:398
+msgid ""
+"Substitute Equation :eq:`v_P_outer_of_v_T_inner` into Equation "
+":eq:`v_port_outer_to_v_Fi` and solve for :math:`B_{orifice_{outer}}`."
+msgstr ""
+"Sustituye la ecuación :eq:`v_P_outer_of_v_T_inner` en la ecuación "
+":eq:`v_port_outer_to_v_Fi` y resuelve para :math:`B_{orifice_{outer}}`."
+
+#: ../../Filtration/Filtration_Design.rst:400
+msgid ""
+"B_{orifice_{outer}} = \\frac{\\bar v_{T_{innerMax}} \\Pi_{vc} \\pi "
+"D_{orifice}^2 \\sqrt{\\Pi_{PB_{outer}}  \\Pi_{BT}} }{8 v_{Fi} B_{branch}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:405
+msgid ""
+"The backwash branches have an additional constraint. Those branches have two"
+" additional challenges. First, during backwash the sand doesn't provide head"
+" loss to help equalize flow. Second, the velocity is :math:`N_{layer}` "
+"faster than during filtration. We will ensure that the flow is reasonably "
+"distributed by applying the flow distribution requirement without any "
+"additional head loss in series. We will use the orifice spacing that is used"
+" for the outer inlets."
+msgstr ""
+"Las ramas de retrolavado tienen una restricción adicional. Esas ramas tienen"
+" dos desafíos adicionales. Primero, durante el retrolavado la arena no "
+"proporciona pérdida de carga para ayudar a igualar el flujo. Segundo, la "
+"velocidad es :math:`N_{layer}` mayor que durante la filtración. Nos "
+"aseguraremos de que el flujo se distribuya razonablemente aplicando el "
+"requisito de distribución del flujo sin pérdida de carga adicionales en "
+"serie. Utilizaremos el espaciado de orificios que se usa para las entradas "
+"exteriores."
+
+#: ../../Filtration/Filtration_Design.rst:410
+msgid "High Flow Design"
+msgstr "Diseño de alto flujo"
+
+#: ../../Filtration/Filtration_Design.rst:412
+msgid ""
+"The flow rate through the filter is severely limited if we keep the "
+"constraint that the head loss in the backwash inlet and in the inner inlets "
+"be the same. We can uncouple the head loss during the two states by having a"
+" removable orifice that can be added to the backwash inlet pipe during "
+"filtration."
+msgstr ""
+"La caudal a través del filtro es muy limitada si mantenemos la restricción "
+"de que las pérdida de carga en la entrada de retrolavado y en las entradas "
+"internas sean iguales. Podemos desacoplar la pérdida de carga durante los "
+"dos estados teniendo un orificio extraíble que se pueda añadir al tubería de"
+" entrada de retrolavado durante la filtración."
+
+#: ../../Filtration/Filtration_Design.rst:417
+msgid "Design inputs discussion"
+msgstr "Discusión sobre aportaciones de diseño"
+
+#: ../../Filtration/Filtration_Design.rst:419
+msgid ""
+"We could start with a filter width (required by the control system) or a "
+"structural constraint given a nominal diameter of the branches. If we start "
+"with these two constraints, overall filter width and ND of the branches the "
+"branch velocity can be calculated from mass conservation. The complication "
+"is that the trunks create an inactive zone in the filter whose width will be"
+" a function of the diameter of the trunk and an iterative solution may be "
+"required."
+msgstr ""
+"Podríamos empezar con un ancho de filtro (requerido por el sistema de "
+"control) o una restricción estructural dado un diámetro nominal de las "
+"ramas. Si partimos de estas dos restricciones, ancho total del filtro y ND "
+"de las ramas, la velocidad de las ramas puede calcularse a partir de la "
+"conservación de masa. La complicación es que los troncos crean una zona "
+"inactiva en el filtro cuyo ancho dependerá del diámetro del tronco y puede "
+"ser necesaria una solución iterativa."
+
+#: ../../Filtration/Filtration_Design.rst:421
+msgid ""
+"A design goal might be to use identical branches for filters of different "
+"sizes. That would require setting the branch length as an input rather than "
+"the filter width. This might be reasonable and in any case the maximum "
+"branch length is a function of the branch ND."
+msgstr ""
+"Un objetivo de diseño podría ser usar ramas idénticas para filtros de "
+"diferentes tamaños. Eso requeriría establecer la longitud de rama como "
+"entrada en lugar del ancho del filtro. Esto podría ser razonable y, en "
+"cualquier caso, la longitud máxima de rama depende del ND de rama."
+
+#: ../../Filtration/Filtration_Design.rst:423
+msgid "Design steps:"
+msgstr "Pasos de diseño:"
+
+#: ../../Filtration/Filtration_Design.rst:425
+msgid ""
+"find the maximum velocity in the outlet branches to get flow distribution "
+"through the slots using the filter clean bed head loss. assume branch length"
+" and branch ND (or an array of paired options)"
+msgstr ""
+"encontrar la velocidad máxima en las ramas de salida para obtener la "
+"distribución del flujo a través de las ranuras usando el filtro de lecho "
+"limpio pérdida de carga. asumir longitud de rama y ND de rama (o un conjunto"
+" de opciones emparejadas)"
+
+#: ../../Filtration/Filtration_Design.rst:426
+msgid "calculate branch velocity from mass conservation"
+msgstr "Calcular la velocidad de ramificación a partir de la conservación de masa"
+
+#: ../../Filtration/Filtration_Design.rst:427
+msgid "calculate max trunk velocity using Equation :eq:`V_trunk_of_he`"
+msgstr ""
+"calcular la velocidad máxima del tronco usando la ecuación "
+":eq:`V_trunk_of_he`"
+
+#: ../../Filtration/Filtration_Design.rst:428
+msgid ""
+"size the trunk, then calculate number of filters, flow per filter, filter "
+"width, filter length"
+msgstr ""
+"Dimensiona el tronco, luego calcula el número de filtros, el caudal por "
+"filtro, el ancho del filtro y la longitud del filtro"
+
+#: ../../Filtration/Filtration_Design.rst:432
+msgid "What are the failure modes as we increase the velocity in the trunk?"
+msgstr ""
+"¿Cuáles son los modos de fallo a medida que aumentamos la velocidad en el "
+"tronco?"
+
+#: ../../Filtration/Filtration_Design.rst:434
+msgid ""
+"port velocities may have to increase if the sand head loss isn't sufficient "
+"to ensure flow distribution between branches. Higher port velocities could "
+"erode the sand under the wing."
+msgstr ""
+"Las velocidades de puerto pueden tener que aumentar si la pérdida de carga "
+"de arena no es suficiente para asegurar la distribución del flujo entre "
+"ramas. Velocidades mayores de puerto podrían erosionar la arena bajo el ala."
+
+#: ../../Filtration/Filtration_Design.rst:435
+msgid ""
+"increased inlet head loss requires a deeper filter and deeper inlet and "
+"outlet control boxes. It would seem reasonable to limit this head loss to "
+"something less than 20 cm given that the dirty bed head loss for the filter "
+"is approximately 80 cm."
+msgstr ""
+"Un aumento de la pérdida de carga de entrada requiere un filtro más profundo"
+" y cajas de control de entrada y salida más profundas. Parecería razonable "
+"limitar esta pérdida de carga a algo menos de 20 cm, dado que la pérdida de "
+"carga de cama sucia para el filtro es de aproximadamente 80 cm."
+
+#: ../../Filtration/Filtration_Design.rst:436
+msgid ""
+"outlet branches have a maximum velocity to achieve flow distribution through"
+" the slots."
+msgstr ""
+"Las ramas de salida tienen una velocidad máxima para lograr la distribución "
+"del flujo a través de las ranuras."
+
+#: ../../Filtration/Filtration_Design.rst:441
+msgid "Outlet branch"
+msgstr "Rama de salida"
+
+#: ../../Filtration/Filtration_Design.rst:442
+msgid ""
+"The velocity in the outlet branches must be limited to prevent the change in"
+" piezometric head in the branch from causing significant differences in the "
+"velocity through the slots. The head loss through the filter bed helps keep "
+"this flow uniform. We could increase the head loss through the slots to make"
+" this flow more uniform, but that is a big failure mode because it is "
+"already too easy for these slots to clog over time and thus that problem "
+"would be made even worse. Instead we should be designing the outlet branches"
+" to have as much slot area as is structurally possible."
+msgstr ""
+"La velocidad en las ramas de salida debe limitarse para evitar que el cambio"
+" en la cabeza piezométrica de la rama cause diferencias significativas en la"
+" velocidad a través de las ranuras. La pérdida de carga a través de la lecho"
+" filtrante ayuda a mantener este flujo uniforme. Podríamos aumentar la "
+"pérdida de carga a través de las ranuras para que este flujo sea más "
+"uniforme, pero eso es un modo de fallo grave porque ya es demasiado fácil "
+"que estas ranuras se obstruyan con el tiempo y, por tanto, ese problema se "
+"agravaría aún más. En su lugar, deberíamos diseñar las ramas de salida para "
+"que tengan la mayor superficie de ranura posible estructuralmente."
+
+#: ../../Filtration/Filtration_Design.rst:444
+msgid ""
+"Flow distribution through the slots is described by Equation "
+":eq:`Manifold_max_v_with_hl_series`. We will neglect the head loss through "
+"the slots because if done well it will be small compared with the head loss "
+"through the sand. We can check this assumption later!"
+msgstr ""
+"La distribución del flujo a través de las ranuras se describe mediante la "
+"Ecuación :eq:`Manifold_max_v_with_hl_series`. Ignoraremos la pérdida de "
+"carga a través de las ranuras porque, si se hace bien, será pequeña en "
+"comparación con la pérdida de carga a través de la arena. ¡Podemos comprobar"
+" esta suposición más adelante!"
+
+#: ../../Filtration/Filtration_Design.rst:446
+msgid "The maximum outlet branch velocity is"
+msgstr "La velocidad máxima de la rama de salida es"
+
+#: ../../Filtration/Filtration_Design.rst:448
+msgid " \\bar v_{B_{outletMax}}= \\sqrt{2gh_{l_{sand}}\\Pi_{\\Psi}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:453
+msgid ""
+"This velocity is approximately 0.6 m/s and may be high enough so that it may"
+" not be a constraint. It isn't necessary that the flow distribution be "
+"extremely uniform given that as the sand bed head loss increases the flow "
+"distribution will improve. It will be included in the design code to ensure "
+"that we don't miss this constraint."
+msgstr ""
+"Esta velocidad es aproximadamente de 0,6 m/s y puede ser lo suficientemente "
+"alta como para que no suponga una restricción. No es necesario que la "
+"distribución del flujo sea extremadamente uniforme, dado que a medida que el"
+" lecho de arena pérdida de carga aumente, la distribución mejorará. Se "
+"incluirá en el código de diseño para asegurar que no pasemos por alto esta "
+"restricción."
+
+#: ../../Filtration/Filtration_Design.rst:458
+msgid "Inlet branch"
+msgstr "Ramal de entrada"
+
+#: ../../Filtration/Filtration_Design.rst:459
+msgid ""
+"Use mass conservation to determine the velocity in the branch given the "
+"branch length, ID, spacing and the filter velocity. The following equation "
+"could be corrected for the receptor length. The entire OD of the trunk "
+"should be counted as inactive."
+msgstr ""
+"Utiliza la conservación de masa para determinar la velocidad en la rama dada"
+" la longitud de la rama, el diámetro interior, el espaciamiento y la "
+"velocidad del filtro. La siguiente ecuación podría corregirse para la "
+"longitud del receptor. El diámetro exterior completo del tronco debe "
+"contarse como inactivo."
+
+#: ../../Filtration/Filtration_Design.rst:461
+msgid "v_{B} = \\frac{8 v_{Fi} B_{B} L_{B}}{\\pi D_{B}^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:466
+msgid ""
+"The orifice diameter will be constrained by the wing fabrication. Apply "
+"conservation of mass to obtain the port velocity to velocity ratio. Each "
+"port serves an area equal to the branch spacing times the port spacing."
+msgstr ""
+"El diámetro del orificio estará limitado por la fabricación del ala. Aplica "
+"conservación de masa para obtener la relación velocidad-puerto. Cada puerto "
+"tiene un área igual al espaciado de las ramas multiplicado por el espaciado "
+"de los puertos."
+
+#: ../../Filtration/Filtration_Design.rst:468
+msgid ""
+"\\frac{\\bar v_{P}}{N_{sided} v_{Fi}} = \\frac{B_{B} "
+"B_{P}}{\\Pi_{vc}\\frac{\\pi}{4} D_{P}^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:473
+msgid ""
+"where :math:`N_{sided}` is 2 for inner trunks that serve two layers of sand."
+" Combine equations :eq:`v_port_inner_branch` and :eq:`v_port_inner_to_v_Fi` "
+"and solve for the center to center spacing of the ports."
+msgstr ""
+"donde :math:`N_{sided}` es 2 para troncos interiores que sirven a dos capas "
+"de arena. Combina las ecuaciones :eq:`v_port_inner_branch` y "
+":eq:`v_port_inner_to_v_Fi` y resuelve el espaciamiento centro a centro de "
+"los puertos."
+
+#: ../../Filtration/Filtration_Design.rst:475
+msgid ""
+"B_{P_{inner}} = \\frac{\\bar v_{B}\\Pi_{vc}\\pi D_{P}^2}{8 "
+"v_{Fi}B_{B}}\\sqrt{\\frac{1}{\\Pi_{\\Psi_P}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:483
+msgid "Trunk Diameter"
+msgstr "Diámetro del tronco"
+
+#: ../../Filtration/Filtration_Design.rst:485
+msgid "The head loss for the inner inlets is"
+msgstr "La pérdida de carga para las entradas interiores es"
+
+#: ../../Filtration/Filtration_Design.rst:487
+msgid ""
+"h_{e_{innerInlet}} = \\left(h_{e_{T_{inner}}} + h_{e_{B_{inner}}} + "
+"h_{e_{P_{inner}}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:502
+msgid ""
+"2gh_{e_{innerInlet}} = \\left(K_{e_T}\\bar v_{T_{innerMax}}^2 + K_{e_B}\\bar"
+" v_{B_{inner}}^2 + \\bar v_{B_{inner}}^2\\frac{1}{\\Pi_{\\Psi_P}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:509
+msgid ""
+"\\bar v_{T_{innerMax}} = \\sqrt{\\frac{1}{K_{e_T}}\\left[2g  "
+"h_{e_{innerInlet}} -\\bar v_{B_{inner}}^2\\left(K_{e_B} + "
+"\\frac{1}{\\Pi_{\\Psi_P}} \\right)\\right]}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:514
+msgid ""
+"Use Equation :eq:`V_trunk_of_he2` to find the maximum trunk velocity. Use "
+"that constraint and the plant flow rate to find the trunk diameter, the "
+"number of filters, the filter flow rate, filter width, and filter length."
+msgstr ""
+"Usa la Ecuación :eq:`V_trunk_of_he2` para encontrar la velocidad máxima del "
+"tronco. Usa esa restricción y la planta caudal para encontrar el diámetro "
+"del tronco, el número de filtros, el caudal del filtro, el ancho y la "
+"longitud del filtro."
+
+#: ../../Filtration/Filtration_Design.rst:523
+msgid ""
+"The outer trunk branch orifices must be designed so that the head loss "
+"during filtration is identical between inner and outer inlets. This will "
+"result spacing between the outer branch orifices that is more than double "
+"that of the inner branch orifices. The derivation is similar to that used to"
+" obtain Equation :eq:`B_orifice_inner`. Equate the head loss in the inner "
+"and outer inlets during filtration. We will use the maximum velocity in the "
+"inner trunks as our reference velocity. Note that the results would be the "
+"same if we used the actual velocity in the inner trunks because the velocity"
+" will drop out of the equation in the end."
+msgstr ""
+"Los orificios de las ramas exteriores deben diseñarse de modo que la pérdida"
+" de carga durante la filtración sea idéntica entre las entradas interior y "
+"exterior. Esto resultará en un espaciamiento entre los orificios de las "
+"ramas exteriores que es más del doble que los orificios de las ramas "
+"interiores. La derivación es similar a la utilizada para obtener la Ecuación"
+" :eq:`B_orifice_inner`. Igualar las pérdida de carga en las entradas "
+"interior y exterior durante la filtración. Usaremos la velocidad máxima en "
+"los troncos interiores como nuestra velocidad de referencia. Ten en cuenta "
+"que los resultados serían los mismos si usáramos la velocidad real en los "
+"troncos interiores, porque la velocidad desaparecerá de la ecuación al "
+"final."
+
+#: ../../Filtration/Filtration_Design.rst:525
+msgid ""
+"The head loss from the inlet box to the orifices in the inner inlets is "
+"given by Equation :eq:`he_T_inner_of_V`. The head loss in the top inlet is "
+"similar. We will likely treat the backwash inlet as a separate design. The "
+"unknown we are solving for is the port velocity for the top inlet. That port"
+" velocity is not constrained by flow distribution and so we will enter it "
+"directly in the head loss equation knowing that all of the port kinetic "
+"energy is lost."
+msgstr ""
+"La pérdida de carga desde la caja de entrada hasta los orificios en las "
+"entradas interiores está dada por la ecuación :eq:`he_T_inner_of_V`. La "
+"pérdida de carga en la entrada superior es similar. Probablemente trataremos"
+" la entrada de retrolavado como un diseño separado. La incógnita que estamos"
+" resolviendo es la velocidad del puerto para la entrada superior. Esa "
+"velocidad del puerto no está limitada por la distribución del flujo, por lo "
+"que la introduciremos directamente en la ecuación pérdida de carga sabiendo "
+"que se pierde toda la energía cinética del puerto."
+
+#: ../../Filtration/Filtration_Design.rst:527
+msgid ""
+"2gh_{e_{topInlet}} = \\left(K_{e_T}\\bar v_{T_{top}}^2 + K_{e_B}\\bar "
+"v_{B_{top}}^2 + \\bar v_{P_{top}}^2 \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:532
+msgid ""
+"Assuming that we use the same size branches and trunks for the top and inner"
+" inlets, then the velocities in the top trunk and branch are 1/2 of the "
+"velocities in the inner trunk and branch."
+msgstr ""
+"Suponiendo que usamos ramas y troncos del mismo tamaño para las entradas "
+"superior e interior, entonces las velocidades en el tronco y rama superior "
+"son 1/2 de las velocidades en el tronco y rama interiores."
+
+#: ../../Filtration/Filtration_Design.rst:534
+msgid ""
+"\\left(K_{e_T}\\bar v_{T_{inner}}^2 + K_{e_B}\\bar v_{B_{inner}}^2 + \\bar "
+"v_{B_{inner}}^2\\frac{1}{\\Pi_{\\Psi_P}} \\right) = \\frac{1}{4} "
+"\\left(K_{e_T}\\bar v_{T_{inner}}^2 + K_{e_B}\\bar v_{B_{inner}}^2 \\right) "
+"+ \\bar v_{P_{top}}^2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:539
+msgid "Solve for the port velocity, :math:`v_{P_{top}}`."
+msgstr "Resuelve la velocidad del puerto, :math:`v_{P_{top}}`."
+
+#: ../../Filtration/Filtration_Design.rst:541
+msgid ""
+"\\bar v_{P_{top}} = \\sqrt{\\frac{3}{4} \\left(K_{e_T}\\bar v_{T_{inner}}^2 "
+"+ K_{e_B}\\bar v_{B_{inner}}^2\\right) +  \\frac{\\bar "
+"v_{B_{inner}}^2}{\\Pi_{\\Psi_P}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:547
+msgid "The port spacing can be obtained from Equation :eq:`B_P_top`."
+msgstr ""
+"El espaciado entre puertos puede obtenerse a partir de la ecuación "
+":eq:`B_P_top`."
+
+#: ../../Filtration/Filtration_Design.rst:549
+msgid "B_{P_{top}} = \\frac{\\Pi_{vc} \\pi D_{P}^2\\bar v_{P_{top}}}{4 v_{Fi}B_{B}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:557
+msgid "Backwash_Inlet"
+msgstr "Backwash_Inlet"
+
+#: ../../Filtration/Filtration_Design.rst:558
+msgid ""
+"The backwash inlet design is dominated by the flow distribution under "
+"backwash conditions when there is no head loss after the ports to promote "
+"flow distribution. Flow distribution can always be improved by increasing "
+"the port velocity and hence head loss and thus the maximum head loss is a "
+"second constraint."
+msgstr ""
+"El diseño de entrada de contracorriente está dominado por la distribución "
+"del flujo en condiciones de contralavado, cuando no hay pérdida de carga "
+"después de los puertos para promover la distribución del flujo. La "
+"distribución del flujo siempre puede mejorarse aumentando la velocidad del "
+"puerto y, por tanto, la pérdida de carga  pérdida de carga máxima es una "
+"segunda restricción."
+
+#: ../../Filtration/Filtration_Design.rst:560
+msgid ""
+"The backwash branch requires some flow distribution to ensure that the sand "
+"bed fluidizes along the entire length of the pipe. This raises the question "
+"of what happens when the sand bed begins fluidizing and part of the branch "
+"is in fluidized sand and part of the branch is buried in settled sand. "
+"Either the interface between the settled sand and the fluidized sand moves "
+"into the settled sand and the bed is slowly completely fluidized or the "
+"interface moves toward the fluidized sand and much of the sand bed never "
+"fluidizes. The sand bed will form the angle of repose and thus the toe of "
+"the solid sand bed will be narrow. This toe is likely eroded by the water. "
+"Given that water velocity leaving the wing is much higher than is needed to "
+"fluidize the sand (because the wing is narrower than the spacing of the "
+"branches) there is plenty of fluid energy to erode the toe of the sand and "
+"fluidize it."
+msgstr ""
+"La rama de retrolavado requiere cierta distribución del flujo para asegurar "
+"que el lecho de arena se fluidice a lo largo de toda la longitud de la "
+"tubería. Esto plantea la cuestión de qué ocurre cuando el lecho de arena "
+"comienza a fluidizarse y parte de la rama está en arena fluidizada y parte "
+"de la rama queda enterrada en arena sedimentada. O bien la interfaz entre la"
+" arena asentada y la arena fluidizada se mueve hacia la arena sedimentada y "
+"el lecho se fluidifica lentamente completamente, o bien la interfaz se mueve"
+" hacia la arena fluidizada y gran parte del lecho de arena nunca se "
+"fluidifica. El lecho de arena formará el ángulo de reposo y, por tanto, la "
+"punta del lecho de arena sólida será estrecha. Este dedo probablemente se "
+"erosiona por el agua. Dado que la velocidad del agua al salir del ala es "
+"mucho mayor de la necesaria para fluidificar la arena (porque el ala es más "
+"estrecha que el espaciado de las ramas), hay suficiente energía fluida para "
+"erosionar la punta de la arena y fluidizarla."
+
+#: ../../Filtration/Filtration_Design.rst:562
+msgid ""
+"Another possible mechanism is erosion of the sand under the wing based on "
+"the high horizontal velocity of the water in the wing as the water travels "
+"in the direction of the pipe axis toward the fluidized bed."
+msgstr ""
+"Otro posible mecanismo es la erosión de la arena bajo el ala basada en la "
+"alta velocidad horizontal del agua en el ala a medida que el agua viaja en "
+"la dirección del eje de la tubería hacia el lecho fluidizado."
+
+#: ../../Filtration/Filtration_Design.rst:564
+msgid ""
+"In either case, it appears that the wing design results in high velocity at "
+"the toe of and settled sand that can then rapidly erode and fluidize the "
+"entire bed. This suggests that the flow uniformity from the orifices into "
+"the winged space does not need to be great and so a factor of 0.8 is likely "
+"reasonable in Equation :eq:`Manifold_max_v_with_hl_series`."
+msgstr ""
+"En cualquier caso, parece que el diseño del ala resulta en una alta "
+"velocidad en la punta de la arena asentada que puede erosionar y fluidificar"
+" rápidamente toda la cama. Esto sugiere que la uniformidad del flujo desde "
+"los orificios hacia el espacio alado no tiene por qué ser muy alta, por lo "
+"que un factor de 0,8 es probablemente razonable en la ecuación "
+":eq:`Manifold_max_v_with_hl_series`."
+
+#: ../../Filtration/Filtration_Design.rst:566
+msgid ""
+"The backwash inlet design is driven by the need for flow distribution at the"
+" port and branch levels and thus there are required relationships between "
+"port and branch and between branch and trunk velocities. In addition the "
+"total head loss will be a design constraint and thus we have 3 equations (2 "
+"flow distribution and 1 head loss) and 3 unknown velocities."
+msgstr ""
+"El diseño de entrada de contracorriente está impulsado por la necesidad de "
+"distribución del flujo en los niveles de puerto y rama, por lo que existen "
+"relaciones necesarias entre puerto y rama y entre las velocidades de rama y "
+"tronco. Además, el pérdida de carga total será una limitación de diseño y, "
+"por tanto, tenemos 3 ecuaciones (2 de distribución de flujo y 1 pérdida de "
+"carga) y 3 velocidades desconocidas."
+
+#: ../../Filtration/Filtration_Design.rst:568
+msgid "\\bar v_{P_{BW}}^2 = \\frac{\\bar v_{B_{BW}}^2}{\\Pi_{\\Psi_{P_{BW}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:573
+msgid ""
+"Flow distribution between the trunk and branches is more important than the "
+"flow distribution into the wings because a whole branch could remain "
+"unfluidized if it received significantly less water. Thus a higher flow "
+"distribution criteria of perhaps 0.9 could be applied to the trunk-branch "
+"system. The port head loss is available to help achieve this flow "
+"distribution. Thus Equation :eq:`Manifold_max_v_with_hl_series` applies."
+msgstr ""
+"La distribución del flujo entre el tronco y las ramas es más importante que "
+"la distribución del flujo hacia las alas, porque toda una rama podría "
+"permanecer sin fluidificar si recibiera significativamente menos agua. Por "
+"tanto, se podría aplicar un criterio de distribución de flujo más alto, "
+"quizá de 0,9, al sistema tronco-rama. El pérdida de carga de puerto está "
+"disponible para ayudar a lograr esta distribución de flujo. Por tanto, se "
+"aplica la ecuación :eq:`Manifold_max_v_with_hl_series` ."
+
+#: ../../Filtration/Filtration_Design.rst:575
+msgid "\\bar v_{T_{BW}}= \\sqrt{2 g (h_{e_{B}} + h_{e_{P}})\\Pi_{\\Psi_{B_{BW}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:580
+msgid "where"
+msgstr "donde"
+
+#: ../../Filtration/Filtration_Design.rst:582
+msgid "h_{e_{B}} = K_{e_{B}}\\frac{\\bar v_{B_{BW}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:587
+msgid "and"
+msgstr "y"
+
+#: ../../Filtration/Filtration_Design.rst:589
+msgid "h_{e_{P}} = \\frac{\\bar v_{P_{BW}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:594
+msgid "Substitute to obtain a relationship between the three velocities."
+msgstr "Sustituye para obtener una relación entre las tres velocidades."
+
+#: ../../Filtration/Filtration_Design.rst:596
+msgid ""
+"\\bar v_{T_{BW}}^2= \\left( K_{e_{B}}\\bar v_{B_{BW}}^2 + \\bar "
+"v_{P_{BW}}^2\\right)\\Pi_{\\Psi_{B_{BW}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:601
+msgid ""
+"Eliminate the port velocity by substituting Equation :eq:`v_P_to_v_B_BW` and"
+" solve for :math:`\\bar v_{B_{BW}}^2`."
+msgstr ""
+"Elimina la velocidad del puerto sustituyendo la ecuación :eq:`v_P_to_v_B_BW`"
+" y resuelve para :math:`\\bar v_{B_{BW}}^2`."
+
+#: ../../Filtration/Filtration_Design.rst:603
+msgid ""
+"\\bar v_{B_{BW}}^2 = \\bar v_{T_{BW}}^2 \\frac{1}{\\left( K_{e_{B}} + "
+"\\frac{1}{\\Pi_{\\Psi_{P_{BW}}}} \\right)\\Pi_{\\Psi_{B_{BW}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:609
+msgid "The total head loss in the backwash inlet will be a design constraint."
+msgstr ""
+"El pérdida de carga total en la entrada de retrolavado será una limitación "
+"de diseño."
+
+#: ../../Filtration/Filtration_Design.rst:611
+msgid ""
+"2gh_{e_{BW}} = \\left(K_{e_T}\\bar v_{T_{BW}}^2 + K_{e_B}\\bar v_{B_{BW}}^2 "
+"+ \\bar v_{P_{BW}}^2 \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:616
+msgid "Substitute to obtain an equation for the maximum trunk velocity."
+msgstr "Sustituye para obtener una ecuación de la velocidad máxima del tronco."
+
+#: ../../Filtration/Filtration_Design.rst:618
+msgid ""
+"2gh_{e_{BW}} = \\left[K_{e_T}\\bar v_{T_{BW}}^2 + \\bar "
+"v_{B_{BW}}^2\\left(K_{e_B} + \\frac{1}{\\Pi_{\\Psi_{P_{BW}}}}\\right) "
+"\\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:623
+msgid "Substitute again to eliminate the branch velocity."
+msgstr "Sustituye de nuevo para eliminar la velocidad de la rama."
+
+#: ../../Filtration/Filtration_Design.rst:625
+msgid ""
+"2gh_{e_{BW}} = \\bar v_{T_{BW}}^2\\left[K_{e_T} +  "
+"\\frac{1}{\\Pi_{\\Psi_{B_{BW}}}} \\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:630
+msgid "Solve for the maximum trunk velocity."
+msgstr "Resuelve la velocidad máxima de tronco."
+
+#: ../../Filtration/Filtration_Design.rst:632
+msgid ""
+"\\bar v_{T_{BWmax}} = \\sqrt\\frac{2gh_{e_{BW}}}{K_{e_T} +  "
+"\\frac{1}{\\Pi_{\\Psi_{B_{BW}}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:637
+msgid ""
+"The backwash trunk may be the same diameter as the other trunk lines or it "
+"may be larger depending on the maximum velocities calculated from equations "
+":eq:`V_trunk_of_he2` and :eq:`v_T_BW`."
+msgstr ""
+"El tronco de retrolavado puede tener el mismo diámetro que las otras líneas "
+"troncales o puede ser mayor, dependiendo de las velocidades máximas "
+"calculadas a partir de las ecuaciones :eq:`V_trunk_of_he2` y :eq:`v_T_BW`."
+
+#: ../../Filtration/Filtration_Design.rst:639
+msgid ""
+"The maximum branch velocity is now obtained by solving Equation "
+":eq:`v_B_to_v_T_BW` for :math:`\\bar v_{T_{BW}}`."
+msgstr ""
+"La velocidad máxima de ramificación se obtiene ahora resolviendo la ecuación"
+" :eq:`v_B_to_v_T_BW` para :math:`\\bar v_{T_{BW}}`."
+
+#: ../../Filtration/Filtration_Design.rst:641
+msgid ""
+"\\bar v_{T_{BW}} = \\bar v_{B_{BW}} \\sqrt{\\left( K_{e_{B}} + "
+"\\frac{1}{\\Pi_{\\Psi_{P_{BW}}}} \\right)\\Pi_{\\Psi_{B_{BW}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:646
+msgid "The branch minimum area is from Equation :eq:`branch_V`."
+msgstr "El área mínima de la ramificación proviene de la ecuación :eq:`branch_V`."
+
+#: ../../Filtration/Filtration_Design.rst:648
+msgid "A_{B} = \\frac{N_{layer} v_{Fi} B_{B} L_{B}}{v_{B}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:653
+msgid ""
+"The port velocity is obtained from Equation :eq:`v_P_to_v_B_BW` and the "
+"backwash port spacing is obtained by rewriting :eq:`v_P_to_v_Fi1` to include"
+" the relationship that the backwash velocity is the filtration velocity "
+"times the number of filter layers."
+msgstr ""
+"La velocidad del puerto se obtiene a partir de la Ecuación "
+":eq:`v_P_to_v_B_BW` y el espaciado entre puertos de retrolavado se obtiene "
+"reescribiendo :eq:`v_P_to_v_Fi1` para incluir la relación de que la "
+"velocidad de retrolavado es la velocidad de filtración multiplicada por el "
+"número de capas de filtro."
+
+#: ../../Filtration/Filtration_Design.rst:655
+msgid ""
+"B_{P_{bw}} = \\frac{\\Pi_{vc} \\pi D_{P}^2\\bar v_{P_{BW}}}{4 v_{Fi} "
+"N_{layer} B_{B}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:663
+msgid "Backwash Flow Control Orifice"
+msgstr "Orificio de control de flujo de contraflujo"
+
+#: ../../Filtration/Filtration_Design.rst:665
+msgid ""
+"The head loss through the backwash inlet system must be increased during "
+"filtration to match the head loss of the other inlets under conditions of "
+"ideal flow distribution between the filter layers. The orifice will likely "
+"be placed right on the inlet and thus this orifice will replace the entrance"
+" loss. The unknown is the inner diameter of the orifice. We know the "
+"expanded area (trunk area) and velocity and thus we can use the third form "
+"of the expansion head loss Equation :eq:`minor_loss_equation`."
+msgstr ""
+"La pérdida de carga a través del sistema de entrada de retrolavado debe "
+"aumentarse durante la filtración para coincidir con la pérdida de carga de "
+"las otras entradas bajo condiciones de distribución ideal del flujo entre "
+"las capas del filtro. El orificio probablemente se colocará justo en la "
+"entrada y, por tanto, este orificio reemplazará la pérdida de entrada. La "
+"incógnita es el diámetro interior del orificio. Conocemos el área expandida "
+"(área del tronco) y la velocidad, por lo que podemos usar la tercera forma "
+"de expansión pérdida de carga Ecuación :eq:`minor_loss_equation`."
+
+#: ../../Filtration/Filtration_Design.rst:667
+msgid ""
+"   h_{e_{orifice}} = \\left( \\frac{A_{T}}{\\Pi_{vc}A_{orifice}} -1 "
+"\\right)^2 \\, \\frac{\\bar v_{T_{bw}}^2}{2g} \\, \\, = \\, \\, K_e "
+"\\frac{\\bar v_{T_{bw}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:673
+msgid "Solve for the area of the orifice, :math:`A_{orifice}`."
+msgstr "Resuelve el área del orificio, :math:`A_{orifice}`."
+
+#: ../../Filtration/Filtration_Design.rst:675
+msgid ""
+"   D_{orifice} =  \\frac{D_{T}}{\\left[\\Pi_{vc}\\left( "
+"\\frac{\\sqrt{2gh_{e_{orifice}}}}{\\bar v_{T_{bw}}} + "
+"1\\right)\\right]^\\frac{1}{2}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:684
+msgid "Backwash Siphon"
+msgstr "Sifón de retrolavado"
+
+#: ../../Filtration/Filtration_Design.rst:686
+msgid ""
+"The siphon manifold is designed to get reasonable flow distribution based on"
+" Equation :eq:`Manifold_max_v_no_hl_series`. The siphon diameter is based on"
+" dumping the water in the filter box in a reasonable amount of time, "
+"currently set to yield an average dump velocity in the filter box equal to "
+"the backwash velocity."
+msgstr ""
+"El colector de sifón está diseñado para obtener una distribución de flujo "
+"razonable basada en la ecuación :eq:`Manifold_max_v_no_hl_series`. El "
+"diámetro del sifón se basa en vaciar el agua en la caja del filtro en un "
+"tiempo razonable, actualmente configurado para proporcionar una velocidad "
+"media de descarga en la caja del filtro igual a la velocidad de retrolavado."
+
+#: ../../Filtration/Filtration_Design.rst:688
+msgid ""
+"The siphon manifold is designed to have reasonable port flow distribution. "
+"The port flow distribution doesn't have to be very uniform because the sand-"
+"water interface has a very high density difference and thus is quite stable."
+" Thus the velocity up out of the fluidized sand will not be harmed by a poor"
+" design of the manifold. A flow distribution, :math:`\\Pi_{Q}` of 0.8 will "
+"be very good. The required orifice area is obtained by solving "
+":eq:`Manifold_max_v_no_hl_series` for the total port area."
+msgstr ""
+"El colector de sifón está diseñado para tener una distribución razonable del"
+" flujo por puertos. La distribución del flujo por puerto no tiene por qué "
+"ser muy uniforme porque la interfaz arena-agua tiene una diferencia de "
+"densidad muy alta y, por tanto, es bastante estable. Así, la velocidad hacia"
+" arriba desde la arena fluidizada no se verá afectada por un mal diseño del "
+"variador. Una distribución de flujo, :math:`\\Pi_{Q}` de 0,8, será muy "
+"buena. El área de orificio requerida se obtiene resolviendo "
+":eq:`Manifold_max_v_no_hl_series` para el área total del puerto."
+
+#: ../../Filtration/Filtration_Design.rst:690
+msgid " A_{P} = A_{M_1}\\sqrt{\\Pi_{\\Psi}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:695
+msgid "where :math:`A_{P}` is the contracted port area."
+msgstr "donde :math:`A_{P}` es el área portuaria contratada."
+
+#: ../../Filtration/Filtration_Design.rst:697
+msgid ""
+"The ports will need to be large in diameter to achieve the required total "
+"port area. The port diameter must meet the following equation:"
+msgstr ""
+"Los puertos deberán tener un diámetro grande para alcanzar el área total "
+"requerida. El diámetro del puerto debe cumplir la siguiente ecuación:"
+
+#: ../../Filtration/Filtration_Design.rst:699
+msgid ""
+"  floor\\left(\\frac{L_{manifold}}{D_P + S_P}\\right) \\Pi_{vc} "
+"\\frac{\\pi}{4}D_P^2 = A_P"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:704
+msgid ""
+"where the first term is an estimate of the number of ports and the second "
+"term is the contracted port area. This equation can be solved by iteration "
+"over an array of drill bit sizes. A first estimate can be obtained by "
+"setting :math:`S_P = 0`"
+msgstr ""
+"donde el primer término es una estimación del número de puertos y el segundo"
+" término es el área contraída del puerto. Esta ecuación puede resolverse "
+"iterando sobre un array de tamaños de broca. Una primera estimación puede "
+"obtenerse estableciendo :math:`S_P = 0`"
+
+#: ../../Filtration/Filtration_Design.rst:706
+msgid "  D_{P_{est}} = \\frac{4 A_P}{\\pi L_{manifold} \\Pi_{vc} }"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:711
+msgid "Use the quadratic equation to get a good estimate."
+msgstr "Usa la ecuación cuadrática para obtener una buena estimación."
+
+#: ../../Filtration/Filtration_Design.rst:713
+msgid "  L_{manifold} \\Pi_{vc} \\frac{\\pi}{4}D_P^2 - A_P D_P - A_P S_P = 0"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:723
+msgid "Backwash Initiation Forces"
+msgstr "Fuerzas de Iniciación de Contracorriente"
+
+#: ../../Filtration/Filtration_Design.rst:725
+msgid ""
+"At the beginning of backwash the sand is clogged and thus it requires more "
+"pressure to achieve the flow through the sand required to fluidize the sand."
+" Instead, it is likely that one or more layers of sand begin to lift as a "
+"unit before falling apart and beginning to fluidize. During that transition "
+"the forces of the sand to lift the internal piping of the filter are quite "
+"large. We had structural failures in several of the early StaRS filters "
+"before we recognized the importance of a strong cable system to prevent the "
+"filter piping from lifting."
+msgstr ""
+"Al inicio del contralavado, la arena se obstruye y, por tanto, se requiere "
+"más presión para lograr el flujo a través de la arena necesario para "
+"fluidificar la arena. En cambio, es probable que una o más capas de arena "
+"empiecen a levantarse como una unidad antes de desintegrarse y comenzar a "
+"fluidificarse. Durante esa transición, las fuerzas de la arena para levantar"
+" la tubería interna del filtro son bastante grandes. Tuvimos fallos "
+"estructurales en varios de los primeros filtros StaRS antes de reconocer la "
+"importancia de un sistema de cables fuerte para evitar que la tubería del "
+"filtro se eleve."
+
+#: ../../Filtration/Filtration_Design.rst:727
+msgid ""
+"The maximum hydrostatic force acting on the bottom of the filter occurs when"
+" the inlet box is still full of water when the filter water depth is reduced"
+" by the siphon. The force in excess of the weight of the sand and water in "
+"the filter is equal to the height of water in the inlet box that is in "
+"excess of the backwash height of about 10 cm. This excess height is "
+"approximately equal to the terminal head loss through the filter during "
+"filtration, :math:`HL_{fi_{max}}`. The width of the filter bed that is "
+"contributing force to the receptor pipe is equal to 1/2 of the length of the"
+" branches. This force most likely acts uniformly on two layers of sand and "
+"associated piping at a time. The top two layers fluidize first when the "
+"water first stops going through the top inlet and thus all of the water is "
+"passing up through the top two layers. Thus the force is most likely shared "
+"by an inlet module and an outlet module."
+msgstr ""
+"La máxima fuerza hidrostática que actúa sobre el fondo del filtro ocurre "
+"cuando la caja de entrada sigue llena de agua cuando la profundidad del agua"
+" del filtro se reduce por el sifón. La fuerza que excede el peso de la arena"
+" y el agua en el filtro es igual a la altura del agua en la caja de entrada "
+"que supera la altura de retrolavado, de unos 10 cm. Esta altura excedente es"
+" aproximadamente igual a la pérdida de carga terminal a través del filtro "
+"durante la filtración, :math:`HL_{fi_{max}}`. El ancho de la lecho filtrante"
+" que contribuye a la fuerza al tubo receptor es igual a 1/2 de la longitud "
+"de las ramas. Esta fuerza probablemente actúa de forma uniforme sobre dos "
+"capas de arena y tuberías asociadas a la vez. Las dos capas superiores se "
+"fluidizan primero cuando el agua deja de pasar por la entrada superior y, "
+"por tanto, toda el agua pasa por las dos capas superiores. Así, la fuerza "
+"probablemente se comparte entre un módulo de entrada y un módulo de salida."
+
+#: ../../Filtration/Filtration_Design.rst:729
+msgid ""
+"There are two factors of 2 that show up in the equation. First, the total "
+"force is distributed between two layers. Second, half of the force from one "
+"side of the filter is carried by the trunk. Thus the force per unit length "
+"of the receptor pipe, :math:`\\omega`, in one module is"
+msgstr ""
+"Hay dos factores de 2 que aparecen en la ecuación. Primero, la fuerza total "
+"se distribuye entre dos capas. Segundo, la mitad de la fuerza de un lado del"
+" filtro es transportada por el tronco. Así, la fuerza por unidad de longitud"
+" del tubo receptor, :math:`\\omega`, en un módulo es"
+
+#: ../../Filtration/Filtration_Design.rst:731
+msgid "\\omega = \\rho g h_{l_{sand_{max}}} \\frac{L_{branch}}{4}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:736
+msgid ""
+"The total force acting upward that must be resisted by the receptor supports"
+" is"
+msgstr ""
+"La fuerza total que actúa hacia arriba y que debe ser resistida por los "
+"soportes receptores es"
+
+#: ../../Filtration/Filtration_Design.rst:738
+msgid "F_{up} = \\rho g h_{l_{sand_{max}}} \\frac{Q_{Fi}}{v_{Fi} N_{layer}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:748
+msgid "Receptor Pipe Support Spacing"
+msgstr "Espaciado de soporte de tubería receptora"
+
+#: ../../Filtration/Filtration_Design.rst:750
+msgid ""
+"The optimal spacing of the supports allows the same deflection at the ends "
+"of the pipes (cantilever beam) and in the middle of the supports (beam "
+"simply supported at both ends). In both cases the load is uniformly "
+"distributed along the pipe (see `Beam Deflection Formulae "
+"<../_static/references/Beam_Deflection_Formulae.pdf>`_)."
+msgstr ""
+"El espaciamiento óptimo de los soportes permite la misma deflexión en los "
+"extremos de las tuberías (viga voladizo) y en el centro de los soportes "
+"(viga simplemente soportada en ambos extremos). En ambos casos, la carga se "
+"distribuye uniformemente a lo largo de la tubería (véase `Fórmulas de "
+"Deflexión de Viga <../_static/references/Beam_Deflection_Formulae.pdf>`_)."
+
+#: ../../Filtration/Filtration_Design.rst:752
+msgid "\\delta_{max} = \\frac{\\omega L_{cantilever}^4}{8EI}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:757
+msgid "The equivalent equation for a beam with simply supported ends is"
+msgstr "La ecuación equivalente para una viga con extremos simplemente soportados es"
+
+#: ../../Filtration/Filtration_Design.rst:759
+msgid "\\delta_{max} = \\frac{5\\omega L_{both}^4}{384EI}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:764
+msgid ""
+"We'd like the deflection to be the same in the cantilever ends of the "
+"receptor pipe as in the middle sections of the pipe where it is simply "
+"supported. Set the deflections to be the same."
+msgstr ""
+"Nos gustaría que la deflexión fuera la misma en los extremos del voladizo "
+"del tubo receptor que en las secciones centrales donde simplemente está "
+"soportado. Ajusta las desviaciones para que sean las mismas."
+
+#: ../../Filtration/Filtration_Design.rst:766
+msgid "\\frac{5\\omega L_{both}^4}{384EI} = \\frac{\\omega L_{cantilever}^4}{8EI}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:771
+msgid "Solve for the ratio of the length of the respective beams"
+msgstr "Resuelve la relación entre la longitud de las vigas respectivas"
+
+#: ../../Filtration/Filtration_Design.rst:773
+msgid ""
+"\\frac{ L_{cantilever}}{L_{both}} = \\left(\\frac{5 "
+"}{48}\\right)^\\frac{1}{4} = 0.57"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:778
+msgid ""
+"This result is a bit surprising until we recognize that the cantilever beam "
+"is not allowed to rotate at the point where it is connected while the simple"
+" beam was allowed to rotate. The simple conclusion from all of this is that "
+"the cantilever sections can be 1/2 the length of the simply supported "
+"sections of the receptor pipe."
+msgstr ""
+"Este resultado resulta un poco sorprendente hasta que reconocemos que la "
+"viga voladizo no puede girar en el punto donde está conectada mientras que "
+"la viga simple sí pudo girar. La conclusión sencilla de todo esto es que las"
+" secciones del voladizo pueden estar 1/2 la longitud de las secciones "
+"simplemente soportadas del tubo receptor."
+
+#: ../../Filtration/Filtration_Design.rst:780
+msgid ""
+"We previously supported the receptor pipe at the ends. That wasn't optimal. "
+"With the new StaRS design it is possible to make larger filters and it isn't"
+" get clear what the optimal ratio of width to length of the filters will be."
+" In any case, the length of the receptor pipe is likely to be significantly "
+"longer than in our previous designs for the highest flow rates. It will be "
+"necessary to ensure that the deflection isn't too large."
+msgstr ""
+"Anteriormente soportábamos el tubo receptor en los extremos. Eso no era "
+"óptimo. Con el nuevo diseño de StaRS es posible fabricar filtros más grandes"
+" y no queda claro cuál será la proporción óptima entre el ancho y la "
+"longitud de los filtros. En cualquier caso, la longitud del tubo receptor "
+"probablemente será significativamente mayor que en nuestros diseños "
+"anteriores para los caudales más altos. Será necesario asegurarse de que la "
+"deflexión no sea demasiado grande."
+
+#: ../../Filtration/Filtration_Design.rst:782
+msgid ""
+"The deflection of the receptor pipe is given by Equation "
+":eq:`supported_at_both_ends`. The area moment of inertia, :math:`I` is"
+msgstr ""
+"La deflexión del tubo receptor está dada por la ecuación "
+":eq:`supported_at_both_ends`. El momento de inercia de área, :math:`I` es"
+
+#: ../../Filtration/Filtration_Design.rst:784
+msgid "I = \\frac{\\pi}{4}\\left(OD^4 - ID^4\\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:789
+msgid "The standard diameter ratio for PVC pipes is"
+msgstr "La relación estándar de diámetro para tuberías de PVC es"
+
+#: ../../Filtration/Filtration_Design.rst:791
+msgid "\\Pi_{SDR} = \\frac{OD}{t}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:796
+msgid "Substituting Equation :eq:`SDR` into Equation :eq:`pipe_Ix_of_OD_ID`"
+msgstr "Sustituyendo la ecuación :eq:`SDR` en la ecuación :eq:`pipe_Ix_of_OD_ID`"
+
+#: ../../Filtration/Filtration_Design.rst:798
+msgid "I = \\frac{\\pi}{4}\\left[OD^4 - \\left(\\Pi_{SDR}t - t\\right)^4\\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:803
+msgid "simplifying"
+msgstr "Simplificando"
+
+#: ../../Filtration/Filtration_Design.rst:805
+msgid ""
+"I = \\frac{\\pi}{4}OD^4\\left[1 - "
+"\\left(1-\\frac{1}{\\Pi_{SDR}}\\right)^4\\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:810
+msgid ""
+"If we set a maximum deflection, then we can solve Equation "
+":eq:`supported_at_both_ends` for the maximum length between supports."
+msgstr ""
+"Si establecemos una desviación máxima, entonces podemos resolver la Ecuación"
+" :eq:`supported_at_both_ends` para la longitud máxima entre soportes."
+
+#: ../../Filtration/Filtration_Design.rst:812
+msgid "L_{both} = \\left(\\frac{384EI\\delta_{max}}{5\\omega}\\right)^{\\frac{1}{4}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:817
+msgid ""
+"Agua Para el Pueblo successfully used 2\" PVC pipe with SDR 17 for the "
+"receptor at Gracias where the support spacing was 1 meter, the filter length"
+" was 1.34 meter, filter width was 1.58 meter, and the branch length of 0.63 "
+"meter. The maximum receptor deflection was estimated to be about 2 mm under "
+"these conditions."
+msgstr ""
+"Agua Para el Pueblo utilizó con éxito tubería de PVC de 2\" con SDR 17 para "
+"el receptor en Gracias, donde el espaciado de soporte era de 1 metro, la "
+"longitud del filtro de 1,34 metros, el ancho del filtro de 1,58 metros y la "
+"longitud de la rama de 0,63 metros. La desviación máxima del receptor se "
+"estimó en unos 2 mm en estas condiciones."
+
+#: ../../Filtration/Filtration_Design.rst:820
+msgid "Branch Deflection"
+msgstr "Desviación de ramas"
+
+#: ../../Filtration/Filtration_Design.rst:822
+msgid ""
+"Similar analysis could be performed on the branches to ensure that they "
+"don't deflect too much at the beginning of backwash."
+msgstr ""
+"Se podría realizar un análisis similar en las ramas para asegurarse de que "
+"no se desvíen demasiado al inicio del retrolavado."
+
+#: ../../Filtration/Filtration_Design.rst:827
+msgid "Receptor Support Strength"
+msgstr "Fuerza de soporte receptor"
+
+#: ../../Filtration/Filtration_Design.rst:829
+msgid ""
+"The supports for the receptors could have a cable or a threaded rod coming "
+"up on both sides or only on one side. Single sided support would be "
+"preferred to reduce the extra width of the filter required to accommodate "
+"the double sided support. The single sided support would have the cable "
+"coming up on one side. When the sand lifts on the dead pipe the support will"
+" tend to rotate around the cable and put the support in compression on the "
+"other side of the cable. The question is then the required dimensions of the"
+" compression area given the strength of the PVC."
+msgstr ""
+"Los soportes para los receptores podrían tener un cable o una varilla "
+"roscada que suba por ambos lados o solo por un lado. Se preferiría un "
+"soporte de un solo lado para reducir el ancho extra del filtro necesario "
+"para acomodar el soporte de doble cara. El soporte de un solo lado tendría "
+"el cable hacia arriba por un lado. Cuando la arena se eleva sobre el tubo "
+"muerto, el soporte tenderá a girar alrededor del cable y pondrá el soporte "
+"en compresión al otro lado del cable. La cuestión entonces es las "
+"dimensiones requeridas del área de compresión dada la resistencia del PVC."
+
+#: ../../Filtration/Filtration_Design.rst:831
+msgid "The force acting on one receptor support is"
+msgstr "La fuerza que actúa sobre un soporte receptor es"
+
+#: ../../Filtration/Filtration_Design.rst:833
+msgid "F_{up} = \\rho g h_{l_{sand_{max}}}\\frac{W_{filter}}{4} B_{support}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:838
+msgid ""
+"This force must be resisted by the PVC support. Given that the lift force "
+":math:`F_{up}` is on the order of 2000 N and the PVC compressive strength is"
+" approximately 55 MPa this requires less than a square centimeter of PVC. "
+"This suggests that a single sided support for the receptors with only one "
+"cable will be adequate."
+msgstr ""
+"Esta fuerza debe ser resistida por el soporte de PVC. Dado que la fuerza de "
+"sustentación :math:`F_{up}` es del orden de 2000 N y la resistencia a la "
+"compresión del PVC es aproximadamente 55 MPa, esto requiere menos de un "
+"centímetro cuadrado de PVC. Esto sugiere que un soporte unilateral para los "
+"receptores con un solo cable será suficiente."
+
+#: ../../Filtration/Filtration_Design.rst:841
+msgid "Slotted Pipe Upgrade"
+msgstr "Actualización de tubería ranurada"
+
+#: ../../Filtration/Filtration_Design.rst:843
+msgid ""
+"Agua Para el Pueblo recommends an annual maintenance cleaning of the filter."
+" The underlying issue is that the slots in the slotted pipes that extract "
+"the filtered water from the sand bed slowly clog over time. The filters then"
+" need to be backwashed more frequently. The sand is dumped from the filter "
+"while the filter is operating in backwash mode using a special sand dump "
+"pipe. The inner pipe modules are removed from the filter and then slotted "
+"pipes are washed with a pressure washer."
+msgstr ""
+"Agua Para el Pueblo recomienda una limpieza anual de mantenimiento del "
+"filtro. El problema subyacente es que las ranuras en las tuberías ranuradas "
+"que extraen el agua filtrada del lecho de arena se obstruyen lentamente con "
+"el tiempo. Los filtros necesitan ser retrolavados con mayor frecuencia. La "
+"arena se vacía del filtro mientras este funciona en modo de contralavado "
+"usando una tubería especial para vaciar arena. Los módulos interiores de "
+"tubería se retiran del filtro y luego las tuberías ranuradas se lavan con "
+"una hidrolimpiadora."
+
+#: ../../Filtration/Filtration_Design.rst:845
+msgid ""
+"The slotted pipes can clog with calcium carbonate deposition or by having "
+"sand forced into the slots. Byron Zuniga at Agua Para el Pueblo reports that"
+" there is a significant amount of sand grains embedded in the slots that is "
+"best removed using a pressure water. The sand is likely forced into the "
+"slots at the initiation of backwash when the sand bed is lifting and causing"
+" the slotted pipes to bend upward. The slots above the midline of the branch"
+" would expand as the branch bends upward and thus a larger diameter branch "
+"that bends less could reduce the amount of sand that is embedded in the "
+"slots. One option is to increase the branch diameter form 1\" to 1.5\" to "
+"create a more rigid system. It would also help to reduce the length of the "
+"slots to make the PVC between the slots more rigid."
+msgstr ""
+"Las tuberías ranuradas pueden obstruirse con la deposición de carbonato de "
+"calcio o al tener arena forzada en las ranuras. Byron Zuniga en Agua Para el"
+" Pueblo informa que hay una cantidad significativa de granos de arena "
+"incrustados en las ranuras que es mejor eliminar usando agua a presión. "
+"Probablemente la arena se fuerza a entrar en las ranuras al inicio del "
+"contralavado, cuando la cama de arena se levanta y provoca que las tuberías "
+"ranuradas se doblen hacia arriba. Las ranuras por encima de la línea media "
+"de la rama se expandirían a medida que la rama se dobla hacia arriba, y por "
+"tanto, una rama de mayor diámetro que se doble menos podría reducir la "
+"cantidad de arena incrustada en las ranuras. Una opción es aumentar el "
+"diámetro de la rama de 1\" a 1,5\" para crear un sistema más rígido. También"
+" ayudaría a reducir la longitud de las ranuras para hacer más rígido el PVC "
+"entre las ranuras."
+
+#: ../../Filtration/Filtration_Design.rst:847
+msgid ""
+"A more robust strategy is to devise a method to completely eliminate slotted"
+" PVC pipes from StaRS filters. One approach would be to use stainless steel "
+"slotted pipes to dramatically reduce the deformation of the pipe and thus "
+"prevent sand grains from being forced into the slots. Stainless steel pipes "
+"will increase the cost and there is some evidence that even stainless steel "
+"slotted underdrain systems clog over time."
+msgstr ""
+"Una estrategia más robusta es idear un método para eliminar completamente "
+"las tuberías ranuradas de PVC de los filtros StaRS. Un enfoque sería "
+"utilizar tuberías ranuradas de acero inoxidable para reducir drásticamente "
+"la deformación de la tubería y así evitar que los granos de arena se "
+"introduzcan en las ranuras. Las tuberías de acero inoxidable aumentarán el "
+"coste y hay algunas pruebas de que incluso los sistemas de drenaje ranurado "
+"de acero inoxidable se obstruyen con el tiempo."
+
+#: ../../Filtration/Filtration_Design.rst:849
+msgid ""
+"The most attractive option is to develop a method to extract water from the "
+"sand bed without relying on slots. The AguaClara team has explored gravity "
+"exclusion zones, GEZ, as an alternative to slots. GEZ are designed to keep "
+"the fluid velocity below the sand fluidization velocity so that gravity "
+"prevents the water from carrying sand into the effluent."
+msgstr ""
+"La opción más atractiva es desarrollar un método para extraer agua del lecho"
+" de arena sin depender de ranuras. El equipo de AguaClara ha explorado las "
+"zonas de exclusión gravitatoria, GEZ, como alternativa a las ranuras. Las "
+"GEZ están diseñadas para mantener la velocidad del fluido por debajo de la "
+"velocidad de fluidización de la arena, de modo que la gravedad impida que el"
+" agua transporte arena hacia el efluente."
+
+#: ../../Filtration/Filtration_Design.rst:851
+msgid ""
+"At the end of backwash the sand forms horizontal surfaces in regions where "
+"sand can't fill in from above. The horizontal sand/water interface will "
+"remain stable as long as the vertical velocity of the water is lower than "
+"the fluidization velocity."
+msgstr ""
+"Al final del contralavado, la arena forma superficies horizontales en "
+"regiones donde la arena no puede rellenarse desde arriba. La interfaz "
+"horizontal arena/agua permanecerá estable mientras la velocidad vertical del"
+" agua sea menor que la velocidad de fluidización."
+
+#: ../../Filtration/Filtration_Design.rst:855
+msgid "Sand Dump"
+msgstr "Vertedero de arena"
+
+#: ../../Filtration/Filtration_Design.rst:857
+msgid ""
+"The frequency of cleaning makes is imperative that the process of emptying "
+"the sand from the filter, removing the modules, cleaning the modules, "
+"replacing the modules, and replacing the sand be as easy as possible. One of"
+" the systems that is absolutely essential in a StaRS filter is the hydraulic"
+" sand dump that empties the sand from the filter."
+msgstr ""
+"La frecuencia de limpieza hace imprescindible que el proceso de vaciar la "
+"arena del filtro, retirar los módulos, limpiarlos, reemplazar los módulos y "
+"sustituir la arena sea lo más sencillo posible. Uno de los sistemas "
+"absolutamente esenciales en un filtro StaRS es el vertido hidráulico de "
+"arena que vacía la arena del filtro."
+
+#: ../../Filtration/Filtration_Design.rst:859
+msgid ""
+"The sand dump pipe must be designed so that if the flow of the sand slurry "
+"is stopped, that the sand doesn't collect at one location in the pipe and "
+"cause a clog. A horizontal section of pipe followed by a vertical upward "
+"section of pipe would cause a failure because all of the sand in the "
+"vertical section of pipe would settle into the elbow. Given the goal of "
+"completely emptying the sand from the filter it is necessary to elevate the "
+"exit of the sand slurry so that it isn't necessary to lower the floor level "
+"in the pipe gallery."
+msgstr ""
+"La tubería de descarga de arena debe diseñarse de modo que, si se detiene el"
+" flujo de la suspensión de arena, la arena no se acumule en un punto "
+"concreto de la tubería y cause un atasco. Una sección horizontal de tubería "
+"seguida de una sección vertical hacia arriba causaría un fallo porque toda "
+"la arena en la sección vertical de la tubería se asentaría en el codo. Dado "
+"el objetivo de vaciar completamente la arena del filtro, es necesario elevar"
+" la salida de la suspensión de arena para que no sea necesario bajar el "
+"nivel del suelo en la galería de tuberías."
+
+#: ../../Filtration/Filtration_Design.rst:861
+msgid ""
+"The first version of sand extraction pipes for StaRS filters avoided this "
+"problem by having the vertical section of the pipe inside the filter. Thus "
+"any sand inside the vertical section of the pipe simply dropped back into "
+"the filter box when the flow through the sand dump was stopped. Placing the "
+"vertical section of the sand drain inside the filter box was a major "
+"challenge because it had to fit between the inlet and outlet piping that is "
+"in the sand bed. The section of the sand drain pipe inside the filter box "
+"also had to be removed in order to remove the inlet and outlet piping."
+msgstr ""
+"La primera versión de tuberías de extracción de arena para filtros StaRS "
+"evitaba este problema al tener la sección vertical de la tubería dentro del "
+"filtro. Así, cualquier arena dentro de la sección vertical de la tubería "
+"simplemente caía de nuevo en la caja de filtros cuando se detenía el flujo a"
+" través del vertedero de arena. Colocar la sección vertical del drenaje de "
+"arena dentro de la caja de filtros fue un gran desafío porque tenía que "
+"encajar entre la tubería de entrada y la de salida que está en el lecho de "
+"arena. También fue necesario retirar la sección de la tubería de drenaje de "
+"arena dentro de la caja de filtro para eliminar las tuberías de entrada y "
+"salida."
+
+#: ../../Filtration/Filtration_Design.rst:863
+msgid ""
+"Slurry transport pipes used in mining operations avoid the sand clogging "
+"problem by using shallow sloped pipes where the slope of the pipe is less "
+"than the angle of repose of sand in water. The recommended slope is less "
+"than :math:`14^\\circ` and the fluid velocity to ensure that the sand "
+"doesn't settle is between 3 and 6 m/s. (see `Hydrotransport Pipelines: Basic"
+" Design Principles "
+"<https://www.oilsandsmagazine.com/technical/mining/hydrotransport/pipeline-"
+"design>`_)"
+msgstr ""
+"Las tuberías de transporte de lodos utilizadas en operaciones mineras evitan"
+" el problema de obstrucción de arena utilizando tuberías de pendiente poco "
+"profunda donde la pendiente de la tubería es menor que el ángulo de reposo "
+"de la arena en el agua. La pendiente recomendada es menor que "
+":math:`14^\\circ` y la velocidad del fluido para asegurar que la arena no se"
+" asiente está entre 3 y 6 m/s. (véase `Tuberías de hidrotransporte: "
+"Principios básicos de diseño "
+"<https://www.oilsandsmagazine.com/technical/mining/hydrotransport/pipeline-"
+"design>`_)"
+
+#: ../../Filtration/Filtration_Design.rst:865
+msgid ""
+"The discharge elevation of the sand dump must be low enough to achieve at "
+"least the required minimum velocity in the pipe from the time when the "
+"filter box is full of sand until it is empty. Given that the water elevation"
+" in the filter box is set to be 10 cm above the top of the siphon pipe, that"
+" level will remain constant as the sand is removed. The hydrostatic pressure"
+" at the bottom of the filter will decrease as the fluidized sand is replaced"
+" with water. Thus the lowest hydrostatic pressure will occur at then end of "
+"the sand dump process when the filter box is full of water."
+msgstr ""
+"La elevación de descarga del vertido de arena debe ser lo suficientemente "
+"baja para alcanzar al menos la velocidad mínima requerida en la tubería "
+"desde el momento en que la caja del filtro está llena de arena hasta que "
+"está vacía. Dado que la elevación del agua en la caja del filtro está "
+"establecida a 10 cm por encima de la parte superior de la tubería de sifón, "
+"ese nivel permanecerá constante a medida que se retire la arena. La presión "
+"hidrostática en la parte inferior del filtro disminuirá a medida que la "
+"arena fluidizada se sustituye por agua. Así, la presión hidrostática más "
+"baja ocurrirá al final del proceso de vertido de arena, cuando la caja del "
+"filtro esté llena de agua."
+
+#: ../../Filtration/Filtration_Design.rst:867
+msgid ""
+"The goal will be to drain the sand as quickly as possible to limit the "
+"amount of water wasted. The sand bed must be fluidized during the operation "
+"and thus the upflow velocity in the sand bed will need to be about half of "
+"the backwash velocity. This flow rate and the target pipe velocity required "
+"to keep the sand moving (3 m/s) set the MAXIMUM pipe diameter."
+msgstr ""
+"El objetivo será drenar la arena lo más rápido posible para limitar la "
+"cantidad de agua desperdiciada. El lecho de arena debe fluidizarse durante "
+"la operación y, por tanto, la velocidad de flujo ascendente en el lecho de "
+"arena deberá ser aproximadamente la mitad de la velocidad de contralavado. "
+"Esto caudal y la velocidad objetivo de la tubería requerida para mantener la"
+" arena en movimiento (3 m/s) establecen el diámetro MÁXIMO de la tubería."
+
+#: ../../Filtration/Filtration_Design.rst:869
+msgid ""
+"The available piezometric head to drive the sand slurry through the sand "
+"dump pipe is equal to the depth of water in the filter during backwash. The "
+"maximum elevation of the sand dump discharge must take into account the "
+"density of the sand slurry."
+msgstr ""
+"La cabeza piezométrica disponible para impulsar la suspensión de arena a "
+"través de la tubería de vertido de arena es igual a la profundidad del agua "
+"en el filtro durante el retrolavado. La elevación máxima del vertido de "
+"arena debe tener en cuenta la densidad de la suspensión de arena."
+
+#: ../../Filtration/Filtration_Design.rst:871
+msgid ""
+"The maximum density of the slurry in the sand dump pipe would be the case "
+"where the sand is just beginning to fluidize with a porosity equal to the "
+"normal settled sand porosity."
+msgstr ""
+"La densidad máxima de la suspensión en la tubería de descarga de arena sería"
+" el caso en que la arena apenas empieza a fluidizarse con una porosidad "
+"igual a la porosidad normal de la arena sedimentada."
+
+#: ../../Filtration/Filtration_Design.rst:873
+msgid "\\rho_{sandbed} = \\frac{M_{water} + M_{sand}}{{\\forall_{sandbed}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:878
+msgid "The mass of sand is given by its density and volume."
+msgstr "La masa de arena está determinada por su densidad y volumen."
+
+#: ../../Filtration/Filtration_Design.rst:880
+msgid ""
+"\\rho_{sandbed} = \\frac{\\forall_{water} \\rho_{water} + "
+"\\forall_{sand}\\rho_{sand}}{{\\forall_{sandbed}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:885
+msgid "The water volume fraction is the porosity."
+msgstr "La fracción de volumen de agua es la porosidad."
+
+#: ../../Filtration/Filtration_Design.rst:887
+msgid "\\rho_{sandbed} = \\phi \\rho_{water} + (1-\\phi)\\rho_{sand}"
+msgstr "\\rho_{sandbed} = \\phi \\rho_{water} + (1-\\phi)\\rho_{sand}"
+
+#: ../../Filtration/Filtration_Design.rst:892
+msgid ""
+"which has a value of about 2000 :math:`\\frac{kg}{m^3}` for silica sand. The"
+" total energy at the bottom of the sand dump pipe must equal the potential "
+"energy provided by the water column in the filter when the sand has all been"
+" removed."
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:895
+msgid ""
+"\\rho_{water}g H_{water} = \\rho_{sandbed}g \\left(H_{discharge} + "
+"K\\frac{\\bar v^2}{2g}\\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:900
+msgid ""
+"We will use a relatively short straight section of pipe as the sand drain "
+"and thus entrance and exit minor losses will dominate. The entrance will be "
+"a reentrant pipe and thus the total minor loss will be 2."
+msgstr ""
+"Usaremos un tramo relativamente corto y recto de tubería como drenaje de "
+"arena y, por tanto, las pérdidas menores de entrada y salida dominarán. La "
+"entrada será una tubería reentrante y, por tanto, la pérdida menor total "
+"será de 2."
+
+#: ../../Filtration/Filtration_Design.rst:902
+msgid ""
+"Substitute Equation :eq:`density_suspension` for :math:`\\rho_{sandbed}` and"
+" solve Equation :eq:`sand_dump_energy_final` for the maximum discharge "
+"height."
+msgstr ""
+"Sustituye la ecuación :eq:`density_suspension` por :math:`\\rho_{sandbed}` y"
+" resuelve la ecuación :eq:`sand_dump_energy_final` para la altura máxima de "
+"descarga."
+
+#: ../../Filtration/Filtration_Design.rst:904
+msgid ""
+"H_{discharge_{max}} = \\frac{\\rho_{water}H_{water}}{\\phi \\rho_{water} + "
+"(1-\\phi)\\rho_{sand}}  - K\\frac{\\bar v^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:909
+msgid ""
+"There isn't sufficient head available in backwash mode to achieve the 3 m/s."
+" We know that the sand drain system that has an outlet slightly below the "
+"filter sand level works fine. Presumably the velocity in the pipe is much "
+"less than the 3 m/s that is suggested as the minimum by the mining industry."
+" It is also expected that the vertical pipe in the filter box would work "
+"with much lower velocities because there is no horizontal surface for the "
+"sand to settle on."
+msgstr ""
+"No hay suficiente altura disponible en modo de retrolavado para alcanzar los"
+" 3 m/s. Sabemos que el sistema de drenaje de arena, que tiene una salida "
+"ligeramente por debajo del nivel de arena filtrante, funciona bien. "
+"Presumiblemente, la velocidad en la tubería es mucho menor que los 3 m/s que"
+" sugiere como mínimo según la industria minera. También se espera que la "
+"tubería vertical en la caja del filtro funcione con velocidades mucho más "
+"bajas porque no hay una superficie horizontal sobre la que la arena se "
+"asiente."
+
+#: ../../Filtration/Filtration_Design.rst:911
+msgid ""
+"If it is possible to force the sand out during filtration mode, then the "
+"available head is much larger. We will test the ability to unload the sand "
+"while in filtration mode at a plant in Honduras."
+msgstr ""
+"Si es posible expulsar la arena durante el modo de filtración, entonces la "
+"altura disponible es mucho mayor. Probaremos la capacidad de descargar la "
+"arena mientras está en modo filtración en una planta de Honduras."
+
+#: ../../Filtration/Filtration_Design.rst:913
+msgid ""
+"The backwash trunk prevents sand from moving between sides of the filter and"
+" thus there should be a sand drain on each side of the trunks."
+msgstr ""
+"El tronco de contralavado impide que la arena se mueva entre los lados del "
+"filtro y, por tanto, debería haber un desagüe de arena a cada lado de los "
+"troncos."
+
+#: ../../Filtration/Filtration_Design.rst:915
+msgid ""
+"Instead of designing for the end of the sand removal process, design for the"
+" beginning when the hydrostatic pressure at the bottom of the filter is "
+"highest because of the column of fluidized sand. Under that assumption the "
+"left side of Equation :eq:`sand_dump_energy_final` changes to be the height "
+"of the sand column plus water."
+msgstr ""
+"En lugar de diseñar para el final del proceso de eliminación de arena, "
+"diseña para el inicio cuando la presión hidrostática en la parte inferior "
+"del filtro sea mayor debido a la columna de arena fluidizada. Bajo esa "
+"suposición, el lado izquierdo de la Ecuación :eq:`sand_dump_energy_final` "
+"cambia a la altura de la columna de arena más el agua."
+
+#: ../../Filtration/Filtration_Design.rst:917
+msgid ""
+"\\rho_{sandbed}g H_{sandbed} + \\rho_{water}g H_{water} = \\rho_{sandbed}g "
+"\\left(H_{discharge} + K\\frac{\\bar v^2}{2g}\\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:922
+msgid ""
+"Solve for the maximum discharge height assuming we empty the sand in "
+"backwash mode."
+msgstr ""
+"Resuelve la altura máxima de descarga asumiendo que vaciamos la arena en "
+"modo de retrolavado."
+
+#: ../../Filtration/Filtration_Design.rst:924
+msgid ""
+" H_{discharge} = H_{sandbed} + \\frac{\\rho_{water}}{\\rho_{sandbed}} "
+"H_{water} - K\\frac{\\bar v^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design.rst:929
+msgid ""
+"The maximum sand dump height can either be achieved by dumping the sand in "
+"filtration mode or using backwash mode. In backwash mode the initial head "
+"will be sufficient to drive the sand through the sand dump, but as the sand "
+"empties the hydrostatic pressure at the bottom of the filter will decrease. "
+"The pressure could be increased by increasing the height of the siphon "
+"outlet."
+msgstr ""
+"La altura máxima de vertido de arena puede alcanzarse vertiendo la arena en "
+"modo filtrado o usando el modo de retrolavado. En modo de contralavado, la "
+"cabeza inicial será suficiente para empujar la arena a través del vertido de"
+" arena, pero a medida que la arena se vacié, la presión hidrostática en el "
+"fondo del filtro disminuirá. La presión podría aumentarse aumentando la "
+"altura de la salida del sifón."
+

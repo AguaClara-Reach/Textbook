@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:12
+msgid "Manifold Hydraulics"
+msgstr "Hidráulica del colector"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:14
+msgid ""
+"`Be sure to run the import code before trying the code "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=QKlfOMPoROA3&line=5&uniqifier=1>`_"
+msgstr ""
+"`Asegúrate de ejecutar el código de importación antes de probar el código "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=QKlfOMPoROA3&line=5&uniqifier=1>`_"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:16
+msgid ""
+"The hydraulic controls provide the basis for efficient and robust water "
+"treatment plant operation. Water must move through unit processes and "
+"between unit processes and the flow passages must be designed to meet "
+"various constraints. One constraint is that water that is carrying a "
+"significant amount of sediment (flocculator and clarifier inlet) must have "
+"sufficient velocity and turbulence levels to minimize sedimentation.  A more"
+" challenging constraint is that the flow must be divided equally between "
+"parallel processes. Flow distribution through parallel paths is a key "
+"hydraulic design constraint for all municipal scale water treatment plants. "
+"The parallel path constraint only goes away for laboratory scale processes "
+"where there is a single tube settler and a filter with a single layer of "
+"sand. A schematic illustrating the electrical circuit analogy is shown in "
+":numref:`figure_circuit`."
+msgstr ""
+"Los controles hidráulicos proporcionan la base para una operación eficiente "
+"y robusta tratamiento de agua planta. El agua debe moverse a través de "
+"procesos unitarios y entre procesos unitarios, y los pasajes de flujo deben "
+"diseñarse para cumplir con diversas restricciones. Una restricción es que el"
+" agua que transporta una cantidad significativa de sedimentos (entrada "
+"floculadora y clarificadora) debe tener niveles suficientes de velocidad y "
+"turbulencia para minimizar la sedimentación. Una restricción más desafiante "
+"es que el flujo debe dividirse equitativamente entre procesos paralelos. La "
+"distribución del flujo a través de trayectorias paralelas es una restricción"
+" clave de diseño hidráulico para todas las plantas de tratamiento de agua a "
+"escala municipal. La restricción de trayectoria paralela solo desaparece en "
+"procesos a escala de laboratorio donde hay un único decantador de tubos y un"
+" filtro con una sola capa de arena. Un esquema que ilustra la analogía del "
+"circuito eléctrico se muestra en :numref:`figure_circuit`."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:26
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:103
+msgid "Clarification tank flow circuit"
+msgstr "Circuito de flujo del tanque de clarificación"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:26
+msgid ""
+"The flow through a clarifier is analogous to an electrical circuit with "
+"wires and resistors. Identical resistors in parallel paths help improve flow"
+" distribution between the paths. Differences in piezometric head (think "
+"voltage) in the manifolds that connect to multiple parallel paths."
+msgstr ""
+"El flujo a través de un clarificador es análogo a un circuito eléctrico con "
+"cables y resistencias. Resistencias idénticas en caminos paralelos ayudan a "
+"mejorar la distribución del flujo entre los caminos. Diferencias en la "
+"cabeza piezométrica (piensa en voltaje) en los colectores que se conectan a "
+"múltiples caminos paralelos."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:31
+msgid "Piezometric Head"
+msgstr "Cabeza piezométrica"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:33
+msgid ""
+"The sum of the pressure and elevation term in the energy equation is the "
+"piezometric head, :math:`\\Psi`. Fluid will move in the direction of "
+"decreasing piezometric head. Note that fluid does NOT always move from high "
+"pressure to low pressure nor does it always move from high elevation to low "
+"elevation. You can prove this to yourself by placing a sloped pipe in a "
+"swimming pool!"
+msgstr ""
+"La suma del término de presión y elevación en la ecuación de energía es la "
+"cabeza piezométrica, :math:`\\Psi`. El fluido se moverá en la dirección de "
+"la altura piezométrica decreciente. Ten en cuenta que el fluido NO siempre "
+"se mueve de alta presión a baja presión ni siempre de alta a baja altitud. "
+"¡Puedes demostrarlo a ti mismo colocando una tubería inclinada en una "
+"piscina!"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:36
+msgid "\\Psi = \\frac{p}{\\rho g} + z"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:49
+msgid "Sloped manifold with no flow"
+msgstr "Variedad inclinada sin flujo"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:49
+msgid ""
+"Piezometric head is constant in a stationary body of water. The piezometric "
+"head inside the enclosed sloped pipe is greater (by height H) than the "
+"piezometric head in the tank. Thus if we add an orifice to this sloped pipe,"
+" water will flow from the sloped pipe into the tank."
+msgstr ""
+"La cabeza piezométrica es constante en un cuerpo de agua estacionario. La "
+"cabeza piezométrica dentro de la tubería inclinada cerrada es mayor (en "
+"altura H) que la cabeza piezométrica en el tanque. Así, si añadimos un "
+"orificio a esta tubería inclinada, el agua fluirá desde la tubería inclinada"
+" hacia el tanque."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:51
+msgid ""
+"Add multiple outlets to this sloped pipe to create a sloped manifold "
+"(:numref:`figure_Sloped_Manifold_with_flow`). The energy equation applied "
+"between control surface 1 and n  shows that the piezometric head in an inlet"
+" manifold increases in the direction of flow for cases where head loss is "
+"smaller than :math:`\\frac{\\bar v_{M_1}^2}{2 g}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:61
+msgid "Sloped manifold with flow"
+msgstr "Variedad inclinada con flujo"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:61
+msgid ""
+"Sloped inlet manifold showing that the piezometric head increases in the "
+"direction of flow for the case where head loss due to wall shear is smaller "
+"than :math:`\\frac{\\bar v_{M_1}^2}{2 g}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:66
+msgid "Inlet Manifold Flow Distribution"
+msgstr "manifold de entrada Distribución del flujo"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:68
+msgid ""
+"There is disagreement in the literature about the physics of manifolds. One "
+"school of thought postulates that the flow out of the ports exiting a "
+"manifold is controlled by the total energy of the flow inside the manifold. "
+"The other school of thought postulates that the flow of water out of the "
+"ports is controlled by the difference in piezometric head between the "
+"manifold and the receiving reservoir. These two approaches are mutually "
+"exclusive and make completely different predictions about how manifolds will"
+" perform, especially for the case where head loss in the manifold is small "
+"compared with the pressure recovery caused by the gradual flow expansion in "
+"the manifold."
+msgstr ""
+"Existe desacuerdo en la literatura sobre la física de las variedades. Una "
+"corriente de pensamiento postula que el flujo que sale de los puertos que "
+"sale de una variedad está controlado por la energía total del flujo dentro "
+"de la variedad. La otra corriente postula que el flujo de agua que sale de "
+"los puertos está controlado por la diferencia de altura piezométrica entre "
+"la variedad y el reservorio receptor. Estos dos enfoques son mutuamente "
+"excluyentes y hacen predicciones completamente diferentes sobre cómo "
+"funcionarán las variedades, especialmente en el caso en que la pérdida de "
+"carga en la variedad es pequeña en comparación con la recuperación de "
+"presión causada por la expansión gradual del flujo en la variedad."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:70
+msgid ""
+"Fortunately it is relatively easy to check the physics to see which approach"
+" is correct. A venturi (gradual flow contraction in a pipe) is used to "
+"generate a low pressure region in a pipe by converting pressure into kinetic"
+" energy. Venturis can be used to generate low pressure inside the pipe and "
+"then pull fluid **into** the pipe even though the total energy of the fluid "
+"in the pipe far exceeds the energy of the fluid that was outside of the "
+"pipe! This proves that flow out of a manifold is due to the difference in "
+"piezometric head and NOT due to the difference in total energy."
+msgstr ""
+"Afortunadamente, es relativamente fácil comprobar la física para ver qué "
+"enfoque es el correcto. Un venturi (contracción gradual de flujo en una "
+"tubería) se utiliza para generar una región de baja presión en una tubería "
+"convirtiendo la presión en energía cinética. El venturis puede usarse para "
+"generar baja presión dentro de la tubería y luego extraer fluido **dentro** "
+"de la tubería aunque la energía total del fluido en la tubería supere con "
+"creces la energía del fluido que estaba fuera de la tubería. Esto demuestra "
+"que el flujo que sale de un colector se debe a la diferencia de altura "
+"piezométrica y NO a la diferencia de energía total."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:72
+msgid ""
+"If manifolds were built using pitot type exits with the exit facing upstream"
+" and into the flow of the fluid, the exit from the manifold would be based "
+"on the total energy. The manifolds that we use in water treatment plants do "
+"not have pitot tube style ports and thus our analysis of manifolds is based "
+"on piezometric head."
+msgstr ""
+"Si las variedades se construyeran usando salidas tipo Pitot con la salida "
+"orientada aguas arriba y hacia el flujo del fluido, la salida de la variedad"
+" se basaría en la energía total. Las variedades que usamos en tratamiento de"
+" agua plantas no tienen puertos tipo tubo de Pitot y, por tanto, nuestro "
+"análisis de las variedades se basa en la carga piezométrica."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:74
+msgid ""
+"Flow distribution from ports exiting a manifold is controlled by the change "
+"in piezometric head inside the manifold and the change in piezometric head "
+"as the water exits through a port. The reason that the flow from each port "
+"is not identical is because of changes in piezometric head in the manifold. "
+"These changes are caused by major losses due to shear on the manifold walls "
+"and due to pressure recovery as the velocity in the manifold decreases. The "
+"control volume is shown in :numref:`figure_inlet_manifold`"
+msgstr ""
+"La distribución del flujo desde los puertos que salen de un colector está "
+"controlada por el cambio en la cabeza piezométrica dentro del colector y el "
+"cambio de la carga piezométrica cuando el agua sale por un puerto. La razón "
+"por la que el flujo de cada puerto no es idéntico es debido a los cambios en"
+" la cabeza piezométrica en el variador. Estos cambios están causados por "
+"grandes pérdidas debidas al corte en las paredes del colector y por la "
+"recuperación de presión a medida que disminuye la velocidad en el múltiple. "
+"El volumen de control se muestra en :numref:`figure_inlet_manifold`"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:76
+msgid ""
+" \\frac{p_{M_1}}{\\rho g}+z_{M_1}+\\frac{\\bar v_{M_1}^2}{2 "
+"g}=\\frac{p_{M_n}}{\\rho g}+z_{M_n}+\\frac{\\bar v_{M_n}^2}{2g} + h_{L}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:82
+msgid ""
+"The energy control volume Equation :eq:`energy_cv_manifold` can be "
+"simplified with the definition of piezometric head (Equation "
+":eq:`piezometric_head_defined`)."
+msgstr ""
+"La ecuación de volumen de control de energía :eq:`energy_cv_manifold` puede "
+"simplificarse con la definición de cabeza piezométrica (ecuación "
+":eq:`piezometric_head_defined`)."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:84
+msgid ""
+" \\Psi_{M_1}+\\frac{\\bar v_{M_1}^2}{2 g}=\\Psi_{M_n}+\\frac{\\bar "
+"v_{M_n}^2}{2 g}+h_{L}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:89
+msgid "The change in piezometric head is the important parameter and is given by"
+msgstr ""
+"El cambio en la cabeza piezométrica es el parámetro importante y está dado "
+"por"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:91
+msgid " \\Delta\\Psi_M = \\frac{\\bar v_{M_1}^{2}-\\bar v_{M_n}^{2}}{2 g} - h_{L}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:103
+msgid ""
+"The piezometric head can either increase due to conversion of kinetic energy"
+" to pressure or the piezometric head can decrease due to major losses."
+msgstr ""
+"La cabeza piezométrica puede aumentar debido a la conversión de energía "
+"cinética a presión o puede disminuir debido a pérdidas importantes."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:105
+msgid ""
+"For short :math:`f\\frac{L}{D}<<1`, straight (minor loss coefficient = 0), "
+"inlet manifolds the change in piezometric head, :math:`\\Delta\\Psi_M` is "
+"equal the initial velocity head."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:107
+msgid " \\Delta\\Psi_M = \\frac{\\bar v_{M_1}^{2}}{2 g}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:112
+msgid ""
+"To simplify analysis we assume the middle port gets the average flow (this "
+"isn’t quite right because the velocity is squared) and the average "
+"piezometric head, :math:`\\bar \\Psi_M`. The first port has mean piezometric"
+" head – ½ delta piezometric head and the last port has an increase in the "
+"piezometric head."
+msgstr ""
+"Para simplificar el análisis, suponemos que el puerto central recibe el "
+"caudal promedio (esto no es del todo correcto porque la velocidad está al "
+"cuadrado) y la carga piezométrica promedio, :math:`\\bar \\Psi_M`. El primer "
+"puerto tiene una carga piezométrica media inferior en ½ de la diferencia de "
+"carga piezométrica, y el último puerto tiene un aumento de la carga "
+"piezométrica."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:114
+msgid ""
+" \\Psi_{M_1} = \\bar \\Psi_{M} - \\frac{1}{2}\\Delta \\Psi_M\n"
+"\n"
+" \\Psi_{M_n} = \\bar \\Psi_{M} + \\frac{1}{2}\\Delta \\Psi_M"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:121
+msgid ""
+"where the piezometric head at each port is also proportional to the port "
+"velocity squared. A design constraint for a manifold is the target ratio of "
+"flow from port one, :math:`Q_{P_1}`, divided by the flow from the last port,"
+" :math:`Q_{P_n}`."
+msgstr ""
+"donde la cabeza piezométrica en cada puerto también es proporcional al "
+"cuadrado de la velocidad del puerto. Una restricción de diseño para una "
+"variedad es la razón objetivo del flujo desde el puerto uno, "
+":math:`Q_{P_1}`, dividido por el flujo desde el último puerto, "
+":math:`Q_{P_n}`."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:124
+msgid " \\Pi_{Q} = \\frac{Q_{P_1}}{Q_{P_n}}=\\sqrt{\\frac{\\Psi_{M_1}}{\\Psi_{M_n}}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:129
+msgid ""
+"Substitute equations :eq:`Piezo_ports` into Equation :eq:`Pi_Q_ports` to "
+"obtain the relationship between piezometric head and the flow distribution "
+"ratio."
+msgstr ""
+"Sustituir ecuaciones :eq:`Piezo_ports` en la ecuación :eq:`Pi_Q_ports` para "
+"obtener la relación entre la carga piezométrica y la relación de "
+"distribución de flujos."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:131
+msgid ""
+" \\Pi_{Q}^2 = \\frac{\\bar \\Psi_{M} - \\frac{1}{2}\\Delta \\Psi_M}{\\bar "
+"\\Psi_{M} + \\frac{1}{2}\\Delta \\Psi_M}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:136
+msgid ""
+"This equation shows that the flow distribution will approach 1 when "
+":math:`\\bar \\Psi_{M}` is much larger than :math:`\\Delta \\Psi_M`. This "
+"can be achieved by having the manifold velocities be small compared with the"
+" port velocities. Solving for the change in piezometric head in the manifold"
+" we obtain the relationship between change in piezometric head and "
+"uniformity of port flow."
+msgstr ""
+"Esta ecuación muestra que la distribución de flujo se acercará a 1 cuando "
+":math:`\\bar \\Psi_{M}` sea mucho mayor que :math:`\\Delta \\Psi_M`. Esto se"
+" puede lograr haciendo que las velocidades de la variedad sean pequeñas en "
+"comparación con las velocidades de los puertos. Resolviendo el cambio en la "
+"carga piezométrica en la variedad, obtenemos la relación entre el cambio en "
+"la carga piezométrica y la uniformidad del flujo de puertos."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:138
+msgid ""
+" \\Pi_{\\Psi} = \\frac{\\Delta \\Psi_M}{\\bar \\Psi_{M}} = \\frac{2\\left(1 "
+"- \\Pi_{Q}^2 \\right)}{\\Pi_{Q}^2 + 1}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:143
+msgid ""
+"The energy equation also yields an equation for the change in piezometric "
+"head (see Equation :eq:`delta_piezometric_cv_manifold`) and we can equate "
+"those two to obtain"
+msgstr ""
+"La ecuación de energía también produce una ecuación para el cambio en la "
+"altura piezométrica (véase la Ecuación :eq:`delta_piezometric_cv_manifold`) "
+"y podemos equiparar esas dos para obtener"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:145
+msgid ""
+" \\frac{\\bar v_{M_1}^{2}-\\bar v_{M_n}^{2}}{2 g} - h_{L} = \\bar \\Psi_{M} "
+"\\Pi_{\\Psi}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:151
+msgid "If head loss in the manifold is small, then we have"
+msgstr "Si pérdida de carga en la variedad es pequeño, entonces tenemos"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:153
+msgid " \\frac{\\bar v_{M_1}^{2}}{2 g} = \\bar \\Psi_M \\Pi_{\\Psi}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:158
+msgid ""
+"The average piezometric head in the manifold is also influenced by any head "
+"loss that is in series with the port head loss. Here we assume that the "
+"piezometric head datum is in the receiving tank. If the receiving tank is a "
+"filter, then there could be head loss through the sand on the way to the "
+"outlet of the filter. This head loss in series will help provide more "
+"uniform flow out of the manifold if there aren't any paths for flow to blend"
+" between the first and last ports. This is the case for division of flow "
+"between sand layers in a stacked rapid sand filter where the head loss "
+"through the sand plays a key role in helping to divide the flow evenly "
+"between the 6 layers of sand. The average piezometric head in the manifold, "
+":math:`\\bar \\Psi_{M}` is equal to the head from the port kinetic energy "
+"plus any downstream head loss."
+msgstr ""
+"La cabeza piezométrica media en el colector también está influenciada por "
+"cualquier pérdida de carga que esté en serie con el puerto pérdida de carga."
+" Aquí asumimos que el datum piezométrico de la cabeza está en el tanque "
+"receptor. Si el tanque receptor es un filtro, entonces podría haber pérdida "
+"de carga a través de la arena en el camino hacia la salida del filtro. Este "
+"pérdida de carga en serie ayudará a proporcionar un flujo más uniforme hacia"
+" la salida del colector si no hay caminos para que el flujo se mezcle entre "
+"el primer y el último puerto. Este es el caso para la división del flujo "
+"entre capas de arena en un filtro de arena rápido apilado donde el pérdida "
+"de carga a través de la arena juega un papel clave ayudando a dividir el "
+"flujo de manera uniforme entre las 6 capas de arena. La carga piezométrica "
+"media en el colector :math:`\\bar \\Psi_{M}` es igual a la carga de energía "
+"cinética del puerto más cualquier pérdida de carga aguas abajo."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:160
+msgid ""
+" \\bar \\Psi_M \\cong \\frac{\\bar v_{P}^{2}}{2 g} + h_{l_{series}} \\cong "
+"h_{e_{port}} + h_{l_{series}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:166
+msgid ""
+"The port head loss is given by :math:`\\bar v_{P} = \\sqrt{2gh_e}` where the"
+" port velocity is the true contracted velocity if there is a *vena "
+"contracta*. If the head loss in series, :math:`h_{l_{series}}`, is "
+"significant, then equations :eq:`Energy_and_Pi_Q_no_manifold_hl` and "
+":eq:`Manifold_piezometric_head_port_KE_and_HL` combine to produce"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:168
+msgid " \\bar v_{M_1}= \\sqrt{2 g (h_{e_{port}} + h_{l_{series}})\\Pi_{\\Psi}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:173
+msgid ""
+"If there is no additional head loss in series to improve flow distribution, "
+"then Equation :eq:`Manifold_max_v_with_hl_series` simplifies to"
+msgstr ""
+"Si no hay pérdida de carga adicionales en serie para mejorar la distribución"
+" del flujo, entonces la Ecuación :eq:`Manifold_max_v_with_hl_series` se "
+"simplifica a"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:175
+msgid ""
+" \\frac{A_{M_1}}{A_{P}} =\\frac{\\bar v_{P}}{\\bar v_{M_1}} = "
+"\\sqrt{\\frac{1}{\\Pi_{\\Psi}}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:180
+msgid ""
+"Equation :eq:`Manifold_max_v_no_hl_series` (see "
+":numref:`figure_Ratio_port_to_manifold_velocity`) can be used to determine "
+"the required diameter of inlet manifolds in clarifiers or to determine the "
+"required port velocity for the backwash manifold in the StaRS filters. It "
+"can also be used to solve for the maximum manifold velocity given the port "
+"velocity in the clarifier diffusers."
+msgstr ""
+"La ecuación :eq:`Manifold_max_v_no_hl_series` (véase "
+":numref:`figure_Ratio_port_to_manifold_velocity`) puede usarse para "
+"determinar el diámetro requerido de los colectores de entrada en los "
+"clarificadores o para determinar la velocidad del puerto requerida para el "
+"colector de retrolavado en los filtros StaRS. También puede usarse para "
+"resolver la velocidad máxima del múltiple dada la velocidad del puerto en "
+"los difusores clarificadores."
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:183
+msgid ""
+"`Define a function for the flow ratio "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=JTY6Xw3SSuQ0&line=1&uniqifier=1>`_"
+msgstr ""
+"`Definir una función para la razón de flujo "
+"<https://colab.research.google.com/drive/1znzBGYHV1RXGqRz3Xm8Oyp7NQmAmkat6#scrollTo=JTY6Xw3SSuQ0&line=1&uniqifier=1>`_"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:192
+msgid "Filter channel"
+msgstr "Canal de filtro"
+
+#: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:192
+msgid ""
+"The ratio of port velocity to manifold velocity must increase to obtain more"
+" uniform flow from the ports."
+msgstr ""
+"La relación entre la velocidad del puerto y la velocidad del colector debe "
+"aumentar para obtener un flujo más uniforme desde los puertos."
+

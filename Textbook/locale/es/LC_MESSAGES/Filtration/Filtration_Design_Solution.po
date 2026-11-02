@@ -1,0 +1,906 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:10
+msgid "Filtration Design Solution"
+msgstr "Solución de Diseño de Filtración"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:12
+msgid ""
+"`Be sure to import all packages before using the code! "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=hTiLSh4XjiAt&line=3&uniqifier=1>`_"
+msgstr ""
+"`¡Asegúrate de importar todos los paquetes antes de usar el código! "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=hTiLSh4XjiAt&line=3&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:16
+msgid "DC Stacked Rapid Sand Filtration"
+msgstr "Filtración rápida apilada de arena en corriente continua"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:18
+msgid ""
+"The stacked rapid sand filter at Tamara, Honduras is treating 12 L/s of "
+"water with six 20 cm deep layers of sand. The sand has an effective size of "
+"0.5 mm and a uniformity coefficient of 1.6. The backwash velocity of the "
+"filter is 11 mm/s. Defined below are many of the necessary inputs for the "
+"filtration analysis."
+msgstr ""
+"El filtro de arena rápido apilado en Tamara, Honduras, trata 12 L/s de agua "
+"con seis capas de arena de 20 cm de profundidad. La arena tiene un tamaño "
+"efectivo de 0,5 mm y un coeficiente de uniformidad de 1,6. La velocidad de "
+"retrolavado del filtro es de 11 mm/s. A continuación se definen muchas de "
+"las entradas necesarias para el análisis de filtración."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:20
+msgid ""
+"`Colab worksheet with filtration inputs predefined "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=F6PVT-H8jj6W&line=6&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab con entradas de filtración predefinidas "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=F6PVT-H8jj6W&line=6&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:24
+msgid "Remember: Don’t break continuity!"
+msgstr "Recuerda: ¡No rompas la continuidad!"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:26
+msgid ""
+"Ensure that you use the variables defined above in your code, do not hard "
+"code any numbers if you do not have to."
+msgstr ""
+"Asegúrate de usar las variables definidas arriba en tu código, no codifiques"
+" números si no es necesario."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:28
+msgid ""
+"`1) Calculate the total sand depth of all 6 sand layers. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=F6PVT-H8jj6W&line=6&uniqifier=1>`_"
+msgstr ""
+"`1) Calcular la profundidad total de arena de las 6 capas de arena. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=F6PVT-H8jj6W&line=6&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:30
+msgid "The total depth of the filter sand is 1.2 meter"
+msgstr "La profundidad total de la arena filtrante es de 1,2 metros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:32
+#, python-format
+msgid ""
+"`2) Calculate the diameter that is larger than 60% of the sand (D60 of the "
+"filter sand). "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=DQ2OyZQVj0Wy&line=1&uniqifier=1>`_"
+msgstr ""
+"`2) Calcular el diámetro mayor que el 60% de la arena (D60 de la arena "
+"filtrante). "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=DQ2OyZQVj0Wy&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:34
+msgid "The D60 for the sand grain size is 0.8 millimeter"
+msgstr "La D60 para el tamaño del grano de arena es de 0,8 milímetros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:36
+msgid ""
+"`3) What is the total filter bed plan view area for both filters in Tamara? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=iM-n546Pj8N3&line=1&uniqifier=1>`_"
+msgstr ""
+"`3) ¿Cuál es el área total de vista en planta lecho filtrante para ambos "
+"filtros en Tamara? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=iM-n546Pj8N3&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:40
+msgid "The filter bed plan view area is  1.091 meter ** 2"
+msgstr "El área de vista en planta lecho filtrante es de 1,091 metros ** 2"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:42
+msgid ""
+"`4) What is the velocity of water through a filter during filtration? Recall"
+" that the flow through the filter is the same in filter and backwash modes. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=zSB4eZTikBPi&line=1&uniqifier=1>`_"
+msgstr ""
+"`4) ¿Cuál es la velocidad del agua a través de un filtro durante la "
+"filtración? Recuerda que el flujo a través del filtro es el mismo en los "
+"modos filtro y de retrolavado. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=zSB4eZTikBPi&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:45
+msgid "The filtration velocity is 1.833 millimeter / second"
+msgstr "La velocidad de filtración es de 1,833 milímetros por segundo"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:47
+msgid ""
+"`5) Create a function to calculate the head loss through the filter at the "
+"beginning of filtration with a clean filter bed. Then use that function to "
+"find the head loss through the clean bed of the Tamara filter. Assume that "
+"each flow path receives the same flow "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=3W9UXgKVkG1f&line=4&uniqifier=1>`_"
+msgstr ""
+"`5) Crear una función para calcular la pérdida de carga a través del filtro "
+"al inicio de la filtración con una lecho filtrante limpia . Luego usa esa "
+"función para encontrar la pérdida de carga a través del lecho limpio del "
+"filtro Tamara. Supongamos que cada camino de flujo recibe el mismo flujo "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=3W9UXgKVkG1f&line=4&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:49
+msgid ""
+"Recall: - If you have flow paths in parallel, the head loss is NOT the sum "
+"of the head loss in each path. - Instead, the head loss in each path is the "
+"same as the total head loss."
+msgstr ""
+"Recuerda: - Si tienes caminos de flujo en paralelo, el pérdida de carga NO "
+"es la suma de los pérdida de carga en cada camino. - En cambio, el pérdida "
+"de carga en cada camino es el mismo que el total de pérdida de carga."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:51
+msgid "The head loss through the clean filter sand is 15.20 cm"
+msgstr "La pérdida de carga a través de la arena filtrante limpia es de 15,20 cm"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:54
+msgid ""
+"`6) Create a function to estimate the minimum fluidization velocity for this"
+" filter bed. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=I371vnWukNyl&line=4&uniqifier=1>`_"
+"  Then use that function to find the minimum fluidization velocity of the "
+"Tamara filter. Fluidization occurs at the beginning of backwash as all of "
+"the water flows through the bottom inlet. Note that this is not the actual "
+"velocity used for backwashing the sand."
+msgstr ""
+"`6) Crear una función para estimar la velocidad mínima de fluidización para "
+"este lecho filtrante. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=I371vnWukNyl&line=4&uniqifier=1>`_"
+" Luego usa esa función para encontrar la velocidad mínima de fluidización "
+"del filtro Tamara. La fluidización ocurre al inicio del retrolavado, ya que "
+"toda el agua fluye por la entrada inferior. Ten en cuenta que esta no es la "
+"velocidad real utilizada para el retrolavado de la arena."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:56
+msgid "The minimum fluidization velocity for this filter bed is 6.1 mm/s"
+msgstr "La velocidad mínima de fluidización para este lecho filtrante es de 6,1 mm/s"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:59
+msgid ""
+"`7) Plot the minimum backwash velocity as a function of water temperature "
+"from 0°C to 30°C. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=cLWw4SvhkT0U&line=4&uniqifier=1>`_"
+" Then use your plot to answer the following question: if you have a water "
+"treatment plant with a single filter and there is a drought that is reducing"
+" flow to the plant, when should you backwash the filter? Should you backwash"
+" when the water is coolest or when the water is warmest?"
+msgstr ""
+"`7) Grafica la velocidad mínima de retrolavado en función de la temperatura "
+"del agua de 0°C a 30°C. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=cLWw4SvhkT0U&line=4&uniqifier=1>`_"
+" Luego usa tu parcela para responder a la siguiente pregunta: si tienes una "
+"planta tratamiento de agua con un solo filtro y hay una sequía que reduce el"
+" caudal a la planta, ¿cuándo deberías lavar el filtro a contracorriente? "
+"¿Deberías lavar cuando el agua esté más fría o cuando el agua esté más "
+"caliente?"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:68
+msgid "Minimum backwash velocity vs water temperature"
+msgstr "Velocidad mínima de contralavado frente a temperatura del agua"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:68
+msgid ""
+"The minimum backwash velocity increases with temperature. Thus it is best to"
+" backwash when the water is coolest."
+msgstr ""
+"La velocidad mínima de contralavado aumenta con la temperatura. Por tanto, "
+"es mejor hacer el contralavado cuando el agua esté más fría."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:70
+msgid ""
+"`8) What is the residence time of water in the filter during backwash, when "
+"the bed is fluidized? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=G3br_Q8CkZGv&line=1&uniqifier=1>`_"
+" You may assume the sand bed expansion ratio is 1.3."
+msgstr ""
+"`8) ¿Cuál es el tiempo de residencia del agua en el filtro durante el "
+"retrolavado, cuando la cama está fluidizada? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=G3br_Q8CkZGv&line=1&uniqifier=1>`_"
+" Puedes asumir que la relación de expansión del lecho de arena es 1,3."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:72
+msgid "The residence time in the fluidized bed during backwash is 76.36 second"
+msgstr ""
+"El tiempo de permanencia en el lecho fluidizado durante el retrolavado es de"
+" 76,36 segundos"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:74
+msgid ""
+"Our next overall goal is to determine the ratio of water wasted in a Stacked"
+" Rapid Sand (StaRS) Filter to water treated in a StaRS. Given that the "
+"backwash water that ends up above the filter bed never returns to the filter"
+" it isn’t necessary to completely clear the water above the filter bed "
+"during a backwash cycle. Therefore we anticipate that backwash can be ended "
+"after approximately 3 expanded bed residence times. In addition it takes "
+"about 1 minute to initiate backwash by lowering the water level above the "
+"filter bed."
+msgstr ""
+"Nuestro siguiente objetivo general es determinar la proporción de agua "
+"desperdiciada en un filtro de arena rápida apilada (StaRS) frente al agua "
+"tratada en un StaRS. Dado que el agua de retrolavado que acaba por encima "
+"del lecho filtrante nunca regresa al filtro, no es necesario limpiar "
+"completamente el agua por encima del lecho filtrante durante un ciclo de "
+"contralavado. Por lo tanto, anticipamos que el contralavado puede terminar "
+"tras aproximadamente 3 tiempos de residencia ampliados en la cama. Además, "
+"se tarda aproximadamente 1 minuto en iniciar el contralavado bajando el "
+"nivel del agua por encima del lecho filtrante."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:77
+msgid ""
+"`9) Estimate the time between beginning backwash and finishing the cleaning "
+"of the bed. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=4KIv2OZMkjQt&line=2&uniqifier=1>`_"
+msgstr ""
+"`9) Estima el tiempo entre el inicio del lavado y la limpieza de la cama. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=4KIv2OZMkjQt&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:79
+msgid "The time to backwash the filter is 289.1 second"
+msgstr "El tiempo para contralavar el filtro es de 289,1 segundos"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:81
+msgid ""
+"`10) Estimate the total depth of water that is wasted while backwash is "
+"occurring. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=QAudW_F3krtL&line=3&uniqifier=1>`_"
+msgstr ""
+"`10) Estimar la profundidad total del agua que se desperdicia durante el "
+"retrolavado. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=QAudW_F3krtL&line=3&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:83
+msgid "The total depth of water that is wasted is 3.18 meter"
+msgstr "La profundidad total del agua desperdiciada es de 3,18 metros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:85
+msgid ""
+"`11) Estimate the total depth of water that is lost due to refilling the "
+"filter box at the end of backwash plus the slow refilling to the maximum "
+"dirty bed height. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=wMYPt-XLkzMA&line=1&uniqifier=1>`_ You may ignore the influence of plumbing"
+" head loss and you may assume that the dirty bed head loss is about 40 cm. "
+"The water level in the filter during backwash is lower than the water level "
+"at the end of filtration by both the head loss during backwash AND the head "
+"loss at the end of filtration. There is also an additional 20 cm of lost "
+"water that is required for the hydraulic controls."
+msgstr ""
+"`11) Estima la profundidad total del agua que se pierde por rellenar la caja"
+" del filtro al final del contralavado más el relleno lento hasta la altura "
+"máxima de la cama sucia. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=wMYPt-XLkzMA&line=1&uniqifier=1>`_ Puedes ignorar la influencia de la "
+"pérdida de carga de fontanería y asumir que la pérdida de carga de cama "
+"sucia es de unos 40 cm. La nivel del agua en el filtro durante el "
+"contralavado es menor que la nivel del agua al final de la filtración tanto "
+"por el pérdida de carga como por la pérdida de carga al final de la "
+"filtración. También se requieren 20 cm adicionales de agua perdida para los "
+"controles hidráulicos."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:87
+msgid ""
+"To reiterate, the three components that contribute to the depth of water "
+"lost in refilling the filter box after backwash are as follows:"
+msgstr ""
+"Para reiterar, los tres componentes que contribuyen a la pérdida de agua en "
+"profundidad al rellenar la caja del filtro tras el retrolavado son los "
+"siguientes:"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:89
+msgid "Head loss during clean-bed filtration."
+msgstr "pérdida de carga durante la filtración en cama limpia."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:90
+msgid ""
+"Difference in head loss between clean-bed filtration and dirty-bed "
+"filtration, just before backwash."
+msgstr ""
+"Diferencia en pérdida de carga entre filtración en cama limpia y filtración "
+"en cama sucia, justo antes del contralavado."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:91
+msgid ""
+"Height of the pipe that initiates backwash, also called the hydraulic "
+"control. This is actually the pipe’s diameter, since it is laying sideways "
+"in the filter."
+msgstr ""
+"La altura de la tubería que inicia el retrolavado, también llamada control "
+"hidráulico. Este es en realidad el diámetro de la tubería, ya que está "
+"situada de lado dentro del filtro."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:94
+msgid ""
+"The total depth of water that is lost due to refilling the filter box is 1.8"
+" meter"
+msgstr ""
+"La profundidad total del agua que se pierde al rellenar la caja de filtros "
+"es de 1,8 metros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:96
+msgid ""
+"`12) Calculate the total length (or depth) of water that is wasted due to "
+"backwash by adding the two previous lengths. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=jvCvZWB9k45v&line=2&uniqifier=1>`_"
+" The length found in problem 10 represents water wasted while backwash is "
+"occurring, while the length in problem 11 represents the water lost in the "
+"transition to and from backwash."
+msgstr ""
+"`12) Calcular la longitud total (o profundidad) del agua desperdiciada "
+"debido al contralavado sumando las dos longitudes anteriores. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=jvCvZWB9k45v&line=2&uniqifier=1>`_"
+" La longitud encontrada en el problema 10 representa el agua desperdiciada "
+"mientras ocurre el retrolavado, mientras que la longitud del problema 11 "
+"representa el agua perdida en la transición hacia y desde el contralavado."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:98
+msgid "The depth of the water that is wasted due to backwash is 4.98 meter"
+msgstr "La profundidad del agua desperdiciada debido al retrolavado es de 4,98 metros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:100
+msgid ""
+"`13) Assume that the filter is backwashed every 12 hours. This means that "
+"the filter is producing clean water for 12 hours before it need to be "
+"backwashed. What is the total height (or length) of water that would be "
+"treated by the filter during this time? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=E1yHTQwwk-8f&line=3&uniqifier=1>`_ This length when multiplied by the area "
+"of the filter would give the total volume of water processed by a filter."
+msgstr ""
+"`13) Supongamos que el filtro se contralava cada 12 horas. Esto significa "
+"que el filtro produce agua limpia durante 12 horas antes de necesitar ser "
+"contralavado. ¿Cuál es la altura total (o longitud) del agua que el filtro "
+"trataría durante este tiempo? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=E1yHTQwwk-8f&line=3&uniqifier=1>`_ Esta longitud, al multiplicarse por el "
+"área del filtro, daría el volumen total de agua procesada por un filtro."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:103
+msgid "The height of water that would enter the filter in 12 hours is 475.2 meter"
+msgstr "La altura del agua que entraría en el filtro en 12 horas es de 475,2 metros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:105
+msgid ""
+"`14) Finally, what is the ratio** of water lost due to backwash and related "
+"water level changes in the filter box to water treated? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=ftRvIVVLlFIi&line=1&uniqifier=1>`_"
+msgstr ""
+"`14) Por último, ¿cuál es la proporción** de agua perdida debido al "
+"retrolavado y cambios relacionados de nivel del agua en la caja del filtro "
+"respecto al agua tratada? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=ftRvIVVLlFIi&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:107
+msgid ""
+"The fraction of the total water that is lost due to backwash is 0.01048 "
+"dimensionless"
+msgstr ""
+"La fracción del agua total que se pierde por el retrolavado es adimensional "
+"de 0,01048"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:109
+msgid ""
+"`15) Now we will evaluate the very first data set from a full scale SRSF. "
+"The performance data provided is the settled water turbidity and then the "
+"filtered water turbidity during one filter run. The time step is 5 minutes. "
+"Plot pC\\* for the filter as well as effluent turbidity as a function of "
+"time on two separate graphs. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=-I-OQ1YflL87&line=2&uniqifier=1>`_"
+msgstr ""
+"`15) Ahora evaluaremos el primer conjunto de datos de un SRSF a escala "
+"completa. Los datos de rendimiento proporcionados son la agua sedimentada "
+"turbidez y luego la agua filtrada turbidez durante una sola ejecución del "
+"filtro. El paso de tiempo es de 5 minutos. Grafica pC\\* para el filtro así "
+"como la turbidez del efluente en función del tiempo en dos gráficas "
+"separadas. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=-I-OQ1YflL87&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:120
+msgid "Filter run time vs removal efficiency"
+msgstr "Tiempo de funcionamiento del filtro frente a eficiencia de eliminación"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:120
+msgid ""
+"The pC* for this filter run was not very good and suggests that either some "
+"particles were being released by the new sand or the coagulant dose was not "
+"optimal."
+msgstr ""
+"El pC* para esta prueba de filtro no era muy bueno y sugiere que o bien "
+"algunas partículas estaban siendo liberadas por la nueva arena o que el "
+"dosis de coagulante no era óptimo."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:130
+msgid "Filter run time vs effluent turbidity"
+msgstr "Tiempo de funcionamiento del filtro frente a turbidez del efluente"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:130
+msgid ""
+"The filter performance deteriorated over the length of the filter run. This "
+"does not match the expectations that we have based on laboratory experiments"
+" with filters. AguaClara has limited data of filter performance as a "
+"function of time. However, the `recent data from Tamara "
+"<http://aguaclara.github.io/index.html>`__ (select Tamara from the drop down"
+" menu of plants) suggests that filtered water turbidity is consistently "
+"lower than in this first run of the filter that you plotted above."
+msgstr ""
+"El rendimiento del filtro se deterioró a lo largo de la duración del filtro."
+" Esto no coincide con las expectativas que tenemos basadas en experimentos "
+"de laboratorio con filtros. AguaClara tiene datos limitados sobre el "
+"rendimiento del filtro en función del tiempo. Sin embargo, los datos "
+"`recientes de Tamara <http://aguaclara.github.io/index.html>`__ (selecciona "
+"Tamara en el menú desplegable de plantas) sugieren que agua filtrada "
+"turbidez es consistentemente menor que en esta primera tirada del filtro que"
+" has trazado arriba."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:132
+msgid ""
+"`16) How many kg of suspended solids per square meter of filter were removed"
+" during this filter run. Use the plan view area for the filter (don’t "
+"multiply by the number of layers) "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=cT0s6pXYlWWm&line=3&uniqifier=1>`_"
+msgstr ""
+"`16) ¿Cuántos kg de sólidos suspendidos por metro cuadrado de filtro se "
+"retiraron durante esta corrida del filtro? Usa el área de vista en planta "
+"para el filtro (no multipliques por el número de capas) "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=cT0s6pXYlWWm&line=3&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:134
+msgid "The mass of the suspended solids removed is 2.94 kg/m²"
+msgstr "La masa del sólidos suspendidos retirado es de 2,94 kg/m²"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:136
+msgid ""
+"`17) Another useful way to express the solids capacity of the filter is to "
+"calculate the turbidity removed the run time and then express the results "
+"with units of NTU hrs. What was the capacity of the filter in NTU hrs? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=SaSPisiGlbUx&line=2&uniqifier=1>`_"
+msgstr ""
+"`17) Otra forma útil de expresar la capacidad de sólidos del filtro es "
+"calcular la turbidez eliminada del tiempo de funcionamiento y luego expresar"
+" los resultados con unidades de NTU horas. ¿Cuál era la capacidad del filtro"
+" en NTU horas? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=SaSPisiGlbUx&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:138
+msgid "The filter capacity is 43.72 NTU * hour"
+msgstr "La capacidad del filtro es de 43,72 NTU* hora"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:140
+msgid ""
+"`18) How long was the filter run? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=YMGzJLt7lioK&line=2&uniqifier=1>`_"
+msgstr ""
+"`18) ¿Cuánto tiempo estuvo funcionando el filtro? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=YMGzJLt7lioK&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:142
+msgid "The filter was run for 14.25 hour"
+msgstr "El filtro estuvo funcionando durante 14,25 horas"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:144
+msgid ""
+"`19) What is the total volume of pores per square meter (plan view area) of "
+"StarS filter bed (includes all 6 layers) (in L/m^2)? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=yZ7H6G07lsC_&line=2&uniqifier=1>`_"
+msgstr ""
+"`19) ¿Cuál es el volumen total de poros por metro cuadrado (área de vista en"
+" planta) de StarS lecho filtrante (incluye las 6 capas) (en L/m^2)? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=yZ7H6G07lsC_&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:146
+msgid "The total volume of pores is 480 liter / meter ** 2"
+msgstr "El volumen total de poros es de 480 litros / metro ** 2"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:148
+msgid ""
+"`20) The next step is to estimate the volume** of flocs per plan view area "
+"of the filter. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=1kFJ_GoDltxm>`_"
+" Assume the density of the flocs being captured by the filter are "
+"approximated by the density of flocs that have a terminal velocity of 0.10 "
+"mm/s (slightly less than the capture velocity of the plate settlers). (see "
+"slides in flocculation notes for size of the floc and then density of that "
+"floc. `This value is provided here to simplify the analysis "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=5QW7qgdHlw26&line=1&uniqifier=1>`_"
+msgstr ""
+"`20) El siguiente paso es estimar el volumen** de flócs por área de vista en"
+" planta del filtro. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=1kFJ_GoDltxm>`_"
+" Supongamos que la densidad de los flócs capturados por el filtro se "
+"aproxima por la densidad de flócs que tienen una velocidad terminal de 0,10 "
+"mm/s (ligeramente menor que la velocidad de captura de los asentadores de "
+"placas). (véanse las diapositivas en las notas de floculación para el tamaño"
+" del flóculo y luego la densidad de ese flóc. `Este valor se proporciona "
+"aquí para simplificar el análisis "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=5QW7qgdHlw26&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:150
+msgid "Given the floc density, calculate fraction of floc volume that is clay."
+msgstr ""
+"Dada la densidad de flócs, calcula la fracción del volumen de flócs que es "
+"arcilla."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:152
+msgid ""
+"Given that floc mass is the sum of clay mass and water mass and given that "
+"floc volume is the sum of clay volume and water volume, derive an equation "
+"for the volume of flocs per plan view area of a stacked rapid sand filter "
+"(includes all 6 layers) given the floc, clay, and water densities and the "
+"mass of the clay. Show the equations that you derive using Latex"
+msgstr ""
+"Dado que la masa de flócs es la suma de la masa de arcilla y la masa de "
+"agua, y dado que el volumen de flócs es la suma del volumen de arcilla y el "
+"volumen de agua, derivemos una ecuación para el volumen de flócs por área de"
+" vista en planta de un filtro de arena rápido apilado (incluyendo las 6 "
+"capas) dadas las densidades de flóc, arcilla y agua y la masa de la arcilla."
+" Muestra las ecuaciones que obtienes usando látex"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:154
+msgid "Mass conservation gives"
+msgstr "La conservación masiva da"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:156
+msgid ""
+"Vol_{Floc} \\cdot \\rho_{Floc} = M_{Clay} + M_{Water}\n"
+"\n"
+msgstr ""
+"Vol_{Floc} \\cdot \\rho_{Floc} = M_{Clay} + M_{Water}\n"
+"\n"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:158
+msgid ":math:`M_{Water}` is an unknown."
+msgstr ":math:`M_{Water}` es una incógnita."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:160
+msgid ""
+"M_{Water} = Vol_{Floc} \\cdot \\rho{Floc} - M_{Clay}\n"
+"\n"
+msgstr ""
+"M_{Water} = Vol_{Floc} \\cdot \\rho{Floc} - M_{Clay}\n"
+"\n"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:162
+msgid "Volume conservation gives"
+msgstr "La conservación de volumen da"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:164
+msgid ""
+"Vol_{Floc} = Vol_{Clay} + Vol_{Water}\n"
+"\n"
+msgstr ""
+"Vol_{Floc} = Vol_{Clay} + Vol_{Water}\n"
+"\n"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:166
+msgid ""
+"Vol_{Floc} = \\frac{M_{Clay}}{\\rho_{Clay}} + "
+"\\frac{M_{Water}}{\\rho_{Water}}\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:168
+msgid "Substitute to eliminate :math:`M_{Water}`"
+msgstr "Sustituye para eliminar :math:`M_{Water}`"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:170
+msgid ""
+"Vol_{Floc} = \\frac{M_{Clay}}{\\rho_{Clay}} + \\frac{Vol_{Floc} \\cdot "
+"\\rho_{Floc}}{\\rho_{Water}} -\\frac{M_{Clay}}{\\rho_{Water}}\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:172
+msgid "Solve for :math:`Vol_{Floc}`"
+msgstr "Resuelve :math:`Vol_{Floc}`"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:174
+msgid ""
+"Vol_{Floc} - \\frac{Vol_{Floc} \\cdot \\rho_{Floc}}{\\rho_{Water}} = "
+"\\frac{M_{Clay}}{\\rho_{Clay}} - \\frac{M_{Clay}}{\\rho_{Water}}\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:176
+msgid ""
+"Vol_{Floc}\\left ( 1-\\frac{\\rho_{Floc}}{\\rho_{Water}} \\right ) = "
+"M_{Clay}\\left ( \\frac{1}{\\rho_{Clay}} -\\frac{1}{\\rho_{Water}}\\right )"
+"\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:178
+msgid ""
+"Vol_{Floc} = M_{Clay}\\left ( "
+"\\frac{\\frac{1}{\\rho_{Clay}}-\\frac{1}{\\rho_{Water}}}{ "
+"1-\\frac{\\rho_{Floc}}{\\rho_{Water}}} \\right )\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:180
+msgid ""
+"Vol_{Floc} = { "
+"\\frac{M_{Clay}\\rho_{Water}}{\\rho_{Floc}-\\rho_{Water}}}\\left ( "
+"\\frac{1}{\\rho_{Water}}-\\frac{1}{\\rho_{Clay}} \\right )\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:182
+msgid ""
+"`To determine the flocs per plan view area "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=IbhGFltil2nn&line=2&uniqifier=1>`_"
+msgstr ""
+"`Para determinar los flóculos por área de vista en planta "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=IbhGFltil2nn&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:184
+msgid "The volume of the flocs per plan view area is 18.34 liter / meter ** 2"
+msgstr ""
+"El volumen de los flóculos por área de vista en planta es de 18,34 litros / "
+"metro ** 2"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:186
+msgid ""
+"`21) What percent of the filter pore volume is occupied by the flocs? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=9ZrPAB0ul7dE&line=1&uniqifier=1>`_"
+" This fraction of pore space occupied is quite small and suggests that much "
+"of the filter bed has a very low particle concentration at the end of a "
+"filter run."
+msgstr ""
+"`21) ¿Qué porcentaje del volumen de poros del filtro está ocupado por los "
+"flóculos? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=9ZrPAB0ul7dE&line=1&uniqifier=1>`_"
+" Esta fracción del espacio poroso ocupada es bastante pequeña y sugiere que "
+"gran parte del lecho filtrante tiene una concentración de partículas muy "
+"baja al final de una corrida del filtro."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:188
+msgid "The fraction of filter pore volume that is occupied by flocs is 0.0382"
+msgstr "La fracción del volumen de poros del filtro que ocupan los flócs es 0,0382"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:190
+#, python-format
+msgid ""
+"This result is surprising and intriguing. It indicates that the pores in the"
+" filters are 96% empty when the filter run is complete! Thus filters don't "
+"fail because the pores get full. There is a different mechanism at play "
+"here."
+msgstr ""
+"Este resultado es sorprendente e intrigante. Indica que los poros de los "
+"filtros están vacíos al 96% cuando termina de correr el filtro. Por lo "
+"tanto, los filtros no fallan porque los poros se llenen. Aquí hay un "
+"mecanismo diferente en juego."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:215
+msgid "Filter Constriction Hypothesis"
+msgstr "Hipótesis de constricción de filtros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:217
+msgid ""
+"The following analysis is completed for you and is intended to illustrate "
+"the hypothesis that flocs that are removed by the filter form a small "
+"diameter flow constriction at each place where the sand grains form a flow "
+"constriction."
+msgstr ""
+"El siguiente análisis se realiza para ti y tiene como objetivo ilustrar la "
+"hipótesis de que los flócs eliminados por el filtro forman una pequeña "
+"constricción de flujo de diámetro en cada lugar donde los granos de arena "
+"forman una constricción de flujo."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:219
+msgid ""
+"Final head loss for the filter was 50cm. Assume that this is caused by minor"
+" losses due to creation of a floc orifice (constriction) in each pore. `Find"
+" the minor loss contribution by subtracting the clean bed head loss to find "
+"the head loss created by the flow constrictions that were created by the "
+"flocs. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=OlPwd_BNmDoC&line=2&uniqifier=1>`_"
+msgstr ""
+"El pérdida de carga final para el filtro fue de 50 cm. Supongamos que esto "
+"se debe a pérdidas menores debido a la creación de un orificio de flóculo "
+"(constricción) en cada poro. `Encontrar la contribución menor de pérdida "
+"restando la cama limpia pérdida de carga para encontrar la pérdida de carga "
+"creada por las restricciones de flujo que fueron creadas por los flóculos. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=OlPwd_BNmDoC&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:221
+msgid "The minor loss contribution is 34.8 centimeter"
+msgstr "La contribución menor a la pérdida es de 34,8 centímetros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:223
+msgid ""
+"If we assume that at the end of the filter run every pore in the filter had "
+"a flow constricting orifice from the deposition of flocs in the pore, then "
+"what was the diameter of each of the flow constrictions? We will calculate "
+"this in several steps. To begin, estimate how many flow constrictions are "
+"created by the sand grains before any flocs are added with the assumption "
+"that there is one flow constriction per sand grain. `How many sand grains "
+"are there per cubic meter of filter bed? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=mTuzOAZFmFXU&line=2&uniqifier=1>`_"
+" Use D60_filter_sand to estimate the number of sand grains. We will assume "
+"there is a one to one correspondence between sand grains and flow "
+"constrictions."
+msgstr ""
+"Si asumimos que al final del filtro cada poro del filtro tenía un orificio "
+"que constriciona el flujo por la deposición de flócs en el poro, ¿cuál era "
+"entonces el diámetro de cada una de las constricciones de flujo? "
+"Calcularemos esto en varios pasos. Para empezar, estima cuántas "
+"constricciones de flujo crean los granos de arena antes de añadir cualquier "
+"floque, asumiendo que hay una constricción de flujo por grano de arena. "
+"`¿Cuántos granos de arena hay por metro cúbico de lecho filtrante? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=mTuzOAZFmFXU&line=2&uniqifier=1>`_"
+" Usa D60_filter_sand para estimar el número de granos de arena. Asumiremos "
+"que existe una correspondencia uno a uno entre los granos de arena y las "
+"constricciones de flujo."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:225
+msgid "There are this many sand grains in a cubic meter: 2.238 / millimeter ** 3"
+msgstr ""
+"Hay esta cantidad de granos de arena en un metro cúbico: 2,238 / milímetro "
+"** 3"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:227
+msgid ""
+"`Estimate the average vertical distance between flow constriction based on "
+"the cube root of the volume occupied by a sand grain. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=Lnv-Lr3rmH26&line=2&uniqifier=1>`_"
+msgstr ""
+"`Estimar la distancia vertical media entre constricciones de flujo basándose"
+" en la raíz cúbica del volumen ocupado por un grano de arena. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=Lnv-Lr3rmH26&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:229
+msgid "The distance between flow constriction is 0.7645 millimeter"
+msgstr "La distancia entre constricciones de flujo es de 0,7645 milímetros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:231
+msgid ""
+"`On average, how many sand grain flow constriction does a water molecule "
+"flow through on its way through the filter? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=vh2-U1SXmKP2&line=2&uniqifier=1>`_"
+msgstr ""
+"`De media, ¿cuánta constricción de flujo de grano de arena atraviesa una "
+"molécula de agua al pasar por el filtro? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=vh2-U1SXmKP2&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:233
+msgid ""
+"A water molecule flows through 262 dimensionless constrictions in a StaRS "
+"filter"
+msgstr ""
+"Una molécula de agua fluye a través de 262 constricciones adimensionales en "
+"un filtro StaRS"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:235
+msgid ""
+"`Head loss per flow constriction "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=08iP2d2zmL9z&line=1&uniqifier=1>`_"
+msgstr ""
+"`pérdida de carga por constricción de flujo "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=08iP2d2zmL9z&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:237
+msgid "The head loss per constriction is 1.33 millimeter"
+msgstr "La pérdida de carga por constricción es de 1,33 milímetros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:239
+msgid ""
+"If each constriction was partially clogged with flocs at the end of the "
+"filter run, `estimate the velocity in the constriction using the expansion "
+"head loss equation. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=4zM3jTJNmNcp&line=3&uniqifier=1>`_"
+" You can use the average pore water velocity as a good estimate of the "
+"expanded flow velocity."
+msgstr ""
+"Si cada constricción estaba parcialmente obstruida con flóculos al final del"
+" filtrado, `estimar la velocidad en la constricción usando la ecuación de "
+"expansión pérdida de carga . "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=4zM3jTJNmNcp&line=3&uniqifier=1>`_"
+" Puedes usar la velocidad media del agua en los poros como una buena "
+"estimación de la velocidad de flujo expandida."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:241
+msgid ""
+"h_{e} = \\frac{(V_{in}-V_{out})^2}{2g}\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Design_Solution.rst:243
+msgid "The velocity in the constriction is 166.1 millimeter / second"
+msgstr "La velocidad en la constricción es de 166,1 milímetros/segundo"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:245
+msgid ""
+"`The flow rate of water through each pore can be estimated from the number "
+"of pores per square meter given the average separation distance. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=IT7ymBB-mWNh&line=4&uniqifier=1>`_"
+msgstr ""
+"`La caudal de agua a través de cada poro puede estimarse a partir del número"
+" de poros por metro cuadrado dado el intervalo medio de separación. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo"
+"=IT7ymBB-mWNh&line=4&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:248
+msgid "The flow rate through each pore is 1.071 microliter / second"
+msgstr "La caudal a través de cada poro es de 1,071 microlitros por segundo"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:250
+msgid ""
+"`What is the inner diameter of the flow constriction created by the flocs if"
+" the *vena contracta* is 0.62? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=1P7WvFqRma4G&line=2&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es el diámetro interno de la constricción de flujo creada por los "
+"flócs si la *vena contracta* es 0,62? "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=1P7WvFqRma4G&line=2&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:252
+msgid ""
+"The inner diameter of the flow constriction created by the flocs is 115.1 "
+"micrometer"
+msgstr ""
+"El diámetro interior de la constricción de flujo creada por los flócs es de "
+"115,1 micrómetros"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:254
+msgid ""
+"This suggests that this flow constriction is stable because the high "
+"velocity results in shear levels that are too high for flocs to attach. Thus"
+" once the constriction forms and reaches the shear level that prevents "
+"deposition it remains stable."
+msgstr ""
+"Esto sugiere que esta constricción de flujo es estable porque la alta "
+"velocidad da lugar a niveles de cizalladura demasiado altos para que los "
+"flócs se adhieran. Así, una vez que se forma la constricción y alcanza el "
+"nivel de cizalladura que impide la deposición, permanece estable."
+
+#: ../../Filtration/Filtration_Design_Solution.rst:256
+msgid ""
+"`Plot the fractional removal per constriction as a function of particle "
+"size. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=6R407jBRmcPm&line=7&uniqifier=1>`_"
+msgstr ""
+"`Grafica la eliminación fraccionaria por constricción en función del tamaño "
+"de la partícula. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=6R407jBRmcPm&line=7&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:265
+msgid "Diameter vs fractional remaining"
+msgstr "Diámetro vs restos fraccionados"
+
+#: ../../Filtration/Filtration_Design_Solution.rst:265
+msgid ""
+"There are many constrictions in series and the filter fraction remaining is "
+"the pore fraction remaining raised to the power of the number of pores in "
+"series."
+msgstr ""
+"Hay muchas constricciones en serie y la fracción filtrante que queda es la "
+"fracción de poros que permanece elevada a la potencia del número de poros en"
+" serie."
+

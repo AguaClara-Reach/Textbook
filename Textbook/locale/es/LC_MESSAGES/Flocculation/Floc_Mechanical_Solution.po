@@ -1,0 +1,717 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:11
+msgid "Mechanical Flocculator Solution"
+msgstr "Solución de floculador mecánico"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:13
+msgid ""
+"`Be sure to run this code block and import packages before working the "
+"examples <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wYlG8hDqwdwn&line=5&uniqifier=1>`_"
+msgstr ""
+"`Asegúrate de ejecutar este bloque de código e importar paquetes antes de "
+"trabajar en los ejemplos <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=wYlG8hDqwdwn&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:15
+msgid ""
+"In this design challenge, you will design a mechanical flocculator and power"
+" unit. You will use a flow rate of 50 L/s as your default design value. The "
+"coldest temperature that the raw water is expected to have is 10°C. You will"
+" also play with fractal flocculation model equations to get a sense of how "
+"fast flocs can aggregate. You will also explore the floc model predictions."
+msgstr ""
+"En este desafío de diseño, diseñarás un floculador mecánico y una unidad de "
+"potencia. Usarás un caudal de 50 L/s como valor de diseño por defecto. La "
+"temperatura más baja que se espera que tenga el agua cruda es de 10°C. "
+"También jugarás con ecuaciones del modelo de floculación fractal para "
+"hacerte una idea de la rapidez con la que pueden agregarse los floculos. "
+"También explorarás las predicciones del modelo de floculación."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:18
+msgid ""
+"As you define variables, take care not to redefine parameters. One trick is "
+"to use a unique name for variables that are estimates. We often add “est” to"
+" any variable names that aren’t the final values."
+msgstr ""
+"Al definir variables, ten cuidado de no redefinir parámetros. Un truco es "
+"usar un nombre único para variables que son estimaciones. A menudo añadimos "
+"\"est\" a cualquier nombre de variable que no sea el valor final."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:20
+msgid ""
+"The ``floc_model.py`` file contains many useful functions which includes "
+"clay, coagulant and humic acid material properties, fractal model equations,"
+" and flocculation model equations. **We recommend that you open the "
+"``floc_model.py`` and have it side by side with this design challenge for "
+"easy reference.**"
+msgstr ""
+"El archivo ``floc_model.py`` contiene muchas funciones útiles, entre ellas "
+"propiedades de materiales de arcilla, coagulantes y ácidos húmicos, "
+"ecuaciones de modelos fractales y ecuaciones de modelos de floculación. "
+"**Recomendamos que abras el ``floc_model.py`` y lo pongas junto a este reto "
+"de diseño para facilitar la consulta.**"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:23
+msgid ""
+"The course slides found on the syllabus will be very useful for obtaining "
+"and understanding relevant equations for this design challenge and ones in "
+"the future."
+msgstr ""
+"Las diapositivas del curso que se encuentran en el temario serán muy útiles "
+"para obtener y entender ecuaciones relevantes para este reto de diseño y "
+"para futuros."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:26
+msgid "Conventional Design Guidelines"
+msgstr "Directrices de diseño convencionales"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:28
+msgid ""
+"This table for mechanical flocculators is taken from Sincero and Sincero’s "
+"1996 textbook: *Environmental Engineering: A Design Approach*"
+msgstr ""
+"Esta tabla para floculadores mecánicos está tomada del libro de texto de "
+"Sincero y Sincero de 1996: *Ingeniería Ambiental: Un Enfoque de Diseño*"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:31
+msgid "Type"
+msgstr "Tipo"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:31
+msgid "Velocity Gradient (G) (1/s)"
+msgstr "Gradiente de velocidad (G) (1/s)"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:31
+msgid "Energy Dissipation Rate"
+msgstr "Tasa de disipación de energía"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:31
+msgid "Gt"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:31
+msgid "t (min)"
+msgstr "t (min)"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:35
+msgid "Low turbidity, color removal"
+msgstr "Baja turbidez, eliminación de color"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:35
+msgid "20-70"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:35
+msgid "0.4 - 4.9"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:35
+msgid "50,000 - 250,000"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:35
+msgid "11 - 210"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:40
+msgid "High turbidity, solids removal"
+msgstr "Alta turbidez, eliminación de sólidos"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:40
+msgid "70 - 180"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:40
+msgid "4.9 - 32"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:40
+msgid "80,000 - 190,000"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:40
+msgid "7 - 45"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:46
+msgid ""
+"Dissolved organic matter impacts the color of the water. Perhaps the reason "
+"for lower G values for color removal is because flocs created from dissolved"
+" organic matter are weaker or less dense. Hence, a lower G is needed to "
+"allow them to grow large enough for removal in the clarifier."
+msgstr ""
+"La materia orgánica disuelta afecta al color del agua. Quizá la razón de los"
+" valores G más bajos para eliminar el color sea porque los flóclos creados a"
+" partir de materia orgánica disuelta son más débiles o menos densos. Por lo "
+"tanto, se necesita un G más bajo para que crezcan lo suficiente como para "
+"ser eliminados en el clarificador."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:49
+msgid "Mechanical Flocculator Design"
+msgstr "Diseño de floculadores mecánicos"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:51
+msgid ""
+"The conventional design guidelines provide a range of values with little "
+"guidance on how to select “velocity gradient” or G values. One approach is "
+"to hope for the best and choose a G value in the middle of the range. We "
+"will pick the G value that is apparently appropriate for both low and high "
+"turbidity waters."
+msgstr ""
+"Las directrices convencionales de diseño proporcionan un rango de valores "
+"con poca orientación sobre cómo seleccionar el \"gradiente de velocidad\" o "
+"valores de G. Un enfoque es esperar lo mejor y elegir un valor G en el "
+"centro del rango. Elegiremos el valor de G que aparentemente sea apropiado "
+"tanto para aguas de baja como de alta turbidez."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:53
+msgid ""
+"`Choose your starting variable <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Op0XXKxUwi3W&line=2&uniqifier=1>`_"
+msgstr ""
+"`Elige tu variable inicial <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=Op0XXKxUwi3W&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:55
+msgid ""
+"**1) The `Ten State Standards** <http://10statesstandards.com/>`__ (with the"
+" hilarious acronym GLUMRB) requires the residence time in a mechanical "
+"flocculator to be 30 minutes. What is the value of Gt if you use the "
+"velocity gradient given above as ``G_mech``?"
+msgstr ""
+"**1) Los `Estándares de los Diez Estados** "
+"<http://10statesstandards.com/>`__ (con el hilarante acrónimo GLUMRB) "
+"requiere que el tiempo de residencia en un floculador mecánico sea de 30 "
+"minutos. ¿Cuál es el valor de Gt si usas el gradiente de velocidad dado "
+"arriba como ``G_mech``?"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:57
+msgid ""
+"Note: ``.to(u.dimensionless)`` ensures you don’t get weird dimensions like "
+"kilometer/inch or minute/second for dimensionless parameters."
+msgstr ""
+"Nota: ``.to(u.dimensionless)`` asegura que no obtienes dimensiones extrañas "
+"como kilómetro/pulgada o minuto/segundo para parámetros adimensionales."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:59
+msgid ""
+"`Determine Gt <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=JhoY0sx5w0G1&line=5&uniqifier=1>`_"
+msgstr ""
+"`determinar gt <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=JhoY0sx5w0G1&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:61
+msgid "The Gt is 126000"
+msgstr "El GT es 126000"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:63
+msgid ""
+"**2) Calculate the equivalent average energy dissipation rate** (in mW/kg) "
+"for the given velocity gradient at the design temperature."
+msgstr ""
+"**2) Calcular la tasa media equivalente de disipación de energía** (en "
+"mW/kg) para el gradiente de velocidad dado a la temperatura de diseño."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:65
+msgid ""
+"`Determine rate <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=mYp81kOPw2pW&line=2&uniqifier=1>`_"
+msgstr ""
+"`Determinar la tasa <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=mYp81kOPw2pW&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:67
+msgid "The equivalent average energy dissipation rate is 6.4 mW/kg"
+msgstr "La tasa media equivalente de disipación de energía es de 6,4 mW/kg"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:69
+msgid ""
+"**3) Create a function** to calculate the power requirement for mechanical "
+"flocculators. Then, use your function to obtain the power requirement for "
+"the design temperature. The equation for power is the same one that we used "
+"for mechanical rapid mix units."
+msgstr ""
+"**3) Crear una función** para calcular el requerimiento de potencia de los "
+"floculadores mecánicos. Luego, utiliza tu función para obtener el requisito "
+"de potencia para la temperatura de diseño. La ecuación para la potencia es "
+"la misma que usamos para las unidades mecánicas de mezcla rápida ."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:71
+msgid ""
+"`Find the power requirement <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-XnD0ssGJ93DsXn#scrollTo=Ysgn-"
+"baWw8HH&line=2&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el requisito de energía <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-XnD0ssGJ93DsXn#scrollTo=Ysgn-"
+"baWw8HH&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:73
+msgid "The power requirement is 0.57 kW"
+msgstr "El requisito de potencia es de 0,57 kW"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:75
+msgid ""
+"Fun Fact: although the design guidelines would logically predict that the "
+"power requirements are higher for cold water, there is little evidence that "
+"mechanical flocculator plants actually increase the power input to their "
+"flocculators when the water is cold."
+msgstr ""
+"Dato curioso: aunque las directrices de diseño predecirían lógicamente que "
+"los requisitos de energía son mayores para agua fría, hay poca evidencia de "
+"que las plantas de floculadores mecánicos realmente aumenten la potencia de "
+"entrada a sus floculadores cuando el agua está fría."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:77
+msgid ""
+"**4) We hypothesize** that the maximum energy dissipation rate in a "
+"flocculator determines the size of the flocs, and those flocs may or may not"
+" be captured by the clarifier. Clarification tank performance will "
+"deteriorate if the maximum energy dissipation rate results in flocs that are"
+" so small that their terminal velocity is lower than the capture velocity of"
+" the clarifier. This likely occurs for very high maximum energy dissipation "
+"rates. Mechanical flocculators have traditionally been designed without "
+"insight into the variability of the energy dissipation rate and the need to "
+"keep the maximum energy dissipation rate low enough to prevent the creation "
+"of flocs that will avoid capture by the clarifiers. At the same time, the "
+"traditional standards likely evolved to produce designs that were at least "
+"reasonable even in the absence of an understanding of the fluid mechanics of"
+" the mixing process."
+msgstr ""
+"**4) Hipotetizamos** que la tasa máxima de disipación de energía en un "
+"floculador determina el tamaño de los flocócs, y esos flócs pueden o no ser "
+"capturados por el clarificador. El rendimiento del tanque de clarificación "
+"se deteriorará si la tasa máxima de disipación de energía resulta en flócs "
+"tan pequeños que su velocidad terminal es menor que la velocidad de captura "
+"del clarificador. Esto probablemente ocurre para tasas de disipación máxima "
+"de energía muy altas. Los floculadores mecánicos tradicionalmente se han "
+"diseñado sin conocimiento de la variabilidad de la tasa de disipación de "
+"energía y la necesidad de mantener la tasa máxima de disipación lo "
+"suficientemente baja para evitar la creación de flócs que eviten la captura "
+"por los clarificadores. Al mismo tiempo, los estándares tradicionales "
+"probablemente evolucionaron para producir diseños que fueran al menos "
+"razonables incluso sin comprensión de la mecánica de fluidos del proceso de "
+"mezcla."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:79
+msgid ""
+"According to the Ten State Standards, “Agitators (Flocculators) shall be "
+"driven by variable speed drives with the peripheral speed of paddles ranging"
+" from 0.5 to 3.0 feet per second.” Note that they do not specify the size of"
+" the propeller and yet that is a critical dimension that determines the "
+"energy dissipation rate in the wake of the spinning propeller."
+msgstr ""
+"Según las Normas de los Diez Estados, \"Los agitadores (floculadores) deben "
+"ser accionados por accionamientos de velocidad variable, con una velocidad "
+"periférica de las palas que oscila entre 0,5 y 3,0 pies por segundo.\" Cabe "
+"señalar que no especifican el tamaño de la hélice y, sin embargo, esa es una"
+" dimensión crítica que determina la tasa de disipación de energía tras la "
+"estela de la hélice giratoria."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:81
+msgid ""
+"The wake behind the propeller or paddle is similar in size to the small "
+"dimension of the propeller or paddle normal to the velocity. Thus we can use"
+" the propeller height to estimate the energy dissipation rate of the plate "
+"wake. The relative velocity between the wake and the surrounding fluid is "
+"approximately equal to the propeller velocity."
+msgstr ""
+"La estela detrás de la hélice o pala es similar en tamaño a la pequeña "
+"dimensión de la hélice o pala normal a la velocidad. Así, podemos usar la "
+"altura de la hélice para estimar la tasa de disipación de energía de la "
+"estela de placa. La velocidad relativa entre la estela y el fluido "
+"circundante es aproximadamente igual a la velocidad de la hélice."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:83
+msgid ""
+"Calculate the maximum energy dissipation rate that occurs in the wake behind"
+" the tip of a propeller which has a height of 3 cm and is moving at 3 ft/s. "
+"In this case, assume that the plate ratio for the maximum energy dissipation"
+" rate in the wake, :math:`\\Pi_{Plate}`, is 0.04."
+msgstr ""
+"Calcule la tasa máxima de disipación de energía que ocurre en la estela "
+"detrás de la punta de una hélice que tiene una altura de 3 cm y se mueve a 3"
+" pies/s. En este caso, suponga que la relación de la placa para la máxima "
+"tasa de disipación de energía en la estela, :math:`\\Pi_{Plate}`, es 0,04."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:85
+msgid ""
+"\\epsilon=\\Pi_{Plate}\\frac{\\left ( V  \\right )^{3}}{W_{Plate}}\n"
+"\n"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:87
+#, python-format
+msgid ""
+"You may assume that the relative velocity between propeller and water is "
+"equal to 75% of the propeller velocity."
+msgstr ""
+"Se puede suponer que la velocidad relativa entre la hélice y el agua es "
+"igual al 75% de la velocidad de la hélice."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:89
+msgid ""
+"`Colab worksheet calculating the propeller energy dissipation rate "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=-DSq8HEHw-su&line=5&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando la tasa de disipación de energía de la "
+"hélice <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=-DSq8HEHw-su&line=5&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:91
+msgid "The maximum energy dissipation rate behind the propeller tip is 430 mW/kg"
+msgstr ""
+"La tasa máxima de disipación de energía detrás de la punta de la hélice es "
+"de 430 mW/kg"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:93
+msgid ""
+"**5) Calculate the ratio** of maximum to average energy dissipation rate "
+"(henceforth referred to as max/Ave EDR) and the ratio of maximum to average "
+"velocity gradient (max/Ave G) for the mechanical flocculator described "
+"above. What is the relationship between the two ratios?"
+msgstr ""
+"**5) Calcular la razón** entre la tasa máxima y la media de disipación de "
+"energía (de ahora en adelante llamada EDR máxima/Media) y la relación entre "
+"el gradiente máximo y el gradiente medio de velocidad (máximo/G) para el "
+"floculador mecánico descrito anteriormente. ¿Cuál es la relación entre ambas"
+" relaciones?"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:95
+msgid ""
+"`Colab worksheet calculating the velocity gradient ratios "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=9Z7jG1xcxCG2&line=6&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab que calcula las relaciones del gradiente de "
+"velocidad <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=9Z7jG1xcxCG2&line=6&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:97
+msgid ""
+"The ratio of maximum to average energy dissipation rate is 67.5 The ratio of"
+" maximum to average velocity gradient is 8.2"
+msgstr ""
+"La relación entre la tasa máxima y la media de disipación de energía es "
+"67,5. La relación entre el gradiente máximo y el gradiente medio de "
+"velocidad es 8,2"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:100
+msgid ""
+"SOLUTION NOTE: this information is found on extra slide 48 in the "
+"Flocculator Design slides, heading is “Results of the the CFD analysis and "
+"our model equations.”"
+msgstr ""
+"NOTA DE LA SOLUCIÓN: esta información se encuentra en la diapositiva "
+"adicional 48 de las diapositivas de Flocculator Design, con el título "
+"\"Resultados del análisis CFD y nuestras ecuaciones del modelo.\""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:102
+msgid ""
+"High ratios of max/Ave for velocity gradients (and therefore also energy "
+"dissipation rates) are common in both mechanical and hydraulic flocculators."
+" A high velocity gradient ratio is a poor design for two reasons. - This "
+"high max/Ave G results in significant inefficiency in the use of energy for "
+"flocculation. This inefficiency requires longer residence times and/or more "
+"energy input to achieve the same extent of flocculation."
+msgstr ""
+"Las altas proporciones de máximo/Ave para gradientes de velocidad (y por "
+"tanto también para las tasas de disipación de energía) son comunes tanto en "
+"floculadores mecánicos como hidráulicos. Una alta relación de gradiente de "
+"velocidad es un diseño pobre por dos razones. - Este alto máximo/Promedio G "
+"resulta en una ineficiencia significativa en el uso de energía para la "
+"floculación. Esta ineficiencia requiere tiempos de residencia más largos y/o"
+" mayor consumo de energía para lograr el mismo grado de floculación."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:104
+msgid ""
+"The high energy dissipation rate in the propeller wake limits the amount of "
+"energy that can be dissipated without causing excessive floc breakup. "
+"Excessive floc breakup produces flocs that are too small to be captured by "
+"the clarifier."
+msgstr ""
+"La alta tasa de disipación de energía en la estela de la hélice limita la "
+"cantidad de energía que se puede disipar sin causar una ruptura excesiva de "
+"flóculos. Una ruptura excesiva de flóculos produce flócs demasiado pequeños "
+"para ser capturados por el clarificador."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:106
+msgid ""
+"We hypothesize that the maximum G values specified for mechanical "
+"flocculators were likely set by the constraint of not breaking flocs into "
+"small sizes. Clarification velocity needs to be less than capture velocity "
+"for a floc to settle - the smallest floc that will settle is referred to as "
+"the threshold floc because that is the smallest size we want to make. "
+"Because well-designed hydraulic flocculators have more uniform shear rates "
+"(as compared to mechanical flocculators), hydraulic flocculators are less "
+"likely to break up flocs. Therefore, the average G values specified for "
+"mechanical flocculators are not expected to apply to well designed hydraulic"
+" flocculators."
+msgstr ""
+"Hipotetizamos que los valores máximos de G especificados para floculadores "
+"mecánicos probablemente se determinaron por la restricción de no romper los "
+"flóclos en tamaños pequeños. La velocidad de aclaración debe ser menor que "
+"la velocidad de captura para que un flóculum se asiente; el flóculum más "
+"pequeño que se asientará se denomina flóculum umbral porque es el tamaño más"
+" pequeño que queremos hacer. Debido a que los floculadores hidráulicos bien "
+"diseñados tienen tasas de cizallamiento más uniformes (en comparación con "
+"los floculadores mecánicos), los floculadores hidráulicos tienen menos "
+"probabilidades de romper los floculadores. Por lo tanto, no se espera que "
+"los valores medios de G especificados para los floculadores mecánicos se "
+"apliquen a floculadores hidráulicos bien diseñados."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:108
+msgid ""
+"The high energy dissipation rates at the tip of a propeller in a flocculator"
+" may be high enough to create flocs that are too small to be captured by the"
+" clarifiers. We will determine if the clarifier could capture these flocs in"
+" the analysis below."
+msgstr ""
+"Las altas tasas de disipación de energía en la punta de una hélice en un "
+"floculador pueden ser lo suficientemente altas como para crear flócs "
+"demasiado pequeños para ser capturados por los clarificadores. "
+"Determinaremos si el clarificador podría capturar estos flócs en el análisis"
+" a continuación."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:110
+msgid ""
+"These results also suggest that the traditional emphasis on maintaining the "
+"same or lesser G value for the transport of flocculated water to the "
+"clarifier may have missed the more important point of not exceeding a value "
+"of G that produces flocs that are too small to be captured by the clarifier."
+msgstr ""
+"Estos resultados también sugieren que el énfasis tradicional en mantener el "
+"mismo o menor valor de G para el transporte de agua floculada al "
+"clarificador puede haber pasado por alto el punto más importante de no "
+"superar un valor de G que produce flócs demasiado pequeños para ser "
+"capturados por el clarificador."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:112
+msgid ""
+"**6) A mechanical flocculator** is treating high turbidity water, and "
+"therefore is using an average G value of 180 Hz."
+msgstr ""
+"**6) Un floculador mecánico** trata agua de alta turbidez y, por tanto, "
+"utiliza un valor medio de G de 180 Hz."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:114
+msgid ""
+"If the design guidelines for maximum G for mechanical flocculators are "
+"correct and are based on floc breakup, then what is the largest average G "
+"that could be used for a well designed hydraulic flocculator with a max/Ave "
+"G of :math:`\\sqrt{2}`?"
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:116
+msgid ""
+"Note: important distinctions to make are: - maximum G vs average G - "
+"mechanical vs hydraulic flocculators. Conceptual thought coupled with pencil"
+" and paper are recommended."
+msgstr ""
+"Nota: las distinciones importantes que deben hacer son: - G máximo frente a "
+"G medio - floculadores mecánicos vs hidráulicos. Se recomienda el "
+"pensamiento conceptual junto con lápiz y papel."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:118
+msgid ""
+"`Find maximum G <https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=xtcGnUx0xRUZ&line=2&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el máximo G <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=xtcGnUx0xRUZ&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:120
+msgid "The maximum G for hydraulic flocculators is 1037 Hz"
+msgstr "La máxima G para floculadores hidráulicos es de 1037 Hz"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:122
+msgid ""
+"These extremely high average G values are more like traditional rapid mix. "
+"It is possible that energy use constraints (too much elevation difference "
+"required to power the flocculation) will prevent use of such high G values. "
+"It is also possible that these G values would cause excessive floc break up "
+"even though they appear to meet conventional standards. It is also likely "
+"that the flocculation time required to achieve a target G :math:`\\theta` "
+"would not be sufficient for the coagulant nanoparticles to be transported to"
+" the surfaces of suspended particles."
+msgstr ""
+"Estos valores medios extremadamente altos de G son más parecidos a los "
+"mezcla rápida tradicionales. Es posible que las restricciones de uso de "
+"energía (demasiada diferencia de elevación necesaria para alimentar la "
+"floculación) impidan el uso de valores G tan altos. También es posible que "
+"estos valores de G causen una ruptura excesiva de flóculo aunque parezcan "
+"cumplir con los estándares convencionales. También es probable que el tiempo"
+" de floculación requerido para alcanzar un :math:`\\theta` G objetivo no sea"
+" suficiente para que las nanopartículas coagulantes sean transportadas a las"
+" superficies de partículas suspendidas."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:125
+msgid ""
+"**7) How much energy** in Joules per liter would be required to treat the "
+"water using this mechanical flocculator?"
+msgstr ""
+"**7) ¿Cuánta energía** en julios por litro se necesitaría para tratar el "
+"agua usando este floculador mecánico?"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:127
+msgid ""
+"`Energy requirement calculation <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=JD2pFOBNxUc4&line=3&uniqifier=1>`_"
+msgstr ""
+"`Cálculo de los requisitos energéticos "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=JD2pFOBNxUc4&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:129
+msgid "The energy required using the mechanical flocculator is 11.5 J/l"
+msgstr "La energía requerida mediante el floculador mecánico es de 11,5 J/l"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:131
+msgid ""
+"**8) How much does the electricity cost** to flocculate a million liters? It"
+" isn’t necessary to actually size an electric motor for this assignment. "
+"Simply use the shaft power and assume a motor efficiency of 80%. You may "
+"assume the price of electricity is 0.15 USD/(kW-hr)."
+msgstr ""
+"**8) ¿Cuánto cuesta la electricidad** para flocular un millón de litros? No "
+"es necesario dimensionar realmente un motor eléctrico para esta tarea. "
+"Simplemente usa la potencia del eje y asume una eficiencia del motor del "
+"80%. Puedes asumir que el precio de la electricidad es de 0,15 USD/(kW-h)."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:133
+msgid ""
+"`Determine electricity cost <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=KZJcQjuqxrY5&line=3&uniqifier=1>`_"
+msgstr ""
+"`Determinar el coste de la electricidad "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=KZJcQjuqxrY5&line=3&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:135
+msgid "The cost of electricity for mechanical flocculation is 0.58 USD/Ml"
+msgstr "El coste de la electricidad para la floculación mecánica es de 0,58 USD/Ml"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:137
+msgid ""
+"It doesn’t actually cost very much to flocculate water using electricity. We"
+" will create cost savings over mechanical flocculators by designing smaller,"
+" higher performing flocculators that don’t require any moving parts and thus"
+" don’t require much maintenance. Our capital costs will also be lower "
+"because we use more efficient plug flow reactors to prevent short circuiting"
+" of particles through the flocculator. Thus well designed hydraulic "
+"flocculators can be smaller than mechanical flocculators."
+msgstr ""
+"En realidad, no cuesta mucho flocular agua usando electricidad. Crearemos "
+"ahorros respecto a los floculadores mecánicos diseñando floculadores más "
+"pequeños y de mayor rendimiento que no requieran piezas móviles y, por "
+"tanto, no requieran mucho mantenimiento. Nuestros costes de capital también "
+"serán menores porque usamos reactores de flujo de enchufe más eficientes "
+"para evitar cortocircuitos de partículas a través del floculador. Así, los "
+"floculadores hidráulicos bien diseñados pueden ser más pequeños que los "
+"floculadores mecánicos."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:139
+msgid ""
+"**9) What is the equivalent amount** of potential energy that is used to "
+"operate this mechanical flocculator (the shaft power) expressed as an "
+"elevation drop in meters? What is the required shaft power?"
+msgstr ""
+"**9) ¿Cuál es la cantidad equivalente** de energía potencial que se utiliza "
+"para accionar este floculador mecánico (la potencia del eje), expresada como"
+" una caída de elevación en metros? ¿Cuál es la potencia requerida del eje?"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:141
+msgid ""
+"`Determine equivalent height <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=QFSaD7qOxuyj&line=4&uniqifier=1>`_"
+msgstr ""
+"`Determinar la altura equivalente <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=QFSaD7qOxuyj&line=4&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:143
+msgid ""
+"The equivalent amount of potential energy to run this  mechanical "
+"flocculator is 1.17 m The shaft power required is 0.57 kilowatt"
+msgstr ""
+"La cantidad equivalente de energía potencial para hacer funcionar este "
+"floculador mecánico es de 1,17 m. La potencia requerida por eje es de 0,57 "
+"kilovatios."
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:147
+msgid "**10) What is the required reactor volume** for the mechanical flocculator?"
+msgstr ""
+"**10) ¿Cuál es el volumen requerido del reactor** para el floculador "
+"mecánico?"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:149
+msgid ""
+"`Find reactor volume <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=IduDvf7yx14N&line=2&uniqifier=1>`_"
+msgstr ""
+"`Encontrar el volumen del reactor <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=IduDvf7yx14N&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:151
+msgid "The required reactor volume for the mechanical flocculator is 90.0 meter ** 3"
+msgstr ""
+"El volumen requerido del reactor para el floculador mecánico es de 90,0 "
+"metros ** 3"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:154
+msgid ""
+"**11) If this flocculator** is 4 m deep, then how many square meters of plan"
+" view area are required per L/s of flow capacity? This is a measure of "
+"required size of this unit process. For comparison, an AguaClara clarifier "
+"requires about :math:`\\frac{1m^{2}}{L/s}` and are only 2 m deep."
+msgstr ""
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:156
+msgid ""
+"`Find plan view area <https://colab.research.google.com/drive"
+"/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lxq0-ITCx5hW&line=2&uniqifier=1>`_"
+msgstr ""
+"`Encontrar el área de vista en planta "
+"<https://colab.research.google.com/drive/1HhsaTHEzVKtkoiCQF-"
+"XnD0ssGJ93DsXn#scrollTo=lxq0-ITCx5hW&line=2&uniqifier=1>`_"
+
+#: ../../Flocculation/Floc_Mechanical_Solution.rst:158
+msgid "The required plan view area is 0.45 meter ** 2 * second / liter"
+msgstr ""
+"El área de vista en planta requerida es de 0,45 metros ** 2 * segundos por "
+"litro"
+

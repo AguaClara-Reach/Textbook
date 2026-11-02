@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "|ACRlogowithname|"
+msgstr "|ACRlogowithname|"
+
+#: ../../AIDE/About/LFOM.rst
+msgid "ACRlogowithname"
+msgstr "ACRlogowithname"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "|textbook|"
+msgstr "|textbook|"
+
+#: ../../AIDE/About/LFOM.rst
+msgid "textbook"
+msgstr "Libro de texto"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "|donate|"
+msgstr "|donate|"
+
+#: ../../AIDE/About/LFOM.rst
+msgid "donate"
+msgstr "Dona"
+
+#: ../../AIDE/About/LFOM.rst:6
+msgid "|reportabugbig|"
+msgstr "|reportabugbig|"
+
+#: ../../AIDE/About/LFOM.rst
+msgid "reportabugbig"
+msgstr "reportabugbig"
+
+#: ../../AIDE/About/LFOM.rst:12
+msgid "Linear Flow Orifice Meter Configurable Component"
+msgstr "Componente configurable del medidor de orificio de flujo lineal"
+
+#: ../../AIDE/About/LFOM.rst:21
+msgid "Linear Flow Orifice Meter"
+msgstr "Medidor de orificio de flujo lineal"
+
+#: ../../AIDE/About/LFOM.rst:21
+msgid ""
+"The Linear Flow Orifice Meter measures the flow of water through the plant "
+"and creates a linear relationship between plant flow rate and the depth of "
+"water in the entrance tank."
+msgstr ""
+"El Medidor de Orificio de Flujo Lineal mide el flujo de agua a través de la "
+"planta y crea una relación lineal entre la caudal de la planta y la "
+"profundidad del agua en la tanque de entrada."
+
+#: ../../AIDE/About/LFOM.rst:31
+msgid "Location of the Linear Flow Orifice Meter"
+msgstr "Ubicación del medidor de orificio de flujo lineal"
+
+#: ../../AIDE/About/LFOM.rst:31
+msgid ""
+"The Linear Flow Orifice Meter (outlined in red) is located in the entrance "
+"tank."
+msgstr ""
+"El Medidor de Orificio de Flujo Lineal (delineado en rojo) se encuentra en "
+"el tanque de entrada."
+
+#: ../../AIDE/About/LFOM.rst:34
+msgid "Generate New Models of the Linear Flow Orifice Meter"
+msgstr "Generar nuevos modelos del medidor de orificio de flujo lineal"
+
+#: ../../AIDE/About/LFOM.rst:36
+msgid ""
+"Edit the configurations to create new models of the Linear Flow Orifice "
+"Meter. Send us `feedback to share how you are using the LFOM model, to give "
+"us suggestions for how to make these models easier to use, and to "
+"<https://forms.gle/cqDPapYkcSmLnDu4A>`_  |reportabug|."
+msgstr ""
+"Edita las configuraciones para crear nuevos modelos del Medidor de Orificio "
+"de Flujo Lineal. Envíanos `comentarios para compartir cómo estás usando el "
+"modelo LFOM, para darnos sugerencias para facilitar el uso de estos modelos "
+"y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+
+#: ../../AIDE/About/LFOM.rst
+msgid "reportabug"
+msgstr "reportabug"
+
+#: ../../AIDE/About/LFOM.rst:38
+msgid "Linear Flow Orifice Meter configuration parameters."
+msgstr "Parámetros de configuración del medidor de orificio lineal de caudal."
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Flow (L/s)"
+msgstr "Flujo (L/s)"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid ""
+"The maximum flow rate sets the size of the Linear Flow Orifice Meter. Vary "
+"it to see how the dimensions change."
+msgstr ""
+"El máximo caudal fija el tamaño del Medidor de Orificio de Flujo Lineal. "
+"Varía para ver cómo cambian las dimensiones."
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr "Temperatura mínima (°C)"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid ""
+"The flow is turbulent throughout the Linear Flow Orifice Meter and thus "
+"temperature doesn’t have a significant effect on the design."
+msgstr ""
+"El flujo es turbulento en todo el Medidor de Orificio de Flujo Lineal y, por"
+" tanto, la temperatura no tiene un efecto significativo en el diseño."
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Water elevation range (m)"
+msgstr "Rango de elevación del agua (m)"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid ""
+"Change in water elevation in the entrance tank that corresponds to the flow "
+"varying from 0 L/s up to the maximum design flow rate."
+msgstr ""
+"Cambio en la elevación del agua en el tanque de entrada que corresponde a un"
+" caudal que varía desde 0 L/s hasta el máximo de diseño caudal."
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Maximum drill diameter (m)"
+msgstr "Diámetro máximo del taladro (m)"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Used to limit the drill bit size required to fabricate the LFOM."
+msgstr "Se usaba para limitar el tamaño de la broca necesario para fabricar el LFOM."
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid "Maximum nominal diameter (inch)"
+msgstr "Diámetro nominal máximo (pulgada)"
+
+#: ../../AIDE/About/LFOM.rst:1
+msgid ""
+"Used to set a maximum pipe size. For higher flow rates the LFOM will "
+"increase the water elevation range so the pipe can carry more flow."
+msgstr ""
+"Se utiliza para establecer un tamaño máximo de tubería. Para caudales más "
+"altos, el LFOM aumentará el rango de elevación del agua para que la tubería "
+"pueda transportar más caudal."
+
+#: ../../AIDE/About/LFOM.rst:55
+msgid ""
+"Additional information is available in *The Physics of Water Treatment* in "
+"the section on :ref:`heading_lfom`."
+msgstr ""
+"Información adicional está disponible en *The Physics of Water Treatment* en"
+" la sección sobre :ref:`heading_lfom`."
+

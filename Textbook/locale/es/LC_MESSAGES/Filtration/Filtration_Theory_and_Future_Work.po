@@ -1,0 +1,1985 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:13
+msgid "Filtration Theory and Future Work"
+msgstr "Teoría de la filtración y trabajos futuros"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:15
+msgid ""
+"Filters are used to remove particles and thus we'd like to be able to "
+"predict particle removal efficiency in a filter. Unfortunately we don't yet "
+"have equations that describe particle removal by sand filtration. This is a "
+"very unpleasant surprise. It is as if we were designing a suspension bridge "
+"and didn't have any equations describing the relationship between the "
+"tension in the cables and the load they are supporting. We only have an "
+"equation describing what the cables do when there isn't any additional load."
+" In the case of filtration we only have clean bed filtration models that "
+"attempt to describe what happens before the filter begins to remove "
+"particles."
+msgstr ""
+"Los filtros se usan para eliminar partículas y, por tanto, nos gustaría "
+"poder predecir la eficiencia de eliminación de partículas en un filtro. "
+"Desafortunadamente, aún no tenemos ecuaciones que describan la eliminación "
+"de partículas mediante filtración en arena. Esto es una sorpresa muy "
+"desagradable. Es como si estuviéramos diseñando un puente colgante y no "
+"tuviéramos ninguna ecuación que describiera la relación entre la tensión en "
+"los cables y la carga que soportan. Solo tenemos una ecuación que describe "
+"lo que hacen los cables cuando no hay carga adicional. En el caso de la "
+"filtración, solo tenemos modelos de filtración de lecho limpio que intentan "
+"describir qué ocurre antes de que el filtro empiece a eliminar partículas."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:21
+msgid ""
+"Reflection: How did we get to 2019 without a model for filter performance? "
+"There may be several reasons for the lack of a filtration model. Here are a "
+"few ideas:"
+msgstr ""
+"Reflexión: ¿Cómo llegamos a 2019 sin un modelo para el rendimiento del "
+"filtro? Puede haber varias razones para la falta de un modelo de filtración."
+" Aquí tienes algunas ideas:"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:18
+msgid ""
+"The lack of data acquisition systems in university laboratories means that "
+"very few rapid sand filters were operated and evaluated for full filter runs"
+" in laboratory settings."
+msgstr ""
+"La falta de sistemas de adquisición de datos en los laboratorios "
+"universitarios significa que muy pocos filtros rápidos de arena se operaran "
+"y evaluaran para realizar filtros completos en entornos de laboratorio."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:19
+msgid ""
+"The Environmental Engineering fixation on jar tests as the way to model "
+"water treatment plants provided no method to test filtration and thus most "
+"university laboratories only experimented with batch operation and not "
+"continuous flow."
+msgstr ""
+"La fijación de la Ingeniería Ambiental en las pruebas de frascos como método"
+" para modelar tratamiento de agua plantas no proporcionó ningún método para "
+"probar la filtración y, por tanto, la mayoría de los laboratorios "
+"universitarios solo experimentaron con operación por lotes y no con flujo "
+"continuo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:20
+msgid ""
+"Filtration models were borrowed from air filtration (`Yao et al, 1971 "
+"<https://pubs.acs.org/doi/abs/10.1021/es60058a005>`_) and thus did not take "
+"into account that the coagulant nanoparticles made particle attachment to "
+"surfaces very favorable."
+msgstr ""
+"Los modelos de filtración se tomaron prestados de la filtración de aire "
+"(`Yao et al., 1971 <https://pubs.acs.org/doi/abs/10.1021/es60058a005>`_) y "
+"por tanto no tuvieron en cuenta que las nanopartículas coagulantes hacían "
+"que la unión de partículas a superficies fuera muy favorable."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:21
+msgid ""
+"Filtration models only modeled the clean bed phase (the first few minutes of"
+" a filter run) before particles were deposited and began altering the "
+"geometry of the pores."
+msgstr ""
+"Los modelos de filtración solo modelaban la fase de lecho limpio (los "
+"primeros minutos de una pasada de filtro) antes de que se depositaran las "
+"partículas y comenzaran a alterar la geometría de los poros."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:23
+msgid ""
+"Clean bed filtration models include an equation first presented by Iwasaki "
+"in 1937 that suggested that particle removal occurred as a first order "
+"process with respect to depth. This simplifies to"
+msgstr ""
+"Los modelos de filtración de lecho limpio incluyen una ecuación presentada "
+"por primera vez por Iwasaki en 1937 que sugería que la eliminación de "
+"partículas ocurría como un proceso de primer orden respecto a la "
+"profundidad. Esto se simplifica a"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:25
+msgid "  pC^* \\propto \\frac{L}{D_{sand}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:30
+msgid ""
+"where L is the depth of the sand in the column. This suggests that "
+"increasing the depth of sand in a filter would dramatically improve "
+"performance."
+msgstr ""
+"donde L es la profundidad de la arena en la columna. Esto sugiere que "
+"aumentar la profundidad de arena en un filtro mejoraría drásticamente el "
+"rendimiento."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:32
+msgid ""
+"It is quite amazing that we have no useful models for sand filter "
+"performance after more than a century of using sand filters as a required "
+"process in converting surface waters into safe drinking water. Fortunately "
+"we have plenty of clues suggesting what is happening inside filters and at "
+"the level of the particles traveling through the pores."
+msgstr ""
+"Es bastante sorprendente que no tengamos modelos útiles para el rendimiento "
+"de filtro de arena después de más de un siglo usando filtros de arena como "
+"proceso necesario para convertir las aguas superficiales en agua potable "
+"seguras. Afortunadamente, disponemos de muchas pistas que sugieren lo que "
+"ocurre dentro de los filtros y a nivel de las partículas que viajan por los "
+"poros."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:34
+msgid ""
+"The movie in :numref:`figure_Active_zone_model` illustrates that the classic"
+" performance of a rapid sand filter as a function of time could be explained"
+" by the presence of an active filtration zone that slowly progresses down "
+"through the filter as the pores become fully loaded. But that begs the "
+"question of what determines \"fully loaded.\""
+msgstr ""
+"La película en :numref:`figure_Active_zone_model` ilustra que el rendimiento"
+" clásico de una filtro de arena rápida en función del tiempo podría "
+"explicarse por la presencia de una zona de filtración activa que progresa "
+"lentamente hacia abajo a través del filtro a medida que los poros se llenan "
+"completamente. Pero eso plantea la cuestión de qué determina \"completamente"
+" cargado\"."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:44
+msgid ""
+"Movie illustrating how effluent turbidity connects to deposition of "
+"particles within a sand bed."
+msgstr ""
+"Película que ilustra cómo la turbidez de efluentes se relaciona con la "
+"deposición de partículas en una cama de arena."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:46
+msgid ""
+"The linear increase in head loss with time (see "
+":numref:`figure_Head_loss_vs_time`) is a remarkable and surprising property "
+"of depth filtration. The deposition of particles in a pore would change the "
+"flow geometry, increase the flow velocity, and increase the head loss across"
+" the pore. As each particle is deposited in the pore it would be expected to"
+" have an increasing impact on head loss as the flow area is decreased and "
+"the flow velocity increases.  Head loss due to the flow expansion downstream"
+" from the flow constriction is proportional to the velocity squared. Thus we"
+" would not expect head loss across a pore to increase linearly with time."
+msgstr ""
+"El aumento lineal de la pérdida de carga con el tiempo (véase "
+":numref:`figure_Head_loss_vs_time`) es una propiedad notable y sorprendente "
+"de la filtración en profundidad. La deposición de partículas en un poro "
+"cambiaría la geometría del flujo, aumentaría la velocidad del flujo y la "
+"pérdida de carga a través del poro. A medida que cada partícula se deposita "
+"en el poro, se esperaría que tuviera un impacto creciente en pérdida de "
+"carga a medida que se reduce el área de flujo y aumenta la velocidad del "
+"flujo.  pérdida de carga debido a la expansión del flujo aguas abajo de la "
+"constricción es proporcional al cuadrado de la velocidad. Por tanto, no "
+"esperaríamos que pérdida de carga a través de un poro aumente linealmente "
+"con el tiempo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:56
+msgid "Head loss increases linearly with time"
+msgstr "pérdida de carga aumenta linealmente con el tiempo"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:56
+msgid ""
+"Head loss through a filter increases linearly with time under conditions of "
+"constant influent turbidity."
+msgstr ""
+"pérdida de carga a través de un filtro aumenta linealmente con el tiempo "
+"bajo condiciones de turbidez constante y influyente."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:58
+msgid ""
+"The data is trying to tell us something. The head loss through a filter does"
+" increase linearly with time and with the amount of solids that have been "
+"captured by the filter. Our hypothesis is that the number of fully loaded "
+"pores is increasing linearly with time. To understand how this might be "
+"working we need to delve into the filter and imagine what must be happening "
+"in the pores as particles are flowing by."
+msgstr ""
+"Los datos intentan decirnos algo. La pérdida de carga a través de un filtro "
+"aumenta linealmente con el tiempo y con la cantidad de sólidos que ha sido "
+"capturado por el filtro. Nuestra hipótesis es que el número de poros "
+"completamente cargados está aumentando linealmente con el tiempo. Para "
+"entender cómo podría estar funcionando esto, necesitamos profundizar en el "
+"filtro e imaginar qué debe estar ocurriendo en los poros mientras las "
+"partículas fluyen."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:60
+msgid ""
+":numref:`figure_Deposition_at_constrictions` illustrates that particles that"
+" are carried by the fluid can come into contact with the walls of the pores "
+"where the streamlines converge. Clean bed filtration models predict that "
+"this process of interception is significant even for clean beds. As a pore "
+"begins to fill due to particle deposition, the flow constriction becomes "
+"even more severe and thus the capture efficiency increases. This would "
+"suggest that a pore would rapidly fill with flocs until it became so clogged"
+" that the flow of water through the pore effectively stopped."
+msgstr ""
+":numref:`figure_Deposition_at_constrictions` ilustra que las partículas "
+"transportadas por el fluido pueden entrar en contacto con las paredes de los"
+" poros donde convergen las líneas de corriente. Los modelos de filtración de"
+" lecho limpio predicen que este proceso de intercepción es significativo "
+"incluso para lechos limpios. A medida que un poro comienza a llenarse debido"
+" a la deposición de partículas, la constricción del flujo se vuelve aún más "
+"severa y, por tanto, la eficiencia de captura aumenta. Esto sugeriría que un"
+" poro se llenaría rápidamente de flócs hasta que se obstruyera tanto que el "
+"flujo de agua a través del poro se detuviera efectivamente."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:69
+msgid ""
+"Movie illustrating that particles are transported closer to sand surfaces "
+"where streamlines converge."
+msgstr ""
+"Película que ilustra que las partículas se transportan más cerca de "
+"superficies de arena donde convergen las líneas de corriente."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:71
+msgid ""
+"If pores clogged completely, then sand filters would clog as soon as one "
+"layer of pores was filled. There must be another process that is preventing "
+"pores from clogging. We hypothesize that flocs can't attach to the filter "
+"surfaces when the fluid drag on the floc exceeds the strength of the bonds "
+"between the coagulant nanoparticles and the particle and pore surfaces. Thus"
+" as pores grow smaller due to deposition it becomes more difficult for "
+"incoming flocs to attach. Instead, the flocs are shoved right through the "
+"pore even if it means the floc has to undergo significant deformation to "
+"squeeze through."
+msgstr ""
+"Si los poros se obstruyeran completamente, los filtros de arena se "
+"obstruirían tan pronto como se llenara una capa de poros. Debe haber otro "
+"proceso que impida que los poros se obstruyan. Hipotetizamos que los flócs "
+"no pueden adherirse a las superficies del filtro cuando el arrastre del "
+"fluido sobre el flóculo supera la fuerza de los enlaces entre las "
+"nanopartículas coagulantes y las superficies de partículas y poros. Así, a "
+"medida que los poros se hacen más pequeños debido a la deposición, se vuelve"
+" más difícil que los flócs entrantes se adhieran. En cambio, los flócs se "
+"empujan directamente a través del poro aunque eso signifique que el flóc "
+"tenga que sufrir una deformación significativa para atravesarlo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:81
+msgid ""
+"Movie showing flocs flowing through a pore created by sand grains. (Credit "
+"`Filter_Constrictions team Spring 2018 <https://github.com/AguaClara/filter-"
+"constrictions>`_)"
+msgstr ""
+"Película que muestra floculos fluyendo por un poro creado por granos de "
+"arena. (Créditos `Filter_Constrictions equipo Primavera 2018 "
+"<https://github.com/AguaClara/filter-constrictions>`_)"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:83
+msgid ""
+"The story is beginning to emerge. Converging streamlines result in flocs "
+"touching previously deposited particles in the flow constriction and "
+"attaching. As the flow constriction becomes even smaller the fluid drag on "
+"particles that attempt to attach to the pore becomes too great and the "
+"particles are forced through the constriction. At that point the pore is "
+"fully loaded. However, fully loaded does not mean that the void is full of "
+"flocs. It just means that the constriction is as small as it can get given "
+"the strength of the coagulant nanoparticle bonds and the fluid drag on the "
+"flocs."
+msgstr ""
+"La historia empieza a salir a la luz. Las líneas de corriente convergentes "
+"hacen que los flocos toquen partículas previamente depositadas en la "
+"constricción y se adhieran al flujo. A medida que la constricción del flujo "
+"se hace aún menor, el arrastre del fluido sobre las partículas que intentan "
+"adherirse al poro se vuelve demasiado grande y las partículas se ven "
+"forzadas a través de la constricción. En ese momento, el poro está "
+"completamente cargado. Sin embargo, estar completamente cargado no significa"
+" que el vacío esté lleno de flócs. Simplemente significa que la constricción"
+" es tan pequeña como puede ser dada la fuerza de los enlaces de "
+"nanopartículas coagulantes y el arrastre del fluido sobre los flócs."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:85
+msgid ""
+"Pores at the upstream end of the filter are fully loaded first and then "
+"remain relatively unchanged for the duration of the filter run. Thus the "
+"active filtration zone is pushed deeper into the filter bed. At any one time"
+" there are likely a series of pores that are partially loaded and thus "
+"actively filling. The number of pores in series that are actively filling is"
+" not yet known, but it is clear that the particle removal efficiency of a "
+"filter must be related to the number of actively filling pores in series."
+msgstr ""
+"Los poros en el extremo aguas arriba del filtro se cargan completamente "
+"primero y luego permanecen relativamente sin cambios durante toda la "
+"duración del filtrado. Así, la zona de filtración activa se empuja más "
+"profundamente en el lecho filtrante. En un momento dado probablemente haya "
+"una serie de poros parcialmente cargados y, por tanto, activamente llenos. "
+"El número de poros en serie que están llenando activamente aún no se conoce,"
+" pero está claro que la eficiencia de eliminación de partículas de un filtro"
+" debe estar relacionada con el número de poros que se llenan activamente en "
+"serie."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:87
+msgid ""
+"The active filtration zone is progressing through the filter at a constant "
+"velocity. The number of fully loaded pores is increasing linearly with time!"
+" That is why head loss increases linearly with time."
+msgstr ""
+"La zona de filtración activa progresa a través del filtro a velocidad "
+"constante. ¡El número de poros completamente cargados aumenta linealmente "
+"con el tiempo! Por eso pérdida de carga aumenta linealmente con el tiempo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:89
+msgid ""
+"The poor performance at the beginning of a filter run is because the clean "
+"zone isn't a good filter. This suggests that dual media filters are "
+"pointless because the smaller media at the downstream end of the filter "
+"remains clean and doesn't actually do anything. If this is correct, then "
+"multimedia filters can be replaced with a single larger media size."
+msgstr ""
+"El bajo rendimiento al principio de una corrida de filtro se debe a que la "
+"zona limpia no es un buen filtro. Esto sugiere que los filtros de doble "
+"medio son inútiles porque el medio más pequeño en el extremo posterior del "
+"filtro permanece limpio y en realidad no hace nada. Si esto es correcto, "
+"entonces los filtros multimedia pueden reemplazarse por un solo tamaño de "
+"medio más grande."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:95
+msgid "As coagulant dose increases:"
+msgstr "A medida que dosis de coagulante aumenta:"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:92
+msgid ""
+"Flocs are larger and thus they fill the pores faster and thus the active "
+"zone moves faster through the filter."
+msgstr ""
+"Los flóculos son más grandes y, por tanto, llenan los poros más rápido, por "
+"lo que la zona activa se mueve más rápido a través del filtro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:93
+msgid ""
+"Large flocs are removed more efficiently and thus the active zone is thinner"
+" (fewer active pores in series)."
+msgstr ""
+"Los flóclos grandes se eliminan de forma más eficiente y, por tanto, la zona"
+" activa es más fina (menos poros activos en serie)."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:94
+msgid ""
+"Thinner active zone results in faster failure (higher slope of turbidity vs "
+"time during failure)."
+msgstr ""
+"Una zona activa más delgada provoca una falla más rápida (mayor pendiente de"
+" turbidez frente al tiempo durante la falla)."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:95
+msgid ""
+"Larger flocs results in faster failure (higher slope of turbidity vs time "
+"during failure)."
+msgstr ""
+"Un flóculo más grande resulta en una falla más rápida (mayor pendiente de "
+"turbidez frente al tiempo durante la falla)."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:99
+msgid "As sand size increases:"
+msgstr "A medida que aumenta el tamaño de la arena:"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:98
+msgid ""
+"There are fewer pores and thus fewer constrictions and thus less head loss "
+"at the end of the filter run."
+msgstr ""
+"Hay menos poros y, por tanto, menos constricciones y, por tanto, menos "
+"pérdida de carga al final del filtro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:99
+msgid ""
+"Each constriction requires more particles to build and thus there is less "
+"head loss per mass of particles removed."
+msgstr ""
+"Cada constricción requiere más partículas para formarse y, por tanto, hay "
+"menos pérdida de carga por masa de partículas eliminadas."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:102
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:530
+msgid "Particle Removal Efficiency"
+msgstr "Eficiencia en la eliminación de partículas"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:104
+msgid ""
+"This is the multi-decade old question that challenges us to continue our "
+"research. What determines how many particles sneak through a water treatment"
+" plant? We've learned that flocculation runs out of steam because the "
+"primary particles only want to collide with other primary particles and thus"
+" they start taking forever to collide as they become scarce. The floc filter"
+" likely acts like a series of collectors (can't say it is like a filter "
+"because it doesn't have stationary constrictions). This would suggest that "
+"more floc filter is always better. Some primary particles make it through "
+"the floc filter. What determines how many of those primary particles make it"
+" through the filter? It must depend on the geometry of every constriction. "
+"Large flocs are easy to capture in a sand filter. Primary particles are much"
+" more difficult to capture. Large flocs tend to fill up the first unfilled "
+"pore they come to. Thus large flocs tend to take active pores out of "
+"service. This suggests that the influent floc size distribution might "
+"influence filter performance. See "
+":ref:`heading_Shear_big_flocs_to_improve_filter_performance` for an analysis"
+" of the feasibility of breaking up flocs at the point of injection into the "
+"sand bed."
+msgstr ""
+"Esta es la pregunta de varias décadas que nos desafía a continuar nuestra "
+"investigación. ¿Qué determina cuántas partículas se colan por una planta "
+"tratamiento de agua ? Hemos aprendido que la floculación se queda sin fuerza"
+" porque las partículas primarias solo quieren chocar con otras partículas "
+"primarias y, por tanto, empieza a tardar una eternidad en colisionar a "
+"medida que se vuelven escasas. La filtro de flóculos probablemente actúa "
+"como una serie de colectores (no se puede decir que sea como un filtro "
+"porque no tiene constricciones estacionarias). Esto sugeriría que más filtro"
+" de flóculos siempre es mejor. Algunas partículas primarias atraviesan el "
+"filtro de flóculos. ¿Qué determina cuántas de esas partículas primarias "
+"atraviesan el filtro? Debe depender de la geometría de cada constricción. "
+"Los flóclos grandes son fáciles de capturar en un filtro de arena. Las "
+"partículas primarias son mucho más difíciles de capturar. Los flóclos "
+"grandes tienden a llenar el primer poro sin llenar al que llegan. Por tanto,"
+" los flócs grandes tienden a sacar de servicio los poros activos. Esto "
+"sugiere que la distribución influyente del tamaño del flóculo podría influir"
+" en el rendimiento del filtro. Véase "
+":ref:`heading_Shear_big_flocs_to_improve_filter_performance` para un "
+"análisis de la viabilidad de descomponer los flócs en el punto de inyección "
+"en el lecho arenoso."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:108
+msgid "Filtration Model"
+msgstr "Modelo de filtración"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:110
+msgid ""
+"The filtration model is based on the insight that rapid sand filters have an"
+" active filtration zone that slowly progresses down through the filter as it"
+" fills to maximum capacity at the upstream end. A clean bed of sand is "
+"ineffective at capturing small particles as evidenced by the poor initial "
+"performance after backwash. Thus it is apparent that previously deposited "
+"particles play a key role in subsequent capture of particles."
+msgstr ""
+"El modelo de filtración se basa en la idea de que los filtros rápidos de "
+"arena tienen una zona de filtración activa que progresa lentamente a través "
+"del filtro a medida que se llena hasta su capacidad máxima en el extremo "
+"aguas arriba. Un lecho limpio de arena es ineficaz para capturar partículas "
+"pequeñas, como lo demuestra el bajo rendimiento inicial tras el retrolavado."
+" Por tanto, es evidente que las partículas depositadas previamente juegan un"
+" papel clave en la captura posterior de partículas."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:112
+msgid ""
+"Interception! Flow constrictions - converging streamlines move particles "
+"closer to the pore wall. Previously deposited particles form constrictions. "
+"The constrictions are the most likely location for particles to collide with"
+" deposited particles. Thus particles do not fill the pores and clog the "
+"filter. Instead particles form constrictions where streamlines already "
+"converged."
+msgstr ""
+"¡Interceptación! Constricciones de flujo: las líneas de corriente "
+"convergentes mueven las partículas más cerca de la pared de los poros. Las "
+"partículas depositadas previamente forman constricciones. Las constricciones"
+" son el lugar más probable para que las partículas colisionen con las "
+"partículas depositadas. Así, las partículas no llenan los poros ni obstruyen"
+" el filtro. En su lugar, las partículas forman constricciones donde las "
+"líneas de corriente ya convergieron."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:115
+msgid ""
+"Maximum shear sets a minimum constriction opening size! As particles "
+"gradually deposit in an ever shrinking flow constriction, the velocity "
+"through the constriction increases and the velocity gradient at the wall "
+"increases. Eventually the bond strength of the coagulant nanoparticles is "
+"not great enough to capture suspended particles that collide with the "
+"deposited particles. The flow constriction reaches a minimum diameter and "
+"subsequent suspended flocs flow right through the constriction."
+msgstr ""
+"¡La cizalladura máxima establece un tamaño mínimo de apertura de "
+"constricción! A medida que las partículas se depositan gradualmente en una "
+"constricción de flujo cada vez más reducida, la velocidad a través de la "
+"constricción aumenta y el gradiente de velocidad en la pared aumenta. "
+"Finalmente, la fuerza de enlace de las nanopartículas coagulantes no es "
+"suficiente para capturar partículas suspendidas que colisionan con las "
+"partículas depositadas. La constricción de flujo alcanza un diámetro mínimo "
+"y los flócs suspendidos posteriores atraviesan la constricción."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:118
+msgid ""
+"The gradual creation of more flow constrictions results in an almost linear "
+"increase in head loss as a function of the volume of deposited flocs."
+msgstr ""
+"La creación gradual de más constricciones de flujo resulta en un aumento "
+"casi lineal de la pérdida de carga en función del volumen de flócs "
+"depositados."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:124
+msgid "Hypotheses, evidence, and why it matters"
+msgstr "Hipótesis, pruebas y por qué es importante"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "#"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Hypotheses"
+msgstr "Hipótesis"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Evidence"
+msgstr "Evidencia"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Why it matters"
+msgstr "Por qué es importante"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"Particle removal is primarily due to converging streamlines that move "
+"particles close to the sand surface or to previously deposited particles"
+msgstr ""
+"La eliminación de partículas se debe principalmente a líneas de corriente "
+"convergentes que mueven partículas cerca de la superficie de arena o a "
+"partículas previamente depositadas"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Filtration theory and estimates of void volume occupied by particles"
+msgstr "Teoría de filtración y estimaciones del volumen vacío ocupado por partículas"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Basis for our filtration model"
+msgstr "Base de nuestro modelo de filtración"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"The particle size distribution entering the filter is set by the plate "
+"settlers"
+msgstr ""
+"La distribución del tamaño de las partículas que entran en el filtro la "
+"determinan los sedimentadores de placas"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Estimate of velocity gradient in inlet waterfall and in filter bed"
+msgstr ""
+"Estimación del gradiente de velocidad en cascada de entrada y en lecho "
+"filtrante"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "High velocity injection would be required to reduce the floc size"
+msgstr ""
+"Se requeriría una inyección a alta velocidad para reducir el tamaño del "
+"flóculum"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"The jets that the constrictions create dissipate almost all of their energy "
+"in the downstream void BEFORE entering the next constriction"
+msgstr ""
+"Los chorros que crean las constricciones disipan casi toda su energía en el "
+"vacío aguas abajo ANTES de entrar en la siguiente constricción"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Laminar flow jets dissipate energy very quickly"
+msgstr "Los chorros de flujo laminar disipan la energía muy rápidamente"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Allows a simple relationship between pore head loss and constriction velocity"
+msgstr ""
+"Permite una relación sencilla entre la pérdida de carga de poros y la "
+"velocidad de constricción"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"Flocs are captured with VERY high efficiency and thus primary particle "
+"removal limits filter performance"
+msgstr ""
+"Los flócs se capturan con una eficiencia MUY alta y, por tanto, la "
+"eliminación de partículas primarias limita el rendimiento del filtro"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Clean bed filtration models"
+msgstr "Modelos de filtración de lecho limpio"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Need to optimize filters for primary particle removal"
+msgstr ""
+"Necesidad de optimizar los filtros para la eliminación de partículas "
+"primarias"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"Constrictions form a continuous barrier across the filter at each sand grain"
+" layer"
+msgstr ""
+"Las constricciones forman una barrera continua a través del filtro en cada "
+"capa de grano de arena"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Any gaps would receive higher flow rate and thus higher flux of particles"
+msgstr ""
+"Cualquier brecha recibiría mayor caudal y, por tanto, un mayor flujo de "
+"partículas"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Filter automatically prevents short circuiting"
+msgstr "El filtro previene automáticamente los cortocircuitos"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"The thickness of the deposit scales with the width of the ring or perhaps "
+"simply with the pore size or sand size"
+msgstr ""
+"El grosor del depósito escala con el ancho del anillo o quizás simplemente "
+"con el tamaño del poro o del tamaño de arena"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid ""
+"Thickness can't scale with diameter of the flocs because that would predict "
+"more total mass retained with increased coagulant dose"
+msgstr ""
+"El grosor no puede escalar con el diámetro de los flócs porque eso "
+"predeciría más masa total retenida con el aumento de dosis de coagulante"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:1
+msgid "Required to predict head loss vs mass deposited."
+msgstr "Necesario para predecir pérdida de carga frente a la masa depositada."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:139
+msgid "Filter Head Loss"
+msgstr "Filtro pérdida de carga"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:141
+msgid ""
+"The maximum velocity in a constriction is set by the drag on a primary "
+"particle that is large enough to prevent the primary particle from "
+"attaching. Given that the constriction is likely sharp edged on the upstream"
+" face, the flow velocity is likely close to uniform at the entrance to the "
+"constriction. There is likely a *vena contracta* effect and that effect "
+"would prevent deposition of particles downstream of the leading edge of the "
+"constriction because particles are diverted away from the constriction "
+"walls."
+msgstr ""
+"La velocidad máxima en una constricción la determina la resistencia de una "
+"partícula primaria lo suficientemente grande como para impedir que la "
+"partícula primaria se adhiera. Dado que la constricción probablemente tiene "
+"bordes afilados en la cara aguas arriba, la velocidad del flujo es casi "
+"uniforme en la entrada de la constricción. Probablemente existe un efecto "
+"*vena contracta* y ese efecto evitaría la deposición de partículas aguas "
+"abajo del borde de ataque de la constricción porque las partículas se "
+"desvían lejos de las paredes de constricción."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:143
+msgid ""
+"The maximum constriction velocity is thus likely independent of the "
+"filtration velocity and pore size. The maximum velocity at the inlet to the "
+"constrictions is likely proportional to the fractional surface coverage of "
+"the primary particles by coagulant nanoparticles. Thus as the coagulant dose"
+" increases the head loss per pore and the head loss at the time of particle "
+"breakthrough increases."
+msgstr ""
+"La velocidad máxima de constricción es por tanto probablemente independiente"
+" de la velocidad de filtración y el tamaño del poro. La velocidad máxima en "
+"la entrada de las constricciones probablemente sea proporcional a la "
+"cobertura superficial fraccionada de las partículas primarias por "
+"nanopartículas coagulantes. Así, a medida que el dosis de coagulante "
+"aumenta, la pérdida de carga por poro y la pérdida de carga en el momento de"
+" la ruptura de la partícula aumenta."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:145
+msgid "  h_{l_{constriction}} = \\frac{\\bar v_{constriction}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:156
+msgid "The maximum drag that a primary particle can"
+msgstr "La resistencia máxima que puede tener una partícula primaria"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:152
+msgid "Need to connect velocity to drag."
+msgstr "Hay que conectar la velocidad con la resistencia."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:153
+msgid "Use experimental data from filtration to find critical velocity."
+msgstr ""
+"Utiliza datos experimentales de filtración para encontrar la velocidad "
+"crítica."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:154
+msgid "Expect velocity to be independent of pore size (sand size)."
+msgstr ""
+"Espera que la velocidad sea independiente del tamaño de los poros (tamaño de"
+" arena)."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:155
+msgid "Create model for total head loss in a filter as a function of sand size."
+msgstr ""
+"Crea un modelo para el pérdida de carga total en un filtro en función del "
+"tamaño de la arena."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:156
+msgid "Need a connection between pore size and volume of particles it can hold."
+msgstr ""
+"Necesita una conexión entre el tamaño de los poros y el volumen de "
+"partículas que pueda contener."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:158
+msgid ""
+"The average distance between sand grains in a filter bed is obtained by "
+"taking the cube root of the total volume occupied by a sand grain including "
+"the pore space. We also assume that there is a one-to-one correspondence "
+"between pores and sand grains and thus the distance between pores is the "
+"same as the distance between sand grains."
+msgstr ""
+"La distancia media entre granos de arena en un lecho filtrante se obtiene "
+"tomando la raíz cúbica del volumen total ocupado por un grano de arena, "
+"incluyendo el espacio poroso. También asumimos que existe una "
+"correspondencia uno a uno entre poros y granos de arena y, por tanto, la "
+"distancia entre poros es la misma que la distancia entre granos de arena."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:160
+msgid ""
+"\\Lambda_{sand} = \\Lambda_{pore} = \\left(\\frac{\\pi}{6(1-\\phi)} "
+"\\right)^\\frac{1}{3}D_{sand}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:164
+msgid ""
+"The flow rate per pore is the approach velocity multiplied by "
+":math:`\\Lambda^2`."
+msgstr ""
+"La caudal por poro es la velocidad de aproximación multiplicada por "
+":math:`\\Lambda^2`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:166
+msgid "Q_{pore} = v_a \\Lambda_{pore}^2"
+msgstr "Q_{pore} = v_a \\Lambda_{pore}^2"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:170
+msgid "The velocity through a constriction in a pore is"
+msgstr "La velocidad a través de una constricción en un poro es"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:172
+msgid ""
+"Q_{pore} = v_a \\Lambda_{pore}^2 = \\frac{\\pi}{4} "
+"D_{constriction}^2v_{constriction}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:176
+msgid "The constriction diameter is thus given by"
+msgstr "El diámetro de constricción está así dado por"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:178
+msgid ""
+"  D_{constriction} = \\Lambda_{pore} \\sqrt\\frac{4 v_a}{\\pi "
+"v_{constriction}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:184
+msgid ""
+"The Reynolds number of the jet issuing from the constriction is obtained by "
+"using Equation :eq:`eq_D_constriction` to eliminate the dependence on "
+"diameter."
+msgstr ""
+"El número de Reynolds del chorro que sale de la constricción se obtiene "
+"usando la ecuación :eq:`eq_D_constriction` para eliminar la dependencia del "
+"diámetro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:186
+msgid ""
+"  Re_{jet} = \\frac{\\Lambda_{pore} }{\\nu }\\sqrt\\frac{4 v_a "
+"v_{constriction}}{\\pi }"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:191
+msgid ""
+"The jet issuing from the constrictions is laminar for Reynolds numbers below"
+" 500 (`see Ungate et al., 1975 page 13 "
+"<https://dspace.mit.edu/handle/1721.1/27517>`_).  The constriction is likely"
+" a relatively thin (washer-like) deposit and thus the flow through the "
+"constriction is likely close to uniform. In order to estimate the head loss "
+"in the flow expansion that occurs after the constriction we need to "
+"understand how much the flow expands. The flow expansion may be limited by "
+"the geometry of the pores or it might be limited by the rate at which "
+"laminar flow jets expand. We don't have a way to know which constraint will "
+"set the expansion and thus we need to calculate the expansion rate for a "
+"laminar jet to see if that expansion could occur given the pore geometry."
+msgstr ""
+"El chorro que sale de las constricciones es laminar para números de Reynolds"
+" inferiores a 500 (`véase Ungate et al., 1975, página 13 "
+"<https://dspace.mit.edu/handle/1721.1/27517>`_). La constricción "
+"probablemente sea un depósito relativamente fino (similar a una arandela) y,"
+" por tanto, el flujo a través de la constricción probablemente sea casi "
+"uniforme. Para estimar la pérdida de carga en la expansión del flujo que "
+"ocurre tras la constricción, necesitamos entender cuánto se expande el "
+"flujo. La expansión del flujo puede estar limitada por la geometría de los "
+"poros o puede estar limitada por la velocidad a la que se expanden los "
+"chorros de flujo laminar. No tenemos forma de saber qué restricción "
+"determinará la expansión, por lo que necesitamos calcular la velocidad de "
+"expansión de un chorro laminar para ver si esa expansión podría ocurrir dada"
+" la geometría del poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:193
+msgid ""
+"The rate of jet expansion can be obtained from an analytical solution of the"
+" Navier Stokes equation as shown by `Pai, S.I., Fluid dynamics of jets. (D. "
+"Van Nostrand Company, Inc., Princeton, NJ, 1954 (pages 78-79) "
+"<https://babel.hathitrust.org/cgi/pt?id=mdp.39015000450273;view=1up;seq=99>`_"
+msgstr ""
+"La tasa de expansión de los chorros puede obtenerse a partir de una solución"
+" analítica de la ecuación de Navier Stokes, como muestra `Pai, S.I., "
+"Dinámica de fluidos de jets. (D. Van Nostrand Company, Inc., Princeton, NJ, "
+"1954 (páginas 78-79) "
+"<https://babel.hathitrust.org/cgi/pt?id=mdp.39015000450273;view=1up;seq=99>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:195
+msgid "The momentum in the direction of flow is conserved and is given by"
+msgstr "El momento en la dirección del flujo se conserva y está dado por"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:197
+msgid "M_0 = 2 \\pi \\rho \\int_{0}^{\\infty} u^2 r dr"
+msgstr "M_0 = 2 \\pi \\rho \\int_{0}^{\\infty} u^2 r dr"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:201
+msgid ""
+"For the case of uniform velocity through the constriction we can replace "
+":math:`\\infty` with :math:`r_{constriction}`"
+msgstr ""
+"Para el caso de velocidad uniforme a través de la constricción podemos "
+"reemplazar :math:`\\infty` por :math:`r_{constriction}`"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:203
+msgid "M_0 = 2 \\pi \\rho v_{constriction}^2 \\int_{0}^{r_{constriction}}  r dr"
+msgstr "M_0 = 2 \\pi \\rho v_{constriction}^2 \\int_{0}^{r_{constriction}} r dr"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:207
+msgid ""
+"M_0 = \\pi \\rho v_{constriction}^2 r_{constriction}^2 = \\rho "
+"Q_{pore}v_{constriction}"
+msgstr ""
+"M_0 = \\pi \\rho v_{constriction}^2 r_{constriction}^2 = \\rho "
+"Q_{pore}v_{constriction}"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:211
+msgid ""
+"The velocity in the direction of the jet is given by (equation 4.39 in `Pai,"
+" 1954 "
+"<https://babel.hathitrust.org/cgi/pt?id=mdp.39015000450273;view=1up;seq=99>`_)"
+msgstr ""
+"La velocidad en la dirección del chorro está dada por (ecuación 4.39 en "
+"`Pai, 1954 "
+"<https://babel.hathitrust.org/cgi/pt?id=mdp.39015000450273;view=1up;seq=99>`_)"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:213
+msgid ""
+"u = \\frac{3M_0}{8\\pi \\mu} \\frac{1}{x} "
+"\\frac{1}{\\left[1+(\\frac{\\zeta_{jet}^2}{4})\\right]^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:218
+msgid ""
+"\\zeta_{jet} = \\frac{1}{4\\nu} "
+"\\left(\\frac{3M_0}{\\pi\\rho}\\right)^{\\frac{1}{2}} \\frac{r}{x}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:222
+msgid ""
+"and thus :math:`\\zeta` is zero at the centerline.  We will use the "
+"centerline velocity at distance :math:`\\Lambda_{pore}` from the "
+"constriction to estimate the head loss caused by one constriction."
+msgstr ""
+"y por tanto :math:`\\zeta` es cero en la línea central. Usaremos la "
+"velocidad de la línea central a la distancia :math:`\\Lambda_{pore}` de la "
+"constricción para estimar la pérdida de carga causada por una constricción."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:224
+msgid "v_{exp} = \\frac{3\\rho Q_{pore}v_{constriction}}{8\\pi \\mu \\Lambda_{pore}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:228
+msgid "We can substitute for :math:`Q_{pore}` to obtain"
+msgstr "Podemos sustituir por :math:`Q_{pore}` para obtener"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:230
+msgid "v_{exp} =  \\frac{3 v_a \\Lambda_{pore} }{8\\pi \\nu }v_{constriction}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:235
+msgid ""
+"We can use mass conservation and the equation for :math:`Q_{pore}` to "
+"replace :math:`v_a` with :math:`v_{constriction}`"
+msgstr ""
+"Podemos usar la conservación de masa y la ecuación para :math:`Q_{pore}` "
+"para reemplazar :math:`v_a` por :math:`v_{constriction}`"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:237
+msgid ""
+"v_{exp} =  "
+"\\frac{3}{32}\\frac{D_{constriction}}{\\Lambda_{pore}}Re_{jet}v_{constriction}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:241
+msgid ""
+"It isn't yet clear if this always means that :math:`v_{exp}` will be very "
+"small compared with :math:`v_{constriction}`, but that seems to be the "
+"logical conclusion. Thus when calculating the head loss for a pore it is "
+"reasonable to assume that the kinetic energy of the jet is all lost before "
+"entering the next constriction."
+msgstr ""
+"Aún no está claro si esto siempre significa que :math:`v_{exp}` será muy "
+"pequeño en comparación con :math:`v_{constriction}`, pero esa parece ser la "
+"conclusión lógica. Por tanto, al calcular la pérdida de carga para un poro "
+"es razonable suponer que toda la energía cinética del chorro se pierde antes"
+" de entrar en la siguiente constricción."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:244
+msgid "Clarification Impacts"
+msgstr "Impactos de la aclaración"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:246
+msgid ""
+"The characteristic floc size could be set by the plate settlers that "
+"preferentially remove large flocs or it could be set by any of the high "
+"shear events on the path to or through the filter. We will estimate floc "
+"size from each of the potential shear and terminal velocity events. The "
+"calculations are done in :ref:`python below "
+"<heading_floc_size_and_velocity_gradient_calculations>`."
+msgstr ""
+"El tamaño característico del flóc podría ser determinado por los asentadores"
+" de placas que eliminan preferentemente los flócs grandes o podría ser "
+"determinado por cualquiera de los eventos de cizallamiento alto en el camino"
+" hacia o a través del filtro. Estimaremos el tamaño del flóc a partir de "
+"cada uno de los eventos potenciales de cizalladura y velocidad terminal. Los"
+" cálculos se realizan en :ref:`python below "
+"<heading_floc_size_and_velocity_gradient_calculations>`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:249
+msgid ""
+"The floc diameter that is not completely captured by plate settlers with a "
+"capture velocity of 0.12 mm/s (the capture velocity used by AguaClara) is 25"
+" :math:`\\mu m`."
+msgstr ""
+"El diámetro del flóculo que no es completamente capturado por los "
+"sedimentadores de placas con una velocidad de captura de 0,12 mm/s (la "
+"velocidad de captura utilizada por AguaClara) es de 25 :math:`\\mu m`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:252
+msgid "Velocity Gradient"
+msgstr "Gradiente de velocidad"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:254
+msgid ""
+"Almost all of the kinetic energy of the jet issuing from the constriction is"
+" dissipated in the downstream pore. We will assume that the majority of the "
+"head loss is due to the jet (rather than wall shear). The volume of a pore "
+"is given by"
+msgstr ""
+"Casi toda la energía cinética del chorro que sale de la constricción se "
+"disipa en el poro aguas abajo. Asumiremos que la mayor parte de la pérdida "
+"de carga se debe al chorro (más que al cizallamiento de la pared). El "
+"volumen de un poro está dado por"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:256
+msgid "\\forall_{pore} = \\phi\\Lambda_{pore}^3"
+msgstr "\\forall_{pore} = \\phi\\Lambda_{pore}^3"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:260
+msgid ""
+"The hydraulic residence time in a pore is obtained from the volume and flow "
+"rate through a pore."
+msgstr ""
+"El tiempo de residencia hidráulica en un poro se obtiene del volumen y "
+"caudal a través de un poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:262
+msgid ""
+"\\theta_{pore} = \\frac{\\forall_{pore}}{Q_{pore}} = "
+"\\frac{\\phi\\Lambda_{pore}^3}{v_a \\Lambda_{pore}^2} = "
+"\\frac{\\phi\\Lambda_{pore}}{v_a}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:266
+msgid ""
+"The Camp Stein velocity gradient in a pore is obtained by assuming that all "
+"of the input kinetic energy is dissipated through viscosity during the time "
+"that the water spends in the pore."
+msgstr ""
+"El gradiente de velocidad de Camp Stein en un poro se obtiene asumiendo que "
+"toda la energía cinética de entrada se disipa mediante la viscosidad durante"
+" el tiempo que el agua permanece en el poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:268
+msgid "\\tilde{G} = \\sqrt{\\frac{gh_{\\rm{L}}}{\\nu \\theta}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:272
+msgid ""
+"The head loss in the pore is from the jet kinetic energy. Substitute the "
+"equations for pore volume, residence time, and head loss to obtain the "
+"fundamental equation for the velocity gradient in a pore."
+msgstr ""
+"La pérdida de carga en el poro proviene de la energía cinética del chorro. "
+"Sustituye las ecuaciones para el volumen de los poros, el tiempo de "
+"residencia y la pérdida de carga para obtener la ecuación fundamental del "
+"gradiente de velocidad en un poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:274
+msgid ""
+"\\tilde{G} =\\bar v_{constriction} \\sqrt{\\frac{ v_a}{2\\nu "
+"\\phi\\Lambda_{pore}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:278
+msgid "The estimated value of this velocity gradient is *300 Hz*."
+msgstr "El valor estimado de este gradiente de velocidad es *300 Hz*."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:281
+msgid ""
+"We need to compare the constricted jet velocity gradient with the clean bed "
+"injection velocity gradient that occurs due to the fact that the approach "
+"velocity at the point of flow injection in StaRS filters is much higher than"
+" the average approach velocity. The flow injection area is approximately 2.5"
+" cm wide and serves an effective filter area (up and down!) of 20 cm "
+"(spacing between injection points is 10 cm.). Thus the approach velocity in "
+"current StaRS filters is 14.6 mm/s and the corresponding Camp Stein velocity"
+" gradient is *1440 Hz*."
+msgstr ""
+"Necesitamos comparar el gradiente de velocidad de inyección de chorro "
+"restringido con el gradiente de velocidad de inyección de lecho limpio que "
+"se produce debido a que la velocidad de aproximación en el punto de "
+"inyección del flujo en los filtros StaRS es mucho mayor que la velocidad "
+"media de aproximación. El área de inyección del flujo tiene aproximadamente "
+"2,5 cm de ancho y sirve para un área de filtro efectiva (¡arriba y abajo!) "
+"de 20 cm (el espaciamiento entre los puntos de inyección es de 10 cm). Así, "
+"la velocidad de aproximación en los filtros StaRS actuales es de 14,6 mm/s y"
+" el gradiente de velocidad correspondiente de Camp Stein es *1440 Hz*."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:284
+msgid ""
+"EstaRS filters have water falls from the filter inlet channel to inlet box. "
+"In recent designs the water flows through a narrow slot and then falls into "
+"the inlet box. The slot is about 3.4 cm wide and the water falls about 40 "
+"cm. The vertical velocity after dropping 40 cm is 2.8 m/s. The geometry of "
+"this water fall is complicated and we will assume the resulting jet is "
+"circular at impact with the water surface. The diameter of the jet is thus "
+"obtained from continuity and is equal to 9.5 cm.  Now we use the energy "
+"dissipation rate of a round jet to obtain *4300 Hz*. Thus the floc size "
+"could be set by the water fall in the inlet box since this is the highest "
+"velocity gradient on the path into and through the filter. However, our "
+"rough estimate based on wild extrapolation suggests that this would yield a "
+"36 :math:`\\mu m` diameter floc. This is larger than the flocs produced by "
+"the clarifier plate settlers and thus it is possible that even with this "
+"waterfall, that the floc size distribution is set by the clarifier plate "
+"settlers."
+msgstr ""
+"Los filtros EstaRS hacen que el agua cae desde el canal de entrada del "
+"filtro hasta la caja de entrada. En diseños recientes, el agua fluye por una"
+" ranura estrecha y luego cae en la caja de entrada. La ranura tiene unos 3,4"
+" cm de ancho y el agua cae unos 40 cm. La velocidad vertical tras descender "
+"40 cm es de 2,8 m/s. La geometría de esta caída es complicada y asumiremos "
+"que el chorro resultante es circular al impactar con la superficie del agua."
+" El diámetro del chorro se obtiene así por continuidad y es igual a 9,5 cm. "
+"Ahora usamos la tasa de disipación de energía de un chorro redondo para "
+"obtener *4300 Hz*. Así, el tamaño del flóculo podría determinarse por la "
+"caída de agua en la caja de entrada, ya que este es el gradiente de "
+"velocidad más alto en el camino hacia y a través del filtro. Sin embargo, "
+"nuestra estimación aproximada basada en extrapolaciones salvajes sugiere que"
+" esto daría un flóc de 36 :math:`\\mu m` de diámetro. Este es mayor que los "
+"flócs producidos por los asentadores de placas clarificadoras y, por tanto, "
+"es posible que, incluso con esta cascada, la distribución del tamaño del "
+"flóculo sea determinada por los asentadores de placas clarificadoras."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:286
+msgid ""
+"Note that the water fall height diminishes during a filter run as the water "
+"level in the inlet box increases due to head loss through the filter. Thus "
+"it is likely that the waterfall doesn't significantly break flocs."
+msgstr ""
+"Ten en cuenta que la altura de la caída de agua disminuye durante la prueba "
+"del filtro, ya que la nivel del agua en la caja de entrada aumenta debido a "
+"la pérdida de carga a través del filtro. Por tanto, es probable que la "
+"cascada no rompa significativamente los flocas."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:292
+msgid "Constriction Velocity"
+msgstr "Velocidad de constricción"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:294
+msgid ""
+"`Be sure to run the import code before trying any of the code examples "
+"linked in this section "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=iraCMmqY4sT2&line=1&uniqifier=1>`_"
+msgstr ""
+"`Asegúrate de ejecutar el código de importación antes de probar cualquiera "
+"de los ejemplos de código enlazados en esta sección "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=iraCMmqY4sT2&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:296
+msgid ""
+"The maximum velocity in a pore is set by the strength of the coagulant bonds"
+" and the size of the core particles that are being captured by the filter. "
+"The drag force on the core particle must be balanced by the chemical bond "
+"strength and that relationship is given by Equation "
+":eq:`Fbond_of_v_constriction`."
+msgstr ""
+"La velocidad máxima en un poro está determinada por la intensidad de los "
+"enlaces coagulantes y el tamaño de las partículas del núcleo que el filtro "
+"captura. La fuerza de arrastre sobre la partícula del núcleo debe "
+"equilibrarse con la intensidad del enlace químico y esa relación está dada "
+"por la Ecuación :eq:`Fbond_of_v_constriction`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:298
+msgid ""
+"The minimum diameter of a particle deposition constriction is set by the "
+"maximum constriction velocity, :math:`v_{constriction_{max}}`."
+msgstr ""
+"El diámetro mínimo de una constricción de deposición de partículas se "
+"determina por la velocidad máxima de constricción, "
+":math:`v_{constriction_{max}}`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:300
+msgid ""
+"  D_{constriction_{min}} = \\Lambda_{pore} \\sqrt\\frac{4 v_a}{\\pi "
+"v_{constriction_{max}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:305
+msgid ""
+"The head loss through a flow constriction can be estimated from the head "
+"loss through a flow expansion. We will use the form of the expansion "
+"Equation :eq:`eq_exp_v_in` that is based on the contraction velocity. The "
+"jet is assumed to expand sufficiently so that the residual kinetic energy is"
+" insignificant."
+msgstr ""
+"La pérdida de carga a través de una constricción de flujo puede estimarse "
+"desde el pérdida de carga a través de una expansión de flujo. Usaremos la "
+"forma de la ecuación de expansión :eq:`eq_exp_v_in` basada en la velocidad "
+"de contracción. Se asume que el chorro se expande lo suficiente como para "
+"que la energía cinética residual sea insignificante."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:307
+msgid "   h_{e_{constriction}} =  \\frac{\\bar v_{constriction_{max}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:312
+msgid "The number of deposited constrictions per unit depth in a filter is"
+msgstr ""
+"El número de constricciones depositadas por unidad de profundidad en un "
+"filtro es"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:314
+msgid "N_{constrictions_{series}} = \\frac{H_{filter}}{\\Lambda_{pore}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:318
+msgid ""
+"The total head loss in a filter if taken to the point where the active "
+"filtration zone exited the filter and all pores were constricted would be"
+msgstr ""
+"El pérdida de carga total en un filtro, si se lleva hasta el punto en que la"
+" zona de filtración activa sale del filtro y todos los poros se contraen, "
+"sería"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:320
+msgid ""
+"  h_{e_{filter_{max}}} = \\frac{H_{filter}}{\\Lambda_{pore}}  \\frac{\\bar "
+"v_{constriction_{max}}^2}{2g}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:325
+msgid ""
+"The effect of increasing the pore size on terminal head loss is to decrease "
+"the *final* head loss when the active zone reaches the bottom of the filter "
+"because of the effect of :math:`\\Lambda_{pore}`in the first term of "
+"Equation :eq:`eq_he_filter`. Note that this does not yet address the rate of"
+" head loss accumulation which is expected to be a function of sand grain "
+"diameter."
+msgstr ""
+"El efecto de aumentar el tamaño de los poros en la pérdida de carga terminal"
+" es disminuir la pérdida de carga *final* cuando la zona activa llega al "
+"fondo del filtro debido al efecto de :math:`\\Lambda_{pore}`en el primer "
+"término de la ecuación :eq:`eq_he_filter`. Cabe señalar que esto aún no "
+"aborda la tasa de acumulación de pérdida de carga , que se espera que sea "
+"función del diámetro de los granos de arena."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:327
+msgid ""
+"We can solve Equation :eq:`eq_he_filter` for maximum constriction velocity "
+"based on experimental measurements of the head loss at filter failure that "
+"is due to constrictions. Note that this head loss does NOT include the clean"
+" bed head loss."
+msgstr ""
+"Podemos resolver la Ecuación :eq:`eq_he_filter` para la velocidad máxima de "
+"constricción basándonos en mediciones experimentales del pérdida de carga en"
+" el fallo del filtro que se debe a las constricciones. Cabe señalar que este"
+" pérdida de carga NO incluye el lecho limpio pérdida de carga."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:329
+msgid ""
+"  v_{constriction_{max}} = \\sqrt{ "
+"\\frac{2g\\Lambda_{pore}}{H_{filter}}h_{e_{filter_{max}}}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:334
+msgid ""
+"From :numref:`figure_Head_loss_vs_time` we have an estimate of 80 cm of head"
+" loss through a 20 cm bed of 0.5 mm diameter sand. This gives an estimate of"
+" 163 mm/s for the constriction velocity. This can be combined with Equation "
+":eq:`Fbond_of_v_constriction` to estimate the coagulant bond strength to be "
+"3.9 nN."
+msgstr ""
+"A partir de :numref:`figure_Head_loss_vs_time` tenemos una estimación de 80 "
+"cm de pérdida de carga a través de una cama de arena de 0,5 mm de diámetro "
+"de 20 cm. Esto da una estimación de 163 mm/s para la velocidad de "
+"constricción. Esto puede combinarse con la Ecuación "
+":eq:`Fbond_of_v_constriction` para estimar la resistencia de la unión "
+"coagulante en 3,9 nN."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:340
+msgid "Shear Big Flocs"
+msgstr "Cizallar grandes flóculos"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:342
+msgid ""
+"Here we explore the possibility of breaking flocs as they enter the filter "
+"bed to eliminate large flocs that may be reducing filter performance."
+msgstr ""
+"Aquí exploramos la posibilidad de romper los flócs al entrar en el lecho "
+"filtrante para eliminar los flóculos grandes que puedan estar reduciendo el "
+"rendimiento del filtro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:344
+msgid ""
+"Primary particles have the lowest probability of hitting the wall in a "
+"constriction. Thus primary particles can travel the greatest distance "
+"through the active zone and still have a very small chance of being "
+"deposited near the end of the active zone. Thus it is possible that primary "
+"particles set the maximum length of the active zone and flocs tend to fill "
+"in the active zone at the upstream end. The larger the floc the more likely "
+"it will fill in an upstream constriction and thus shorten the active zone."
+msgstr ""
+"Las partículas primarias tienen la menor probabilidad de chocar contra la "
+"pared en una constricción. Así, las partículas primarias pueden recorrer la "
+"mayor distancia a través de la zona activa y aún así tener una probabilidad "
+"muy pequeña de depositarse cerca del final de la zona activa. Por tanto, es "
+"posible que las partículas primarias fijen la longitud máxima de la zona "
+"activa y que los flócs tiendan a llenar la zona activa en el extremo aguas "
+"arriba. Cuanto mayor es el flóc, más probable es que llene una constricción "
+"aguas arriba y, por tanto, acorte la zona activa."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:346
+msgid ""
+"This suggests that one way to improve filter performance is to have a zone "
+"of very high shear that rips flocs apart so that they don't fill in the "
+"upstream pores in the active zone so quickly. This is because smaller flocs "
+"will not be removed as efficiently by each constriction and thus they will "
+"penetrate deeper into the active zone. One possible method to create a high "
+"shear zone is to size the flow injection area to achieve high shear through "
+"the first sand grains. The idea is to shred incoming flocs so they have a "
+"lower probability of being removed per pore and thus more of these small "
+"flocs penetrate deeper into the active filtration zone before being "
+"captured. Smaller flocs are also more dense and thus don't fill up the "
+"available volume in the constrictions as fast as the large flocs that they "
+"came from."
+msgstr ""
+"Esto sugiere que una forma de mejorar el rendimiento del filtro es tener una"
+" zona de cizalladura muy alta que desgarre los flócs para que no llenen tan "
+"rápido los poros aguas arriba en la zona activa. Esto se debe a que los "
+"flócs más pequeños no se eliminan tan eficientemente en cada constricción y,"
+" por tanto, penetran más profundo en la zona activa. Un posible método para "
+"crear una zona de cizallamiento alta es dimensionar el área de inyección del"
+" flujo para lograr un alto cizallamiento a través de los primeros granos de "
+"arena. La idea es triturar los flócs entrantes para que tengan menos "
+"probabilidad de ser eliminados por poro y así más de estos flócs pequeños "
+"penetren más profundamente en la zona de filtración activa antes de ser "
+"capturados. Los flócs más pequeños también son más densos y, por tanto, no "
+"llenan el volumen disponible en las constricciones tan rápido como los "
+"flóclos grandes de los que proceden."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:348
+msgid ""
+"We need an estimate of the shear through the first pores as the water enters"
+" the sand. The Kozeny equation is valid up to a particle Reynolds number of "
+"1 (:eq:`eq_Re_porous_media`). The Reynolds number at this proposed flow "
+"injection site will be much larger than 1 and thus the Ergun equation "
+"(:eq:`eq_Ergun`) that is valid for laminar and turbulent flow in porous "
+"media will be used."
+msgstr ""
+"Necesitamos una estimación del corte a través de los primeros poros cuando "
+"el agua entra en la arena. La ecuación de Kozeny es válida hasta un número "
+"de Reynolds de partículas de 1 (:eq:`eq_Re_porous_media`). El número de "
+"Reynolds en este sitio de inyección de flujo propuesto será mucho mayor que "
+"1 y, por tanto, se utilizará la ecuación de Ergun (:eq:`eq_Ergun`), válida "
+"para flujo laminar y turbulento en medios porosos."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:350
+msgid ""
+"We will use the Camp Stein velocity gradient to estimate injection velocity "
+"required to create very small flocs. The important parameter for floc break "
+"up is a force that can be obtained from the velocity gradient multiplied by "
+"the dynamic viscosity."
+msgstr ""
+"Utilizaremos el gradiente de velocidad de Camp Stein para estimar la "
+"velocidad de inyección necesaria para crear flócs muy pequeños. El parámetro"
+" importante para la ruptura de flócs es una fuerza que se puede obtener a "
+"partir del gradiente de velocidad multiplicado por la viscosidad dinámica."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:352
+msgid ""
+"Solving :eq:`eq_G_CS_porous_media` for the approach velocity, :math:`v_a`, "
+"we obtain"
+msgstr ""
+"Resolviendo :eq:`eq_G_CS_porous_media` para la velocidad de aproximación, "
+":math:`v_a`, obtenemos"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:354
+msgid ""
+"v_a = \\left( \\tilde{G}^2 \\frac{2\\nu D_{sand}}{f_{\\phi}} "
+"\\frac{\\phi^4}{(1-\\phi)} \\right)^{\\frac{1}{3}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:358
+msgid ""
+"to estimate the injection area that should be used to break up flocs "
+"entering the sand bed."
+msgstr ""
+"estimar el área de inyección que debe usarse para descomponer los flócs que "
+"entran en el lecho de arena."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:364
+msgid "Floc Size Calculations"
+msgstr "Cálculos del tamaño del floc"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:366
+msgid ""
+"`Colab worksheet to make a figure showing the relationship between approach "
+"velocity and head loss. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=Mlv81ZYLi1Gc&line=25&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab para hacer una figura que muestre la relación "
+"entre la velocidad de aproximación y la pérdida de carga. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=Mlv81ZYLi1Gc&line=25&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:377
+msgid "Head loss Ergun and Kozeny"
+msgstr "pérdida de carga Ergun y Kozeny"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:377
+msgid ""
+"The Ergun and Kozeny equations are very similar even at approach velocities "
+"that are much larger than are used in rapid sand filtration. At very high "
+"velocities the turbulent term in the Ergun equation begins to be "
+"significant."
+msgstr ""
+"Las ecuaciones de Ergun y Kozeny son muy similares incluso a velocidades de "
+"aproximación mucho mayores que las utilizadas en la filtración rápida de "
+"arena. A velocidades muy altas, el término turbulento en la ecuación de "
+"Ergun comienza a ser significativo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:379
+msgid ""
+"`Colab worksheet to plot velocity gradient vs approach velocity. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=g4nn81gGi9aS&line=3&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab para graficar el gradiente de velocidad frente a "
+"la velocidad de aproximación. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=g4nn81gGi9aS&line=3&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:389
+msgid "G vs approach velocity"
+msgstr "G vs velocidad de aproximación"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:389
+msgid "The Camp Stein velocity gradient increases rapidly with approach velocity."
+msgstr ""
+"El gradiente de velocidad de Camp Stein aumenta rápidamente con la velocidad"
+" de aproximación."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:392
+msgid ""
+"`Colab worksheet designing the injection port width and injection velocity. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=KqQCyZaZjBJm&line=3&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab diseñando el ancho y la velocidad del puerto de "
+"inyección. "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=KqQCyZaZjBJm&line=3&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:394
+msgid ""
+"The analysis above suggests that the approach velocity required to break "
+"flocs down to a dimension of :math:`20 \\mu m` is approximately 80 mm/s. "
+"This is based on a VERY bad guesstimate of the relationship between floc "
+"size and shear."
+msgstr ""
+"El análisis anterior sugiere que la velocidad de aproximación necesaria para"
+" descomponer los flócs a una dimensión de :math:`20 \\mu m` es "
+"aproximadamente 80 mm/s. Esto se basa en una estimación MUY mala de la "
+"relación entre el tamaño del flóculo y el cizallamiento."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:396
+msgid ""
+"We need to know how much energy would be expended to force the water through"
+" this high velocity injection zone. Once the water enters the sand it will "
+"spread radially in all directions. As the water spreads it will slow down "
+"and the head loss per distance traveled will decrease. We need to integrate "
+"this head loss over the first few centimeters to get an estimate of the "
+"injection head loss."
+msgstr ""
+"Necesitamos saber cuánta energía se gastaría para forzar el agua a través de"
+" esta zona de inyección de alta velocidad. Una vez que el agua entra en la "
+"arena, se extenderá radialmente en todas las direcciones. A medida que el "
+"agua se dispersa, se ralentizará y la pérdida de carga por distancia "
+"recorrida disminuirá. Necesitamos integrar esta pérdida de carga en los "
+"primeros centímetros para obtener una estimación de la inyección pérdida de "
+"carga."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:398
+msgid ""
+"The velocity at distance r from the center of the injection line can be "
+"calculated from the velocity at :math:`r_0` by continuity."
+msgstr ""
+"La velocidad a la distancia r del centro de la línea de inyección puede "
+"calcularse a partir de la velocidad en :math:`r_0` mediante continuidad."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:400
+msgid "v_{a_r} r= v_{a_{r_0}} r_0"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:404
+msgid "v_{a_r}= v_{a_{r_0}} \\frac{r_0}{r}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:410
+msgid ""
+"dh_f= \\frac{dr}{2g D_{sand}} \\left( 300 \\frac{\\nu (1-\\phi)^2}{D_{sand} "
+"\\phi^3}v_a  + 3.5 \\frac{ (1-\\phi) }{\\phi^3}v_a^2 \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:414
+msgid "Now substitute for the approach velocity"
+msgstr "Ahora sustituya la velocidad de aproximación"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:416
+msgid ""
+"\\frac{dh_f}{dr}= \\frac{1}{2g D_{sand}} \\left[ 300 \\frac{\\nu "
+"(1-\\phi)^2}{D_{sand} \\phi^3}\\left(v_{a_{r_0}} \\frac{r_0}{r}\\right)  + "
+"3.5 \\frac{ (1-\\phi) }{\\phi^3} \\left(v_{a_{r_0}} \\frac{r_0}{r}\\right)^2"
+" \\right]"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:421
+msgid ""
+"dh_f= \\frac{v_{a_{r_0}}r_0}{2g D_{sand}} \\left[ 300 \\frac{\\nu "
+"(1-\\phi)^2}{D_{sand} \\phi^3}\\left( \\frac{1}{r}\\right)  + 3.5 \\frac{ "
+"(1-\\phi)v_{a_{r_0}}r_0 }{\\phi^3} \\left( \\frac{1}{r}\\right)^2 \\right] "
+"dr"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:425
+msgid "We will create terms to make the integration easier"
+msgstr "Crearemos condiciones para facilitar la integración"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:427
+msgid "a_0 = \\frac{v_{a_{r_0}}r_0}{2g D_{sand}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:431
+msgid "a_1 = 300 \\frac{\\nu (1-\\phi)^2}{D_{sand} \\phi^3}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:435
+msgid "a_2 = 3.5 \\frac{ (1-\\phi)v_{a_{r_0}}r_0 }{\\phi^3}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:439
+msgid ""
+"Now we set up the numerical integration and integrate from the injection "
+"site to the radius where the velocity is equal to the filtration velocity."
+msgstr ""
+"Ahora establecemos la integración numérica e integramos desde el lugar de "
+"inyección hasta el radio donde la velocidad es igual a la velocidad de "
+"filtración."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:441
+msgid ""
+"`For an inlet that service two layers, see this Colab worksheet to determine"
+" the head loss through the sand "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=PF8v34hSjJtx&line=11&uniqifier=1>`_"
+msgstr ""
+"`Para una entrada que da servicio a dos capas, consulta esta hoja de cálculo"
+" de Colab para determinar la pérdida de carga a través de la arena "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=PF8v34hSjJtx&line=11&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:443
+msgid ""
+"The analysis above suggests that a high velocity and high velocity gradient "
+"injection into the sand bed with the goal of breaking flocs into pieces that"
+" are 20 :math:`\\mu m` in diameter would require about 12 cm of head loss. "
+"This is based on the assumption that the water would be able to flow "
+"radially from the injection point and thus rapidly slow down. Thus the head "
+"loss rapidly decreases with distance from the injection point."
+msgstr ""
+"El análisis anterior sugiere que una inyección de alta velocidad y alto "
+"gradiente de velocidad en el lecho arenoso, con el objetivo de romper flócs "
+"en piezas de 20 :math:`\\mu m` de diámetro, requeriría unos 12 cm de pérdida"
+" de carga. Esto se basa en la suposición de que el agua podría fluir "
+"radialmente desde el punto de inyección y, por tanto, ralentizarse "
+"rápidamente. Así, la pérdida de carga disminuye rápidamente con la distancia"
+" desde el punto de inyección."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:445
+msgid ""
+"This is an experiment worth trying. It will help us understand if large "
+"flocs result in poorer filter performance."
+msgstr ""
+"Este es un experimento que merece la pena intentar. Nos ayudará a entender "
+"si los flóclos grandes resultan en un peor rendimiento del filtro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:448
+msgid "Floc Volume"
+msgstr "Volumen Floc"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:450
+msgid ""
+"The volume of solids deposited in one pore can be obtained based on the "
+"average diameter of clean pore constrictions, the diameter of the "
+"constricted pore after solids deposition, and the thickness of the deposit. "
+"We already have an estimate for the diameter of the constricted pore after "
+"solids deposition. The thickness of the deposit must be proportional to some"
+" other length scale. We initially hypothesized that the thickness of the "
+"deposit scaled with the diameter of the flocs that make it up. That led to "
+"the conclusion that increased coagulant dose would increase the total mass "
+"of solids that could be retained by the filter before breakthrough. That "
+"doesn't match experimental data and thus we now propose that the average "
+"thickness of the deposit scales with the sand grain size, or pore size, or "
+"pore separation distance. We will use the pore separation distance as our "
+"scaling parameter."
+msgstr ""
+"El volumen de sólidos depositados en un poro puede obtenerse en función del "
+"diámetro medio de las constricciones de poros limpios, el diámetro del poro "
+"contraído tras la deposición de sólidos y el grosor del depósito. Ya tenemos"
+" una estimación del diámetro del poro restringido tras la deposición de "
+"sólidos. El grosor del depósito debe ser proporcional a otra escala de "
+"longitud. Inicialmente planteamos la hipótesis de que el grosor del depósito"
+" escalaba con el diámetro de los flóculos que lo componen. Eso llevó a la "
+"conclusión de que un aumento de dosis de coagulante incrementaría la masa "
+"total de sólidos que podría ser retenido por el filtro antes de la ruptura. "
+"Esto no coincide con los datos experimentales y, por tanto, ahora proponemos"
+" que el grosor medio del depósito escala con el tamaño del grano de arena, o"
+" el tamaño del poro, o la distancia de separación de poros. Usaremos la "
+"distancia de separación de poros como nuestro parámetro de escala."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:452
+msgid ""
+"There are several options for estimating the areal extent of the "
+"constriction. We already have an estimate of the inner diameter of the "
+"constriction and thus all we need is an estimate of the outer extent of the "
+"deposited constriction.  One option would be to take the area of a circle "
+"defined by 3 spheres coming close together. That is a clear underestimate "
+"because the constriction must extend into the gaps between the spheres. A "
+"second option would be to use the porosity to estimate the average plane "
+"view area of the pores. If we assume that the pore must connect vertically "
+"and thus has a height :math:`\\Lambda_{pore}`, then the plane view area is "
+"given by"
+msgstr ""
+"Existen varias opciones para estimar la extensión de área de la "
+"constricción. Ya tenemos una estimación del diámetro interior de la "
+"constricción y, por tanto, solo necesitamos una estimación de la extensión "
+"exterior de la constricción depositada. Una opción sería tomar el área de un"
+" círculo definida por 3 esferas que se acercan. Eso es una clara "
+"subestimación porque la constricción debe extenderse hacia los huecos entre "
+"las esferas. Una segunda opción sería usar la porosidad para estimar el área"
+" media de visión plana de los poros. Si asumimos que el poro debe conectarse"
+" verticalmente y por tanto tiene una altura :math:`\\Lambda_{pore}`, "
+"entonces el área de visión plana está dada por"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:454
+msgid "A_{pore} = \\phi\\Lambda_{pore}^2"
+msgstr "A_{pore} = \\phi\\Lambda_{pore}^2"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:458
+msgid ""
+"The area of the deposit is obtained by subtracting the constriction opening "
+"from the previous equation."
+msgstr ""
+"El área del depósito se obtiene restando la abertura de constricción de la "
+"ecuación anterior."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:460
+msgid ""
+"A_{deposit} = \\Lambda_{pore}^2\\left(\\phi-\\frac{v_a}{ v_{constriction}} "
+"\\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:464
+msgid "The volume of the deposit is thus"
+msgstr "El volumen del depósito es por tanto"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:466
+msgid ""
+"\\forall_{deposit} = "
+"\\Pi_{pore}^{deposit}\\Lambda_{pore}^3\\left(\\phi-\\frac{v_a}{ "
+"v_{constriction}} \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:470
+msgid ""
+"where :math:`\\Pi_{pore}^{deposit}` a number much less than 1 that "
+"represents the fixed ratio between the thickness of the deposit and the pore"
+" separation distance."
+msgstr ""
+"donde :math:`\\Pi_{pore}^{deposit}` un número mucho menor que 1 que "
+"representa la razón fija entre el grosor del depósito y la distancia de "
+"separación de los poros."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:472
+msgid ""
+"The head loss per volume of particles deposited can be obtained by dividing "
+"the head loss per pore by the volume of particles per pore."
+msgstr ""
+"La pérdida de carga por volumen de partículas depositadas puede obtenerse "
+"dividiendo la pérdida de carga por poro por el volumen de partículas por "
+"poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:474
+msgid ""
+"h_{l_{per_{deposit}}} = \\frac{\\bar "
+"v_{constriction}^2}{2g\\Pi_{pore}^{deposit}\\Lambda_{pore}^3\\left(\\phi-\\frac{v_a}{"
+" v_{constriction}} \\right)}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:478
+msgid ""
+"If the primary goal for filter design were to decrease head loss per volume "
+"of solids deposited, then selecting larger sand (increasing "
+":math:`\\Lambda_{pore}`) would be the clear strategy. Increasing the sand "
+"diameter by a factor of two should decrease the head loss by a factor of 8. "
+"Increasing the approach velocity :math:`v_a`, results in a small increase in"
+" the head loss per volume of deposited material."
+msgstr ""
+"Si el objetivo principal del diseño del filtro fuera disminuir pérdida de "
+"carga por volumen de sólidos depositados, entonces seleccionar arena más "
+"grande (aumentando :math:`\\Lambda_{pore}`) sería la estrategia clara. "
+"Aumentar el diámetro de la arena por un factor de dos debería disminuir la "
+"pérdida de carga en un factor de 8. Aumentar la velocidad de aproximación "
+":math:`v_a`, resulta en un pequeño incremento del pérdida de carga por "
+"volumen de material depositado."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:480
+msgid ""
+"We need a method to connect turbidity removed by a filter into volume of "
+"deposited flocs. We will make this connection by first assuming that the "
+"flocs have a characteristic size based on a high shear event on their way "
+"into the filter. We begin with the relationship between the number of clay "
+"particles in a floc and the floc diameter."
+msgstr ""
+"Necesitamos un método para conectar la turbidez eliminada por un filtro en "
+"el volumen de flócs depositados. Haremos esta conexión asumiendo primero que"
+" los flóclos tienen un tamaño característico basado en un evento de "
+"cizallamiento alto en su camino hacia el filtro. Comenzamos con la relación "
+"entre el número de partículas de arcilla en un flóculo y el diámetro del "
+"flóc."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:482
+msgid "D_{floc} = D_{clay} n_{clay}^\\frac{1}{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:486
+msgid ""
+"Where :math:`\\Pi_{fractal}` is the volume based fractal dimension of a "
+"floc. We estimate :math:`\\Pi_{fractal}` to have a value of 2.1. We can "
+"rearrange this equation and solve for the number of clay particles in a "
+"floc."
+msgstr ""
+"Donde :math:`\\Pi_{fractal}` es la dimensión fractal basada en volumen de un"
+" flóculo. Estimamos :math:`\\Pi_{fractal}` tiene un valor de 2,1. Podemos "
+"reorganizar esta ecuación y resolver el número de partículas de arcilla en "
+"un flóculo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:488
+msgid "n_{clay} = \\left(\\frac{D_{floc}}{D_{clay}}\\right)^{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:492
+msgid ""
+"Now we can create a relationship for the concentration of clay in a floc "
+"dividing the mass of clay by the volume of the floc."
+msgstr ""
+"Ahora podemos crear una relación para la concentración de arcilla en un floc"
+" dividiendo la masa de arcilla por el volumen del flóculo."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:494
+msgid ""
+"C_{clay_{floc}} = "
+"\\frac{n_{clay}\\forall_{clay}\\rho_{clay}}{\\forall_{floc}} = "
+"\\frac{n_{clay}D_{clay}^3\\rho_{clay}}{D_{floc}^3}= "
+"\\frac{D_{clay}^3\\rho_{clay}}{D_{floc}^3}\\left(\\frac{D_{floc}}{D_{clay}}\\right)^{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:498
+msgid ""
+"With one more simplification we obtain the desired equation for the clay "
+"concentration in a floc of given diameter."
+msgstr ""
+"Con una simplificación más obtenemos la ecuación deseada para la "
+"concentración de arcilla en un flóc de diámetro dado."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:500
+msgid ""
+"C_{clay_{floc}} = \\rho_{clay} "
+"\\left(\\frac{D_{clay}}{D_{floc}}\\right)^{3-\\Pi_{fractal}}\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:503
+msgid ""
+"The mass of clay per pore is obtained by multiplying the deposit volume by "
+"the concentration of the flocs."
+msgstr ""
+"La masa de arcilla por poro se obtiene multiplicando el volumen de depósito "
+"por la concentración de los flocos."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:505
+msgid ""
+"M_{clay_{pore}} =\\rho_{clay}  "
+"\\Pi_{pore}^{deposit}\\Lambda_{pore}^3\\left(\\phi-\\frac{v_a}{ "
+"v_{constriction}} "
+"\\right)\\left(\\frac{D_{clay}}{D_{floc}}\\right)^{3-\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:509
+msgid ""
+"The mass of clay per plan view area of the filter is obtained by multiplying"
+" by the number of pores per depth of the filter and dividing by the plan "
+"view area of a pore, :math:`\\Lambda_{pore}^2`."
+msgstr ""
+"La masa de arcilla por área de vista en planta del filtro se obtiene "
+"multiplicando por el número de poros por profundidad del filtro y dividiendo"
+" por el área de vista en planta de un poro, :math:`\\Lambda_{pore}^2`."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:511
+msgid ""
+"M_{clay_{filter}} =H_{filter} \\rho_{clay}  "
+"\\Pi_{pore}^{deposit}\\left(\\phi-\\frac{v_a}{ v_{constriction}} "
+"\\right)\\left(\\frac{D_{clay}}{D_{floc}}\\right)^{3-\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:515
+msgid ""
+"According to this model, the mass of clay that can be held by a filter "
+"increases linearly with filter depth. The retained mass is independent of "
+"the sand size. This is an easy hypothesis to test. Note, however, that this "
+"model does not account for the depth of the active zone. Presumably the "
+"active zone depth may be greater for larger diameter media and thus "
+"breakthrough may occur sooner for larger diameter media."
+msgstr ""
+"Según este modelo, la masa de arcilla que puede retener un filtro aumenta "
+"linealmente con la profundidad del filtro. La masa retenida es independiente"
+" del tamaño de la arena. Esta es una hipótesis fácil de comprobar. Sin "
+"embargo, hay que tener en cuenta que este modelo no tiene en cuenta la "
+"profundidad de la zona activa. Presumiblemente, la profundidad de la zona "
+"activa puede ser mayor para medios de mayor diámetro y, por tanto, la "
+"ruptura puede producirse antes para medios de mayor diámetro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:517
+msgid ""
+"If coagulant dose increases it will have two effects. The primary particle "
+"attachment strength will increase, the constricted velocity will increase, "
+"and the mass retained will increase. The size of the flocs will also "
+"increase and that will result in a slight decrease in the retained mass."
+msgstr ""
+"Si dosis de coagulante aumenta, tendrá dos efectos. La resistencia primaria "
+"de unión de partículas aumentará, la velocidad restringida aumentará y la "
+"masa retenida aumentará. El tamaño de los flócs también aumentará y eso "
+"resultará en una ligera disminución de la masa retenida."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:519
+msgid ""
+"Thus it isn't immediately clear how changing the coagulant dose will change "
+"the maximum mass of retained particles. The evidence from the AguaClara "
+"filter theory team is that the mass of clay retained decreases as the "
+"coagulant dose increases."
+msgstr ""
+"Por tanto, no está claro de inmediato cómo cambiar el dosis de coagulante "
+"cambiará la masa máxima de partículas retenidas. La evidencia del equipo de "
+"teoría de filtros de AguaClara indica que la masa de arcilla retenida "
+"disminuye a medida que aumenta la dosis de coagulante ."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:521
+msgid ""
+"The head loss per mass of particles deposited can be obtained by dividing "
+"the head loss per pore by the mass per pore."
+msgstr ""
+"La pérdida de carga por masa de partículas depositadas puede obtenerse "
+"dividiendo el pérdida de carga por poro entre la masa por poro."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:523
+msgid ""
+"h_{e_{permassclay}} = \\frac{\\bar v_{constriction_{max}}^2}{2g\\rho_{clay}"
+"  \\Pi_{pore}^{deposit}\\Lambda_{pore}^3\\left(\\phi-\\frac{v_a}{ "
+"v_{constriction}} "
+"\\right)}\\left(\\frac{D_{floc}}{D_{clay}}\\right)^{3-\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:527
+msgid ""
+"The head loss per mass of solids removed is significantly lower for larger "
+"sand sizes. When the coagulant dose increases the head loss increases "
+"rapidly because the constricted velocity increases and the floc diameter "
+"increases. Unfortunately we do not yet have a model describing floc size as "
+"a function of both velocity gradient and coagulant nanoparticle coverage."
+msgstr ""
+"La pérdida de carga por masa de sólidos eliminados es significativamente "
+"menor para tamaños de arena de mayor tamaño. Cuando la dosis de coagulante "
+"aumenta, la pérdida de carga aumenta rápidamente porque la velocidad "
+"restringida aumenta y el diámetro del flóculo aumenta. Desafortunadamente, "
+"aún no disponemos de un modelo que describa el tamaño del flóculum en "
+"función tanto del gradiente de velocidad como de la cobertura de "
+"nanopartículas coagulantes."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:532
+msgid ""
+"Particle removal is complicated. We hypothesize that flocs form the deposits"
+" that change the flow from being wall shear dominated with a parabolic "
+"velocity profile to being uniform velocity flow through the constrictions. "
+"This uniform velocity profile transports a very small fraction of clay "
+"particles close enough to the deposit to be captured."
+msgstr ""
+"La eliminación de partículas es complicada. Hipotetizamos que los flócs "
+"forman los depósitos que cambian el flujo de ser dominados por cizalladura "
+"de pared con un perfil de velocidad parabólica a ser un flujo de velocidad "
+"uniforme a través de las constricciones. Este perfil de velocidad uniforme "
+"transporta una fracción muy pequeña de partículas de arcilla lo "
+"suficientemente cerca del depósito para ser capturadas."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:534
+msgid ""
+"During filter ripening the particles that pass through the filter would be "
+"expected to be the primary particles because removal efficiency increases "
+"very rapidly with size. During the main part of the filter run the escaping "
+"particles are primary particles that weren't captured by the actively "
+"growing deposits. Breakthrough at the end of the filter run is caused by "
+"both primary particles and flocs."
+msgstr ""
+"Durante la maduración del filtro, se esperaría que las partículas que pasan "
+"a través del filtro sean las primarias porque la eficiencia de eliminación "
+"aumenta muy rápidamente con el tamaño. Durante la parte principal del "
+"filtro, las partículas que escapan son partículas primarias que no fueron "
+"capturadas por los depósitos en crecimiento activo. El avance al final del "
+"filtro es causado tanto por partículas primarias como por flócs."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:536
+msgid ""
+"The flocs form a series of actively growing deposits. The number of actively"
+" growing deposits in series is possibly a function of the average volume of "
+"the flocs (smaller flocs result in more active deposits) and the volume "
+"fraction of the flocs normalized by the volume fraction of the primary "
+"particles. If this dimensionless volume fraction increases there may be more"
+" active deposits and hence improved removal of primary particles."
+msgstr ""
+"Los flócs forman una serie de depósitos en crecimiento activo. El número de "
+"depósitos en crecimiento activo en serie posiblemente dependa del volumen "
+"medio de los flócs (los flócs más pequeños resultan en depósitos más "
+"activos) y de la fracción volumétrica de los flócs normalizada por la "
+"fracción volumétrica de las partículas primarias. Si esta fracción "
+"volumétrica adimensional aumenta, puede haber más depósitos activos y, por "
+"tanto, una mejor eliminación de partículas primarias."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:539
+msgid "Proposed Experiments"
+msgstr "Experimentos propuestos"
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:541
+msgid ""
+"Compare different sizes of sand media. Expect to get poorer removal "
+"efficiency with larger sand sizes, similar mass of particles retained at "
+"breakthrough, and much lower head loss."
+msgstr ""
+"Compara diferentes tamaños de medios arenados. Espera obtener una menor "
+"eficiencia de extracción con arenas de mayor tamaño, masa similar de "
+"partículas retenidas en el momento de la ruptura y mucho menor pérdida de "
+"carga."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:542
+msgid ""
+"dual media. expect to find less head loss and poorer performance than single"
+" small media. And expect the smaller media to not contribute anything."
+msgstr ""
+"Medios duales. Espera encontrar menos pérdida de carga y un rendimiento peor"
+" que los medios pequeños individuales. Y espera que los medios pequeños no "
+"aporten nada."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:543
+msgid ""
+"How small could the sand media be? We could get better filter performance if"
+" we used smaller sand. Shallow sand beds are apparently fine and if we used "
+"smaller diameter sand the filter layer depth could be reduced even more. Why"
+" not use a 0.2 mm sand and 5 cm sand layers? If we offset the inlet and "
+"outlet branches (with branches spaced on 10 cm centers and inlet and outlet "
+"branches offset by 5 cm) there would still be a significant path length."
+msgstr ""
+"¿Qué tamaño podría tener el medio de arena? Podríamos obtener mejor "
+"rendimiento del filtro si usáramos arena más pequeña. Las camas de arena "
+"poco profundas aparentemente están bien y si usáramos arena de menor "
+"diámetro, la profundidad de la capa filtrante podría reducirse aún más. ¿Por"
+" qué no usar una capa de arena de 0,2 mm y capas de arena de 5 cm? Si "
+"desplazamos las ramas de entrada y salida (con las ramas separadas en "
+"centros de 10 cm y las ramas de entrada y salida desplazadas en 5 cm), "
+"seguiría habiendo una longitud significativa del camino."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:544
+msgid ""
+"Floc amendment. We could add floc hopper particles to the filter to increase"
+" the ratio of flocs to primary particles. Presumably this would reduce "
+"effluent turbidity IF there aren't many primary particles in the floc "
+"hopper. We could compare the prospects of using smaller sand grains vs "
+"adding floc amendment as strategies to get higher performing filters."
+msgstr ""
+"Enmienda de floc. Podríamos añadir tolva de lodos partículas al filtro para "
+"aumentar la proporción de flócs respecto a partículas primarias. "
+"Presumiblemente esto reduciría la turbidez del efluente SI no hay muchas "
+"partículas primarias en el tolva de lodos. Podríamos comparar las "
+"perspectivas de usar granos de arena más pequeños frente a añadir enmienda "
+"de flóculo como estrategias para obtener filtros de mayor rendimiento."
+
+#: ../../Filtration/Filtration_Theory_and_Future_Work.rst:545
+msgid ""
+"Now that we know that sand doesn't remove clay without the help of flocs, "
+"could we invent a filter that could capture clay and other primary particles"
+" without requiring ripening? We need a filter media that has sharp edges or "
+"sudden constrictions that create high velocity near the edge. Washers with "
+"holes the size of constrictions aren't available."
+msgstr ""
+"Ahora que sabemos que la arena no elimina la arcilla sin la ayuda de flocas,"
+" ¿podríamos inventar un filtro que pudiera capturar arcilla y otras "
+"partículas primarias sin necesidad de madurar? Necesitamos un medio "
+"filtrante con bordes afilados o constricciones repentinas que creen alta "
+"velocidad cerca del borde. No hay arandelas con agujeros del tamaño de las "
+"constricciones disponibles."
+

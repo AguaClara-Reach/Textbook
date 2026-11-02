@@ -42,7 +42,7 @@ Edit the configurations to create new models of the full plant. Send us `feedbac
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
+  :target: ../AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

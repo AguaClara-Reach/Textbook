@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Textbook_Creation_Help/translating.rst:4
+msgid "Translating the Textbook"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:6
+msgid "English is the authoritative source language for the textbook. Spanish is maintained in gettext PO catalogs so that both editions share the same structure, equations, figures, cross-references, and source files."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:11
+msgid "Terminology"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:13
+msgid "Follow the `English-Spanish technical translation guide <https://github.com/AguaClara-Reach/Textbook/blob/master/TECHNICAL_TRANSLATION_GUIDE_EN_ES.md>`_ for all technical terminology. Add new terms to that guide when translators agree on a preferred translation. Product names, equations, chemical formulas, and SI unit symbols should not be translated."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:20
+msgid "Updating the Spanish Catalogs"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:22
+msgid "From the ``Textbook`` directory, extract the current English messages and merge them into the Spanish catalogs::"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:28
+msgid "Edit files under ``locale/es/LC_MESSAGES``. Do not edit the generated POT files to translate content. Changed English messages become fuzzy or untranslated and are not displayed until they are translated and published by the automated translation workflow."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:34
+msgid "Testing"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:36
+msgid "Build both editions before submitting a pull request::"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:41
+msgid "Check that cross-references, equations, terminology, units, image captions, and the language switcher work in both editions. Pull requests automatically run both builds."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:46
+msgid "Review Policy"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:48
+msgid "The Spanish edition is machine translated and clearly identified as such on every page. Azure translations that pass the structural checks may be published without prior human review. Corrections from Spanish-speaking subject-matter reviewers are encouraged, especially for specifications, operating instructions, safety information, and technical terminology."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:54
+msgid "RST authoring examples that demonstrate literal backtick and role syntax are intentionally retained in English. Their purpose is to show the exact source markup rather than provide textbook content to Spanish readers."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:59
+msgid "Weblate Integration"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:61
+msgid "The repository is ready to connect to a Weblate project. Configure Weblate to use the POT templates in ``Textbook/locale/pot`` and translations in ``Textbook/locale/<language>/LC_MESSAGES``. Enable Weblate's **Update PO files to match POT (msgmerge)** add-on for the project. Weblate should submit translation changes through pull requests so that the bilingual Sphinx build must pass before catalogs are merged."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:68
+msgid "The external Weblate project is not created automatically because its hosting, ownership, access, and reviewer permissions must be selected by an AguaClara Reach repository administrator."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:73
+msgid "Automated Translation with Azure"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:75
+msgid "The repository includes ``scripts/translate_po_azure.py`` for preparing a terminology-guided machine translation. Copy ``.azure-translator.env.example`` to ``.azure-translator.env`` and enter the resource key, endpoint, and region. The credentials file is ignored by Git and must never be committed."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:80
+msgid "Check the connection and preview the quota without modifying catalogs::"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:85
+msgid "Translate and publish a small sample for review::"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:89
+msgid "After reviewing the sample, translate and publish all remaining and fuzzy entries with::"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/translating.rst:94
+msgid "The tool protects Sphinx roles, links, substitutions, numbers, and placeholders; applies multiword terminology from the technical translation guide; rate-limits requests for the Azure F0 tier; and rejects entries that fail structural checks. Details of rejected entries are written to ``_build/azure-translation-report.json``."
+msgstr ""

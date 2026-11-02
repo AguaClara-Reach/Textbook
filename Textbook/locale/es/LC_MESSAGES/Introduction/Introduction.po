@@ -1,0 +1,2519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Introduction/Introduction.rst:12
+msgid "The Physics of Water Treatment Design"
+msgstr "La física del diseño tratamiento de agua "
+
+#: ../../Introduction/Introduction.rst:17
+msgid "A Different Kind of Textbook"
+msgstr "Un tipo diferente de libro de texto"
+
+#: ../../Introduction/Introduction.rst:19
+msgid ""
+"This textbook represents our cumulative insights from our journey that has "
+"been motivated by a quest to make the world a better place where everyone "
+"has access to safe water on tap, the engineering challenge of optimizing the"
+" design of drinking water treatment plants, and the curiosity to understand "
+"what controls their performance. We would like to understand what determines"
+" which contaminants make it the whole way through a water treatment plant. "
+"If we could understand what allows some contaminants to sneak the whole way "
+"through a water treatment plant, then we suspect that we could create better"
+" designs to more effectively remove contaminants."
+msgstr ""
+"Este libro de texto representa nuestras ideas acumuladas de nuestro viaje, "
+"motivado por la búsqueda de hacer del mundo un lugar mejor donde todos "
+"tengan acceso a agua segura del grifo, el reto de ingeniería de optimizar el"
+" diseño de las plantas de tratamiento de agua potable y la curiosidad por "
+"entender qué controla su rendimiento. Nos gustaría entender qué determina "
+"qué contaminantes atraviesan toda una planta tratamiento de agua . Si "
+"pudiéramos entender qué permite que algunos contaminantes se colen por toda "
+"una planta tratamiento de agua , entonces sospechamos que podríamos crear "
+"mejores diseños para eliminar contaminantes de forma más eficaz."
+
+#: ../../Introduction/Introduction.rst:21
+msgid ""
+"Engineering textbooks provide a venue for authors to share what they've "
+"learned, to organize ideas, and to provide a guide for engineers as they "
+"design solutions for real world problems. Engineering textbooks are often "
+"intended to document the established core of knowledge. It seems reasonable "
+"to assume that what is in textbooks and in peer reviewed literature is "
+"mostly true."
+msgstr ""
+"Los libros de texto de ingeniería ofrecen un espacio para que los autores "
+"compartan lo aprendido, organicen ideas y proporcionen una guía para los "
+"ingenieros mientras diseñan soluciones para problemas reales. Los libros de "
+"texto de ingeniería suelen estar destinados a documentar el núcleo "
+"establecido del conocimiento. Parece razonable suponer que lo que aparece en"
+" los libros de texto y en la literatura revisada por pares es mayormente "
+"cierto."
+
+#: ../../Introduction/Introduction.rst:26
+msgid "The Edge of Knowledge"
+msgstr "El límite del conocimiento"
+
+#: ../../Introduction/Introduction.rst:28
+msgid ""
+"The assumption that what is written and passed down in oral history through "
+"the scientific community is true can lead to missed opportunities and lost "
+"insights. The hypotheses from one generation of scientists can too easily "
+"evolve into new theories in the next generation and then into established "
+"theories for the next. The history of drinking water treatment science is "
+"cloudy (think high turbidity!) with hypotheses that miss or misrepresent key"
+" concepts."
+msgstr ""
+"La suposición de que lo que se escribe y se transmite en la historia oral a "
+"través de la comunidad científica es cierto puede llevar a oportunidades "
+"perdidas y a pérdidas de ideas. Las hipótesis de una generación de "
+"científicos pueden evolucionar demasiado fácilmente en nuevas teorías en la "
+"siguiente generación y luego en teorías establecidas en la siguiente. La "
+"historia del consumo de alcohol tratamiento de agua ciencia es confusa "
+"(¡piensa en la alta turbidez!) con hipótesis que pasan por alto o "
+"tergiversan conceptos clave."
+
+#: ../../Introduction/Introduction.rst:30
+msgid ""
+"You might wonder why we care so much about getting the science right and "
+"being as clear as possible about what is known. After all, the core drinking"
+" water treatment technologies were invented before we were born and many of "
+"us have safe drinking water coming from our taps. Environmental Engineers "
+"have known how to design municipal drinking water treatment plants since "
+"they early 1900's. We care about getting the science right because we "
+"hypothesize that there are many opportunities to significantly improve "
+"drinking water treatment technologies and that improved understandings of "
+"each unit process have the potential to lead to new breakthroughs."
+msgstr ""
+"Quizá te preguntes por qué nos importa tanto acertar con la ciencia y ser lo"
+" más claros posible sobre lo que se sabe. Al fin y al cabo, las tecnologías "
+"de tratamiento de agua de consumo se inventaron antes de que naciéramos y "
+"muchos de nosotros tenemos agua potable seguros que provienen de nuestros "
+"grifos. Los ingenieros medioambientales han sabido diseñar plantas "
+"municipales de tratamiento de agua de consumo desde sus primeros 1900. Nos "
+"importa acertar con la ciencia porque planteamos la hipótesis de que existen"
+" muchas oportunidades para mejorar significativamente las tecnologías de "
+"tratamiento de agua de consumo y que una mejor comprensión de cada proceso "
+"unitario tiene el potencial de conducir a nuevos avances."
+
+#: ../../Introduction/Introduction.rst:32
+msgid ""
+"Our contention is that no one has ever optimized the design of a drinking "
+"water treatment plant! We are reasonably certain of this because we don't "
+"yet have models (with equations) that describe performance of most of the "
+"core unit processes (rapid mix, flocculation, floc filters, plate settlers, "
+"sand filtration) used for surface water treatment. The only possible "
+"exception is plate settlers which can be characterized if we know the size "
+"and density distribution of the particles."
+msgstr ""
+"Nuestra afirmación es que nadie ha optimizado jamás el diseño de una planta "
+"de tratamiento de agua bebedora! Estamos razonablemente seguros de esto "
+"porque aún no disponemos de modelos (con ecuaciones) que describan el "
+"rendimiento de la mayoría de los procesos unitarios centrales (mezcla "
+"rápida, floculación, filtros floc, sedimentadores de placas, filtración de "
+"arena) usados para tratamiento de agua superficiales. La única posible "
+"excepción son los sedimentadores de placas, que pueden caracterizarse si "
+"conocemos el tamaño y la distribución de densidad de las partículas."
+
+#: ../../Introduction/Introduction.rst:34
+msgid ""
+"Traditional drinking water treatment textbooks can too easily miss the "
+"opportunity to advance the science of drinking water treatment technologies "
+"by presenting certainty where there should be skepticism. For example, rapid"
+" mix is described as process that occurs in a few seconds, flocculation is "
+"described as a process that should be fastest for high turbidity waters and "
+"slowest for low turbidity waters, and filtration performance is described by"
+" a model that predicts first order removal with respect to filter bed depth."
+" We will demonstrate why each of these assumptions doesn't match "
+"observations, we will discuss new insights into these processes, and we will"
+" identify high priority research questions that have the potential to lead "
+"to major improvements in drinking water treatment."
+msgstr ""
+"Los libros tradicionales de tratamiento de agua de consumo pueden perder "
+"fácilmente la oportunidad de avanzar en la ciencia de las tecnologías de "
+"tratamiento de agua al presentar certezas donde debería haber escepticismo. "
+"Por ejemplo, mezcla rápida se describe como un proceso que ocurre en pocos "
+"segundos, la floculación se describe como un proceso que debería ser más "
+"rápido para aguas de alta turbidez y más lento para aguas de baja turbidez, "
+"y el rendimiento de filtración se describe mediante un modelo que predice la"
+" eliminación de primer orden respecto a lecho filtrante profundidad. "
+"Demostraremos por qué cada una de estas suposiciones no coincide con las "
+"observaciones, discutiremos nuevas perspectivas sobre estos procesos e "
+"identificaremos preguntas de investigación de alta prioridad que puedan "
+"conducir a mejoras importantes en el tratamiento de agua de beber."
+
+#: ../../Introduction/Introduction.rst:36
+msgid ""
+"We want to encourage skepticism and we want to develop insights to guide "
+"thoughtful skepticism. A key skill for successful engineering is the ability"
+" to identify the location of the edge of knowledge. The ability to "
+"distinguish between what is reasonably certain and what is still in question"
+" is what powers the scientific method of slowly extending knowledge. New "
+"insights are difficult to obtain if the research is based on a faulty "
+"premise."
+msgstr ""
+"Queremos fomentar el escepticismo y queremos desarrollar ideas que guíen un "
+"escepticismo reflexivo. Una habilidad clave para una ingeniería exitosa es "
+"la capacidad de identificar la ubicación del límite del conocimiento. La "
+"capacidad de distinguir entre lo que es razonablemente seguro y lo que aún "
+"está en cuestión es lo que impulsa el método científico de ampliar "
+"lentamente el conocimiento. Es difícil obtener nuevos conocimientos si la "
+"investigación se basa en una premisa errónea."
+
+#: ../../Introduction/Introduction.rst:45
+msgid "internal figure"
+msgstr "Figura interna"
+
+#: ../../Introduction/Introduction.rst:45
+msgid ""
+"We've learned that we can find the edge of knowledge very soon after we "
+"begin researching a water treatment technology (artwork created by Yi Wen Ng"
+" in 2012)."
+msgstr ""
+"Hemos aprendido que podemos encontrar el límite del conocimiento muy pronto "
+"después de comenzar a investigar una tecnología tratamiento de agua (obra "
+"creada por Yi Wen Ng en 2012)."
+
+#: ../../Introduction/Introduction.rst:47
+msgid ""
+"There are significant knowledge gaps in every process that we cover in this "
+"textbook. We aren’t yet able to optimize surface water treatment processes "
+"because we don’t yet understand the fundamental physics of many of the "
+"processes. We are getting closer, join us on the journey."
+msgstr ""
+"Existen lagunas de conocimiento significativas en cada proceso que cubrimos "
+"en este libro de texto. Aún no somos capaces de optimizar los procesos de "
+"tratamiento de agua superficiales porque aún no entendemos la física "
+"fundamental de muchos de ellos. Nos estamos acercando, únete a nosotros en "
+"este camino."
+
+#: ../../Introduction/Introduction.rst:49
+msgid ""
+"We need the brightest and the best to create new and better solutions so we "
+"can meet the goal of providing everyone with safe drinking water. This "
+"challenge is apparently more difficult than building a space station, "
+"designing a fuel cell, or inventing the world wide web. So let’s roll up our"
+" sleeves and begin."
+msgstr ""
+"Necesitamos a los más brillantes y mejores para crear soluciones nuevas y "
+"mejores y así poder alcanzar el objetivo de proporcionar a todos agua "
+"potable seguros. Este desafío es aparentemente más difícil que construir una"
+" estación espacial, diseñar una pila de combustible o inventar la red "
+"mundial. Así que arremangemos y empecemos."
+
+#: ../../Introduction/Introduction.rst:51
+msgid "Don't believe everything we say. Ask lots of questions:"
+msgstr "No creas todo lo que decimos. Haz muchas preguntas:"
+
+#: ../../Introduction/Introduction.rst:53
+msgid ""
+"How do you know that? The goal here is to identify the difference between "
+"what is known and what is hypothesized."
+msgstr ""
+"¿Cómo lo sabes? El objetivo aquí es identificar la diferencia entre lo que "
+"se sabe y lo que se hipotetiza."
+
+#: ../../Introduction/Introduction.rst:54
+msgid ""
+"What is the equation that describes the physics of this process? If there "
+"isn't an equation that describes the process and that can be used to design "
+"the reactor for the process, then it is likely that the physics of the "
+"process is not yet understood."
+msgstr ""
+"¿Cuál es la ecuación que describe la física de este proceso? Si no existe "
+"una ecuación que describa el proceso y que pueda usarse para diseñar el "
+"reactor para el proceso, entonces es probable que la física del proceso aún "
+"no se comprenda."
+
+#: ../../Introduction/Introduction.rst:55
+msgid ""
+"How could we improve this process? If the physics of a process are fully "
+"understood, then dimensionally correct equations can be used to obtain the "
+"optimal design for that process."
+msgstr ""
+"¿Cómo podríamos mejorar este proceso? Si se entiende completamente la física"
+" de un proceso, entonces se pueden utilizar ecuaciones dimensionalmente "
+"correctas para obtener el diseño óptimo de ese proceso."
+
+#: ../../Introduction/Introduction.rst:56
+msgid ""
+"Is the process design based on \"rules of thumb\" or on physics? \"Rules of "
+"thumb\" or empirical design guidelines often can be identified by the use of"
+" physical parameters that have units. For example, if the design guideline "
+"specifies a length, time, or velocity then it is likely that the guideline "
+"is not based on physics. If the design guidelines are based on a "
+"dimensionless parameter then it is possible that it is based on physics."
+msgstr ""
+"¿El diseño del proceso se basa en \"reglas generales\" o en la física? Las "
+"\"reglas generales\" o las directrices empíricas de diseño a menudo pueden "
+"identificarse mediante el uso de parámetros físicos que tienen unidades. Por"
+" ejemplo, si la directriz de diseño especifica una longitud, tiempo o "
+"velocidad, entonces es probable que la guía no se base en la física. Si las "
+"directrices de diseño se basan en un parámetro adimensional, entonces es "
+"posible que se basen en la física."
+
+#: ../../Introduction/Introduction.rst:57
+msgid ""
+"Evaluate the data to see if it matches predictions of the hypothesized "
+"model. Assess whether the authors acknowledge when their data doesn't match "
+"hypothesized models."
+msgstr ""
+"Evalúa los datos para ver si coinciden con las predicciones del modelo "
+"hipotético. Evalúa si los autores reconocen cuando sus datos no coinciden "
+"con los modelos hipotéticos."
+
+#: ../../Introduction/Introduction.rst:58
+msgid ""
+"Beware of the use of words that are poorly defined and that hide "
+"uncertainty. For example, creating a name for a supposed mechanism to "
+"describe all of the observations that don't fit with your theory does NOT "
+"mean that you understand that mechanism. The ability to name something "
+"doesn't mean it is understood (see \"sweep\" flocculation as an example)."
+msgstr ""
+"Ten cuidado con el uso de palabras mal definidas que ocultan incertidumbre. "
+"Por ejemplo, crear un nombre para un supuesto mecanismo que describa todas "
+"las observaciones que no encajan con tu teoría NO significa que entiendas "
+"ese mecanismo. La capacidad de nombrar algo no significa que se entienda "
+"(véase la floculación \"barrido\" como ejemplo)."
+
+#: ../../Introduction/Introduction.rst:59
+msgid ""
+"Does this “theory” provide insights that have led to new discoveries or new "
+"applications?"
+msgstr ""
+"¿Aporta esta \"teoría\" perspectivas que han llevado a nuevos "
+"descubrimientos o nuevas aplicaciones?"
+
+#: ../../Introduction/Introduction.rst:60
+msgid ""
+"Does the “theory” include equations that are based on the fundamental laws "
+"of nature?"
+msgstr ""
+"¿La \"teoría\" incluye ecuaciones basadas en las leyes fundamentales de la "
+"naturaleza?"
+
+#: ../../Introduction/Introduction.rst:61
+msgid "Does the “theory” use dimensionless constants that are close to one?"
+msgstr "¿La \"teoría\" utiliza constantes adimensionales que se acercan a uno?"
+
+#: ../../Introduction/Introduction.rst:62
+msgid "Is it an elegant “theory” with no need for special cases?"
+msgstr "¿Es una \"teoría\" elegante sin necesidad de casos especiales?"
+
+#: ../../Introduction/Introduction.rst:67
+msgid "Uncertainty in Science and Engineering"
+msgstr "Incertidumbre en la ciencia y la ingeniería"
+
+#: ../../Introduction/Introduction.rst:69
+msgid ""
+"A challenge for authors is to recognize the difference between what is known"
+" with a reasonably high degree of certainty and what is assumed to be true "
+"without a solid basis. We struggle to tell the difference between fact and "
+"hypothesis. The time-honored approach in science is to rely on the peer "
+"review process. That process for vetting knowledge has been shown to be "
+"flawed."
+msgstr ""
+"Un reto para los autores es reconocer la diferencia entre lo que se sabe con"
+" un grado razonablemente alto de certeza y lo que se asume que es cierto sin"
+" una base sólida. Nos cuesta distinguir entre hecho e hipótesis. El enfoque "
+"tradicional en la ciencia es confiar en el proceso de revisión por pares. "
+"Ese proceso para verificar el conocimiento ha demostrado ser defectuoso."
+
+#: ../../Introduction/Introduction.rst:71
+msgid ""
+"Your question could be whether the distinction between fact and hypothesis "
+"really matters. If the hypothesis is widely accepted as fact and if it has "
+"been accepted for decades what benefit is there to calling it a hypothesis "
+"rather than a fact?"
+msgstr ""
+"Tu pregunta podría ser si realmente importa la distinción entre hecho e "
+"hipótesis. Si la hipótesis es ampliamente aceptada como hecho y si lo ha "
+"sido durante décadas, ¿qué beneficio tiene llamarla hipótesis en lugar de "
+"hecho?"
+
+#: ../../Introduction/Introduction.rst:73
+msgid ""
+"This question is at the core of our educational philosophy. Is this text the"
+" repository of knowledge that we are providing for you to drink or is this "
+"text a conversation where we invite you to join the effort to discover "
+"better ways to provide safe water on tap?"
+msgstr ""
+"Esta pregunta está en el núcleo de nuestra filosofía educativa. ¿Es este "
+"texto el repositorio de conocimiento que te proporcionamos para que lo bebas"
+" o es una conversación en la que te invitamos a unirte al esfuerzo de "
+"descubrir mejores formas de proporcionar agua segura al grifo?"
+
+#: ../../Introduction/Introduction.rst:78
+msgid "Core Principles of AguaClara Innovation"
+msgstr "Principios fundamentales de la innovación en AguaClara"
+
+#: ../../Introduction/Introduction.rst:80
+msgid ""
+"The AguaClara network of organizations has been methodically inventing "
+"improved water treatment technologies since 2005. Our success is based on "
+"respect, empathy and love. Innovation requires flocculation of ideas. The "
+"transport of ideas between organizations and individuals is mediated by "
+"respect. Respect as a cornerstone of organizational culture foster rapid and"
+" honest exchange of ideas. The rapid pace of innovation in the AguaClara "
+"network is sustained thru a shared culture of respect, empathy, and love."
+msgstr ""
+"La red de organizaciones AguaClara ha estado inventando metódicamente "
+"tecnologías de tratamiento de agua mejoradas desde 2005. Nuestro éxito se "
+"basa en el respeto, la empatía y el amor. La innovación requiere la "
+"floculación de ideas. El transporte de ideas entre organizaciones e "
+"individuos está mediado por el respeto. El respeto como piedra angular de la"
+" cultura organizacional fomenta un intercambio rápido y honesto de ideas. El"
+" ritmo acelerado de innovación en la red AguaClara se sostiene a través de "
+"una cultura compartida de respeto, empatía y amor."
+
+#: ../../Introduction/Introduction.rst:82
+msgid ""
+"Curiosity can flourish in a culture of love, respect, and empathy. Asking "
+"why and why not and pondering an ever growing number of questions has "
+"empowered student teams to take on the quest for new knowledge and new "
+"solutions."
+msgstr ""
+"La curiosidad puede florecer en una cultura de amor, respeto y empatía. "
+"Preguntar por qué y por qué no, y reflexionar sobre un número cada vez mayor"
+" de preguntas, ha empoderado a los equipos estudiantiles para emprender la "
+"búsqueda de nuevos conocimientos y nuevas soluciones."
+
+#: ../../Introduction/Introduction.rst:84
+msgid ""
+"Any large organization will require a leadership hierarchy and any hierarchy"
+" will rely on respect based on fear or respect based on love. `Fear-based "
+"hierarchies <https://www.forbes.com/sites/lizryan/2015/11/25/the-five-"
+"characteristics-of-fear-based-leaders/#a6179f38a968>`_ impede the accurate "
+"sharing of information and can easily devolve into data-free and low-truth "
+"decision-making schemes. According to `Liz Ryan "
+"<https://www.forbes.com/sites/lizryan/2015/11/25/the-five-characteristics-"
+"of-fear-based-leaders/#a6179f38a968>`_, the characteristics of fear-based "
+"leaders include:"
+msgstr ""
+"Cualquier organización grande requerirá una jerarquía de liderazgo y "
+"cualquier jerarquía dependerá del respeto basado en el miedo o del respeto "
+"basado en el amor. `Las jerarquías basadas en el miedo "
+"<https://www.forbes.com/sites/lizryan/2015/11/25/the-five-characteristics-"
+"of-fear-based-leaders/#a6179f38a968>`_ dificultan el intercambio preciso de "
+"información y pueden fácilmente derivar en esquemas de toma de decisiones "
+"sin datos y con poca verdad. Según `Liz Ryan "
+"<https://www.forbes.com/sites/lizryan/2015/11/25/the-five-characteristics-"
+"of-fear-based-leaders/#a6179f38a968>`_, las características de los líderes "
+"basados en el miedo incluyen:"
+
+#: ../../Introduction/Introduction.rst:86
+msgid "They'll Teach You, Whether You Like It or Not"
+msgstr "Te enseñarán, te guste o no"
+
+#: ../../Introduction/Introduction.rst:87
+msgid "Everyone is a Friend or a Foe"
+msgstr "Todos son amigos o enemigos"
+
+#: ../../Introduction/Introduction.rst:88
+msgid "It's All about the Trophies"
+msgstr "Todo se trata de los trofeos"
+
+#: ../../Introduction/Introduction.rst:89
+msgid "They Don't Step Outside Boxes"
+msgstr "No salen de las cajas"
+
+#: ../../Introduction/Introduction.rst:90
+msgid "They're Addicted to Yardsticks"
+msgstr "Son adictos a las reglas de medir"
+
+#: ../../Introduction/Introduction.rst:92
+msgid ""
+"Love-based hierarchies foster honesty and a free-flow of information. "
+"Reflection is encouraged across the organization and truth, honesty, and "
+"integrity are valued. Staff at the bottom of the hierarchy know that their "
+"opinions and reflections are valued and thus they will be willing to report "
+"problems to organization leaders and share their ideas."
+msgstr ""
+"Las jerarquías basadas en el amor fomentan la honestidad y el libre flujo de"
+" información. Se fomenta la reflexión en toda la organización y se valoran "
+"la verdad, la honestidad y la integridad. El personal en la base de la "
+"jerarquía sabe que sus opiniones y reflexiones son valoradas y, por tanto, "
+"estarán dispuestos a informar de los problemas a los líderes de la "
+"organización y compartir sus ideas."
+
+#: ../../Introduction/Introduction.rst:94
+msgid ""
+"Love-based leaders relate to others based on true respect for the other. "
+"They will take the time to converse with people at all levels of the "
+"organization and will value the opportunity to speak with people who are the"
+" interface between the organization and the rest of the world. A person's "
+"value is based on being a person, not based on position in the hierarchy."
+msgstr ""
+"Los líderes basados en el amor se relacionan con los demás basándose en el "
+"verdadero respeto mutuo. Se tomarán el tiempo para conversar con personas de"
+" todos los niveles de la organización y valorarán la oportunidad de hablar "
+"con quienes son la interfaz entre la organización y el resto del mundo. El "
+"valor de una persona se basa en ser una persona, no en su posición en la "
+"jerarquía."
+
+#: ../../Introduction/Introduction.rst:96
+msgid ""
+"As water treatment plant designers it is critical that we spend time with a "
+"diverse set of stakeholders including community members and water treatment "
+"plant operators. Those relationships must begin with respect and valuing "
+"their insights. As we spend time together we can develop trust so that they "
+"communicate both the good and bad."
+msgstr ""
+"Como diseñadores tratamiento de agua plantas, es fundamental que pasemos "
+"tiempo con un conjunto diverso de partes interesadas, incluidos miembros de "
+"la comunidad y operadores de tratamiento de agua plantas. Esas relaciones "
+"deben comenzar con el respeto y el valorar sus conocimientos. A medida que "
+"pasamos tiempo juntos, podemos desarrollar confianza para que comuniquen "
+"tanto lo bueno como lo malo."
+
+#: ../../Introduction/Introduction.rst:98
+msgid ""
+"We've learned much from plant operators. They figured out how to reduce "
+"rising flocs at Agalteca, Honduras where we learned that conventional "
+"clarifier inlet manifolds generate large circulation currents. Plant "
+"operators added curtains to the windows at Moroceli, Honduras (see "
+":numref:`figure_Moroceli_curtains`) because they noticed that direct "
+"sunlight on the clarifiers caused an increase in settled water turbidity."
+msgstr ""
+"Hemos aprendido mucho de los operadores de plantas. Descubrieron cómo "
+"reducir los flócs ascendentes en Agalteca, Honduras, donde aprendimos que "
+"los colectores de admisión de clarificadores convencionales generan grandes "
+"corrientes de circulación. Los operadores de plantas añadieron cortinas a "
+"las ventanas en Marroceli, Honduras (véase "
+":numref:`figure_Moroceli_curtains`) porque notaron que la luz solar directa "
+"sobre los clarificadores aumentaba la turbidez agua sedimentada ."
+
+#: ../../Introduction/Introduction.rst:107
+msgid "Moroceli curtains"
+msgstr "Cortinas de Moroceli"
+
+#: ../../Introduction/Introduction.rst:107
+msgid ""
+"Moroceli AguaClara water treatment plant operators installed curtains to "
+"reduce direct sunshine on clarifiers. Solar heating produces density "
+"currents that carry flocs to the top of the clarifier."
+msgstr ""
+"Moroceli AguaClara tratamiento de agua los operadores de plantas instalaron "
+"cortinas para reducir la luz solar directa sobre los clarificadores. La "
+"calefacción solar produce corrientes de densidad que llevan los floques a la"
+" parte superior del clarificador."
+
+#: ../../Introduction/Introduction.rst:109
+msgid ""
+"Empathy is fundamental in design. Empathy enables us to consider reality "
+"from another's perspective. Empathy enables us to bring the people who will "
+"use or benefit from a technology into the design considerations. Empathy "
+"brings the insight that water treatment plants need to have roofs and "
+"provide a secure work environment both day and night. Empathy brings the "
+"insight that replacement parts must be readily available and that generic "
+"components are preferred over specialty proprietary components."
+msgstr ""
+"La empatía es fundamental en el diseño. La empatía nos permite considerar la"
+" realidad desde la perspectiva de otro. La empatía nos permite incorporar a "
+"las personas que usarán o se beneficiarán de una tecnología en las "
+"consideraciones de diseño. La empatía aporta la percepción de que "
+"tratamiento de agua plantas necesitan tener techos y proporcionar un entorno"
+" de trabajo seguro tanto de día como de noche. La empatía aporta la idea de "
+"que las piezas de repuesto deben estar fácilmente disponibles y que los "
+"componentes genéricos son preferidos frente a los componentes especiales "
+"propietarios."
+
+#: ../../Introduction/Introduction.rst:114
+msgid "The Global Context for Drinking Water Treatment"
+msgstr "El contexto global del consumo de alcohol tratamiento de agua"
+
+#: ../../Introduction/Introduction.rst:116
+msgid ""
+"The `Sustainable Development Goals: SDGs <https://sdgs.un.org/goals>`_ and "
+"specifically `SDG 6 <https://sdgs.un.org/goals/goal6>`_ provide the context "
+"and motivation for this text. The first SDG 6 target is: \"By 2030, achieve "
+"universal and equitable access to safe and affordable drinking water for "
+"all.\" That goal is daunting and won't be met using the approaches of the "
+"past 5 decades. This text is about creating a new paradigm for the design of"
+" high performing water treatment technologies with the goal of making a real"
+" contribution toward SDG 6.1."
+msgstr ""
+"Los `Objetivos de Desarrollo Sostenible: ODS <https://sdgs.un.org/goals>`_ y"
+" específicamente `ODS 6 <https://sdgs.un.org/goals/goal6>`_ proporcionan el "
+"contexto y la motivación para este texto. El primer objetivo del ODS 6 es: "
+"\"Para 2030, lograr un acceso universal y equitativo a agua potable seguros "
+"y asequibles para todos.\" Ese objetivo es abrumador y no se alcanzará con "
+"los enfoques de las últimas 5 décadas. Este texto trata de crear un nuevo "
+"paradigma para el diseño de tecnologías tratamiento de agua de alto "
+"rendimiento con el objetivo de contribuir realmente al ODS 6.1."
+
+#: ../../Introduction/Introduction.rst:125
+msgid "SDG6"
+msgstr "ODS6"
+
+#: ../../Introduction/Introduction.rst:125
+msgid "Sustainable development goal 6 is all about clean water and sanitation."
+msgstr "El objetivo de desarrollo sostenible 6 trata sobre agua limpia y saneamiento."
+
+#: ../../Introduction/Introduction.rst:127
+msgid ""
+"The number of people who currently lack access to reliable safe water on tap"
+" is not known. Estimates range from \"`1.8 billion who use a source of "
+"drinking water that is contaminated with feces <https://www.who.int/news-"
+"room/fact-sheets/detail/drinking-water>`_\" to the Centers for Disease "
+"Control recommendations for where it is `usually safe to drink tap water "
+"<https://lifehacker.com/know-what-countries-guarantee-drinkable-tap-water-"
+"with-1635070463>`_."
+msgstr ""
+"No se conoce el número de personas que actualmente carecen de acceso fiable "
+"a agua del grifo. Las estimaciones van desde \"`1.8 billion who use a source"
+" of drinking water that is contaminated with feces <https://www.who.int"
+"/news-room/fact-sheets/detail/drinking-water>`_\" hasta las recomendaciones "
+"de los Centros para el Control y la Prevención de Enfermedades sobre dónde "
+"está `usually safe to drink tap water <https://lifehacker.com/know-what-"
+"countries-guarantee-drinkable-tap-water-with-1635070463>`_."
+
+#: ../../Introduction/Introduction.rst:136
+msgid "CDC Global Safe Tap Water"
+msgstr "Agua Segura Global del Grifo del CDC"
+
+#: ../../Introduction/Introduction.rst:136
+msgid ""
+"There are relatively few countries where it is almost always safe to drink "
+"the tap water."
+msgstr ""
+"Hay relativamente pocos países donde casi siempre sea seguro beber agua del "
+"grifo."
+
+#: ../../Introduction/Introduction.rst:138
+msgid ""
+"The `UN estimate in 2017 was that 2.1 billion lack access to safe water. By "
+"2030 there will be an additional `1.2 billion from population growth "
+"<https://news.un.org/en/story/2015/07/505352-un-projects-world-population-"
+"reach-85-billion-2030-driven-growth-developing>`_."
+msgstr ""
+"Los `UN estimate in 2017 was that 2.1 billion lack access to safe water. By "
+"2030 there will be an additional `1.2 mil millones por el crecimiento "
+"poblacional <https://news.un.org/en/story/2015/07/505352-un-projects-world-"
+"population-reach-85-billion-2030-driven-growth-developing>`_."
+
+#: ../../Introduction/Introduction.rst:148
+msgid "Population infographic"
+msgstr "Infografía de población"
+
+#: ../../Introduction/Introduction.rst:148
+msgid ""
+"1.2 billion people will be added to the global population between 2015 and "
+"2030."
+msgstr ""
+"1.2 mil millones de personas se sumarán a la población mundial entre 2015 y "
+"2030."
+
+#: ../../Introduction/Introduction.rst:151
+msgid ""
+"Thus by 2030 we need to provide safe water for at least 3.3 billion people "
+"AND maintain the water supply systems for the 5.2 billion who currently have"
+" access to safe water. That is a daunting number that requires some "
+"exploration!"
+msgstr ""
+"Por tanto, para 2030 necesitamos proporcionar agua segura para al menos 3.3 "
+"mil millones de personas Y mantener los sistemas de suministro de agua para "
+"los 5.2 mil millones que actualmente tienen acceso a agua segura. ¡Es una "
+"cifra abrumadora que requiere cierta exploración!"
+
+#: ../../Introduction/Introduction.rst:153
+msgid ""
+"`Use this code to calculate the increased capacity "
+"<https://colab.research.google.com/github/lainey-"
+"reed/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=vQ7seH8lRXpx>`_"
+msgstr ""
+"`Utiliza este código para calcular el aumento de capacidad "
+"<https://colab.research.google.com/github/lainey-"
+"reed/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=vQ7seH8lRXpx>`_"
+
+#: ../../Introduction/Introduction.rst:155
+msgid ""
+"If we provide 260 L/day per person, then we need to provide the equivalent "
+"of 19 water supplies for New York City every year between now and 2030. The "
+"planet needs approximately 800,000 L/s of new capacity each year. AguaClara "
+"water treatment plants cost approximately $10,000 per L/s of treatment "
+"capacity. Thus the budget for global water treatment needs to be 8 billion "
+"USD per year. Note that this doesn't include any other aspects of supplying "
+"water. Managing water sources, transmission lines, storage, and distribution"
+" systems are even more expensive than water treatment."
+msgstr ""
+"Si proporcionamos 260 L/día por persona, entonces necesitamos proporcionar "
+"el equivalente a 19 sistemas de abastecimiento de agua para la ciudad de "
+"Nueva York cada año desde ahora hasta 2030. El planeta necesita "
+"aproximadamente 800,000 L/s de nueva capacidad cada año. Las plantas de "
+"tratamiento de agua AguaClara cuestan aproximadamente $10,000 por L/s de "
+"capacidad de tratamiento. Por lo tanto, el presupuesto para las necesidades "
+"mundiales de tratamiento de agua debe ser de 8 mil millones de USD por año. "
+"Obsérvese que esto no incluye ningún otro aspecto del abastecimiento de agua. "
+"La gestión de las fuentes de agua, las líneas de transmisión, el "
+"almacenamiento y los sistemas de distribución son aún más costosos que el "
+"tratamiento de agua."
+
+#: ../../Introduction/Introduction.rst:157
+msgid ""
+"The need for drinking water supplies isn't limited to the global south. The "
+"California Urban Water Agencies `estimate that 530,000 or more people in "
+"rural areas of California are unable to turn on their tap and access clean, "
+"safe water "
+"<https://static1.squarespace.com/static/5a565e93b07869c78112e2e5/t/5a5965934192024b3f610be1/1515808194305/CUWA2017_AnnualReport.pdf>`_."
+msgstr ""
+"La necesidad de suministros agua potable no se limita al sur global. Las "
+"Agencias Urbanas de Agua de California `estiman que 530.000 o más personas "
+"en zonas rurales de California no pueden abrir el grifo ni acceder a agua "
+"limpia y segura "
+"<https://static1.squarespace.com/static/5a565e93b07869c78112e2e5/t/5a5965934192024b3f610be1/1515808194305/CUWA2017_AnnualReport.pdf>`_."
+
+#: ../../Introduction/Introduction.rst:162
+msgid "Safe Water Access"
+msgstr "Acceso al agua segura"
+
+#: ../../Introduction/Introduction.rst:164
+msgid ""
+"The simple answer is that they are too poor and are unable to afford safe "
+"water on tap. But it isn't that simple! Families without access to safe "
+"water on tap often spend more for water than families with safe water on "
+"tap. There seem to be two key reasons why those with limited financial "
+"resources often have limited access to water, poor quality water, and yet "
+"pay a premium for that water."
+msgstr ""
+"La respuesta sencilla es que son demasiado pobres y no pueden permitirse "
+"agua segura del grifo. ¡Pero no es tan sencillo! Las familias que no tienen "
+"acceso a agua segura del grifo suelen gastar más por agua que las que tienen"
+" agua segura del grifo. Parece haber dos razones clave por las que quienes "
+"tienen recursos económicos limitados suelen tener acceso limitado al agua, "
+"agua de mala calidad, y aun así pagar un precio premium por ella."
+
+#: ../../Introduction/Introduction.rst:166
+msgid ""
+"The first reason for the lack of safe water has been the poor track record "
+"of water treatment infrastructure. The frequent failures and high operating "
+"costs of municipal scale water treatment systems have led many decision "
+"makers to conclude water treatment infrastructure isn't a worthwhile "
+"investment. Politicians who invest political capital to bring water "
+"treatment to their community often find that after the initial ribbon "
+"cutting there is little political benefit because the system doesn't deliver"
+" the benefits to the community that they had promised."
+msgstr ""
+"La primera razón de la falta de agua segura ha sido el mal historial de la "
+"infraestructura tratamiento de agua . Los frecuentes fallos y los altos "
+"costes operativos de los sistemas de tratamiento de agua a escala municipal "
+"han llevado a muchos responsables a concluir tratamiento de agua la "
+"infraestructura no es una inversión rentable. Los políticos que invierten "
+"capital político para traer tratamiento de agua a su comunidad suelen "
+"descubrir que, tras la inauguración inicial, hay poco beneficio político "
+"porque el sistema no cumple los beneficios que prometieron a la comunidad."
+
+#: ../../Introduction/Introduction.rst:168
+msgid ""
+"The second reason for the lack of safe water is the lack of access to "
+"capital for municipal scale infrastructure. Even though an AguaClara water "
+"treatment plant would pay for itself in a fraction of its useful life, there"
+" is not yet a financial mechanisms for communities to access a loan so that "
+"they can make the investment. A community would need to save enough money to"
+" be able to purchase a water treatment plant (as was the case for Las Vegas,"
+" Honduras), a bilateral donor can finance a plant through a donation, or the"
+" national government can use sovereign debt or taxes to finance plants. The "
+"challenge for a community is to obtain the financial or political power to "
+"access the needed funds."
+msgstr ""
+"La segunda razón de la falta de agua segura es la falta de acceso a capital "
+"para infraestructuras municipales a escala. Aunque una planta de tratamiento"
+" de agua de AguaClara se amortizaría en una fracción de su vida útil, aún no"
+" existe un mecanismo financiero para que las comunidades accedan a un "
+"préstamo y así puedan realizar la inversión. Una comunidad necesitaría "
+"ahorrar suficiente dinero para poder comprar una planta tratamiento de agua "
+"(como fue el caso de Las Vegas, Honduras), un donante bilateral puede "
+"financiar una planta mediante una donación, o el gobierno nacional puede "
+"utilizar deuda soberana o impuestos para financiar las plantas. El reto para"
+" una comunidad es obtener el poder financiero o político para acceder a los "
+"fondos necesarios."
+
+#: ../../Introduction/Introduction.rst:170
+msgid ""
+"As we work to solve a global challenge that has been plaguing humanity since"
+" the dawn of human civilization, then it will serve us well to understand a "
+"bit of the history that has led to our current reality. Water treatment "
+"history includes amazing successes, persistent failures, fortuitous "
+"discoveries, a heavy reliance on empiricism, and an occasional myth. Our "
+"goal is learn from and reflect on our history and then create even better "
+"solutions."
+msgstr ""
+"Mientras trabajamos para resolver un desafío global que ha estado afectando "
+"a la humanidad desde los albores de la civilización humana, nos conviene "
+"entender un poco de la historia que nos ha llevado a nuestra realidad "
+"actual. tratamiento de agua historia incluye éxitos asombrosos, fracasos "
+"persistentes, descubrimientos fortuitos, una fuerte dependencia del "
+"empirismo y algún mito ocasional. Nuestro objetivo es aprender de nuestra "
+"historia y reflexionar sobre ella y luego crear soluciones aún mejores."
+
+#: ../../Introduction/Introduction.rst:175
+msgid "Introduction to Surface Water Treatment"
+msgstr "Introducción a Surface tratamiento de agua"
+
+#: ../../Introduction/Introduction.rst:177
+msgid ""
+"We treat water because it doesn't meet the requirements for its intended "
+"use. We need to understand the problem so that we can understand existing "
+"and novel water treatment technologies."
+msgstr ""
+"Tratamos el agua porque no cumple los requisitos para su uso previsto. "
+"Necesitamos entender el problema para poder comprender las tecnologías de "
+"tratamiento de agua existentes y novedosas."
+
+#: ../../Introduction/Introduction.rst:182
+msgid "Water Contaminants"
+msgstr "Contaminantes del agua"
+
+#: ../../Introduction/Introduction.rst:184
+msgid ""
+"Many substances are able to dissolve in water. Additionally, water is able "
+"to carry suspended solids because of its high density. The substances may be"
+" naturally occurring, anthropogenic, benign, or harmful. The types of "
+"contaminants are influenced by the water source. Contaminant concentrations "
+"are often highly variable over time."
+msgstr ""
+"Muchas sustancias pueden disolverse en el agua. Además, el agua puede "
+"transportar sólidos suspendidos debido a su alta densidad. Las sustancias "
+"pueden ser de origen natural, antropogénicas, benignas o dañinas. Los tipos "
+"de contaminantes están influenciados por la fuente de agua. Las "
+"concentraciones de contaminantes suelen variar mucho a lo largo del tiempo."
+
+#: ../../Introduction/Introduction.rst:186
+msgid ""
+"A water treatment system must be able to handle the likely range of "
+"contaminant levels and produce treated water that meets the user "
+"requirements. In some cases the user may have the option of switching "
+"sources or reducing demand when a source becomes excessively contaminated "
+"for a limited period of time. For example, a municipal water supplier may be"
+" able to shut the plant down for a few hours to avoid having to treat a very"
+" dirty water after a rainstorm. This strategy can work well for water "
+"sources that have small watersheds and hence a rapid return to better water "
+"after the storm passes. In other cases the water treatment processes must be"
+" capable of treating the most contaminated water that the water source "
+"provides. In any case, selecting the best unit processes to treat a given "
+"water source for a particular use case can be challenging. It is common to "
+"find water treatment plants that are unable to adequately treat their water "
+"source."
+msgstr ""
+"Un sistema tratamiento de agua debe ser capaz de manejar el rango probable "
+"de niveles de contaminantes y producir agua tratada que cumpla con los "
+"requisitos del usuario. En algunos casos, el usuario puede tener la opción "
+"de cambiar de fuente o reducir la demanda cuando una fuente se contamina "
+"excesivamente durante un periodo limitado. Por ejemplo, un proveedor "
+"municipal de agua puede poder apagar la planta durante unas horas para "
+"evitar tratar un agua muy sucia tras una tormenta. Esta estrategia puede "
+"funcionar bien para fuentes de agua con cuencas pequeñas y, por tanto, un "
+"rápido retorno a agua mejor tras el paso de la tormenta. En otros casos, los"
+" procesos tratamiento de agua deben ser capaces de tratar el agua más "
+"contaminada que proporciona la fuente. En cualquier caso, seleccionar los "
+"mejores procesos unitarios para tratar una fuente de agua determinada para "
+"un caso de uso concreto puede ser complicado. Es común encontrar tratamiento"
+" de agua plantas que no pueden tratar adecuadamente su fuente de agua."
+
+#: ../../Introduction/Introduction.rst:191
+msgid "Particles"
+msgstr "Partículas"
+
+#: ../../Introduction/Introduction.rst:193
+msgid ""
+"Surface waters (rivers, streams, lakes) and some ground water (especially "
+"ground water under the influence of surface water) inevitably carry some "
+"suspended particles. \"`Particles transported by rivers are composed of "
+"resistant primary minerals (e.g., quartz and zircon), secondary minerals "
+"(clays, metallic oxides and oxyhydroxides) and biogenic remains.\" "
+"<https://www.sciencedirect.com/science/article/pii/S0048969708010103>`_ Many"
+" of these particles may be harmless, but there is good reason to be hesitant"
+" to drink water with a high concentration of suspended particles."
+msgstr ""
+"Las aguas superficiales (ríos, arroyos, lagos) y algunas aguas subterráneas "
+"(especialmente las aguas subterráneas bajo la influencia del agua "
+"superficial) inevitablemente contienen algunas partículas en suspensión. "
+"\"`Las partículas transportadas por los ríos están compuestas por minerales "
+"primarios resistentes (por ejemplo, cuarzo y circón), minerales secundarios "
+"(arcillas, óxidos metálicos y oxihidróxidos) y restos biogénicos.\" "
+"<https://www.sciencedirect.com/science/article/pii/S0048969708010103>`_ "
+"Muchas de estas partículas pueden ser inofensivas, pero hay buenas razones "
+"para dudar en beber agua con una alta concentración de partículas "
+"suspendidas."
+
+#: ../../Introduction/Introduction.rst:198
+msgid "Pathogens"
+msgstr "Patógenos"
+
+#: ../../Introduction/Introduction.rst:199
+msgid ""
+"Pathogens include viruses (100 nm), bacteria (1 :math:`\\mu m`), and "
+"protozoa (several :math:`\\mu m`). Pathogens are particles and are removed "
+"by processes that remove particles along with other microbes, organic and "
+"inorganic particles."
+msgstr ""
+"Los patógenos incluyen virus (100 nm), bacterias (1 :math:`\\mu m`) y "
+"protozoos (varios :math:`\\mu m`). Los patógenos son partículas y son "
+"eliminados mediante procesos que eliminan partículas junto con otros "
+"microbios, orgánicos e inorgánicos."
+
+#: ../../Introduction/Introduction.rst:204
+msgid "Turbidity"
+msgstr "Turbidez"
+
+#: ../../Introduction/Introduction.rst:206
+msgid ""
+"Turbidity or cloudiness is an indirect measure of particle concentration. "
+"Turbidity is an optical measurement of scattered light. Light scattering by "
+"refraction is primarily caused by particles that are smaller than but close "
+"to the wavelength of light. Particles that are close to but larger than the "
+"wavelength of light can reflect light. Turbidity measures both of these "
+"effects by shining a light into a water sample and then measuring the "
+"scattered light with a photodetector at 90°. The meter is then calibrated "
+"with standard suspensions."
+msgstr ""
+"La turbidez o turbidez es una medida indirecta de la concentración de "
+"partículas. La turbidez es una medida óptica de la luz dispersada. La "
+"dispersión de la luz por refracción es causada principalmente por partículas"
+" que son más pequeñas pero cercanas a la longitud de onda de la luz. Las "
+"partículas que están cerca o son mayores que la longitud de onda de la luz "
+"pueden reflejar la luz. La turbidez mide ambos efectos iluminando una "
+"muestra de agua con una luz y luego midiendo la luz dispersada con un "
+"fotodetector a 90°. El medidor se calibra entonces con suspensiones "
+"estándar."
+
+#: ../../Introduction/Introduction.rst:208
+msgid ""
+"For a given suspension the turbidity can be directly correlated with the "
+"suspended solids concentration. However, that relationship is complicated "
+"because the amount of scattered light is related to the particle size "
+"distribution because given the same mass concentration, smaller particles "
+"have more surface area and thus reflect more light."
+msgstr ""
+"Para una suspensión dada, la turbidez puede correlacionarse directamente con"
+" la concentración sólidos suspendidos . Sin embargo, esa relación es "
+"complicada porque la cantidad de luz dispersada está relacionada con la "
+"distribución del tamaño de las partículas, ya que dada la misma "
+"concentración de masa, las partículas más pequeñas tienen mayor área "
+"superficial y, por tanto, reflejan más luz."
+
+#: ../../Introduction/Introduction.rst:210
+msgid ""
+"Although turbidity would seem to be an odd parameter to use to measure water"
+" quality, it turns out to be the most widely used water quality measurement."
+" The reasons are simple. First, turbidity is amazingly easy to measure over "
+"a very wide range of particle concentrations (perhaps 10 :math:`\\mu g/L` to"
+" 1 :math:`g/L`). The test doesn't require any reagents and it can be done in"
+" a flow through sample cell for real time measurements. Second, particle "
+"free water is pathogen free water. Third, disinfection processes "
+"(chlorination, ozonation, UV light) are all significantly less effective at "
+"inactivating pathogens if there are other particles present in the water."
+msgstr ""
+"Aunque la turbidez parecería un parámetro extraño para medir calidad del "
+"agua, resulta ser el más utilizado calidad del agua medición. Las razones "
+"son sencillas. Primero, la turbidez es sorprendentemente fácil de medir en "
+"un rango muy amplio de concentraciones de partículas (quizá de 10 "
+":math:`\\mu g/L` a 1 :math:`g/L`). La prueba no requiere reactivos y puede "
+"realizarse en una célula de flujo para mediciones en tiempo real. Segundo, "
+"el agua libre de partículas es agua libre de patógenos. Tercero, los "
+"procesos de desinfección (cloración, ozonación, luz ultravioleta) son "
+"significativamente menos efectivos para inactivar patógenos si hay otras "
+"partículas presentes en el agua."
+
+#: ../../Introduction/Introduction.rst:215
+msgid "Dissolved Species"
+msgstr "Especies disueltas"
+
+#: ../../Introduction/Introduction.rst:217
+msgid ""
+"The list of dissolved species that can be present in water in the "
+"environment is endless and ranges from natural organic matter (from decay of"
+" plants) to caffeine to atrazine. Usually the highest concentration class of"
+" molecules is dissolved natural organic matter (NOM). NOM has some "
+"similarity to inorganic particles in that it isn't necessarily harmful and "
+"yet there are several reasons why removal of NOM is an important water "
+"treatment goal."
+msgstr ""
+"La lista de especies disueltas que pueden estar presentes en el agua del "
+"entorno es interminable y abarca desde materia orgánica natural (desde la "
+"descomposición de plantas) hasta la cafeína y la atrazina. Normalmente, la "
+"clase de concentración más alta de moléculas es la materia orgánica natural "
+"disuelta (NOM). La NOM tiene cierta similitud con las partículas inorgánicas"
+" en que no es necesariamente dañina y, sin embargo, hay varias razones por "
+"las que eliminar la NOM es un objetivo tratamiento de agua importante."
+
+#: ../../Introduction/Introduction.rst:219
+msgid ""
+"From an aesthetic perspective, NOM absorbs light at short wavelengths and "
+"this results in water that looks yellow or brown. While I enjoy drinking tea"
+" with a rich brown color, I'd prefer that my water be clear."
+msgstr ""
+"Desde un punto de vista estético, la NOM absorbe la luz a longitudes de onda"
+" cortas y esto da lugar a un agua que parezca amarilla o marrón. Aunque "
+"disfruto bebiendo té de un color marrón intenso, preferiría que mi agua "
+"fuera clara."
+
+#: ../../Introduction/Introduction.rst:221
+msgid ""
+"NOM plays a supersized role in influencing performance of surface water "
+"treatment plants. NOM has three negative effects:"
+msgstr ""
+"La NOM desempeña un papel sobredimensionado en la influencia del rendimiento"
+" de las plantas tratamiento de agua superficie. La NOM tiene tres efectos "
+"negativos:"
+
+#: ../../Introduction/Introduction.rst:223
+msgid "It requires higher dosages of coagulant for effective particle removal."
+msgstr ""
+"Requiere dosis más altas de coagulante para una eliminación eficaz de "
+"partículas."
+
+#: ../../Introduction/Introduction.rst:224
+msgid ""
+"It reduces the disinfection effectiveness of chlorine, ozone, and UV. "
+"Chlorine partially oxidizes the NOM and thus more chlorine must be used to "
+"maintain a residual level of chlorine."
+msgstr ""
+"Reduce la eficacia de la desinfección del cloro, el ozono y los rayos UV. El"
+" cloro oxida parcialmente el NOM y, por tanto, debe usarse más cloro para "
+"mantener un nivel residual de cloro."
+
+#: ../../Introduction/Introduction.rst:225
+msgid "It can produce disinfection by-products that are toxic."
+msgstr "Puede producir subproductos desinfectantes tóxicos."
+
+#: ../../Introduction/Introduction.rst:227
+msgid ""
+"Thus removal of NOM is a water treatment goal. Fortunately the same "
+"coagulants that are used for particle removal also can remove a significant "
+"fraction of NOM. The interactions between NOM and coagulants will be "
+"discussed in the :ref:`Introduction to Rapid Mix "
+"<title_Rapid_Mix_Introduction>`."
+msgstr ""
+"Por tanto, la eliminación de la NOM es un objetivo tratamiento de agua . "
+"Afortunadamente, los mismos coagulantes que se utilizan para la eliminación "
+"de partículas también pueden eliminar una fracción significativa de la NOM. "
+"Las interacciones entre la NOM y los coagulantes se discutirán en la "
+":ref:`Introduction to Rapid Mix <title_Rapid_Mix_Introduction>`."
+
+#: ../../Introduction/Introduction.rst:229
+msgid ""
+"The removal of other dissolved species is beyond the scope of the first "
+"release of this textbook. The authors intend to add sections on the removal "
+"of some dissolved species in the near future."
+msgstr ""
+"La eliminación de otras especies disueltas está fuera del alcance de la "
+"primera publicación de este libro de texto. Los autores tienen la intención "
+"de añadir secciones sobre la eliminación de algunas especies disueltas en un"
+" futuro próximo."
+
+#: ../../Introduction/Introduction.rst:234
+msgid "Chlorination"
+msgstr "Cloración"
+
+#: ../../Introduction/Introduction.rst:236
+msgid ""
+"Chlorine is widely recognized for reducing mortality from water borne "
+"disease in the United States. A more careful review of the mortality data "
+"and of the ability of chlorine to inactive various pathogens makes it "
+"difficult to assess the role of chlorine. A classic graph (see "
+":numref:`figure_US_death_rate`) has been used to suggest that chlorination "
+"of drinking water supplies resulted in a significant reduction in mortality"
+msgstr ""
+"El cloro es ampliamente reconocido por reducir la mortalidad por "
+"enfermedades transmitidas por el agua en Estados Unidos. Una revisión más "
+"cuidadosa de los datos de mortalidad y de la capacidad del cloro para "
+"inactivar diversos patógenos dificulta la evaluación del papel del cloro. Se"
+" ha utilizado un gráfico clásico (véase :numref:`figure_US_death_rate`) para"
+" sugerir que la cloración de agua potable suministros resultó en una "
+"reducción significativa de la mortalidad"
+
+#: ../../Introduction/Introduction.rst:245
+msgid "US_infectious_diseases_death_rate"
+msgstr "US_infectious_diseases_death_rate"
+
+#: ../../Introduction/Introduction.rst:245
+msgid ""
+"`Classic graph showing the reduction in the death rate for the United States"
+" from 1900 to 1996. "
+"<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4829a1.htm>`_"
+msgstr ""
+"`Gráfico clásico que muestra la reducción en la tasa de mortalidad en "
+"Estados Unidos de 1900 a 1996. "
+"<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4829a1.htm>`_"
+
+#: ../../Introduction/Introduction.rst:250
+msgid "Treatment Trains"
+msgstr "Trenes de tratamiento"
+
+#: ../../Introduction/Introduction.rst:254
+msgid "Surface Water Treatment Technologies"
+msgstr "Tecnologías de tratamiento de agua de superficie"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Technology"
+msgstr "Tecnología"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Prerequisite"
+msgstr "Requisito previo"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Owner"
+msgstr "Propietario"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Year"
+msgstr "Año"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Simple sedimentation"
+msgstr "Sedimentación simple"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "particles settle"
+msgstr "las partículas se asientan"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "none"
+msgstr "ninguno"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "public"
+msgstr "Público"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "unknown"
+msgstr "Desconocido"
+
+#: ../../Introduction/Introduction.rst:1 ../../Introduction/Introduction.rst:524
+msgid "Flocculation"
+msgstr "Floculación"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "aluminum and iron salts"
+msgstr "Sales de aluminio y hierro"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`1757 <https://www.iwapublishing.com/news/coagulation-and-flocculation-"
+"water-and-wastewater-treatment>`_"
+msgstr ""
+"`1757 <https://www.iwapublishing.com/news/coagulation-and-flocculation-"
+"water-and-wastewater-treatment>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Clarification"
+msgstr "Aclaración"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "horizontal flow"
+msgstr "Flujo horizontal"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "flocculation"
+msgstr "Floculación"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Lamellar sedimentation"
+msgstr "Sedimentación lamelar"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "plate or tube settlers"
+msgstr "Estabilizadores de placas o tubos"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "flocculation or floc filter"
+msgstr "floculación o filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`1904 <https://smartwatermagazine.com/blogs/karl-uwe-schmitz/tube-settler-"
+"design-basics-solid-settling-lamella-clarifiers>`_"
+msgstr ""
+"`1904 <https://smartwatermagazine.com/blogs/karl-uwe-schmitz/tube-settler-"
+"design-basics-solid-settling-lamella-clarifiers>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Roughing filter"
+msgstr "Filtro de desbaste"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "simple sedimentation in a gravel bed"
+msgstr "Sedimentación simple en un lecho de grava"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`unknown <https://www.researchgate.net/publication"
+"/237827490_Roughing_filter_for_water_pre-"
+"treatment_technology_in_developing_countries_A_review?enrichId=rgreq-"
+"bb1d04e6613378d626c78cadb6674ae8&enrichSource=Y292ZXJQYWdlOzIzNzgyNzQ5MDtBUzoyMDAwMDczMDQxMjY0NjdAMTQyNDY5Njg2NTYxMQ%3D%3D&el=1_x_2>`_"
+msgstr ""
+"`desconocido <https://www.researchgate.net/publication"
+"/237827490_Roughing_filter_for_water_pre-"
+"treatment_technology_in_developing_countries_A_review?enrichId=rgreq-"
+"bb1d04e6613378d626c78cadb6674ae8&enrichSource=Y292ZXJQYWdlOzIzNzgyNzQ5MDtBUzoyMDAwMDczMDQxMjY0NjdAMTQyNDY5Njg2NTYxMQ%3D%3D&el=1_x_2>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Slow sand filtration"
+msgstr "Filtración lenta de arena"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Roughing filter or single step treatment for low NTU water"
+msgstr "Filtro de rugado o tratamiento de un solo paso para agua con bajo NTU"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "`1829 <https://en.wikipedia.org/wiki/Slow_sand_filter>`_"
+msgstr "`1829 <https://en.wikipedia.org/wiki/Slow_sand_filter>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Rapid sand filtration"
+msgstr "Filtración rápida de arena"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "depth filtration"
+msgstr "Filtración en profundidad"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "sedimentation"
+msgstr "Sedimentación"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "`1920 <https://en.wikipedia.org/wiki/Rapid_sand_filter>`_"
+msgstr "`1920 <https://en.wikipedia.org/wiki/Rapid_sand_filter>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Stacked rapid sand filter"
+msgstr "Rápido apilado filtro de arena"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "gravity powered backwash"
+msgstr "Retrolavado accionado por gravedad"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "lamellar sedimentation"
+msgstr "Sedimentación lamelar"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "AguaClara Cornell open source"
+msgstr "AguaClara Cornell código abierto"
+
+#: ../../Introduction/Introduction.rst:1
+#, python-format
+msgid ""
+"`2012a "
+"<https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EE.1943-7870.0000562>`_"
+msgstr ""
+"`2012a "
+"<https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EE.1943-7870.0000562>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Floc filter"
+msgstr "filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "upflow fluidized suspension of flocs"
+msgstr "Suspensión fluidizada de flócs por flujo ascendente"
+
+#: ../../Introduction/Introduction.rst:1
+#, python-format
+msgid "`1930 <https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2>`_"
+msgstr "`1930 <https://link.springer.com/chapter/10.1007%2F978-3-642-61196-4_2>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Jet reverser floc filter"
+msgstr "Inversor de chorro filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "first fully fluidized floc filter"
+msgstr "Primera filtro de flóculos completamente fluidizada"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`2012b <http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-"
+"quest.html>`_"
+msgstr ""
+"`2012b <http://cuaguaclara.blogspot.com/2012/08/the-floc-blanket-"
+"quest.html>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Ballasted sedimentation"
+msgstr "Sedimentación lastre"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "micro sand increases floc density"
+msgstr "La microarena aumenta la densidad de flócs"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`Actiflo Veolia "
+"<https://www.veoliawatertechnologies.com/en/technologies/actiflo>`_"
+msgstr ""
+"`Actiflo Veolia "
+"<https://www.veoliawatertechnologies.com/en/technologies/actiflo>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "`1995 <https://patents.google.com/patent/US5840195>`_"
+msgstr "`1995 <https://patents.google.com/patent/US5840195>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Superpulsator"
+msgstr "Superpulsador"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "pulsing flow through floc filter"
+msgstr "flujo pulsante a través de filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "rapid mix"
+msgstr "mezcla rápida"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "`Degremont <http://www.degremont-technologies.com/SUPERPULSATOR-R>`_"
+msgstr "`Degremont <http://www.degremont-technologies.com/SUPERPULSATOR-R>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`1958 <https://patents.google.com/patent/US3038608A>`_  `1991 "
+"<https://patents.google.com/patent/US5143625>`_"
+msgstr ""
+"`1958 <https://patents.google.com/patent/US3038608A>`_ `1991 "
+"<https://patents.google.com/patent/US5143625>`_"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Dissolved air flotation"
+msgstr "Flotación por aire disuelto"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "bubbles carry particles upward"
+msgstr "Las burbujas transportan partículas hacia arriba"
+
+#: ../../Introduction/Introduction.rst:1
+msgid "Public"
+msgstr "Público"
+
+#: ../../Introduction/Introduction.rst:1
+msgid ""
+"`1905 <https://iwaponline.com/wst/article-abstract/31/3-4/1/4138/Principles-"
+"and-applications-of-dissolved-air>`_"
+msgstr ""
+"`1905 <https://iwaponline.com/wst/article-abstract/31/3-4/1/4138/Principles-"
+"and-applications-of-dissolved-air>`_"
+
+#: ../../Introduction/Introduction.rst:272
+#, python-format
+msgid ""
+"See `Pretreatment Processes for Potable Water Treatment Plants by Jeff "
+"Lindgren for an excellent overview of available technologies, May 2014 (not "
+"including AguaClara innovations) <https://www.pnws-"
+"awwa.org/uploads/PDFs/conferences/2014/2.%20PNWS%20AWWA%20WTC%20Precon%2005%2007%202014%20Pretreatment%20by%20B&V%201&2%20-%20R1.pdf>`_."
+msgstr ""
+"Consulte `Pretreatment Processes for Potable tratamiento de agua Plants de "
+"Jeff Lindgren para una excelente visión general de las tecnologías "
+"disponibles, mayo de 2014 (sin incluir innovaciones de AguaClara) "
+"<https://www.pnws-"
+"awwa.org/uploads/PDFs/conferences/2014/2.%20PNWS%20AWWA%20WTC%20Precon%2005%2007%202014%20Pretreatment%20by%20B&V%201&2%20-%20R1.pdf>`_."
+
+#: ../../Introduction/Introduction.rst:274
+msgid ""
+"The prerequisites for the unit processes in "
+":numref:`table_Surface_Water_Treatment_Technologies` reveal that surface "
+"water treatment almost always requires a series of treatment steps. A "
+"treatment train is a series of treatment steps (or unit processes) designed "
+"to convert a contaminated source water into a purified water meeting the use"
+" requirements."
+msgstr ""
+"Los requisitos previos para los procesos unitarios en "
+":numref:`table_Surface_Water_Treatment_Technologies` revelan que tratamiento"
+" de agua superficial casi siempre requiere una serie de pasos de "
+"tratamiento. Un tren de tratamiento es una serie de pasos de tratamiento (o "
+"procesos unitarios) diseñados para convertir un agua fuente contaminada en "
+"agua purificada que cumpla con los requisitos de uso."
+
+#: ../../Introduction/Introduction.rst:282
+msgid "Example treatment trains include:"
+msgstr "Ejemplos de entrenamientos de tratamiento incluyen:"
+
+#: ../../Introduction/Introduction.rst:277
+msgid ""
+"Conventional mechanized treatment: mechanical flocculation, lamellar "
+"sedimentation, rapid sand filtration, disinfection"
+msgstr ""
+"Tratamiento mecanizado convencional: floculación mecánica, sedimentación "
+"lamelar, filtración rápida de arena, desinfección"
+
+#: ../../Introduction/Introduction.rst:278
+msgid ""
+"Superpulsator: rapid mix, floc filter, lamellar sedimentation, rapid sand "
+"filtration"
+msgstr ""
+"Superpulsador: mezcla rápida, filtro de flóculos, sedimentación lamelar, "
+"filtración rápida de arena"
+
+#: ../../Introduction/Introduction.rst:279
+msgid ""
+"AguaClara: hydraulic flocculation, floc filter, lamellar sedimentation, "
+"stacked rapid sand filtration, disinfection"
+msgstr ""
+"AguaClara: floculación hidráulica, filtro de flóculos, sedimentación "
+"lamelar, filtración rápida de arena apilada, desinfección"
+
+#: ../../Introduction/Introduction.rst:280
+#, python-format
+msgid ""
+"Membrane filtration: flocculation, sedimentation, rapid sand filtration, "
+"granular or powdered activated carbon, pre-oxidation (see `Review Article "
+"<https://pubs-acs-"
+"org.proxy.library.cornell.edu/doi/abs/10.1021%2Fes802473r>`_)"
+msgstr ""
+"Filtración por membrana: floculación, sedimentación, filtración rápida por "
+"arena, carbón activado granular o en polvo, preoxidación (véase `artículo de"
+" revisión <https://pubs-acs-"
+"org.proxy.library.cornell.edu/doi/abs/10.1021%2Fes802473r>`_)"
+
+#: ../../Introduction/Introduction.rst:287
+msgid "The AguaClara Treatment Train"
+msgstr "El tren de tratamiento AguaClara"
+
+#: ../../Introduction/Introduction.rst:290
+msgid ""
+"Why does flocculation precede sedimentation? Which process removes the "
+"largest quantity of contaminants?"
+msgstr ""
+"¿Por qué la floculación precede a la sedimentación? ¿Qué proceso elimina la "
+"mayor cantidad de contaminantes?"
+
+#: ../../Introduction/Introduction.rst:293
+msgid ""
+"Sedimentation is the process of particles ‘falling’ because they have a "
+"higher density than the water, and its governing equation is:"
+msgstr ""
+"La sedimentación es el proceso de las partículas que 'caen' porque tienen "
+"una densidad mayor que el agua, y su ecuación que lo rege es:"
+
+#: ../../Introduction/Introduction.rst:295
+msgid ""
+"\\bar v_t = \\frac{D_{particle}^2 g}{18 \\nu} \\frac{\\rho_p - "
+"\\rho_w}{\\rho_w}"
+msgstr ""
+
+#: ../../Introduction/Introduction.rst:300
+msgid "Such that:"
+msgstr "Tal que:"
+
+#: ../../Introduction/Introduction.rst:301
+msgid ""
+":math:`\\bar v_t` = terminal velocity of a particle, its downwards speed if "
+"it were in quiescent (still) water"
+msgstr ""
+":math:`\\bar v_t` = velocidad terminal de una partícula, su velocidad "
+"descendente si estuviera en agua quieta (quieta)"
+
+#: ../../Introduction/Introduction.rst:302
+msgid ":math:`D_{particle}` = particle diameter"
+msgstr ":math:`D_{particle}` = diámetro de la partícula"
+
+#: ../../Introduction/Introduction.rst:303
+msgid ""
+":math:`\\rho` = density. The :math:`p` subscript stands for particle, while "
+":math:`w` stands for water"
+msgstr ""
+":math:`\\rho` = densidad. El subíndice :math:`p` representa partícula, "
+"mientras que :math:`w` representa agua"
+
+#: ../../Introduction/Introduction.rst:305
+msgid ""
+"The code to generate a plot that shows this relationship can be found `here "
+"<https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=sEqG7_T5Su2m>`_"
+msgstr ""
+"El código para generar un gráfico que muestre esta relación se puede "
+"encontrar `aquí <https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Colab/AC_Textbook_Chapter1.ipynb#scrollTo=sEqG7_T5Su2m>`_"
+
+#: ../../Introduction/Introduction.rst:308
+msgid ""
+"The terminal velocities of particles in surface waters range over many "
+"orders of magnitude especially if you consider that mountain streams can "
+"carry large rocks. But removing rocks from water is easily accomplished, "
+"gravity will take care of it for us. Gravity is such a great force for "
+"separation of particles from water that we would like to use it to remove "
+"small particles too. Unfortunately, gravity becomes rather ineffective at "
+"separating pathogens and small inorganic particles such as clay. The "
+"terminal velocities (:eq:`eq_laminar_terminal_velocity`) of these particles "
+"is given in :numref:`figure_Terminal_velocity`."
+msgstr ""
+"Las velocidades terminales de las partículas en aguas superficiales varían "
+"de muchos órdenes de magnitud, especialmente si se considera que los arroyos"
+" de montaña pueden transportar rocas grandes. Pero extraer rocas del agua es"
+" fácil de lograr, la gravedad se encargará de ello por nosotros. La gravedad"
+" es una fuerza tan grande para la separación de partículas del agua que nos "
+"gustaría usarla también para eliminar partículas pequeñas. "
+"Desafortunadamente, la gravedad se vuelve bastante ineficaz para separar "
+"patógenos y pequeñas partículas inorgánicas como la arcilla. Las velocidades"
+" terminales (:eq:`eq_laminar_terminal_velocity`) de estas partículas se dan "
+"en :numref:`figure_Terminal_velocity`."
+
+#: ../../Introduction/Introduction.rst:318
+msgid "Terminal Velocity"
+msgstr "Velocidad terminal"
+
+#: ../../Introduction/Introduction.rst:318
+msgid ""
+"The terminal velocity of a 1 :math:`\\mu m` bacteria cell is approximately "
+"20 nanometers per second. The terminal velocity of a 5 :math:`\\mu m` clay "
+"particles is 30 :math:`\\mu m/s`. The velocity estimates for the faster "
+"settling particles may be too slow because those particles are transitioning"
+" to turbulent flow."
+msgstr ""
+"La velocidad terminal de una célula bacteriana de 1 :math:`\\mu m` es "
+"aproximadamente de 20 nanómetros por segundo. La velocidad terminal de una "
+"célula de arcilla de 5 :math:`\\mu m` es de 30 :math:`\\mu m/s`. Las "
+"estimaciones de velocidad para las partículas que se asientan más rápido "
+"pueden ser demasiado lentas porque esas partículas están en transición hacia"
+" un flujo turbulento."
+
+#: ../../Introduction/Introduction.rst:320
+msgid ""
+"The low terminal velocities of particles that we need to remove from surface"
+" waters reveals that sedimentation alone will not work. The time required "
+"for a small particle to settle even a few mm would require excessively large"
+" clarifiers. This is why flocculation, the process of sticking particles "
+"together so that they can attain higher terminal velocities, is perhaps the "
+"most important unit process in surface water treatment plants."
+msgstr ""
+"Las bajas velocidades terminales de las partículas que necesitamos eliminar "
+"de las aguas superficiales revelan que la sedimentación por sí sola no "
+"funcionará. El tiempo necesario para que una partícula pequeña se asiente "
+"incluso unos pocos mm requeriría clarificadores excesivamente grandes. Por "
+"eso la floculación, el proceso de unir partículas para que alcancen "
+"velocidades terminales más altas, es quizás el proceso unitario más "
+"importante en plantas tratamiento de agua superficies."
+
+#: ../../Introduction/Introduction.rst:330 ../../Introduction/Introduction.rst:504
+msgid "The AguaClara treatment train consists of the following processes"
+msgstr "El tren de tratamiento AguaClara consta de los siguientes procesos"
+
+#: ../../Introduction/Introduction.rst:323 ../../Introduction/Introduction.rst:497
+msgid "flow measurement"
+msgstr "Medición de caudal"
+
+#: ../../Introduction/Introduction.rst:324
+msgid "metering of the coagulant that will cause particles to stick together"
+msgstr "Medición del coagulante que hará que las partículas se adhieran entre sí"
+
+#: ../../Introduction/Introduction.rst:325 ../../Introduction/Introduction.rst:499
+msgid "mixing of the coagulant with the raw water"
+msgstr "mezcla del coagulante con el agua cruda"
+
+#: ../../Introduction/Introduction.rst:326 ../../Introduction/Introduction.rst:500
+msgid "flocculation where the water is deformed to cause particle collisions"
+msgstr "Floculación donde el agua se deforma para causar colisiones de partículas"
+
+#: ../../Introduction/Introduction.rst:327 ../../Introduction/Introduction.rst:501
+msgid ""
+"floc filter where large flocs settle through water that is flowing upward "
+"causing collisions between small particles carried by the upward flowing "
+"water and the large flocs"
+msgstr ""
+"filtro de flóculos donde los flócs grandes se asientan a través del agua que"
+" fluye hacia arriba, causando colisiones entre partículas pequeñas "
+"transportadas por el agua que fluye hacia arriba y los flócs grandes"
+
+#: ../../Introduction/Introduction.rst:328
+msgid ""
+"plate settlers (lamellar sedimentation) where gravity causes particles to "
+"settle to an inclined plate and then slide back down into the floc filter"
+msgstr ""
+"sedimentaciones de placas (sedimentación lamelar) donde la gravedad hace que"
+" las partículas se depositen en una placa inclinada y luego deslicen de "
+"nuevo hacia el filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:329 ../../Introduction/Introduction.rst:503
+msgid ""
+"stacked rapid sand filtration where particles collide with previously "
+"deposited particles in a sand filter bed"
+msgstr ""
+"filtración rápida de arena apilada donde las partículas chocan con "
+"partículas previamente depositadas en un lecho filtro de arena "
+
+#: ../../Introduction/Introduction.rst:330 ../../Introduction/Introduction.rst:504
+msgid ""
+"disinfection with chlorine to inactivate any pathogens that escaped the "
+"previous unit processes"
+msgstr ""
+"desinfección con cloro para inactivar cualquier patógeno que escapó de los "
+"procesos previos de la unidad"
+
+#: ../../Introduction/Introduction.rst:333
+msgid "Comparison with Croton Water Treatment Plant"
+msgstr "Comparación con Croton tratamiento de agua Plant"
+
+#: ../../Introduction/Introduction.rst:335
+msgid ""
+"As AguaClara technologies extend to larger and larger cities one of the "
+"criticisms could be that the technologies are somehow limited to small scale"
+" facilities. To address this question we will compare AguaClara unit "
+"processes with one of the most recent large scale water treatment plants, "
+"the `Croton Water Treatment Plant <../_static/references/Croton-WFP.pdf>`_ "
+"(CWTP) in NYC."
+msgstr ""
+"A medida que las tecnologías de AguaClara se extienden a ciudades cada vez "
+"mayores, una de las críticas podría ser que estas tecnologías están "
+"limitadas a instalaciones a pequeña escala. Para responder a esta pregunta, "
+"compararemos los procesos unitarios de AguaClara con una de las plantas de "
+"tratamiento de agua a gran escala más recientes, la `Croton tratamiento de "
+"agua Plant <../_static/references/Croton-WFP.pdf>`_ (CWTP) en Nueva York."
+
+#: ../../Introduction/Introduction.rst:337
+msgid ""
+"The CWTP is designed to treat `290 mgd "
+"<https://www.hazenandsawyer.com/work/projects/croton-wtp/>`_ (million "
+"gallons per day) which is equivalent to 12,700 L/s. The final cost of the "
+"project was $3.2bn. The cost per L/s of treatment capacity was thus "
+"$250,000. This is approximately 25 times more expensive than AguaClara water"
+" treatments. Of course, AguaClara water treatment plants haven't been "
+"constructed underground in the middle of a major city! Nonetheless, the "
+"factor of 25 suggests that AguaClara technologies have a significant cost "
+"advantage."
+msgstr ""
+"La CWTP está diseñada para tratar `290 mgd "
+"<https://www.hazenandsawyer.com/work/projects/croton-wtp/>`_ (millones de "
+"galones por día), lo que equivale a 12,700 L/s. El costo final del proyecto "
+"fue de $3.2bn. Por tanto, el costo por L/s de capacidad de tratamiento fue "
+"de $250,000. Esto es aproximadamente 25 veces más costoso que los "
+"tratamientos de agua de AguaClara. Por supuesto, ¡las plantas de tratamiento "
+"de agua AguaClara no se han construido bajo tierra en medio de una gran "
+"ciudad! Sin embargo, el factor de 25 sugiere que las tecnologías AguaClara "
+"tienen una ventaja significativa de costos."
+
+#: ../../Introduction/Introduction.rst:339
+msgid ""
+"The CWTP has 48 flocculators and 48 dissolved air flotation processes "
+"working in parallel. The flow per unit is thus 265 L/s. The current maximum "
+"size of the AguaClara Open Stacked Rapid Sand (OStaR) ilter is 20 L/s. It "
+"would be possible to design larger OStaR filters by simply including "
+"multiple sets of inlet/outlet trunk lines into a single filter box. The CWTP"
+" filters appear to have 6 outlet trunk lines per filter and thus the flow "
+"per trunk line is 44 L/s."
+msgstr ""
+"El CWTP tiene 48 floculadores y 48 procesos de flotación por aire disuelto "
+"que trabajan en paralelo. El caudal por unidad es así de 265 L/s. El tamaño "
+"máximo actual del ilter AguaClara Open Stacked Rapid Sand (OStaR) es de 20 "
+"L/s. Sería posible diseñar filtros OStaR más grandes simplemente incluyendo "
+"múltiples conjuntos de líneas troncales de entrada/salida en una sola caja "
+"de filtros. Los filtros CWTP parecen tener 6 líneas troncales de salida por "
+"filtro y, por tanto, el flujo por línea troncal es de 44 L/s."
+
+#: ../../Introduction/Introduction.rst:341
+msgid ""
+"The CWTP uses 2 stage mechanical flocculators with a total residence time of"
+" 4.8 minutes and a velocity gradient of 100 Hz. This residence time is much "
+"shorter than conventional design requirements, about half of the residence "
+"time used by the AguaClara plants built around 2017, significantly larger "
+"than the 90 second residence time used in the AguaClara 1 L/s plants."
+msgstr ""
+"El CWTP utiliza floculadores mecánicos de 2 etapas con un tiempo total de "
+"residencia de 4,8 minutos y un gradiente de velocidad de 100 Hz. Este tiempo"
+" de residencia es mucho más corto que los requisitos convencionales de "
+"diseño, aproximadamente la mitad del tiempo de residencia utilizado por las "
+"plantas de AguaClara construidas alrededor de 2017, significativamente mayor"
+" que los 90 segundos de residencia usados en las plantas de 1 L/s de "
+"AguaClara."
+
+#: ../../Introduction/Introduction.rst:343
+msgid ""
+"CWTP uses dissolved air flotation tanks that are located on top of the rapid"
+" sand filters."
+msgstr ""
+"CWTP utiliza tanques de flotación de aire disuelto que se encuentran sobre "
+"los filtros de arena rápidos."
+
+#: ../../Introduction/Introduction.rst:345
+msgid ""
+"The filter approach velocity (the velocity of water before it enters the "
+"sand bed) for CWTP is 4.42 mm/s. This is significantly higher than the 1.85 "
+"mm/s filtration velocity currently used in StaRS filters. StaRS filters are "
+"a stack of 6 filters and the net filtration velocity is 11 mm/s. Thus by "
+"that metric the StaRS filters are significantly smaller than the CWTP "
+"filters."
+msgstr ""
+"La velocidad de aproximación del filtro (la velocidad del agua antes de que "
+"entre en el lecho arenoso) para CWTP es de 4,42 mm/s. Esto es "
+"significativamente mayor que la velocidad de filtración de 1,85 mm/s "
+"actualmente utilizada en los filtros StaRS. Los filtros StaRS son una pila "
+"de 6 filtros y la velocidad neta de filtración es de 11 mm/s. Por tanto, "
+"según esa métrica, los filtros StaRS son significativamente más pequeños que"
+" los filtros CWTP."
+
+#: ../../Introduction/Introduction.rst:363
+msgid "Design Evolution"
+msgstr "Evolución del diseño"
+
+#: ../../Introduction/Introduction.rst:365
+msgid ""
+"During the later half of the 20th century surface water treatment "
+"technologies evolved slowly. The slow evolution was likely a product of the "
+"regulatory environment, the high cost of water treatment infrastructure, and"
+" the low profit margin. The high cost of municipal scale water treatment "
+"infrastructure made experiments at scale infeasible and thus there was no "
+"mechanism to introduce disruptive innovations. With little opportunity for a"
+" significant return on investment there was little incentive to invest in "
+"the research and development that could have advanced the technologies. A "
+"final disincentive was the widely held belief that surface water treatment "
+"was a mature field with little opportunity for significant advancement. The "
+"advances of the latter half of the 20th century focused primarily on "
+"mechanization and automation (Supervisory Control and Data Acquisition - "
+"SCADA)."
+msgstr ""
+"Durante la segunda mitad del siglo 20th, las tecnologías de tratamiento de "
+"agua superficial evolucionaron lentamente. La lenta evolución probablemente "
+"fue producto del entorno regulatorio, el alto coste de la infraestructura "
+"tratamiento de agua y el bajo margen de beneficio. El alto coste de la "
+"infraestructura tratamiento de agua a escala municipal hacía inviables los "
+"experimentos a gran escala y, por tanto, no existía un mecanismo para "
+"introducir innovaciones disruptivas. Con pocas oportunidades de retorno "
+"significativo de la inversión, había poco incentivo para invertir en "
+"investigación y desarrollo que podrían haber avanzado las tecnologías. Un "
+"último desincentivo fue la creencia generalizada de que el tratamiento de "
+"agua superficial era un campo maduro con pocas oportunidades de avance "
+"significativo. Los avances de la segunda mitad del siglo 20th se centraron "
+"principalmente en la mecanización y la automatización (Control Supervisor y "
+"Adquisición de Datos - SCADA)."
+
+#: ../../Introduction/Introduction.rst:367
+msgid ""
+"Design standards such as the `Great Lakes - Upper Mississippi River Board 10"
+" States Standards <http://10statesstandards.com/>`_ are evolving very slowly"
+" and retain an empirical approach to design. The empirical design "
+"methodology is a direct result of two confounding factors. The physics of "
+"particle interactions based on diffusion, fluid shear, and gravity are "
+"complex and given the challenges of characterizing surface water particle "
+"suspensions it was natural to assume that a mathematical description of the "
+"processes would be intractable."
+msgstr ""
+"Normas de diseño como las `Great Lakes - Upper Mississippi River Board 10 "
+"States Standards <http://10statesstandards.com/>`_ están evolucionando muy "
+"lentamente y mantienen un enfoque empírico en el diseño. La metodología "
+"empírica de diseño es el resultado directo de dos factores de confusión. La "
+"física de las interacciones de partículas basada en la difusión, el "
+"cizalladura del fluido y la gravedad es compleja y, dadas las dificultades "
+"para caracterizar suspensiones de partículas en aguas superficiales, era "
+"natural asumir que una descripción matemática de los procesos sería "
+"intratable."
+
+#: ../../Introduction/Introduction.rst:369
+msgid ""
+"Mechanized and automated water treatment plants performed reasonably well in"
+" communities with ready access to technical support services and supply "
+"chains that could reliably deliver replacement parts. In the global south "
+"municipal water treatment plants haven't faired as well. In 2012, one of the"
+" main water treatment plants serving Kathmandu, Nepal had failed chlorine "
+"pumps and were using a red garden hose to siphon chlorine from the stock "
+"tank. They crimped the end of the hose to control the flow rate of the "
+"chlorine solution."
+msgstr ""
+"Las plantas de tratamiento de agua mecanizadas y automatizadas funcionaron "
+"razonablemente bien en comunidades con acceso inmediato a servicios de "
+"soporte técnico y cadenas de suministro que podían entregar piezas de "
+"repuesto de forma fiable. En el sur global, las plantas municipales de "
+"tratamiento de agua no han tenido tan buen desempeño. En 2012, una de las "
+"principales plantas de tratamiento de agua que servía Katmandú, Nepal, había"
+" fallado con bombas de cloro y utilizaba una manguera roja para extraer "
+"cloro del tanque de stock. Cribaron el extremo de la manguera para controlar"
+" el caudal de la solución de cloro."
+
+#: ../../Introduction/Introduction.rst:378
+msgid "Kathmandu chemical feed room"
+msgstr "Sala de alimentación química de Katmandú"
+
+#: ../../Introduction/Introduction.rst:378
+msgid ""
+"Failed chlorine dosing system bypassed with a red tube that siphons the "
+"chlorine solution at a plant in Kathmandu, Nepal in 2012."
+msgstr ""
+"El sistema de dosificación de cloro fallido fue evitado por un tubo rojo que"
+" sifona la solución de cloro en una planta de Katmandú, Nepal, en 2012."
+
+#: ../../Introduction/Introduction.rst:381
+msgid ""
+"The ingenious and simple chemical dosing system that uses a siphon to "
+"completely bypass the failed pumps begs the question of whether design "
+"engineers could have invented a better option than the short lived pumps "
+"that they specified. We will investigate a gravity powered chemical dosing "
+"system that is far more reliable than chemical dosing pumps and that borrows"
+" from the simplicity of the garden hose solution used by the Nepali plant "
+"operators."
+msgstr ""
+"La ingeniosa y sencilla sistema de dosificación de químicos que utiliza un "
+"sifón para evitar completamente las bombas defectuosas plantea la pregunta "
+"de si los ingenieros de diseño podrían haber inventado una opción mejor que "
+"las bombas de corta duración que especificaron. Investigaremos un sistema de"
+" dosificación de químicos accionado por gravedad que es mucho más fiable que"
+" las bombas de dosificación química y que toma prestada de la simplicidad de"
+" la solución de manguera de jardín utilizada por los operadores de plantas "
+"nepalíes."
+
+#: ../../Introduction/Introduction.rst:383
+msgid ""
+"Chemical dosing systems are particularly vulnerable and their failures make "
+"plant operation very challenging. Providing the right coagulant dose is "
+"critical for efficient removal of particle and dissolved organics. Chemical "
+"dosing systems commonly rely on pumps and those pumps require regular "
+"maintenance and have relatively short mean times between failures."
+msgstr ""
+"Los sistemas de dosificación química son particularmente vulnerables y sus "
+"fallos hacen que el funcionamiento de la planta sea muy complicado. "
+"Proporcionar el dosis de coagulante adecuado es fundamental para la "
+"eliminación eficiente de partículas y compuestos orgánicos disueltos. Los "
+"sistemas de dosificación química suelen depender de bombas, que requieren "
+"mantenimiento regular y tienen tiempos medios relativamente cortos entre "
+"fallos."
+
+#: ../../Introduction/Introduction.rst:392
+msgid "Kathmandu alum dosing"
+msgstr "Dosificación de alumbre de Katmandú"
+
+#: ../../Introduction/Introduction.rst:392
+msgid ""
+"Alum dosing system based on the rate that 25 kg blocks of alum are placed in"
+" the inlet channel of the plant."
+msgstr ""
+"Sistema de dosificación de alumbre basado en la velocidad a la que se "
+"colocan bloques de 25 kg de alumbre en el canal de entrada de la planta."
+
+#: ../../Introduction/Introduction.rst:394
+msgid ""
+"The AguaClara Cornell program was founded in 2005 with the goal of creating "
+"a new generation of sustainable technologies that would perform well even in"
+" the rugged settings of rural communities. The goal wasn't simply to create "
+"technologies that would work for communities with very limited resources. "
+"The goal was to create the next generation of technologies that would both "
+"perform well in communities with limited resources and would be the highest "
+"performing technologies on multiple metrics for all communities."
+msgstr ""
+"El programa AguaClara Cornell se fundó en 2005 con el objetivo de crear una "
+"nueva generación de tecnologías sostenibles que funcionaran bien incluso en "
+"entornos difíciles de comunidades rurales. El objetivo no era simplemente "
+"crear tecnologías que funcionaran para comunidades con recursos muy "
+"limitados. El objetivo era crear la siguiente generación de tecnologías que "
+"funcionaran bien en comunidades con recursos limitados y que fueran las de "
+"mayor rendimiento en múltiples métricas para todas las comunidades."
+
+#: ../../Introduction/Introduction.rst:399
+msgid "Empirical Design"
+msgstr "Diseño empírico"
+
+#: ../../Introduction/Introduction.rst:401
+msgid ""
+"For the past several decades surface water treatment technologies have been "
+"considered \"mature\" and when I (Monroe) took a design course on drinking "
+"water treatment in 1985 I had the impression that there was little room for "
+"further innovation. This perspective is remarkable given that with the "
+"exception of lamellar sedimentation there were no equations describing the "
+"core treatment processes."
+msgstr ""
+"Durante las últimas décadas, las tecnologías de tratamiento de agua "
+"superficiales se han considerado \"maduras\" y cuando yo (Monroe) hice un "
+"curso de diseño sobre tratamiento de agua de consumo en 1985, tuve la "
+"impresión de que había poco margen para más innovación. Esta perspectiva es "
+"notable dado que, salvo la sedimentación laminar, no existían ecuaciones que"
+" describieran los procesos de tratamiento del núcleo."
+
+#: ../../Introduction/Introduction.rst:403
+msgid ""
+"Empirical design guidelines don't provide insight into how designs could be "
+"optimized or even what the performance of a water treatment plant will be."
+msgstr ""
+"Las directrices empíricas de diseño no ofrecen información sobre cómo "
+"optimizarse los diseños ni siquiera cuál será el rendimiento de una planta "
+"tratamiento de agua ."
+
+#: ../../Introduction/Introduction.rst:408
+msgid "Design for the Financers, Venders, Client, or Context?"
+msgstr "¿Diseño para los financiadores, vendedores, cliente o contexto?"
+
+#: ../../Introduction/Introduction.rst:410
+msgid ""
+"Tours of water treatment plants suggest that it is common for designs to be "
+"driven by the vender goal of a stable revenue stream for replacement parts "
+"rather than by a goal of meeting the client's needs. Mandatory software "
+"upgrades, mechanical valves, chemical pumps, mixing units provide a steady "
+"demand for proprietary components. Financers often prefer projects that can "
+"be implemented quickly either because they have target expenditures for a "
+"fiscal year or because loan repayment begins when the facility is turned "
+"over to the client."
+msgstr ""
+"Las visitas a tratamiento de agua plantas sugieren que es común que los "
+"diseños estén impulsados por el objetivo del vendedor de una fuente de "
+"ingresos estable para piezas de repuesto más que por un objetivo de "
+"satisfacer las necesidades del cliente. Las actualizaciones obligatorias de "
+"software, válvulas mecánicas, bombas químicas y unidades de mezcla "
+"proporcionan una demanda constante de componentes propietarios. Los "
+"financiadores suelen preferir proyectos que puedan implementarse "
+"rápidamente, ya sea porque tienen gastos objetivo para un año fiscal o "
+"porque el reembolso del préstamo comienza cuando la instalación se entrega "
+"al cliente."
+
+#: ../../Introduction/Introduction.rst:412
+msgid ""
+"Design for the client would strive to reduce capital, operating, and "
+"maintenance expenses. Clients also place a high value on reliability, ease "
+"of maintenance, and the ability to handle repairs with their staff. Design "
+"for the context would account for the capabilities of local and national "
+"supply chains. A key design consideration is to ensure that the treatment "
+"capabilities of the treatment plant match the variable water quality of the "
+"proposed water source. There are numerous slow sand filtration plants "
+"installed in the global south that are attempting to treat water sources "
+"that can not be effectively treated by slow sand filtration. The cost of the"
+" failure to consider the client and the context is born by the communities "
+"who end up with water treatment systems that aren't able to provide reliable"
+" safe water."
+msgstr ""
+"El diseño para el cliente buscaría reducir los gastos de capital, de "
+"operación y mantenimiento. Los clientes también valoran mucho la fiabilidad,"
+" la facilidad de mantenimiento y la capacidad de gestionar las reparaciones "
+"con su personal. El diseño para el contexto tendría en cuenta las "
+"capacidades de las cadenas de suministro locales y nacionales. Una "
+"consideración clave del diseño es asegurar que las capacidades de "
+"tratamiento de la planta de tratamiento coincidan con la calidad del agua "
+"variable de la fuente de agua propuesta. Existen numerosas plantas de "
+"filtración lenta de arena instaladas en el sur global que intentan tratar "
+"fuentes de agua que no pueden tratarse eficazmente mediante una filtración "
+"lenta por arena. El coste de no considerar al cliente y el contexto recae en"
+" las comunidades que acaban con sistemas tratamiento de agua que no pueden "
+"proporcionar agua segura fiable."
+
+#: ../../Introduction/Introduction.rst:414
+msgid ""
+"Design for the client requires empathy and a commitment to listen to and "
+"learn from plant operators. It also requires attention to detail and "
+"watching how plant operators interact with water treatment plants. Empathy "
+"leads to the goal of creating a work environment that makes it easy for the "
+"plant operators to do their routine tasks. This isn't just to make the plant"
+" operators work easy. A plant that is designed with the plant operator in "
+"mind will also engender pride and that pride will lead to better plant "
+"performance."
+msgstr ""
+"El diseño para el cliente requiere empatía y compromiso para escuchar y "
+"aprender de los operadores de planta. También requiere atención al detalle y"
+" observar cómo los operadores interactúan con tratamiento de agua plantas. "
+"La empatía conduce al objetivo de crear un entorno de trabajo que facilite a"
+" los operadores de planta realizar sus tareas rutinarias. Esto no es solo "
+"para facilitar el trabajo de los operadores de planta. Una planta diseñada "
+"pensando en el operador también generará orgullo, y ese orgullo conducirá a "
+"un mejor rendimiento de la planta."
+
+#: ../../Introduction/Introduction.rst:416
+msgid ""
+"An example of design for the operator is the elevation of the walkways in "
+"AguaClara plants. Conventional plants often have walkways that are above the"
+" tanks. That places the operator's eyes several meters above the water "
+"surface and makes it difficult to see particles and flocs in the water. "
+"AguaClara plants have the walkways approximately 50 cm below the top of the "
+"tanks. This makes it easy for the plant operator to look into the tanks for "
+"quick visual inspections."
+msgstr ""
+"Un ejemplo de diseño para el operador es la elevación de los pasillos en las"
+" plantas de AguaClara. Las plantas convencionales suelen tener pasarelas "
+"situadas por encima de los tanques. Esto sitúa los ojos del operador varios "
+"metros por encima de la superficie del agua y dificulta la visibilidad de "
+"partículas y floques en el agua. Las plantas de AguaClara tienen los "
+"pasillos aproximadamente 50 cm por debajo de la parte superior de los "
+"tanques. Esto facilita que el operador de la planta pueda inspeccionar "
+"rápidamente los tanques en los tanques."
+
+#: ../../Introduction/Introduction.rst:425
+msgid "Improvised ladder access to clarifier"
+msgstr "Acceso improvisado por escalera al clarificador"
+
+#: ../../Introduction/Introduction.rst:425
+msgid ""
+"A plant operator built a makeshift ladder to enable easier access to the "
+"flocculation and clarifiers in a package plant. This ladder considerably "
+"shortened the distance between the coagulant dose controls and the "
+"flocculator. The ladder also makes it possible to look closely at the water "
+"to see the size of the flocs."
+msgstr ""
+"Un operador de planta construyó una escalera improvisada para facilitar el "
+"acceso a la floculación y los clarificadores en una planta de encapsulación."
+" Esta escalera acortó considerablemente la distancia entre los controles de "
+"dosis de coagulante y el floculador. La escalera también permite observar de"
+" cerca el agua para ver el tamaño de los floculadores."
+
+#: ../../Introduction/Introduction.rst:430
+msgid "Design Bifurcations"
+msgstr "Bifurcaciones de diseño"
+
+#: ../../Introduction/Introduction.rst:432
+msgid ""
+"Seemingly small decisions can have a profound effect on the evolution of "
+"design. Often these decisions have a clear logic and a simple analysis would"
+" suggest that the decision must be the right one. It is common for design "
+"choices to have multiple consequences that can turn a seemingly great choice"
+" into a poor performer."
+msgstr ""
+"Las decisiones aparentemente pequeñas pueden tener un efecto profundo en la "
+"evolución del diseño. A menudo estas decisiones tienen una lógica clara y un"
+" análisis sencillo sugeriría que la decisión debe ser la correcta. Es común "
+"que las decisiones de diseño tengan múltiples consecuencias que pueden "
+"convertir una elección aparentemente buena en una de bajo rendimiento."
+
+#: ../../Introduction/Introduction.rst:437
+msgid "Walls and a Roof"
+msgstr "Muros y un tejado"
+
+#: ../../Introduction/Introduction.rst:439
+msgid ""
+"Traditionally in tropical and temperate climates, flocculators and "
+"clarifiers are built without an enclosing building because they aren't in "
+"danger of freezing. Without protection from the sun the materials used for "
+"plant construction must be UV resistant and thus plastic can't be used. This"
+" requires use of heavier and more expensive materials such stainless steel "
+"and aluminum. Metal plate settlers are heavy and thus they can't be easily "
+"removed by the plant operator."
+msgstr ""
+"Tradicionalmente, en climas tropicales y templados, los floculadores y "
+"clarificadores se construyen sin un edificio que los cierre porque no corren"
+" riesgo de congelarse. Sin protección solar, los materiales utilizados para "
+"la construcción de plantas deben ser resistentes a los rayos UV y, por "
+"tanto, no se puede utilizar plástico. Esto requiere el uso de materiales más"
+" pesados y costosos, como el acero inoxidable y el aluminio. Los "
+"sedimentadores de placas metálicas son pesados y, por tanto, no pueden ser "
+"retirados fácilmente por el operador de la planta."
+
+#: ../../Introduction/Introduction.rst:441
+msgid ""
+"Without the ability to gain access to a clarifier from above, conventional "
+"clarifier cleaning must be done by providing operator access below the plate"
+" settlers. This in turn requires that the space below the plate settlers be "
+"tall enough to accommodate a plant operator. Thus clarifiers that are built "
+"in the open have to be deeper than clarifiers that are built under a roof "
+"and they are more difficult to maintain because the operator has to enter "
+"the tank through a waterproof access port. Operator access to the space "
+"below the stainless steel or aluminum plate settlers is through a port in "
+"the side of the tank (see the video "
+":numref:`figure_Cleaning_a_Clarifier_with_fixed_plates`)."
+msgstr ""
+"Sin la posibilidad de acceder a un clarificador desde arriba, la limpieza "
+"convencional del clarificador debe realizarse proporcionando al operador "
+"acceso por debajo de los sedimentadores de placas. Esto, a su vez, requiere "
+"que el espacio bajo los estabilizadores de placas sea lo suficientemente "
+"alto para acomodar a un operador de planta. Por tanto, los clarificadores "
+"construidos a la vista deben ser más profundos que los que se construyen "
+"bajo un techo y son más difíciles de mantener porque el operador debe entrar"
+" en el tanque a través de un puerto de acceso impermeable. El acceso del "
+"operador al espacio bajo los sedimentadores de placas de acero inoxidable o "
+"aluminio se realiza a través de un puerto en el lateral del tanque (ver el "
+"vídeo :numref:`figure_Cleaning_a_Clarifier_with_fixed_plates`)."
+
+#: ../../Introduction/Introduction.rst
+msgid "Cleaning a clarifier with fixed plates"
+msgstr "Limpieza de un clarificador con placas fijas"
+
+#: ../../Introduction/Introduction.rst:452
+msgid ""
+"Plant operators opening hatch below plate settlers in a traditional "
+"clarifier."
+msgstr ""
+"Los operadores de la planta abren la escotilla debajo de los sedimentadores "
+"de placas en un clarificador tradicional."
+
+#: ../../Introduction/Introduction.rst:454
+msgid ""
+"AguaClara clarifiers are designed to be taken off line one at a time so the "
+"water treatment plant can continue to operate during maintenance. Two plant "
+"operators can quickly open a clarifier by removing the plastic plate "
+"settlers (see the video :numref:`figure_Removing_Plate_Settlers`). The zero "
+"settled sludge design of the AguaClara clarifiers also reduces the need for "
+"cleaning."
+msgstr ""
+"Los clarificadores AguaClara están diseñados para retirarse de la línea uno "
+"a uno para que la planta tratamiento de agua pueda seguir funcionando "
+"durante el mantenimiento. Dos operadores de planta pueden abrir rápidamente "
+"un clarificador retirando los sedimentadores de placas de plástico (ver el "
+"vídeo :numref:`figure_Removing_Plate_Settlers`). El diseño de lodo cero "
+"asentado de los clarificadores AguaClara también reduce la necesidad de "
+"limpieza."
+
+#: ../../Introduction/Introduction.rst
+msgid "Removing Plate Settlers from an AguaClara Clarification tank"
+msgstr ""
+"Retirando los sedimentadores de placas de un tanque de clarificación "
+"AguaClara"
+
+#: ../../Introduction/Introduction.rst:464
+msgid "Plant operator removing plate settlers from an AguaClara clarifier."
+msgstr ""
+"El operador de la planta retira los sedimentadores de placas de un "
+"clarificador AguaClara."
+
+#: ../../Introduction/Introduction.rst:468
+msgid ""
+"There is another major consequence of building water treatment plants in a "
+"secure enclosed building. Many water treatment plants will operate around "
+"the clock and that requires plant operators to spend the night at the "
+"facility. Having a secure facility provides improved safety for the plant "
+"operator. That improved safety is very important for some potential "
+"operators and thus providing that safety will increase potential diversity."
+msgstr ""
+"Hay otra consecuencia importante de construir plantas de tratamiento de "
+"agua dentro de un edificio cerrado y seguro. Muchas plantas de tratamiento "
+"de agua funcionan continuamente, lo que requiere que los operadores pasen la "
+"noche en las instalaciones. Una instalación segura mejora la seguridad del "
+"operador. Esa mayor seguridad es muy importante para algunos posibles "
+"operadores y, por tanto, proporcionarla aumentará la diversidad potencial."
+
+#: ../../Introduction/Introduction.rst:473
+msgid "Mechanized or Smart Hydraulics"
+msgstr "Hidráulica Mecanizada o Inteligente"
+
+#: ../../Introduction/Introduction.rst:475
+msgid ""
+"Dramatically different designs are also created when we choose gravity power"
+" and smart hydraulics rather than mechanical mixers, pumps, and mechanical "
+"controls for each of the unit processes. It appears that use of electricity "
+"in drinking water treatment plants became the popular choice about 100 years"
+" ago. Many gravity powered plants have been converted to use mechanical "
+"mixers for rapid mix and flocculation. That choice may not have been well "
+"founded from a water quality or performance perspective."
+msgstr ""
+"También se crean diseños radicalmente diferentes cuando elegimos energía por"
+" gravedad y hidráulica inteligente en lugar de mezcladores mecánicos, bombas"
+" y controles mecánicos para cada uno de los procesos unitarios. Parece que "
+"el uso de electricidad en plantas de tratamiento de agua de consumo se "
+"convirtió en la opción popular hace unos 100 años. Muchas plantas por "
+"gravedad se han convertido para usar mezcladores mecánicos para mezcla "
+"rápida y floculación. Esa elección puede que no estuviera bien fundamentada "
+"desde una perspectiva de calidad del agua o rendimiento."
+
+#: ../../Introduction/Introduction.rst:477
+msgid ""
+"Automated plants often move the controls far away from the critical "
+"observation locations in the plant. This might be appropriate or necessary "
+"in some cases, but it has the disadvantage of making it more difficult for "
+"operators to directly observe what is happening in the plant. Direct "
+"observations are critical because even highly mechanized water treatment "
+"plants are not yet equipped with enough sensors to enable rapid "
+"troubleshooting from the control room."
+msgstr ""
+"Las plantas automatizadas suelen mover los controles lejos de los puntos "
+"críticos de observación en la planta. Esto puede ser apropiado o necesario "
+"en algunos casos, pero tiene la desventaja de dificultar que los operadores "
+"observen directamente lo que ocurre en la planta. Las observaciones directas"
+" son críticas porque incluso las plantas de tratamiento de agua altamente "
+"mecanizadas aún no cuentan con suficientes sensores para permitir una rápida"
+" resolución de problemas desde la sala de control."
+
+#: ../../Introduction/Introduction.rst:479
+msgid ""
+"AguaClara plants have a layout that places the coagulant dose controls "
+"within a few steps of the best places to observe floc formation in the "
+"flocculator. This provides plant operators with rapid feedback that is "
+"critical when the raw water changes rapidly at the beginning of a high "
+"runoff event. As operators spend time observing the processes in the plant "
+"they begin to associate cause and effect and can make operational changes to"
+" improve performance. For example, gas bubbles that carry flocs to the "
+"surface can indicate sludge accumulation in a clarifier. Rising flocs "
+"without gas bubbles can indicate a poor inlet flow distribution for a "
+"clarifier or density differences caused by temperature differences."
+msgstr ""
+"Las plantas de AguaClara tienen un diseño que sitúa los controles de dosis "
+"de coagulante a pocos pasos de los mejores lugares para observar formación "
+"de flóculos en el floculador. Esto proporciona a los operadores de la planta"
+" una retroalimentación rápida que es crítica cuando el agua cruda cambia "
+"rápidamente al inicio de un evento de escorrentía elevada. A medida que los "
+"operadores dedican tiempo a observar los procesos en la planta, empiezan a "
+"asociar causa y efecto y pueden realizar cambios operativos para mejorar el "
+"rendimiento. Por ejemplo, las burbujas de gas que llevan los flócs a la "
+"superficie pueden indicar acumulación de lodos en un clarificador. Los flócs"
+" ascendentes sin burbujas de gas pueden indicar una mala distribución del "
+"flujo de entrada para un clarificador o diferencias de densidad causadas por"
+" diferencias de temperatura."
+
+#: ../../Introduction/Introduction.rst:481
+msgid ""
+"This is an evolving textbook. We don't intend to ever print this book. This "
+"book has version numbers just like software with the idea that revisions are"
+" rapid and frequent. We commit to helping to accelerate the pace of "
+"knowledge generation and to revising this text as you help us identify "
+"places where we have presented hypotheses as theory and places where "
+"research provides a basis for better theoretical models of the water "
+"treatment processes."
+msgstr ""
+"Este es un libro de texto en evolución. No tenemos intención de imprimir "
+"nunca este libro. Este libro tiene números de versión, igual que el "
+"software, con la idea de que las revisiones son rápidas y frecuentes. Nos "
+"comprometemos a ayudar a acelerar el ritmo de generación de conocimiento y a"
+" revisar este texto mientras nos ayudas a identificar los lugares donde "
+"hemos presentado hipótesis como teoría y aquellos donde la investigación "
+"proporciona una base para mejores modelos teóricos de los procesos "
+"tratamiento de agua ."
+
+#: ../../Introduction/Introduction.rst:483
+msgid ""
+"Our students are co-creators of knowledge and not empty vessels to be filled"
+" with our wisdom. AguaClara technologies are inventions that are the result "
+"of idea collisions in the AguaClara labs and from observations and "
+"reflections with operators, technicians, and engineers in dozens of water "
+"treatment plants. Although we've learned a great deal about water treatment "
+"since 2005 when AguaClara was founded, there is still much more to be "
+"learned. And so it is with a spirit of curiosity that we write this textbook"
+" expecting to learn even more in the coming years."
+msgstr ""
+"Nuestros estudiantes son co-creadores de conocimiento y no recipientes "
+"vacíos para llenarse con nuestra sabiduría. Las tecnologías AguaClara son "
+"inventos que son el resultado de colisiones de ideas en los laboratorios de "
+"AguaClara y de observaciones y reflexiones con operadores, técnicos e "
+"ingenieros en decenas de plantas tratamiento de agua . Aunque hemos "
+"aprendido mucho sobre tratamiento de agua desde 2005, cuando se fundó "
+"AguaClara, aún queda mucho por aprender. Y así, con un espíritu de "
+"curiosidad, escribimos este libro de texto esperando aprender aún más en los"
+" próximos años."
+
+#: ../../Introduction/Introduction.rst:485
+msgid ""
+"Socrates said \"`Education is the kindling of a flame, not the filling of a "
+"vessel <https://www.goodreads.com/quotes/69267-education-is-the-kindling-"
+"of-a-flame-not-the-filling>`_.\" Our goal is to bring the spirit of play, "
+"discovery, and mystery into the challenge of improving the quality of life "
+"of everyone on the planet by sharing better methods to produce safe drinking"
+" water."
+msgstr ""
+"Sócrates dijo: \"`La educación es el encendido de una llama, no el lleno de "
+"un recipiente <https://www.goodreads.com/quotes/69267-education-is-the-"
+"kindling-of-a-flame-not-the-filling>`_.\" Nuestro objetivo es aportar el "
+"espíritu de juego, descubrimiento y misterio al desafío de mejorar la "
+"calidad de vida de todos en el planeta compartiendo mejores métodos para "
+"producir agua potable seguros."
+
+#: ../../Introduction/Introduction.rst:487
+msgid ""
+"In We Make the Road by Walking: Conversations on Education and Social "
+"Change, Paulo Freire said, \"`The more we become able to become a child "
+"again, to keep ourselves childlike, the more we can understand... "
+"<https://www.goodreads.com/author/quotes/41108.Paulo_Freire?page=2>`_\". We "
+"commit to playing together in a relationship where we are all learning and "
+"we are all teaching. \"Education must begin with the solution of the "
+"teacher-student contradiction, by reconciling the poles of the contradiction"
+" so that both are simultaneously teachers and students.\" - Paulo Freire"
+msgstr ""
+"En Hacemos el camino caminando: Conversaciones sobre educación y cambio "
+"social, Paulo Freire dijo: \"`Cuanto más podamos volver a ser niños, "
+"mantenernos infantiles, más podemos entender... "
+"<https://www.goodreads.com/author/quotes/41108.Paulo_Freire?page=2>`_\". Nos"
+" comprometemos a jugar juntos en una relación donde todos estamos "
+"aprendiendo y todos enseñando. \"La educación debe comenzar con la solución "
+"de la contradicción profesor-alumno, reconciliando los polos de la "
+"contradicción para que ambos sean simultáneamente profesores y alumnos.\" - "
+"Paulo Freire"
+
+#: ../../Introduction/Introduction.rst:494
+msgid "AguaClara Inventions"
+msgstr "Inventos de AguaClara"
+
+#: ../../Introduction/Introduction.rst:498
+msgid ""
+"metering of the coagulant (and chlorine) that will cause particles to stick "
+"together"
+msgstr ""
+"Medición del coagulante (y del cloro) que hará que las partículas se "
+"adhieran entre sí"
+
+#: ../../Introduction/Introduction.rst:502
+msgid ""
+"lamellar sedimentation where gravity causes particles to settle to an "
+"inclined plate and then slide back down into the floc filter"
+msgstr ""
+"sedimentación lamelar donde la gravedad hace que las partículas se asienten "
+"en una placa inclinada y luego deslicen de nuevo hacia el filtro de flóculos"
+
+#: ../../Introduction/Introduction.rst:507
+msgid "Plant layout"
+msgstr "Distribución de la planta"
+
+#: ../../Introduction/Introduction.rst:508
+msgid "Compact layout with processes sharing common walls when possible"
+msgstr ""
+"Distribución compacta con procesos que comparten paredes comunes cuando sea "
+"posible"
+
+#: ../../Introduction/Introduction.rst:509
+msgid ""
+"Walkways set at optimal elevation for observation and maintenance of "
+"processes"
+msgstr ""
+"Pasarelas colocadas en elevación óptima para la observación y mantenimiento "
+"de procesos"
+
+#: ../../Introduction/Introduction.rst:510
+msgid "Open tanks used whenever possible to simplify maintenance"
+msgstr ""
+"Tanques abiertos utilizados siempre que sea posible para simplificar el "
+"mantenimiento"
+
+#: ../../Introduction/Introduction.rst:511
+msgid "Building enclosure to protect the entire plant from UV and for security"
+msgstr ""
+"Construcción de recintos para proteger toda la planta de los rayos UV y por "
+"seguridad"
+
+#: ../../Introduction/Introduction.rst:514
+msgid "Chemical dosing"
+msgstr "Dosificación química"
+
+#: ../../Introduction/Introduction.rst:515
+msgid ""
+"Linear flow orifice meter to both measure the plant flow rate and to turn "
+"the entrance tank water surface into a flow sensor input for the chemical "
+"dosing system."
+msgstr ""
+"Medidor de orificio de flujo lineal para medir la caudal de la planta y "
+"convertir la superficie de agua tanque de entrada en una entrada de sensor "
+"de caudal para el sistema de dosificación de químicos."
+
+#: ../../Introduction/Introduction.rst:516
+msgid ""
+"Gravity powered semi-automated dosing system that delivers a constant dose "
+"even when plant flow rate changes."
+msgstr ""
+"Sistema de dosificación semiautomatizado impulsado por gravedad que "
+"proporciona una dosis constante incluso cuando la planta caudal cambia."
+
+#: ../../Introduction/Introduction.rst:517
+msgid "Slider on a calibrated scale for intuitive changes in chemical dose"
+msgstr ""
+"Deslizador en una escala calibrada para cambios intuitivos en la dosis "
+"química"
+
+#: ../../Introduction/Introduction.rst:520
+msgid "Rapid mix"
+msgstr "mezcla rápida"
+
+#: ../../Introduction/Introduction.rst:521
+msgid ""
+"Simple orifice for hydraulic rapid mix or simply rely on the mixing "
+"generated by the water exiting the linear flow orifice meter."
+msgstr ""
+"Orificio sencillo para mezcla rápida hidráulico o simplemente depender de la"
+" mezcla generada por el agua que sale por el orificio lineal del medidor de "
+"caudal."
+
+#: ../../Introduction/Introduction.rst:525
+msgid ""
+"Obstacles between baffles when required to create a more uniform "
+"distribution of energy dissipation rate and a more efficient use of "
+"available energy"
+msgstr ""
+"Obstáculos entre deflectores cuando es necesario para crear una distribución"
+" más uniforme de la tasa de disipación de energía y un uso más eficiente de "
+"la energía disponible"
+
+#: ../../Introduction/Introduction.rst:526
+msgid "Plastic modules that can easily be removed from channels for maintenance"
+msgstr ""
+"Módulos plásticos que pueden retirarse fácilmente de los canales para su "
+"mantenimiento"
+
+#: ../../Introduction/Introduction.rst:527
+msgid "Compact vertical flow flocculators for low flow plants"
+msgstr "Floculadores compactos de flujo vertical para plantas de bajo flujo"
+
+#: ../../Introduction/Introduction.rst:530
+msgid "Floc Filter and Plate Settlers"
+msgstr "filtro de flóculos y colonos de la placa"
+
+#: ../../Introduction/Introduction.rst:531
+msgid "Four channel inlet/outlet system that enables"
+msgstr "Sistema de entrada/salida de cuatro canales que permite"
+
+#: ../../Introduction/Introduction.rst:533
+msgid "dumping flocculated water that doesn't meet specifications"
+msgstr "Vierte agua floculada que no cumple las especificaciones"
+
+#: ../../Introduction/Introduction.rst:534
+msgid ""
+"taking one clarifier offline by placing a pipe stub in the inlet and a cap "
+"on the outlet"
+msgstr ""
+"Desconectar un clarificador colocando un tubo en la entrada y un tapón en la"
+" salida"
+
+#: ../../Introduction/Introduction.rst:535
+msgid "dumping settled water that doesn't meet specifications"
+msgstr "Dumping agua sedimentada que no cumple con las especificaciones"
+
+#: ../../Introduction/Introduction.rst:537
+msgid ""
+"Inlet manifold with flow diffusers that straighten the flow into a "
+"continuous line jet"
+msgstr ""
+"manifold de entrada con difusores de flujo que enderezan el flujo en un "
+"chorro de línea continuo"
+
+#: ../../Introduction/Introduction.rst:538
+msgid ""
+"Inlet manifold is offset from center to force jet to all go in a consistent "
+"direction through the jet reverser"
+msgstr ""
+"manifold de entrada está desplazado desde el centro para forzar el chorro a "
+"ir en una dirección consistente a través del inversor del chorro"
+
+#: ../../Introduction/Introduction.rst:539
+msgid ""
+"Jet reverser that efficiently reverses the direction of the incoming water "
+"to be able to resuspend settled flocs that are sliding down the inclines"
+msgstr ""
+"Inversor por chorro que invierte eficientemente la dirección del agua "
+"entrante para poder resuspender los flócs asentados que se deslizan por las "
+"pendientes"
+
+#: ../../Introduction/Introduction.rst:540
+msgid ""
+"Floc filter that is stable and that reduces the clarified turbidity. The "
+"floc filter coupled with the jet reverser system produces a very uniform "
+"vertical flow into the plate settlers and thus eliminates large scale flow "
+"circulation that commonly results in excess flow through some of the plate "
+"settlers."
+msgstr ""
+"filtro de flóculos eso es estable y reduce la turbidez clarificada. El "
+"filtro de flóculos acoplado al sistema inversor por chorro produce un flujo "
+"vertical muy uniforme hacia los sedimentadores de placas y, por tanto, "
+"elimina la circulación de flujo a gran escala que suele provocar un exceso "
+"de flujo a través de algunos de los sedimentadores de placas."
+
+#: ../../Introduction/Introduction.rst:541
+msgid "Zero settled sludge in the main part of the clarifier"
+msgstr "Cero sedimentos en la parte principal del clarificador"
+
+#: ../../Introduction/Introduction.rst:542
+msgid "Hydraulically cleaned with no moving parts"
+msgstr "Limpiado hidráulicamente sin partes móviles"
+
+#: ../../Introduction/Introduction.rst:543
+msgid "Floc Hopper that consolidates the floc slurry prior to draining."
+msgstr "tolva de lodos que consolida la suspensión de flóculos antes de drenar."
+
+#: ../../Introduction/Introduction.rst:547
+msgid "Filtration"
+msgstr "Filtración"
+
+#: ../../Introduction/Introduction.rst:548
+msgid "Sand drain system to empty sand from filter hydraulically"
+msgstr "Sistema de drenaje de arena para vaciar la arena del filtro hidráulicamente"
+
+#: ../../Introduction/Introduction.rst:549
+msgid "Wing and orifice system to inject water into the filter bed"
+msgstr "Sistema de alas y orificios para inyectar agua en la lecho filtrante"
+
+#: ../../Introduction/Introduction.rst:550
+msgid ""
+"Stacked Rapid Sand Filtration system that has the same flow rate for "
+"filtration and for backwash"
+msgstr ""
+"Sistema de filtración rápida de arena apilada que tiene el mismo caudal para"
+" filtración y contralavado"
+
+#: ../../Introduction/Introduction.rst:551
+msgid ""
+"Uses settled water for backwash to eliminate need for pumps and clearwells "
+"and to eliminate failure mode of inadequate supply of filtered water for "
+"backwash."
+msgstr ""
+"Utiliza agua sedimentada para el retrolavado, eliminando la necesidad de "
+"bombas y pozos de despacho, y para eliminar el modo de fallo por suministro "
+"insuficiente de agua filtrada para el retrolavado."
+
+#: ../../Introduction/Introduction.rst:552
+msgid ""
+"Air valve control system to trigger mode change from backwash to filtration "
+"and from filtration to backwash"
+msgstr ""
+"Sistema de control de válvula de aire para activar el cambio de modo de "
+"contralavado a filtración y de filtración a contralavado"
+
+#: ../../Introduction/Introduction.rst:553
+msgid "No valves needed on inlet and outlet pipes"
+msgstr "No se necesitan válvulas en las tuberías de entrada y salida"
+
+#: ../../Introduction/Introduction.rst:559
+msgid "Myths in Environmental Engineering"
+msgstr "Mitos en la ingeniería ambiental"
+
+#: ../../Introduction/Introduction.rst:561
+msgid ""
+"The following list is designed to get you thinking. These are concepts that "
+"are present in the Environmental Engineering community and that may capture "
+"some elements of truth and that may also further misconceptions."
+msgstr ""
+"La siguiente lista está diseñada para hacerte reflexionar. Estos son "
+"conceptos presentes en la comunidad de Ingeniería Ambiental que pueden "
+"captar algunos elementos de verdad y que también pueden alimentar conceptos "
+"erróneos."
+
+#: ../../Introduction/Introduction.rst:563
+msgid ""
+"Slow sand filters ripen (improve in ability to remove contaminants over "
+"time) because of biological growth in the filter bed"
+msgstr ""
+"Los filtros de arena maduran lentamente (mejora en la capacidad de eliminar "
+"contaminantes con el tiempo) debido al crecimiento biológico en la lecho "
+"filtrante"
+
+#: ../../Introduction/Introduction.rst:564
+#, python-format
+msgid ""
+"If a 20 cm deep sand filter removes 90% of influent particles, then a 40 cm "
+"deep filter will remove 99% of influent particles"
+msgstr ""
+"Si un filtro de arena de 20 cm de profundidad elimina el 90% de las "
+"partículas influyentes, entonces un filtro de 40 cm de profundidad eliminará"
+" el 99% de las partículas influyentes"
+
+#: ../../Introduction/Introduction.rst:565
+msgid "If water is dirty, then you should filter it"
+msgstr "Si el agua está sucia, deberías filtrarla"
+
+#: ../../Introduction/Introduction.rst:566
+msgid "Chlorine disinfects dirty water and makes it safe to drink"
+msgstr "El cloro desinfecta el agua sucia y la hace segura para beber"
+
+#: ../../Introduction/Introduction.rst:567
+msgid "Chlorination and filtration eliminated typhoid fever from the US"
+msgstr "La cloración y la filtración eliminaron la fiebre tifoidea en Estados Unidos"
+
+#: ../../Introduction/Introduction.rst:568
+msgid ""
+"Cessation of chlorination due to fear of disinfection by products caused the"
+" cholera outbreak in Peru in 1993"
+msgstr ""
+"La cesación de la cloración por temor a la desinfección por productos "
+"provocó el brote de cólera en Perú en 1993"
+
+#: ../../Introduction/Introduction.rst:569
+msgid "Clarification is simple"
+msgstr "La aclaración es sencilla"
+
+#: ../../Introduction/Introduction.rst:570
+msgid ""
+"We already know how to solve the problem of the billions of people who do "
+"not having access to safe drinking water"
+msgstr ""
+"Ya sabemos cómo resolver el problema de los miles de millones de personas "
+"que no tienen acceso a agua potable"
+

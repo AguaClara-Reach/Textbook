@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Rapid_Mix/RM_Examples.rst:11
+msgid "Rapid Mix: Examples"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:16
+msgid "Example: pH Adjustment"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:18
+msgid "Find the required dose of several bases to raise the pH at the Manzaragua Water Treatment Plant. The Manzaragua AguaClara plant consists of two 1 L/s plants operating in parallel. The plant is located in the municipality of Guinope, the department of El Paraiso, Honduras."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:27
+msgid "Manzaragua WTP"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:27
+msgid "Manzaragua water treatment plant using two of the AguaClara 1 L/s plants in parallel."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:29
+msgid "The plant performed very poorly from the first day of operation. The first attempted fix was to double the flocculator residence time by increasing the number of flocculator pipes (3 inch diameter by 1.5 m long) from 12 to 24. This improved performance, but the plant continued to perform poorly. A raw water sample was analyzed on May 30, 2018 and the following results were obtained."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:38
+msgid "Manzaragua Water Analysis"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:38
+msgid "Water quality analysis for Manzaragua."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:43
+msgid "Manzaragua water quality analysis"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Parameter"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Units"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Standard"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Results"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Turbidity"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "NTU"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "71"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Color"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "color units"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "150"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "pH"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "6.5 - 8.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "5.91"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Conductivity"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`\\mu s/cm`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "400"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "69.15"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Alkalinity"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`mg/L` as :math:`CaCO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "24.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Bicarbonates"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Carbonates"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Hardness"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "15.68"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:57
+msgid "This water has high color which suggests a high concentration of dissolved organic matter. The pH is a clear problem because the pH is too low for the coagulant nanoparticles to precipitate. As the water sample has a pH of 5.91 a significant fraction of the coagulant will remain soluble."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:59
+msgid "Our goal is to determine how much base will need to be added to raise the pH. We do not have data on the *optimal* pH for treating high color water with PACl and so we will use pH 7 as the target."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:61
+msgid "At circumneutral pH (pH close to 7) the buffering capacity of the water is dominated by carbonate chemistry and specifically by the equilibrium between :math:`{H_2}CO_3^{\\star}` and :math:`HCO_3^-` . We will use the acid neutralizing capacity (reported as calcium carbonate alkalinity) and the pH from the sample analysis to estimate the total concentration of carbonates. We will not use the sample analysis carbonate concentrations because they can not be precisely correct."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:63
+msgid "We will find the amount of base that must be added using Equation :eq:`Base_for_pH_Adjust`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:68
+msgid "ANC and carbonate values for several bases and acids"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Base/Acid"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Pi_{ANC}`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Pi_{CO_3^{-2}}`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Na_2CO_3` or :math:`CaCO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`NaHCO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`NaOH`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`HCl` or :math:`HNO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "-1"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`H_2SO_4`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "-2"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:79
+msgid "For :math:`Na_2CO_3` \\* :math:`\\Pi_{ANC}` = 2 we are adding :math:`CO_3^{-2}` which is multiplied by two in the ANC equation because :math:`CO_3^{-2}` can react with two protons. \\* :math:`\\Pi_{CO_3^{-2}}` = 1 because there is one mole of :math:`CO_3` per mole of :math:`Na_2CO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:85
+msgid "`Colab worksheet calculating the required base addition <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=EYj26XBJa9DD&line=6&uniqifier=1>`_."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:87
+msgid "In following through the example it becomes apparent that the choice of base matters. The most efficient (on a mass or mole basis) base is :math:`NaOH` because it doesn't add any carbonates that don't fully react with the hydrogen ions. The decision about which base to use will be influenced by economics, operator safety, and by whether additional carbonate buffering simplifies plant operation with changing raw water quality."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:93
+msgid "Calcium base."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Chemical Name"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Common Name"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Chemical Formula"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium carbonate"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Limestone or chalk"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`CaCO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium hydroxide"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Slaked lime or hydrated lime"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Ca(OH)_2`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium oxide"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Quicklime"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`CaO`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:101
+msgid "The calcium bases are relatively inexpensive and have the disadvantage of lower solubility than sodium bases. Calcium carbonate has a low solubility, carbon dioxide is present in the atmosphere, and thus calcium carbonate precipitation limits the concentration that can be used for chemical feeds."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:110
+msgid "mole base for target pH"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:110
+msgid "Dose of three bases (in mole/L) required to achieve a target pH for the Manzaragua water. Carbonates provide more buffering and less change in the pH compared with :math:`NaOH`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:119
+msgid "mg base for target pH"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:119
+msgid "Dose of two bases (in mg/L) required to achieve a target pH for the Manzaragua water. Carbonates provide more buffering and less change in the pH compared with :math:`NaOH`."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:121
+msgid "The required dose for each of the bases is summarized below."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:125
+msgid "Dose of each base required to change the pH of the Manzaragua water to 7."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Na_2CO_3`"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "[mmoles/L]"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0.45"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "2.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0.53"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "[mg/L]"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "47.21"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "235.0"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "21.19"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:137
+msgid "LFOM and Coagulant Injection Sizing"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:139
+msgid "A water treatment plant that is treating 120 L/s of water injects the coagulant into the middle of the pipe that delivers the raw water to the plant and then splits the flow into 2 parallel treatment trains for subsequent flocculation. The pipe is PVC 24 inch nominal pipe diameter SDR 26. The water temperature is :math:`0^{\\circ}C`. Estimate the minimum distance between the injection point and the flow split."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:141
+msgid "We will use a :ref:`linear flow orifice meter <heading_lfom>` with 20 cm of head loss. The first step is to determine the diameter of the LFOM."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:143
+msgid "`Colab worksheet designing LFOM <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=900qlLctzxLj&line=9&uniqifier=1>`_."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:145
+msgid "This analysis shows that the LFOM requires a 24 inch diameter pipe."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:149
+msgid "Example Problem: Energy Dissipation Rate in a Straight Pipe"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:152
+msgid "Calculate the friction factor."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:153
+msgid "Use Equation :eq:`mixing_pipe_diameters` to estimate the mixing length in pipe diameters."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:154
+msgid "Convert to pipe length in meters."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:156
+msgid "`Colab worksheet calculating the mixing length in pipe diameters <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=tsf9Xo4a1Tjp&line=10&uniqifier=1>`_"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:158
+msgid "The previous analysis provides a minimum distance for sufficient mixing so that equal mass flux of coagulant will end up in both treatment trains. This assumes that the coagulant was injected in the pipe centerline. Injection at the wall of the pipe is a poor practice and would require many more pipe diameters because it takes significant time for the coagulant to be mixed out of the slower fluid at the wall. The time required for mixing at the scale of the flow in the plant is thus accomplished in a few seconds. This ends up being the fastest part of the transport of the coagulant nanoparticles on their way to attachment to the clay particles.  Next we will determine a typical flow rate of coagulant. **Aluminum** concentrations for polyaluminum chloride (PACl) typically range from 1 to 10 mg/L. The maximum PACl stock solution concentration is about 70 g/L as **Al**."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:160
+msgid "`Colab worksheet calculating the coagulant flow <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=Fly3_gop3GDZ&line=1&uniqifier=1>`_."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:162
+msgid "We can estimate the diameter of the injection port by setting the kinetic energy loss where the coagulant is injected into the main flow to be large enough to exceed the pressure fluctuations downstream of the LFOM. The amount of energy we invest in injecting the coagulant into the raw water is a compromise between having to raise the entire chemical feed system including the stock tanks to increase the potential energy and a goal of not having pressure fluctuations inside the LFOM pipe cause flow oscillations in the chemical dosing tube. Thus our goal is to have the kinetic energy at the injection point be large compared with the expected pressure fluctuations in the LFOM. Given that the head loss through the LFOM is often 20 cm, we expect the pressure fluctuations from turbulence to be a small fraction of that head loss. Thus we set the kinetic energy to be equivalent to 2 cm."
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:164
+msgid "`Colab worksheet calculating the diameter of the dosing tube <https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=gO_quuJh4HpS&line=1&uniqifier=1>`_"
+msgstr ""

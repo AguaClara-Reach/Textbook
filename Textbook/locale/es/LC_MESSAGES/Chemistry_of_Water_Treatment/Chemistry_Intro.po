@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:12
+msgid "Chemistry of Coagulant Nanoparticles"
+msgstr "Química de nanopartículas coagulantes"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:17
+msgid ""
+"Aluminum based coagulants are commonly used in drinking water treatment "
+"plants. Less frequently iron based coagulants are used. These metals "
+"precipitate in water at neutral pH as :math:`Al(OH)_3` or :math:`Fe(OH)_3`. "
+"These precipitates form nanoparticles that are sticky. The origin of that "
+"stickiness is not well known, but one significant property of both "
+"precipitates is that they are both highly polar molecules. The `difference "
+"in electronegativity <https://en.wikipedia.org/wiki/Electronegativity>`_ "
+"(Pauling scale) between"
+msgstr ""
+"Los coagulantes a base de aluminio se utilizan comúnmente en plantas de "
+"tratamiento de agua bebedor. Con menos frecuencia se utilizan coagulantes a "
+"base de hierro. Estos metales precipitan en agua a pH neutro como "
+":math:`Al(OH)_3` o :math:`Fe(OH)_3`. Estos precipitados forman "
+"nanopartículas pegajosas. El origen de esa pegajosidad no se conoce bien, "
+"pero una propiedad significativa de ambos precipitados es que son moléculas "
+"altamente polares. La diferencia `en electronegatividad "
+"<https://en.wikipedia.org/wiki/Electronegativity>`_ (escala de Pauling) "
+"entre"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:15
+msgid "Aluminum (1.61) and Oxygen (3.44) is 1.83"
+msgstr "El aluminio (1,61) y el oxígeno (3,44) son 1,83"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:16
+msgid "Iron (1.83) and Oxygen (3.44) is 1.61"
+msgstr "Hierro (1,83) y oxígeno (3,44) son 1,61"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:17
+msgid "Hydrogen (2.20) and Oxygen (3.44) is 1.24"
+msgstr "El hidrógeno (2,20) y el oxígeno (3,44) son 1,24"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:19
+msgid ""
+"Thus both aluminum and iron coagulants are more polar than water. It is "
+"possible that their strong polarity enables them to displace the water that "
+"is bound to particles' surfaces and then form bonds with those surfaces. In "
+"order to displace water molecules that are bound to the particles surfaces, "
+"the coagulants must have stronger bonds to particles surfaces than the polar"
+" water molecules and thus it seems likely that coagulants must be more polar"
+" than water."
+msgstr ""
+"Así, tanto los coagulantes de aluminio como de hierro son más polares que el"
+" agua. Es posible que su fuerte polaridad les permita desplazar el agua "
+"unida a las superficies de las partículas y luego formar enlaces con esas "
+"superficies. Para desplazar las moléculas de agua que están unidas a las "
+"superficies de las partículas, los coagulantes deben tener enlaces más "
+"fuertes con las superficies de las partículas que las moléculas polares de "
+"agua, por lo que parece probable que los coagulantes sean más polares que el"
+" agua."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:26
+msgid "pH Effects of Adding Coagulant"
+msgstr "Efectos del pH de añadir coagulante"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:28
+msgid ""
+"The coagulants used for drinking water treatment are acidic and thus result "
+"in a lowering of the pH of the treated water. The optimal pH for aluminum "
+"coagulant nanoparticle formation is between pH of 6.5 and 8.5. This is also "
+"the `pH range set by the EPA secondary standards for drinking water "
+"<https://www.epa.gov/dwstandardsregulations/secondary-drinking-water-"
+"standards-guidance-nuisance-chemicals>`__. Although many water sources are "
+"within this pH range, there are some waters with more extreme values of pH. "
+"The aluminum and iron based coagulants are also acidic and in some waters "
+"the pH may drop below the ideal range when adding the coagulant. When the pH"
+" is outside the acceptable range it is necessary to adjust the pH by adding "
+"either a base or an acid."
+msgstr ""
+"Los coagulantes utilizados para beber tratamiento de agua son ácidos y, por "
+"tanto, provocan una disminución del pH del agua tratada. El pH óptimo para "
+"la formación de nanopartículas de coagulante de aluminio está entre 6,5 y "
+"8,5. Este es también el rango `de pH establecido por los estándares "
+"secundarios de la EPA para agua potable "
+"<https://www.epa.gov/dwstandardsregulations/secondary-drinking-water-"
+"standards-guidance-nuisance-chemicals>`__. Aunque muchas fuentes de agua "
+"están dentro de este rango de pH, hay algunas aguas con valores de pH más "
+"extremos. Los coagulantes a base de aluminio y hierro también son ácidos y "
+"en algunas aguas el pH puede bajar del rango ideal al añadir el coagulante. "
+"Cuando el pH está fuera del rango aceptable, es necesario ajustarlo "
+"añadiendo una base o un ácido."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:30
+msgid ""
+"When aluminum sulfate (alum) is added to water it dissociates and then "
+"precipitates as :math:`Al(OH)_3`. In the process, protons (:math:`H^+`) are "
+"released and thus the pH (:math:`-log[H^+]`) decreases."
+msgstr ""
+"Cuando se añade sulfato de aluminio (alumbre) al agua, este se disocia y "
+"luego precipita como :math:`Al(OH)_3`. En el proceso, se liberan protones "
+"(:math:`H^+`) y, por tanto, el pH (:math:`-log[H^+]`) disminuye."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:32
+msgid ""
+"Al_2(SO_4)_3 (aq) + 6H_2O (l) \\rightarrow 2Al(OH)_3 (s) + 6H^+ (aq) + "
+"3SO_4^{-2} (aq)\n"
+"\n"
+msgstr ""
+"Al_2(SO_4)_3 (aq) + 6H_2O (l) \\rightarrow 2Al(OH)_3 (s) + 6H^+ (aq) + "
+"3SO_4^{-2} (aq)"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:34
+msgid ""
+"The release of these protons reduces the acid neutralizing capacity, ANC, "
+"(also known as alkalinity) of the water. ANC is traditionally measured with "
+"units of mg/L of :math:`CaCO_3` rather than eq/L.  "
+":numref:`table_ANC_consumed_by_alum` shows the relationship between ANC "
+"measured as mg/L of :math:`CaCO_3` and alum (:math:`Al_2(SO_4)_3 \\cdot "
+"14H_2O`)"
+msgstr ""
+"La liberación de estos protones reduce la capacidad neutralizadora de ácido,"
+" ANC (también conocida como alcalinidad) del agua. La ANC se mide "
+"tradicionalmente con unidades de mg/L de :math:`CaCO_3` en lugar de eq/L.  "
+":numref:`table_ANC_consumed_by_alum` muestra la relación entre la ANC medida"
+" como mg/L de :math:`CaCO_3` y el alumbre (:math:`Al_2(SO_4)_3 \\cdot "
+"14H_2O`)"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:40
+msgid "Reduction in ANC caused by addition of alum."
+msgstr "Reducción del ANC causada por la adición de alumbre."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Alum"
+msgstr "Alumbre"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Calcium Carbonate"
+msgstr "Carbonato de calcio"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Molecular Formula"
+msgstr "Fórmula molecular"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid ":math:`Al_2(SO_4)_3 \\cdot 14.3H_2O`"
+msgstr ":math:`Al_2(SO_4)_3 \\cdot 14.3H_2O`"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid ":math:`CaCO_3`"
+msgstr ":math:`CaCO_3`"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Molecular mass"
+msgstr "Masa molecular"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "600 g/mole"
+msgstr "600 g/mol"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "100 g/mole"
+msgstr "100 g/mol"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "eq/mole"
+msgstr "EQ/MOLE"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "6"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Molecular mass/eq"
+msgstr "Masa molecular/ecuación"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "100 g/eq"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "50 g/eq"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "Simple guide"
+msgstr "Guía sencilla"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "1 mg/L alum consumes"
+msgstr "1 mg/L de alumbre consume"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
+msgid "0.5 mg/L calcium carbonate ANC"
+msgstr "0,5 mg/L de ANC de carbonato cálcico"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:50
+msgid ""
+"Low ANC waters (See section on "
+":ref:`heading_Buffering_Capacity_of_Natural_Waters`.) could have their ANC "
+"increased by addition of a base. A simpler approach is often to use a "
+"different coagulant that is less acidic."
+msgstr ""
+"Aguas con bajo ANC (véase la sección sobre "
+":ref:`heading_Buffering_Capacity_of_Natural_Waters`.) podrían tener su ANC "
+"aumentado mediante la adición de una base. Un enfoque más sencillo suele ser"
+" usar un coagulante diferente que sea menos ácido."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:52
+msgid ""
+"Polyaluminum chloride (PACl) is another aluminum based coagulant that "
+"performs similarly to alum. PACl is manufactured by slowly titrating an "
+"acidic solution containing dissolved aluminum with a base (in the chemical "
+"plant) to produce a meta-stable and soluble polymeric aluminum. PACl "
+"consumes less alkalinity (ANC) because it is partially neutralized by the "
+"titration with a base. In addition, the aluminum mass fraction of PACl is "
+"higher than in alum because there are no attached water molecules. The mass "
+"of PACl required for flocculation is less the mass of alum required. This is"
+" due largely to the higher aluminum fraction. The lower mass of PACl "
+"required is an economic benefit when shipping is a significant portion of "
+"the cost of the coagulant."
+msgstr ""
+"El cloruro de polialuminio (PACl) es otro coagulante a base de aluminio que "
+"funciona de forma similar al alumbre. El PACl se fabrica titulando "
+"lentamente una solución ácida que contiene aluminio disuelto con una base "
+"(en la planta química) para producir un aluminio polimérico metaestable y "
+"soluble. El PACl consume menos alcalinidad (ANC) porque queda parcialmente "
+"neutralizado por la titulación con una base. Además, la fracción mássica de "
+"aluminio del PACl es mayor que en el alumbre porque no hay moléculas de agua"
+" adheridas. La masa de PACl requerida para la floculación es menor que la "
+"masa de alumbre requerida. Esto se debe en gran parte a la mayor fracción de"
+" aluminio. La menor masa de PACl requerida es un beneficio económico cuando "
+"el envío representa una parte significativa del coste del coagulante."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:54
+msgid ""
+"There are many different molecular formulas given for PACl. The molecular "
+"formulas are either from the perspective of the chemical supplier or "
+"represent the composition of the PACl nanoparticles. The molecular formula "
+"from the chemical supplier represents the extent of neutralization and hence"
+" the replacement of chloride with hydroxide. In that case the PACl molecular"
+" formula is:"
+msgstr ""
+"Existen muchas fórmulas moleculares diferentes dadas para PACl. Las fórmulas"
+" moleculares son desde la perspectiva del proveedor químico o representan la"
+" composición de las nanopartículas PACl. La fórmula molecular del proveedor "
+"químico representa el grado de neutralización y, por tanto, la sustitución "
+"del cloruro por hidróxido. En ese caso, la fórmula molecular de PACl es:"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:56
+msgid ""
+"[Al_n(OH)_mCl_{3n-m}]_x\n"
+"\n"
+msgstr "[Al_n(OH)_mCl_{3n-m}]_x"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:58
+msgid ""
+"The extent of the PACl titration with base is defined as basicity. Basicity "
+"is the ratio of hydroxyl equivalents to aluminum equivalents. Basicity of 1 "
+"would mean that the PACl does not produce any protons when it dissolves in "
+"water. Basicity of 0 means it produces 3 protons per Al (like alum). The "
+"equation for basicity is:"
+msgstr ""
+"El alcance de la titulación de PACl con base se define como basicidad. La "
+"basicidad es la proporción de equivalentes hidroxilo a equivalentes de "
+"aluminio. Una basicidad de 1 significaría que el PACl no produce protones "
+"cuando se disuelve en agua. Una basicidad de 0 significa que produce 3 "
+"protones por Al (como el alúmen). La ecuación para la basicidad es:"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:60
+msgid ""
+"Basicity = \\left( \\frac{m}{3n}\\right)\n"
+"\n"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:62
+msgid ""
+"The lowest basicity commercial PACl formulations are about 10%. Most PACls "
+"are in the medium to high basicity range (50-70%). The highest stable "
+"basicity (83%) is aluminum chlorohydrate (:math:`Al_2(OH)_5Cl`) that is "
+"useful for treating water with very low ANC."
+msgstr ""
+"Las formulaciones comerciales de PACl de menor basicidad son de "
+"aproximadamente el 10%. La mayoría de los PACl están en el rango de "
+"basicidad media a alta (50-70%). La basicidad estable más alta (83%) es el "
+"clorhidrato de aluminio (:math:`Al_2(OH)_5Cl`), que es útil para tratar agua"
+" con ANC muy bajo."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:64
+msgid ""
+"The ANC of the aluminum coagulant can be obtained from the number of protons"
+" it releases:"
+msgstr ""
+"La ANC del coagulante de aluminio puede obtenerse a partir del número de "
+"protones que libera:"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:66
+msgid ""
+"ANC_{Al} = 3(Basicity-1)[Al] = \\left(\\frac{m}{n} - 3\\right)[Al] = "
+"\\Pi_{Al}[Al]\n"
+"\n"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:68
+msgid "where:"
+msgstr "donde:"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:69
+msgid ""
+":math:`\\Pi_{Al}=\\left(\\frac{m}{n} - 3\\right)` is ANC per mole of "
+"aluminum for the given coagulant"
+msgstr ""
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:72
+msgid ""
+"Thus the ANC of alum (with 0 hydroxides) is :math:`-3[Al]`. The method of "
+"calculating the :math:`ANC_{Al}` will be used to calculate the amount of "
+"base that must be added to achieve a target pH."
+msgstr ""
+"Así, la ANC del alumbre (con 0 hidróxidos) es :math:`-3[Al]`. El método de "
+"cálculo de la :math:`ANC_{Al}` se utilizará para calcular la cantidad de "
+"base que debe añadirse para alcanzar un pH objetivo."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:74
+msgid ""
+"The molecular formula of the PACl nanoparticles is always some combination "
+"of Al, O, and H. One common molecular structure is a Keggin structure with "
+"13 aluminum atoms. This molecule has a tetrahedral Al atom in the center of "
+"the cluster coordinated to 4 oxygen atoms. The molecular formula of the "
+"Keggin structured aluminum molecule is"
+msgstr ""
+"La fórmula molecular de las nanopartículas PACl es siempre alguna "
+"combinación de Al, O y H. Una estructura molecular común es la de Keggin con"
+" 13 átomos de aluminio. Esta molécula tiene un átomo tetraédico de Al en el "
+"centro del cúmulo coordinado con 4 átomos de osígeno. La fórmula molecular "
+"de la molécula de aluminio estructurada por Keggin es"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:76
+msgid ""
+"AlO_4Al_{12}(OH)_{24}(H_2O)_{12}^{7+}\n"
+"\n"
+msgstr "AlO_4Al_{12}(OH)_{24}(H_2O)_{12}^{7+}"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:78
+msgid ""
+"The attached water molecules are sometimes omitted. Coagulant nanoparticles "
+"are presumably created by aggregation of these Keggin structure molecules."
+msgstr ""
+"Las moléculas de agua unidas a veces se omiten. Presumiblemente, las "
+"nanopartículas coagulantes se crean por la agregación de estas moléculas de "
+"estructura de Keggin."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:83
+msgid "Buffering Capacity of Natural Waters"
+msgstr "Capacidad de amortiguamiento de las aguas naturales"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:85
+msgid ""
+"When acid is added to a water containing bicarbonate, :math:`HCO_3^-`, one "
+"of the potential reactions is for a proton to combine with :math:`HCO_3^-` "
+"to form carbonic acid, :math:`{H_2}CO_3`. If a base is added to water the "
+"reaction will proceed in the opposite direction. Carbonic acid, "
+":math:`{H_2}CO_3`, is indistinguishable from dissolved carbon dioxide, "
+":math:`CO_{2_{aq}}` and the total of carbonic acid and dissolved carbon "
+"dioxide is represented as :math:`{H_2}CO_3^{\\star}`. The reaction of "
+"bicarbonate to form carbonic acid removes one proton from solution and thus "
+"the concentration of protons doesn’t increase as fast as we might have first"
+" expected as acid is added to the water."
+msgstr ""
+"Cuando se añade ácido a un agua que contiene bicarbonato, :math:`HCO_3^-`, "
+"una de las posibles reacciones es que un protón se combine con "
+":math:`HCO_3^-` para formar ácido carbónico, :math:`{H_2}CO_3`. Si se añade "
+"una base al agua, la reacción ocurrirá en sentido contrario. El ácido "
+"carbónico, :math:`{H_2}CO_3`, es indistinguible del dióxido de carbono "
+"disuelto, :math:`CO_{2_{aq}}` y el total de ácido carbónico y dióxido de "
+"carbono disuelto se representa como :math:`{H_2}CO_3^{\\star}`. La reacción "
+"del bicarbonato para formar ácido carbónico elimina un protón de la solución"
+" y, por tanto, la concentración de protones no aumenta tan rápido como "
+"podríamos haber esperado al principio, ya que se añade ácido al agua."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:87
+msgid ""
+"The reactions of carbonate species with protons provides pH buffering "
+"capacity that must be considered when calculating the effect of acid or base"
+" addition. Since carbonates are the dominant buffering agents in natural "
+"waters it is essential to account for their influence on pH."
+msgstr ""
+"Las reacciones de las especies carbonatadas con protones proporcionan una "
+"capacidad de amortiguamiento del pH que debe considerarse al calcular el "
+"efecto de la adición de ácido o base. Dado que los carbonatos son los "
+"agentes tampones dominantes en las aguas naturales, es esencial tener en "
+"cuenta su influencia sobre el pH."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:89
+msgid ""
+"The effect of acid or base addition to a water containing carbonates (or "
+"other weak acids and bases) can be modeled using the equation for :ref:`Acid"
+" Neutralizing Capacity "
+"<heading_Acid_Neutralizing_Capacity_(ANC)_or_Alkalinity>`."
+msgstr ""
+"El efecto de la adición de ácido o base a un agua que contiene carbonatos (u"
+" otros ácidos y bases débiles) puede modelarse usando la ecuación para "
+":ref:`Acid Neutralizing Capacity "
+"<heading_Acid_Neutralizing_Capacity_(ANC)_or_Alkalinity>`."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:94
+msgid "pH Range for Precipitation of Coagulant Nanoparticles"
+msgstr "Rango de pH para la precipitación de nanopartículas coagulantes"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:96
+msgid ""
+"A critical property of coagulants is that in order to act as an adhesive "
+"between particles they must be solid phase at neutral pH. Both Al(III) and "
+"Fe(III) have low solubility at neutral pH and thus meet this requirement. "
+"The pH region of low solubility sets the range of pH where flocculation is "
+"effective. :numref:`figure_Al_solubility` shows the solubilty of aluminum as"
+" a function of pH."
+msgstr ""
+"Una propiedad crítica de los coagulantes es que, para actuar como adhesivo "
+"entre partículas, deben ser en fase sólida a pH neutro. Tanto Al(III) como "
+"Fe(III) tienen baja solubilidad a pH neutro y, por tanto, cumplen este "
+"requisito. La región de pH de baja solubilidad establece el rango de pH en "
+"el que la floculación es efectiva. :numref:`figure_Al_solubility` muestra la"
+" solubilidad del aluminio en función del pH."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:105
+msgid "Al solubility"
+msgstr "Solubilidad al"
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:105
+msgid ""
+"Solubility of aluminum as a function of pH. Figure adapted from `Pernitsky "
+"and Edzwald <http://dx.doi.org/10.2166/aqua.2006.062>`_."
+msgstr ""
+"Solubilidad del aluminio en función del pH. Figura adaptada de `Pernitsky y "
+"Edzwald <http://dx.doi.org/10.2166/aqua.2006.062>`_."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:107
+msgid ""
+"Research is needed to quantify flocculation performance in continuous flow "
+"floc/floc filter/plate settler systems as a function of pH."
+msgstr ""
+"Se necesita investigación para cuantificar el rendimiento de floculación en "
+"sistemas de flujo continuo de flocos/filtro de flóculos/placa sedimentadora "
+"en función del pH."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:109
+msgid ""
+"The aluminum concentration range used for flocculation ranges from "
+"approximately 0.4 - 10 mg/L and is strongly influenced by the concentration "
+"of dissolved organic matter and the concentration of suspended solids. The "
+"flocculation and floc filter capacity to produce collisions between "
+"suspended particles also influences the required aluminum concentration."
+msgstr ""
+"El rango de concentración de aluminio utilizado para la floculación oscila "
+"aproximadamente entre 0,4 y 10 mg/L y está fuertemente influenciado por la "
+"concentración de materia orgánica disuelta y la concentración de sólidos "
+"suspendidos. La floculación y la capacidad filtro de flóculos para producir "
+"colisiones entre partículas suspendidas también influyen en la concentración"
+" requerida de aluminio."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:111
+msgid ""
+"In drinking water treatment plant operation it is sometimes necessary to add"
+" a base (or acid) to increase (or decrease) the pH of the raw water. The "
+"added coagulant tends to reduce the pH. The carbonate system is most "
+"important in understanding how the base will adjust the pH because the "
+"reaction between carbonic acid and bicarbonate occurs around pH 6.3, the pK "
+"(negative log of the dissociation constant is the pH where that reaction is "
+"centered) for that reaction. Carbon dioxide exchange with the atmosphere is "
+"insignificant in drinking water treatment unit processes unless there is an "
+"aeration stage. Thus we can use the ANC equation for the case with no "
+":math:`CO_2` exchange with the atmosphere."
+msgstr ""
+"En la operación de la planta tratamiento de agua beber a veces es necesario "
+"añadir una base (o ácido) para aumentar (o disminuir) el pH del agua cruda. "
+"El coagulante añadido tiende a reducir el pH. El sistema carbonatado es lo "
+"más importante para entender cómo la base ajustará el pH porque la reacción "
+"entre ácido carbónico y bicarbonato ocurre alrededor del pH 6,3, el pK "
+"(logarítmic negativo de la constante de disociación es el pH donde se centra"
+" esa reacción) para esa reacción. El intercambio de dióxido de carbono con "
+"la atmósfera es insignificante en el consumo tratamiento de agua procesos "
+"unitarios a menos que haya una etapa de aireación. Por tanto, podemos usar "
+"la ecuación ANC para el caso en que no haya intercambio :math:`CO_2` con la "
+"atmósfera."
+
+#: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:113
+msgid ""
+"In the :ref:`heading_pH_Adjustment` section of the textbook, we evaluate the"
+" case where we add a base to the influent water. Doing so will increase the "
+"ANC of the raw water and it may also increase the total carbonate "
+"concentration. We then calculate how much of that base needs to be added to "
+"reach a given target pH."
+msgstr ""
+"En la sección :ref:`heading_pH_Adjustment` del libro de texto, evaluamos el "
+"caso en el que añadimos una base al agua influyente. Hacerlo aumentará la "
+"ANC del agua cruda y también puede incrementar la concentración total de "
+"carbonatos. Luego calculamos cuánto de esa base debe añadirse para alcanzar "
+"un pH objetivo dado."
+

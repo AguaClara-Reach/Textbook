@@ -1,7 +1,6 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Rapid_Mix/RM_Mechanical_Solution.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
