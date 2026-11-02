@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "|ACRlogowithname|"
+msgstr "|ACRlogowithname|"
+
+#: ../../AIDE/About/OStaRS.rst
+msgid "ACRlogowithname"
+msgstr "ACRlogowithname"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "|textbook|"
+msgstr "|textbook|"
+
+#: ../../AIDE/About/OStaRS.rst
+msgid "textbook"
+msgstr "Libro de texto"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "|donate|"
+msgstr "|donate|"
+
+#: ../../AIDE/About/OStaRS.rst
+msgid "donate"
+msgstr "Dona"
+
+#: ../../AIDE/About/OStaRS.rst:6
+msgid "|reportabugbig|"
+msgstr "|reportabugbig|"
+
+#: ../../AIDE/About/OStaRS.rst
+msgid "reportabugbig"
+msgstr "reportabugbig"
+
+#: ../../AIDE/About/OStaRS.rst:12
+msgid "Open Stacked Rapid Sand Filter Configurable Component"
+msgstr "Componente Rápido Apilado filtro de arena Configurable"
+
+#: ../../AIDE/About/OStaRS.rst:14
+msgid ""
+"Stacked Rapid Sand, StaRS, filters were invented in 2010 by the AguaClara "
+"Cornell program in response to the need for a new technology that would both"
+" eliminate the need for backwash pumps AND not require the construction of 6"
+" filters for small towns."
+msgstr ""
+"Los filtros de arena rápida apilada, StaRS, fueron inventados en 2010 por el"
+" programa AguaClara Cornell en respuesta a la necesidad de una nueva "
+"tecnología que eliminara la necesidad de bombas de retrolavado Y no "
+"requiriera la construcción de 6 filtros para pueblos pequeños."
+
+#: ../../AIDE/About/OStaRS.rst:23
+msgid "OStaRS"
+msgstr "OStaRS"
+
+#: ../../AIDE/About/OStaRS.rst:23
+msgid ""
+"The open stacked rapid sand filter uses hydraulic controls to ensure steady "
+"flow through the filter media and an innovative system to inject and extract"
+" water from the sand bed to create six filters working in parallel."
+msgstr ""
+"El filtro de arena rápido apilado y abierto utiliza controles hidráulicos "
+"para asegurar un flujo constante a través del medio filtrante y un sistema "
+"innovador para inyectar y extraer agua del lecho de arena y crear seis "
+"filtros que trabajan en paralelo."
+
+#: ../../AIDE/About/OStaRS.rst:33
+msgid "Location of the OStaRS filter"
+msgstr "Ubicación del filtro OStaRS"
+
+#: ../../AIDE/About/OStaRS.rst:33
+msgid ""
+"The open stacked rapid sand filter (outlined in red) is a compact unit next "
+"to the chemical platform."
+msgstr ""
+"El filtro de arena rápido apilado abierto (delineado en rojo) es una unidad "
+"compacta junto a la plataforma química."
+
+#: ../../AIDE/About/OStaRS.rst:37
+msgid "The Stacked Rapid Sand Filter Includes Four Innovations:"
+msgstr "El filtro de arena rápido apilado incluye cuatro innovaciones:"
+
+#: ../../AIDE/About/OStaRS.rst:39
+msgid "No pumps are required for backwash."
+msgstr "No se requieren bombas para el retrolavado."
+
+#: ../../AIDE/About/OStaRS.rst:40
+msgid ""
+"The filter switches between filtration and backwash modes without changing "
+"the flow rate through the filter."
+msgstr ""
+"El filtro cambia entre los modos de filtración y retrolavado sin cambiar el "
+"caudal a través del filtro."
+
+#: ../../AIDE/About/OStaRS.rst:41
+msgid ""
+"A single small air valve controls changing the mode from filter to backwash "
+"and back again."
+msgstr ""
+"Una sola pequeña válvula de aire controla el cambio de modo de filtro a "
+"contralavado y viceversa."
+
+#: ../../AIDE/About/OStaRS.rst:42
+msgid "Water is injected into and extracted from the sand bed."
+msgstr "El agua se inyecta y extrae del lecho de arena."
+
+#: ../../AIDE/About/OStaRS.rst:45
+msgid "Generate New Models of the Stacked Rapid Sand Filter"
+msgstr "Generar nuevos modelos del filtro de arena rápido apilado"
+
+#: ../../AIDE/About/OStaRS.rst:47
+msgid ""
+"Edit the configurations to create new models of the stacked rapid sand "
+"filter. Send us `feedback to share how you are using the OStaRS model, to "
+"give us suggestions for how to make these models easier to use, and to "
+"<https://forms.gle/cqDPapYkcSmLnDu4A>`_  |reportabug|."
+msgstr ""
+"Edita las configuraciones para crear nuevos modelos del filtro de arena "
+"rápido apilado. Envíanos `tus comentarios para compartir cómo estás usando "
+"el modelo OStaRS, para darnos sugerencias sobre cómo hacer estos modelos más"
+" fáciles de usar y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ "
+"|reportabug|."
+
+#: ../../AIDE/About/OStaRS.rst
+msgid "reportabug"
+msgstr "reportabug"
+
+#: ../../AIDE/About/OStaRS.rst:49
+msgid "Open Stacked Rapid Sand Filter configuration parameters."
+msgstr "Apertura de Stacked Rapid filtro de arena parámetros de configuración."
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Flow (L/s)"
+msgstr "Flujo (L/s)"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid ""
+"The maximum flow rate sets the size and number of the filters. Vary it to "
+"see how the dimensions change."
+msgstr ""
+"El máximo caudal determina el tamaño y número de los filtros. Varía para ver"
+" cómo cambian las dimensiones."
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr "Temperatura mínima (°C)"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid ""
+"The temperature has a small effect on the head loss through the clean filter"
+" bed."
+msgstr ""
+"La temperatura tiene un pequeño efecto en la pérdida de carga a través del "
+"lecho filtrante limpio."
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Spare Filter"
+msgstr "Filtro de repuesto"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid ""
+"If selected this will add filter capacity so that one filter can be taken "
+"off line while operating at the plant maximum flow rate."
+msgstr ""
+"Si se selecciona, esto añadirá capacidad del filtro para que uno pueda "
+"retirarse de línea mientras opera en la planta máxima caudal."
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Fraction of clogged bed head loss"
+msgstr "Fracción de cama obstruida pérdida de carga"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid ""
+"A clean filter corresponds to a value of 0 and a clogged filter corresponds "
+"to a value of 1. The water levels change to reflect this head loss."
+msgstr ""
+"Un filtro limpio corresponde a un valor de 0 y un filtro obstruido "
+"corresponde a un valor de 1. Los niveles de agua cambian para reflejar esta "
+"pérdida de carga."
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid "Filter Mode"
+msgstr "Modo filtro"
+
+#: ../../AIDE/About/OStaRS.rst:1
+msgid ""
+"If selected the filter is in filtration mode, otherwise the filter is in "
+"backwash mode. The water levels change to reflect the filter mode."
+msgstr ""
+"Si se elige, el filtro está en modo filtración, de lo contrario el filtro "
+"está en modo de retrolavado. Los niveles de agua cambian para reflejar el "
+"modo filtro."
+
+#: ../../AIDE/About/OStaRS.rst:66
+msgid ""
+"Additional information is available in the chapter on "
+":ref:`title_Filtration_Design`."
+msgstr ""
+"Información adicional está disponible en el capítulo sobre "
+":ref:`title_Filtration_Design`."
+

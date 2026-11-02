@@ -1,0 +1,1168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Clarification/Clarifier_Examples.rst:12
+msgid "Clarification Examples"
+msgstr "Ejemplos de aclaración"
+
+#: ../../Clarification/Clarifier_Examples.rst:14
+msgid "These are a few short examples of calculations required for clarifier design."
+msgstr ""
+"Estos son algunos ejemplos breves de cálculos necesarios para el diseño de "
+"clarificadores."
+
+#: ../../Clarification/Clarifier_Examples.rst:16
+msgid ""
+"`Be sure to run this code prior to trying any examples "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=FMhBN6N6xAPe&line=10&uniqifier=1>`_"
+msgstr ""
+"`Asegúrate de ejecutar este código antes de probar cualquier ejemplo "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=FMhBN6N6xAPe&line=10&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:19
+msgid "Tube Settler Design"
+msgstr "Diseño de sedimentadores tubulares"
+
+#: ../../Clarification/Clarifier_Examples.rst:21
+msgid ""
+"Design a tube settler for a laboratory scale clarifier. The vertical section"
+" of the clarifier, :math:`v_{z_{ff}}`, has a net upflow velocity of 3 mm/s. "
+"This velocity is maintained in the tube settler, :math:`v_{\\alpha}`. The "
+"target capture velocity is 0.2 mm/s. The tube settler diameter is 2.54 cm."
+msgstr ""
+"Diseña un estabilizador de tubos para un clarificador a escala de "
+"laboratorio. La sección vertical del clarificador, :math:`v_{z_{ff}}`, tiene"
+" una velocidad neta de flujo ascendente de 3 mm/s. Esta velocidad se "
+"mantiene en el sedimentador de tubos, :math:`v_{\\alpha}`. La velocidad de "
+"captura del objetivo es de 0,2 mm/s. El diámetro del decantador de tubos es "
+"de 2,54 cm."
+
+#: ../../Clarification/Clarifier_Examples.rst:23
+msgid ""
+"\\frac{\\bar v_{z_{ff}}}{\\bar v_c} = \\frac{L}{D} \\cos \\alpha \\sin "
+"\\alpha + \\sin ^2 \\alpha\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:25
+msgid ""
+"\\bar v_{z_{ff}} = \\bar v_\\alpha\\sin \\alpha\n"
+"\n"
+msgstr ""
+"\\bar v_{z_{ff}} = \\bar v_\\alpha\\sin \\alpha\n"
+"\n"
+
+#: ../../Clarification/Clarifier_Examples.rst:27
+msgid ""
+"`Solve for the length of the tube settler. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=qxeWciqaZnPZ&line=4&uniqifier=1>`_"
+msgstr ""
+"`Resuelve la longitud del sedimentador tubular. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=qxeWciqaZnPZ&line=4&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:29
+msgid ""
+"L = \\frac{D}{\\cos \\alpha}\\left(\\frac{\\bar v_\\alpha}{\\bar v_c} - "
+"\\sin \\alpha\\right)\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:32
+msgid ""
+"The tube settler above the floc hopper needs to be 72 cm long. The tube "
+"settler should provide a capture velocity of at least 1 mm/s prior to the "
+"floc hopper. Thus there should be 11 cm below the floc hopper."
+msgstr ""
+"El sedimentador tubular sobre el tolva de lodos debe medir 72 cm de largo. "
+"El sedimentador tubular debe proporcionar una velocidad de captura de al "
+"menos 1 mm/s antes del tolva de lodos. Por tanto, debe haber 11 cm por "
+"debajo del tolva de lodos."
+
+#: ../../Clarification/Clarifier_Examples.rst:37
+msgid "Determining flow through a diffuser"
+msgstr "Determinación del flujo a través de un difusor"
+
+#: ../../Clarification/Clarifier_Examples.rst:39
+msgid ""
+"What is the flow rate of a single diffuser in the bottom of the clarifier? "
+"Consider a clarifier that is 6 m long, 1 m wide and 2 m deep, with an upflow"
+" velocity of 1 mm/s and a diffuser spacing of 5 cm."
+msgstr ""
+"¿Cuál es la caudal de un solo difusor en la parte inferior del clarificador?"
+" Consideremos un clarificador de 6 m de largo, 1 m de ancho y 2 m de "
+"profundidad, con una velocidad de flujo ascendente de 1 mm/s y un "
+"espaciamiento del difusor de 5 cm."
+
+#: ../../Clarification/Clarifier_Examples.rst:41
+msgid ""
+"What is this question really asking? This question is asking us to "
+"understand that each diffuser \"serves\" a specific cross-sectional area of "
+"the clarifier; all of the diffusers together serve the entire area of the "
+"clarifier. So, let's imagine a single diffuser serving a slice of a "
+"clarifier. With this in mind, we can easily solve this using :math:`Q = "
+"\\bar vA`. The area, :math:`A`, is the slice of the clarifier that we are "
+"serving. We are told that the tank is 1 m wide, so :math:`W_{tank} = 1` m. "
+"The length of the slice is dictated by the spacing of the diffusers, "
+":math:`B_{diff}`, so :math:`B_{diff} = 5` cm."
+msgstr ""
+"¿Qué es lo que realmente pregunta esta pregunta? Esta pregunta nos pide "
+"entender que cada difusor \"sirve\" a una sección transversal específica del"
+" clarificador; todos los difusores juntos cubren toda el área del "
+"clarificador. Así que, imaginemos que un solo difusor sirve a una porción de"
+" un clarificador. Con esto en mente, podemos resolver esto fácilmente usando"
+" :math:`Q = \\bar vA`. El área, :math:`A`, es la porción del clarificador "
+"que estamos sirviendo. Nos dicen que el tanque tiene 1 m de ancho, es decir,"
+" :math:`W_{tank} = 1` m. La longitud de la rebanada está dictada por el "
+"espacio entre los difusores, :math:`B_{diff}`, es decir, :math:`B_{diff} = "
+"5` cm."
+
+#: ../../Clarification/Clarifier_Examples.rst:43
+msgid ""
+"A = B_{diff}W_{tank}\n"
+"\n"
+msgstr ""
+"A = B_{diff}W_{tank}\n"
+"\n"
+
+#: ../../Clarification/Clarifier_Examples.rst:45
+msgid ""
+"A = 5 cm * 1 m\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:47
+msgid ""
+"A = 50,000 mm^2\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:49
+msgid ""
+"The problem statement includes that :math:`\\bar v_{z_{ff}} = 1` mm/s. "
+"Plugging into our flow equation,"
+msgstr ""
+"La declaración del problema incluye que :math:`\\bar v_{z_{ff}} = 1` mm/s. "
+"Introduciendo en nuestra ecuación de flujo,"
+
+#: ../../Clarification/Clarifier_Examples.rst:51
+msgid ""
+"Q_{diff} = \\bar v_{z_{ff}}A\n"
+"\n"
+msgstr "Q_{diff} = \\bar v_{z_{ff}}A"
+
+#: ../../Clarification/Clarifier_Examples.rst:53
+msgid ""
+"Q_{diff} = (1 \\frac{mm}{s})(50,000mm^2)\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:55
+msgid ""
+"Q_{diff} = 50,000 \\frac{mm^3}{s}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:57
+msgid ""
+"Q_{diff} = 50 \\frac{mL}{s}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:59
+msgid "The flow rate of each diffuser is :math:`50 \\frac{mL}{s}`."
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:62
+msgid "Identify Failure Modes from Old Design"
+msgstr "Identificar modos de fallo a partir del diseño antiguo"
+
+#: ../../Clarification/Clarifier_Examples.rst:64
+msgid ""
+"Look at a proposed design for the bottom of the clarifier, shown in "
+":numref:`figure_failure_mode_example`. This design has an influent manifold "
+"at the bottom of the tank. Water flows upwards from the influent manifold. "
+"At one end of the influent manifold, there is a drain port. Above the "
+"influent manifold, there is a single slot that extends the length of the "
+"clarifier. There are no diffusers in this design."
+msgstr ""
+"Mira un diseño propuesto para la parte inferior del clarificador, mostrado "
+"en :numref:`figure_failure_mode_example`. Este diseño tiene un colector "
+"influente en la parte inferior del tanque. El agua fluye hacia arriba desde "
+"el colector influyente. En un extremo del colector influyente hay un puerto "
+"de drenaje. Encima del colector influyente, hay una única ranura que se "
+"extiende a lo largo del clarificador. No hay difusores en este diseño."
+
+#: ../../Clarification/Clarifier_Examples.rst:73
+msgid "Proposed clarifier design."
+msgstr "Diseño propuesto de clarificador."
+
+#: ../../Clarification/Clarifier_Examples.rst:75
+msgid "What are the failure modes for this design?"
+msgstr "¿Cuáles son los modos de fallo de este diseño?"
+
+#: ../../Clarification/Clarifier_Examples.rst:77
+msgid "Some issues are:"
+msgstr "Algunos temas son:"
+
+#: ../../Clarification/Clarifier_Examples.rst:79
+msgid ""
+"Flocs can settle in the influent manifold, specifically at the end of the "
+"influent manifold pipe"
+msgstr ""
+"Los flócs pueden asentarse en el colector influyente, específicamente al "
+"final del tubo del colector influyente"
+
+#: ../../Clarification/Clarifier_Examples.rst:80
+msgid ""
+"The upflow line jet may be impacted and bent by settling flocs, allowing for"
+" floc settling on one side of the tank"
+msgstr ""
+"El chorro de la línea de flujo ascendente puede verse impactado y doblado "
+"por flócs de sedimentación, permitiendo que se asenten en un lado del tanque"
+
+#: ../../Clarification/Clarifier_Examples.rst:81
+msgid ""
+"Without diffusers, there may not be uniform flow distribution from one end "
+"of the clarifier to the other"
+msgstr ""
+"Sin difusores, puede que no haya una distribución uniforme del flujo de un "
+"extremo al otro del clarificador"
+
+#: ../../Clarification/Clarifier_Examples.rst:82
+msgid "Without diffusers, there will be large flow circulations inside the clarifier"
+msgstr "Sin difusores, habrá grandes circulaciones de flujo dentro del clarificador"
+
+#: ../../Clarification/Clarifier_Examples.rst:84
+msgid ""
+"This design has never been built and never will be. Understanding what the "
+"problems are with this design will help us design better in the future."
+msgstr ""
+"Este diseño nunca se ha construido y nunca se construirá. Entender cuáles "
+"son los problemas de este diseño nos ayudará a diseñar mejor en el futuro."
+
+#: ../../Clarification/Clarifier_Examples.rst:87
+msgid "Diffuser and Jet Reverser Design"
+msgstr "Diseño de difusores y inversores por chorro"
+
+#: ../../Clarification/Clarifier_Examples.rst:89
+msgid ""
+"`Calculate the maximum velocity of water leaving the diffuser based on the "
+"maximum head loss. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=kmMZMexEak6->`_"
+" Assume that the majority of head loss is the kinetic energy of the flow "
+"exiting the diffuser slot (this assumption will be checked later). Assume "
+"K=1."
+msgstr ""
+"`Calcular la velocidad máxima del agua que sale del difusor basándose en el "
+"máximo pérdida de carga. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=kmMZMexEak6->`_"
+" Supongamos que la mayor parte de pérdida de carga es la energía cinética "
+"del flujo que sale por la ranura del difusor (esta suposición se comprobará "
+"más adelante). Supongamos K=1."
+
+#: ../../Clarification/Clarifier_Examples.rst:91
+msgid ""
+"`Use these given parameters "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=VE_1JE-pasAm&line=6&uniqifier=1>`_"
+msgstr ""
+"`Utiliza estos parámetros dados "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=VE_1JE-pasAm&line=6&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:93
+msgid ""
+"To find the maximum velocity based on maximum headloss we will use the minor"
+" loss equation."
+msgstr ""
+"Para encontrar la velocidad máxima basada en la pérdida de carga máxima, "
+"usaremos la ecuación de la pérdida menor."
+
+#: ../../Clarification/Clarifier_Examples.rst:95
+msgid ""
+"h_{e,inlet} = K \\frac{\\bar v_{jet}^2}{2g}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:97
+msgid ""
+"To find the minimum width based on the maximum velocity through the "
+"diffuser, we will use conservation of mass. Since it is an incompressible "
+"fluid the flow rate entering from the diffuser line jet must be equal to the"
+" flow rate up through the clarifier."
+msgstr ""
+"Para encontrar el ancho mínimo basado en la velocidad máxima a través del "
+"difusor, utilizaremos la conservación de la masa. Dado que es un fluido "
+"incompresible, la caudal que entra desde el chorro de la línea difusora debe"
+" ser igual a la caudal hacia arriba a través del clarificador."
+
+#: ../../Clarification/Clarifier_Examples.rst:99
+msgid ""
+"\\bar v_{jet}W_{diff} L_{sed} = \\bar v_{z_{ff}}W_{sed}L_{sed}\n"
+"\n"
+msgstr ""
+"\\bar v_{jet}W_{diff} L_{sed} = \\bar v_{z_{ff}}W_{sed}L_{sed}\n"
+"\n"
+
+#: ../../Clarification/Clarifier_Examples.rst:101
+msgid ""
+"`Colab worksheet with diffuser design "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=VE_1JE-pasAm&line=2&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab con diseño de difusor "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=VE_1JE-pasAm&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:103
+msgid ""
+"**Answer:** The maximum velocity of the clarifier diffusers is 0.4429 meters"
+" / second. The minimum width of the clarifier diffusers is 2.409 millimeter."
+msgstr ""
+"**Respuesta:** La velocidad máxima de los difusores clarificadores es de "
+"0,4429 metros / segundo. La anchura mínima de los difusores clarificadores "
+"es de 2,409 milímetros."
+
+#: ../../Clarification/Clarifier_Examples.rst:106
+msgid ""
+"`Calculate the minimum inner width of the diffuser. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=f80nuueca2Hg&line=3&uniqifier=1>`_"
+" Assume that the diffuser slot is continuous over the entire length of the "
+"clarifier to get an initial estimate (it isn't actually continuous because "
+"it is made from many flattened diffuser pipes)."
+msgstr ""
+"`Calcula el ancho interior mínimo del difusor. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=f80nuueca2Hg&line=3&uniqifier=1>`_"
+" Supongamos que la ranura del difusor es continua a lo largo de toda la "
+"longitud del clarificador para obtener una estimación inicial (en realidad "
+"no es continua porque está hecha de muchos tubos difusores aplanados)."
+
+#: ../../Clarification/Clarifier_Examples.rst:108
+msgid ""
+"Diffusers are made by deforming PVC pipe. Softened PVC pipe is forced onto a"
+" mold that shapes it into the rectangular shape of the diffuser. (link to "
+"clarifier chapter)"
+msgstr ""
+"Los difusores se fabrican deformando tubos de PVC. Los tubos de PVC "
+"ablandados se forzan sobre un molde que le da forma rectangular al difusor. "
+"(enlace al capítulo del clarificador)"
+
+#: ../../Clarification/Clarifier_Examples.rst:110
+msgid ""
+"`What metal plate thickness should be used to make the mold for the "
+"diffusers? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=ycOd0J-tbABh&line=3&uniqifier=1>`_ This value will be the minimum diffuser "
+"width. Metal plates are available in 1/16\" increments of thickness. The "
+"minimum thickness of plate that is strong enough for a mold is 1/16\". The "
+"`ceil_nearest` function defined in utility.py can take in a parameter and an"
+" array and it will find the closest value in the array that is at least as "
+"big and the parameter. For our problem we will use this to find the plate "
+"size that is available and at least as big as the minimum width defined "
+"above."
+msgstr ""
+"`¿Qué grosor de placa metálica debe usarse para fabricar el molde de los "
+"difusores? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo"
+"=ycOd0J-tbABh&line=3&uniqifier=1>`_ Este valor será el ancho mínimo del "
+"difusor. Las placas metálicas están disponibles en incrementos de 1/16\" de "
+"grosor. El grosor mínimo de una placa lo suficientemente fuerte para un "
+"molde es 1/16\". La función `ceil_nearest` definida en utility.py puede "
+"incluir un parámetro y un array y encontrará el valor más cercano en el "
+"array que sea al menos tan grande como el parámetro. Para nuestro problema "
+"usaremos esto para encontrar el tamaño de placa disponible y al menos tan "
+"grande como el ancho mínimo definido anteriormente."
+
+#: ../../Clarification/Clarifier_Examples.rst:114
+msgid "**Answer:** The width of clarifier diffuser is 0.3175 centimeter"
+msgstr "**Respuesta:** El ancho del difusor clarificador es de 0,3175 centímetros"
+
+#: ../../Clarification/Clarifier_Examples.rst:116
+msgid ""
+"The PVC pipe that forms the diffusers changes in shape and wall thickness "
+"during the molding process. The inner width of the rectangle is created by "
+"forcing the pipe over a rectangular wedge that is the thickness you "
+"calculated above. During the molding process, PVC pipe wall cross-sectional "
+"area is conserved. The pipe wall is stretched in total length approximately "
+"20%. Another way to think about this is that the thickness of the wall is "
+"reduced by a factor of 1/1.2 because the mass of PVC is conserved and the "
+"density is unchanged. Thus, volume and cross-sectional area are conserved."
+msgstr ""
+"La tubería de PVC que forma los difusores cambia de forma y grosor durante "
+"el proceso de moldeado. El ancho interior del rectángulo se crea forzando la"
+" tubería sobre una cuña rectangular que es el grosor que calculaste arriba. "
+"Durante el proceso de moldeado, se conserva la sección transversal de la "
+"pared de tubería de PVC. La pared de la tubería se estira en longitud total "
+"aproximadamente un 20%. Otra forma de pensar en esto es que el grosor de la "
+"pared se reduce por un factor de 1/1,2 porque la masa de PVC se conserva y "
+"la densidad no cambia. Así, el volumen y la superficie de la sección "
+"transversal se conservan."
+
+#: ../../Clarification/Clarifier_Examples.rst:119
+msgid ""
+"Area is given using the following Equation :math:`A_{PVC}=2\\left "
+"(B_{diffuser}+W_{diffuser} \\right)T_{diff}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:121
+msgid ""
+"Use the equation for :math:`A_{PVC}` to `calculate the following: "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=aHNyi1V9bJGA&line=7&uniqifier=1>`_"
+msgstr ""
+"Utiliza la ecuación para :math:`A_{PVC}` para `calcular lo siguiente: "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=aHNyi1V9bJGA&line=7&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:123
+msgid "the outer length of the rectangular diffuser slot, :math:`B_{diffuser}`."
+msgstr ""
+"la longitud exterior de la ranura rectangular del difusor, "
+":math:`B_{diffuser}`."
+
+#: ../../Clarification/Clarifier_Examples.rst:124
+msgid "the inner length of the rectangular diffuser slot, :math:`W_{diffuser}`."
+msgstr ""
+"la longitud interior de la ranura rectangular del difusor, "
+":math:`W_{diffuser}`."
+
+#: ../../Clarification/Clarifier_Examples.rst:126
+msgid "**Answer:** The clarifier diffuser outer length: 5.736 centimeter"
+msgstr "**Respuesta:** Longitud exterior del difusor clarificador: 5,736 centímetros"
+
+#: ../../Clarification/Clarifier_Examples.rst:128
+msgid "Clarification diffuser inner length: 5.522 centimeter"
+msgstr "Longitud interior del difusor de clarificación: 5,522 centímetros"
+
+#: ../../Clarification/Clarifier_Examples.rst:130
+msgid ""
+"Each diffuser serves a certain width and length of the clarifier. Assume "
+"that the diffusers are installed so that they touch each other."
+msgstr ""
+"Cada difusor tiene un cierto ancho y longitud del clarificador. Supongamos "
+"que los difusores están instalados de modo que se toquen entre sí."
+
+#: ../../Clarification/Clarifier_Examples.rst:132
+msgid ""
+"4. `Determine the flow and velocity through each diffuser. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=CKVZRhHPbUfK&line=2&uniqifier=1>`_"
+" :math:`Q_{max,diff} = \\bar v_{z_{ff}} A`"
+msgstr ""
+"4. `Determinar el flujo y la velocidad a través de cada difusor. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=CKVZRhHPbUfK&line=2&uniqifier=1>`_"
+" :math:`Q_{max,diff} = \\bar v_{z_{ff}} A`"
+
+#: ../../Clarification/Clarifier_Examples.rst:135
+msgid ":math:`A = W_{sed}  B_{diff}`"
+msgstr ":math:`A = W_{sed}  B_{diff}`"
+
+#: ../../Clarification/Clarifier_Examples.rst:137
+msgid ":math:`\\bar v_{diff} = \\frac{Q_{max,diff}}{W_{diff} * S_{diff}}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:140
+msgid ""
+"**Answer:** The flow of water leaving a clarifier diffuser is 61.19 "
+"milliliter / second The velocity of water leaving the clarifier diffuser is "
+"0.349 meter / second"
+msgstr ""
+"**Respuesta:** El flujo de agua que sale de un difusor clarificador es de "
+"61,19 mililitros / segundo. La velocidad del agua que sale del difusor "
+"clarificador es de 0,349 metros/segundo"
+
+#: ../../Clarification/Clarifier_Examples.rst:143
+msgid ""
+"`What is the Reynolds number of the jet exiting the diffusers at the design "
+"temperature of 15 degrees Celsius? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=lwy3sEdObZar&line=2&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es el número de Reynolds del chorro que sale de los difusores a la "
+"temperatura de diseño de 15 grados Celsius? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=lwy3sEdObZar&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:145
+msgid "Recall the formula for Reynold's number:"
+msgstr "Recuerda la fórmula del número de Reynold:"
+
+#: ../../Clarification/Clarifier_Examples.rst:147
+msgid ""
+":math:`Re = \\frac{\\bar v D}{\\nu}` The D is actually just representative "
+"of the length scale so we can replace this with the width of the diffuser. "
+":math:`Re = \\frac{\\bar v_{diff}*W_{diff}}{\\nu}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:150
+msgid "**Answer:** The Reynolds number for this jet is 974.6 dimensionless"
+msgstr "**Respuesta:** El número de Reynolds para este jet es 974,6 adimensional"
+
+#: ../../Clarification/Clarifier_Examples.rst:152
+msgid ""
+"`What is the Reynolds number of the vertical flow up through the top of the "
+"floc filter? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=kvLaS4AEbhvR&line=2&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es el número de Reynolds del flujo vertical que sube por la parte "
+"superior de la filtro de flóculos? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=kvLaS4AEbhvR&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:154
+msgid ""
+"The same principle as above can be applied to this question except the "
+"length scale is the width of the clarifier and the velocity is the upwards "
+"velocity in the tank."
+msgstr ""
+"El mismo principio anterior puede aplicarse a esta cuestión, excepto que la "
+"escala de longitud es el ancho del clarificador y la velocidad es la "
+"velocidad ascendente en el tanque."
+
+#: ../../Clarification/Clarifier_Examples.rst:156
+msgid ":math:`Re = \\frac{\\bar v_{z_{ff}} W_{sed}}{\\nu}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:158
+msgid ""
+"**Answer:** Reynolds number through floc is 938.2 dimensionless. These two "
+"Reynold's numbers are similar because conservation of mass requires for a "
+"constant length that :math:`\\bar v_{1}*W_{1} = \\bar v_{2}*W_{2}`. The "
+"slight difference in the numbers is due to that fact that diffusers are not "
+"a continuous line jet but rather broken up by two times the thickness of the"
+" pipe wall between the diffusers."
+msgstr ""
+"**Respuesta:** El número de Reynolds a la flócula es 938,2 adimensional. "
+"Estos dos números de Reynolds son similares porque la conservación de la "
+"masa requiere una longitud constante que :math:`\\bar v_{1}*W_{1} = \\bar "
+"v_{2}*W_{2}`. La ligera diferencia en los números se debe a que los "
+"difusores no son un chorro de línea continua, sino que se descomponen por el"
+" doble de grosor de la pared de la tubería entre los difusores."
+
+#: ../../Clarification/Clarifier_Examples.rst:160
+msgid ""
+"Next, we want to determine the energy dissipation rate for the flow leaving "
+"the jet reverser. For this process, you can assume that the jet remains "
+"laminar. The flow spreads to fill the gaps created by the walls of the "
+"diffuser tubes by the time it traverses the jet reverser. Jet velocity and "
+"flow rate are conserved as the jet changes direction in the jet reverser."
+msgstr ""
+"A continuación, queremos determinar la tasa de disipación de energía para el"
+" flujo que sale del inversor del chorro. Para este proceso, se puede suponer"
+" que el chorro permanece laminar. El flujo se extiende para rellenar los "
+"huecos creados por las paredes de los tubos difusores cuando atraviesa el "
+"inversor del chorro. La velocidad del chorro y caudal se conservan a medida "
+"que el chorro cambia de dirección en el inversor del chorro."
+
+#: ../../Clarification/Clarifier_Examples.rst:162
+msgid ""
+"7. Calculate the thickness of the jet after it does the 180 degree bend of "
+"the jet reverser. < The change in thickness of the jet after the 180 degree "
+"bend is due to the flow spreading out to fill in the gaps created by the "
+"diffuser pipe walls. :math:`W_{jet} * \\bar v_{diff} = W_{sed} * \\bar "
+"v_{z_{ff}}`"
+msgstr ""
+"7. Calcular el grosor del chorro después de que haga la curvatura de 180 "
+"grados del inversor del chorro.< The change in thickness of the jet after "
+"the 180 degree bend is due to the flow spreading out to fill in the gaps "
+"created by the diffuser pipe walls. :math:`W_{jet} * \\bar v_{diff} = "
+"W_{sed} * \\bar v_{z_{ff}}`"
+
+#: ../../Clarification/Clarifier_Examples.rst:165
+msgid ""
+"`Calculate the maximum energy dissipation rate* for the flow leaving the jet"
+" reverser. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=8vvPOw1RbsK2&line=1&uniqifier=1>`_"
+" See Equation :eq:`planejet_EDR` for the maximum energy dissipation rate in "
+"a plane jet and see :numref:`table_EDR_G_equations` for the value of "
+":math:`\\Pi_{JetPlane}`."
+msgstr ""
+"`Calcular la tasa máxima de disipación de energía* para el flujo que sale "
+"del inversor del chorro. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=8vvPOw1RbsK2&line=1&uniqifier=1>`_"
+" Véase la Ecuación :eq:`planejet_EDR` para la tasa máxima de disipación de "
+"energía en un chorro plano y véase :numref:`table_EDR_G_equations` para el "
+"valor de :math:`\\Pi_{JetPlane}`."
+
+#: ../../Clarification/Clarifier_Examples.rst:167
+msgid "The energy dissipation rate for inlet jet is 158.5 milliwatt / kilogram"
+msgstr ""
+"La tasa de disipación de energía para el chorro de entrada es de 158,5 "
+"milivatios/kilogramo"
+
+#: ../../Clarification/Clarifier_Examples.rst:169
+msgid ""
+"In designing AguaClara plants, it is critical to account for all forms of "
+"significant head loss. In the clarifier, effluent launders provide about 4 "
+"cm of head loss. We want to calculate the exit head loss for water leaving "
+"the diffusers to determine whether it is a significant addition to the total"
+" head loss through the clarifier."
+msgstr ""
+"Al diseñar plantas AguaClara, es fundamental tener en cuenta todas las "
+"formas de pérdida de carga significativas. En el clarificador, los lavados "
+"de efluentes proporcionan unos 4 cm de pérdida de carga. Queremos calcular "
+"el pérdida de carga de salida del agua que sale de los difusores para "
+"determinar si supone una adición significativa a la pérdida de carga total a"
+" través del clarificador."
+
+#: ../../Clarification/Clarifier_Examples.rst:171
+msgid "Calculate the diffuser exit head loss in two ways."
+msgstr "Calcula la salida del difusor pérdida de carga de dos maneras."
+
+#: ../../Clarification/Clarifier_Examples.rst:173
+msgid ""
+"First, calculate the head loss making sure to account for the upflow "
+"velocity in the clarifier."
+msgstr ""
+"Primero, calcula la pérdida de carga asegurándote de tener en cuenta la "
+"velocidad de flujo ascendente en el clarificador."
+
+#: ../../Clarification/Clarifier_Examples.rst:175
+msgid ""
+":math:`h_e = \\frac{\\left( {{\\bar v_{diff}} - {\\bar v_{z_{ff}}}} "
+"\\right)^2}{2g}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:177
+msgid ""
+"Second, calculate the head loss but assume that the upflow velocity is "
+"negligible."
+msgstr ""
+"Segundo, calcular la pérdida de carga pero asumir que la velocidad de flujo "
+"ascendente es despreciable."
+
+#: ../../Clarification/Clarifier_Examples.rst:179
+msgid ":math:`h_e = \\frac{\\ {\\bar v_{diff}}^2}{2g}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:181
+msgid ""
+"`Is it reasonable to neglect the upflow velocity in the clarifier when "
+"calculating this head loss? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=mT6cY0pGbzKt&line=1&uniqifier=1>`_"
+msgstr ""
+"`¿Es razonable descuidar la velocidad de flujo ascendente en el clarificador"
+" al calcular esta pérdida de carga? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=mT6cY0pGbzKt&line=1&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:183
+msgid ""
+"**Answer:** The best estimate of the exit head loss for the diffuser is "
+"0.6176 centimeter. The 2nd estimate of the exit head loss for the diffuser "
+"ignoring the upflow velocity is 0.6211 centimeter. It is reasonable to "
+"neglect the effect of the upflow velocity. The error is 0.005755 "
+"dimensionless"
+msgstr ""
+"**Answer:** La mejor estimación del pérdida de carga de salida para el "
+"difusor es 0.6176 centímetro. La estimación 2nd del pérdida de carga de "
+"salida para el difusor, ignorando la velocidad de flujo ascendente, es "
+"0.6211 centímetro. Es razonable descuidar el efecto de la velocidad de "
+"flujo. El error es adimensional 0.005755"
+
+#: ../../Clarification/Clarifier_Examples.rst:186
+msgid "Manifolds and Launders"
+msgstr "Variedades y Lavados"
+
+#: ../../Clarification/Clarifier_Examples.rst:187
+msgid ""
+"Flow distribution between and within clarifiers is an important design "
+"component to ensure good clarifier performance. We need to distribute flow "
+"uniformly between clarifiers and also between diffusers on the inlet "
+"manifolds."
+msgstr ""
+"La distribución del flujo entre y dentro de los clarificadores es un "
+"componente importante del diseño para garantizar un buen rendimiento del "
+"clarificador. Necesitamos distribuir el flujo de forma uniforme entre los "
+"clarificadores y también entre difusores en los colectores de entrada."
+
+#: ../../Clarification/Clarifier_Examples.rst:189
+msgid ""
+"The following variable definitions and equations will be useful in answering"
+" later questions."
+msgstr ""
+"Las siguientes definiciones de variables y ecuaciones serán útiles para "
+"responder preguntas posteriores."
+
+#: ../../Clarification/Clarifier_Examples.rst:191
+msgid ""
+"Determine the relationship between diffuser exit velocity and the head loss "
+"in the parallel paths."
+msgstr ""
+"Determinar la relación entre la velocidad de salida del difusor y la pérdida"
+" de carga en las trayectorias paralelas."
+
+#: ../../Clarification/Clarifier_Examples.rst:193
+msgid ""
+":math:`{h}_{L,ParallelPath}` is the head loss (flow resistance) in the "
+"parallel paths leaving the manifold. The head loss in the parallel path is "
+"the total head loss from where the flow leaves the manifold to the point "
+"where the parallel flows reunite."
+msgstr ""
+":math:`{h}_{L,ParallelPath}` es la pérdida de carga (resistencia del flujo) "
+"en los caminos paralelos que salen de la variedad. La pérdida de carga en la"
+" trayectoria paralela es la pérdida de carga total desde donde el flujo sale"
+" de la variedad hasta el punto donde los flujos paralelos se reúnen."
+
+#: ../../Clarification/Clarifier_Examples.rst:195
+msgid ""
+":math:`\\Delta{H}_{Manifold}` is the variability in piezometric head in the "
+"manifold that is driving the flow through the parallel paths."
+msgstr ""
+":math:`\\Delta{H}_{Manifold}` es la variabilidad en la cabeza piezométrica "
+"en la variedad que impulsa el flujo a través de los caminos paralelos."
+
+#: ../../Clarification/Clarifier_Examples.rst:197
+msgid ""
+"The ratio of minimum (first diffuser port) to maximum (last diffuser port) "
+"flow is given by:"
+msgstr ""
+"La proporción entre el flujo mínimo (primer puerto difusor) y el máximo "
+"(último puerto difusor) está dada por:"
+
+#: ../../Clarification/Clarifier_Examples.rst:199
+msgid ""
+"\\Pi_{DiffuserFlow} = \\sqrt{\\frac{h_{L,parallelpath} - "
+"\\frac{\\Delta{H}_{Manifold}}{2}}{h_{L,parallelpath} + "
+"\\frac{\\Delta{H}_{Manifold}}{2}}}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:201
+msgid ""
+"The change in piezometric head is given by: :math:`\\Delta{H}_{Manifold} = "
+"\\frac{{v_{manifold}}^{2}}{2g}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:203
+msgid "The maximum allowable velocity in the manifold is given by:"
+msgstr "La velocidad máxima permitida en la variedad está dada por:"
+
+#: ../../Clarification/Clarifier_Examples.rst:205
+msgid ""
+"{\\Pi_{DiffuserFlow}}^{2} * \\left(h_{L,parallelpath} + "
+"\\frac{\\Delta{H}_{Manifold}}{2} \\right) = h_{L,parallelpath} - "
+"\\frac{\\Delta{H}_{Manifold}}{2}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:207
+msgid ""
+"\\left({\\Pi_{DiffuserFlow}}^{2} - 1 \\right) h_{L,parallelpath} + "
+"\\left({\\Pi{DiffuserFlow}}^{2} + 1 \\right) "
+"\\frac{\\Delta{H}_{Manifold}}{2} = 0\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:209
+msgid ""
+"\\left(\\frac{1 - {\\Pi_{DiffuserFlow}}^{2}}{{\\Pi_{DiffuserFlow}}^{2} + 1} "
+"\\right) h_{L,parallelpath} = \\frac{\\Delta{H}_{Manifold}}{2}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:211
+msgid ""
+"\\left(\\frac{1 - {\\Pi_{DiffuserFlow}}^{2}}{{\\Pi_{DiffuserFlow}}^{2} + 1} "
+"\\right) h_{L,parallelpath} = \\frac{{v_{manifold}}^{2}}{4g}\n"
+"\n"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:213
+msgid ""
+"Now, we want to find the maximum velocity for an inlet manifold which is "
+"dependent on the given flow distribution constraint, "
+":math:`\\Pi_{DiffuserFlow}`, and the head loss in the parallel paths, "
+":math:`h_{L,ParallelPath}`."
+msgstr ""
+"Ahora, queremos encontrar la velocidad máxima para un manifold de entrada "
+"que depende de la restricción de distribución de flujo dada, "
+":math:`\\Pi_{DiffuserFlow}`, y la pérdida de carga en los caminos paralelos,"
+" :math:`h_{L,ParallelPath}`."
+
+#: ../../Clarification/Clarifier_Examples.rst:215
+msgid ""
+"Determine an equation for maximum velocity for an inlet manifold in terms of"
+" diffuser exit velocity and the flow distribution constraint."
+msgstr ""
+"Determina una ecuación para la velocidad máxima de un manifold de entrada en"
+" términos de la velocidad de salida del difusor y la restricción de "
+"distribución del flujo."
+
+#: ../../Clarification/Clarifier_Examples.rst:217
+msgid ""
+"`Write a function for maximum velocity for an inlet manifold using the "
+"equations you just found. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=mT6cY0pGbzKt&line=1&uniqifier=1>`_"
+msgstr ""
+"`Escribe una función para la velocidad máxima de un manifold de entrada "
+"usando las ecuaciones que acabas de encontrar. "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=mT6cY0pGbzKt&line=1&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:219
+msgid ""
+"Exit losses from the diffusers dominate the head loss because the velocity "
+"in the diffuser slots is much higher than the velocity at the entrance to "
+"the diffuser pipes. Using the insight from the previous problem, it is "
+"reasonable to neglect the effect of the upflow velocity when calculating the"
+" exit head loss for the manifold diffusers."
+msgstr ""
+"Las pérdidas de salida de los difusores dominan el pérdida de carga porque "
+"la velocidad en las ranuras del difusor es mucho mayor que la velocidad en "
+"la entrada de las tuberías del difusor. Utilizando la información del "
+"problema anterior, es razonable descuidar el efecto de la velocidad de flujo"
+" ascendente al calcular la pérdida de carga de salida para los difusores del"
+" múltiple."
+
+#: ../../Clarification/Clarifier_Examples.rst:221
+msgid ""
+"Head loss in the clarifier is impacted by multiple forms of head loss, "
+"inlcuding head loss through the effluent launder and diffusers. Head loss "
+"through the effluent launder is about 4 cm. You found head loss through the "
+"diffusers in Problem 9."
+msgstr ""
+"pérdida de carga en el clarificador se ve afectado por múltiples formas de "
+"pérdida de carga, incluyendo pérdida de carga a través del lavado de "
+"efluentes y los difusores. pérdida de carga a través del lavado de efluentes"
+" es de unos 4 cm. Encontraste pérdida de carga a través de los difusores en "
+"el Problema 9."
+
+#: ../../Clarification/Clarifier_Examples.rst:223
+msgid ""
+"Which form of head loss (effluent launder or diffuser) is in the parallel "
+"path, :math:`{h}_{L,ParallelPath}`? `What is the maximum velocity in the "
+"clarifier manifold? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=wNjOuUcMPAmN&line=3&uniqifier=1>`_"
+msgstr ""
+"¿Qué tipo de pérdida de carga (lavado de efluentes o difusor) se encuentra "
+"en la trayectoria paralela, :math:`{h}_{L,ParallelPath}`? `¿Cuál es la "
+"velocidad máxima en el colector clarificador? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=wNjOuUcMPAmN&line=3&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:225
+msgid ""
+"**Answer:** Only the diffuser head loss is in the parallel paths. The "
+"maximum velocity in the clarifier manifold is 0.2313 meter / second."
+msgstr ""
+"**Respuesta:** Solo el difusor pérdida de carga está en las trayectorias "
+"paralelas. La velocidad máxima en el colector clarificador es de 0,2313 "
+"metros/segundo."
+
+#: ../../Clarification/Clarifier_Examples.rst:227
+msgid ""
+"The ratio of manifold pipe cross-sectional area to total diffuser cross-"
+"sectional area determines the flow distribution between diffusers."
+msgstr ""
+"La relación entre el área de la sección transversal de la tubería del "
+"colector y el área total de la sección transversal del difusor determina la "
+"distribución del flujo entre los difusores."
+
+#: ../../Clarification/Clarifier_Examples.rst:229
+msgid ""
+"Calculate the ratio of manifold pipe cross-sectional area to total diffuser "
+"cross-sectional area. You can use the velocities of the manifold and the "
+"diffusers to calculate the areas."
+msgstr ""
+"Calcula la relación entre el área de la sección transversal de la tubería "
+"del colector y el área total de la sección transversal del difusor. Puedes "
+"usar las velocidades del colector y los difusores para calcular las áreas."
+
+#: ../../Clarification/Clarifier_Examples.rst:231
+msgid ""
+"Since the clarifier has a constant volume, the flow rate into the tank is "
+"equal to the flow rate out of the tank: :math:`Q_{manifold,pipe} = Q_{diff}`"
+msgstr ""
+"Dado que el clarificador tiene un volumen constante, la caudal dentro del "
+"tanque es igual a la caudal fuera del tanque: :math:`Q_{manifold,pipe} = "
+"Q_{diff}`"
+
+#: ../../Clarification/Clarifier_Examples.rst:234
+msgid ":math:`v_{manifold} * A_{manifold} = v{diff} * A_{diff}`"
+msgstr ":math:`v_{manifold} * A_{manifold} = v{diff} * A_{diff}`"
+
+#: ../../Clarification/Clarifier_Examples.rst:236
+msgid ":math:`\\frac{A_{manifold}}{A_{diff}} = \\frac{v_{diff}}{v_{manifold}}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:238
+msgid ""
+"`What is the significance of the flow area ratio that you found? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=voeAlHjbPPEV&line=1&uniqifier=1>`_"
+" What does it tell you about the relative areas?"
+msgstr ""
+"`¿Cuál es la importancia de la relación de área de flujo que encontraste? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=voeAlHjbPPEV&line=1&uniqifier=1>`_"
+" ¿Qué te dice sobre las áreas relativas?"
+
+#: ../../Clarification/Clarifier_Examples.rst:240
+msgid ""
+"**Answer:** The flow area ratio of manifold pipe to diffusers is 1.509 "
+"dimensionless. This means that the manifold flow area is larger than the "
+"total diffuser area. The flow distribution is more uniform because the "
+"diffuser velocity is higher than the manifold velocity."
+msgstr ""
+"**Respuesta:** La relación de área de flujo entre la tubería del colector y "
+"los difusores es 1,509 adimensional. Esto significa que el área de flujo del"
+" colector es mayor que el área total del difusor. La distribución del flujo "
+"es más uniforme porque la velocidad del difusor es mayor que la velocidad "
+"del variedor."
+
+#: ../../Clarification/Clarifier_Examples.rst:242
+msgid ""
+"The maximum clarifier flow rate is currently set by the constraint of using "
+"a single length of pipe for the manifold and launder. The maximum length of "
+"the upflow region of the clarifier is 5.8 m, as given below."
+msgstr ""
+"La caudal máxima del clarificador está actualmente establecida por la "
+"restricción de usar un solo tramo de tubería para el colector y el lavado. "
+"La longitud máxima de la región de flujo ascendente del clarificador es de "
+"5,8 m, como se indica a continuación."
+
+#: ../../Clarification/Clarifier_Examples.rst:244
+msgid ""
+"`What is the corresponding clarifier flow rate? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=4IIQwvYMPh7P&line=2&uniqifier=1>`_"
+" This can be solved using :math:`Q = \\bar v A`."
+msgstr ""
+"`¿Cuál es el clarificador correspondiente caudal? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=4IIQwvYMPh7P&line=2&uniqifier=1>`_"
+" Esto se puede resolver usando :math:`Q = \\bar v A`."
+
+#: ../../Clarification/Clarifier_Examples.rst:246
+msgid "**Answer:** The maximum flow rate in one clarifier is 6.187 liter / second."
+msgstr ""
+"**Respuesta:** La caudal máxima en un clarificador es de 6,187 litros / "
+"segundo."
+
+#: ../../Clarification/Clarifier_Examples.rst:248
+msgid ""
+"The maximum clarifier flow rate dictates the required pipe diameter for the "
+"manifold and launder."
+msgstr ""
+"El caudal máximo de clarificador determina el diámetro requerido de la "
+"tubería para el colector y el lavado."
+
+#: ../../Clarification/Clarifier_Examples.rst:250
+msgid ""
+"7. What is the minimum inner diameter of the clarifier manifold? :math:`Q = "
+"\\frac{\\bar v*\\pi*D^2}{4}`"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Examples.rst:253
+msgid ""
+"8. `What is the required nominal pipe diameter given this flow rate? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=lExuIc6SPq58&line=1&uniqifier=1>`_"
+" The function from the pipe database can return the nominal diameter from "
+"the diameter and SDR."
+msgstr ""
+"8. `¿Cuál es el diámetro nominal de tubería requerido dado este caudal? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=lExuIc6SPq58&line=1&uniqifier=1>`_"
+" La función de la base de datos de tuberías puede devolver el diámetro "
+"nominal del diámetro y SDR."
+
+#: ../../Clarification/Clarifier_Examples.rst:256
+msgid ""
+"**Answer:** The minimum inner diameter of the clarifier manifold is 7.266 "
+"inch. The nominal diameter of the clarifier manifold is 8 inch."
+msgstr ""
+"**Respuesta:** El diámetro interior mínimo de la variedad clarificadora es "
+"de 7,266 pulgadas. El diámetro nominal de la variedad clarificadora es de 8 "
+"pulgadas."
+
+#: ../../Clarification/Clarifier_Examples.rst:259
+msgid "Clarifier Bays and Number of Diffusers"
+msgstr "Bahías de clarificadores y número de difusores"
+
+#: ../../Clarification/Clarifier_Examples.rst:260
+msgid "The design will be for a 60 liter per second plant."
+msgstr "El diseño será para una planta de 60 litros por segundo."
+
+#: ../../Clarification/Clarifier_Examples.rst:262
+msgid ""
+"`What is the total required plan area for the clarifiers? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=wg6BNPlkP6oz&line=1&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es el área total necesaria para los clarificadores? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=wg6BNPlkP6oz&line=1&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:264
+msgid "**Answer:** The plant view area of the floc filter is 60 square meters."
+msgstr ""
+"**Respuesta:** La zona de vista de la planta del filtro de flóculos es de 60"
+" metros cuadrados."
+
+#: ../../Clarification/Clarifier_Examples.rst:266
+msgid ""
+"`What is the total length of the floc filter zone for all tanks? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=-MHwQyXUQEqp&line=1&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es la longitud total de la zona de filtro de flóculos para todos los "
+"tanques? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=-MHwQyXUQEqp&line=1&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:268
+msgid ""
+"**Answer:** The total length of the floc filter zone for all tanks is 56.24 "
+"meters."
+msgstr ""
+"**Respuesta:** La longitud total de la zona de filtro de flóculos para todos"
+" los tanques es de 56,24 metros."
+
+#: ../../Clarification/Clarifier_Examples.rst:270
+msgid ""
+"`How many clarifiers are required to treat the total plant flow? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=u0J7OWpoQVjy&line=1&uniqifier=1>`_"
+" The plant flow rate is the basis of design and the maximum clarifier flow "
+"rate is based on the manifold diameter."
+msgstr ""
+"`¿Cuántos clarificadores se requieren para tratar el caudal total de la "
+"planta? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=u0J7OWpoQVjy&line=1&uniqifier=1>`_"
+" El caudal de la planta es la base del diseño y el caudal máximo de "
+"clarificador se basa en el diámetro del múltiple."
+
+#: ../../Clarification/Clarifier_Examples.rst:272
+msgid "**Answer:** The required number of clarifiers is 10."
+msgstr "**Respuesta:** El número requerido de clarificadores es 10."
+
+#: ../../Clarification/Clarifier_Examples.rst:274
+msgid ""
+"`How much water (in L/s) can all of the clarifiers for the plant treat? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=YQ314w1LQsEN&line=1&uniqifier=1>`_"
+msgstr ""
+"`¿Cuánta agua (en L/s) pueden tratar todos los clarificadores de la planta? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=YQ314w1LQsEN&line=1&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:276
+msgid ""
+"**Answer:** The total amount of water this plant could treat is 61.87 liter "
+"/ second. It is slightly larger than the basis of design due to the needs "
+"for an integer number of clarifiers."
+msgstr ""
+"**Respuesta:** La cantidad total de agua que esta planta podría tratar es de"
+" 61,87 litros / segundo. Es ligeramente mayor que la base de diseño debido a"
+" la necesidad de un número entero de clarificadores."
+
+#: ../../Clarification/Clarifier_Examples.rst:278
+msgid ""
+"`How many diffusers are required in each tank? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=VfMU2AIjQzPw&line=1&uniqifier=1>`_"
+" Assume the maximum length of the upflow region of the clarifier is used."
+msgstr ""
+"`¿Cuántos difusores se requieren en cada tanque? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=VfMU2AIjQzPw&line=1&uniqifier=1>`_"
+" Supongamos que se utiliza la longitud máxima de la región de flujo "
+"ascendente del clarificador."
+
+#: ../../Clarification/Clarifier_Examples.rst:280
+msgid "**Answer:** The number of diffuser pipes per clarifier is 98."
+msgstr "**Respuesta:** El número de tuberías difusoras por clarificador es 98."
+
+#: ../../Clarification/Clarifier_Examples.rst:283
+msgid "Plate Settler Design"
+msgstr "placa sedimentadora Diseño"
+
+#: ../../Clarification/Clarifier_Examples.rst:285
+msgid ""
+"We will assume that the active area of the clarifier is equal to the top "
+"area of the floc filter zone. This isn't quite right because of the "
+"geometric constraints from the floc hopper, inlet channel, settled water "
+"channel, and angled plates. However, it is a good approximation for these "
+"long tanks."
+msgstr ""
+"Asumiremos que el área activa del clarificador es igual al área superior de "
+"la zona filtro de flóculos . Esto no es del todo correcto debido a las "
+"restricciones geométricas del tolva de lodos, el canal de entrada, el canal "
+"de agua sedimentada y las placas anguladas. Sin embargo, es una buena "
+"aproximación para estos tanques largos."
+
+#: ../../Clarification/Clarifier_Examples.rst:287
+msgid ""
+"`What is the required length of the plate settlers? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=xK3Q6UmvRBAL&line=2&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es la longitud requerida para los asentadores de placas? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=xK3Q6UmvRBAL&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:289
+#: ../../Clarification/Clarifier_Examples.rst:296
+msgid ""
+"The equation for this problem can be found in :ref:`Clarification "
+"Derivations<heading_Clarifier_Plate_Settlers>`."
+msgstr ""
+"La ecuación para este problema puede encontrarse en :ref:`Clarification "
+"Derivations<heading_Clarifier_Plate_Settlers>`."
+
+#: ../../Clarification/Clarifier_Examples.rst:292
+msgid "**Answer:** The minimum length of the plate settlers is 0.4619 meters."
+msgstr ""
+"**Respuesta:** La longitud mínima de los colonos de placas es de 0,4619 "
+"metros."
+
+#: ../../Clarification/Clarifier_Examples.rst:294
+msgid ""
+"`What is the horizontal spacing (center to center) of the plate settlers? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=AbkEyYAWRHwg&line=2&uniqifier=1>`_"
+msgstr ""
+"`¿Cuál es el espaciamiento horizontal (centro a centro) de los asentadores "
+"de placas? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=AbkEyYAWRHwg&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Examples.rst:298
+msgid ""
+"**Answer:** The horizontal center to center spacing of the plate settlers is"
+" 3.118 centimeter."
+msgstr ""
+"**Respuesta:** El espaciamiento horizontal entre el centro y el centro de "
+"los asentadores de placas es de 3,118 centímetros."
+
+#: ../../Clarification/Clarifier_Examples.rst:300
+msgid ""
+"`Approximately how many plate settlers spaces are needed in each clarifier? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=0uwRgXoGRRdK&line=1&uniqifier=1>`_"
+" Assume the maximum length of the upflow region of the clarifier is used. "
+"Neglect the lost space at the end of the clarifier due to the angle of the "
+"plate settlers."
+msgstr ""
+"`¿Aproximadamente cuántos espacios para los asentadores de placas se "
+"necesitan en cada clarificador? "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=0uwRgXoGRRdK&line=1&uniqifier=1>`_"
+" Supongamos que se utiliza la longitud máxima de la región de afluencia del "
+"clarificador. Descuida el espacio perdido al final del asentador debido al "
+"ángulo de los asentadores de placas."
+
+#: ../../Clarification/Clarifier_Examples.rst:302
+msgid "**Answer:** The number of plate settlers per clarifier is 180."
+msgstr "**Respuesta:** El número de asentadores de placas por clarificador es 180."
+
+#: ../../Clarification/Clarifier_Examples.rst:306
+msgid "Comments, Corrections, or Questions"
+msgstr "Comentarios, correcciones o preguntas"
+
+#: ../../Clarification/Clarifier_Examples.rst:308
+msgid ""
+"This textbook is an ever-evolving project. If you find any errors while you "
+"are reading, or if you find something unclear, please let the authors know. "
+"Write your comment in `this Github issue <https://github.com/AguaClara-"
+"Reach/Textbook/issues/86>`_ and it will be addressed as soon as possible. "
+"Please look at other comments before writing your own to avoid duplicate "
+"comments."
+msgstr ""
+"Este libro de texto es un proyecto en constante evolución. Si encuentras "
+"algún error mientras lees, o si encuentras algo poco claro, por favor avisa "
+"a los autores. Escribe tu comentario en `este número de Github "
+"<https://github.com/AguaClara-Reach/Textbook/issues/86>`_ y se abordará lo "
+"antes posible. Por favor, revisa otros comentarios antes de escribir el tuyo"
+" propio para evitar comentarios duplicados."
+

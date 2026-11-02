@@ -52,7 +52,7 @@ Edit the configurations to create new models of the Linear Flow Orifice Meter. S
    Maximum nominal diameter (inch), Used to set a maximum pipe size. For higher flow rates the LFOM will increase the water elevation range so the pipe can carry more flow.
 
 
-Additional information is available in *The Physics of Water Treatment* in the section on `Linear Flow Orifice Meter <https://aguaclara-reach.github.io/Textbook/Flow_Control_and_Measurement/FCM_Design.html#linear-flow-orifice-meter-lfom>`_
+Additional information is available in *The Physics of Water Treatment* in the section on :ref:`heading_lfom`.
 
 
 .. |donate| image:: ./Images/donate.png
@@ -60,7 +60,7 @@ Additional information is available in *The Physics of Water Treatment* in the s
   :height: 30
 
 .. |textbook| image:: ./Images/textbook.png
-  :target: https://aguaclara-reach.github.io/Textbook/AIDE/AIDE.html
+  :target: ../AIDE.html
   :height: 30
 
 .. |ACRlogowithname| image:: ./Images/ACRlogowithname.png

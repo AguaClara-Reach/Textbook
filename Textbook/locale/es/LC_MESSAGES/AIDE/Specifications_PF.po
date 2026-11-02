@@ -1,0 +1,1766 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: 2026-11-01 15:30-0500\n"
+"Last-Translator: AguaClara Reach Translation Team\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/Specifications_PF.rst:54
+msgid "Specifications for AguaClara PF Series"
+msgstr "Especificaciones para la Serie PF de AguaClara"
+
+#: ../../AIDE/Specifications_PF.rst:59
+msgid ""
+"This document describes the standard design, performance, materials, and "
+"operating features of AguaClara prefabricated (PF) Series drinking water "
+"treatment plants. AguaClara fabricates and supplies PF plants as integrated "
+"treatment systems. Unless a feature is identified as optional or project-"
+"specific, the features described here are included in the supplied plant. "
+"Plant dimensions and certain components are configured for the project "
+"design flow, source-water quality, site conditions, and applicable "
+"regulatory requirements. The PF plant is designed to produce safe, potable "
+"drinking water from source water that may be contaminated with particles, "
+"pathogens, and dissolved organics."
+msgstr ""
+"Este documento describe el diseño estándar, el rendimiento, los materiales y"
+" las características operativas de las plantas de tratamiento de agua "
+"potable prefabricadas de la serie AguaClara (PF). AguaClara fabrica y "
+"suministra plantas PF como sistemas integrados de tratamiento. A menos que "
+"una característica se identifique como opcional o específica del proyecto, "
+"las características descritas aquí se incluyen en la planta suministrada. "
+"Las dimensiones de la planta y ciertos componentes se configuran para el "
+"flujo de diseño del proyecto, la calidad del agua de la fuente, las "
+"condiciones del sitio y los requisitos regulatorios aplicables. La planta PF"
+" está diseñada para producir agua potable segura y potable a partir de agua "
+"fuente que puede estar contaminada con partículas, patógenos y compuestos "
+"orgánicos disueltos."
+
+#: ../../AIDE/Specifications_PF.rst:62
+msgid "PF Series Application and Design Basis"
+msgstr "Aplicación y bases de diseño de la Serie PF"
+
+#: ../../AIDE/Specifications_PF.rst:64
+msgid ""
+"AguaClara drinking water treatment technologies remove turbidity and "
+"pathogens from raw water and deactivate remaining pathogens before "
+"distribution. AguaClara technologies are best suited for centralized water "
+"treatment in communities of at least 200 people. AguaClara technologies are "
+"not intended to treat low-turbidity groundwater where the primary "
+"contaminants are chemicals such as nitrate, fluoride, or heavy metals. "
+"AguaClara technologies are gravity-driven and do not require electricity. "
+"When required by the topography, pumps can raise the source water to the "
+"elevation necessary for water treatment and water distribution."
+msgstr ""
+"Las tecnologías de tratamiento de agua potable AguaClara eliminan la "
+"turbidez y los patógenos de agua cruda y desactivan los patógenos restantes "
+"antes de su distribución. Las tecnologías AguaClara son más adecuadas para "
+"tratamiento de agua centralizadas en comunidades de al menos 200 personas. "
+"Las tecnologías AguaClara no están destinadas a tratar aguas subterráneas de"
+" baja turbidez donde los principales contaminantes son químicos como "
+"nitratos, flúor o metales pesados. Las tecnologías AguaClara son impulsadas "
+"por gravedad y no requieren electricidad. Cuando la topografía lo requiere, "
+"las bombas pueden elevar el agua fuente a la elevación necesaria para la "
+"tratamiento de agua y la distribución del agua."
+
+#: ../../AIDE/Specifications_PF.rst:66
+msgid ""
+"AguaClara treatment technologies include trash and grit removal, flow "
+"measurement, chemical dosing, rapid mix, flocculation, floc filter, "
+"sedimentation, filtration, and disinfection. The :ref:`floc filter "
+"<title_Clarification_Intro>` is a fluidized suspension of flocs located in "
+"the bottom of the clarifier. A PF plant can be configured with all of these "
+"processes. For source water with turbidity consistently below approximately "
+"3 NTU, a project-specific configuration can omit flocculation, the floc "
+"filter, and sedimentation."
+msgstr ""
+"Las tecnologías de tratamiento AguaClara incluyen la eliminación de residuos"
+" y arena, medición de caudal, dosificación química, mezcla rápida, "
+"floculación, filtro de flóculos, sedimentación, filtración y desinfección. "
+"El :ref:`floc filter <title_Clarification_Intro>` es una suspensión "
+"fluidizada de flócs situada en el fondo del clarificador. Una planta PF "
+"puede configurarse con todos estos procesos. Para agua fuente con turbidez "
+"consistentemente inferior a aproximadamente 3 NTU, una configuración "
+"específica del proyecto puede omitir floculación, el filtro de flóculos y "
+"sedimentación."
+
+#: ../../AIDE/Specifications_PF.rst:70
+msgid "Water Quality Parameters"
+msgstr "Parámetros de calidad del agua"
+
+#: ../../AIDE/Specifications_PF.rst:72
+msgid ""
+"The table below summarizes the raw water quality parameters for which "
+"AguaClara treatment technologies are appropriate."
+msgstr ""
+"La siguiente tabla resume los parámetros calidad del agua en bruto para los "
+"cuales las tecnologías de tratamiento AguaClara son adecuadas."
+
+#: ../../AIDE/Specifications_PF.rst:76
+msgid "Water Quality Parameters Treated by AguaClara Plants"
+msgstr "Parámetros de calidad del agua tratados por las plantas AguaClara"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Water Quality Parameter"
+msgstr "Parámetro de calidad del agua"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Comments"
+msgstr "Comentarios"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Turbidity"
+msgstr "Turbiedad"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid ""
+"PF plants are designed to consistently treat raw water with turbidity below "
+"600 NTU to a turbidity below 1 NTU. Treatment of higher turbidities requires"
+" a customized clarifier design."
+msgstr ""
+"Las plantas PF están diseñadas para tratar consistentemente agua cruda con "
+"turbidez inferior a 600 NTU hasta una turbidez inferior a 1 NTU. El "
+"tratamiento de turbidez más alta requiere un diseño clarificante "
+"personalizado."
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Color/Dissolved Organic Matter (DOM)"
+msgstr "Color/materia orgánica disuelta (MOD)"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid ""
+"For raw water with high color or total organic matter content, pilot studies"
+" are recommended to confirm the efficacy of the coagulant and the ability of"
+" the flocs to settle."
+msgstr ""
+"Para agua cruda con alto contenido de color o materia orgánica total, se "
+"recomiendan estudios piloto para confirmar la eficacia del coagulante y la "
+"capacidad de los flóculos para asentarse."
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "pH"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid ""
+"pH can be lowered to prevent calcium carbonate scaling in distribution "
+"piping or increased to reduce corrosion potential."
+msgstr ""
+"El pH puede reducirse para evitar la incrustación de carbonato de calcio en "
+"las tuberías de distribución o aumentarse para reducir el potencial de "
+"corrosión."
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Microbiological contamination"
+msgstr "Contaminación microbiológica"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid ""
+"The AguaClara treatment processes are designed to remove pathogens through "
+"particle removal and deactivate pathogens through disinfection."
+msgstr ""
+"Los procesos de tratamiento AguaClara están diseñados para eliminar "
+"patógenos mediante la eliminación de partículas y desactivar patógenos "
+"mediante la desinfección."
+
+#: ../../AIDE/Specifications_PF.rst:85
+msgid ""
+"AguaClara plants are designed to treat the water quality parameters listed "
+"above. Removal of other contaminants requires verification by jar and/or "
+"pilot-scale testing. All other parameters need to be within acceptable "
+"ranges in the raw water or treated by other means."
+msgstr ""
+"Las plantas AguaClara están diseñadas para tratar los calidad del agua "
+"parámetros mencionados anteriormente. La eliminación de otros contaminantes "
+"requiere verificación mediante ensayos a escala piloto y/o en frascos "
+"piloto. Todos los demás parámetros deben estar dentro de los rangos "
+"aceptables en el agua cruda o tratados por otros medios."
+
+#: ../../AIDE/Specifications_PF.rst:87
+msgid ""
+"Coagulant selection and plant configuration require bench-scale jar testing "
+"to confirm that polyaluminum chloride, aluminum sulfate, or another proposed"
+" coagulant successfully forms settleable flocs."
+msgstr ""
+"La selección del coagulante y la configuración de la planta requieren "
+"pruebas a escala de laboratorio para confirmar que el cloruro de "
+"polialuminio, sulfato de aluminio u otro coagulante propuesto forma con "
+"éxito flocos decantables."
+
+#: ../../AIDE/Specifications_PF.rst:90
+msgid "Entrance Tank"
+msgstr "Tanque de entrada"
+
+#: ../../AIDE/Specifications_PF.rst:92
+msgid ""
+"For more detailed information, see :ref:`Entrance Tank Design "
+"<title_entrance_tank_design>`. The entrance tank (see "
+":numref:`figure_spec_PF_ET_Diagram_Labeled`) has multiple functions in a "
+"drinking water treatment plant."
+msgstr ""
+"Para información más detallada, véase :ref:`Entrance Tank Design "
+"<title_entrance_tank_design>`. El tanque de entrada (véase "
+":numref:`figure_spec_PF_ET_Diagram_Labeled`) tiene múltiples funciones en "
+"una planta de tratamiento de agua bebedora."
+
+#: ../../AIDE/Specifications_PF.rst:94
+msgid ""
+"Remove air bubbles to reduce splashing, turbulence, and unsteady motion of "
+"the chemical feed surface tracking lever system"
+msgstr ""
+"Elimina las burbujas de aire para reducir salpicaduras, turbulencias y el "
+"movimiento inestable del sistema de seguimiento superficial de la "
+"alimentación química"
+
+#: ../../AIDE/Specifications_PF.rst:95
+msgid "Remove grit to prevent accumulation in the flocculator"
+msgstr "Retira la arena para evitar la acumulación en el floculador"
+
+#: ../../AIDE/Specifications_PF.rst:96
+msgid ""
+"Remove leaves and other debris to prevent clogging of the diffusers in the "
+"clarifier inlet"
+msgstr ""
+"Retira hojas y otros residuos para evitar que los difusores se obstruyan en "
+"la entrada del clarificador"
+
+#: ../../AIDE/Specifications_PF.rst:97
+msgid ""
+"Dissipate kinetic energy to keep the water level steady for accurate flow "
+"measurement"
+msgstr ""
+"Disipa la energía cinética para mantener la nivel del agua estable y así "
+"medir el flujo con precisión"
+
+#: ../../AIDE/Specifications_PF.rst:98
+msgid ""
+"Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) so "
+"that operators can make adjustments and respond to changes in water demand"
+msgstr ""
+"Mide el caudal entrante con el Medidor de Orificio de Flujo Lineal (LFOM) "
+"para que los operadores puedan realizar ajustes y responder a los cambios en"
+" la demanda de agua"
+
+#: ../../AIDE/Specifications_PF.rst:99
+msgid "Inject the coagulant and any other amendments required for flocculation"
+msgstr ""
+"Inyecta el coagulante y cualquier otra corrección necesaria para la "
+"floculación"
+
+#: ../../AIDE/Specifications_PF.rst:109
+msgid "entrance tank diagram"
+msgstr "tanque de entrada diagrama"
+
+#: ../../AIDE/Specifications_PF.rst:109
+msgid "Cross-section of an entrance tank. Chemical dosing system not shown."
+msgstr ""
+"Sección transversal de un tanque de entrada. sistema de dosificación de "
+"químicos no se muestra."
+
+#: ../../AIDE/Specifications_PF.rst:112
+msgid "Grit Removal"
+msgstr "Remoción de arena"
+
+#: ../../AIDE/Specifications_PF.rst:114
+msgid ""
+"The entrance tank is designed as a horizontal-flow sedimentation tank for "
+"grit removal with a capture velocity below 15 mm/s."
+msgstr ""
+"El tanque de entrada está diseñado como un tanque de sedimentación de flujo "
+"horizontal para la eliminación de arenilla, con una velocidad de captura "
+"inferior a 15 mm/s."
+
+#: ../../AIDE/Specifications_PF.rst:116
+msgid ""
+"The bottom of the entrance tank can easily be cleaned by temporarily "
+"removing the pipe stub that blocks the drain."
+msgstr ""
+"La parte inferior de la tanque de entrada se puede limpiar fácilmente "
+"quitando temporalmente el muñón de tubería que bloquea el desagüe."
+
+#: ../../AIDE/Specifications_PF.rst:119
+msgid "Trash Rack"
+msgstr "Rejilla"
+
+#: ../../AIDE/Specifications_PF.rst:121
+msgid ""
+"The trash rack openings are smaller than the diffusers in the clarifier and "
+"the orifices in the stacked rapid sand filter inlet branches."
+msgstr ""
+"Las rejilla aberturas son más pequeñas que los difusores del clarificador y "
+"los orificios en las ramas apiladas de entrada rápida filtro de arena ."
+
+#: ../../AIDE/Specifications_PF.rst:123
+#, python-format
+msgid ""
+"The trash rack area accommodates at least 80% clogging without exceeding the"
+" available head loss in the entrance tank."
+msgstr ""
+"La zona rejilla permite al menos un 80% de obstrucción sin exceder el "
+"pérdida de carga disponible en el tanque de entrada."
+
+#: ../../AIDE/Specifications_PF.rst:126
+msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
+msgstr "Medidor Lineal de Caudal por Orificios (LFOM) o equivalente |LFOM|"
+
+#: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:143
+msgid "LFOM"
+msgstr "LFOM"
+
+#: ../../AIDE/Specifications_PF.rst:128
+msgid ""
+"The plant entrance tank is equipped with a flow-measurement device designed "
+"to produce a linear relationship between plant flow and the water level in "
+"the entrance chamber. The standard device is the Linear Flow Orifice Meter "
+"(LFOM), which has a pattern of orifices through which flow exits the "
+"entrance tank. A demonstrated equivalent, such as a Sutro weir, can be "
+"substituted in a project-specific configuration."
+msgstr ""
+"La tanque de entrada de la planta está equipada con un dispositivo de "
+"medición de caudal diseñado para establecer una relación lineal entre el "
+"flujo de la planta y el nivel del agua en la cámara de entrada. El "
+"dispositivo estándar es el Medidor de Orificio de Flujo Lineal (LFOM), que "
+"tiene un patrón de orificios por los que el flujo sale del tanque de "
+"entrada. Un equivalente demostrado, como un azud Sutro, puede sustituirse en"
+" una configuración específica para cada proyecto."
+
+#: ../../AIDE/Specifications_PF.rst:130
+msgid ""
+"The orifice pattern is designed so that the water level in the entrance "
+"chamber (equal to the hydrostatic head pushing water through the orifices) "
+"is linearly proportional to the total flow through the orifices (equal to "
+"the plant flow). An example of an LFOM is shown in "
+":numref:`figure_spec_PF_LFOM`. Depending on the configuration, the orifices "
+"are drilled in a flat plate or in the walls of a vertical pipe."
+msgstr ""
+"El patrón de orificio está diseñado para que la nivel del agua en la cámara "
+"de entrada (igual a la carga hidrostática que empuja el agua a través de los"
+" orificios) sea linealmente proporcional al flujo total a través de los "
+"orificios (igual al flujo de la planta). Un ejemplo de LFOM se muestra en "
+":numref:`figure_spec_PF_LFOM`. Dependiendo de la configuración, los "
+"orificios se perforan en una placa plana o en las paredes de una tubería "
+"vertical."
+
+#: ../../AIDE/Specifications_PF.rst:132
+msgid ""
+"The LFOM measures flows from at least 25 percent to 100 percent of the "
+"maximum plant design flow. Project-specific configurations can extend the "
+"measurement range to lower flow rates."
+msgstr ""
+"El LFOM mide caudales desde al menos el 25 por ciento hasta el 100 por "
+"ciento del caudal máximo de diseño de la planta. Las configuraciones "
+"específicas de cada proyecto pueden ampliar el rango de medición para "
+"reducir los caudales."
+
+#: ../../AIDE/Specifications_PF.rst:134
+msgid ""
+"To provide adequate flow-measurement resolution, the water level changes by "
+"at least 20 cm from no flow to the design flow rate."
+msgstr ""
+"Para proporcionar una resolución adecuada de medición de flujo, el nivel del"
+" agua cambia al menos 20 cm desde que no hay flujo hasta el caudal de "
+"diseño."
+
+#: ../../AIDE/Specifications_PF.rst:143
+msgid "Example of a Linear Flow Orifice Meter."
+msgstr "Ejemplo de un medidor de orificio de flujo lineal."
+
+#: ../../AIDE/Specifications_PF.rst:147
+msgid "Chemical Dosing System"
+msgstr "Sistema de dosificación de químicos"
+
+#: ../../AIDE/Specifications_PF.rst:149
+msgid ""
+"For more detailed information, see :ref:`Linear chemical dosing system "
+"<heading_linear_cdc>`."
+msgstr ""
+"Para información más detallada, véase :ref:`Linear chemical dosing system "
+"<heading_linear_cdc>`."
+
+#: ../../AIDE/Specifications_PF.rst:152
+msgid "Capabilities and Design Features"
+msgstr "Capacidades y características de diseño"
+
+#: ../../AIDE/Specifications_PF.rst:154
+msgid ""
+"The system is capable of dosing chemicals for the following purposes. All "
+"wetted materials are compatible with the chemicals being dosed."
+msgstr ""
+"El sistema es capaz de dosificar productos químicos para los siguientes "
+"fines. Todos los materiales humedecidos son compatibles con los productos "
+"químicos que se están administrando."
+
+#: ../../AIDE/Specifications_PF.rst:156
+msgid "Disinfectant (normally sodium or calcium hypochlorite)"
+msgstr "Desinfectante (normalmente hipoclorito de sodio o calcio)"
+
+#: ../../AIDE/Specifications_PF.rst:158
+msgid ""
+"Coagulant (typically polyaluminum chloride [PACl]). Use of another "
+"coagulant, such as alum, requires justification and bench-scale jar testing "
+"confirming that the proposed coagulant successfully forms flocs."
+msgstr ""
+"Coagulante (normalmente cloruro de polialuminio [PACl]). El uso de otro "
+"coagulante, como el alumbre, requiere justificación y pruebas a escala de "
+"banco para confirmar que el coagulante propuesto forma con éxito flocos."
+
+#: ../../AIDE/Specifications_PF.rst:160
+msgid "pH adjustment (if necessary)"
+msgstr "Ajuste de pH (si es necesario)"
+
+#: ../../AIDE/Specifications_PF.rst:162
+msgid ""
+"The chemical dosing system operates by gravity and does not depend on pumps "
+"or electrical power."
+msgstr ""
+"El sistema de dosificación de químicos funciona por gravedad y no depende de"
+" bombas ni de energía eléctrica."
+
+#: ../../AIDE/Specifications_PF.rst:164
+msgid ""
+"Chemical dosing is flow-paced: the rate of chemical application "
+"automatically adjusts in proportion to the flow rate of water moving through"
+" the plant."
+msgstr ""
+"La dosificación química es a ritmo de flujo: la velocidad de aplicación "
+"química se ajusta automáticamente en proporción a la caudal de agua que se "
+"mueve por la planta."
+
+#: ../../AIDE/Specifications_PF.rst:166
+msgid ""
+"The system is designed for easy disassembly and cleaning by the plant "
+"operator, including cleaning with vinegar to remove calcium carbonate "
+"deposits."
+msgstr ""
+"El sistema está diseñado para facilitar el desmontaje y la limpieza por "
+"parte del operador de la planta, incluyendo la limpieza con vinagre para "
+"eliminar depósitos de carbonato cálcico."
+
+#: ../../AIDE/Specifications_PF.rst:168
+msgid ""
+"The plant operator adjusts the chemical dose (mass of chemical per volume of"
+" water passing through the plant) using the dose slider."
+msgstr ""
+"El operador de la planta ajusta la dosis química (masa del químico por "
+"volumen de agua que pasa por la planta) usando el control deslizante de "
+"dosis."
+
+#: ../../AIDE/Specifications_PF.rst:172
+msgid "Chemical Storage"
+msgstr "Almacenamiento químico"
+
+#: ../../AIDE/Specifications_PF.rst:174
+msgid ""
+"The plant includes at least two storage tanks for each chemical. Tank and "
+"fitting materials are compatible with the stored chemical. Compatible "
+"plastic storage tanks can be used."
+msgstr ""
+"La planta incluye al menos dos tanques de almacenamiento para cada producto "
+"químico. Los materiales de tanque y accesorios son compatibles con el "
+"químico almacenado. Se pueden utilizar tanques de almacenamiento de plástico"
+" compatibles."
+
+#: ../../AIDE/Specifications_PF.rst:176
+msgid ""
+"The combined storage volume for each chemical supplies the plant at maximum "
+"flow and maximum chemical dose for at least 48 hours."
+msgstr ""
+"El volumen combinado de almacenamiento de cada producto químico suministra a"
+" la planta con el máximo caudal y la dosis máxima de productos químicos "
+"durante al menos 48 horas."
+
+#: ../../AIDE/Specifications_PF.rst:179
+msgid "Chemical Feed System"
+msgstr "Sistema de alimentación química"
+
+#: ../../AIDE/Specifications_PF.rst:181
+msgid ""
+"The plant is equipped with a chemical feed system configured as shown in "
+":numref:`figure_spec_PF_chemDoseController`. Materials that contact "
+"chemicals are compatible with each chemical and suitable for use with "
+"potable water."
+msgstr ""
+"La planta está equipada con un sistema de alimentación química configurado "
+"como se muestra en :numref:`figure_spec_PF_chemDoseController`. Los "
+"materiales que contactan con productos químicos son compatibles con cada "
+"químico y adecuados para su uso con agua potable."
+
+#: ../../AIDE/Specifications_PF.rst:190
+msgid "chemDoseController"
+msgstr "chemDoseController"
+
+#: ../../AIDE/Specifications_PF.rst:190
+msgid "Gravity-powered chemical feed system schematic."
+msgstr "Esquema del sistema de alimentación química alimentado por gravedad."
+
+#: ../../AIDE/Specifications_PF.rst:192 ../../AIDE/Specifications_PF.rst:206
+msgid "Constant Level Tank"
+msgstr "nivel constante Tank"
+
+#: ../../AIDE/Specifications_PF.rst:194
+msgid ""
+"From the chemical storage tanks, the chemical passes via gravity to a "
+"constant level tank (see :numref:`figure_spec_PF_constantLevelTank`). The "
+"chemical enters the constant level tank via a float valve, which maintains a"
+" constant level of chemical, providing a constant head to drive the chemical"
+" through the doser."
+msgstr ""
+"Desde los tanques de almacenamiento de productos químicos, el producto pasa "
+"por gravedad a un tanque de nivel constante (véase "
+":numref:`figure_spec_PF_constantLevelTank`). El químico entra en el tanque "
+"de nivel constante a través de un válvula de flotador, que mantiene un nivel"
+" constante de sustancia química, proporcionando una carga constante para "
+"impulsar el químico a través del dosificador."
+
+#: ../../AIDE/Specifications_PF.rst:196
+msgid ""
+"The chemical level in the constant level tank is at the same elevation as "
+"the hanging weir when the slider is at the minimum position of the dosing "
+"lever."
+msgstr ""
+"El nivel químico en el tanque de nivel constante está a la misma elevación "
+"que el vertedero colgante cuando el deslizador está en la posición mínima de"
+" la palanca de dosificación."
+
+#: ../../AIDE/Specifications_PF.rst:206
+msgid "Constant level tank module for coagulant and chlorine."
+msgstr "nivel constante módulo de tanque para coagulante y cloro."
+
+#: ../../AIDE/Specifications_PF.rst:208
+msgid "Dosing Tubes"
+msgstr "Tubos de dosificación"
+
+#: ../../AIDE/Specifications_PF.rst:210
+msgid ""
+"Chemical flows from the constant level tank through resistors and then "
+"through tubes that terminate in a free discharge at the dose slider on the "
+"doser balance."
+msgstr ""
+"El químico fluye desde el tanque nivel constante a través de resistencias y "
+"luego a través de tubos que terminan en una descarga libre en el control "
+"deslizante de dosis en la balanza del dosificador."
+
+#: ../../AIDE/Specifications_PF.rst:212
+msgid ""
+"The resistors are sized to provide laminar flow over the desired range of "
+"chemical flow rates. Under laminar-flow conditions, the flow rate through "
+"the resistors is directly proportional to the elevation difference between "
+"the chemical level in the constant level tank and the dose slider."
+msgstr ""
+"Las resistencias están dimensionadas para proporcionar flujo laminar en el "
+"rango deseado de caudales químicos. En condiciones de flujo laminar, la "
+"caudal a través de las resistencias es directamente proporcional a la "
+"diferencia de elevación entre el nivel químico en el tanque de nivel "
+"constante y el control deslizante de dosis."
+
+#: ../../AIDE/Specifications_PF.rst:214
+msgid ""
+"The plant includes a spare set of resistors for each chemical feed so that "
+"one set of tubes can be cleaned while the other set is in use."
+msgstr ""
+"La planta incluye un juego de resistencias de repuesto para cada "
+"alimentación química, de modo que un juego de tubos pueda limpiarse mientras"
+" el otro está en uso."
+
+#: ../../AIDE/Specifications_PF.rst:216
+#, python-format
+msgid ""
+"Head loss through all other tubes and fittings connecting the constant level"
+" tank to the free discharge at the dose slider is less than 5% of the head "
+"loss through the resistors."
+msgstr ""
+"pérdida de carga a través de todos los demás tubos y conexiones que conectan"
+" el tanque de nivel constante con la descarga libre en el control de dosis "
+"es menor al 5% de la pérdida de carga a través de las resistencias."
+
+#: ../../AIDE/Specifications_PF.rst:218
+msgid "Chemical Dose Controller |Doser|"
+msgstr "Controlador de dosis química |Doser|"
+
+#: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:230
+msgid "Doser"
+msgstr "Doser"
+
+#: ../../AIDE/Specifications_PF.rst:220
+msgid ""
+"One end of the chemical doser balance (see :numref:`figure_spec_PF_doser`) "
+"is connected to a float in the plant entrance tank. The dose slider and the "
+"ends of the doser hoses are located on the other end of the chemical doser "
+"balance."
+msgstr ""
+"Un extremo del balance del dosificador químico (véase "
+":numref:`figure_spec_PF_doser`) está conectado a un flotador en la planta "
+"tanque de entrada. El deslizador de dosis y los extremos de las mangueras "
+"del dosificador están situados en el otro extremo del balance químico del "
+"dosificador."
+
+#: ../../AIDE/Specifications_PF.rst:230
+msgid "Chemical dose controller designed for two independent chemical feeds."
+msgstr ""
+"Controlador de dosis química diseñado para dos alimentaciones químicas "
+"independientes."
+
+#: ../../AIDE/Specifications_PF.rst:233
+msgid "Function"
+msgstr "Función"
+
+#: ../../AIDE/Specifications_PF.rst:235
+msgid ""
+"The doser balance is designed so that the operator can select a chemical "
+"dose (mass of chemical per volume of water) by moving the dose slider to a "
+"specific position along the lever. The lever, LFOM, and constant level tank "
+"then work together to adjust the chemical flow in proportion to the plant "
+"flow to maintain a constant chemical dose."
+msgstr ""
+"La balanza del dosificador está diseñada para que el operador pueda "
+"seleccionar una dosis química (masa de producto químico por volumen de agua)"
+" moviendo el control deslizante de dosis a una posición específica a lo "
+"largo de la palanca. La palanca, el LFOM y nivel constante tanque trabajan "
+"juntos para ajustar el flujo químico en proporción al flujo de la planta y "
+"mantener una dosis química constante."
+
+#: ../../AIDE/Specifications_PF.rst:237
+msgid ""
+"When the plant flow is zero, the lever is horizontal and chemical flow is "
+"zero."
+msgstr ""
+"Cuando el flujo de la planta es cero, la palanca es horizontal y el flujo "
+"químico es cero."
+
+#: ../../AIDE/Specifications_PF.rst:239
+msgid ""
+"When plant flow increases, the water level in the entrance tank increases "
+"(due to additional head loss through the LFOM), causing one end of the doser"
+" balance to rise. This, in turn, causes the other end of the balance, and "
+"the dose slider, to fall, increasing the elevation difference between the "
+"chemical level in the constant level tank and the dose slider. The greater "
+"driving head increases the chemical flow through the doser."
+msgstr ""
+"Cuando aumenta el flujo de la planta, el nivel del agua en el tanque de "
+"entrada aumenta (debido a pérdida de carga adicionales a través del LFOM), "
+"haciendo que un extremo del equilibrio del dosificador suba. Esto, a su vez,"
+" hace que el otro extremo del equilibrio, y el control deslizante de dosis, "
+"bajen, aumentando la diferencia de elevación entre el nivel químico en el "
+"tanque de nivel constante y el control deslizante de dosis. La mayor cabeza "
+"de conducción aumenta el flujo químico a través del dosificador."
+
+#: ../../AIDE/Specifications_PF.rst:241
+msgid ""
+"The water level in the entrance tank is directly proportional to the plant "
+"flow rate (due to the LFOM). The dose slider elevation is directly "
+"proportional to the entrance tank water level. The chemical flow is directly"
+" proportional to the dose slider elevation. Therefore, the chemical flow is "
+"directly proportional to the plant flow, and changes in the slider position "
+"directly set the chemical dose."
+msgstr ""
+"La nivel del agua en el tanque de entrada es directamente proporcional al "
+"caudal de la planta (debido al LFOM). La elevación del deslizador de dosis "
+"es directamente proporcional a la tanque de entrada nivel del agua. El flujo"
+" químico es directamente proporcional a la elevación del deslizador de "
+"dosis. Por lo tanto, el flujo químico es directamente proporcional al flujo "
+"de la planta, y los cambios en la posición del deslizador fijan directamente"
+" la dosis química."
+
+#: ../../AIDE/Specifications_PF.rst:245
+msgid "Flocculator"
+msgstr "Floculador"
+
+#: ../../AIDE/Specifications_PF.rst:247
+msgid ""
+"For more detailed information, see :ref:`Flocculation Design "
+"<title_Flocculation_Design>`."
+msgstr ""
+"Para información más detallada, véase :ref:`Flocculation Design "
+"<title_Flocculation_Design>`."
+
+#: ../../AIDE/Specifications_PF.rst:250 ../../AIDE/Specifications_PF.rst:334
+msgid "Design Basis"
+msgstr "Base del diseño"
+
+#: ../../AIDE/Specifications_PF.rst:252
+msgid "The AguaClara flocculator is designed to:"
+msgstr "El floculador AguaClara está diseñado para:"
+
+#: ../../AIDE/Specifications_PF.rst:254
+msgid ""
+"Provide a head loss of 5 cm to provide gentle mixing and a residence time of"
+" approximately 1200 seconds (20 minutes), allowing aggregation of individual"
+" particles and small flocs into flocs large enough to settle out in the "
+"clarifier. This results in a velocity gradient of approximately 15 "
+":math:`\\mathrm{s}^{-1}`."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:256
+msgid "Facilitate manual sludge draining and maintenance by one person."
+msgstr "Facilita el drenaje y mantenimiento manual de lodos por una sola persona."
+
+#: ../../AIDE/Specifications_PF.rst:259
+msgid "Flow Paths"
+msgstr "Trayectos de flujo"
+
+#: ../../AIDE/Specifications_PF.rst:261
+msgid ""
+"The flow passages are designed to be as close to square as possible given "
+"the constraints of the circular geometry and fabrication."
+msgstr ""
+"Los pasajes de flujo están diseñados para estar lo más cerca posible del "
+"cuadrado dadas las limitaciones de la geometría circular y la fabricación."
+
+#: ../../AIDE/Specifications_PF.rst:263
+msgid ""
+"The upstream water depth of the flocculator is determined by the depth "
+"required by the filter and is approximately 115 cm."
+msgstr ""
+"La profundidad del agua aguas arriba del floculador está determinada por la "
+"profundidad requerida por el filtro y es aproximadamente de 115 cm."
+
+#: ../../AIDE/Specifications_PF.rst:265
+msgid ""
+"The spacing between baffles is designed to achieve the target head loss at "
+"the design flow rate."
+msgstr ""
+"El espaciamiento entre deflectores está diseñado para lograr el pérdida de "
+"carga objetivo en el caudal de diseño."
+
+#: ../../AIDE/Specifications_PF.rst:267
+msgid ""
+"The ports between flocculator channels (see "
+":numref:`figure_PFflocChannelPort`) have the same flow area as the space "
+"between the baffles so that each port improves flocculation without breaking"
+" flocs."
+msgstr ""
+"Los puertos entre canales de floculador (véase "
+":numref:`figure_PFflocChannelPort`) tienen la misma área de flujo que el "
+"espacio entre los deflectores, de modo que cada puerto mejora la floculación"
+" sin romper los flocas."
+
+#: ../../AIDE/Specifications_PF.rst:276
+msgid "ports"
+msgstr "Versiones"
+
+#: ../../AIDE/Specifications_PF.rst:276
+msgid ""
+"Flocculator with side walls removed to show the port between channels. Water"
+" flows between flocculator channels through a port that has the same flow "
+"dimensions as the space between baffles."
+msgstr ""
+"Floculador con paredes laterales eliminadas para mostrar el puerto entre "
+"canales. El agua fluye entre canales de floculador a través de un puerto que"
+" tiene las mismas dimensiones de flujo que el espacio entre deflectores."
+
+#: ../../AIDE/Specifications_PF.rst:279
+msgid "Channel Construction"
+msgstr "Construcción del canal"
+
+#: ../../AIDE/Specifications_PF.rst:281
+msgid ""
+"The walls of the flocculation channels are vertical and maintain the channel"
+" width along both the length and height of each flocculator channel."
+msgstr ""
+"Las paredes de los canales de floculación son verticales y mantienen el "
+"ancho del canal tanto a lo largo como a la altura de cada canal floculador."
+
+#: ../../AIDE/Specifications_PF.rst:283
+msgid ""
+"The drain pipe is activated via a valve and is sized to empty the "
+"flocculator in less than 20 minutes."
+msgstr ""
+"La tubería de desagüe se activa mediante una válvula y está dimensionada "
+"para vaciar el floculador en menos de 20 minutos."
+
+#: ../../AIDE/Specifications_PF.rst:285
+msgid ""
+"Operation requires sufficient ambient lighting for the operator to observe "
+"floc formation. Operators need a flashlight to observe floc formation during"
+" power outages."
+msgstr ""
+"El funcionamiento requiere suficiente iluminación ambiental para que el "
+"operador pueda observar formación de flóculos. Los operadores necesitan una "
+"linterna para observar formación de flóculos durante cortes de luz."
+
+#: ../../AIDE/Specifications_PF.rst:288
+msgid "Baffles"
+msgstr "Baffles"
+
+#: ../../AIDE/Specifications_PF.rst:290
+msgid ""
+"The flocculation baffles are removable. One operator working alone can raise"
+" a baffle module (see :numref:`figure_spec_PFbaffleModule`) so that water "
+"flows beneath the baffle and drains from the flocculator channel. Large "
+"flocculator configurations can have baffle modules that require more than "
+"one person for complete removal."
+msgstr ""
+"Los deflectores de floculación son extraíbles. Un operador que trabaje solo "
+"puede elevar un módulo de floculación (véase "
+":numref:`figure_spec_PFbaffleModule`) de modo que el agua fluya por debajo "
+"del deflector y drene desde el canal del floculador. Las configuraciones "
+"grandes de floculadores pueden tener módulos de floculador que requieren más"
+" de una persona para su retirada completa."
+
+#: ../../AIDE/Specifications_PF.rst:292
+msgid ""
+"The flocculation baffles are constructed from stainless steel or "
+"polycarbonate sheets. The baffle-module frames are constructed from PVC and "
+"PEX pipe."
+msgstr ""
+"Los deflectores de floculación están construidos con láminas de acero "
+"inoxidable o policarbonato. Los marcos de los módulos deflectores están "
+"hechos de tubos de PVC y PEX."
+
+#: ../../AIDE/Specifications_PF.rst:302
+msgid "Baffle Module"
+msgstr "Módulo de Deflector"
+
+#: ../../AIDE/Specifications_PF.rst:302
+msgid ""
+"The baffle modules transfer the force of the water to the downstream wall "
+"through the PVC and PEX pipe frame. Each flocculator channel holds one "
+"baffle module."
+msgstr ""
+"Los módulos de deflector transfieren la fuerza del agua a la pared aguas "
+"abajo a través del marco de tubería de PVC y LEX. Cada canal de floculador "
+"contiene un módulo de deflector."
+
+#: ../../AIDE/Specifications_PF.rst:306
+msgid "Clarifier"
+msgstr "Clarificador"
+
+#: ../../AIDE/Specifications_PF.rst:308
+msgid ""
+"For more detailed information, see :ref:`Clarifier Design "
+"<title_Clarifier_Design>`. The clarifier (see "
+":numref:`figure_spec_PFclarifierElevation`) contains three separate "
+"processes: filtration in the floc filter, sedimentation in the plate "
+"settlers, and consolidation in the floc hopper. Flocculated water flows to "
+"the inlet manifold and then through the diffusers, jet reverser, floc "
+"filter, and plate settlers. Clarified water flows into the outlet manifold "
+"and out of the clarifier to the filter."
+msgstr ""
+"Para información más detallada, véase :ref:`Clarifier Design "
+"<title_Clarifier_Design>`. El clarificador (véase "
+":numref:`figure_spec_PFclarifierElevation`) contiene tres procesos "
+"separados: filtración en el filtro de flóculos, sedimentación en los "
+"sedimentadores de placas y consolidación en el tolva de lodos. El agua "
+"floculada fluye hacia el manifold de entrada y luego a través de los "
+"difusores, inversor de chorro, filtro de flóculos y sedimentadores de "
+"placas. agua clarificada fluye hacia el colector de salida y sale del "
+"clarificador hacia el filtro."
+
+#: ../../AIDE/Specifications_PF.rst:310
+msgid ""
+"The clarifier configuration is based on the coldest design water temperature"
+" and the lowest-density primary particles to be captured. Surface waters "
+"with high concentrations of dissolved organic matter and low concentrations "
+"of suspended solids produce low-density flocs; for these source waters, the "
+"design uses a lower velocity gradient in the inlet manifold and jet "
+"reverser. Some source-water conditions require a larger clarifier plan-view "
+"area to reduce the floc filter upflow velocity and plate settler capture "
+"velocity."
+msgstr ""
+"La configuración del clarificador se basa en la temperatura del agua "
+"diseñada más baja y en las partículas primarias de menor densidad a "
+"capturar. Las aguas superficiales con altas concentraciones de materia "
+"orgánica disuelta y bajas concentraciones de sólidos suspendidos producen "
+"flócs de baja densidad; para estas aguas fuente, el diseño utiliza un "
+"gradiente de velocidad menor en el manifold de entrada y el inversor de "
+"chorro. Algunas condiciones de agua fuente requieren un área de vista en "
+"plano de clarificador mayor para reducir la velocidad de ascenso filtro de "
+"flóculos y la velocidad de captura placa sedimentadora ."
+
+#: ../../AIDE/Specifications_PF.rst:319
+msgid "Clarifier elevation view"
+msgstr "Vista de elevación del clarificador"
+
+#: ../../AIDE/Specifications_PF.rst:319
+msgid ""
+"Elevation view of the clarifier with no wall, showing location of the floc "
+"filter, plate settlers, and floc hopper."
+msgstr ""
+"Vista en elevación del clarificador sin pared, mostrando la ubicación del "
+"filtro de flóculos, los sedimentadores de placas y tolva de lodos."
+
+#: ../../AIDE/Specifications_PF.rst:321
+msgid ""
+"The clarifier can be configured with multiple bays (see "
+":numref:`figure_PF_clarifier_internals`) that work in parallel to treat the "
+"design flow."
+msgstr ""
+"El clarificador puede configurarse con múltiples bahías (véase "
+":numref:`figure_PF_clarifier_internals`) que funcionan en paralelo para "
+"tratar el flujo de diseño."
+
+#: ../../AIDE/Specifications_PF.rst:331
+msgid "Clarifier internals, showing two bays"
+msgstr "Interiores del clarificador, mostrando dos bahías"
+
+#: ../../AIDE/Specifications_PF.rst:331
+msgid "Clarifier with two bays."
+msgstr "Clarificador con dos bahías."
+
+#: ../../AIDE/Specifications_PF.rst:336
+msgid "The high-rate, vertical-flow clarifier is designed to:"
+msgstr "El clarificador de alta velocidad y flujo vertical está diseñado para:"
+
+#: ../../AIDE/Specifications_PF.rst:338
+msgid ""
+"To deliver flocs to the clarifier bay without breaking them into pieces with"
+" terminal velocities below the capture velocity of the plate settlers. This "
+"sets the maximum velocity gradient for the transfer of the flocs from the "
+"flocculator to the floc filter in the clarifier bay. The design limits the "
+"maximum velocity gradient to less than 360 :math:`\\mathrm{s}^{-1}`. Lower "
+"design values are used for raw waters with high concentrations of dissolved "
+"organic matter."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:340
+msgid ""
+"To provide a mechanism for the operator to dump poorly flocculated water "
+"before it enters the clarifier. This is important to reduce the recovery "
+"time when there is a flocculation failure."
+msgstr ""
+"Proporcionar un mecanismo para que el operador vacie agua mal floculada "
+"antes de que entre en el clarificador. Esto es importante para reducir el "
+"tiempo de recuperación cuando hay un fallo de floculación."
+
+#: ../../AIDE/Specifications_PF.rst:342
+msgid ""
+"To produce a stable floc filter (fluidized suspension of flocs) that reduces"
+" the clarified water turbidity."
+msgstr ""
+"Para producir una filtro de flóculos estable (suspensión fluidizada de "
+"flocos) que reduzca la turbidez agua clarificada ."
+
+#: ../../AIDE/Specifications_PF.rst:344
+msgid "To provide evenly distributed low-velocity flow through the plate settlers."
+msgstr ""
+"Proporcionar un flujo uniformemente distribuido a baja velocidad a través de"
+" los sedimentadores de placas."
+
+#: ../../AIDE/Specifications_PF.rst:346
+msgid ""
+"To prevent accumulation of sludge that would tend to become anaerobic and "
+"release both dissolved organics (taste and odor issues) and methane bubbles "
+"that would carry flocs to the top of the clarifier."
+msgstr ""
+"Para evitar la acumulación de lodos que tenderían a volverse anaeróbicos y "
+"liberarían tanto orgánicos disueltos (problemas de sabor y olor) como "
+"burbujas de metano que llevarían los flócs a la parte superior del "
+"clarificador."
+
+#: ../../AIDE/Specifications_PF.rst:348
+msgid "To remove the solids without requiring power or moving mechanical parts."
+msgstr ""
+"Para eliminar los sólidos sin necesidad de energía ni piezas mecánicas "
+"móviles."
+
+#: ../../AIDE/Specifications_PF.rst:350
+msgid "To ensure easy operation and maintenance."
+msgstr "Para garantizar una operación y mantenimiento sencillos."
+
+#: ../../AIDE/Specifications_PF.rst:354
+msgid "Inlet Manifold"
+msgstr "manifold de entrada"
+
+#: ../../AIDE/Specifications_PF.rst:356
+msgid ""
+"Flocculated water enters the inlet manifold and then exits through a series "
+"of diffusers in the bottom of the pipe. The end of the inlet manifold is "
+"capped. The minimum diameter of the inlet manifold is set by the velocity "
+"gradient downstream of the 90-degree elbow (see Equation "
+":eq:`D_pipe_min_of_K_and_jet_G_max`)."
+msgstr ""
+"El agua floculada entra en la manifold de entrada y luego sale a través de "
+"una serie de difusores en la parte inferior de la tubería. El extremo del "
+"manifold de entrada está tapado. El diámetro mínimo del manifold de entrada "
+"está determinado por el gradiente de velocidad aguas abajo del codo de 90 "
+"grados (véase la Ecuación :eq:`D_pipe_min_of_K_and_jet_G_max`)."
+
+#: ../../AIDE/Specifications_PF.rst:359
+msgid "Diffusers"
+msgstr "Difusores"
+
+#: ../../AIDE/Specifications_PF.rst:361
+msgid ""
+"The diffusers point down to the bottom of the clarifier bay and extend along"
+" the length of the pipe at regular intervals to ensure that water is evenly "
+"distributed within the bay. Diffusers are designed to ensure that the jet "
+"exiting the jet reverser has a maximum velocity gradient that is less than "
+"the design constraint to prevent excessive floc breakup (see Equation "
+":eq:`planejet_v_max_of_q`)."
+msgstr ""
+"Los difusores apuntan hacia abajo hasta el fondo de la bahía del "
+"clarificador y se extienden a lo largo de la tubería a intervalos regulares "
+"para asegurar que el agua se distribuya uniformemente dentro de la bahía. "
+"Los difusores están diseñados para garantizar que el chorro que sale del "
+"inversor del chorro tenga un gradiente de velocidad máximo menor que la "
+"restricción de diseño para evitar una ruptura excesiva de flóculos (véase la"
+" Ecuación :eq:`planejet_v_max_of_q`)."
+
+#: ../../AIDE/Specifications_PF.rst:363
+msgid ""
+"Diffusers are shaped so that one end is molded to a reduced diameter that "
+"fits into the inlet manifold port, and the other end is deformed to the "
+"shape of a rectangle (:numref:`figure_spec_PF_diffuser_dimensions`). This "
+"deformation is done to create a line jet entering the jet reverser in the "
+"bottom of the clarifier bay and to enhance flow distribution by maximizing "
+"the jet velocity given the constraints of Equation "
+":eq:`planejet_v_max_of_q`."
+msgstr ""
+"Los difusores están moldeados de modo que un extremo se moldea a un diámetro"
+" reducido que encaje en el puerto manifold de entrada , y el otro extremo se"
+" deforme en forma de rectángulo "
+"(:numref:`figure_spec_PF_diffuser_dimensions`). Esta deformación se realiza "
+"para crear un chorro de línea que entra en el inversor del chorro en el "
+"fondo de la bahía del clarificador y para mejorar la distribución del flujo "
+"maximizando la velocidad del chorro dadas las restricciones de la Ecuación "
+":eq:`planejet_v_max_of_q`."
+
+#: ../../AIDE/Specifications_PF.rst:372
+msgid "Diffuser dimension definition"
+msgstr "Definición de dimensión del difusor"
+
+#: ../../AIDE/Specifications_PF.rst:372
+msgid ""
+"Dimensions and geometry of a diffuser. The image on the left shows a view of"
+" a diffuser from the end of a clarifier bay. The image on the right shows a "
+"view of a diffuser from the side of a clarifier bay."
+msgstr ""
+"Dimensiones y geometría de un difusor. La imagen de la izquierda muestra una"
+" vista de un difusor desde el extremo de una bahía clarificadora. La imagen "
+"de la derecha muestra una vista de un difusor desde el lateral de una bahía "
+"clarificadora."
+
+#: ../../AIDE/Specifications_PF.rst:375
+msgid "Jet Reverser"
+msgstr "Inversor de chorro"
+
+#: ../../AIDE/Specifications_PF.rst:377
+msgid ""
+"The jet reverser consists of a longitudinally cut half-pipe that is laid in "
+"the bottom of the bay (see :numref:`figure_spec_PF_clarifierEndView`). It "
+"keeps flocs suspended in the clarifier by ensuring that the force of the "
+"diffuser jet propels settled flocs back upward."
+msgstr ""
+"El inversor de chorro consiste en un medio tubo cortado longitudinalmente "
+"que se coloca en el fondo de la bahía (véase "
+":numref:`figure_spec_PF_clarifierEndView`). Mantiene los flócs suspendidos "
+"en el clarificador asegurando que la fuerza del chorro del difusor impulse "
+"los flócs asentados hacia arriba."
+
+#: ../../AIDE/Specifications_PF.rst:379
+msgid ""
+"The diffusers are offset from the jet reverser centerline. This is "
+"intentionally done to promote the resuspension of flocs, which form a floc "
+"filter for primary filtration."
+msgstr ""
+"Los difusores están desplazados respecto a la línea central del inversor del"
+" chorro. Esto se hace intencionadamente para promover la resuspensión de los"
+" flocos, que forman un filtro de flóculos para la filtración primaria."
+
+#: ../../AIDE/Specifications_PF.rst:388
+msgid "Clarifier showing jet reverser"
+msgstr "Clarificador que muestra inversor de chorro"
+
+#: ../../AIDE/Specifications_PF.rst:388
+msgid ""
+"End view of a clarifier bay showing the sloped bottom, inlet manifold, "
+"diffusers, and jet reverser. The diffusers direct a jet of water into one "
+"side of the jet reverser."
+msgstr ""
+"Vista final de una bahía clarificadora mostrando el fondo inclinado, "
+"manifold de entrada, difusores y inversor de chorro. Los difusores dirigen "
+"un chorro de agua hacia un lado del inversor de chorro."
+
+#: ../../AIDE/Specifications_PF.rst:391
+msgid "Floc Filter"
+msgstr "filtro de flóculos"
+
+#: ../../AIDE/Specifications_PF.rst:393
+msgid ""
+"Floc filters significantly improve the performance of a clarifier and reduce"
+" the clarified water turbidity."
+msgstr ""
+"Los filtros de flóculo mejoran significativamente el rendimiento de un "
+"clarificador y reducen la agua clarificada turbidez."
+
+#: ../../AIDE/Specifications_PF.rst:395
+msgid ""
+"The line jet from the diffusers enters the jet reverser to force flow up "
+"through the clarifier bay. The vertical upward jet momentum is used to "
+"resuspend flocs that have settled to the bottom of the clarifier bay. The "
+"resuspended flocs form a fluidized bed, which is a floc filter. Small "
+"particles are captured by the flocs in the floc filter as the small "
+"particles flow through the flocs. The bed is fluidized because flocs are "
+"kept in suspension by the upflowing water."
+msgstr ""
+"El chorro de línea de los difusores entra en el inversor del chorro para "
+"forzar el flujo hacia arriba a través de la bahía clarificadora. El momento "
+"vertical hacia arriba del chorro se utiliza para resuspender los flócs que "
+"se han depositado en el fondo de la bahía clarificadora. Los flocos "
+"resuspendidos forman un lecho fluidizado, que es un filtro de flóculos. Las "
+"partículas pequeñas son capturadas por los flócs en el filtro de flóculos "
+"mientras las partículas pequeñas fluyen a través de los flocos. El lecho se "
+"fluidiza porque los flócs se mantienen en suspensión por el agua que fluye "
+"hacia arriba."
+
+#: ../../AIDE/Specifications_PF.rst:397
+msgid ""
+"Clarifiers use an upflow velocity of 1 mm/s in the floc filter. This "
+"velocity is measured above the sloped bottom in the section of the clarifier"
+" bay with vertical walls."
+msgstr ""
+"Los clarificadores utilizan una velocidad de flujo ascendente de 1 mm/s en "
+"el filtro de flóculos. Esta velocidad se mide por encima del fondo inclinado"
+" en la sección de la bahía del clarificador con paredes verticales."
+
+#: ../../AIDE/Specifications_PF.rst:399
+msgid "For a floc filter to form, a clarifier requires that:"
+msgstr "Para que se forme un filtro de flóculos , un clarificador requiere que:"
+
+#: ../../AIDE/Specifications_PF.rst:401
+msgid ""
+"The plate settlers capture small flocs and cause them to aggregate into "
+"larger flocs as they avalanche back into the floc filter zone. The increased"
+" terminal velocity of the larger flocs enables them to create a stable floc "
+"filter."
+msgstr ""
+"Los asentadores de placas capturan pequeños flócs y hacen que se agreguen en"
+" flócs más grandes mientras avalanchan de nuevo a la zona filtro de flóculos"
+" . El aumento de la velocidad terminal de los flócs más grandes les permite "
+"crear un filtro de flóculos estable."
+
+#: ../../AIDE/Specifications_PF.rst:403
+msgid ""
+"All settled flocs are resuspended by the vertical jet of water exiting the "
+"jet reverser."
+msgstr ""
+"Todos los flócs sedimentados son resuspendidos por el chorro vertical de "
+"agua que sale del inversor del chorro."
+
+#: ../../AIDE/Specifications_PF.rst:406
+msgid "Sloped Bottom Geometry"
+msgstr "Geometría de fondo inclinado"
+
+#: ../../AIDE/Specifications_PF.rst:408
+msgid ""
+"The clarifier bottom geometry (see "
+":numref:`figure_spec_PF_clarifierEndView`) prevents sludge accumulation "
+"while also ensuring good flow distribution. The slope on either side of the "
+"diffusers is at a 60-degree angle above horizontal. The bottom geometry "
+"allows for smooth flow expansion to the entire plan-view area of the bay and"
+" ensures that all flocs that settle are transported to the jet reverser. The"
+" diffusers do not touch the bottom of the tank so that flocs on both sides "
+"of the diffuser can return to the jet reverser for resuspension. Thus, there"
+" is no accumulation of settled flocs in the main clarifier bays."
+msgstr ""
+"La geometría del fondo del clarificador (véase "
+":numref:`figure_spec_PF_clarifierEndView`) previene la acumulación de lodos "
+"y también asegura una buena distribución del flujo. La pendiente a ambos "
+"lados de los difusores está en un ángulo de 60 grados sobre la horizontal. "
+"La geometría inferior permite una expansión suave del flujo en toda la zona "
+"de vista en planta de la bahía y asegura que todos los flócs que se asientan"
+" se transporten al inversor de chorro. Los difusores no tocan el fondo del "
+"tanque, por lo que los flócs a ambos lados del difusor pueden regresar al "
+"inversor de chorro para su resuspensión. Por tanto, no hay acumulación de "
+"flócs asentados en las bahías principales de clarificadores."
+
+#: ../../AIDE/Specifications_PF.rst:411 ../../AIDE/Specifications_PF.rst:424
+msgid "Floc Hopper"
+msgstr "tolva de lodos"
+
+#: ../../AIDE/Specifications_PF.rst:413
+msgid ""
+"The floc hopper (:numref:`figure_spec_PFflocHopper`) provides an opportunity"
+" for floc consolidation. The floc weir controls the depth of the floc filter"
+" because as the floc filter grows, it will eventually reach the top of the "
+"floc weir. Because flocs are denser than water, the flocs “spill” over the "
+"edge of the floc weir, which allows the floc filter to stay at a constant "
+"height while sludge accumulates and consolidates in the floc hopper. "
+"Operators can use a flashlight to observe the floc filter moving into the "
+"lower end of the plate settlers, indicating that the floc hopper is full. "
+"The sludge is drained from the floc hopper by opening a valve or by lowering"
+" the end of a flexible tube. The operator can observe that the sludge has "
+"completely drained from the floc hopper by the clarity of the water exiting "
+"from the floc hopper drain."
+msgstr ""
+"El tolva de lodos (:numref:`figure_spec_PFflocHopper`) ofrece una "
+"oportunidad para la consolidación de flócs. El vertedero de flócs controla "
+"la profundidad del filtro de flóculos porque, a medida que el filtro de "
+"flóculos crece, eventualmente llegará a la parte superior del azud de "
+"flocas. Como los flócs son más densos que el agua, estos \"se desbordan\" "
+"por el borde del azud de flocas, lo que permite que el filtro de flóculos "
+"permanezca a una altura constante mientras el lodo se acumula y consolida en"
+" el tolva de lodos. Los operadores pueden usar una linterna para observar el"
+" filtro de flóculos moviéndose hacia el extremo inferior de los "
+"sedimentadores de placas, indicando que el tolva de lodos está lleno. El "
+"lodo se drena del tolva de lodos abriendo una válvula o bajando el extremo "
+"de un tubo flexible. El operador puede observar que el lodo se ha drenado "
+"completamente del tolva de lodos por la claridad del agua que sale del "
+"desagüe tolva de lodos ."
+
+#: ../../AIDE/Specifications_PF.rst:415
+msgid ""
+"The floc hopper allows for a self-cleaning clarifier. Operators only have to"
+" clean the clarifier once every three to six months because there is no "
+"stagnant accumulation of anoxic sludge."
+msgstr ""
+"El tolva de lodos permite un clarificador autolimpiante. Los operadores solo"
+" tienen que limpiar el clarificador una vez cada tres a seis meses porque no"
+" hay acumulación estancada de lodos anóxicos."
+
+#: ../../AIDE/Specifications_PF.rst:424
+msgid ""
+"Flocs enter the hopper by flowing over the floc weir. Sludge is drained from"
+" the bottom of the hopper."
+msgstr ""
+"Los flocos entran en la tolva fluyendo sobre la presa de flocas. El lodo se "
+"drena desde el fondo de la tolva."
+
+#: ../../AIDE/Specifications_PF.rst:427
+msgid "Plate Settlers"
+msgstr "Colonos de Placas"
+
+#: ../../AIDE/Specifications_PF.rst:429
+msgid ""
+"After flowing through the floc filter, flocs reach the plate settlers. Plate"
+" settlers are sloped surfaces that provide additional settling area for "
+"flocs, thereby increasing the effective settling area of the clarifier "
+"without increasing the plan view area. AguaClara plate settlers are sloped "
+"at 50 degrees. The spacing between plates is 1.5 cm."
+msgstr ""
+"Tras fluir a través del filtro de flóculos, los flócs llegan a los "
+"asentadores de placas. Los sedimentadores de placas son superficies "
+"inclinadas que proporcionan un área adicional de asentamiento para los "
+"floques, aumentando así el área efectiva de asentamiento del clarificador "
+"sin aumentar el área de vista en planta. Los sedimentadores de placas de "
+"AguaClara tienen una pendiente de 50 grados. El espacio entre placas es de "
+"1,5 cm."
+
+#: ../../AIDE/Specifications_PF.rst:431
+msgid ""
+"The plate settlers are made from clear polycarbonate sheets or stainless "
+"steel. The sheets are assembled in modules (see "
+":numref:`figure_spec_PFplateSettlerModule`). The modules are light enough to"
+" be removed from the clarifier by hand. A PVC pipe frame attached to the "
+"clarifier walls supports the plate settler modules."
+msgstr ""
+"Los asentadores de placas están hechos de láminas de policarbonato "
+"transparente o acero inoxidable. Las láminas se ensamblan en módulos (véase "
+":numref:`figure_spec_PFplateSettlerModule`). Los módulos son lo "
+"suficientemente ligeros como para retirarse manualmente del clarificador. Un"
+" marco de tubería de PVC fijado a las paredes del clarificador sostiene los "
+"módulos placa sedimentadora ."
+
+#: ../../AIDE/Specifications_PF.rst:440
+msgid "Plate settler module"
+msgstr "placa sedimentadora módulo"
+
+#: ../../AIDE/Specifications_PF.rst:440
+msgid "Plate settler module assembled from sheets and piping."
+msgstr "placa sedimentadora módulo ensamblado con láminas y tuberías."
+
+#: ../../AIDE/Specifications_PF.rst:445
+msgid "Plate Settler Design Parameters"
+msgstr "placa sedimentadora Parámetros de diseño"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Determined by"
+msgstr "Determinado por"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Determines"
+msgstr "Determina"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Value"
+msgstr "Valor"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Upflow velocity"
+msgstr "Velocidad de flujo ascendente"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Floc filter"
+msgstr "filtro de flóculos"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Plan view area of tank"
+msgstr "Área de vista en planta del tanque"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "1 mm/s maximum value"
+msgstr "Valor máximo de 1 mm/s"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Capture velocity"
+msgstr "Velocidad de captura"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Target turbidity"
+msgstr "Turbidez del objetivo"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Particle size distribution"
+msgstr "Distribución del tamaño de las partículas"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "0.12 mm/s maximum value"
+msgstr "Valor máximo de 0,12 mm/s"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Plate angle"
+msgstr "Ángulo de la placa"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Self-cleaning requirement"
+msgstr "Requisito de autolimpieza"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Plate settler length"
+msgstr "placa sedimentadora longitud"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "50 degrees"
+msgstr "50 grados"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Plate spacing"
+msgstr "Espaciado de placas"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Clogging and floc rollup constraints"
+msgstr "Restricciones de obstrucción y rollup de floc"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "1.5 cm"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Upflow velocity, Capture velocity, Plate angle, Plate spacing"
+msgstr ""
+"Velocidad de subida, velocidad de captura, ángulo de placa, espaciado de "
+"placas"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "Water depth"
+msgstr "Profundidad del agua"
+
+#: ../../AIDE/Specifications_PF.rst:1
+msgid "approximately 110 cm"
+msgstr "aproximadamente 110 cm"
+
+#: ../../AIDE/Specifications_PF.rst:457
+msgid "Submerged Outlet Manifold"
+msgstr "Colector de salida sumergido"
+
+#: ../../AIDE/Specifications_PF.rst:459
+msgid ""
+"The submerged outlet manifold, sometimes called a launder, collects "
+"clarified water from the top of the clarifier. It is a horizontal pipe that "
+"extends along the length of the clarifier bay and is located above the plate"
+" settlers but below the surface of the water. The submerged pipe has "
+"orifices drilled into its top; water enters the pipe through the orifices "
+"and the pipe leads out of the clarifier bay."
+msgstr ""
+"El colector de salida sumergido, a veces llamado lavandería, recoge agua "
+"clarificada de la parte superior del clarificador. Es un tubo horizontal que"
+" se extiende a lo largo de la bahía del clarificador y está situado por "
+"encima de los sedimentadores de placas pero por debajo de la superficie del "
+"agua. El tubo sumergido tiene orificios perforados en su parte superior; el "
+"agua entra en el tubo a través de los orificios y el tubo sale desde la "
+"bahía del clarificador."
+
+#: ../../AIDE/Specifications_PF.rst:461
+msgid ""
+"The outlet manifold is designed to generate 1 cm of head loss to ensure "
+"uniform flow distribution between clarifier bays and to have the majority of"
+" the head loss through the orifices to obtain uniform flow distribution "
+"between the orifices. The outlet manifold leads into the outlet pipe that "
+"takes water from the clarifier to the filter."
+msgstr ""
+"El colector de salida está diseñado para generar 1 cm de pérdida de carga "
+"para asegurar una distribución uniforme del flujo entre las bahías del "
+"clarificador y para que la mayor parte del pérdida de carga pase por los "
+"orificios y así obtener una distribución uniforme del flujo entre los "
+"orificios. El colector de salida conduce a la tubería de salida que lleva el"
+" agua del clarificador al filtro."
+
+#: ../../AIDE/Specifications_PF.rst:464
+msgid "Shallow Open Stacked Rapid Sand Filter"
+msgstr "Rápido apilado y abierto poco profundo filtro de arena"
+
+#: ../../AIDE/Specifications_PF.rst:466
+msgid ""
+"For more detailed information, see :ref:`Filtration Design "
+"<title_Filtration_Design>`. Stacked Rapid Sand (StaRS) filters were invented"
+" in 2010 by the AguaClara Cornell program in response to the need for a new "
+"technology that would both eliminate the need for backwash pumps and not "
+"require the construction of six filters for small towns. As shown in "
+":numref:`figure_spec_PF_ShOStaRSfilterMode`, this filter is divided into "
+"four independent cells, each with two inlets, one outlet, and two 20 cm "
+"layers of sand. Clarified water enters the filter bed, passes through the "
+"sand, and is collected by a central slotted pipe. Accumulated sediment "
+"increases head loss over time, so operation requires regular filter "
+"backwashing."
+msgstr ""
+"Para información más detallada, véase :ref:`Filtration Design "
+"<title_Filtration_Design>`. Los filtros de arena rápida apilada (StaRS) "
+"fueron inventados en 2010 por el programa AguaClara Cornell en respuesta a "
+"la necesidad de una nueva tecnología que eliminara la necesidad de bombas de"
+" retrolavado y que no requiriera la construcción de seis filtros para "
+"pequeñas ciudades. Como se muestra en "
+":numref:`figure_spec_PF_ShOStaRSfilterMode`, este filtro se divide en cuatro"
+" celdas independientes, cada una con dos entradas, una salida y dos capas de"
+" arena de 20 cm. agua clarificada entra en la lecho filtrante, atraviesa la "
+"arena y es recogido por una tubería central ranurada. El sedimento acumulado"
+" aumenta pérdida de carga con el tiempo, por lo que la operación requiere un"
+" retrolavado regular del filtro."
+
+#: ../../AIDE/Specifications_PF.rst:475
+msgid "ShOStaRS filter overview"
+msgstr "Resumen del filtro ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:475
+msgid ""
+"The open stacked rapid sand filters include advanced hydraulic controls to "
+"ensure stable operation during both filtration and backwash modes."
+msgstr ""
+"Los filtros rápidos de arena apilados abiertos incluyen controles "
+"hidráulicos avanzados para asegurar un funcionamiento estable tanto en modo "
+"de filtración como de retrolavado."
+
+#: ../../AIDE/Specifications_PF.rst:478
+msgid "Operation"
+msgstr "Funcionamiento"
+
+#: ../../AIDE/Specifications_PF.rst:480
+msgid ""
+"The filter operates at the same design flow rate in both filtration mode "
+"(see :numref:`figure_spec_PF_ShOStaRSfilterMode`) and backwash mode (see "
+":numref:`figure_spec_PF_ShOStaRSbackwashMode`) and uses clarified water for "
+"backwash. This eliminates the need for backwash pumps and ensures that the "
+"filters can be backwashed as long as clarified water is available."
+msgstr ""
+"El filtro funciona con el mismo caudal de diseño tanto en modo de filtración"
+" (véase :numref:`figure_spec_PF_ShOStaRSfilterMode`) como en modo de "
+"contralavado (véase :numref:`figure_spec_PF_ShOStaRSbackwashMode`) y utiliza"
+" agua clarificada para el contralavado. Esto elimina la necesidad de bombas "
+"de contralavado y garantiza que los filtros puedan ser contralavados siempre"
+" que haya agua clarificada disponible."
+
+#: ../../AIDE/Specifications_PF.rst:489
+msgid "ShOStaRS filtration mode"
+msgstr "Modo de filtración ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:489
+msgid ""
+"In filtration mode, the flow divides equally between the eight inlets and "
+"the four compartments. The eight sand layers operate in parallel during "
+"filtration."
+msgstr ""
+"En modo filtración, el flujo se divide por igual entre las ocho entradas y "
+"los cuatro compartimentos. Las ocho capas de arena operan en paralelo "
+"durante la filtración."
+
+#: ../../AIDE/Specifications_PF.rst:499
+msgid "ShOStaRS backwash mode"
+msgstr "Modo de retrolavado ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:499
+msgid ""
+"In backwash mode, one pipe stub is removed at a time to backwash each of the"
+" four compartments. The water then exits through the backwash drain pipe."
+msgstr ""
+"En modo de contralavado, se retira un trozo de tubería a la vez para hacer "
+"un lavado de cada uno de los cuatro compartimentos. El agua sale entonces "
+"por la tubería de desagüe de contralavado."
+
+#: ../../AIDE/Specifications_PF.rst:503
+msgid "Design Features"
+msgstr "Características de diseño"
+
+#: ../../AIDE/Specifications_PF.rst:505
+msgid ""
+"Stacked Rapid Sand (StaRS) filters were developed to eliminate the need for "
+"backwash pumps and minimize the plan area required."
+msgstr ""
+"Se desarrollaron filtros de arena rápida apilada (StaRS) para eliminar la "
+"necesidad de bombas de retrolavado y minimizar el área de planta requerida."
+
+#: ../../AIDE/Specifications_PF.rst:507
+msgid ""
+"The filters are designed to facilitate emptying the sand, removing and "
+"cleaning the modules, replacing the modules, and replacing the sand."
+msgstr ""
+"Los filtros están diseñados para facilitar el vaciado de la arena, la "
+"retirada y limpieza de los módulos, la sustitución de los módulos y la "
+"sustitución de la arena."
+
+#: ../../AIDE/Specifications_PF.rst:509
+msgid ""
+"During backwash, the hydraulic controls isolate all outlets and all inlets "
+"except the bottommost inlet. All flow enters through the bottom inlet and "
+"exits through the backwash drain pipe."
+msgstr ""
+"Durante el contralavado, los controles hidráulicos aíslan todas las salidas "
+"y todas las entradas excepto la entrada más baja. Todo el flujo entra por la"
+" entrada inferior y sale por la tubería de desagüe de contralavado."
+
+#: ../../AIDE/Specifications_PF.rst:512
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/Specifications_PF.rst:514
+msgid "Shallow Open StaRS (ShOStaRS) with four filter compartments."
+msgstr ""
+"StaRS abiertos y poco profundos (ShOStaRS) con cuatro compartimentos de "
+"filtro."
+
+#: ../../AIDE/Specifications_PF.rst:517
+msgid "Sand Specification"
+msgstr "Especificación de arena"
+
+#: ../../AIDE/Specifications_PF.rst:519
+msgid ""
+"ShOStaRS filters use two 20-cm-deep layers of silica sand (no dual media "
+"required), with the layers stacked vertically. The two layers give an active"
+" sand depth of 40 cm. The grain size is 0.45 to 0.55 mm."
+msgstr ""
+"Los filtros ShOStaRS utilizan dos capas de arena de sílice de 20 cm de "
+"profundidad (sin necesidad de medios duales), con las capas apiladas "
+"verticalmente. Las dos capas proporcionan una profundidad activa de arena de"
+" 40 cm. El tamaño del grano es de 0,45 a 0,55 mm."
+
+#: ../../AIDE/Specifications_PF.rst:522
+msgid "Filter Modules"
+msgstr "Módulos de filtro"
+
+#: ../../AIDE/Specifications_PF.rst:524
+msgid ""
+"The sand layers are contiguous, and the only distinction between layers is "
+"the direction of flow during filtration. Each layer of sand sits between an "
+"inlet and outlet of the filter. The branch pipes are supported between the "
+"filter walls, with one end of the branch inserted into a pipe socket "
+"embedded in the wall and the other end supported by a pipe bracket. The "
+"inlet at the top of the filter does not require a branch pipe because the "
+"water enters the filter above the sand through the port."
+msgstr ""
+"Las capas de arena son continuas, y la única diferencia entre capas es la "
+"dirección del flujo durante la filtración. Cada capa de arena se sitúa entre"
+" una entrada y una salida del filtro. Las tuberías de ramificación están "
+"soportadas entre las paredes del filtro, con un extremo de la rama insertado"
+" en un casquillo de tubería incrustado en la pared y el otro extremo "
+"soportado por un soporte para tubería. La entrada en la parte superior del "
+"filtro no requiere una tubería de ramificación porque el agua entra en el "
+"filtro por encima de la arena a través del puerto."
+
+#: ../../AIDE/Specifications_PF.rst:527
+msgid "Inlet Filter Branches"
+msgstr "Ramas del filtro de entrada"
+
+#: ../../AIDE/Specifications_PF.rst:529
+msgid ""
+"Small holes (orifices) are drilled into the inlet branches (see "
+":numref:`figure_spec_ShOStaRSinletManifold`). The orifice diameter is "
+"selected for constructability and to minimize the risk of clogging. The "
+"diameter is between 4 and 10 mm."
+msgstr ""
+"Se perforan pequeños orificios en las ramas de entrada (véase "
+":numref:`figure_spec_ShOStaRSinletManifold`). Se selecciona el diámetro del "
+"orificio para facilitar la construcción y minimizar el riesgo de "
+"obstrucción. El diámetro está entre 4 y 10 mm."
+
+#: ../../AIDE/Specifications_PF.rst:531
+msgid ""
+"During filtration mode, water flows out of the inlet branches through small "
+"holes, into the space created by the wing, and then into the sand."
+msgstr ""
+"Durante el modo de filtración, el agua fluye por las ramas de entrada a "
+"través de pequeños agujeros, hacia el espacio creado por el ala y luego "
+"hacia la arena."
+
+#: ../../AIDE/Specifications_PF.rst:533
+msgid ""
+"During the transition from backwash mode to filtration mode, a small volume "
+"of water may flow back into the inlet branches. The “wings,” PVC pipes cut "
+"longitudinally, are affixed to the inlet branches to prevent sand from "
+"flowing into the inlet pipe."
+msgstr ""
+"Durante la transición del modo de retrolavado al modo de filtración, un "
+"pequeño volumen de agua puede fluir de nuevo hacia las ramas de entrada. Las"
+" \"alas\", tuberías de PVC cortadas longitudinalmente, se fijan a las ramas "
+"de entrada para evitar que la arena fluya hacia el tubería de entrada."
+
+#: ../../AIDE/Specifications_PF.rst:535
+msgid "Outlet Filter Branches"
+msgstr "Ramas de filtro de salida"
+
+#: ../../AIDE/Specifications_PF.rst:537
+msgid ""
+"The 0.2 mm slots in the outlet branches (see "
+":numref:`figure_spec_ShOStaRSoutletManifold`) prevent sand from passing "
+"through. The filter modules are supported to limit deflection of each module"
+" pipe to 2 mm or less, preventing significant opening or closing of the "
+"slots."
+msgstr ""
+"Las ranuras de 0,2 mm en las ramas de salida (véase "
+":numref:`figure_spec_ShOStaRSoutletManifold`) impiden que la arena pase. Los"
+" módulos de filtro están soportados para limitar la deflexión de cada "
+"tubería a 2 mm o menos, evitando una apertura o cierre significativo de las "
+"ranuras."
+
+#: ../../AIDE/Specifications_PF.rst:539
+msgid ""
+"During filtration mode, water flows from the filter media into the slots and"
+" through the pipe to the filter exit box."
+msgstr ""
+"Durante el modo de filtración, el agua fluye desde la medio filtrante hacia "
+"las ranuras y a través de la tubería hasta la caja de salida del filtro."
+
+#: ../../AIDE/Specifications_PF.rst:541
+msgid "During backwash mode, the outlet branches are blocked."
+msgstr "Durante el modo de retrolavado, las ramas de salida quedan bloqueadas."
+
+#: ../../AIDE/Specifications_PF.rst:550
+msgid "ShOStaRS internal piping"
+msgstr "Tubería interna de ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:550
+msgid ""
+"The four filter cells are arranged side by side in the filter box. Each "
+"filter cell contains an inlet and outlet branch."
+msgstr ""
+"Las cuatro celdas filtrantes están dispuestas una al lado de la otra en la "
+"caja del filtro. Cada celda del filtro contiene una rama de entrada y una de"
+" salida."
+
+#: ../../AIDE/Specifications_PF.rst:559
+msgid "ShOStaRS inlet branch"
+msgstr "Rama de entrada de ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:559
+msgid ""
+"The inlet branches use orifices to obtain uniform flow distribution and a "
+"wing system to prevent sand from entering the branches during backwash and "
+"filter-mode transitions."
+msgstr ""
+"Las ramas de entrada utilizan orificios para obtener una distribución "
+"uniforme del flujo y un sistema alar para evitar que la arena entre en las "
+"ramas durante las transiciones de retrolavado y de modo filtrado."
+
+#: ../../AIDE/Specifications_PF.rst:568
+msgid "ShOStaRS outlet branch"
+msgstr "Sucursal de salida de ShOStaRS"
+
+#: ../../AIDE/Specifications_PF.rst:568
+msgid "The outlet branches use 0.2 mm slots to keep the sand in the filter bed."
+msgstr ""
+"Las ramas de salida usan ranuras de 0,2 mm para mantener la arena en el "
+"lecho filtrante."
+
+#: ../../AIDE/Specifications_PF.rst:572
+msgid "Backwash Drain"
+msgstr "Desagüe de retrolavado"
+
+#: ../../AIDE/Specifications_PF.rst:574
+msgid ""
+"The backwash drain pipe is designed to quickly lower the water level in the "
+"filter box to initiate backwash and to remove the dirty backwash water. The "
+"backwash drain pipe is connected to the filter box with a pipe stub that can"
+" be removed to allow the water to flow out of the filter box. The backwash "
+"drain pipe is designed to keep the water level in the filter box less than 5"
+" cm above the top of the drain pipe entrance."
+msgstr ""
+"La tubería de desagüe de retrolavado está diseñada para bajar rápidamente la"
+" nivel del agua en la caja del filtro, iniciar el contralavado y eliminar el"
+" agua sucia de contralavado. La tubería de desagüe de retrolavado está "
+"conectada a la caja del filtro mediante un tubaje que puede retirarse para "
+"permitir que el agua fluya fuera de la caja del filtro. La tubería de "
+"desagüe de retrolavado está diseñada para mantener la nivel del agua dentro "
+"de la caja del filtro a menos de 5 cm por encima de la parte superior de la "
+"entrada de la tubería de desagüe."
+
+#: ../../AIDE/Specifications_PF.rst:577
+msgid "Sand Removal"
+msgstr "Eliminación de arena"
+
+#: ../../AIDE/Specifications_PF.rst:579
+msgid ""
+"Sand can be removed from the filter using a custom-made shovel that is "
+"narrow enough to fit between the cell divider and the branches. Activating "
+"backwash in the filter cell will fluidize the sand and allow it to be "
+"removed with the shovel."
+msgstr ""
+"La arena puede retirarse del filtro usando una pala hecha a medida, lo "
+"suficientemente estrecha para caber entre el divisor celular y las ramas. "
+"Activar el retrolavado en la celda del filtro fluidificará la arena y "
+"permitirá que se retire con la pala."
+
+#: ../../AIDE/Specifications_PF.rst:582
+msgid "Backwash Recycle"
+msgstr "Reciclaje de retrolavado"
+
+#: ../../AIDE/Specifications_PF.rst:584
+msgid ""
+"Backwash recycle is recommended for all communities where low flow "
+"conditions are likely to require water rationing. The backwash water storage"
+" tank is designed to hold the flow from one backwash event. A centrifugal "
+"pump can then be used to meter the water back to the entrance tank at a flow"
+" rate that empties the backwash water storage tank before the next filter "
+"needs to be backwashed."
+msgstr ""
+"Se recomienda el reciclaje de contralavado para todas las comunidades donde "
+"las condiciones de bajo caudal probablemente requieran racionamiento de "
+"agua. El depósito de almacenamiento de agua de retrolavado está diseñado "
+"para retener el flujo de un evento de contralavado. A continuación, se puede"
+" utilizar una bomba centrífuga para medir el agua de vuelta al tanque de "
+"entrada en un caudal que vacía el depósito de almacenamiento de agua de "
+"contralavado antes de que el siguiente filtro necesite ser contralavado."
+
+#: ../../AIDE/Specifications_PF.rst:586
+msgid ""
+"In the event of a power failure, the backwash recycle system instead uses "
+"backwash to waste to dispose of the spent backwash water."
+msgstr ""
+"En caso de corte de electricidad, el sistema de reciclaje de retrolavado "
+"utiliza en su lugar el retrolavado a residuos para eliminar el agua de "
+"reflujo gastada."
+
+#: ../../AIDE/Specifications_PF.rst:589
+msgid "Disinfection"
+msgstr "Desinfección"
+
+#: ../../AIDE/Specifications_PF.rst:591
+msgid ""
+"Sodium or calcium hypochlorite is metered into the filtered water as it "
+"exits the filter box and enters the pipe that carries the water to a "
+"chlorine contact tank or directly to the community distribution tank. The "
+"chlorine is added after the previous treatment processes to reduce the "
+"production of disinfection byproducts and to enable biofiltration. The "
+"chlorine concentration is set by adjusting the position of the slider on the"
+" doser (see :numref:`figure_spec_PF_doser`)."
+msgstr ""
+"El hipoclorito de sodio o calcio se mide en el agua filtrada al salir de la "
+"caja del filtro y entrar en la tubería que lleva el agua a un tanque de "
+"contacto con cloro o directamente al tanque de distribución comunitaria. El "
+"cloro se añade tras los procesos de tratamiento previos para reducir la "
+"producción de subproductos de desinfección y permitir la biofiltración. La "
+"concentración de cloro se establece ajustando la posición del deslizador en "
+"el dosificador (véase :numref:`figure_spec_PF_doser`)."
+

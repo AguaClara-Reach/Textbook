@@ -1,0 +1,2630 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:12
+msgid "Flocs, Fractals, Forces"
+msgstr "Flocs, fractales, fuerzas"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:14
+msgid ""
+"The physics of flocs, fractals, fluids, and forces define the processes of "
+"flocculation, floc filters, lamellar sedimentation, and filters. The "
+"chemical bonds that hold flocs together determine the maximum diameter that "
+"a floc can grow to in the fluid shear of a flocculator. The force of gravity"
+" is strong enough to break flocs and determines the maximum size that a floc"
+" can grow to on planet earth or, for that matter, in the floc filter that "
+"forms in the bottom of the AguaClara clarifiers. The maximum diameter that a"
+" floc can grow to without being pulled apart by gravity sets a maximum "
+"terminal velocity for flocs and that has direct implications for the maximum"
+" upflow velocity than can be used in upflow clarifiers."
+msgstr ""
+"La física de los flócs, fractales, fluidos y fuerzas define los procesos de "
+"floculación, filtros floc, sedimentación lamelar y filtros. Los enlaces "
+"químicos que mantienen unidos los flócs determinan el diámetro máximo al que"
+" puede crecer un flóc en el cizallamiento de fluido de un floculador. La "
+"fuerza de gravedad es lo suficientemente fuerte para romper los flócs y "
+"determina el tamaño máximo al que puede crecer un flóc en el planeta Tierra "
+"o, por ejemplo, en el filtro de flóculos que se forma en la parte inferior "
+"de los clarificadores de AguaClara. El diámetro máximo al que puede crecer "
+"un flóc sin ser separado por la gravedad establece una velocidad terminal "
+"máxima para los flócs, lo que tiene implicaciones directas para la velocidad"
+" máxima de flujo ascendente que puede usarse en los clarificadores de flujos"
+" ascendentes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:16
+msgid ""
+"The three forces of chemical bonds, gravity, and shear can be grouped into "
+"two dimensionless parameters that will define the relationships between floc"
+" size, floc density, and these forces."
+msgstr ""
+"Las tres fuerzas de enlaces químicos, gravedad y cizalladura pueden "
+"agruparse en dos parámetros adimensionales que definirán las relaciones "
+"entre el tamaño del flóc, la densidad del flóc y estas fuerzas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:19
+msgid "Characteristic Core Particle"
+msgstr "Partícula característica del núcleo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:21
+msgid ""
+"The concept of a characteristic core particle that sets the floc properties "
+"as it moves through the process of the flocculation, floc filter, settlers, "
+"and filter arose with two AguaClara plants in Honduras that ran into "
+"difficulties treating water from pristine high elevation mountain water "
+"sources. In both cases the water was very low turbidity and was yellow from "
+"dissolved organics. The exact source of the color was not identified, but it"
+" was likely the decaying leaf litter from the forests."
+msgstr ""
+"El concepto de una partícula central característica que determina las "
+"propiedades del flóculo a medida que avanza durante el proceso de "
+"floculación, filtro de flóculos, colonos y filtrado surgió con dos plantas "
+"de AguaClara en Honduras que tuvieron dificultades para tratar agua de "
+"fuentes de montaña prístinas y de gran altitud. En ambos casos, el agua "
+"tenía muy baja turbidez y era amarilla por parte de orgánicos disueltos. No "
+"se identificó la fuente exacta del color, pero probablemente fue la "
+"hojarasca en descomposición de los bosques."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:23
+msgid ""
+"The high concentration of dissolved organics in the raw water requires a "
+"significant dosage of coagulant and there is very little clay present. The "
+"result is a very low density floc made of organic matter that is close to "
+"the density of water and perhaps even less dense than water and coagulant "
+"nanoparticles. These low density flocs are not captured efficiently by the "
+"plate settlers. The challenge of treating these two water sources led to the"
+" insight that we could characterize the properties of a floc if we "
+"understood the characteristic density and size of the core particle that "
+"aggregates to form the flocs."
+msgstr ""
+"La alta concentración de compuestos orgánicos disueltos en el agua cruda "
+"requiere una dosis significativa de coagulante y hay muy poca arcilla "
+"presente. El resultado es un flóculo de muy baja densidad compuesto por "
+"materia orgánica, cercano a la densidad del agua y quizás incluso menos "
+"denso que el agua y las nanopartículas coagulantes. Estos flócs de baja "
+"densidad no son capturados eficientemente por los sedimentadores de placas. "
+"El desafío de tratar estas dos fuentes de agua llevó a la idea de que "
+"podríamos caracterizar las propiedades de un flóc si entendiéramos la "
+"densidad característica y el tamaño de la partícula central que se agrega "
+"para formar los flócs."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:25
+msgid ""
+"The algorithm to define the characteristic density and diameter of the core "
+"particle is still under development. Nonetheless, the density and diameter "
+"of the characteristic core particle that aggregates to form the flocs are "
+"the key parameters that determine the performance of each stage of the "
+"treatment process."
+msgstr ""
+"El algoritmo para definir la densidad característica y el diámetro de la "
+"partícula central aún está en desarrollo. No obstante, la densidad y el "
+"diámetro de la partícula central característica que se agrega para formar "
+"los flócs son los parámetros clave que determinan el rendimiento de cada "
+"etapa del proceso de tratamiento."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:29
+msgid "Fractal Flocs"
+msgstr "Flocs fractales"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:31
+msgid ""
+"Flocs are fractals. Fractals describe structures in which similar patterns "
+"occur over a range of scales. During flocculation flocs grow larger and "
+"larger by combining similar sized flocs. Flocs do not combine like "
+"raindrops! As raindrops combine they conserve both volume and mass.  With "
+"each subsequent collision the floc incorporates more water and thus its "
+"density gradually approaches the density of water. The inclusion of more and"
+" more water as the floc grows means that the floc mass is NOT conserved as "
+"it grows. Likewise, the volume of the floc is not conserved as it grows."
+msgstr ""
+"Los flócs son fractales. Los fractales describen estructuras en las que se "
+"producen patrones similares en una variedad de escalas. Durante la "
+"floculación, los flóclos crecen cada vez más al combinar flócs de tamaño "
+"similar. ¡Los flócles no se combinan como las gotas de lluvia! A medida que "
+"las gotas de lluvia se combinan, conservan tanto el volumen como la masa. "
+"Con cada colisión posterior, el flóc incorpora más agua y, por tanto, su "
+"densidad se acerca gradualmente a la densidad del agua. La inclusión de más "
+"y más agua a medida que el flóculo crece significa que la masa del flóculo "
+"NO se conserva a medida que crece. Del mismo modo, el volumen del flóculo no"
+" se conserva a medida que crece."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:33
+msgid ""
+"When :math:`n_{raindrops}` of equal volume :math:`\\forall_0` combine the "
+"resulting volume is :math:`\\forall = \\forall_0 n_{raindrops}`. When flocs "
+"combine the equation is slightly more complicated."
+msgstr ""
+"Cuando :math:`n_{raindrops}` de igual volumen :math:`\\forall_0` combinan, "
+"el volumen resultante es :math:`\\forall = \\forall_0 n_{raindrops}`. Cuando"
+" los flocs se combinan, la ecuación es ligeramente más complicada."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:35
+msgid "\\forall_{floc} = \\forall_{cp} n_{cp}^\\frac{3}{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:40
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:59
+msgid "Where"
+msgstr "Donde"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:41
+msgid ":math:`\\forall_{floc}` is the floc volume"
+msgstr ":math:`\\forall_{floc}` es el volumen de flóculo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:42
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:61
+msgid ":math:`n_{cp}` is the number of core particles in the floc"
+msgstr ":math:`n_{cp}` es el número de partículas núcleo en el floc"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:43
+msgid ":math:`\\forall_{cp}` is the core particle volume"
+msgstr ":math:`\\forall_{cp}` es el volumen de partículas central"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:44
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:63
+msgid ":math:`\\Pi_{fractal}` is the floc volume-based fractal dimension"
+msgstr ":math:`\\Pi_{fractal}` es la dimensión fractal basada en volumen de floc"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:46
+msgid ""
+"Raindrops conserve volume when they collide and have a "
+":math:`\\Pi_{fractal}` of 3. If a particle would conserve its projected area"
+" when it combines, then it would have a :math:`\\Pi_{fractal}` of 2. If a "
+"particle would conserve its diameter when it combines, then it would have a "
+":math:`\\Pi_{fractal}` of 1. A fractal dimension of 1 could occur if the "
+"particles all attached into a single long chain."
+msgstr ""
+"Las gotas de lluvia conservan volumen cuando colisionan y tienen un "
+":math:`\\Pi_{fractal}` de 3. Si una partícula conservara su área proyectada "
+"al combinarse, entonces tendría un :math:`\\Pi_{fractal}` de 2. Si una "
+"partícula conservara su diámetro al combinarse, entonces tendría un "
+":math:`\\Pi_{fractal}` de 1. Podría producirse una dimensión fractal de 1 si"
+" todas las partículas se unieran en una sola cadena larga."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:48
+msgid ""
+"The fractal dimension of the resulting floc is a function of the difference "
+"in size of the colliding particles. We will show in the chapter on "
+"flocculation that the aggregation of flocs in a shear environment is limited"
+" to flocs that are of similar size. The sequential collisions of similar "
+"sized particles is the basis of the hierarchical model described by `Meakin "
+"(1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_. The "
+"fractal dimension of flocs that form from collisions of similarly sized "
+"flocs has a slightly lower value than would be obtained from collisions "
+"between differently sized flocs."
+msgstr ""
+"La dimensión fractal del flóc resultante es función de la diferencia de "
+"tamaño de las partículas que colisionan. Mostraremos en el capítulo sobre "
+"floculación que la agregación de flócs en un entorno de cizallamiento está "
+"limitada a flócs de tamaño similar. Las colisiones secuenciales de "
+"partículas de tamaño similar son la base del modelo jerárquico descrito por "
+"`Meakin (1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_. La "
+"dimensión fractal de flócs que se forman a partir de colisiones de flócs de "
+"tamaño similar tiene un valor ligeramente menor que el que se obtendría por "
+"colisiones entre flócs de diferentes tamaños."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:50
+msgid ""
+"The fractal dimension of flocs formed through hierarchical (same size) "
+"collisions has been bracketed between about 1.89 and 2.13. The fractal "
+"dimension of 1.89 is the result of aggregation where the flocs only attach "
+"at one point and do not rotate and make additional attachments after the "
+"initial collision. `Meakin (1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_ "
+"simulated floc cluster aggregation that considered potential relative "
+"rotation of the two flocs and the formation of additional attachment points."
+" After the initial collision with one attachment point the flocs rotate "
+"until they collide again and make a second attachment. The two attachment "
+"points will still allow rotation about an axis defined by the two attachment"
+" points. The flocs can rotate about that axis until a 3rd point of "
+"attachment is formed. With 3 points of attachment the relative motion of the"
+" 2 flocs is completely constrained."
+msgstr ""
+"La dimensión fractal de los flócs formados mediante colisiones jerárquicas "
+"(del mismo tamaño) se ha enmarcado entre aproximadamente 1.89 y 2.13. La "
+"dimensión fractal de 1.89 es el resultado de la agregación, donde los flócs "
+"solo se unen en un punto, no rotan y hacen fijaciones adicionales tras la "
+"colisión inicial. `Meakin (1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_ "
+"agregación simulada de flocs que consideró la posible rotación relativa de "
+"los dos flócs y la formación de puntos de anclaje adicionales. Tras la "
+"colisión inicial con un punto de ancla, los flócs giran hasta que vuelven a "
+"colisionar y forman una segunda fijación. Los dos puntos de anclamiento "
+"seguirán permitiendo la rotación alrededor de un eje definido por los dos "
+"puntos de anclaje. Los flócs pueden girar alrededor de ese eje hasta que se "
+"forme un punto 3rd de ancla. Con 3 puntos de ancla, el movimiento relativo "
+"de los flóclos 2 está completamente restringido."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:52
+msgid ""
+"The fractal dimension increases with each additional attachment point. "
+"`Meakin (1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_ found"
+"  fractal dimensions :math:`\\Pi_{fractal}` of 1.89, 2.08, and 2.13 were "
+"obtained for initial contact, rotation until contact in a direction that "
+"decreases the distance between the centers of mass of the two flocs, and "
+"then rotation about the axis defined by the two contact points in a "
+"direction that would again move their centers of mass to be closer."
+msgstr ""
+"La dimensión fractal aumenta con cada punto de unión adicional. `Meakin "
+"(1988) <https://www-sciencedirect-"
+"com.proxy.library.cornell.edu/science/article/pii/0001868687800167>`_ se "
+"obtuvieron dimensiones fractales :math:`\\Pi_{fractal}` de 1,89, 2,08 y 2,13"
+" para el contacto inicial, rotación hasta contacto en una dirección que "
+"disminuye la distancia entre los centros de masa de los dos flócs, y luego "
+"rotación alrededor del eje definido por los dos puntos de contacto en una "
+"dirección que nuevamente movería sus centros de masa para acercarse."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:54
+msgid "D_{floc} = D_{cp} n_{cp}^\\frac{1}{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:60
+msgid ":math:`D_{floc}` is the floc diameter"
+msgstr ":math:`D_{floc}` es el diámetro del flóculo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:62
+msgid ":math:`D_{cp}` is the core particle diameter"
+msgstr ":math:`D_{cp}` es el diámetro de la partícula central"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:65
+msgid ""
+"The number of core particles in a floc is obtained by solving Equation "
+":eq:`D_floc_of_n_cp` for :math:`n_{cp}`."
+msgstr ""
+"El número de partículas del núcleo en un flóculo se obtiene resolviendo la "
+"ecuación :eq:`D_floc_of_n_cp` para :math:`n_{cp}`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:67
+msgid "n_{cp} = \\left(\\frac{D_{floc}}{D_{cp}}\\right)^{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:73
+msgid "Floc Density"
+msgstr "Densidad de flócs"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:75
+msgid ""
+"The density of a floc decreases as it grows larger. The density of the floc "
+"can be calculated based on conservation of mass and volume. Note that as the"
+" floc grows it incorporates more and more water and thus the initial mass of"
+" the core particles does not equal the final mass of the larger flocs."
+msgstr ""
+"La densidad de un flóculo disminuye a medida que crece. La densidad del flóc"
+" puede calcularse en función de la conservación de la masa y el volumen. Ten"
+" en cuenta que a medida que el flóc crece, incorpora cada vez más agua y, "
+"por tanto, la masa inicial de las partículas del núcleo no es igual a la "
+"masa final de los flócs más grandes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:77
+msgid "M_{mix} = M_1 + M_2"
+msgstr "M_{mix} = M_1 + M_2"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:82
+msgid "Mass conservation can be written in terms of density as:"
+msgstr "La conservación de masa puede expresarse en términos de densidad como:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:84
+msgid ""
+"\\rho_{mix} \\forall_{mix} =\n"
+"\\rho_1 \\forall_1 + \\rho_2 \\forall_2"
+msgstr ""
+"\\rho_{mix} \\forall_{mix} =\n"
+"\\rho_1 \\forall_1 + \\rho_2 \\forall_2"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:90
+msgid ""
+"Written in terms of water and core particles the floc mass conservation and "
+"taking into account that the water volume is equal to the floc volume minus "
+"the core particle volume we obtain"
+msgstr ""
+"Escrito en términos de agua y partículas del núcleo, la conservación de la "
+"masa del floc y teniendo en cuenta que el volumen de agua es igual al "
+"volumen del flóculo menos el volumen de partículas del núcleo que obtenemos"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:92
+msgid ""
+"\\rho_{floc} \\forall_{floc} =\n"
+"\\rho_{H_2O} \\forall_{floc} - \\rho_{H_2O}\\forall_{n_{cp}} + \\rho_{cp} "
+"\\forall_{n_{cp}}"
+msgstr ""
+"\\rho_{floc} \\forall_{floc} =\n"
+"\\rho_{H_2O} \\forall_{floc} - \\rho_{H_2O}\\forall_{n_{cp}} + \\rho_{cp} "
+"\\forall_{n_{cp}}"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:98
+msgid ""
+"where :math:`\\forall_{n_{cp}}` is the total volume of the core particles in"
+" the floc. The buoyant density is the parameter of interest when calculating"
+" terminal velocity and thus Equation :eq:`floc_mass_conservation` can be "
+"rewritten as"
+msgstr ""
+"donde :math:`\\forall_{n_{cp}}` es el volumen total de las partículas del "
+"núcleo en el flóculo. La densidad de flotabilidad es el parámetro de interés"
+" al calcular la velocidad terminal y, por tanto, la ecuación "
+":eq:`floc_mass_conservation` puede reescribirse como"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:100
+msgid ""
+"\\left( \\rho_{floc} - \\rho_{H_2O} \\right)  =\n"
+"\\left( \\rho_{cp}  - \\rho_{H_2O} \\right) \\frac{\\forall_{n_{cp}}}{ "
+"\\forall_{floc}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:106
+msgid "The floc volume can be rewritten as a function of the floc diameter."
+msgstr "El volumen de flóculo puede reescribirse en función del diámetro del flóculo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:108
+msgid ""
+"\\forall_{floc} =\n"
+"\\frac{\\pi}{6} D_{floc}^3"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:114
+msgid ""
+"The volume of core particles in the floc is a function of the number of core"
+" particles."
+msgstr ""
+"El volumen de partículas del núcleo en el flóculo es función del número de "
+"partículas del núcleo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:116
+msgid ""
+"\\forall_{n_{cp}} =\n"
+"n_{cp} \\frac{\\pi}{6} D_{cp}^3"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:122
+msgid ""
+"The number of core particles can be eliminated from Equation "
+":eq:`volume_core_particles_of_D_1` by substituting Equation "
+":eq:`n_cp_of_D_floc`."
+msgstr ""
+"El número de partículas del núcleo puede eliminarse de la ecuación "
+":eq:`volume_core_particles_of_D_1` sustituyendo la ecuación "
+":eq:`n_cp_of_D_floc`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:124
+msgid ""
+"\\forall_{n_{cp}} =\n"
+"\\frac{\\pi}{6} D_{cp}^3 "
+"\\left(\\frac{D_{floc}}{D_{cp}}\\right)^{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:131
+msgid ""
+"Substituting the floc volume and the core particle volume into Equation "
+":eq:`floc_buoyant_density_1`"
+msgstr ""
+"Sustituyendo el volumen de flóculo y el volumen de partículas del núcleo en "
+"la Ecuación :eq:`floc_buoyant_density_1`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:133
+msgid ""
+"\\left( \\rho_{floc} - \\rho_{H_2O} \\right)  =\n"
+"\\left( \\rho_{cp}  - \\rho_{H_2O} \\right) \\frac{\\frac{\\pi}{6} D_{cp}^3\n"
+"\\left(\\frac{D_{floc}}{D_{cp}}\\right)^{\\Pi_{fractal}} }{ \\frac{\\pi}{6} "
+"D_{floc}^3}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:140
+msgid "Simplifying :eq:`floc_buoyant_density_2` we obtain"
+msgstr "Simplificar :eq:`floc_buoyant_density_2` obtenemos"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:142
+msgid ""
+"\\left( \\rho_{floc} - \\rho_{H_2O} \\right)  =\n"
+"\\left( \\rho_{cp}  - \\rho_{H_2O} \\right)\n"
+"\\left(\\frac{D_{cp}}{D_{floc}}\\right)^{3-\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:149
+msgid ""
+"For volume-based fractal dimension less than 3 the buoyant density decreases"
+" as the floc size increases. The smaller the fractal dimension the less "
+"dense the resulting floc."
+msgstr ""
+"Para dimensión fractal basada en volumen menor a 3, la densidad de "
+"flotabilidad disminuye a medida que aumenta el tamaño del flóculo. Cuanto "
+"menor es la dimensión fractal, menos densa es el flóculo resultante."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:151
+msgid "The floc density assuming a fractal dimension of 2 is given by"
+msgstr "La densidad de flócs que asume una dimensión fractal de 2 está dada por"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:153
+msgid ""
+"\\rho_{floc} = \\rho_{H_2O} + \\left( \\rho_{cp}  - \\rho_{H_2O} \\right) "
+"\\left(\\frac{D_{cp}}{D_{floc}}\\right)"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:161
+msgid "Floc Terminal Velocity"
+msgstr "Velocidad terminal de Floc"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:163
+msgid ""
+"As flocs settle in water, they will fall at a speed dictated by the weight "
+"of the floc, the buoyancy of the floc, and drag from the water. These three "
+"forces - the gravitational weight force, the buoyant force, and the drag "
+"force - dictate the speed at which a floc falls and are detailed in the free"
+" body diagram of :numref:`figure_terminal_velocity_FBD`. We care about "
+"determining the speed at which flocs will fall because knowing this "
+"information will help inform plate settler design."
+msgstr ""
+"A medida que los flóculos se asientan en el agua, caerán a una velocidad "
+"dictada por el peso del flóculo, la flotabilidad del flóculo y la "
+"resistencia del agua. Estas tres fuerzas —la fuerza gravitatoria, la fuerza "
+"de flotabilidad y la fuerza de arrastre— dictan la velocidad a la que cae un"
+" flóculo y se detallan en el diagrama de cuerpo libre de "
+":numref:`figure_terminal_velocity_FBD`. Nos importa determinar la velocidad "
+"a la que caerán los flóculos porque conocer esta información ayudará a "
+"informar placa sedimentadora diseño."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:172
+msgid ""
+"Buyouant force, drag force, and gravitational force shown for floc free body"
+" diagram."
+msgstr ""
+"Fuerza de buyounación, fuerza de arrastre y fuerza gravitatoria mostradas en"
+" el diagrama de cuerpo libre de flóculo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:172
+msgid "Free body diagram of a floc in water."
+msgstr "Diagrama de cuerpo libre de un flóculo en agua."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:174
+msgid "To determine the force balance on a falling floc, consider:"
+msgstr "Para determinar el balance de fuerzas en un flóculo que cae, considere:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:176
+msgid "\\sum F = m a"
+msgstr "\\sum F = m a"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:180
+msgid ""
+"At terminal velocity, the floc has been falling for a long period of time so"
+" there is no acceleration and the right side of the equation simplifies to "
+"zero."
+msgstr ""
+"A velocidad terminal, el flóculum ha estado cayendo durante un largo periodo"
+" de tiempo, por lo que no hay aceleración y el lado derecho de la ecuación "
+"se simplifica a cero."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:182
+msgid ":math:`F_{drag} + F_{buoyant} - W_{floc} = 0`"
+msgstr ":math:`F_{drag} + F_{buoyant} - W_{floc} = 0`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:184
+msgid "The drag force is determined by:"
+msgstr "La fuerza de arrastre se determina por:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:186
+msgid "F_{drag} = C_D A_{floc} \\rho_{H_2O} \\frac{v_t^2}{2}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:191
+msgid "The buoyant force is given by:"
+msgstr "La fuerza de flotación se da por:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:193
+msgid "F_{buoyant} = \\forall_{floc} \\rho_{H_2O} g"
+msgstr "F_{buoyant} = \\forall_{floc} \\rho_{H_2O} g"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:198
+msgid "The weight of the sphere is given by:"
+msgstr "El peso de la esfera se da por:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:200
+msgid "W_{floc} = \\forall_{floc} \\rho_{floc} g"
+msgstr "W_{floc} = \\forall_{floc} \\rho_{floc} g"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:205
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:294
+msgid "Where:"
+msgstr "Donde:"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:206
+msgid ":math:`\\forall_{floc} =` floc particle volume"
+msgstr ":math:`\\forall_{floc} =` volumen de partículas floc"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:207
+msgid ":math:`A_{floc} =` particle projected cross-sectional area"
+msgstr ":math:`A_{floc} =` área de sección transversal proyectada por partículas"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:208
+msgid ":math:`\\rho_{floc} =` particle density"
+msgstr ":math:`\\rho_{floc} =` densidad de partículas"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:209
+msgid ":math:`\\rho_{H_2O} =` water density"
+msgstr ":math:`\\rho_{H_2O} =` densidad del agua"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:210
+msgid ":math:`g =` acceleration due to gravity"
+msgstr ":math:`g =` aceleración debida a la gravedad"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:211
+msgid ":math:`C_D =` drag coefficient"
+msgstr ":math:`C_D =` coeficiente de arrastre"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:212
+msgid ":math:`v_t=` particle terminal velocity"
+msgstr ":math:`v_t=` velocidad terminal de partícula"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:213
+msgid ":math:`D=` particle diameter"
+msgstr ":math:`D=` diámetro de las partículas"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:215
+msgid "Plugging into the original force balance,"
+msgstr "Conectando al equilibrio de fuerzas original,"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:217
+msgid ""
+"\\left [C_D A_{floc} \\rho_{H_2O} \\frac{v_t^2}{2} \\right]+\\left "
+"[\\forall_{floc} \\rho_{H_2O} g\\right ]-\\left [\\forall_{floc} "
+"\\rho_{floc} g \\right] =0"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:221
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:750
+msgid "Solving for terminal velocity, :math:`v_t`, we obtain"
+msgstr "Resolviendo para la velocidad terminal, :math:`v_t`, obtenemos"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:223
+msgid ""
+"v_t = \\sqrt{\\frac{4}{3}\\frac{g "
+"D_{floc}}{C_D}\\frac{(\\rho_{floc}-\\rho_{H_2O})}{\\rho_{H_2O}}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:228
+msgid ""
+"Terminal velocity is a function of fluid density, floc density, gravity, "
+"particle diameter, and the drag coefficient. To calculate velocity, all of "
+"those inputs must be determined."
+msgstr ""
+"La velocidad terminal es función de la densidad del fluido, la densidad de "
+"flocas, la gravedad, el diámetro de la partícula y el coeficiente de "
+"arrastre. Para calcular la velocidad, deben determinarse todas esas "
+"entradas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:230
+msgid ""
+"The first component that we will focus on is the drag coefficient, "
+":math:`C_D`. The drag coefficient is function of Reynolds Number, "
+":math:`Re`, and the characteristic flow around a particle. As a reminder, "
+":math:`Re = \\frac{v_t D_{floc}}{\\nu}` where :math:`v_t` is the velocity of"
+" the fluid relative to the particle, :math:`D_{floc}` is the characteristic "
+"length scale (in this case the floc diameter), and :math:`\\nu` is kinematic"
+" viscosity."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:232
+msgid ""
+"Drag coefficients are used to describe flow around a particle and are shown "
+"in :numref:`figure_drag_coeff_Re_base`."
+msgstr ""
+"Los coeficientes de arrastre se utilizan para describir el flujo alrededor "
+"de una partícula y se muestran en :numref:`figure_drag_coeff_Re_base`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:241
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:267
+msgid "Drag coefficient as a function of Reynolds number."
+msgstr "Coeficiente de arrastre en función del número de Reynolds."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:241
+msgid "Drag coefficient on a sphere as a function of Reynolds number."
+msgstr "Coeficiente de arrastre en una esfera en función del número de Reynolds."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:243
+msgid ""
+"As an introduction to this drag coefficient diagram, we can compare it to "
+"something we've already learned about: the Moody diagram. Drawing parallels "
+"between the two will help us understand some important relationships better."
+msgstr ""
+"Como introducción a este diagrama de coeficientes de arrastre, podemos "
+"compararlo con algo que ya hemos aprendido: el diagrama de Moody. Establecer"
+" paralelismos entre ambos nos ayudará a entender mejor algunas relaciones "
+"importantes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:247
+msgid "Comparison of the Moody diagram and the Drag Coefficient diagram."
+msgstr "Comparación del diagrama de Moody y el diagrama del coeficiente de arrastre."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Characteristic"
+msgstr "Característica"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Moody Diagram"
+msgstr "Diagrama de Moody"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Drag Coefficient Diagram"
+msgstr "Diagrama de coeficientes de arrastre"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Relationship to Reynolds number"
+msgstr "Relación con el número de Reynolds"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "friction factor, :math:`f`"
+msgstr "factor de fricción, :math:`f`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "drag coefficient, :math:`C_D`"
+msgstr "coeficiente de arrastre, :math:`C_D`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Type of head loss"
+msgstr "Tipo de pérdida de carga"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "major losses as shear force on pipe walls"
+msgstr "Pérdidas importantes como fuerza de corte en los muros de tubería"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "shear on sphere and pressure drag from wake"
+msgstr "Cizalladura en la esfera y resistencia de presión por estela"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "Laminar region"
+msgstr "Región laminar"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`f = \\frac{64}{Re}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`C_D = \\frac{24}{Re}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "High Reynolds number (:math:`f`, :math:`C_D`)"
+msgstr "Número de Reynolds alto (:math:`f`, :math:`C_D`)"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`f` remains constant"
+msgstr ":math:`f` permanece constante"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`C_D` remains constant"
+msgstr ":math:`C_D` permanece constante"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid "High Reynolds number (:math:`h_L`, :math:`F_{drag}`)"
+msgstr "Número de Reynolds alto (:math:`h_L`, :math:`F_{drag}`)"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`h_L = \\frac{fL\\bar v^2}{2Dg}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:1
+msgid ":math:`F_{drag} = C_D A_{floc} \\rho_{H_2O} \\frac{v_t^2}{2}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:258
+msgid ""
+"The flow around the particle and the Reynolds Number can be described in the"
+" laminar, turbulent, or turbulent-boundary regions as shown in "
+":numref:`figure_drag_coeff_Re_full`. In the laminar region viscous forces "
+"dominate, :math:`Re < 1`,and the coefficient of drag is represented as the "
+"straight line with a slope of -1 on the log-log plot. The equation for drag "
+"on a sphere in laminar flow :math:`C_D = \\frac{24}{Re}` is referred to as "
+"Stokes Law. You'll notice that the line for Stokes Law shown in the figure "
+"extends past the laminar region. This was done because it highlights that "
+"even though Stokes Law is not exactly correct past the turbulent region, it "
+"is still a pretty good approximation for  :math:`Re < 10`."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:269
+msgid ""
+"Note that the coefficient of drag in the transition region is an important "
+"parameter to understand. Equations for the coefficient of drag are explored "
+"in the paper by `Yang et al. in \"General formulas for drag coefficient and "
+"settling velocity of sphere based on theoretical law\" "
+"<https://www.sciencedirect.com/science/article/pii/S2095268615000178>`_. "
+"They have determined that Oseen law based formulas are recommended for use."
+msgstr ""
+"Ten en cuenta que el coeficiente de resistencia en la región de transición "
+"es un parámetro importante a comprender. Las ecuaciones para el coeficiente "
+"de resistencia se exploran en el artículo de `Yang et al. en \"Fórmulas "
+"generales para el coeficiente de arrastre y la velocidad de sedimentación de"
+" la esfera basadas en ley teórica\" "
+"<https://www.sciencedirect.com/science/article/pii/S2095268615000178>`_. Han"
+" determinado que se recomiendan fórmulas basadas en la ley de Oseen para su "
+"uso."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:271
+msgid ""
+"Let's consider the drag coefficient diagram at Reynolds numbers of "
+":math:`10^5`. We notice that there is a \"bump\" in the plot, in which the "
+"drag coefficients drop. This is because at really high Reynolds numbers, the"
+" boundary layer around the particle became turbulent. This causes the wake "
+"behind the particle to be a little smaller, leading to a slight reduction in"
+" drag. The drag coefficient decreases, but the total drag force does not "
+"necessarily decrease (and likely keeps on increasing)."
+msgstr ""
+"Consideremos el diagrama de coeficientes de arrastre en números de Reynolds "
+"de :math:`10^5`. Observamos que hay un \"aumento\" en el gráfico, en el que "
+"los coeficientes de arrastre bajan. Esto se debe a que en números de "
+"Reynolds muy altos, la capa límite alrededor de la partícula se vuelve "
+"turbulenta. Esto hace que la estela detrás de la partícula sea un poco "
+"menor, lo que provoca una ligera reducción en la resistencia. El coeficiente"
+" de resistencia disminuye, pero la fuerza total de arrastre no "
+"necesariamente disminuye (y probablemente sigue aumentando)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:273
+msgid ""
+"To understand this phenomenon, think about a golf ball. Golf balls are "
+"designed with dimpled surfaces because the dimpled surface forces the "
+"transition described above to happen at lower Reynolds numbers. The dimples "
+"initiate turbulence in the boundary layer and cause a slight reduction in "
+"the drag coefficient. Thus, dimpled golf balls can travel further than "
+"smooth ones."
+msgstr ""
+"Para entender este fenómeno, piensa en una pelota de golf. Las pelotas de "
+"golf están diseñadas con superficies con hoyuelos porque la superficie con "
+"hoyuelos obliga a que la transición descrita anteriormente ocurra en números"
+" de Reynolds más bajos. Los hoyuelos inician turbulencias en la capa límite "
+"y provocan una ligera reducción en el coeficiente de arrastre. Así, las "
+"pelotas de golf con hoyuelos pueden viajar más lejos que las lisas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:275
+msgid ""
+"You might think: why aren't more surfaces dimpled? If I want my car to get "
+"better mileage, should I dimple its surface to take advantage of the same "
+"turbulent boundary layer properties as the golf ball? But before you go and "
+"damage some metal, let's think. If a car and golf ball are traveling through"
+" air at the same speed, what will be their relative Reynolds numbers? We "
+"know that :math:`Re = \\frac{v_t D}{\\nu}` and :math:`D_{golfball} << "
+"D_{car}`. The relative length scales mean that cars have much higher "
+"Reynolds numbers than the golf ball. In fact, the Reynolds number for a car "
+"is so high that it is already past the point that the boundary layer becomes"
+" turbulent. The golf ball needs to be dimpled because its Reynolds numbers "
+"are not so large that they will pass the turbulent boundary transition."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:277
+msgid ""
+"Let's go back to the realm of water treatment. We care about drag "
+"coefficients and terminal velocities because they help describe how flocs "
+"will move in water. Flocs tend to exist in the region between 1< :math:`Re` "
+"< 10. This region is not perfectly described by Stokes Law, but it is used "
+"as an appropriate approximation. We have already solved for the general "
+"equation for terminal velocity using the force balance approach. Now, we can"
+" solve for a terminal velocity equation specifically in the laminar region."
+msgstr ""
+"Volvamos al ámbito de la tratamiento de agua. Nos importan los coeficientes "
+"de arrastre y las velocidades terminales porque ayudan a describir cómo se "
+"mueven los flóculos en el agua. Los flóculos tienden a existir en la región "
+"entre 1< :math:`Re` < 10. This region is not perfectly described by Stokes "
+"Law, but it is used as an appropriate approximation. We have already solved "
+"for the general equation for terminal velocity using the force balance "
+"approach. Now, we can solve for a terminal velocity equation specifically in"
+" the laminar region."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:279
+msgid ""
+"Plug the drag coefficient for laminar flow, :math:`C_D = \\frac{24}{Re}`, "
+"and Reynolds number, :math:`Re = \\frac{v_t D_{floc}}{\\nu}`,  into the "
+"general terminal velocity Equation :eq:`v_t_general` to obtain"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:281
+msgid ""
+"v_t = \\frac{D_{floc}^2g}{18\\nu}\\frac{\\rho_{floc} "
+"-\\rho_{H_2O}}{\\rho_{H_2O}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:285
+msgid ""
+"Again, we can draw a parallel with the Moody Diagram. The general form of "
+"the terminal velocity equation is like the Darcy-Weisbach equation; it is "
+"always true. The terminal velocity in the laminar flow region is like the "
+"Hagen-Poiselle equation; it is only good for laminar flow. We will use the "
+"laminar specific condition because we are working with flocs with low "
+"Reynolds numbers."
+msgstr ""
+"De nuevo, podemos trazar un paralelismo con el diagrama de Moody. La forma "
+"general de la ecuación de velocidad terminal es como la ecuación de Darcy-"
+"Weisbach; siempre es cierta. La velocidad terminal en la región de flujo "
+"laminar es como la ecuación de Hagen-Poiselle; solo es buena para el flujo "
+"laminar. Usaremos la condición laminar específica porque trabajamos con "
+"flócs con números de Reynolds bajos."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:287
+msgid ""
+"Our equations for terminal velocity depend on the density of a floc. As "
+"discussed in previous sections, we know that there is a specific "
+"relationship between the density of a floc and the diameter of a floc "
+"because flocs are fractals and as flocs get bigger, their density gets "
+"lower. We can account for the size and density relationship by substitution "
+"Equation :eq:`floc_buoyant_density` into the terminal velocity equation."
+msgstr ""
+"Nuestras ecuaciones para la velocidad terminal dependen de la densidad de un"
+" flóc. Como se ha discutido en secciones anteriores, sabemos que existe una "
+"relación específica entre la densidad de un flóculo y el diámetro de un "
+"flóculo porque los flóculos son fractales y, a medida que los flócs crecen, "
+"su densidad disminuye. Podemos explicar la relación tamaño y densidad "
+"mediante la ecuación de sustitución :eq:`floc_buoyant_density` en la "
+"ecuación de velocidad terminal."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:289
+msgid ""
+"v_t = \\frac{D_{cp}^2g}{18\\nu}\\frac{\\rho_{cp} - "
+"\\rho_{H_2O}}{\\rho_{H_2O}} \\left( \\frac{D_{floc}}{D_{cp}} \\right) "
+"^{\\Pi_{fractal}-1}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:295
+msgid ":math:`D_{cp} =` diameter of core particle"
+msgstr ":math:`D_{cp} =` diámetro de la partícula del núcleo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:296
+msgid ":math:`\\Pi_{fractal} =` volume-based fractal dimension"
+msgstr ":math:`\\Pi_{fractal} =` dimensión fractal basada en volumen"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:297
+msgid ":math:`D_{floc} =` floc diameter"
+msgstr ":math:`D_{floc} =` diámetro del flóculo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:298
+msgid ":math:`\\rho_{cp} =` density of the core particle making up the floc"
+msgstr ":math:`\\rho_{cp} =` densidad de la partícula central que compone el flóculo"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:300
+msgid ""
+"The following plot in :numref:`figure_terminal_velocity_floc_diam` shows the"
+" relationship between floc diameter and terminal velocity."
+msgstr ""
+"El siguiente gráfico en :numref:`figure_terminal_velocity_floc_diam` muestra"
+" la relación entre el diámetro del flóculo y la velocidad terminal."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst
+msgid ""
+"Terminal velocity as a function of floc diameter, taking into account the "
+"changing density of flocs formed from clay."
+msgstr ""
+"Velocidad terminal en función del diámetro del flóc, teniendo en cuenta la "
+"densidad variable de flócs formados a partir de arcilla."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:310
+msgid ""
+"Terminal velocity as a function of floc diameter taking into account the "
+"changing density of flocs given a fractal dimension of 2."
+msgstr ""
+"Velocidad terminal en función del diámetro del flóc, teniendo en cuenta la "
+"densidad variable de flócs dada una dimensión fractal de 2."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:312
+msgid ""
+"Three important regions are highlighted in the plot. At small floc "
+"diameters, less than 10 :math:`\\mu m`, terminal velocity is less that 0.1 "
+":math:`\\frac{mm}{s}`. A terminal velocity this low would require extremely "
+"large clarifiers for reasonable treatment. Because large clarifiers are "
+"costly and unfeasible, we use flocculation to aggregate particles and "
+"achieve floc sizes of greater diameters and higher terminal velocities."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:314
+msgid ""
+"For flocs made of clay and with diameters around 35 :math:`\\mu m`, the "
+"terminal velocity is about 0.12 :math:`\\frac{mm}{s}`. AguaClara plate "
+"settlers are designed to settle out flocs of this size (particles dropping "
+"at 0.12 :math:`\\frac{mm}{s}`) so the smallest floc that the plate settlers "
+"can reliably capture is 35 :math:`\\mu m`. This will be explored in more "
+"detail during the discussion on :ref:`capture velocity "
+"<heading_capture_velocity>`."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:316
+msgid ""
+"Clay based flocs with diameters around 200 :math:`\\mu m` have a terminal "
+"velocity of about 1 :math:`\\frac{mm}{s}`. In our clarifiers, which are "
+"upflow clarifiers, we have water flowing up at about 1 :math:`\\frac{mm}{s}`"
+" to capture a 200 :math:`\\mu m` floc. These flocs are clearly visible but "
+"are small."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:318
+msgid ""
+"Our understanding of floc terminal velocity suggests that we can decide the "
+"size of the floc that we want the plate settlers to capture. If we decide "
+"that we want to capture flocs that are 35 :math:`\\mu m` or larger, we know "
+"that we must design the plate settlers to capture flocs falling at 0.12 "
+":math:`\\frac{mm}{s}`."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:320
+msgid ""
+"The diameter of a floc as a function of the terminal velocity is obtained "
+"from Equation :eq:`vt_of_floc`"
+msgstr ""
+"El diámetro de un flóculo en función de la velocidad terminal se obtiene de "
+"la Ecuación :eq:`vt_of_floc`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:322
+msgid ""
+"D_{floc} = D_{cp} \\left( \\frac{18 v_t \\nu }{D_{cp}^2g} \\frac{ "
+"\\rho_{H_2O}}{ \\rho_{cp} - \\rho_{H_2O}}\\right) ^{\\frac{1}{ "
+"\\Pi_{fractal} - 1}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:327
+msgid ""
+"If we assume the fractal dimension is 2, then Equation :eq:`vt_of_floc` "
+"simplifies to"
+msgstr ""
+"Si asumimos que la dimensión fractal es 2, entonces la ecuación "
+":eq:`vt_of_floc` se simplifica a"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:329
+msgid ""
+"v_t = \\frac{D_{cp} D_{floc} g}{18\\nu}\\frac{\\rho_{cp} - "
+"\\rho_{H_2O}}{\\rho_{H_2O}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:334
+msgid ""
+"The diameter of a floc with a fractal dimension of 2 and given a terminal "
+"velocity is"
+msgstr ""
+"El diámetro de un flóculo con dimensión fractal de 2 y dada una velocidad "
+"terminal es"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:336
+msgid ""
+" D_{floc} = \\frac{18\\nu v_t}{D_{cp} g} \\frac{\\rho_{H_2O}}{\\rho_{cp} - "
+"\\rho_{H_2O}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:343
+msgid "Chemical Bond Strength"
+msgstr "Resistencia química de enlace"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:345
+msgid ""
+"The chemical bonds formed by the polymers or the coagulant nanoparticles "
+"could be strong, intramolecular bonds such as covalent bonds in which "
+"valence electrons are shared, or a non-covalent bond that does not involve "
+"sharing electrons. Non-covalent bonds include hydrogen bonding, and Van der "
+"Waals forces."
+msgstr ""
+"Los enlaces químicos formados por los polímeros o las nanopartículas "
+"coagulantes podrían ser fuertes, enlaces intramoleculares como enlaces "
+"covalentes en los que se comparten electrones de valencia, o enlaces no "
+"covalentes que no impliquen compartir electrones. Los enlaces no covalentes "
+"incluyen enlaces de hidrógeno y fuerzas de Van der Waals."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:347
+msgid ""
+"The strength of a polymer chain with carbon-carbon bonds is of the order of "
+"1 to 10 nN (`Levinthal and Davison, 1961 "
+"<https://doi.org/10.1016/S0022-2836(61)80030-2>`_). Covalent bonds rupture "
+"at approximately 1600 pN, noncovalent bonds break at about 160 pN, and "
+"hydrogen bonds break at about 4 pN (`Forces involved at the biological level"
+" <http://www.picotwist.com/index.php?content=smb&option=odg>`_)."
+msgstr ""
+"La resistencia de una cadena polimérica con enlaces carbono-carbono es del "
+"orden de 1 a 10 nN (`Levinthal y Davison, 1961 "
+"<https://doi.org/10.1016/S0022-2836(61)80030-2>`_). Los enlaces covalentes "
+"se rompen aproximadamente a 1600 pN, los enlaces no covalentes se rompen a "
+"unos 160 pN, y los enlaces de hidrógeno a unos 4 pN (`Fuerzas involucradas a"
+" nivel biológico "
+"<http://www.picotwist.com/index.php?content=smb&option=odg>`_)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:349
+msgid ""
+"If we assume that the flocs are joined by 3 bonds to create a constrained "
+"connection then we can compare the fluid shear forces that are pulling flocs"
+" apart to the strength of potential bonds. The result of this force "
+"comparison is shown in :numref:`figure_Shear_force_and_bond_strength`."
+msgstr ""
+"Si asumimos que los flócs están unidos por 3 enlaces para crear una conexión"
+" restringida, entonces podemos comparar las fuerzas de cizalladura del "
+"fluido que separan los flóclos con la resistencia de los enlaces "
+"potenciales. El resultado de esta comparación de fuerzas se muestra en "
+":numref:`figure_Shear_force_and_bond_strength`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:358
+msgid "figure_Shear_force_and_bond_strength"
+msgstr "figure_Shear_force_and_bond_strength"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:358
+msgid ""
+"The diameter of flocs after flocculation suggests that covalent bonds are "
+"likely responsible for holding flocs together."
+msgstr ""
+"El diámetro de los flócs tras la floculación sugiere que los enlaces "
+"covalentes probablemente son responsables de mantener unidos los flócs."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:360
+msgid ""
+"Given that flocs grow to be approximately 1 mm in a 100 Hz flocculator it "
+"suggests that the bonds holding the flocs together are either covalent bonds"
+" or noncovalent bonds that are stronger than hydrogen bonds. Van der Waals "
+"interactions are weaker than hydrogen bonds and thus Van der Waals "
+"interactions likely are not significant for flocculation when using "
+"coagulants."
+msgstr ""
+"Dado que los flóclos crecen hasta aproximadamente 1 mm en un floculador de "
+"100 Hz, sugiere que los enlaces que mantienen unidos los flóclos son enlaces"
+" covalentes o no covalentes que los enlaces de hidrógeno. Las interacciones "
+"de Van der Waals son más débiles que los enlaces de hidrógeno y, por tanto, "
+"probablemente no sean significativas para la floculación cuando se usan "
+"coagulantes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:362
+msgid ""
+"Van der Waals forces have traditionally been viewed as the primary force "
+"responsible for holding flocs together after the repulsive electrostatic "
+"force was neutralized. The analysis of the forces shown above reveals that "
+"Van der Waals forces are too weak to allow the formation of large easily "
+"settled flocs in the shear environment of a flocculator. Instead "
+"flocculation is based on stronger noncovalent bonds or perhaps even covalent"
+" bonds."
+msgstr ""
+"Las fuerzas de Van der Waals se han considerado tradicionalmente como la "
+"fuerza principal responsable de mantener unidos los flóclos tras neutralizar"
+" la fuerza electrostática repulsiva. El análisis de las fuerzas mostradas "
+"arriba revela que las fuerzas de Van der Waals son demasiado débiles para "
+"permitir la formación de grandes flóclos fácilmente sedimentados en el "
+"entorno de cizalladura de un floculador. En cambio, la floculación se basa "
+"en enlaces no covalentes más fuertes o quizás incluso enlaces covalentes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:364
+msgid ""
+"Hydrated oxides of polyvalent metals like Fe(III), Al(III), Ti(IV) and "
+"Zr(IV) exhibit ligand sorption properties by forming inner-sphere complexes "
+"(`Sarkar et al, 2007 "
+"<https://doi.org/10.1016/j.reactfunctpolym.2007.07.047>`_). In inner-sphere "
+"complexes the coagulant nanoparticle forms covalent bonds with the molecules"
+" in the surface of the raw water particles. Inner sphere bonds are strong "
+"and stable. In contrast, outer sphere bonds include a molecule of water "
+"between the two surfaces and form a transient bond."
+msgstr ""
+"Los óxidos hidratados de metales polivalentes como Fe(III), Al(III), Ti(IV) "
+"y Zr(IV) presentan propiedades de sorción de ligandos al formar complejos de"
+" esfera interna (`Sarkar et al, 2007 "
+"<https://doi.org/10.1016/j.reactfunctpolym.2007.07.047>`_). En los complejos"
+" de esfera interna, la nanopartícula coagulante forma enlaces covalentes con"
+" las moléculas en la superficie de las partículas agua cruda . Los enlaces "
+"esféricos internos son fuertes y estables. En cambio, los enlaces esféricos "
+"externos incluyen una molécula de agua entre las dos superficies y forman un"
+" enlace transitorio."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:366
+msgid "Given that"
+msgstr "Dado que"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:368
+msgid "Aluminum and iron coagulant nanoparticles form covalent bonds with arsenic"
+msgstr ""
+"Las nanopartículas de aluminio y hierro forman enlaces covalentes con "
+"arsénico"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:369
+msgid "Outer sphere complexes are transient"
+msgstr "Los complejos de esferas exteriores son transitorios"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:370
+msgid "The shear forces acting on flocs suggest strong bonds"
+msgstr "Las fuerzas de corte que actúan sobre los flóclos sugieren enlaces fuertes"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:372
+msgid ""
+"we conclude that the coagulant nanoparticles likely form covalent bonds with"
+" inorganic particles present in raw water."
+msgstr ""
+"Concluimos que las nanopartículas coagulantes probablemente forman enlaces "
+"covalentes con partículas inorgánicas presentes en agua cruda."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:375
+msgid "Shear Force Acting on Flocs"
+msgstr "Fuerza de cizalladura actuando sobre los flócs"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:377
+msgid ""
+"The hydrodynamic force caused by a velocity gradient for two identically "
+"sized particles is given by `Goren, 1971 "
+"<https://doi.org/10.1016/0021-9797(71)90244-X>`_"
+msgstr ""
+"La fuerza hidrodinámica causada por un gradiente de velocidad para dos "
+"partículas de tamaño idéntico está dada por `Goren, 1971 "
+"<https://doi.org/10.1016/0021-9797(71)90244-X>`_"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:379
+msgid ""
+"F_{shear_{max}} =\n"
+"\\frac{3 \\pi}{4} \\mu D_{floc}^2 G"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:385
+msgid ""
+"where :math:`D_{floc}` is the diameter of each of the two flocs that have "
+"joined and :math:`G` is the uniform velocity gradient."
+msgstr ""
+"donde :math:`D_{floc}` es el diámetro de cada uno de los dos flócs que se "
+"han unido y :math:`G` es el gradiente uniforme de velocidad."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:387
+msgid ""
+"Flocs will break (or will not grow larger) when the fluid forces acting on "
+"the floc exceed the strength of the bonds that hold the floc together. The "
+"fluid shear stress is given by Equation :eq:`tau_of_mu_G`. The velocity "
+"gradient is caused by turbulent kinetic energy dissipation as given by "
+"Equation :eq:`G_Camp_Stein`. Equation :eq:`tau_of_mu_G` and Equation "
+":eq:`G_Camp_Stein` can be combined to obtain an estimate of the fluid shear "
+"stress, :math:`\\tau`."
+msgstr ""
+"Los flócs se romperán (o no crecerán) cuando las fuerzas del fluido que "
+"actúan sobre el flóculo superen la resistencia de los enlaces que mantienen "
+"unido el flóc. La tensión cortante del fluido está dada por la ecuación "
+":eq:`tau_of_mu_G`. El gradiente de velocidad es causado por la disipación "
+"turbulenta de energía cinética tal como se da en la ecuación "
+":eq:`G_Camp_Stein`. La ecuación :eq:`tau_of_mu_G` y la ecuación "
+":eq:`G_Camp_Stein` pueden combinarse para obtener una estimación de la "
+"tensión cortante del fluido, :math:`\\tau`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:389
+msgid ""
+"       \\tau =\n"
+" \\rho \\sqrt{\\varepsilon \\nu} =\n"
+" \\mu G"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:396
+msgid ""
+"The shear stress is a function of the rate of turbulent energy dissipation "
+"and the viscosity of the fluid. The shear stress increases as the water "
+"temperature decreases. The shear force acting to pull a doublet floc apart "
+"is given in Equation :eq:`shear_force_on_doublet` and can be combined with "
+"Equation :eq:`tau_of_mu_G` to obtain"
+msgstr ""
+"La tensión cortante es función de la tasa de disipación de energía "
+"turbulenta y de la viscosidad del fluido. La tensión cortante aumenta a "
+"medida que disminuye la temperatura del agua. La fuerza cortante que actúa "
+"para separar un flóculo doblete se indica en la Ecuación "
+":eq:`shear_force_on_doublet` y puede combinarse con la Ecuación "
+":eq:`tau_of_mu_G` para obtener"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:398
+msgid ""
+"       F_{shear_{max}} =\n"
+"   3 \\tau \\frac{ \\pi D_{floc}^2}{4} =\n"
+"   3 \\tau A_{floc}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:405
+msgid ""
+"The fluid shear combined with the strength of covalent bonds can be used to "
+"solve for the floc diameter using Equation "
+":eq:`fluid_shear_stress_on_doublet`."
+msgstr ""
+"El cizalladura del fluido combinado con la resistencia de los enlaces "
+"covalentes puede usarse para resolver el diámetro del flóculo usando la "
+"ecuación :eq:`fluid_shear_stress_on_doublet`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:407
+msgid ""
+" D_{floc_{max}} =\n"
+" \\sqrt{\\frac{4F_{bond}}{3 \\pi \\tau}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:413
+msgid ""
+"The floc will break apart when the :math:`F_{shear_{max}}` exceeds the "
+"coagulant bond strength of the coagulant nanoparticles and the particles "
+"they attach to. Thus we can create a dimensionless parameter describing the "
+"ratio of the fluid shear stress to the bond strength by dividing Equation "
+":eq:`fluid_shear_stress_on_doublet` by :math:`F_{covalent}`."
+msgstr ""
+"El flóculo se desintegrará cuando el :math:`F_{shear_{max}}` supere la "
+"fuerza de enlace coagulante de las nanopartículas coagulantes y de las "
+"partículas a las que se adhieren. Así, podemos crear un parámetro "
+"adimensional que describa la relación entre la tensión cortante del fluido y"
+" la resistencia del enlace dividiendo la ecuación "
+":eq:`fluid_shear_stress_on_doublet` por :math:`F_{covalent}`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:415
+msgid ""
+"       \\Pi_{bond}^{shear} =\n"
+" \\frac{F_{shear_{max}}}{F_{bond}} =\n"
+" \\frac{3 \\tau A_{floc}}{F_{bond}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:422
+msgid ""
+"The expectation is that the flocs will break for values of "
+":math:`\\Pi_{bond}^{shear}>1`. The value of :math:`\\Pi_{bond}^{shear}` will"
+" ideally be measured experimentally since there are a number of unknowns "
+"buried in the term including a characteristic length of the lever arm that "
+"the coagulant bond is acting on.  This analysis shows that the maximum size "
+"of a floc is set by the fluid shear stress, :math:`\\tau`. Previously it "
+"wasn't clear if floc size was limited by energy dissipation rate or by the "
+"velocity gradient. Neither of those parameters captures the physics because "
+"ultimately it is a force that breaks the covalent bond and thus it must be a"
+" fluid force (not energy dissipation rate or velocity gradient) that can be "
+"used as a design parameter. By recognizing that the shear stress "
+":math:`\\tau` must be limited we can now develop design equations that "
+"account for the effects of viscosity and temperature on the design."
+msgstr ""
+"Se espera que los flócs se rompan para valores de "
+":math:`\\Pi_{bond}^{shear}>1`. El valor de :math:`\\Pi_{bond}^{shear}` "
+"idealmente se medirá experimentalmente, ya que hay varias incógnitas ocultas"
+" en el término, incluyendo una longitud característica del brazo palanca "
+"sobre el que actúa el enlace coagulante. Este análisis muestra que el tamaño"
+" máximo de un flóculo está fijado por la tensión cortante del fluido, "
+":math:`\\tau`. Anteriormente no estaba claro si el tamaño del flóculo estaba"
+" limitado por la tasa de disipación de energía o por el gradiente de "
+"velocidad. Ninguno de esos parámetros refleja la física porque, en última "
+"instancia, es una fuerza la que rompe el enlace covalente y, por tanto, debe"
+" ser una fuerza del fluido (no la tasa de disipación de energía ni el "
+"gradiente de velocidad) la que pueda usarse como parámetro de diseño. "
+"Reconociendo que el esfuerzo cortante :math:`\\tau` debe ser limitado, ahora"
+" podemos desarrollar ecuaciones de diseño que tengan en cuenta los efectos "
+"de la viscosidad y la temperatura en el diseño."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:424
+msgid ""
+"When flocs are broken by the shearing action of the fluid it is possible "
+"that a primary particle is torn off or that the floc is broken in half. The "
+"method of breaking matters because if primary particles are dislodged from a"
+" floc then any breaking will lead to a deterioration of the clarifier "
+"performance because some of those primary particles will make it through the"
+" floc filter and won't be captured by the plate settlers. Conventional "
+"wisdom would suggest that flocs will be broken into little pieces. If that "
+"were the case then any floc breakup would cause the settled water turbidity "
+"to increase. `Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_ showed"
+" that there was no sign of increased settled water turbidity up to an energy"
+" dissipation rate of 300 mw/kg  (:numref:`figure_sed_performance_vs_jet_edr`"
+" adapted from `Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_)."
+msgstr ""
+"Cuando los flócs se rompen por la acción cortante del fluido, es posible que"
+" se rompa una partícula primaria o que el flóc se parta por la mitad. El "
+"método de romper importa porque si las partículas primarias se desprenden de"
+" un flóc, cualquier ruptura provocará un deterioro en el rendimiento del "
+"clarificador, ya que algunas de esas partículas primarias atraviesan el "
+"filtro de flóculos y no serán capturadas por los asentadores de placas. La "
+"sabiduría convencional sugeriría que los flócs se romperán en pequeños "
+"trozos. Si ese fuera el caso, cualquier ruptura de flócs haría que la "
+"turbidez agua sedimentada aumentara. `Garland, 2016 "
+"<https://doi.org/10.1089/ees.2015.0314>`_ mostraron que no había signos de "
+"aumento agua sedimentada turbidez hasta una tasa de disipación de energía de"
+" 300 mw/kg (:numref:`figure_sed_performance_vs_jet_edr` adaptado de "
+"`Garland, 2016 <https://doi.org/10.1089/ees.2015.0314>`_)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:433
+msgid "Sed tank performance as a function of jet energy dissipation rate"
+msgstr ""
+"Rendimiento del tanque de sedimentación en función de la tasa de disipación "
+"de energía del chorro"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:433
+msgid ""
+"Settled water solids concentrations during steady state as a function of jet"
+" energy dissipation rate given an upflow velocity of 1.2 mm/s and 1.6 mm/s."
+"  Results shown are averaged over 2 residence times."
+msgstr ""
+"agua sedimentada concentraciones de sólidos durante el estado estacionario "
+"en función de la tasa de disipación de energía del chorro dada una velocidad"
+" de flujo ascendente de 1,2 mm/s y 1,6 mm/s. Los resultados mostrados se "
+"promedian sobre 2 tiempos de residencia."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:436
+msgid ""
+":numref:`figure_sed_performance_vs_jet_edr` suggests that the floc filter "
+"and plate settler system begins to fail for energy dissipation rates in "
+"excess of about 30 W/kg. At higher energy dissipation rates the settled "
+"water turbidity increased rapidly from about 1 mg/L at 30 W/kg to 45 mg/L at"
+" 1000 W/kg. If flocs from the floc filter were broken up such that the "
+"fragments had terminal velocities less than :math:`v_{z_{ff}}`, the "
+"supernatant concentration would increase. There was no indication of "
+"increasing supernatant concentration at 100 W/kg. This suggests that the "
+"performance deterioration began with the breakup of flocs from the "
+"flocculator rather than by breakup of flocs in the floc filter. The maximum "
+"energy dissipation rate occurs in the core of the jet and thus flocs from "
+"the floc filter that are being resuspended likely do not experience the "
+"maximum jet energy dissipation rate. This potentially explains why the "
+"supernatant solids concentration doesn't increase until the energy "
+"dissipation rate is even higher than where the settled water turbidity "
+"begins to increase."
+msgstr ""
+":numref:`figure_sed_performance_vs_jet_edr` sugiere que el sistema filtro de"
+" flóculos y placa sedimentadora comienza a fallar para tasas de disipación "
+"de energía superiores a unos 30 W/kg. A tasas de disipación de energía más "
+"altas, la turbidez agua sedimentada aumentó rápidamente de aproximadamente 1"
+" mg/L a 30 W/kg a 45 mg/L a 1000 W/kg. Si los flócs del filtro de flóculos "
+"se descomponían de modo que los fragmentos tuvieran velocidades terminales "
+"inferiores a :math:`v_{z_{ff}}`, la concentración de sobrenadante "
+"aumentaría. No había indicios de un aumento de la concentración de "
+"sobrenadante a 100 W/kg. Esto sugiere que el deterioro del rendimiento "
+"comenzó con la ruptura de flóclos del floculador en lugar de por la ruptura "
+"de flóclos en el filtro de flóculos. La tasa máxima de disipación de energía"
+" ocurre en el núcleo del chorro y, por tanto, los flocos de los filtro de "
+"flóculos que se están resuspendiendo probablemente no experimentan la tasa "
+"máxima de disipación de energía del chorro. Esto podría explicar por qué la "
+"concentración de sólidos sobrenadantes no aumenta hasta que la tasa de "
+"disipación de energía es incluso mayor que cuando comienza a aumentar la "
+"turbidez agua sedimentada ."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:438
+msgid ""
+"At 1000 W/kg the supernatant concentration increases to about 300 mg/L. This"
+" suggests that this very high energy dissipation rate was sufficient to "
+"begin breaking up flocs from the floc filter."
+msgstr ""
+"A 1000 W/kg la concentración de sobrenadante aumenta hasta unos 300 mg/L. "
+"Esto sugiere que esta tasa de disipación de energía tan alta fue suficiente "
+"para comenzar a descomponer los floques del filtro de flóculos."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:440
+msgid ""
+"The maximum energy dissipation rate that has a low settled water solids "
+"concentration (30 W/kg) can be converted into the corresponding *maximum* "
+"velocity gradient using :eq:`G_Camp_Stein` to obtain 5500 Hz (assuming a "
+"water temperature of 21°C)."
+msgstr ""
+"La tasa máxima de disipación de energía que tiene una baja concentración de "
+"sólidos agua sedimentada (30 W/kg) puede convertirse en el gradiente de "
+"velocidad *máximo* correspondiente usando :eq:`G_Camp_Stein` para obtener "
+"5500 Hz (suponiendo una temperatura del agua de 21°C)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:442
+msgid ""
+"Garland's experiment with the result of floc breakup in the jet reverser is "
+"consistent with several hypotheses."
+msgstr ""
+"El experimento de Garland con el resultado de la ruptura de flóculo en el "
+"inversor del chorro es coherente con varias hipótesis."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:444
+msgid ""
+"The bonds holding flocs together are likely strong (order 6 nN). It is not "
+"yet clear what the origin of the bonds is. Van der Waals forces may be of "
+"similar magnitude, but they would also apply to water molecules and thus "
+"there wouldn't be a mechanism for the coagulant to displace water molecules "
+"between approaching surfaces. For example, the gecko adhesion to surfaces is"
+" reduced by a factor of 40 when the surface is wet (`Stark et al., 2012 "
+"<https://doi.org/10.1242/jeb.070912>`_). Thus a force that is stronger than "
+"any bonds between water molecules and the surfaces must be responsible for "
+"joining coagulant nanoparticles and the particles present in the raw water. "
+"One likely candidate is covalent bonds."
+msgstr ""
+"Los enlaces que mantienen unidos los flócs probablemente sean fuertes (orden"
+" de 6 nN). Aún no está claro cuál es el origen de los enlaces. Las fuerzas "
+"de van der Waals pueden tener una magnitud similar, pero también se "
+"aplicarían a moléculas de agua y, por tanto, no existiría un mecanismo para "
+"que el coagulante desplazara las moléculas de agua entre superficies que se "
+"acercan. Por ejemplo, la adhesión del geco a las superficies se reduce por "
+"un factor de 40 cuando la superficie está húmeda (`Stark et al., 2012 "
+"<https://doi.org/10.1242/jeb.070912>`_). Así, una fuerza que sea más fuerte "
+"que cualquier enlace entre moléculas de agua y superficies debe ser "
+"responsable de unir nanopartículas coagulantes y las partículas presentes en"
+" el agua cruda. Un candidato probable son los enlaces covalentes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:445
+msgid ""
+"Flocs are broken where there is the largest force per bond. This would "
+"logically occur at the connection between the two subunits that form the "
+"floc. Thus it is possible that flocs break without producing tiny fragments."
+msgstr ""
+"Los flócs se rompen donde hay mayor fuerza por enlace. Esto ocurriría "
+"lógicamente en la conexión entre las dos subunidades que forman el flóc. Por"
+" tanto, es posible que los flócs se rompan sin producir fragmentos "
+"diminutos."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:446
+msgid ""
+"The fluid shear stress determines the force acting to tear a floc apart. "
+"Thus given a constant energy dissipation rate, the force acting to break up "
+"flocs will increase as the temperature drops (see Equation "
+":eq:`fluid_shear_stress`)"
+msgstr ""
+"La tensión cortante del fluido determina la fuerza que actúa para desgarrar "
+"un flóculo. Así, dada una tasa constante de disipación de energía, la fuerza"
+" que actúa para romper los flócs aumentará a medida que la temperatura "
+"disminuye (véase la Ecuación :eq:`fluid_shear_stress`)"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:447
+msgid ""
+"Settled water turbidity increases when the broken floc terminal velocity is "
+"less than the capture velocity of the plate settlers."
+msgstr ""
+"agua sedimentada turbidez aumenta cuando la velocidad terminal del floc roto"
+" es menor que la velocidad de captura de los asentadores de placas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:449
+msgid ""
+"The maximum size of the flocs after exposure to the shear stress in the core"
+" of the jet reverser is given by Equation :eq:`d_floc_shear_stress`. The "
+"shear stress can be replaced by the velocity gradient by substituting "
+"Equation :eq:`fluid_shear_stress` for the fluid shear."
+msgstr ""
+"El tamaño máximo de los flócs tras la exposición a la tensión cortante en el"
+" núcleo del inversor del chorro está dado por la ecuación "
+":eq:`d_floc_shear_stress`. La tensión cortante puede sustituirse por el "
+"gradiente de velocidad sustituyendo la cizalladura del fluido por la "
+"ecuación :eq:`fluid_shear_stress` ."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:451
+msgid ""
+" D_{floc_{max}} =\n"
+" \\sqrt{\\frac{4F_{bond}}{3 \\pi \\mu G_{max}}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:457
+msgid ""
+"Equation :eq:`d_floc_G` must be based on the maximum velocity gradient in a "
+"reactor and not the average value. This is particularly important for "
+"flocculators that are not designed to have uniform velocity gradients."
+msgstr ""
+"La ecuación :eq:`d_floc_G` debe basarse en el gradiente máximo de velocidad "
+"en un reactor y no en el valor medio. Esto es especialmente importante para "
+"floculadores que no están diseñados para tener gradientes de velocidad "
+"uniformes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:459
+msgid ""
+"G_{max} =\n"
+"\\frac{4F_{bond}}{3 \\pi \\mu D_{floc_{max}}^2}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:472
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:483
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:531
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:609
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:622
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:727
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:776
+msgid "internal figure"
+msgstr "Figura interna"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:472
+msgid ""
+"The maximum velocity gradient that flocs can withstand decreases rapidly as "
+"flocs increase in diameter."
+msgstr ""
+"El gradiente máximo de velocidad que pueden soportar los flócs disminuye "
+"rápidamente a medida que los flóculos aumentan de diámetro."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:474
+msgid ""
+"The maximum floc diameter is influenced by temperature because as the "
+"viscosity increases the shear force exerted on the floc increases. Equation "
+":eq:`d_floc_G` shows this dependency and illustrates one of the reasons (see"
+" :numref:`figure_DmaxofGandTemp`) why temperature is a critical parameter in"
+" the design of drinking water treatment plants."
+msgstr ""
+"El diámetro máximo del flóculo está influenciado por la temperatura porque, "
+"a medida que aumenta la viscosidad, aumenta la fuerza de corte ejercida "
+"sobre el flóc. La ecuación :eq:`d_floc_G` muestra esta dependencia e ilustra"
+" una de las razones (véase :numref:`figure_DmaxofGandTemp`) por las que la "
+"temperatura es un parámetro crítico en el diseño de plantas de tratamiento "
+"de agua beber."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:483
+msgid ""
+"The maximum floc size at a maximum velocity gradient of 100 Hz increases "
+"with temperature due to a decrease in the viscosity."
+msgstr ""
+"El tamaño máximo del flóculo con un gradiente máximo de velocidad de 100 Hz "
+"aumenta con la temperatura debido a una disminución de la viscosidad."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:486
+msgid "Linking Jet Reverser Velocity Gradient and Capture Velocity"
+msgstr ""
+"Enlace del gradiente de velocidad del inversor a chorro y velocidad de "
+"captura"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:488
+msgid ""
+"The coagulant bond strength provides a link between diffuser-jet reverser "
+"design and plate settler design."
+msgstr ""
+"La resistencia de los enlaces coagulantes proporciona un vínculo entre el "
+"diseño difusor-chorro inversor y el diseño placa sedimentadora ."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:490
+msgid ""
+"We can substitute Equation :eq:`d_floc_G` into Equation :eq:`vt_of_floc` and"
+" solve for the maximum jet reverser velocity gradient that will produce "
+"flocs that are large enough to be captured by the clarifier. The capture "
+"velocity of the clarifier must be equal to or smaller than the floc terminal"
+" velocity to ensure capture of the floc."
+msgstr ""
+"Podemos sustituir la ecuación :eq:`d_floc_G` en la ecuación :eq:`vt_of_floc`"
+" y resolver el gradiente máximo de velocidad del inversor de chorro que "
+"producirá flócs lo suficientemente grandes como para ser capturados por el "
+"clarificador. La velocidad de captura del clarificador debe ser igual o "
+"menor que la velocidad terminal del flóculo para asegurar la captura del "
+"flóculo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:492
+msgid ""
+"v_c = \\frac{D_{cp}^2g}{18\\nu}\\frac{\\rho_{cp} -    "
+"\\rho_{H_2O}}{\\rho_{H_2O}} \\left( \\frac{  \\sqrt{\\frac{4F_{bond}}{3 \\pi"
+" \\mu G_{max}}}}{D_{cp}} \\right) ^{\\Pi_{fractal}-1}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:497
+msgid ""
+"Solve Equation :eq:`vc_of_G` for the maximum velocity gradient "
+":math:`G_{max}`."
+msgstr ""
+"Resuelve la ecuación :eq:`vc_of_G` para el gradiente máximo de velocidad "
+":math:`G_{max}`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:499
+msgid ""
+" G_{max} = \\frac{4F_{bond}}{3 \\pi \\nu \\rho_{H_2O} D_{cp}^2}\\left(  "
+"\\frac{D_{cp}^2g}{18 v_c \\nu} \\frac{\\rho_{cp} - "
+"\\rho_{H_2O}}{\\rho_{H_2O}}\\right) ^\\frac{2}{\\Pi_{fractal}-1}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:504
+msgid ""
+"Equation :eq:`G_of_vc_and_fractal` can be simplified by making the "
+"assumption that the floc fractal dimension exiting the flocculator is "
+"approximately 2."
+msgstr ""
+"La ecuación :eq:`G_of_vc_and_fractal` puede simplificarse asumiendo que la "
+"dimensión fractal de flóculo que sale del floculador es aproximadamente 2."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:506
+msgid ""
+" G_{max} \\approx  \\frac{4F_{bond}}{3 \\pi \\nu^3 \\rho_{H_2O}}\\left(  "
+"\\frac{g D_{cp}}{18 v_c} \\frac{\\rho_{cp} - "
+"\\rho_{H_2O}}{\\rho_{H_2O}}\\right) ^2"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:511
+msgid ""
+"It would be helpful to develop a design guideline based on Equation "
+":eq:`G_of_vc_and_fractal_of_2`. We place the parameters that represent "
+"properties of the core particle on the right hand side. The left hand side "
+"of the equation is a combination of design parameters, :math:`G_{max}` and "
+":math:`v_c`, as well as the water viscosity that is a function of "
+"temperature.  The right hand side of the equation represents a combination "
+"of the bond strength, the density of the core particle, and the diameter of "
+"the core particle."
+msgstr ""
+"Sería útil desarrollar una guía de diseño basada en la Ecuación "
+":eq:`G_of_vc_and_fractal_of_2`. Colocamos los parámetros que representan las"
+" propiedades de la partícula del núcleo en el lado derecho. El lado "
+"izquierdo de la ecuación es una combinación de parámetros de diseño, "
+":math:`G_{max}` y :math:`v_c`, así como la viscosidad del agua, que es "
+"función de la temperatura. El lado derecho de la ecuación representa una "
+"combinación de la resistencia del enlace, la densidad de la partícula del "
+"núcleo y el diámetro de la partícula del núcleo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:513
+msgid ""
+"\\xi_{breakup} = G_{max} \\nu^3 v_c^2 \\approx   \\frac{4F_{bond}}{3 \\pi  "
+"\\rho_{H_2O}}\\left(  \\frac{ D_{cp} g}{18} \\frac{\\rho_{cp} - "
+"\\rho_{H_2O}}{\\rho_{H_2O}}\\right) ^2"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:518
+msgid ""
+"Given the experimental conditions used by Casey Garland where performance "
+"began to decline, the value of left side of Equation "
+":eq:`G_of_vc_and_floc_props`, :math:`\\xi_{breakup}`, is  :math:`50 \\cdot "
+"\\frac{mm^8}{s^6}`, :math:`\\left(50 \\cdot  "
+"10^{-24}\\frac{m^8}{s^6}\\right)`, for a kaolin suspension. "
+":math:`\\xi_{breakup}` represent an upper limit on the maximum velocity "
+"gradient to prevent floc breakup and plate settler capture velocity design "
+"parameters and is a combination of properties of the core particles. The "
+"expectation is that :math:`\\xi_{breakup}` will be less than 50 "
+":math:`\\frac{mm^8}{s^6}` for core particles that include dissolved organic "
+"matter. It is also expected that the density of the core particles decreases"
+" at high coagulant doses and this may explain the reduction in performance "
+"at high coagulant doses (see :numref:`figure_PennockFig3`)."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:520
+msgid ""
+"Equation :eq:`G_of_vc_and_floc_props` reveals the key relationships between "
+"jet reverser and plate settler design. The jet reverser velocity gradient "
+"must decrease in proportion to the square of the plate settler capture "
+"velocity. If AguaClara were to increase the plate settler capture velocity "
+"from 0.12 to 0.3 mm/s the jet reverser velocity gradient would need to "
+"decrease by a factor of 6.25. The dramatic effect of temperature is revealed"
+" as well. It is well known that flocculation and sedimentation processes "
+"perform poorly at low temperatures. The kinematic viscosity of water "
+"approximately doubles as the temperature drops from 20°C to 0°C. That "
+"results in a need to decrease the velocity gradient by a factor of 8! "
+"Finally, the dissolved organic matter and inorganic particles together "
+"determine the density and diameter of the core particles that make up the "
+"flocs. Organic matter reduces the density of the core particles and that "
+"requires a lower velocity gradient. The worst combination of parameters is a"
+" cold water with a high dissolved organic concentration and a low "
+"concentration of inorganic particles."
+msgstr ""
+"La ecuación :eq:`G_of_vc_and_floc_props` revela las relaciones clave entre "
+"el inversor de chorro y el diseño placa sedimentadora . El gradiente de "
+"velocidad del inversor de chorro debe disminuir en proporción al cuadrado de"
+" la velocidad de captura placa sedimentadora . Si AguaClara aumentara la "
+"velocidad de captura placa sedimentadora de 0,12 a 0,3 mm/s, el gradiente de"
+" velocidad del inversor de chorro tendría que disminuir por un factor de "
+"6,25. También se revela el efecto dramático de la temperatura. Es bien "
+"sabido que los procesos de floculación y sedimentación funcionan mal a bajas"
+" temperaturas. La viscosidad cinemática del agua se duplica aproximadamente "
+"cuando la temperatura baja de 20°C a 0°C. ¡Esto implica disminuir el "
+"gradiente de velocidad por un factor de 8! Finalmente, la materia orgánica "
+"disuelta y las partículas inorgánicas determinan juntas la densidad y el "
+"diámetro de las partículas del núcleo que forman los flóculos. La materia "
+"orgánica reduce la densidad de las partículas del núcleo y eso requiere un "
+"gradiente de velocidad menor. La peor combinación de parámetros es un agua "
+"fría con una alta concentración de sustancias orgánicas disueltas y una baja"
+" concentración de partículas inorgánicas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:522
+msgid ""
+"The effect of water temperature and plate settler capture velocity on the "
+"maximum jet reverser velocity gradient for kaolin suspensions are shown in "
+":numref:`figure_Gmax_of_T_and_vc` (`see Flocs, Fractals, and Forces Colab "
+"Worksheet <https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=r_wm34KQ8jm4&line=3&uniqifier=1>`_)."
+msgstr ""
+"El efecto de la temperatura del agua y la velocidad de captura placa "
+"sedimentadora sobre el gradiente máximo de velocidad del inversor de chorro "
+"para suspensiones de caolín se muestran en :numref:`figure_Gmax_of_T_and_vc`"
+" (`véase la hoja de cálculo de Flocs, Fractales y Fuerzas Colab "
+"<https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=r_wm34KQ8jm4&line=3&uniqifier=1>`_)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:531
+msgid ""
+"The maximum average velocity gradient, :math:`\\tilde{G}`, that can be used "
+"in the jet reverser for treating kaolin suspensions. The velocity gradient "
+"decreases rapidly as the water temperature decreases because the higher "
+"viscosity results in more shear force being applied to the floc and reduces "
+"their terminal velocity in the plate settlers."
+msgstr ""
+"El gradiente medio máximo de velocidad, :math:`\\tilde{G}`, que puede usarse"
+" en el inversor de chorro para tratar suspensiones de caolín. El gradiente "
+"de velocidad disminuye rápidamente a medida que baja la temperatura del agua"
+" porque la mayor viscosidad resulta en la aplicación de mayor fuerza de "
+"corte sobre el flóculo y reduce su velocidad terminal en los sedimentadores "
+"de placas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:533
+msgid ""
+"The model results (Equation :eq:`G_of_vc_and_fractal_of_2`) shown in "
+":numref:`figure_Gmax_of_T_and_vc` provides insight into the dramatic "
+"reduction in velocity gradient required for effectively cold weather "
+"operation. Design for cold temperatures will require lower velocity "
+"gradients in the flow path from the flocculator into the floc filter. This "
+"includes flow expansions in channels, pipes, diffusers, and in the jet "
+"reverser."
+msgstr ""
+"Los resultados del modelo (Ecuación :eq:`G_of_vc_and_fractal_of_2`) "
+"mostrados en :numref:`figure_Gmax_of_T_and_vc` proporcionan una visión sobre"
+" la reducción drástica del gradiente de velocidad necesaria para un "
+"funcionamiento eficaz en clima frío. El diseño para temperaturas frías "
+"requerirá gradientes de velocidad más bajos en la trayectoria del flujo "
+"desde el floculador hasta el filtro de flóculos. Esto incluye expansiones de"
+" flujo en canales, tuberías, difusores y en el inversor de chorro."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:535
+msgid ""
+"The effects of the core particle density on the velocity gradient is also "
+"dramatic especially as the particle density approaches the density of water."
+" Water sources that have high concentrations of dissolved organics require "
+"pilot testing to ensure that flocs with a reasonable terminal velocity can "
+"be produced. If the buoyant density of the core particles is a factor of 5 "
+"lower than the buoyant density of kaolin clay the value of "
+":math:`\\xi_{breakup}` will decrease by a factor of 25 (see Equation "
+":eq:`G_of_vc_and_floc_props`). This will require a 25 fold reduction in the "
+"value of :math:`G_{max}`."
+msgstr ""
+"Los efectos de la densidad de partículas en núcleo sobre el gradiente de "
+"velocidad también son dramáticos, especialmente cuando la densidad de "
+"partículas se acerca a la densidad del agua. Las fuentes de agua con altas "
+"concentraciones de compuestos orgánicos disueltos requieren pruebas piloto "
+"para asegurar que se puedan producir flócs con una velocidad terminal "
+"razonable. Si la densidad de flotabilidad de las partículas del núcleo es un"
+" factor 5 menor que la densidad de flotabilidad de la arcilla caulínica, el "
+"valor de :math:`\\xi_{breakup}` disminuirá por un factor de 25 (véase la "
+"Ecuación :eq:`G_of_vc_and_floc_props`). Esto requerirá una reducción de 25 "
+"veces en el valor de :math:`G_{max}`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:537
+msgid ""
+":numref:`figure_Gmax_of_T_and_vc` suggests that AguaClara should limit the "
+"flocculation velocity gradient to 100 Hz for raw waters with a minimum "
+"temperature of 5°C. The velocity gradient may need to be lowered or the "
+"capture velocity may need to be reduced for raw water with high "
+"concentrations of dissolved organic matter. More research is required to "
+"characterize the effect of dissolved organic matter on the core particles "
+"that make up the flocs."
+msgstr ""
+":numref:`figure_Gmax_of_T_and_vc` sugiere que AguaClara debería limitar el "
+"gradiente de velocidad de floculación a 100 Hz para aguas crudas con una "
+"temperatura mínima de 5°C. Puede que sea necesario reducir el gradiente de "
+"velocidad o la de captura para agua cruda con altas concentraciones de "
+"materia orgánica disuelta. Se requiere más investigación para caracterizar "
+"el efecto de la materia orgánica disuelta sobre las partículas del núcleo "
+"que forman los flócs."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:539
+msgid ""
+":eq:`G_of_vc_and_floc_props` also provides a window into the coagulant bond "
+"strength."
+msgstr ""
+":eq:`G_of_vc_and_floc_props` también ofrece una ventana a la fuerza de unión"
+" coagulante."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:541
+msgid ""
+"F_{bond} \\approx \\frac{3}{4} \\pi  \\rho_{H_2O} \\xi_{breakup} \\left(  "
+"\\frac{18}{ D_{cp} g} \\frac{\\rho_{H_2O}}{\\rho_{cp} - "
+"\\rho_{H_2O}}\\right) ^2"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:546
+msgid "Given"
+msgstr "Dado"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:548
+msgid ":math:`D_{cp} = 5 \\mu m`"
+msgstr ":math:`D_{cp} = 5 \\mu m`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:549
+msgid ":math:`\\rho_{cp} = 2650 \\frac{kg}{m^3}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:550
+msgid ":math:`\\xi_{breakup} = 50 \\cdot \\frac{mm^8}{s^6}`"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:552
+msgid ""
+"The value of :math:`F_{bond}` was calculated to be :math:`F_{bond} = 6 nN` "
+"(see `Flocs, Fractals and Forces Colab worksheet for estimate of the bond "
+"force <https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=nEZGIfnHFRKo&line=3&uniqifier=1>`_)"
+" based on the measurements of `Garland, 2016 "
+"<https://doi.org/10.1089/ees.2015.0314>`_."
+msgstr ""
+"El valor de :math:`F_{bond}` se calculó como :math:`F_{bond} = 6 nN` (véase "
+"`hoja de cálculo Flocs, Fractales and Forces Colab para estimar la fuerza de"
+" unión <https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb#scrollTo=nEZGIfnHFRKo&line=3&uniqifier=1>`_)"
+" basándose en las mediciones de `Garland, 2016 "
+"<https://doi.org/10.1089/ees.2015.0314>`_."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:554
+msgid ""
+"Note that further work is required to better estimate the density of a clay "
+"particle with coagulant nanoparticles attached. The coagulant nanoparticles "
+"effectively increase the clay plate thickness by two times the diameter of "
+"the coagulant nanoparticles. That extra thickness is composed of water and "
+"the coagulant nanoparticles and thus has a much lower density than the clay "
+"particle."
+msgstr ""
+"Tenga en cuenta que se requiere trabajo adicional para estimar mejor la "
+"densidad de una partícula de arcilla con nanopartículas coagulantes "
+"adheridas. Las nanopartículas coagulantes aumentan efectivamente el grosor "
+"de la placa de arcilla en el doble de diámetro de las nanopartículas "
+"coagulantes. Ese espesor extra está compuesto por agua y las nanopartículas "
+"coagulantes y, por tanto, tiene una densidad mucho menor que la partícula de"
+" arcilla."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:556
+msgid ""
+"Dissolved organic matter will reduce the density of the core floc particles."
+" The core particle diameter will likely also increase because it will have "
+"more attached coagulant nanoparticles that are in turn partially coated with"
+" organic molecules. The net effect on :math:`\\xi_{breakup}` has not yet "
+"been characterized, but given that dissolved organics have a density close "
+"to that of water it is possible that the buoyant density multiplied by the "
+"diameter would be reduced by a factor of two. From Equation "
+":eq:`G_of_vc_and_floc_props` this would result in a four fold reduction in "
+":math:`\\xi_{breakup}`. The maximum velocity gradient for delivering flocs "
+"to the floc filter would thus be about 250 Hz at 5°C."
+msgstr ""
+"La materia orgánica disuelta reducirá la densidad de las partículas floc "
+"centrales. El diámetro de las partículas centrales probablemente también "
+"aumentará porque tendrá más nanopartículas coagulantes adheridas que, a su "
+"vez, estarán parcialmente recubiertas con moléculas orgánicas. El efecto "
+"neto sobre :math:`\\xi_{breakup}` aún no se ha caracterizado, pero dado que "
+"los orgánicos disueltos tienen una densidad cercana a la del agua, es "
+"posible que la densidad de flotabilidad multiplicada por el diámetro se "
+"reduzca por un factor de dos. Según la ecuación :eq:`G_of_vc_and_floc_props`"
+" esto resultaría en una reducción de cuatro veces en :math:`\\xi_{breakup}`."
+" El gradiente máximo de velocidad para entregar flócs al filtro de flóculos "
+"sería así de unos 250 Hz a 5°C."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:558
+msgid ""
+"The value of :math:`\\xi_{breakup}` increases rapidly as a function of the "
+"flow rate through the plant. Thus if a plant is designed with a value of "
+":math:`\\xi_{breakup}` that is too high for the core particles that are "
+"being treated, the plant performance will deteriorate rapidly as the flow "
+"rate is increased. From :eq:`flocGeoG` the velocity gradient increases with "
+"flow rate to the :math:`\\frac{3}{2}` power. The capture velocity is "
+"proportional to the flow rate and thus from :eq:`G_of_vc_and_floc_props` we "
+"have :math:`\\xi_{breakup} \\propto Q^{\\frac{7}{2}}`. If settled water "
+"turbidity increases rapidly as the plant flow rate is increased it is "
+"possible that the velocity gradient needs to be reduced in the flow passages"
+" between the flocculator and floc filter. Of course, decreasing the plate "
+"settler capture velocity may also be needed, but making that change in an "
+"existing plant is a more substantial upgrade."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:560
+msgid ""
+"In the previous discussion we assumed that the highest velocity gradient in "
+"the inlet to the floc filter is in the jet reverser because it has the "
+"smallest dimension of flow. Nonetheless, it is important to check the inlet "
+"into the inlet manifold and the elbow in the inlet manifold to ensure that "
+"those flow expansions don't result in higher velocity gradients. Equation "
+":eq:`D_pipe_min_of_K_and_jet_G_max` can be used to check the design of the "
+"inlet manifold."
+msgstr ""
+"En la discusión anterior asumimos que el gradiente de velocidad más alto en "
+"la entrada hacia la filtro de flóculos está en el inversor de chorro porque "
+"tiene la menor dimensión de flujo. No obstante, es importante comprobar la "
+"entrada en la manifold de entrada y el codo en la manifold de entrada para "
+"asegurarse de que esas expansiones de flujo no resulten en gradientes de "
+"velocidad más altos. La ecuación :eq:`D_pipe_min_of_K_and_jet_G_max` puede "
+"usarse para comprobar el diseño de la manifold de entrada."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:563
+msgid "Force Required for Attachment of Two Flocs"
+msgstr "Fuerza necesaria para la fijación de dos flóculos"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:565
+msgid ""
+"The velocity gradient in the jet reverser that causes flocs to break are "
+"many times larger than the velocity gradients that are used in flocculators "
+"to bring flocs together. The physics of these two situations are quite "
+"different. In the jet reverser, fluid shear is rotating the floc and "
+"exerting a moment in opposite directions on two halves of the floc. In the "
+"flocculator the velocity gradient is carrying flocs past each other and "
+"causing them to intersect. At the moment of collision the relative "
+"velocities must suddenly change if the coagulant nanoparticle bond that is "
+"connecting the two flocs is to remain intact. The deceleration force must be"
+" applied very quickly because the bond only acts over a very short distance."
+" This suggests that the velocity gradient for successful attachment may be "
+"much lower than the velocity gradient that causes floc breakup."
+msgstr ""
+"El gradiente de velocidad en el inversor de chorro que provoca la ruptura de"
+" flóculos es muchas veces mayor que los gradientes de velocidad que se "
+"utilizan en floculadores para unirlos. La física de estas dos situaciones es"
+" bastante diferente. En el inversor de chorro, el cizalladura de fluido está"
+" rotando el flóculum y ejerciendo un momento en direcciones opuestas sobre "
+"dos mitades del flóculo. En el floculador, el gradiente de velocidad hace "
+"que los flócs pasen junto a sí y hacen que se intersequen. En el momento de "
+"la colisión, las velocidades relativas deben cambiar repentinamente si el "
+"enlace de nanopartículas coagulantes que conecta los dos flócs quiere "
+"permanecer intacto. La fuerza de desaceleración debe aplicarse muy "
+"rápidamente porque el enlace solo actúa a lo largo de una distancia muy "
+"corta. Esto sugiere que el gradiente de velocidad para una unión exitosa "
+"puede ser mucho menor que el gradiente de velocidad que provoca la ruptura "
+"del flóc."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:567
+msgid ""
+"The attachment of two flocs requires that the flocs collide at a point where"
+" there is a coagulant nanoparticle and the bond must be strong enough to "
+"brake the relative motion of the two flocs. There are many possible "
+"collision paths and thus it isn't clear how to describe the total energy "
+"required to stop the relative motion. The critical force applied to the "
+"bonds could occur at the instance when the two flocs have a single bond "
+"connection. At that instance the two flocs are able to continue to rotate "
+"relative to each other around the single bond that is connecting them. As "
+"the two flocs rotate they eventually collide at a second point and make a "
+"second bond. With two active bonds the two flocs only have one degree of "
+"freedom to rotate relative to each other. As the two flocs rotate in the one"
+" free direction they will make contact at a third location and possibly "
+"create a third bond."
+msgstr ""
+"La unión de dos flócs requiere que los flócs colisionen en un punto donde "
+"hay una nanopartícula coagulante y el enlace debe ser lo suficientemente "
+"fuerte para romper el movimiento relativo de los dos flócs. Existen muchos "
+"posibles caminos de colisión y, por tanto, no está claro cómo describir la "
+"energía total necesaria para detener el movimiento relativo. La fuerza "
+"crítica aplicada a los enlaces podría producirse en el momento en que los "
+"dos flócs tienen una única conexión de enlace. En ese caso, los dos flócs "
+"pueden seguir girando uno respecto al otro alrededor del enlace único que "
+"los conecta. A medida que los dos flócs giran, finalmente colisionan en un "
+"segundo punto y forman un segundo enlace. Con dos enlaces activos, los dos "
+"flócs solo tienen un grado de libertad para girar uno respecto al otro. A "
+"medida que los dos flócs giran en la única dirección libre, harán contacto "
+"en una tercera ubicación y posiblemente crearán un tercer enlace."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:569
+msgid ""
+"As an attempt to characterize this braking energy we assume that the bond "
+"that experiences the greatest force is the first bond. Note that this "
+"assumption could easily be wrong and it is likely that the forces involved "
+"are not so different between the first and second bonds because in all cases"
+" the relative motion of the two flocs must be stopped. In a shear flow the "
+"flocs are both rotating and translating relative to each other. The kinetic "
+"energy of both motions are directly proportional to the velocity gradient. "
+"To simplify the analysis we take the kinetic energy associated with the "
+"relative translation velocity and we assume that the first bond must stop "
+"that relative motion."
+msgstr ""
+"Como intento de caracterizar esta energía de frenado, asumimos que el enlace"
+" que experimenta la mayor fuerza es el primer enlace. Cabe señalar que esta "
+"suposición podría ser fácilmente errónea y es probable que las fuerzas "
+"involucradas no sean tan diferentes entre el primer y el segundo enlace, ya "
+"que en todos los casos el movimiento relativo de los dos flócs debe "
+"detenerse. En un flujo de cizalladura, los flócs giran y se trasladan entre "
+"sí. La energía cinética de ambos movimientos es directamente proporcional al"
+" gradiente de velocidad. Para simplificar el análisis, tomamos la energía "
+"cinética asociada a la velocidad de traslación relativa y asumimos que el "
+"primer enlace debe detener ese movimiento relativo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:571
+msgid ""
+"The braking energy is equal to the braking force times the braking distance."
+" Thus we need a characteristic braking distance over which the bond can act."
+" If two clay plates are parallel and separated by the diameter of the "
+"coagulant nanoparticle, then the two plates could continue translating "
+"relative to each other by having the coagulant nanoparticle roll between the"
+" two plates and in that case the braking distance would scale with the "
+"length of the clay plates. A more likely scenario is that the two plates are"
+" not parallel and thus the plates would act like levers that pull against "
+"the coagulant nanoparticle. It is possible that the coagulant nanoparticle "
+"can deform slightly or that it could slide on a clay surface to maintain "
+"contact over a short distance. It is also possible that the bond will break "
+"if there is relative motion of a distance comparable to the bond length. To "
+"simplify the analysis we assume that the bond energy must exceed the kinetic"
+" energy of the relative velocity."
+msgstr ""
+"La energía de frenado es igual a la fuerza de frenado multiplicada por la "
+"distancia de frenado. Por tanto, necesitamos una distancia de frenado "
+"característica sobre la cual pueda actuar el enlace. Si dos placas de "
+"arcilla son paralelas y están separadas por el diámetro de la nanopartícula "
+"coagulante, entonces las dos placas podrían seguir translacionándose entre "
+"sí haciendo que la nanopartícula coagulante ruede entre las dos placas y, en"
+" ese caso, la distancia de frenado escalaría con la longitud de las placas "
+"de arcilla. Un escenario más probable es que las dos placas no sean "
+"paralelas y, por tanto, las placas actúen como palancas que tiran de la "
+"nanopartícula coagulante. Es posible que la nanopartícula coagulante pueda "
+"deformarse ligeramente o que se deslice sobre una superficie de arcilla para"
+" mantener el contacto a corto plazo. También es posible que el enlace se "
+"rompa si hay un movimiento relativo de una distancia comparable a la "
+"longitud del enlace. Para simplificar el análisis, asumimos que la energía "
+"del enlace debe superar la energía cinética de la velocidad relativa."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:573
+msgid ""
+"If we assume a single covalent bond between a hydrogen in the coagulant "
+"nanoparticle and an oxygen in the clay it is expected to have a `bond energy"
+" of 464 kJ/mol <https://science.jrank.org/pages/984/Bond-Energy.html>`_ and "
+"a bond length of 96 pm. The bond energy is calculated by dividing by "
+"Avogadro's number to obtain 0.77 aJ. The force for a single bond can be "
+"obtained by dividing the bond energy by the bond length to obtain 8 nN. This"
+" estimate is similar to the estimate of 6 nN based on the floc breakup "
+"analysis for the velocity gradient in the jet reverser."
+msgstr ""
+"Si asumimos un único enlace covalente entre un hidrógeno en la nanopartícula"
+" coagulante y un oxígeno en la arcilla, se espera que tenga una energía de "
+"enlace `de 464 kJ/mol <https://science.jrank.org/pages/984/Bond-"
+"Energy.html>`_ y una longitud de enlace de 96 pm. La energía de enlace se "
+"calcula dividiendo por el número de Avogadro para obtener 0,77 aJ. La fuerza"
+" para un enlace único puede obtenerse dividiendo la energía del enlace por "
+"la longitud del enlace para obtener 8 nN. Esta estimación es similar a la "
+"estimación de 6 nN basada en el análisis de ruptura de floc para el "
+"gradiente de velocidad en el inversor del chorro."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:575
+msgid ""
+"We hypothesize that the bond energy must be greater than the braking energy "
+"to achieve attachment. The kinetic energy due to the relative translational "
+"velocity of two identical flocs separated by a distance equal to their "
+"diameters is obtained from :math:`\\frac{mv^2}{4}` where v is the relative "
+"velocity and m is the mass of one of the flocs. This assumes conservation of"
+" momentum in a perfectly inelastic collision between the two flocs."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:577
+msgid ""
+"  E_{K_{floc}} = \\frac{\\rho_{floc} \\pi D_{floc}^3}{6} \\frac{\\left(G "
+"D_{floc}\\right)^2}{4} =  \\frac{\\rho_{floc} \\pi D_{floc}^5 G^2}{24}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:582
+msgid ""
+"Substituting the floc density from Equation :eq:`floc_density` (assuming a "
+"fractal dimension of 2) into Equation :eq:`floc_braking_energy_1` we obtain "
+"the required braking energy as a function of floc size."
+msgstr ""
+"Sustituyendo la densidad de flóculo de la Ecuación :eq:`floc_density` "
+"(asumiendo una dimensión fractal de 2) en la Ecuación "
+":eq:`floc_braking_energy_1` obtenemos la energía de frenado requerida en "
+"función del tamaño del flóculo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:584
+msgid ""
+"  E_{K_{floc}} = \\left[ \\rho_{H_2O} + \\left( \\rho_{cp}  - \\rho_{H_2O} "
+"\\right) \\left(\\frac{D_{cp}}{D_{floc}}\\right) \\right]  \\frac{ \\pi "
+"D_{floc}^5 G^2}{24}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:589
+msgid ""
+"The flocs created in a flocculator must have a terminal velocity greater "
+"than the capture velocity of the plate settlers. We can add this constraint "
+"to Equation :eq:`floc_braking_energy` by substituting Equation "
+":eq:`D_of_vt_Pi_fractal_of_2` to eliminate the :math:`D_{floc}`. However, "
+"the parameter, :math:`D_{floc}`, does not have the same meaning in both "
+"equations. In the terminal velocity equation (:eq:`D_of_vt_Pi_fractal_of_2`)"
+" the :math:`D_{floc}` refers to the combined floc. In the braking energy "
+"equation (:eq:`floc_braking_energy`) the :math:`D_{floc}` refers to one of "
+"the colliding flocs."
+msgstr ""
+"Los flócs creados en un floculador deben tener una velocidad terminal mayor "
+"que la velocidad de captura de los asentadores de placas. Podemos añadir "
+"esta restricción a la Ecuación :eq:`floc_braking_energy` sustituyendo la "
+"ecuación :eq:`D_of_vt_Pi_fractal_of_2` para eliminar el :math:`D_{floc}`. "
+"Sin embargo, el parámetro :math:`D_{floc}`, no tiene el mismo significado en"
+" ambas ecuaciones. En la ecuación de velocidad terminal "
+"(:eq:`D_of_vt_Pi_fractal_of_2`), el :math:`D_{floc}` se refiere al flóculo "
+"combinado. En la ecuación de energía de frenado (:eq:`floc_braking_energy`),"
+" el :math:`D_{floc}` se refiere a uno de los flócs colisionantes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:591
+msgid ""
+"Each of the flocs that are colliding have half of the core particles that "
+"the combined floc will have. The ratio of the diameter of the colliding "
+"flocs to the diameter of the combined floc can be obtained from Equation "
+":eq:`D_floc_of_n_cp`. Given a fractal dimension of 2 the relationship "
+"between the resulting floc diameter and the constituent floc diameter is "
+":math:`\\sqrt{2}`."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:593
+msgid ""
+"\\frac{D_{floc}}{D_{subfloc}}\n"
+"= \\frac{ n_{cp}^\\frac{1}{\\Pi_{fractal}}}{ "
+"(0.5n_{cp})^\\frac{1}{\\Pi_{fractal}}}\n"
+"=\\sqrt{2}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:600
+msgid ""
+"The energy analysis of floc collisions (see "
+":numref:`figure_floc_braking_energy_of_G` and the `Colab Worksheet for "
+"analysis of floc collisions <https://colab.research.google.com/github"
+"/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_)"
+" suggests that a single bond of 0.77 aJ (464 kJ/mol) cannot adsorb the "
+"kinetic energy of one of the constituent flocs given the assumption of a "
+"core particle with diameter 5 :math:`\\mu m` and density of 2650 "
+":math:`\\frac{kg}{m^3}` and assuming that the constituent flocs are offset "
+"in the velocity gradient by a distance equal to their diameters. A "
+"successful collision could occur if much of the kinetic energy is "
+"transferred to the other floc through compression rather than through shear "
+"or tension. Flocs that are separated by less than their diameters would also"
+" have a lower relative velocity. The heterogeneity of the velocity gradients"
+" created by turbulence would also provide opportunities for low energy "
+"collisions that could be successful. Each of these effects (angle of "
+"contact, separation distance, local velocity gradient) suggests that the "
+"probability of a successful collision is reduced but does not go to zero as "
+"flocs grow in size."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:609
+msgid ""
+"The required braking energy for a floc collision that results in a floc that"
+" has a terminal velocity of 0.12 mm/s. The collision is the least favorable "
+"with only one bond acting to counteract all of the kinetic energy of one of "
+"the constituent flocs."
+msgstr ""
+"La energía de frenado requerida para una colisión de flóculo que resulta en "
+"un flóculum con una velocidad terminal de 0,12 mm/s. La colisión es la menos"
+" favorable, con solo un enlace actuando para contrarrestar toda la energía "
+"cinética de uno de los flócs constituyentes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:611
+msgid ""
+"The required energy increases rapidly as the temperature decreases because "
+"larger flocs are needed to achieve the same terminal velocity. This analysis"
+" suggests that velocity gradients should be reduced for low temperature "
+"operation or that the flocculator velocity gradient should be set based on "
+"the coldest operating temperature. Although not shown here, the braking "
+"energy required also increases rapidly for lower density flocs because the "
+"diameter of the floc must increase to achieve the terminal velocity required"
+" to be removed by the plate settlers."
+msgstr ""
+"La energía requerida aumenta rápidamente a medida que baja la temperatura "
+"porque se necesitan flócs más grandes para alcanzar la misma velocidad "
+"terminal. Este análisis sugiere que los gradientes de velocidad deben "
+"reducirse para operaciones a baja temperatura o que el gradiente de "
+"velocidad del floculador debe establecerse en función de la temperatura de "
+"funcionamiento más baja. Aunque no se muestra aquí, la energía de frenado "
+"requerida también aumenta rápidamente para flócs de menor densidad porque el"
+" diámetro del flóculum debe aumentar para alcanzar la velocidad terminal que"
+" deben eliminar los sedimentadores de placas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:613
+msgid ""
+"The required energy for attachment increases rapidly with the floc diameter "
+"as shown in :numref:`figure_floc_braking_energy_of_D` (see `Colab Worksheet "
+"for analysis of the braking energy <https://colab.research.google.com/github"
+"/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_)."
+msgstr ""
+"La energía requerida para la fijación aumenta rápidamente con el diámetro "
+"del flóculo, como se muestra en :numref:`figure_floc_braking_energy_of_D` "
+"(véase `hoja de cálculo de Colab para el análisis de la energía de frenado "
+"<https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/Floc_Attachment_Energies.ipynb>`_)."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:622
+msgid ""
+"The required braking energy for a collision between two flocs that results "
+"in the final floc diameter at three different velocity gradients."
+msgstr ""
+"La energía de frenado requerida para una colisión entre dos flócs que da "
+"lugar al diámetro final del flóculo en tres gradientes de velocidad "
+"diferentes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:624
+msgid ""
+"The analysis of the ability of braking energy required for successful "
+"attachment suggests a rational for either using a lower velocity gradient or"
+" tapering the velocity gradient in flocculators.  It also reveals that the "
+"coagulant nanoparticle bonds are under much higher stress during the "
+"collision than when they are only counteracting the force of fluid shear. "
+"The analysis does not provide guidance on how to select the velocity "
+"gradient in the flocculator."
+msgstr ""
+"El análisis de la capacidad de la energía de frenado requerida para un "
+"acoplamiento exitoso sugiere una razón para usar un gradiente de velocidad "
+"menor o para estrechar el gradiente de velocidad en floculadores. También "
+"revela que los enlaces de nanopartículas coagulantes están sometidos a un "
+"esfuerzo mucho mayor durante la colisión que cuando solo contrarrestan la "
+"fuerza del cizallamiento del fluido. El análisis no proporciona orientación "
+"sobre cómo seleccionar el gradiente de velocidad en el floculador."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:626
+msgid ""
+"The analysis assumes that all of the fluid inside the floc stops as quickly "
+"as the solid part of the floc. Given that the flocs are quite porous the "
+"fluid can continue moving and exert a smaller force on the solid part of the"
+" floc through shear than it would have given its inertia. The fluid flow "
+"through the floc as the floc quickly stops complicates this analysis beyond "
+"our current capabilities. More research and analysis is needed to develop a "
+"model that provides clear guidance on the flocculator velocity gradient."
+msgstr ""
+"El análisis asume que todo el fluido dentro del flóculo se detiene tan "
+"rápido como la parte sólida del flóculo. Dado que los flócs son bastante "
+"porosos, el fluido puede seguir moviéndose y ejercer una fuerza menor sobre "
+"la parte sólida del flóculo mediante cizalladura que la que habría dado su "
+"inercia. El flujo del fluido a través del flóculo cuando este se detiene "
+"rápidamente complica este análisis más allá de nuestras capacidades "
+"actuales. Se necesita más investigación y análisis para desarrollar un "
+"modelo que proporcione una guía clara sobre el gradiente de velocidad del "
+"floculador."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:629
+msgid "Drag Force on a Floc in a Filter Constriction"
+msgstr "Fuerza de arrastre sobre un flóculo en una constricción de filtro"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:631
+msgid ""
+"The drag force on a floc or core particle that has attached to a "
+"constriction wall in a sand filter can be modeled as the drag on a sphere in"
+" uniform flow. The uniform flow approximation is reasonable because the "
+"constriction is expected to have a sharp entrance as particles "
+"preferentially deposit there. The drag force, Equation "
+":eq:`drag_force_on_sphere`, is counteracted by the chemical bond force."
+msgstr ""
+"La fuerza de arrastre sobre un flóculo o partícula central que se ha "
+"adherido a una pared de constricción en un filtro de arena puede modelarse "
+"como la resistencia en una esfera en flujo uniforme. La aproximación del "
+"flujo uniforme es razonable porque se espera que la constricción tenga una "
+"entrada pronunciada a medida que las partículas se depositan preferentemente"
+" allí. La fuerza de arrastre, ecuación :eq:`drag_force_on_sphere`, es "
+"contrarrestada por la fuerza de enlace química."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:633
+msgid ""
+"The maximum velocity in a pore is hypothesized to be set by the bond "
+"strength of the coagulant nanoparticles and the fluid drag on the primary "
+"particle that is attaching. It is assumed that the last particles that are "
+"able to deposit in a pore are primary particles because they can fill in the"
+" last available volume before the pore velocity is too high for any other "
+"particles to attach. It is possible that the attachment strength of the "
+"primary particles is a function of the fraction of their surface area that "
+"is covered by coagulant nanoparticles, :math:`\\Gamma`. The total force "
+"acting downward on a primary particle that attaches to a constriction is the"
+" sum of the drag and the particle buoyant weight. These forces are "
+"counteracted by the force of the coagulant bonds."
+msgstr ""
+"Se hipotetiza que la velocidad máxima en un poro está determinada por la "
+"fuerza de enlace de las nanopartículas coagulantes y la resistencia del "
+"fluido sobre la partícula primaria que se está uniendo. Se asume que las "
+"últimas partículas que pueden depositarse en un poro son partículas "
+"primarias porque pueden llenar el último volumen disponible antes de que la "
+"velocidad del poro sea demasiado alta para que otras partículas se adhieran."
+" Es posible que la fuerza de unión de las partículas primarias dependa de la"
+" fracción de su área superficial cubierta por nanopartículas coagulantes, "
+":math:`\\Gamma`. La fuerza total que actúa hacia abajo sobre una partícula "
+"primaria que se une a una constricción es la suma del arrastre y el peso de "
+"flotabilidad de la partícula. Estas fuerzas se contrarrestan con la fuerza "
+"de los enlaces coagulantes."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:635
+msgid "  F_{bond} = F_{drag} + F_{weight} - F_{buoyancy}"
+msgstr "  F_{bond} = F_{drag} + F_{weight} - F_{buoyancy}"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:640
+msgid ""
+"The flocs and particles that are captured in a filter are small in diameter "
+"and the strength of the coagulant bonds is large compared with forces of "
+"their buoyant weight. Equation :eq:`Fbond_drag_gravity` can be simplified to"
+msgstr ""
+"Los flócs y partículas que se capturan en un filtro son de pequeño diámetro "
+"y la resistencia de los enlaces coagulantes es grande en comparación con las"
+" fuerzas de su peso de flotación. La :eq:`Fbond_drag_gravity` de la ecuación"
+" puede simplificarse a"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:642
+msgid "  F_{bond} = F_{drag}"
+msgstr "  F_{bond} = F_{drag}"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:647
+msgid ""
+"The drag force is assumed to be set by the average pore water velocity "
+"because the deposition occurs near the entrance to the constriction before "
+"the boundary layer on the wall can develop. The velocity profile through the"
+" constriction could be uniform or the boundary layer could be developing and"
+" then the velocity at the wall could be significantly reduced. The particles"
+" are expected to attach at the sharp edge at the entrance to the "
+"constriction and the boundary layer is not expected to have grown "
+"significantly. Thus the velocity through the constriction is assumed to be "
+"uniform. The drag force on a clay particle that has attached to the wall of "
+"the constriction is"
+msgstr ""
+"Se asume que la fuerza de arrastre está determinada por la velocidad media "
+"del agua en los poros porque la deposición ocurre cerca de la entrada de la "
+"constricción antes de que se pueda desarrollar la capa límite en la pared. "
+"El perfil de velocidad a través de la constricción podría ser uniforme o la "
+"capa límite podría estar desarrollándose y entonces la velocidad en la pared"
+" podría reducirse significativamente. Se espera que las partículas se "
+"adhieran en el filo afilado en la entrada de la constricción y no se espera "
+"que la capa límite haya crecido significativamente. Por tanto, se asume que "
+"la velocidad a través de la constricción es uniforme. La fuerza de arrastre "
+"sobre una partícula de arcilla que se ha adherido a la pared de la "
+"constricción es"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:649
+msgid ""
+"F_{drag} = C_D \\frac{\\pi}{4} D_{cp}^2 \\rho_{H_2O} "
+"\\frac{v_{constriction}^2}{2}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:653
+msgid ""
+"At Reynolds numbers (based on core particle diameter) less than about 10 the"
+" drag coefficient is given by"
+msgstr ""
+"En números de Reynolds (basados en el diámetro de la partícula del núcleo) "
+"menores que aproximadamente 10, el coeficiente de arrastre se da por"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:655
+msgid "C_D = \\frac{24}{Re} = \\frac{24\\nu}{v_{constriction}D_{cp}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:659
+msgid "Thus the drag on a core particle is equal to the bond force and is given by"
+msgstr ""
+"Así, la resistencia sobre una partícula del núcleo es igual a la fuerza de "
+"enlace y se da por"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:661
+msgid "F_{bond} = 3\\pi \\nu v_{constriction} D_{cp} \\rho_{H_2O}"
+msgstr "F_{bond} = 3\\pi \\nu v_{constriction} D_{cp} \\rho_{H_2O}"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:668
+msgid "Gravity Acting on Flocs"
+msgstr "Gravedad actuando sobre los flócs"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:670
+msgid ""
+"In the same way that fluid shear sets a maximum size for flocs, gravity also"
+" limits floc size. As flocs grow larger their terminal velocity increases "
+"and they have a larger surface area that is experiencing shear as the floc "
+"falls through the water. The buoyant weight of the floc is counteracted by "
+"the shear on the floc. The shear tends to tear the floc apart and thus the "
+"coagulant nanoparticle bonds must hold the floc together. This problem might"
+" seem intractable because it isn't initially clear how many coagulant "
+"nanoparticle bonds are responsible for holding a floc together."
+msgstr ""
+"De la misma manera que el cizallamiento del fluido establece un tamaño "
+"máximo para los flócs, la gravedad también limita el tamaño del flóc. A "
+"medida que los flócs crecen, su velocidad terminal aumenta y tienen una "
+"mayor superficie que experimenta cizalladura al caer a través del agua. El "
+"peso de flotabilidad del flóculo se contrarresta por el cizallamiento sobre "
+"el flóc. El cizallamiento tiende a desgarrar el flóculo y, por tanto, los "
+"enlaces de nanopartículas coagulantes deben mantenerlo unido. Este problema "
+"puede parecer intratable porque inicialmente no está claro cuántos enlaces "
+"de nanopartículas coagulantes son responsables de mantener unido un flóc."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:672
+msgid ""
+"The majority of the floc growth will occur in the flocculator where only "
+"similarly sized flocs collide. At most flocs attach to each other at 3 "
+"points because additional connections would require deformation of the floc."
+" This would suggest that 3 coagulant nanoparticle bonds prevent a floc from "
+"splitting in half. The shear forces on the floc cause a torque on each half "
+"of the floc such that the bottom of the floc is in tension and the top of "
+"the floc is in compression. The bonds will only fail in tension and thus it "
+"is one or two bonds in the bottom half of the floc that are holding the floc"
+" together."
+msgstr ""
+"La mayor parte del crecimiento del flóculo ocurrirá en el floculador, donde "
+"solo colisionan flóclos de tamaño similar. En la mayoría de los flóclos se "
+"unen entre sí en 3 puntos porque las conexiones adicionales requerirían la "
+"deformación del flóculo. Esto sugeriría que 3 enlaces nanopartículas "
+"coagulantes evitan que un flóculo se divida por la mitad. Las fuerzas de "
+"corte sobre el flóculo provocan un par en cada mitad del flóc, de modo que "
+"la parte inferior del flóculo está en tensión y la parte superior en "
+"compresión. Los enlaces solo fallarán en tensión, por lo que uno o dos "
+"enlaces en la mitad inferior del flóculo mantienen unido el flóc."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:674
+msgid ""
+"We can create a dimensionless number that is the ratio of the bond strength "
+"to the buoyant weight of the floc."
+msgstr ""
+"Podemos crear un número adimensional que sea la relación entre la "
+"resistencia de la unión y el peso de flotabilidad del flóculo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:676
+msgid ""
+"\\Pi_{bond}^g = \\frac {\\forall_{floc} \\left(\\rho_{floc} - \\rho_{H_2O} "
+"\\right) g} {F_{bond}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:681
+msgid ""
+"To obtain an equation that is a function of the floc diameter we substitute "
+"the floc volume (Equation :eq:`volume_floc_of_D`) and the floc buoyant "
+"density (Equation :eq:`floc_buoyant_density_2`) into Equation :eq:`bong_1`."
+msgstr ""
+"Para obtener una ecuación que es función del diámetro del flóc, sustituimos "
+"el volumen del flóculo (Ecuación :eq:`volume_floc_of_D`) y la densidad de "
+"flotabilidad del flóc (Ecuación :eq:`floc_buoyant_density_2`) en la Ecuación"
+" :eq:`bong_1`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:683
+msgid ""
+"\\Pi_{bond}^g =\n"
+"\\frac {\\pi D_{floc}^3 g} {6 F_{bond}}\n"
+"\\left( \\rho_{cp}  - \\rho_{H_2O} \\right)\n"
+"\\left(\\frac{D_{cp}}{D_{floc}}\\right)^{3-\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:691
+msgid "Separate the floc diameter term and simplify as much as possible."
+msgstr "Separa el término del diámetro del flóculo y simplifica lo máximo posible."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:693
+msgid ""
+"\\Pi_{bond}^g =\n"
+"\\frac {\\pi  g\\left( \\rho_{cp}  - \\rho_{H_2O} \\right) "
+"D_{cp}^{3-\\Pi_{fractal}}} {6 F_{bond}} D_{floc}^{\\Pi_{fractal}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:699
+msgid ""
+"The maximum size of a floc that is under the influence of gravity can be "
+"obtained by solving Equation :eq:`bong_of_D_floc` for :math:`D_{floc}`."
+msgstr ""
+"El tamaño máximo de un flóculo que está bajo la influencia de la gravedad "
+"puede obtenerse resolviendo la ecuación :eq:`bong_of_D_floc` para "
+":math:`D_{floc}`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:701
+msgid ""
+"D_{floc} =\n"
+"\\left[\\frac {6 F_{bond} \\Pi_{bond}^g} {\\pi  g\\left( \\rho_{cp}  - "
+"\\rho_{H_2O} \\right) "
+"D_{cp}^{3-\\Pi_{fractal}}}\\right]^{\\frac{1}{\\Pi_{fractal}}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:707
+msgid ""
+"Unit calculations are problematic when the exponent on the units isn't an "
+"integer. To avoid that dilemma with the volume-based fractal dimension we "
+"will make the term that is raised to a fractional power be dimensionless by "
+"factoring out the diameter of the core particle."
+msgstr ""
+"Los cálculos unitarios son problemáticos cuando el exponente en las unidades"
+" no es un entero. Para evitar ese dilema con la dimensión fractal basada en "
+"el volumen, haremos que el término que se eleva a una potencia fraccionaria "
+"sea adimensional al factorizar el diámetro de la partícula núcleo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:709
+msgid ""
+"D_{floc_{max}}^g = D_{cp}\n"
+"\\left[\\frac {6 F_{bond} \\Pi_{bond}^g} {\\pi  g\\left( \\rho_{cp}  - "
+"\\rho_{H_2O} \\right) D_{cp}^3}\\right]^{\\frac{1}{\\Pi_{fractal}}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:716
+msgid ""
+"The value of :math:`\\Pi_{bond}^g` will need to be determined "
+"experimentally. A preliminary force analysis by Kevin Sarmiento suggests "
+"that this dimensionless factor may be approximately 8 based on reasonable "
+"assumptions for the length of the moment arm acting on one coagulant "
+"nanoparticle bond."
+msgstr ""
+"El valor de :math:`\\Pi_{bond}^g` deberá determinarse experimentalmente. Un "
+"análisis preliminar de fuerzas de Kevin Sarmiento sugiere que este factor "
+"adimensional puede ser aproximadamente 8 basándose en supuestos razonables "
+"para la longitud del brazo de momento que actúa sobre un enlace "
+"nanopartícula coagulante."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:718
+msgid ""
+"The maximum floc size that can be obtained based on a :math:`\\Pi_{bond}^g ="
+" 8` as a function of the core particle density is shown in "
+":numref:`figure_DmaxofFbondandGravity`."
+msgstr ""
+"El tamaño máximo de flóculo que se puede obtener en función de un "
+":math:`\\Pi_{bond}^g = 8` en función de la densidad de partículas en el "
+"núcleo se muestra en :numref:`figure_DmaxofFbondandGravity`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:727
+msgid ""
+"The maximum floc size deceases rapidly as the density of the core particle "
+"increases."
+msgstr ""
+"El tamaño máximo del flóculo disminuye rápidamente a medida que aumenta la "
+"densidad de la partícula del núcleo."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:729
+msgid ""
+"The maximum size of flocs that can be obtained with aluminum-based "
+"coagulants is thus limited due to the force of gravity. This has direct "
+"implications for the use of ballasted sand flocculation that uses micro-sand"
+" (size 40 - 150 µm) to increase the terminal velocity of the flocs. Equation"
+" :eq:`D_floc_of_bong` reveals that aluminum-based coagulants aren't strong "
+"enough to hold two micro-sand particles together. Ballasted sand "
+"flocculation requires additional polymers that increase the bond strength to"
+" create flocs around the micro-sand."
+msgstr ""
+"El tamaño máximo de flócs que se puede obtener con coagulantes a base de "
+"aluminio está así limitado debido a la fuerza de gravedad. Esto tiene "
+"implicaciones directas para el uso de floculación de arena lastrada que "
+"emplea micro-arena (tamaño 40 - 150 μm) para aumentar la velocidad terminal "
+"de los flócs. La ecuación :eq:`D_floc_of_bong` revela que los coagulantes a "
+"base de aluminio no son lo suficientemente fuertes para mantener juntas dos "
+"partículas de micro-arena. La floculación de arena lastrada requiere "
+"polímeros adicionales que aumentan la resistencia de unión para crear flócs "
+"alrededor de la micro-arena."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:732
+msgid "Maximum Floc Terminal Velocity"
+msgstr "Velocidad máxima terminal de Floc"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:734
+msgid ""
+"Given that the maximum floc size is limited by gravity we can determine the "
+"maximum terminal velocity that can be obtained by a floc. Then we can use "
+"the terminal velocity equation to find the maximum diameter of a floc that "
+"is falling through water under the influence of gravity. The force balance "
+"requires that the buoyant force be equal to :math:`F_{bond} \\Pi_{bond}^g` "
+"in the terminal velocity equation."
+msgstr ""
+"Dado que el tamaño máximo del flóculo está limitado por la gravedad, podemos"
+" determinar la velocidad terminal máxima que puede obtener un flóculo. Luego"
+" podemos usar la ecuación de velocidad terminal para encontrar el diámetro "
+"máximo de un flóculo que cae a través del agua bajo la influencia de la "
+"gravedad. El balance de fuerzas requiere que la fuerza de flotación sea "
+"igual a :math:`F_{bond} \\Pi_{bond}^g` en la ecuación de velocidad terminal."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:737
+msgid ""
+"F_{drag} = C_D A_{floc} \\rho_{H_2O} \\frac{v_t^2}{2} = F_{bond} "
+"\\Pi_{bond}^g"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:743
+msgid ""
+"Plugging into the force balance between buoyant weight and bond force and "
+"assuming laminar flow we obtain"
+msgstr ""
+"Al conectar con el equilibrio de fuerzas entre el peso de flotabilidad y la "
+"fuerza de unión y asumir flujo laminar, obtenemos"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:745
+msgid ""
+"\\frac{24 \\nu}{v_t D_{floc}} \\frac{\\pi}{4} D_{floc}^2 \\rho_{H_2O} "
+"\\frac{v_t^2}{2}  = F_{bond} \\Pi_{bond}^g"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:752
+msgid ""
+"v_t  =\n"
+"\\frac{F_{bond} \\Pi_{bond}^g}{3 \\pi \\nu D_{floc} \\rho_{H_2O}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:758
+msgid ""
+"The maximum floc diameter and the bond strength are related through Equation"
+" :eq:`D_floc_of_bong` and that relationship can be used to eliminate the "
+"floc diameter from Equation :eq:`v_t_of_F_bond_3`."
+msgstr ""
+"El diámetro máximo del flóculo y la resistencia del enlace están "
+"relacionados mediante la ecuación :eq:`D_floc_of_bong` y esa relación puede "
+"usarse para eliminar el diámetro del flóculo de la ecuación "
+":eq:`v_t_of_F_bond_3`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:760
+msgid ""
+"v_t  =\n"
+"\\frac{F_{bond} \\Pi_{bond}^g}{3 \\pi \\nu \\rho_{H_2O} D_{cp}\n"
+"\\left[\\frac {6 F_{bond} \\Pi_{bond}^g} {\\pi  g\\left( \\rho_{cp}  - "
+"\\rho_{H_2O} \\right) D_{cp}^3}\\right]^{\\frac{1}{\\Pi_{fractal}}} }"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:767
+msgid ""
+"The maximum terminal velocity (Equation :eq:`v_t_of_F_bond`) that can be "
+"obtained based on a :math:`\\Pi_{bond}^g = 8` as a function of the core "
+"particle density is shown in :numref:`figure_vtmaxofFbondandGravity`."
+msgstr ""
+"La velocidad terminal máxima (ecuación :eq:`v_t_of_F_bond`) que puede "
+"obtenerse basada en un :math:`\\Pi_{bond}^g = 8` en función de la densidad "
+"de partículas del núcleo se muestra en "
+":numref:`figure_vtmaxofFbondandGravity`."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:776
+msgid ""
+"The maximum terminal velocity increases as the density of the core particle "
+"increases."
+msgstr ""
+"La velocidad terminal máxima aumenta a medida que aumenta la densidad de la "
+"partícula central."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:778
+msgid ""
+"The maximum upflow velocity in the bottom of an upflow clarifier is limited "
+"by the maximum terminal velocity of the flocs. The flocs can grow to an even"
+" larger size while sliding down the plate settlers, but when they begin "
+"freefall they break apart and reach this maximum terminal velocity. The "
+"terminal velocity will also have direct influence on the concentration of "
+"the floc filter."
+msgstr ""
+"La velocidad máxima de flujo ascendente en la parte inferior de un "
+"clarificador de flujo ascendente está limitada por la velocidad terminal "
+"máxima de los flocas. Los flóculos pueden crecer hasta un tamaño aún mayor "
+"mientras se deslizan por los sedimentadores de placas, pero cuando comienzan"
+" la caída libre se desintegran y alcanzan esta velocidad terminal máxima. La"
+" velocidad terminal también influirá directamente en la concentración de los"
+" filtro de flóculos."
+

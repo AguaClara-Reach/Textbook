@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:11
+msgid "Introduction to RST and Sphinx for Textbook Contributors"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:18
+msgid "What is RST?"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:20
+msgid "RST stands for ReStructured Text. It is the standard markup language used for documenting python packages. Sphinx_ is the Python package that generates an html website from RST files, and it is what we are using to generate this site. To read more about why we chose RST over markdown or Latex, read the following section, :ref:`heading_why_rst`."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:26
+msgid "Why RST?"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:27
+msgid "Out of the box, RST supports globally-defined styles, figure numbering and referencing, Latex function rendering, image display customization and more. Furthermore, restructured text was already the language of choice for the AguaClara ecosystem's documentation."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:34
+msgid "Setting up RST for Development"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:35
+msgid "There are two ways to *quickly* view an RST file. The first is using an Atom_ plugin that renders the view alongside the source code. This is a good initial test to make sure the RST is proper RST and looks *mostly* correct. However, some functionality, such as any extensions provided by Sphinx_ won't run in the preview. In order to see the final html that will display on the website, you'll need to use the second method, running sphinx locally to fully generate the html code. Once you are satisfied with your work and want to push it to the textbook, you'll need to incorporate it to the master branch. To do so, refer to `Publishing online`_."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:41
+msgid "Installing the Atom Plugins"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:42
+msgid "If you are using the Atom IDE to write RST, you can use the `rst-preview-pandoc <https://atom.io/packages/rst-preview-pandoc>`_ plugin to auto-generate a live RST preview within atom (much like the markdown-preview-plus preview page.) To get rst-preview working, you'll need to install `language-restructuredtext <https://atom.io/packages/language-restructuredtext>`_ via atom and Pandoc_ via your command line (``$pip install pandoc``). If everything worked, you can use ``ctrl + shift + e`` to toggle a display window for the live-updated RST preview."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:48
+msgid "Building RST Locally with Sphinx_"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:49
+msgid "We use Sphinx_ to build RST locally and remotely. Follow these steps to get Sphinx_ and run it locally:"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:51
+msgid "Get `Python 3.5+ <https://www.python.org/downloads/>`_ and pipenv (:code:`$pip install pipenv`)"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:52
+msgid "Install all dependencies and setup a virtual environment with :code:`$pipenv install`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:53
+msgid "Whenever you want to issue commands, start your virtual environment with :code:`$pipenv shell` - exit it with :code:`$exit`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:54
+msgid "Generate all the html by navigating in the command line to the source directory /Textbook and creating the build in that directory with the command line :code:`$make html`."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:55
+msgid "View the html generated in the /Textbook/_build directory by copying the full file path of /Textbook/_build/html/index.html and pasting it into your browser."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:57
+msgid "Regarding **1.** the master branch for the package implementing disqus in sphinx `is broken <https://github.com/Robpol86/sphinxcontrib-disqus/pull/7>`_, which is why we use a non-standard pip/online installation. If you already have the incorrect sphinx-disqus version installed, uninstall it with ``pip uninstall sphinxcontrib-disqus`` before installing the functioning version."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:62
+msgid "Building PDF Locally"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:63
+msgid "To check errors with the PDF generation more quickly, it may be worthwhile to setup your local machine to build the PDF."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:65
+msgid "install `MikTeX <https://miktex.org/howto/install-miktex>`_"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:66
+msgid "install `Perl <https://strawberryperl.com/>`_"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:67
+msgid "run the command make latexpdf"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:68
+msgid "the PDF will be created in the latex folder inside the _build folder"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:75
+msgid "Publishing Online"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:76
+msgid "GitHub Actions builds every pull request with Sphinx and automatically publishes the textbook after changes are merged into ``master``."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:78
+msgid "Test your build by first :ref:`building RST locally <heading_building_rst_locally>`."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:79
+msgid "Submit a `pull request to master <https://github.com/AguaClara-Reach/Textbook/pulls>`_ and request a reviewer. Every pull request **must** be reviewed by at least one other person."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:80
+msgid "Wait for the **Test** workflow to complete successfully in the pull request's checks."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:81
+msgid "After approval, merge the pull request into ``master``. The **Documentation** workflow will build and publish the updated textbook automatically."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:83
+msgid "If the update is not published, check the `Documentation workflow <https://github.com/AguaClara-Reach/Textbook/actions/workflows/build-docs.yml>`_ in GitHub Actions."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:89
+msgid "Testing Online"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:90
+msgid "Open a pull request to run the same Sphinx HTML build used by the publishing workflow. The pull request's **Test** check reports whether the textbook builds successfully. For visual review, build the textbook locally and open ``Textbook/_build/html/index.html`` in a browser."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:96
+msgid "Brief Best Practices"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:97
+msgid "When writing RST, there are often many ways to write the same thing. Almost always, the way with the fewest number of characters is the best way. Ideally, never copy and paste."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:103
+msgid "How do I write RST?"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:105
+msgid "RST is friendly to learn and powerful. There are many useful cheatsheets, like `this one <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#inserting-code-and-literal-blocks>`_. When you start writing RST, look at the cheat sheets all the time. Use :code:`ctrl-f` all the time to find whatever you need."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:107
+msgid "**Things not covered in most cheat sheets which are of critical importance:**"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:109
+msgid "A document is referred to by its title, as defined between the ``*****`` signs at the top of the page, **NOT** the filename. So it is critical to have a title."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:110
+msgid "Anything else you'd like to add for the future..."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:116
+msgid "Example to Start From"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:117
+msgid "This file is written in RST. You can start there! Just click on \"View page source\" at the top of the page."
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:125
+msgid "Converting Markdown to RST"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/rst_intro.rst:126
+msgid "Ideally, use pandoc to do the conversion in the command line: :code:`pandoc --from=markdown --to=rst --output=my_file.rst my_file.md`. Raw html will not be converted (because it is not actually markdown), and tables are converted poorly. You'll need to carefully review any page converted with pandoc."
+msgstr ""

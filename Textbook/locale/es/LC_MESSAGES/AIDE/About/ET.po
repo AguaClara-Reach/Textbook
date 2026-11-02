@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../AIDE/About/ET.rst:1
+msgid "|ACRlogowithname|"
+msgstr "|ACRlogowithname|"
+
+#: ../../AIDE/About/ET.rst
+msgid "ACRlogowithname"
+msgstr "ACRlogowithname"
+
+#: ../../AIDE/About/ET.rst:1
+msgid "|textbook|"
+msgstr "|textbook|"
+
+#: ../../AIDE/About/ET.rst
+msgid "textbook"
+msgstr "Libro de texto"
+
+#: ../../AIDE/About/ET.rst:1
+msgid "|donate|"
+msgstr "|donate|"
+
+#: ../../AIDE/About/ET.rst
+msgid "donate"
+msgstr "Dona"
+
+#: ../../AIDE/About/ET.rst:6
+msgid "|reportabugbig|"
+msgstr "|reportabugbig|"
+
+#: ../../AIDE/About/ET.rst
+msgid "reportabugbig"
+msgstr "reportabugbig"
+
+#: ../../AIDE/About/ET.rst:12
+msgid "Entrance Tank Configurable Component"
+msgstr "tanque de entrada Componente configurable"
+
+#: ../../AIDE/About/ET.rst:21
+msgid "Entrance Tank"
+msgstr "tanque de entrada"
+
+#: ../../AIDE/About/ET.rst:21
+msgid ""
+"The entrance tank is where the raw water first enters the water treatment "
+"plant. It enters through the pipe on the right, passes through the 2 trash "
+"racks, flows through the grit removal zone, and exits through the linear "
+"flow orifice meter."
+msgstr ""
+"El tanque de entrada es donde el agua cruda entra por primera vez en la "
+"planta de tratamiento de agua . Entra por la tubería de la derecha, pasa por"
+" los 2 estantes de basura, fluye por la zona de extracción de grano y sale "
+"por el orificio lineal del caudalímetro."
+
+#: ../../AIDE/About/ET.rst:31
+msgid "Location of the Entrance Tank"
+msgstr "Ubicación del tanque de entrada"
+
+#: ../../AIDE/About/ET.rst:31
+msgid ""
+"The entrance tank (outlined in red) is attached to the flocculator to create"
+" a compact plant layout."
+msgstr ""
+"El tanque de entrada (delineado en rojo) se fija al floculador para crear un"
+" diseño compacto de la planta."
+
+#: ../../AIDE/About/ET.rst:35
+msgid "The entrance tank has four main functions:"
+msgstr "El tanque de entrada tiene cuatro funciones principales:"
+
+#: ../../AIDE/About/ET.rst:37
+msgid ""
+"Remove trash and debris that could potentially clog the diffusers in the "
+"inlet manifold to the clarifier."
+msgstr ""
+"Retira la basura y los restos que puedan obstruir los difusores en la "
+"manifold de entrada al clarificador."
+
+#: ../../AIDE/About/ET.rst:38
+msgid "Remove grit and sand that would otherwise settle in the flocculator."
+msgstr "Quita la arena y la arena que de otro modo se asentarían en el floculador."
+
+#: ../../AIDE/About/ET.rst:39
+msgid "Measure the flow rate entering the plant using a Linear Flow Orifice Meter."
+msgstr ""
+"Mide la caudal que entra en la planta usando un medidor de orificio de flujo"
+" lineal."
+
+#: ../../AIDE/About/ET.rst:40
+msgid ""
+"Automatically vary the chemical feed rates as the plant flow rate changes "
+"with the chemical doser."
+msgstr ""
+"Varia automáticamente las tasas de alimentación química según cambie la "
+"planta caudal con el dosificador químico."
+
+#: ../../AIDE/About/ET.rst:43
+msgid "Generate New Models of the Entrance Tank"
+msgstr "Generar nuevos modelos de la tanque de entrada"
+
+#: ../../AIDE/About/ET.rst:45
+msgid ""
+"Edit the configurations to create new models of the entrance tank. Some "
+"models may fail because the constraints can't all be met. Send us `feedback "
+"to share how you are using the entrance tank model, to give us suggestions "
+"for how to make these models easier to use, and to "
+"<https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+"Edita las configuraciones para crear nuevos modelos del tanque de entrada. "
+"Algunos modelos pueden fallar porque no se pueden cumplir todas las "
+"restricciones. Envíanos `comentarios para compartir cómo estás usando el "
+"modelo tanque de entrada , para darnos sugerencias sobre cómo facilitar el "
+"uso de estos modelos y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ "
+"|reportabug|."
+
+#: ../../AIDE/About/ET.rst
+msgid "reportabug"
+msgstr "reportabug"
+
+#: ../../AIDE/About/ET.rst:47
+msgid "Entrance tank configuration parameters."
+msgstr "tanque de entrada parámetros de configuración."
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Flow (L/s)"
+msgstr "Flujo (L/s)"
+
+#: ../../AIDE/About/ET.rst:1
+msgid ""
+"The maximum flow rate sets the size of the entrance tank. Vary it to see how"
+" the dimensions change."
+msgstr ""
+"El máximo caudal fija el tamaño de la tanque de entrada. Varía para ver cómo"
+" cambian las dimensiones."
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr "Temperatura mínima (°C)"
+
+#: ../../AIDE/About/ET.rst:1
+msgid ""
+"The flow is turbulent throughout the entrance tank and thus temperature "
+"doesn’t have a significant effect on the design."
+msgstr ""
+"El flujo es turbulento a lo largo de toda la tanque de entrada y por tanto "
+"la temperatura no tiene un efecto significativo en el diseño."
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Channel length (m)"
+msgstr "Longitud del canal (m)"
+
+#: ../../AIDE/About/ET.rst:1
+msgid ""
+"The inside length of the entrance tank that enables fitting the entrance "
+"tank next to the flocculator to make a compact plant layout."
+msgstr ""
+"La longitud interior del tanque de entrada que permite colocar el tanque de "
+"entrada junto al floculador para lograr una disposición compacta de la "
+"planta."
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Flocculator water depth at entrance (m)"
+msgstr "Profundidad del agua del floculador en la entrada (m)"
+
+#: ../../AIDE/About/ET.rst:1
+msgid ""
+"The entrance tank is built on the same slab as the flocculator and the "
+"elevation of the water leaving the entrance tank must match the water level "
+"at the entrance of the flocculator."
+msgstr ""
+"El tanque de entrada se construye sobre la misma losa que el floculador y la"
+" elevación del agua que sale del tanque de entrada debe coincidir con la "
+"nivel del agua en la entrada del floculador."
+
+#: ../../AIDE/About/ET.rst:1
+msgid "Capture velocity (mm/s)"
+msgstr "Velocidad de captura (mm/s)"
+
+#: ../../AIDE/About/ET.rst:1
+msgid ""
+"The capture velocity for removal of grit. The entrance tank will capture "
+"grit that has a terminal velocity faster than this capture velocity. This "
+"determines the plan view area of the hoppers in the entrance tank."
+msgstr ""
+"La velocidad de captura para la eliminación de la grana. La tanque de "
+"entrada capturará la grana que tenga una velocidad terminal superior a esta "
+"velocidad de captura. Esto determina el área de vista en planta de las "
+"tolvas en la tanque de entrada."
+
+#: ../../AIDE/About/ET.rst:63
+msgid ""
+"Additional information is available in the chapter on "
+":ref:`title_entrance_tank_design`."
+msgstr ""
+"Información adicional está disponible en el capítulo sobre "
+":ref:`title_entrance_tank_design`."
+

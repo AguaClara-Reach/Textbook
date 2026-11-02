@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:12
+msgid "Constant Head Tanks"
+msgstr "carga constante Tanques"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:18
+msgid "Flow :math:`Q` and Water Level :math:`h` as a Function of Time"
+msgstr "El flujo :math:`Q` y nivel del agua :math:`h` en función del tiempo"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:20
+msgid ""
+"Our first step is to see if we can get constant head out of a simple system."
+" The most simple flow control system is a bucket or tank with a hole in it. "
+"This system is too coarse to provide constant head. One step above that is a"
+" bucket or tank with a valve. This is where we begin our search for constant"
+" head."
+msgstr ""
+"Nuestro primer paso es ver si podemos sacar carga constante de un sistema "
+"sencillo. El sistema de control de flujo más sencillo es un cubo o tanque "
+"con un agujero. Este sistema es demasiado grueso para proporcionar carga "
+"constante. Un escalón por encima de eso hay un cubo o tanque con una "
+"válvula. Aquí es donde comenzamos nuestra búsqueda de carga constante."
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:22
+msgid ""
+"Using the setup described in the image below, we derive the following "
+"equation for flow :math:`Q` through the valve as a function of time "
+":math:`t`. The derivation is found here: "
+":ref:`heading_flow_for_a_tank_with_a_valve`."
+msgstr ""
+"Usando la configuración descrita en la imagen de abajo, derivamos la "
+"siguiente ecuación para el flujo :math:`Q` a través de la válvula en función"
+" del tiempo :math:`t`. La derivación se encuentra aquí: "
+":ref:`heading_flow_for_a_tank_with_a_valve`."
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:30
+msgid "Drip hypochlorinator variables"
+msgstr "Variables de hipocloración por goteo"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:30
+msgid "This figure shows the variables that are defined in the equation above."
+msgstr "Esta figura muestra las variables definidas en la ecuación anterior."
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:32
+msgid ""
+"This equation has historically given students some trouble, and while its "
+"nuances are explained in the derivation, they will be quickly summarized "
+"here:"
+msgstr ""
+"Esta ecuación ha causado históricamente algunos problemas a los estudiantes "
+"y, aunque sus matices se explican en la deducción, aquí se resumirán "
+"rápidamente:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:34
+msgid ""
+":math:`t_{Design}` is **NOT** the time it takes to drain the tank. It is the"
+" time that it *would* take to drain the tank *if* the flow rate at time "
+":math:`t = 0`, :math:`Q_0`, were the flow rate forever, which it is not. "
+":math:`t_{Design}` was used in the derivation to simplify the equation, "
+"which is why this potentially-confusing parameter exists. The actual time it"
+" takes to drain the tank lies somewhere between :math:`t_{Design}` and "
+":math:`2 \\, t_{Design}` and depends on the ratio "
+":math:`\\frac{h_{Tank}}{h_0}`."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:35
+msgid ""
+":math:`h_{Tank}` is not the same as :math:`h_{0}`. :math:`h_{Tank}` is the "
+"height of water level in the tank with reference to the tank bottom. "
+":math:`h_{0}` is the water level in the tank with reference to the valve. "
+"Neither change with time, they both refer to the water level at one instance"
+" in time, :math:`t = 0`. Therefore, :math:`h_{0} \\geq h_{Tank}` is always "
+"true. If the tank is elevated far above the valve, then the :math:`h_{0} > >"
+" h_{Tank}`. If the valve is at the same elevation as the bottom of the tank,"
+" then :math:`h_{0} = h_{Tank}`. Please refer to the figure above to clarify "
+":math:`h_{0}` and :math:`h_{Tank}`."
+msgstr ""
+":math:`h_{Tank}` no es lo mismo que :math:`h_{0}`. :math:`h_{Tank}` es la "
+"altura de nivel del agua en el depósito en referencia al fondo del tanque. "
+":math:`h_{0}` es la nivel del agua en el depósito en referencia a la "
+"válvula. Ninguno cambia con el tiempo, ambos se refieren al nivel del agua "
+"en un momento dado en el momento, :math:`t = 0`. Por lo tanto, :math:`h_{0} "
+"\\geq h_{Tank}` siempre es cierto. Si el depósito está muy elevado por "
+"encima de la válvula, entonces el :math:`h_{0} > > h_{Tank}`. Si la válvula "
+"está a la misma elevación que el fondo del tanque, entonces :math:`h_{0} = "
+"h_{Tank}`. Por favor, consulte la figura anterior para aclarar :math:`h_{0}`"
+" y :math:`h_{Tank}`."
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:37
+msgid ""
+"We can use the proportionality :math:`Q \\propto \\sqrt{h}`, which applies "
+"to both minor losses and orifices to form a relationship between water level"
+" in the tank :math:`h` and time :math:`t`. This proportionality comes from "
+"rearranging the minor loss Equation :math:`h = K \\frac{Q^2}{2 g A^2}` for "
+":math:`Q` instead of :math:`h`. A table of proportionality between :math:`Q`"
+" and :math:`h` can be found in :numref:`table_h_Q_proportionality`"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:39
+msgid ""
+"Using Equation :eq:`Q_tank_with_valve` and this proportionality "
+"relationship, we make the following plots. On the left, the valve is at the "
+"same elevation as the bottom of the tank, or :math:`h_{Tank} = h_0`. Our "
+"attempt to get a continuous flow rate out of this system is to make "
+":math:`\\frac{h_{Tank}}{h_0}` very small by elevating the tank far above the"
+" valve. On the right, :math:`\\frac{h_{Tank}}{h_0} = \\frac{1}{50}`. While "
+"the plot looks great and provides essentially constant head, elevating the "
+"tank by 50 times its height is not realistic. The ‘tank with a valve’ is not"
+" a solution to the constant head problem."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:47
+msgid "Manipulating hypochlorinator heights"
+msgstr "Manipulación de las alturas de los hipocloradores"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:47
+msgid ""
+"These graphs show how manipulation of the variables in the :math:`Q(t)` "
+"expression can result in effectively constant head."
+msgstr ""
+"Estos gráficos muestran cómo la manipulación de las variables en la "
+"expresión :math:`Q(t)` puede dar lugar a carga constante efectivamente."
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:53
+msgid "Drain System for a Tank"
+msgstr "Sistema de desagüe para un depósito"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:54
+msgid ""
+"While the ‘tank with a valve’ scenario is not a good constant head solution,"
+" we can use our understanding of the system to properly design drain systems"
+" for AguaClara reactors like flocculators and clarifiers, since they are "
+"just tanks with valves. The derivation for the following equation is here, "
+"along with more details on AguaClara’s pipe stub method for draining tanks: "
+":ref:`heading_diameter_and_time_tank_drain_equation`. The derived ‘Tank "
+"Drain’ equation is as follows:"
+msgstr ""
+"Aunque el escenario del 'tanque con válvula' no es una buena solución carga "
+"constante , podemos usar nuestro conocimiento del sistema para diseñar "
+"correctamente sistemas de drenaje para reactores AguaClara como floculadores"
+" y clarificadores, ya que son simplemente tanques con válvulas. La "
+"derivación para la siguiente ecuación está aquí, junto con más detalles "
+"sobre el método de tubo de AguaClara para drenar tanques: "
+":ref:`heading_diameter_and_time_tank_drain_equation`. La ecuación derivada "
+"de 'Drenaje del Tanque' es la siguiente:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:56
+msgid ""
+"D_{Pipe} = \\sqrt{ \\frac{8 L_{Tank} W_{Tank}}{\\pi t_{Drain}}} {\\left( "
+"\\frac{H_{Tank} \\sum K }{2g} \\right)^{\\frac{1}{4}}}"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:60
+msgid ""
+"The equation can also be rearranged to solve for the time it would take to "
+"drain a tank given its dimensions and a certain drain pipe size:"
+msgstr ""
+"La ecuación también puede reorganizarse para resolver el tiempo que tardaría"
+" en vaciar un tanque, dadas sus dimensiones y un determinado tamaño de "
+"tubería de drenaje:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:62
+msgid ""
+"t_{Drain} =  \\frac{8 L_{Tank} W_{Tank}}{\\pi D_{Pipe}^2} {\\left( "
+"\\frac{H_{Tank} \\sum K }{2g} \\right)^{\\frac{1}{2}}}"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:66
+msgid "Such that:"
+msgstr "Tal que:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:67
+msgid ":math:`D_{Pipe}` = Diameter of the drain piping"
+msgstr ":math:`D_{Pipe}` = Diámetro de la tubería de desagüe"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:68
+msgid ":math:`L_{Tank}, W_{Tank}, H_{Tank}` = Tank dimensions"
+msgstr ":math:`L_{Tank}, W_{Tank}, H_{Tank}` = Dimensiones del tanque"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:69
+msgid ":math:`t_{Drain}` = Time it takes to drain the tank"
+msgstr ":math:`t_{Drain}` = Tiempo que tarda en vaciar el tanque"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:70
+msgid ":math:`\\sum K` = Sum of all the minor loss coefficients in the system"
+msgstr ":math:`\\sum K` = Suma de todos los coeficientes de pérdida menor del sistema"
+
+#: ../../Flow_Control_and_Measurement/FCM_Intro.rst:78
+msgid "Variables for draining a tank"
+msgstr "Variables para vaciar un tanque"
+

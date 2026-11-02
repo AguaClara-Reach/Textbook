@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:12
+msgid "Dissolved Gas Introduction"
+msgstr "Introducción de gases disueltos"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:14
+msgid ""
+"Dissolved gas supersaturation and subsequent bubble formation can cause "
+"significant performance deterioration in drinking water treatment plants. "
+"Supersaturation means that the dissolved gas concentration is greater than "
+"the equilibrium concentration. The liquid phase equilibrium concentration of"
+" a gas is directly proportional to the absolute partial pressure of the gas "
+"in the gas phase. This relationship is described by Henry's law."
+msgstr ""
+"La sobresaturación de gases disueltos y la posterior formación de burbujas "
+"pueden causar un deterioro significativo del rendimiento en plantas de "
+"tratamiento de agua bebedor. La sobresaturación significa que la "
+"concentración de gas disuelto es mayor que la concentración de equilibrio. "
+"La concentración de equilibrio en fase líquida de un gas es directamente "
+"proporcional a la presión parcial absoluta del gas en la fase gaseosa. Esta "
+"relación se describe mediante la ley de Henry."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:21
+msgid "Henry's Law"
+msgstr "La Ley de Henry"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:26
+msgid "Effects of Gas Bubbles in Water Treatment Plants"
+msgstr "Efectos de las burbujas de gas en tratamiento de agua plantas"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:28
+msgid ""
+"The American Water Works Association recognized the detrimental effects of "
+"gas bubble evolution in drinking water treatment plants and sponsored "
+"research at Virginia Polytechnic Institute and State University. `Paolo "
+"Scardina's Dissertation "
+"<../_static/references/PaoloScardinaDissertation2004.pdf>`_ provides an "
+"excellent review of the problems that are caused by gas bubbles."
+msgstr ""
+"La Asociación Americana de Obras de Agua reconoció los efectos perjudiciales"
+" de la evolución de las burbujas de gas en las plantas de tratamiento de "
+"agua potable y patrocinó investigaciones en el Instituto Politécnico y "
+"Universidad Estatal de Virginia. `La tesis de Paolo Scardina "
+"<../_static/references/PaoloScardinaDissertation2004.pdf>`_ ofrece una "
+"excelente revisión de los problemas causados por las burbujas de gas."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:30
+msgid ""
+"Dissolved gas removal is also a goal after anaerobic wastewater treatment "
+"for enhanced removal of dissolved methane."
+msgstr ""
+"La eliminación de gases disueltos también es un objetivo tras el tratamiento"
+" anaeróbico de aguas residuales para mejorar la eliminación del metano "
+"disuelto."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:35
+msgid "Flocculation"
+msgstr "Floculación"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:37
+msgid ""
+"Minimal adverse effects. Foam produced can dry and be blown around the water"
+" treatment plant. Nuisance and aesthetically unpleasing."
+msgstr ""
+"Efectos adversos mínimos. La espuma producida puede secarse y ser soplada "
+"alrededor de la planta tratamiento de agua . Molesta y poco agradable "
+"visualmente."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:42
+msgid "Floc Filters"
+msgstr "Filtros de flóculo"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:44
+msgid "Disrupts floc filter, breaks flocs, carries flocs into plate settlers."
+msgstr ""
+"Interrumpe filtro de flóculos, rompe flocas, transporta floques a los "
+"asentadores de placas."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:49
+msgid "Clarification"
+msgstr "Aclaración"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:51
+msgid ""
+"Bubbles carry flocs rapidly to the top of the clarifier where they form a "
+"surface mat of flocs. The surface mat of flocs isn't necessarily harmful to "
+"plant performance, but it is a nuisance and requires that the operators "
+"scrape the flocs to remove them from the clarifier. Some of the rising flocs"
+" are swept into the exit manifold and thus the settled water turbidity can "
+"be significantly increased by these rising flocs."
+msgstr ""
+"Las burbujas transportan los flócs rápidamente hasta la parte superior del "
+"clarificador, donde forman una alfombra superficial de flocas. La alfombra "
+"superficial de flócs no es necesariamente perjudicial para el rendimiento de"
+" la planta, pero es una molestia y requiere que los operadores raspen los "
+"flócs para retirarlos del clarificador. Algunos de los flócs ascendentes son"
+" barridos hacia el colector de salida y, por tanto, la turbidez agua "
+"sedimentada puede aumentar significativamente con estos flócs ascendentes."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:57
+msgid "Filtration"
+msgstr "Filtración"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:59
+msgid ""
+"Filtration performance can be severely harmed by gas bubbles. The bubbles "
+"form in the pores of the filter and are unable to leave the pore due to "
+"surface tension. Filter media can fill rapidly with gas bubbles and this "
+"results in increased head loss or decreased flow through the filter. Bubble "
+"formation can significantly reduce the filter run time. The amount of bubble"
+" formation is strongly dependent on the pressure in the filter. Filters that"
+" operate with a deep column of water on top of the filter bed can be "
+"unaffected by dissolved gasses if the high pressure within the filter raises"
+" the equilibrium dissolved gas concentration above the actual dissolved gas "
+"concentration. Enclosed Stacked Rapid Sand Filters are more vulnerable to "
+"bubble formation that Open Stacked Rapid Sand Filters because of the "
+"difference in pressure in the sand bed. This pressure analysis also reveals "
+"that gas bubble formation will tend to occur at the lowest pressure zone in "
+"the filter bed. This low pressure zone can occur in a down flow filter right"
+" below the partially clogged section of the bed because of the decrease in "
+"pressure due to head loss."
+msgstr ""
+"El rendimiento de la filtración puede verse gravemente perjudicado por las "
+"burbujas de gas. Las burbujas se forman en los poros del filtro y no pueden "
+"salir del poro debido a la tensión superficial. medio filtrante pueden "
+"llenarse rápidamente de burbujas de gas y esto resulta en un aumento de "
+"pérdida de carga o una disminución del flujo a través del filtro. La "
+"formación de burbujas puede reducir significativamente el tiempo de "
+"funcionamiento del filtro. La cantidad de formación de burbujas depende "
+"fuertemente de la presión en el filtro. Los filtros que operan con una "
+"columna profunda de agua sobre el lecho filtrante pueden no verse afectados "
+"por gases disueltos si la alta presión dentro del filtro eleva la "
+"concentración de gas disuelto en equilibrio por encima de la concentración "
+"real de gas disuelto. Los filtros rápidos de arena apilados cerrados son más"
+" vulnerables a la formación de burbujas que los filtros rápidos apilados "
+"abiertos debido a la diferencia de presión en el lecho de arena. Este "
+"análisis de presión también revela que la formación de burbujas de gas "
+"tenderá a ocurrir en la zona de presión más baja del lecho filtrante. Esta "
+"zona de baja presión puede darse en un filtro de flujo descendente justo "
+"debajo de la sección parcialmente obstruida del lecho debido a la "
+"disminución de presión debida a pérdida de carga."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:61
+msgid ""
+"At the El PODA Nicaragua AguaClara plant there was so much dissolved air in "
+"the influent water that the filters could only operate for one hour before "
+"requiring backwash."
+msgstr ""
+"En la planta de El PODA Nicaragua AguaClara había tanto aire disuelto en el "
+"agua influyente que los filtros solo podían funcionar durante una hora antes"
+" de requerir retrolavado."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:67
+msgid "Dissolved Gas Sources"
+msgstr "Fuentes de gases disueltos"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:69
+msgid ""
+"High pressure regions in transmission lines where the pipeline flow capacity"
+" exceeds the need AND where the flow control is restricted by upstream "
+"supply rather than by downstream head loss control (meaning by partially "
+"closing a valve!)."
+msgstr ""
+"Regiones de alta presión en líneas de transmisión donde la capacidad de "
+"flujo del gasoducto supera la necesidad Y donde el control de flujo está "
+"restringido por el suministro aguas arriba en lugar de por el control de "
+"pérdida de carga aguas abajo (¡es decir, cerrando parcialmente una "
+"válvula!)."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:70
+msgid ""
+"Temperature increase that reduces the equilibrium concentration. This gas "
+"source is observed in the AguaClara lab facilities where hot and cold "
+"incoming tap water are mixed to produce \"room temperature\" water. The "
+"increase in water temperature results in bubble formation."
+msgstr ""
+"Aumento de temperatura que reduce la concentración de equilibrio. Esta "
+"fuente de gas se observa en las instalaciones del laboratorio de AguaClara, "
+"donde se mezclan agua caliente y fría del grifo entrante para producir agua "
+"a \"temperatura ambiente\". El aumento de la temperatura del agua provoca la"
+" formación de burbujas."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:76
+msgid "Dissolved Gas Concentration Reduction"
+msgstr "Reducción de la concentración de gases disueltos"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:79
+msgid "Methods to Provide Nucleation Sites"
+msgstr "Métodos para proporcionar sitios de nucleación"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:80
+msgid "Aeration"
+msgstr "Aireación"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:82
+msgid "Air can be pumped through diffusers."
+msgstr "El aire puede ser bombeado a través de difusores."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:83
+msgid ""
+"Air can be sucked into the diffusers if the reactor operated at less than "
+"atmospheric pressure."
+msgstr ""
+"El aire puede ser succionado hacia los difusores si el reactor funciona a "
+"menos presión que la atmosférica."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:84
+msgid "Fluidized bed containing particles that have nucleation sites."
+msgstr "Lecho fluidizado que contiene partículas que tienen sitios de nucleación."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:86
+msgid ""
+"The fluidized nucleation site particles must be dense enough and large "
+"enough so that attached gas bubbles can't carry them out of the degassing "
+"reactor."
+msgstr ""
+"Las partículas fluidizadas del sitio de nucleación deben ser lo "
+"suficientemente densas y grandes para que las burbujas de gas unidas no "
+"puedan expulsarlas del reactor de desgasificación."
+
+#: ../../Dissolved_Gas/DG_Intro.rst:89
+msgid "Methods to Reduce Degassing Reactor Pressure"
+msgstr "Métodos para reducir la presión de desgasificación en el reactor"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:91
+msgid ""
+"The top of the degassing reactor can be located several meters above the "
+"entrance tank of the water treatment plant. The higher the tank (up to a max"
+" of 10 m) the more pronounced the pressure reduction will be and the more "
+"effective the reactor will be at degassing. The degassing reactor will "
+"produce a water and bubble effluent that must be"
+msgstr ""
+"La parte superior del reactor de desgasificación puede situarse varios "
+"metros por encima del tanque de entrada de la planta tratamiento de agua . "
+"Cuanto más alto sea el tanque (hasta un máximo de 10 m), más pronunciada "
+"será la reducción de presión y más eficaz será el reactor en la "
+"desgasificación. El reactor de desgasificación producirá un efluente de agua"
+" y burbujas que debe ser"
+

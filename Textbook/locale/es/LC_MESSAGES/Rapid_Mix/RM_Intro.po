@@ -1,0 +1,949 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Rapid_Mix/RM_Intro.rst:12
+msgid "Rapid Mix Introduction"
+msgstr "mezcla rápida Introducción"
+
+#: ../../Rapid_Mix/RM_Intro.rst:20
+msgid ""
+"This chapter is currently home for the prerequisites of successful "
+"flocculation. Those prerequisites include:"
+msgstr ""
+"Este capítulo actualmente es el hogar de los requisitos previos para una "
+"floculación exitosa. Estos requisitos incluyen:"
+
+#: ../../Rapid_Mix/RM_Intro.rst:15
+msgid ""
+"Ensuring that the pH is in the correct range for coagulant nanoparticle "
+"formation after the coagulant has been added to the raw water."
+msgstr ""
+"Asegurarse de que el pH esté en el rango correcto para la formación de "
+"nanopartículas coagulantes después de que el coagulante se haya añadido al "
+"agua cruda."
+
+#: ../../Rapid_Mix/RM_Intro.rst:16
+msgid ""
+"Increasing the coagulant dose to account for the coagulant interactions with"
+" dissolved species that effectively cover some of the coagulant nanoparticle"
+" surfaces."
+msgstr ""
+"Aumentando la dosis de coagulante para tener en cuenta las interacciones "
+"coagulantes con especies disueltas que cubren efectivamente algunas de las "
+"superficies de nanopartículas coagulantes."
+
+#: ../../Rapid_Mix/RM_Intro.rst:17
+msgid ""
+"Increasing the coagulant dose to account for the available surface area of "
+"suspended particles to achieve"
+msgstr ""
+"Aumentar la dosis de coagulante para tener en cuenta la superficie "
+"disponible de las partículas suspendidas y así lograr"
+
+#: ../../Rapid_Mix/RM_Intro.rst:18
+msgid ""
+"If there are multiple treatment trains, mixing the coagulant with the raw "
+"water so that parallel treatment trains receive the same concentration of "
+"coagulant (perhaps the conventional role of rapid mix)"
+msgstr ""
+"Si hay varios trenes de tratamiento, mezclar el coagulante con el agua cruda"
+" para que los trenes de tratamiento paralelos reciban la misma concentración"
+" de coagulante (quizá el papel convencional de mezcla rápida)."
+
+#: ../../Rapid_Mix/RM_Intro.rst:19
+msgid "Transporting the coagulant nanoparticles to attach to suspended particles"
+msgstr ""
+"Transporte de las nanopartículas coagulantes para unirse a partículas "
+"suspendidas"
+
+#: ../../Rapid_Mix/RM_Intro.rst:22
+msgid ""
+"Rapid mix is the term commonly used to describe the processes that occur "
+"between the coagulant addition to the raw water and the flocculation "
+"process. The processes that occur are not well understood and thus design "
+"guidelines have been empirical."
+msgstr ""
+"mezcla rápida es el término comúnmente utilizado para describir los procesos"
+" que ocurren entre la adición coagulante al agua cruda y el proceso de "
+"floculación. Los procesos que ocurren no se comprenden bien y, por tanto, "
+"las directrices de diseño han sido empíricas."
+
+#: ../../Rapid_Mix/RM_Intro.rst:24
+msgid ""
+"“In summary, little is known about rapid mix, much less any sensitivity to "
+"scale. However, the models and data reviewed suggest the need to be on the "
+"lookout for certain effects. From what is presently known, it can be "
+"speculated that since coagulant precipitation is sensitive to both micro- "
+"and macro-mixing, scale-up must consider not only energy dissipation rate, "
+"but also the reaction injection point and the contacting method.” - `Mixing "
+"in Coagulation and Flocculation 1991 page 292 "
+"<https://books.google.com/books/about/Mixing_in_coagulation_and_flocculation.html?id=dkFSAAAAMAAJ>`_."
+msgstr ""
+"\"En resumen, se sabe poco sobre mezcla rápida, y mucho menos sobre "
+"cualquier sensibilidad a la escala. Sin embargo, los modelos y datos "
+"revisados sugieren la necesidad de estar atentos a ciertos efectos. De lo "
+"que se sabe actualmente, se puede especular que, dado que la precipitación "
+"de coagulantes es sensible tanto a la micromezclación como a la macro, la "
+"ampliación debe considerar no solo la tasa de disipación de energía, sino "
+"también el punto de inyección de la reacción y el método de contacto.\" - "
+"`Mezcla en Coagulación y Floculación 1991 página 292 "
+"<https://books.google.com/books/about/Mixing_in_coagulation_and_flocculation.html?id=dkFSAAAAMAAJ>`_."
+
+#: ../../Rapid_Mix/RM_Intro.rst:26
+msgid ""
+"Although the processes have not been well characterized, the energy that is "
+"invested for rapid mix processes is significant. In many cases the amount of"
+" energy used isn't practical for gravity powered water treatment plants. The"
+" high energy consumption of rapid mix units has led some municipal water "
+"treatment plant operators to experiment with turning off rapid mix units. "
+"They have found that at least under some conditions there is no indication "
+"that the energy used in rapid mix improved plant performance. Thus there is "
+"a need to understand the physical and chemical processes that occur when a "
+"concentrated liquid coagulant is added to water."
+msgstr ""
+"Aunque los procesos no han sido bien caracterizados, la energía que se "
+"invierte en mezcla rápida procesos es significativa. En muchos casos, la "
+"cantidad de energía utilizada no es práctica para las plantas de tratamiento"
+" de agua accionadas por gravedad. El alto consumo energético de mezcla "
+"rápida unidades ha llevado a algunos operadores de plantas tratamiento de "
+"agua municipales a experimentar con apagar mezcla rápida unidades. Han "
+"comprobado que, al menos bajo algunas condiciones, no hay indicios de que la"
+" energía utilizada en mezcla rápida mejore el rendimiento de la planta. Por "
+"tanto, es necesario comprender los procesos físicos y químicos que ocurren "
+"cuando se añade un coagulante líquido concentrado al agua."
+
+#: ../../Rapid_Mix/RM_Intro.rst:28
+msgid ""
+"Rapid mix sets the stage for aggregation of both suspended particles and "
+"dissolved substances. Particle and dissolve substance aggregation is "
+"mediated by coagulant nanoparticles. The nanoparticles attach to raw water "
+"particles as well as to some dissolved species. After the nanoparticles have"
+" been mixed with the raw water and have attached to raw water particles the "
+"next process, flocculation, can begin.  :ref:`Flocculation "
+"<title_Flocculation_Introduction>` is the process of producing collisions "
+"between particles to create flocs (aggregates of particles)."
+msgstr ""
+"mezcla rápida prepara el terreno para la agregación tanto de partículas "
+"suspendidas como de sustancias disueltas. La agregación de partículas y "
+"sustancias disueltas está mediada por nanopartículas coagulantes. Las "
+"nanopartículas se adhieren a agua cruda partículas así como a algunas "
+"especies disueltas. Después de que las nanopartículas se han mezclado con el"
+" agua cruda y se han adherido a agua cruda partículas, puede comenzar el "
+"siguiente proceso, la floculación.  :ref:`Flocculation "
+"<title_Flocculation_Introduction>` es el proceso de producir colisiones "
+"entre partículas para crear flócs (agregados de partículas)."
+
+#: ../../Rapid_Mix/RM_Intro.rst:30
+msgid ""
+"Coagulant nanoparticle application includes multiple steps that must occur "
+"before the raw water particles can begin to aggregate. The sticky "
+"nanoparticles can be aluminum :math:`(Al^{+3})` or iron :math:`(Fe^{+3})` "
+"based and in either case the nanoparticles are formed from precipitated "
+"hydroxide species (:math:`Al(OH)_3` or :math:`Fe(OH)_3`). The series of "
+"events that are contained in the broad designation of “rapid mix” are:"
+msgstr ""
+"La aplicación de nanopartículas coagulantes incluye múltiples pasos que "
+"deben ocurrir antes de que las partículas de agua cruda puedan empezar a "
+"agregarse. Las nanopartículas pegajosas pueden ser a base de "
+":math:`(Al^{+3})` de aluminio o :math:`(Fe^{+3})` de hierro y, en cualquiera"
+" de los casos, las nanopartículas se forman a partir de especies de "
+"hidróxido precipitado (:math:`Al(OH)_3` o :math:`Fe(OH)_3`). La serie de "
+"eventos que se encuentran en la denominación general de \"mezcla rápida\" "
+"son:"
+
+#: ../../Rapid_Mix/RM_Intro.rst:32
+msgid "Liquid coagulant stock solution with a low pH is injected into the raw water"
+msgstr "Se inyecta solución madre coagulante líquido con pH bajo en el agua cruda"
+
+#: ../../Rapid_Mix/RM_Intro.rst:33
+msgid "Fluid Mixing: Turbulent eddies randomize the fluids (but don’t blend them)"
+msgstr ""
+"Mezcla de fluidos: Los remolinos turbulentos aleatorizan los fluidos (pero "
+"no los mezclan)"
+
+#: ../../Rapid_Mix/RM_Intro.rst:35
+msgid ""
+"Large scale eddies mix the coagulant with the raw water by creating large "
+"fluid deformations. This stretching and turning of the raw water and "
+"coagulant is analogous to shuffling a deck of cards. The cards are "
+"randomized, but the cards maintain their identity. The original liquids "
+"retain their chemical composition. This step must be completed before any "
+"flow splitting for parallel treatment trains."
+msgstr ""
+"Los remolinos a gran escala mezclan el coagulante con el agua cruda creando "
+"grandes deformaciones de fluidos. Este estiramiento y giro del agua cruda y "
+"el coagulante es análogo a barajar una baraja de cartas. Las cartas se "
+"aleatorizan, pero mantienen su identidad. Los líquidos originales conservan "
+"su composición química. Este paso debe completarse antes de cualquier "
+"división de flujo para los trenes de tratamiento paralelo."
+
+#: ../../Rapid_Mix/RM_Intro.rst:36
+msgid "Turbulent eddies disintegrate into smaller and smaller eddies."
+msgstr "Los remolinos turbulentos se desintegran en remolinos cada vez más pequeños."
+
+#: ../../Rapid_Mix/RM_Intro.rst:37
+msgid ""
+"At a very small scale (Inner viscous length scale) viscosity becomes "
+"significant and the kinetic energy of the eddies begins to be converted to "
+"heat by viscosity."
+msgstr ""
+"A una escala muy pequeña (escala de longitud viscosa interna) la viscosidad "
+"se vuelve significativa y la energía cinética de los remolinos comienza a "
+"convertirse en calor por la viscosidad."
+
+#: ../../Rapid_Mix/RM_Intro.rst:39
+msgid "The coagulant is blended with the raw water by molecular diffusion"
+msgstr "El coagulante se mezcla con el agua cruda por difusión molecular"
+
+#: ../../Rapid_Mix/RM_Intro.rst:40
+msgid ""
+"The higher pH of the raw water causes the coagulant to begin to precipitate "
+"as :math:`Al_{12}AlO_4(OH)_{24}(H_2O)_{12}^{7+}`, an aluminum, Al, "
+"nanoparticle."
+msgstr ""
+"El pH más alto del agua cruda hace que el coagulante comience a precipitarse"
+" como :math:`Al_{12}AlO_4(OH)_{24}(H_2O)_{12}^{7+}`, una nanopartícula de "
+"aluminio, Al."
+
+#: ../../Rapid_Mix/RM_Intro.rst:41
+msgid ""
+"The precipitating :math:`Al_{13}` molecules aggregates with other nearby "
+":math:`Al_{13}` molecules to form aluminum hydroxide nanoparticles. It is "
+"also possible that the nanoparticles are already formed in the coagulant "
+"stock suspension. Polyaluminum chloride stock solutions turn white in about "
+"a year at room temperature and this suggests that nanoparticles form in the "
+"stock solution."
+msgstr ""
+"Las moléculas de :math:`Al_{13}` precipitantes se agregan con otras "
+"moléculas de :math:`Al_{13}` cercanas para formar nanopartículas de "
+"hidróxido de aluminio. También es posible que las nanopartículas ya se hayan"
+" formado en la suspensión de material coagulante. Las soluciones de celulo "
+"de policloruro de aluminio se vuelven blancas en aproximadamente un año a "
+"temperatura ambiente, lo que sugiere que se forman nanopartículas en el "
+"solución madre."
+
+#: ../../Rapid_Mix/RM_Intro.rst:42
+msgid ""
+"The Al nanoparticles attach to other dissolved species and suspended "
+"particles."
+msgstr ""
+"Las nanopartículas de Al se adhieren a otras especies disueltas y partículas"
+" suspendidas."
+
+#: ../../Rapid_Mix/RM_Intro.rst:43
+msgid ""
+"Molecular diffusion causes some dissolved species and Al nanoparticles to "
+"aggregate."
+msgstr ""
+"La difusión molecular provoca que algunas especies disueltas y "
+"nanopartículas de Al se agreguen."
+
+#: ../../Rapid_Mix/RM_Intro.rst:44
+msgid ""
+"Fluid shear and molecular diffusion cause Al nanoparticles with attached "
+"formerly dissolved species to collide with inorganic particles (such as "
+"clay) and organic particles (such as viruses, bacteria, and protozoans)."
+msgstr ""
+"El cizalladura del fluido y la difusión molecular hacen que nanopartículas "
+"de Al con especies previamente disueltas adheridas colisionen con partículas"
+" inorgánicas (como la arcilla) y partículas orgánicas (como virus, bacterias"
+" y protozoos)."
+
+#: ../../Rapid_Mix/RM_Intro.rst:46
+msgid ""
+"These multiple steps cover a wide range of length scales and it is not clear"
+" at the onset which processes might be the rate limiting steps. We will "
+"develop time scale estimates for several of these steps to help identify "
+"which processes will likely require the most attention to design. Many of "
+"these transport processes are presumed to occur in parallel. "
+":numref:`figure_transport_length_scales` shows the range of length scales."
+msgstr ""
+"Estos múltiples pasos cubren una amplia gama de escalas de longitud y no "
+"está claro al principio cuáles procesos podrían ser los pasos limitantes de "
+"velocidad. Desarrollaremos estimaciones de escalas temporales para varios de"
+" estos pasos para ayudar a identificar cuáles probablemente requerirán más "
+"atención al diseño. Se presume que muchos de estos procesos de transporte "
+"ocurren en paralelo. :numref:`figure_transport_length_scales` muestra el "
+"rango de escalas de longitud."
+
+#: ../../Rapid_Mix/RM_Intro.rst:55
+msgid "rapid mix macro to nano scale"
+msgstr "mezcla rápida macro a nanoescala"
+
+#: ../../Rapid_Mix/RM_Intro.rst:55
+msgid ""
+"Transport of coagulant nanoparticles occurs over length scales ranging from "
+"meter to a fraction of a nanometer."
+msgstr ""
+"El transporte de nanopartículas coagulantes ocurre a escalas de longitud que"
+" van desde un metro hasta una fracción de nanómetro."
+
+#: ../../Rapid_Mix/RM_Intro.rst:61
+msgid "Fluid Mixing"
+msgstr "Mezcla de fluidos"
+
+#: ../../Rapid_Mix/RM_Intro.rst:63
+msgid ""
+"Fluid mixing is the process by which large scale eddies distribute packets "
+"of the coagulant stock throughout the raw water. The term “Rapid mix” is "
+"probably best used to describe this process. Traditional methods of "
+"achieving this fluid mixing include various methods of generating intense "
+"turbulence. Fluid mixing is able to rapidly blend the coagulant with the raw"
+" water in a matter of a few seconds. The equations describing the fluid "
+"mixing process are presented in the section on "
+":ref:`heading_Estimates_of_time_required_for_mixing_processes`."
+msgstr ""
+"La mezcla de fluidos es el proceso mediante el cual los remolinos a gran "
+"escala distribuyen paquetes del material coagulante a lo largo del agua "
+"cruda. El término \"mezcla rápida\" probablemente sea el mejor uso para "
+"describir este proceso. Los métodos tradicionales para lograr esta mezcla de"
+" fluidos incluyen varios métodos para generar turbulencia intensa. La mezcla"
+" de fluidos es capaz de mezclar rápidamente el coagulante con el agua cruda "
+"en cuestión de segundos. Las ecuaciones que describen el proceso de mezcla "
+"de fluidos se presentan en la sección sobre "
+":ref:`heading_Estimates_of_time_required_for_mixing_processes`."
+
+#: ../../Rapid_Mix/RM_Intro.rst:72
+msgid "Backmix"
+msgstr "Backmix"
+
+#: ../../Rapid_Mix/RM_Intro.rst:72
+msgid ""
+"Backmix: a mechanical rapid mixer that has a relatively long residence time "
+"in a completely mixed flow reactor."
+msgstr ""
+"Backmix: un mezclador rápido mecánico que tiene un tiempo de residencia "
+"relativamente largo en un reactor completamente de flujo mixto."
+
+#: ../../Rapid_Mix/RM_Intro.rst:81
+msgid "Inline"
+msgstr "En línea"
+
+#: ../../Rapid_Mix/RM_Intro.rst:81
+msgid ""
+"Inline: a mechanical rapid mixer that has a short residence time in a "
+"completely mixed flow reactor that is often built into a pipe."
+msgstr ""
+"En línea: un mezclador rápido mecánico que tiene un tiempo de residencia "
+"corto en un reactor de flujo completamente mixto que a menudo está integrado"
+" en una tubería."
+
+#: ../../Rapid_Mix/RM_Intro.rst:90
+msgid "hydraulic jump"
+msgstr "Salto hidráulico"
+
+#: ../../Rapid_Mix/RM_Intro.rst:90
+msgid ""
+"Hydraulic jump: a hydraulic rapid mixer uses the flow expansion downstream "
+"from supercritical open channel flow."
+msgstr ""
+"Salto hidráulico: un mezclador rápido hidráulico utiliza la expansión del "
+"flujo aguas abajo del caudal abierto supercrítico."
+
+#: ../../Rapid_Mix/RM_Intro.rst:92
+msgid ""
+"The hydraulic jump in :numref:`figure_hydraulic_jump` uses a flow expansion "
+"to generate mixing in an open channel and that suggests that a flow "
+"expansion could also be used to generate mixing in a closed conduit. "
+"AguaClara rapid mix units consist of an orifice in the bottom of the "
+":ref:`heading_lfom` where the water enters the flocculator (see "
+":numref:`figure_Rapid_mix_orifice`). However, given that fluid mixing is so "
+"easy to attain it is unclear if the energy used in the rapid mix orifice is "
+"necessary."
+msgstr ""
+"El salto hidráulico en :numref:`figure_hydraulic_jump` utiliza una expansión"
+" de flujo para generar mezcla en un canal abierto, lo que sugiere que una "
+"expansión de flujo también podría usarse para generar mezcla en un conducto "
+"cerrado. Las unidades de mezcla rápida de AguaClara consisten en un orificio"
+" en el fondo del :ref:`heading_lfom` donde el agua entra en el floculador "
+"(véase :numref:`figure_Rapid_mix_orifice`). Sin embargo, dado que la mezcla "
+"de fluidos es tan fácil de conseguir, no está claro si la energía utilizada "
+"en el orificio de mezcla rápida es necesaria."
+
+#: ../../Rapid_Mix/RM_Intro.rst:101
+msgid "Rapid mix orifice"
+msgstr "mezcla rápida orificio"
+
+#: ../../Rapid_Mix/RM_Intro.rst:101
+msgid ""
+"The orifice creates a high velocity jet that generates mixing as it expands "
+"in the contact chamber prior to flocculation."
+msgstr ""
+"El orificio crea un chorro de alta velocidad que genera mezcla a medida que "
+"se expande en la cámara de contacto antes de la floculación."
+
+#: ../../Rapid_Mix/RM_Intro.rst:106
+msgid "Conventional Mechanical Rapid Mix"
+msgstr "Mecánica convencional mezcla rápida"
+
+#: ../../Rapid_Mix/RM_Intro.rst:112
+msgid "Maximum Velocity Gradients"
+msgstr "Gradientes de velocidad máxima"
+
+#: ../../Rapid_Mix/RM_Intro.rst:114
+msgid ""
+"`Colab worksheet calculating the maximum velocity gradients "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=cu3z2Pi7XCUY&line=5&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando los gradientes máximos de velocidad "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=cu3z2Pi7XCUY&line=5&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Intro.rst:123
+msgid "Mechanical RM Gt"
+msgstr "RM GT mecánico"
+
+#: ../../Rapid_Mix/RM_Intro.rst:123
+msgid ""
+"Mechanical rapid mix units use a wide range of velocity gradients and "
+"residence times."
+msgstr ""
+"Las unidades mecánicas mezcla rápida utilizan una amplia gama de gradientes "
+"de velocidad y tiempos de permanencia."
+
+#: ../../Rapid_Mix/RM_Intro.rst:125
+msgid ""
+"Conventional rapid mix units use mechanical or potential energy to generate "
+"intense turbulence to begin the mixing process. Conventional design is based"
+" on the use of :math:`\\bar G` (an average velocity gradient) as a design "
+"parameter. We don’t yet know what the design objective is for rapid mix and "
+"thus it isn’t clear which parameters matter. We hypothesize that both "
+"velocity gradients that cause deformation of the fluid and time for "
+"molecular diffusion are required to ultimately transport coagulant "
+"nanoparticles to the surfaces of clay particles."
+msgstr ""
+"Las unidades convencionales de mezcla rápida utilizan energía mecánica o "
+"potencial para generar turbulencias intensas que inician el proceso de "
+"mezcla. El diseño convencional se basa en el uso de :math:`\\bar G` (un "
+"gradiente medio de velocidad) como parámetro de diseño. Aún no sabemos cuál "
+"es el objetivo de diseño para mezcla rápida y, por tanto, no está claro qué "
+"parámetros importan. Planteamos la hipótesis de que tanto los gradientes de "
+"velocidad que causan deformación del fluido como el tiempo para la difusión "
+"molecular son necesarios para transportar finalmente nanopartículas "
+"coagulantes a las superficies de las partículas de arcilla."
+
+#: ../../Rapid_Mix/RM_Intro.rst:127
+msgid ""
+"The velocity gradient can be obtained from the rate at which mechanical "
+"energy is being dissipated and converted to heat by viscosity."
+msgstr ""
+"El gradiente de velocidad puede obtenerse a partir de la velocidad a la que "
+"la energía mecánica se disipa y convierte en calor mediante la viscosidad."
+
+#: ../../Rapid_Mix/RM_Intro.rst:129
+msgid ""
+"\\varepsilon = G^2 \\nu\n"
+"\n"
+msgstr ""
+"\\varepsilon = G^2 \\nu\n"
+"\n"
+
+#: ../../Rapid_Mix/RM_Intro.rst:131
+msgid ""
+"Where :math:`\\varepsilon` is the energy dissipation rate, :math:`G` is the "
+"velocity gradient, and :math:`\\nu` is the kinematic viscosity of water. We "
+"can estimate the power input required to create a target energy dissipation "
+"rate for a conventional design by noting that power is simple the energy "
+"dissipation rate times the mass of water in the rapid mix unit."
+msgstr ""
+"Donde :math:`\\varepsilon` es la tasa de disipación de energía, :math:`G` es"
+" el gradiente de velocidad y :math:`\\nu` es la viscosidad cinemática del "
+"agua. Podemos estimar la potencia necesaria para crear una tasa objetivo de "
+"disipación de energía para un diseño convencional observando que la potencia"
+" es simple: la tasa de disipación de energía multiplicada por la masa del "
+"agua en la unidad mezcla rápida ."
+
+#: ../../Rapid_Mix/RM_Intro.rst:133
+msgid ""
+"P = \\bar\\varepsilon \\forall \\rho\n"
+"\n"
+msgstr ""
+"P = \\bar\\varepsilon \\forall \\rho\n"
+"\n"
+
+#: ../../Rapid_Mix/RM_Intro.rst:135
+msgid ""
+"P = \\bar G^2 \\nu \\forall \\rho\n"
+"\n"
+msgstr ""
+"P = \\bar G^2 \\nu \\forall \\rho\n"
+"\n"
+
+#: ../../Rapid_Mix/RM_Intro.rst:137
+msgid ""
+"We can relate reactor volume to a hydraulic residence time, :math:`\\theta`,"
+" and volumetric flow rate, Q."
+msgstr ""
+"Podemos relacionar el volumen del reactor con un tiempo de residencia "
+"hidráulica, :math:`\\theta`, y caudal volumétrico , Q."
+
+#: ../../Rapid_Mix/RM_Intro.rst:139
+msgid ""
+"P = \\rho \\bar G^2 \\nu Q \\theta\n"
+"\n"
+msgstr ""
+"P = \\rho \\bar G^2 \\nu Q \\theta\n"
+"\n"
+
+#: ../../Rapid_Mix/RM_Intro.rst:141
+msgid ""
+"This equation is perfectly useful for estimating electrical motor sizing "
+"requirements for mechanical rapid mix units. For gravity powered hydraulic "
+"rapid mix units it would be more intuitive to use the change in water "
+"surface elevation, :math:`\\Delta h` instead of power input."
+msgstr ""
+"Esta ecuación es perfectamente útil para estimar los requisitos de "
+"dimensionamiento de motores eléctricos para unidades mecánicas de mezcla "
+"rápida . Para unidades hidráulicas mezcla rápida accionadas por gravedad "
+"sería más intuitivo utilizar el cambio en la elevación de la superficie del "
+"agua, :math:`\\Delta h` en lugar de la entrada de potencia."
+
+#: ../../Rapid_Mix/RM_Intro.rst:143
+msgid "P = \\rho g Q \\Delta h"
+msgstr "P = \\rho g Q \\Delta h"
+
+#: ../../Rapid_Mix/RM_Intro.rst:149
+msgid "Combining the two equations we obtain."
+msgstr "Combinando las dos ecuaciones obtenemos"
+
+#: ../../Rapid_Mix/RM_Intro.rst:151
+msgid ""
+"\\Delta h =  \\frac{G^2 \\nu \\theta}{g}\n"
+"\n"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:155
+msgid ""
+"Typical values for conventional rapid mix residence time and average "
+"velocity gradients"
+msgstr ""
+"Valores típicos para el tiempo de residencia de mezcla rápida convencional y"
+" gradientes medios de velocidad"
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "Residence Time (s)"
+msgstr "Tiempo de residencia"
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "Velocity gradient G (1/s)"
+msgstr "Gradiente de velocidad G (1/s)"
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "Energy dissipation rate (W/kg)"
+msgstr "Tasa de disipación de energía (W/kg)"
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "Equivalent height (m)"
+msgstr "Altura equivalente (m)"
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "0.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "4000"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "16"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "0.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "10 - 20"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "1500"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "2.25"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "2.3 - 4.6"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "20 - 30"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "950"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "0.9"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "1.8 - 2.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "30 - 40"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "850"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "0.72"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "2.2 - 2.9"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "40 - 130"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "750"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "0.56"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:1
+msgid "2.3 - 7.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Intro.rst:164
+msgid ""
+"From Environmental Engineering: A Design Approach by Sincero and Sincero. "
+"1996. page 267."
+msgstr ""
+"De Ingeniería Ambiental: Un enfoque de diseño por Sincero y Sincero. 1996. "
+"página 267."
+
+#: ../../Rapid_Mix/RM_Intro.rst:167
+msgid ""
+"Rotating propellers can either be installed in open tanks or enclosed in "
+"pipes. From a mixing and fluids perspective it doesn’t make any difference "
+"whether the tank is open to the atmosphere or not. The parameters of "
+"interest are the rate of fluid deformation and the residence time in the "
+"mixing zone."
+msgstr ""
+"Las hélices giratorias pueden instalarse en tanques abiertos o encerrarse en"
+" tuberías. Desde la perspectiva de mezcla y fluidos, no importa si el tanque"
+" está abierto a la atmósfera o no. Los parámetros de interés son la "
+"velocidad de deformación del fluido y el tiempo de residencia en la zona de "
+"mezcla."
+
+#: ../../Rapid_Mix/RM_Intro.rst:172
+msgid "Mixing Time"
+msgstr "Tiempo de mezcla"
+
+#: ../../Rapid_Mix/RM_Intro.rst:174
+msgid ""
+"The time required for mixing in a turbulent environment is a function of the"
+" rate that kinetic energy is being dissipated as heat (the energy "
+"dissipation rate) and the length scale of the eddies. Given that turbulent "
+"energy is passed from large eddies to smaller and smaller eddies, the amount"
+" of energy that is being transferred at any given length scale is "
+"independent of scale. The result (see Equation :eq:`eq_t_eddy`) is that the "
+"time required for mixing is dominated by the time required for the largest "
+"eddies to turn over (:numref:`figure_Eddy_turnover_times`)."
+msgstr ""
+"El tiempo necesario para mezclar en un entorno turbulento es función de la "
+"velocidad a la que la energía cinética se disipa como calor (la tasa de "
+"disipación de energía) y de la escala de longitud de los remolinos. Dado que"
+" la energía turbulenta se transmite de remolinos grandes a remolinos cada "
+"vez más pequeños, la cantidad de energía que se transfiere en una escala de "
+"longitud dada es independiente de la escala. El resultado (véase Ecuación "
+":eq:`eq_t_eddy`) es que el tiempo requerido para mezclar está dominado por "
+"el tiempo que tarda en girar los remuíños mayores "
+"(:numref:`figure_Eddy_turnover_times`)."
+
+#: ../../Rapid_Mix/RM_Intro.rst:183
+msgid "Eddy turnover time"
+msgstr "Tiempo de cambio de relámpago"
+
+#: ../../Rapid_Mix/RM_Intro.rst:183
+msgid ""
+"Eddy turnover times as a function of length scale for a range of energy "
+"dissipation rates."
+msgstr ""
+"Tiempos de recambio de relámpago en función de la escala de longitud para un"
+" rango de tasas de disipación de energía."
+
+#: ../../Rapid_Mix/RM_Intro.rst:185
+msgid ""
+"The eddy turnover times are longest for the largest eddies and this analysis"
+" suggests that it only takes a few seconds for turbulent eddies to mix from "
+"the scale of the flow down to the inner viscous length scale."
+msgstr ""
+"Los tiempos de recambio de remolos son los más largos para los remolinos más"
+" grandes y este análisis sugiere que solo se necesitan unos segundos para "
+"que los remolinos turbulentos se mezclen desde la escala del flujo hasta la "
+"escala interior de longitud viscosa."
+
+#: ../../Rapid_Mix/RM_Intro.rst:187
+msgid ""
+"The large scale mixing time is critical for the design of water treatment "
+"plants for the case where the flow is split into multiple treatment trains "
+"after coagulant addition. In this case it is critical that the coagulant be "
+"mixed equally between all of the treatment trains and thus the mixing times "
+"shown in the previous graph represent a minimum time between where the "
+"coagulant is added and where the flow is divided into the parallel treatment"
+" trains."
+msgstr ""
+"El tiempo de mezcla a gran escala es fundamental para el diseño de "
+"tratamiento de agua plantas en el caso en que el flujo se divide en "
+"múltiples trenes de tratamiento tras la adición del coagulante. En este "
+"caso, es fundamental que el coagulante se mezcle por igual entre todos los "
+"trenes de tratamiento y, por tanto, los tiempos de mezcla mostrados en el "
+"gráfico anterior representan un tiempo mínimo entre donde se añade el "
+"coagulante y donde el flujo se divide en los trenes de tratamiento "
+"paralelos."
+
+#: ../../Rapid_Mix/RM_Intro.rst:189
+msgid ""
+"It is possible that this process of mixing from the scale of the flow down "
+"to the inner viscous length scale is referred to as “rapid mix.” Here we "
+"showed that this mixing is indeed rapid and is really only a concern in the "
+"case where the coagulant injection point is very close to the location where"
+" the flow is split into multiple treatment trains."
+msgstr ""
+"Es posible que este proceso de mezcla desde la escala del flujo hasta la "
+"escala interior de longitud viscosa se denomine \"mezcla rápida\". Aquí "
+"demostramos que esta mezcla es realmente rápida y realmente solo es "
+"preocupante en el caso en que el punto de inyección del coagulante esté muy "
+"cerca del lugar donde el flujo se divide en múltiples trenes de tratamiento."
+
+#: ../../Rapid_Mix/RM_Intro.rst:191
+msgid ""
+"The time required for mixing the coagulant nanoparticles with the fluid is "
+"typically only a few seconds, and will be accomplished whether or not the "
+"rapid mix unit is turned on. The turbulent eddies created either from the "
+"water flowing in the channel or from the water flowing through the pipe "
+"between the coagulant injection point and the flocculator will achieve the "
+"required fluid mixing in most cases. However, the step of the "
+":ref:`coagulant nanoparticles attaching to the suspended "
+"particles<heading_Diffusion_and_Shear_Transport_Coagulant_Nanoparticles_to_Clay>`"
+" may be aided by the high energy of the rapid mix unit."
+msgstr ""
+"El tiempo necesario para mezclar las nanopartículas de coagulante con el "
+"fluido suele ser de solo unos pocos segundos, y se logrará tanto si la "
+"unidad mezcla rápida está encendida como si no. Los remolinos turbulentos "
+"creados, ya sea por el agua que fluye en el canal o por el agua que fluye "
+"por la tubería entre el punto de inyección del coagulante y el floculador, "
+"lograrán la mezcla de fluidos requerida en la mayoría de los casos. Sin "
+"embargo, el paso del :ref:`coagulant nanoparticles attaching to the "
+"suspended "
+"particles<heading_Diffusion_and_Shear_Transport_Coagulant_Nanoparticles_to_Clay>`"
+" puede estar favorecido por la alta energía de la unidad mezcla rápida ."
+
+#: ../../Rapid_Mix/RM_Intro.rst:196
+msgid "Coagulant Nanoparticle Interactions"
+msgstr "Interacciones entre nanopartículas y coagulantes"
+
+#: ../../Rapid_Mix/RM_Intro.rst:198
+msgid ""
+"Coagulant nanoparticles are sticky and can attach to suspended particles as "
+"well as to each other. Some dissolved substances also adsorb to coagulant "
+"nanoparticles. The development of models to describe these interactions has "
+"been impeded by the widespread acceptance of the `charge neutralization "
+"hypothesis "
+"<https://projects.ncsu.edu/project/hubbepaperchem/Defnitns/Neutrlzn.htm>`_ "
+"as the mechanism that governs these interactions. However, this hypothesis "
+"fails to account for the size of  coagulant nanoparticles and the various "
+"contaminants in the raw water influent. Instead, a simplified model "
+"describing removal of these differently sized contaminants is proposed "
+"below; this simplified model posits that it is possible to separate fast and"
+" slow processes, which allows for a sequential model."
+msgstr ""
+"Las nanopartículas coagulantes son pegajosas y pueden adherirse tanto a "
+"partículas suspendidas como entre sí. Algunas sustancias disueltas también "
+"adsorben a nanopartículas coagulantes. El desarrollo de modelos para "
+"describir estas interacciones se ha visto obstaculizado por la aceptación "
+"generalizada de la hipótesis de neutralización de carga "
+"`<https://projects.ncsu.edu/project/hubbepaperchem/Defnitns/Neutrlzn.htm>`_ "
+"como mecanismo que gobierna estas interacciones. Sin embargo, esta hipótesis"
+" no tiene en cuenta el tamaño de las nanopartículas coagulantes ni los "
+"diversos contaminantes en el influente agua cruda . En su lugar, se propone "
+"un modelo simplificado que describe la eliminación de estos contaminantes de"
+" diferentes tamaños; este modelo simplificado plantea que es posible separar"
+" procesos rápidos y lentos, lo que permite un modelo secuencial."
+
+#: ../../Rapid_Mix/RM_Intro.rst:200
+msgid ""
+"Interactions between the various suspended and dissolved substances (see "
+":numref:`figure_Particle_sizes`) can occur simultaneously as soon as the "
+"coagulant is blended with the raw water. The rates of these interactions are"
+" controlled by the transport processes of fluid deformation and molecular "
+"diffusion. Molecular diffusion is fastest for small particles and fluid "
+"deformation is most effective for larger particles. Thus the fastest process"
+" is hypothesized to be the diffusion of low mass molecules to the coagulant "
+"nanoparticles. Transport of the coagulant nanoparticles to attach to "
+"suspended solids is expected to be a slower process. Transport of suspended "
+"particles to collide with other suspended particles (flocculation) is even "
+"slower."
+msgstr ""
+"Las interacciones entre las distintas sustancias suspendidas y disueltas "
+"(véase :numref:`figure_Particle_sizes`) pueden ocurrir simultáneamente tan "
+"pronto como el coagulante se mezcla con el agua cruda. Las velocidades de "
+"estas interacciones están controladas por los procesos de transporte de "
+"deformación del fluido y difusión molecular. La difusión molecular es más "
+"rápida para partículas pequeñas y la deformación del fluido es más eficaz "
+"para partículas más grandes. Por tanto, se hipotetiza que el proceso más "
+"rápido es la difusión de moléculas de baja masa hacia las nanopartículas "
+"coagulantes. Se espera que el transporte de las nanopartículas coagulantes "
+"para adherirse a sólidos suspendidos sea un proceso más lento. El transporte"
+" de partículas suspendidas para colisionar con otras partículas suspendidas "
+"(floculación) es aún más lento."
+
+#: ../../Rapid_Mix/RM_Intro.rst:209
+msgid "Particle sizes"
+msgstr "Tamaños de partículas"
+
+#: ../../Rapid_Mix/RM_Intro.rst:209
+msgid ""
+"The size range of particles and nanoparticles that are important in drinking"
+" water treatment ranges from approximately a nanometer (for example arsenic "
+":math:`HAsO_4^{2-}`) to thousands of nanometers for clay and protozoa."
+msgstr ""
+"El rango de tamaño de las partículas y nanopartículas importantes en la "
+"tratamiento de agua de consumo varía desde aproximadamente un nanómetro (por"
+" ejemplo, el arsénico :math:`HAsO_4^{2-}`) hasta miles de nanómetros para "
+"arcilla y protozoos."
+
+#: ../../Rapid_Mix/RM_Intro.rst:214
+msgid "Dissolved Organic Matter"
+msgstr "Materia orgánica disuelta"
+
+#: ../../Rapid_Mix/RM_Intro.rst:216
+msgid ""
+"Dissolved organic matter (DOM) includes humic substances, fulvic acids, and "
+"other organic molecules. The distinction between dissolved and particulate "
+"organic matter is somewhat arbitrary and often 450 nm is used as the "
+"transition.  The dissolved organic matter could also be referred to as "
+"macromolecules or as nanoparticles."
+msgstr ""
+"La materia orgánica disuelta (DOB) incluye sustancias húmicas, ácidos "
+"fúlvicos y otras moléculas orgánicas. La distinción entre materia orgánica "
+"disuelta y particulada es algo arbitraria y a menudo se utiliza 450 nm como "
+"transición. La materia orgánica disuelta también podría denominarse "
+"macromoléculas o nanopartículas."
+
+#: ../../Rapid_Mix/RM_Intro.rst:218
+msgid ""
+"Because of its small size the DOM has a large surface per unit mass. Water "
+"that contains high DOM concentrations requires much higher coagulant dosages"
+" to achieve effective flocculation. Removal of DOM is a high priority for "
+"drinking water treatment plants because DOM both interferes with "
+"disinfection processes and produces disinfection by products. A significant "
+"fraction of DOM can be removed by coagulant nanoparticles."
+msgstr ""
+"Debido a su pequeño tamaño, el DOM tiene una gran superficie por unidad de "
+"masa. El agua que contiene altas concentraciones de DOM requiere dosis de "
+"coagulante mucho mayores para lograr una floculación efectiva. La "
+"eliminación del DOM es una prioridad alta para las plantas de tratamiento de"
+" agua consumo porque el DOM interfiere tanto con los procesos de "
+"desinfección como produce desinfección por derivados. Una fracción "
+"significativa del DOM puede ser eliminada por nanopartículas coagulantes."
+
+#: ../../Rapid_Mix/RM_Intro.rst:223
+msgid "Suspended Solids"
+msgstr "sólidos suspendidos"
+
+#: ../../Rapid_Mix/RM_Intro.rst:225
+msgid ""
+"Suspended solids include both organic and inorganic particles. Organic "
+"particles of concern include virus, bacteria, and protozoa. Inorganic "
+"particles include clay and other minerals. Naturally occurring suspended "
+"solids tend to have negative surface charge at neutral pH. The negative "
+"surface charge effectively prevents particle aggregation and thus these "
+"particles can remain suspended for a very long time."
+msgstr ""
+"sólidos suspendidos incluyen tanto partículas orgánicas como inorgánicas. "
+"Las partículas orgánicas de interés incluyen virus, bacterias y protozoos. "
+"Las partículas inorgánicas incluyen arcilla y otros minerales. Las sólidos "
+"suspendidos naturales tienden a tener carga superficial negativa a pH "
+"neutro. La carga superficial negativa previene eficazmente la agregación de "
+"partículas y, por tanto, estas partículas pueden permanecer suspendidas "
+"durante mucho tiempo."
+
+#: ../../Rapid_Mix/RM_Intro.rst:230
+msgid "Pathogens"
+msgstr "Patógenos"
+
+#: ../../Rapid_Mix/RM_Intro.rst:232
+msgid ""
+"Virus particles readily attach to coagulant nanoparticles (see `\"Effects of"
+" Floc-Virus Association on Chlorine Disinfection Efficiency by Shinichiro "
+"Ohgaki and Prasang Mongkonsiri <https://link-springer-"
+"com.proxy.library.cornell.edu/chapter/10.1007/978-3-642-76093-8_5>`_) and "
+"this attachment makes it possible to efficiently remove virus particles by "
+"flocculation followed by clarification. Bacteria (see `\"Performance "
+"Evaluation of Gravity-Fed Water Treatment Systems in Rural Honduras: "
+"Verifying Robust Reduction of Turbidity and Escherichia coli during Wet and "
+"Dry Weather by Yolanda Brooks, et al "
+"<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6159558/pdf/tpmd170577.pdf>`_)"
+" and protozoans (need reference) are also removed by flocculation by "
+"coagulant nanoparticles."
+msgstr ""
+"Las partículas virales se adhieren fácilmente a nanopartículas de coagulante"
+" (véase `\"Efectos de la asociación Floc-Virus en la eficiencia de "
+"desinfección con cloro\" de Shinichiro Ohgaki y Prasang Mongkonsiri <https"
+"://link-springer-"
+"com.proxy.library.cornell.edu/chapter/10.1007/978-3-642-76093-8_5>`_) y esta"
+" unión permite eliminar eficazmente las partículas virales mediante "
+"floculación seguida de claridad. Las bacterias (véase `\"Evaluación del "
+"rendimiento de sistemas de tratamiento de agua alimentados por gravedad en "
+"Honduras rural: verificando la reducción robusta de turbidez y Escherichia "
+"coli durante el tiempo húmedo y seco por Yolanda Brooks, et al "
+"<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6159558/pdf/tpmd170577.pdf>`_)"
+" y los protozoos (necesita referencia) también son eliminadas por "
+"floculación por nanopartículas coagulantes."
+
+#: ../../Rapid_Mix/RM_Intro.rst:238
+msgid "Rate Estimates for Coagulant Nanoparticle Transport to Suspended Solids"
+msgstr ""
+"Estimaciones de tasa para el transporte de nanopartículas de coagulante a "
+"sólidos suspendidos"
+
+#: ../../Rapid_Mix/RM_Intro.rst:240
+msgid ""
+"Coagulant nanoparticles require significant time to attach to the surfaces "
+"of suspended solids. The time required is estimated in "
+":ref:`heading_Diffusion_and_Shear_Transport_Coagulant_Nanoparticles_to_Clay`."
+" It is quite possible that this stage of the rapid mix/flocculation process "
+"has been overlooked in the past. Transport of the nanoparticles to the "
+"suspended solids is accomplished by a combination of fluid deformation and "
+"diffusion."
+msgstr ""
+"Las nanopartículas coagulantes requieren un tiempo significativo para "
+"adherirse a las superficies de sólidos suspendidos. El tiempo requerido se "
+"estima en "
+":ref:`heading_Diffusion_and_Shear_Transport_Coagulant_Nanoparticles_to_Clay`."
+" Es bastante posible que esta etapa del proceso de mezcla rápida/floculación"
+" haya pasado por alto en el pasado. El transporte de las nanopartículas al "
+"sólidos suspendidos se logra mediante una combinación de deformación y "
+"difusión del fluido."
+

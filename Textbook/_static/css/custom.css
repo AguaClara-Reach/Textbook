@@ -1,3 +1,30 @@
 .red  {
     color: red;
 }
+
+.language-switcher {
+    margin: 1rem 0 0.5rem;
+}
+
+.sidebar-language-switcher {
+    color: #ffffff;
+    font-size: 0.95rem;
+    margin: 0.75rem 0 0.25rem;
+}
+
+.sidebar-language-switcher a,
+.sidebar-language-switcher a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.sidebar-language-switcher strong {
+    color: #ffffff;
+}
+
+.translation-notice {
+    background: #fff6d8;
+    border-left: 4px solid #d9a400;
+    color: #4d3b00;
+    padding: 0.75rem 1rem;
+}

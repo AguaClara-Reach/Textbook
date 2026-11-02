@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:11
+msgid "Clarification Design Challenge"
+msgstr "Desafío de diseño de aclaración"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:13
+msgid ""
+"Designing a clarifier requires selecting several key design parameters. The "
+"floc filter upflow velocity sets the plan view area of the clarifier and "
+"thus directly controls the cost of the concrete tank. The capture velocity "
+"sets the required area of the plate settlers and thus sets their cost. The "
+"maximum velocity gradient sets the maximum velocity exiting the diffuser "
+"ports and that in turn sets the maximum velocity in the inlet manifold and "
+"hence the diameter of the inlet manifold."
+msgstr ""
+"Diseñar un clarificador requiere seleccionar varios parámetros clave de "
+"diseño. La velocidad de filtro de flóculos de flujo ascendente establece el "
+"área de vista en planta del clarificador y, por tanto, controla directamente"
+" el coste del tanque de hormigón. La velocidad de captura determina el área "
+"requerida de los asentadores de placas y así su coste. El gradiente máximo "
+"de velocidad fija la velocidad máxima que sale por los puertos del difusor y"
+" esto, a su vez, fija la velocidad máxima en el manifold de entrada y, por "
+"tanto, el diámetro del manifold de entrada."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:15
+msgid ""
+"If your instructor has not provided you with a link to the starting "
+"document, use the part studio in your copy of the `Clarifier Template "
+"<https://cad.onshape.com/documents/37c3642d5566cf6b172fe9ad/w/99df7cb12d54d9a652b7d74e/e/99b313b3d094d5a33a5f0cc9?configuration=G_max%3D140.0%3BQm_max%3D6.0%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BupVm%3D1.0&renderMode=0&uiState=640cb6f5fb8efc495ca8914b>`_."
+" The design can be modified directly by editing the configuration inputs in "
+"the part studio. The Design Analysis feature studio is where you can do "
+"calculations and answer the questions."
+msgstr ""
+"Si tu profesor no te ha proporcionado un enlace al documento inicial, usa el"
+" estudio de piezas en tu copia de la plantilla de `Clarifier "
+"<https://cad.onshape.com/documents/37c3642d5566cf6b172fe9ad/w/99df7cb12d54d9a652b7d74e/e/99b313b3d094d5a33a5f0cc9?configuration=G_max%3D140.0%3BQm_max%3D6.0%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BupVm%3D1.0&renderMode=0&uiState=640cb6f5fb8efc495ca8914b>`_."
+" El diseño puede modificarse directamente editando las entradas de "
+"configuración en el estudio de piezas. El estudio de características de "
+"Análisis de Diseño es donde puedes hacer cálculos y responder a las "
+"preguntas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:18
+msgid "Learning Objectives"
+msgstr "Objetivos de aprendizaje"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:20
+msgid ""
+"Play with the design and then reflecting on how the underlying physics is "
+"controlling the resulting design."
+msgstr ""
+"Juega con el diseño y luego reflexiona sobre cómo la física subyacente "
+"controla el diseño resultante."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:21
+msgid ""
+"Make the connections between raw water characteristics, flocculator design, "
+"and clarifier design."
+msgstr ""
+"Establece las conexiones entre las características de agua cruda , el diseño"
+" del floculador y el diseño del clarificador."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:22
+msgid ""
+"Learn the power of combining the constraints imposed by physics with the "
+"cost of materials to guide the design."
+msgstr ""
+"Aprende el poder de combinar las restricciones impuestas por la física con "
+"el coste de los materiales para guiar el diseño."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:26
+msgid "Playful Reflections"
+msgstr "Reflexiones lúdicas"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:28
+msgid ""
+"Use the full `Clarifier "
+"<https://cad.onshape.com/documents/e05915c533ee7568c402981a/v/a0389db9934abd3b972edf52/e/3f94eabd115787bc33ae755d?configuration=G_max%3D230.0%3BQm_max%3D12.0%3BShow_Internal_Components%3Dtrue%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3BdividingWalls%3Dtrue%3BffWasteBottom%3Dtrue%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BrepBay%3Dfalse%3BslopeWeirS%3D0.2%2Bmeter%3Bspare%3D0.0%3BupVm%3D1.0&renderMode=0&uiState=65fcb6f9c5a5a03414367526>`_"
+" to answer the questions in the reflections function of the Clarifier "
+"Template. Use the defaults as provided in the link above and return to the "
+"link if you forget the defaults. Write the answers to these questions in the"
+" function reflections of the Clarifier Template."
+msgstr ""
+"Utiliza el `Clarifier "
+"<https://cad.onshape.com/documents/e05915c533ee7568c402981a/v/a0389db9934abd3b972edf52/e/3f94eabd115787bc33ae755d?configuration=G_max%3D230.0%3BQm_max%3D12.0%3BShow_Internal_Components%3Dtrue%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3BdividingWalls%3Dtrue%3BffWasteBottom%3Dtrue%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BrepBay%3Dfalse%3BslopeWeirS%3D0.2%2Bmeter%3Bspare%3D0.0%3BupVm%3D1.0&renderMode=0&uiState=65fcb6f9c5a5a03414367526>`_"
+" completo para responder a las preguntas en la función de reflejos de la "
+"plantilla Clarifier. Utiliza los valores predeterminados proporcionados en "
+"el enlace anterior y vuelve al enlace si olvidas los valores "
+"predeterminados. Escribe las respuestas a estas preguntas en las funciones "
+"de reflejos de la plantilla Clarifier."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:30
+msgid ""
+"What do you initially think will happen to the total cost of the 0.8 mm "
+"polycarbonate sheets used for plate settlers if you were to increase the "
+"spacing of the plate settlers? There are no wrong answers here! The cost "
+"info is in the Bill of Materials in the custom tables."
+msgstr ""
+"¿Qué crees inicialmente que pasará con el coste total de las láminas de "
+"policarbonato de 0,8 mm usadas para los asentadores de placas si aumentas el"
+" espaciamiento de los asentadores de placas? ¡No hay respuestas erróneas "
+"aquí! La información de costes está en la lista de materiales en las tablas "
+"personalizadas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:31
+msgid ""
+"Vary the plate settler spacing from 1 cm to 5 cm and observe the cost of the"
+" 0.8 mm polycarbonate sheets. What do you observe and is it what you "
+"expected?"
+msgstr ""
+"Varía el espaciado de placa sedimentadora de 1 cm a 5 cm y observa el coste "
+"de las láminas de policarbonato de 0,8 mm. ¿Qué observas y es lo que "
+"esperabas?"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:32
+msgid ""
+"Write a sentence or two to explain what you observed based on the underlying"
+" physics of the plate settlers. Remember that it is on the projected area "
+"(horizontal area) that particles can settle out. Refer to Equation "
+":eq:`vc_of_vz_plate` and also consider how the number of plate settlers "
+"changes as you vary the spacing."
+msgstr ""
+"Escribe una o dos frases para explicar lo que observaste basándote en la "
+"física subyacente de los asentadores de placas. Recuerda que es en el área "
+"proyectada (área horizontal) donde las partículas pueden depositarse. "
+"Consulta la Ecuación :eq:`vc_of_vz_plate` y también considera cómo cambia el"
+" número de asentadores de placas a medida que vías el espaciado."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:33
+msgid ""
+"Why does the depth of the clarifier change when the plate settler spacing is"
+" changed? Watch the change in design carefully to see exactly which "
+"dimensions change."
+msgstr ""
+"¿Por qué cambia la profundidad del clarificador cuando se cambia el "
+"espaciado placa sedimentadora ? Observa atentamente el cambio en el diseño "
+"para ver exactamente qué dimensiones cambian."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:34
+msgid ""
+"Reset the plate settler spacing to 2.5 cm. Now play with the plate settler "
+"angle. We haven't done any research on this parameter and different "
+"manufactures of plate settlers use slightly different angles. How much would"
+" the clarifier cost decrease if we decreased the plate settler angle from "
+"60° to 55°?"
+msgstr ""
+"Reajusta el espaciado placa sedimentadora a 2,5 cm. Ahora juega con el "
+"ángulo placa sedimentadora . No hemos investigado este parámetro y "
+"diferentes fabricantes de estabilizadores de placas usan ángulos ligeramente"
+" distintos. ¿Cuánto disminuiría el coste del clarificador si redujéramos el "
+"ángulo placa sedimentadora de 60° a 55°?"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:35
+msgid ""
+"Reset the plate settler angle to 60 deg. Identify at least 3 changes in the "
+"design as you decrease the flow from 12 L/s to 1 L/s."
+msgstr ""
+"Reajusta el ángulo de placa sedimentadora a 60 grados. Identifica al menos 3"
+" cambios en el diseño al reducir el flujo de 12 L/s a 1 L/s."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:36
+msgid ""
+"Reset the flow rate to 12 L/s. What happens if you increase the floc filter "
+"velocity to 1.5 mm/s? Identify at least 2 changes and explain why those "
+"changes occurred."
+msgstr ""
+"Reinicia la caudal a 12 L/s. ¿Qué ocurre si aumentas la velocidad de filtro "
+"de flóculos a 1,5 mm/s? Identifica al menos 2 cambios y explica por qué "
+"ocurrieron esos cambios."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:39
+msgid "Design Exploration"
+msgstr "Exploración de diseño"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:41
+msgid ""
+"This part of the design exploration focuses on the plastic components that "
+"fit inside each of the bays in a clarifier. If your instructor has not "
+"provided you with a link to the starting document, use the part studio in "
+"your copy of the `Clarifier Template "
+"<https://cad.onshape.com/documents/37c3642d5566cf6b172fe9ad/w/99df7cb12d54d9a652b7d74e/e/99b313b3d094d5a33a5f0cc9?configuration=G_max%3D140.0%3BQm_max%3D6.0%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BupVm%3D1.0&renderMode=0&uiState=640cb6f5fb8efc495ca8914b>`_"
+" for this part of the assignment."
+msgstr ""
+"Esta parte de la exploración del diseño se centra en los componentes "
+"plásticos que encajan dentro de cada bahía en un clarificador. Si tu "
+"profesor no te ha proporcionado un enlace al documento inicial, utiliza el "
+"estudio de piezas en tu copia de la plantilla de clarificador "
+"`<https://cad.onshape.com/documents/37c3642d5566cf6b172fe9ad/w/99df7cb12d54d9a652b7d74e/e/99b313b3d094d5a33a5f0cc9?configuration=G_max%3D140.0%3BQm_max%3D6.0%3BTEMP_min%3D5.0%3BcaptureVm%3D0.12%3Bip%3DAPP%3BplateAN%3D60.0%3BplateS%3D0.025%3Brep%3Dfalse%3BupVm%3D1.0&renderMode=0&uiState=640cb6f5fb8efc495ca8914b>`_"
+" para esta parte del trabajo."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:43
+msgid ""
+"The rendering time for the design is significantly faster if replicate parts"
+" is set to false. When replicate parts is false the part studio only shows "
+"single parts in most cases. Although all of the replicated parts aren't "
+"shown, the cost calculations are still correct. You can verify this by "
+"setting replicate parts to true and then check to see if the Bill of "
+"Materials is the same."
+msgstr ""
+"El tiempo de renderizado del diseño es significativamente más rápido si "
+"replicar piezas está configurado en falso. Cuando replicar piezas es falso, "
+"en la mayoría de los casos el estudio de piezas solo muestra una sola pieza."
+" Aunque no se muestran todas las piezas replicadas, los cálculos de costes "
+"siguen siendo correctos. Puedes comprobarlo poniendo replicar piezas en "
+"verdadero y luego comprobar si la lista de materiales es la misma."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:45
+msgid "Use the following values as the defaults for this design."
+msgstr "Utiliza los siguientes valores como valores predeterminados para este diseño."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:47
+msgid "design the components for Agua Para el Pueblo (APP)."
+msgstr "diseñar los componentes para Agua Para el Pueblo (APP)."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:48
+msgid "flowrate = 12 L/s"
+msgstr "caudal = 12 L/s"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:49
+msgid "maximum velocity gradient (in the inlet manifold and jet reverser) = 230 1/s"
+msgstr ""
+"Gradiente máximo de velocidad (en el manifold de entrada y el inversor de "
+"chorro) = 230 1/s"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:50
+msgid "minimum temperature = 5°C"
+msgstr "temperatura mínima = 5°C"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:51
+msgid "upflow velocity (at the top of the floc filter) of 1 mm/s"
+msgstr ""
+"velocidad de flujo ascendente (en la parte superior del filtro de flóculos) "
+"de 1 mm/s"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:52
+msgid "plate settler capture velocity of 0.12 mm/s"
+msgstr "placa sedimentadora velocidad de captura de 0,12 mm/s"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:53
+msgid "plate settler angle = 60°"
+msgstr "placa sedimentadora ángulo = 60°"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:55
+msgid ""
+"Remember that the number of clarifier bays changes as you change the flow "
+"rate and for a 12 L/s flow there would be two bays."
+msgstr ""
+"Recuerda que el número de bahías clarificadoras cambia conforme cambias la "
+"caudal y para un caudal de 12 L/s habría dos bahías."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:57
+msgid ""
+"In this design challenge, the parameter list is not included explicitly in "
+"the Design Analysis FeatureScript tab, so to check the value or name of a "
+"variable you can use the Variable Table."
+msgstr ""
+"En este desafío de diseño, la lista de parámetros no está incluida "
+"explícitamente en la pestaña Design Analysis FeatureScript, así que para "
+"comprobar el valor o nombre de una variable puedes usar la Tabla de "
+"Variables."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:59
+msgid ""
+"You can use the Variable Table in the custom tables to browse the map of "
+"design variables. With MapToDisplay empty, you can see all of the top level "
+"entries in the design map. To browse deeper in the map enter # followed by "
+"the name of the variable that you want to explore."
+msgstr ""
+"Puedes usar la Tabla de Variables en las tablas personalizadas para navegar "
+"por el mapa de variables de diseño. Con MapToDisplay vacío, puedes ver todas"
+" las entradas de nivel superior en el mapa de diseño. Para navegar más a "
+"fondo en el mapa, introduce # seguido del nombre de la variable que quieres "
+"explorar."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:69
+#: ../../Clarification/Clarifier_Design_Challenge.rst:80
+msgid "Custom variable table."
+msgstr "Tabla de variables personalizada."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:69
+msgid "Browsing the top level variable of the design map."
+msgstr "Navegando por la variable de nivel superior del mapa de diseño."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:71
+msgid "To browse the map of settler, simply type #settler in the MapToDisplay."
+msgstr ""
+"Para navegar por el mapa de los colonos, simplemente escribe #settler en el "
+"MapToDisplay."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:80
+msgid "Browsing the next level deeper of the design map."
+msgstr "Navegando más a fondo por el siguiente nivel del mapa de diseño."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:82
+msgid ""
+"To browse further simply append the name of the next variable using dot "
+"notation (for example #settler.module.pipe)."
+msgstr ""
+"Para seguir navegando, simplemente añade el nombre de la siguiente variable "
+"usando notación de puntos (por ejemplo, #settler.module.pipe)."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:84
+msgid "Answer the following questions."
+msgstr "Responde a las siguientes preguntas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:86
+msgid ""
+"What is the total cost of the plastic for the default design? Use the Bill "
+"of Material and simply copy the total cost and paste it into your answer. It"
+" would be cool to make a cost function that could be called in FeatureScript"
+" for a part studio that would make it easy to change inputs and compare "
+"costs, but we don't have that figured out yet!"
+msgstr ""
+"¿Cuál es el coste total del plástico para el diseño por defecto? Usa la "
+"lista de materiales y simplemente copia el coste total y pégalo en tu "
+"respuesta. Sería genial crear una función de costes que se pudiera llamar en"
+" FeatureScript para un estudio de piezas que facilitara cambiar entradas y "
+"comparar costes, ¡pero aún no lo tenemos claro!"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:87
+msgid "What are the two most expensive line items in the bill of materials?"
+msgstr "¿Cuáles son los dos elementos más caros de la lista de materiales?"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:88
+msgid ""
+"How many plate settlers are in this clarifier bay? You can browse the design"
+" map using the custom Variable Table (in the same location as the Bill of "
+"Materials). Make sure to find the total number of plates in the bay rather "
+"than the number of plates in a plate module."
+msgstr ""
+"¿Cuántos sedimentadores de placas hay en esta bahía de clarificadores? "
+"Puedes explorar el mapa de diseño usando la Tabla de Variables personalizada"
+" (en la misma ubicación que la Lista de Materiales). Asegúrate de encontrar "
+"el número total de placas en la bahía en lugar del número de placas en un "
+"módulo de placas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:89
+msgid ""
+"What is the flow rate between two plates? Note that the number of spaces "
+"between plates is one less than the number of plates!"
+msgstr ""
+"¿Cuál es la caudal entre dos placas? Ten en cuenta que el número de espacios"
+" entre placas es uno menos que el número de placas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:90
+msgid ""
+"What is the plan view area of the entrance into the space between two plate "
+"settlers? We will use this to calculate the vertical component of the "
+"velocity entering the plate settlers."
+msgstr ""
+"¿Cuál es el área de vista en planta de la entrada al espacio entre dos "
+"asentadores de placas? Usaremos esto para calcular el componente vertical de"
+" la velocidad que entra en los sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:91
+msgid ""
+"What is the vertical velocity entering the plate settlers? You'll need to "
+"use continuity to figure this out."
+msgstr ""
+"¿Cuál es la velocidad vertical que entra en los sedimentadores de placas? "
+"Necesitarás usar la continuidad para averiguarlo."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:92
+msgid ""
+"Why is this vertical velocity entering the plate settlers greater than the "
+"floc filter upflow velocity in the clarifier in the section where the walls "
+"are vertical? You can look at the side view of the clarifier to understand "
+"why the water has to speed up when it transitions from the top of the floc "
+"filter to the plate settlers."
+msgstr ""
+"¿Por qué esta velocidad vertical que entra en los sedimentadores de placas "
+"es mayor que la velocidad de flujo ascendente filtro de flóculos en el "
+"clarificador en la sección donde las paredes están verticales? Puedes mirar "
+"la vista lateral del clarificador para entender por qué el agua tiene que "
+"acelerarse cuando pasa de la parte superior del filtro de flóculos a los "
+"sedimentadores de placas."
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:93
+msgid ""
+"We will check how close the design is to the specifications that were given "
+"initially. What is the capture velocity of these plate settlers (see "
+"Equation :eq:`vc_of_vz_plate`)?"
+msgstr ""
+"Comprobaremos qué tan cerca está el diseño de las especificaciones "
+"inicialmente dadas. ¿Cuál es la velocidad de captura de estos sedimentadores"
+" de placas (véase la Ecuación :eq:`vc_of_vz_plate`)?"
+
+#: ../../Clarification/Clarifier_Design_Challenge.rst:94
+msgid ""
+"Is the calculated capture velocity better than or worse than the design "
+"capture velocity?"
+msgstr ""
+"¿La velocidad de captura calculada es mejor o peor que la velocidad de "
+"captura de diseño?"
+

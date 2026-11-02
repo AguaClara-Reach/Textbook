@@ -1,0 +1,980 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:11
+msgid "Flow Control and Measurement Solution"
+msgstr "Solución de control y medición de flujo"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:14
+msgid "A Brief Programming Guide"
+msgstr "Una breve guía de programación"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:16
+msgid ""
+"Do not use a numerical or iterative solution when an analytical solution is "
+"easily available."
+msgstr ""
+"No utilice una solución numérica o iterativa cuando una solución analítica "
+"esté fácilmente disponible."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:17
+msgid ""
+"Whenever a function has the potential to be used multiple times, create a "
+"function call that includes the parameters that could potentially change."
+msgstr ""
+"Siempre que una función tenga potencial para usarse varias veces, crea una "
+"llamada a función que incluya los parámetros que podrían cambiar."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:18
+msgid ""
+"Do not break dependency. That means that if I change an input parameter at "
+"the top of your worksheet, that I should get the correct answers for the new"
+" parameter for all related calculations in the worksheet."
+msgstr ""
+"No rompas la dependencia. Eso significa que si cambio un parámetro de "
+"entrada en la parte superior de tu hoja de cálculo, debería obtener las "
+"respuestas correctas para el nuevo parámetro en todos los cálculos "
+"relacionados en la hoja de cálculo."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:19
+msgid ""
+"Always use dimensions (units). All calculations involving physical units "
+"must include those units."
+msgstr ""
+"Siempre utiliza dimensiones (unidades). Todos los cálculos que involucren "
+"unidades físicas deben incluir esas unidades."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:20
+msgid "Document your design process with comments."
+msgstr "Documenta tu proceso de diseño con comentarios."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:21
+msgid ""
+"Do not redefine your variables in subsequent problems. This loses valuable "
+"digits of precision on your numbers and can cause a lot of trouble and "
+"frustration."
+msgstr ""
+"No redefinas tus variables en problemas posteriores. Esto hace que pierdas "
+"cifras valiosas de precisión y puede causar muchos problemas y frustración."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:22
+msgid ""
+"For everyone’s sake, use logical and reasonable variable names. `Here is "
+"AguaClara variable naming convention "
+"<https://github.com/AguaClara/aguaclara/wiki/Design-Variable-Naming-"
+"Conventions>`_"
+msgstr ""
+"Por el bien de todos, usa nombres lógicos y razonables de variables. `Aquí "
+"está la convención de nombres de variables AguaClara "
+"<https://github.com/AguaClara/aguaclara/wiki/Design-Variable-Naming-"
+"Conventions>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:25
+msgid "A Brief Design Challenge guide"
+msgstr "Una breve guía para el Reto de Diseño"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:27
+msgid ""
+"Read the problem statement in its entirety before beginning a problem. If "
+"you don’t immediately know what to do, read it again, thoroughly. If you are"
+" getting stuck, read it a third time. If you have a good understanding of "
+"what the problem is asking and are still having trouble, TAs can help "
+"through email or office hours."
+msgstr ""
+"Lee la declaración del problema completa antes de empezar un problema. Si no"
+" sabes inmediatamente qué hacer, léela de nuevo, con atención. Si te estás "
+"atascando, léela una tercera vez. Si tienes una buena comprensión de lo que "
+"pregunta el problema y sigues teniendo problemas, los asistentes pueden "
+"ayudarte por correo electrónico o en horario de tutoría."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:28
+msgid ""
+"If you decide to email a TA, make sure the other two are CC’ed. This "
+"minimizes the time you will have to wait until one responds."
+msgstr ""
+"Si decides enviar un correo a un TA, asegúrate de que los otros dos estén en"
+" copia. Esto minimiza el tiempo que tendrás que esperar hasta que uno "
+"responda."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:29
+msgid "When in doubt, Kernel -> Restart & Run All"
+msgstr "En caso de duda, Kernel -> Reiniciar y Ejecutar Todo"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:30
+msgid ""
+"Play around! Print arrays, test inputs, and ask yourself if your answers are"
+" reasonable. Should flow have units of km mg/s?"
+msgstr ""
+"¡Prueba un poco! Imprime arrays, prueba entradas y pregúntate si tus "
+"respuestas son razonables. ¿Debería el flujo tener unidades de km mg/s?"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:34
+msgid ""
+"Please remember that whne using Colab, if you wish to run the code to "
+"generate plots and solutions, rather than just view them, you will need to "
+"run all initializing code blocks for variable and imports!"
+msgstr ""
+"Por favor, recuerda que cuando usas Colab, si quieres ejecutar el código "
+"para generar gráficos y soluciones, en lugar de solo verlos, tendrás que "
+"ejecutar todos los bloques de código inicializadores para variables e "
+"importaciones."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:37
+msgid "Vertical Orifice Equation"
+msgstr "Ecuación del orificio vertical"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:39
+msgid ""
+"**1)** Find the *vena contracta* (VC) coefficient ratio for an orifice in "
+"the expert_inputs and print the result in a sentence. Please display 2 "
+"significant figures."
+msgstr ""
+"**1)** Encuentra la razón de coeficientes *vena contracta* (VC) para un "
+"orificio en el expert_inputs e imprime el resultado en una oración. Por "
+"favor, muestra 2 cifras significativas."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:41
+msgid ""
+"`vena contracta calculation <https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=CZ5G4LzBRz6y&line=1&uniqifier=1>`_"
+msgstr ""
+"`cálculo de vena contracta <https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=CZ5G4LzBRz6y&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:43
+msgid "The *vena contracta* coefficient for an orifice is 0.63."
+msgstr "El coeficiente de *vena contracta* para un orificio es 0,63."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:45
+msgid ""
+"**2)** The simple orifice Equation :math:`Q = {\\Pi _{vc}}{A_{or}}\\sqrt "
+"{2g\\Delta h}` that we normally use is not applicable for vertically "
+"oriented orifices that are partially or barely submerged. The `USGS "
+"published a great solution "
+"<https://il.water.usgs.gov/proj/feq/fequtl98.i2h/4_7aupdate.html>`__ for "
+"flow through partially submerged vertically oriented orifices. AguaClara "
+"uses a general solution for a vertically oriented orifice, which is "
+"available in the physchem file as ``pc.flow_orifice_vert``. That function "
+"handles vertically oriented orifices even if they are only partially "
+"submerged."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:47
+msgid ""
+"The vertical orifice equation is based on the concept that the velocity "
+"through the orifice at any point is equal to :math:`\\sqrt{2gh}`, where h is"
+" the local depth of submergence. The total flow can be obtained by "
+"integration of that velocity over the submerged area of the orifice."
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:49
+msgid ""
+"For this question, you will create a well formatted graph with two curves to"
+" display flow rate through a 5 cm diameter orifice oriented **vertically and"
+" horizontally**."
+msgstr ""
+"Para esta pregunta, crearás un gráfico bien formateado con dos curvas para "
+"mostrar caudal a través de un orificio de 5 cm de diámetro orientado "
+"**vertical y horizontal**."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:51
+msgid ""
+"We want to be able to describe the height of the water in the orifice as "
+"relative to the orifice diameter size. The relationship between velocity and"
+" orifice diameter is true for orifices of any size, so it is valuable to "
+"create a nondimensional model that can be understood for all diameters. The "
+"flow rate that you will use for this question is as a function of the "
+"normalized depth of water from 1 diameter below the center of the orifice to"
+" 2 diameters above the center of the orifice."
+msgstr ""
+"Queremos poder describir la altura del agua en el orificio en relación con "
+"el tamaño del diámetro del orificio. La relación entre velocidad y diámetro "
+"del orificio es cierta para orificios de cualquier tamaño, por lo que es "
+"valioso crear un modelo no dimensional que pueda entenderse para todos los "
+"diámetros. El caudal que usarás para esta pregunta es una función de la "
+"profundidad normalizada del agua desde 1 diámetro por debajo del centro del "
+"orificio hasta 2 diámetros por encima del centro del orificio."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:53
+msgid "The steps for making the graph are as follows:"
+msgstr "Los pasos para hacer el gráfico son los siguientes:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:55
+msgid ""
+"Use ``np.linspace`` to generate an array of 100 dimensionless water surface "
+"elevations. The surface elevations should be normalized (also referred to as"
+" nondimensionalized) by the diameter of the orifice, and should range from "
+"-1 to 2 orifice diameters."
+msgstr ""
+"Utiliza ``np.linspace`` para generar un conjunto de 100 elevaciones "
+"adimensionales de la superficie del agua. Las elevaciones superficiales "
+"deben normalizarse (también denominadas no dimensionalizadas) por el "
+"diámetro del orificio, y deben variar de -1 a 2 diámetros de orificio."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:56
+msgid ""
+"Create a second array for water elevation (with units) by multiplying the "
+"normalized water elevation array by the orifice diameter."
+msgstr ""
+"Crear un segundo arreglo para la elevación del agua (con unidades) "
+"multiplicando el conjunto normalizado de elevación del agua por el diámetro "
+"del orificio."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:57
+msgid ""
+"Create two arrays of flow rates through the orifice: one for the horizontal "
+"orifice orientation and one for the vertical orifice orientation. Use the "
+"two orifice equations ``pc.flow_orifice`` and ``pc.flow_orifice_vert`` in "
+"the physchem file, with orifice diameter and the dimensional water elevation"
+" array you created as inputs."
+msgstr ""
+"Crea dos matrices de caudales a través del orificio: uno para la orientación"
+" horizontal del orificio y otro para la orientación vertical. Utiliza las "
+"dos ecuaciones de orificio ``pc.flow_orifice`` y ``pc.flow_orifice_vert`` en"
+" el archivo de physchem, con el diámetro del orificio y el array dimensional"
+" de elevación del agua que creaste como entradas."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:58
+msgid ""
+"Plot the curves for vertical and horizontal orifice flow in L/s as a "
+"function of the normalized height of water."
+msgstr ""
+"Grafica las curvas para el flujo vertical y horizontal de orificios en L/s "
+"en función de la altura normalizada del agua."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:59
+msgid ""
+"Label the graph with flow rate in L/s as the y-axis and with normalized "
+"water elevation above the center of the orifice as the x-axis."
+msgstr ""
+"Etiqueta el gráfico con caudal en L/s como eje y y con la elevación "
+"normalizada del agua por encima del centro del orificio como eje x."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:60
+msgid "Include a legend for the two curves."
+msgstr "Incluye una leyenda para las dos curvas."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:62
+msgid ""
+"`Colab worksheet comparing vertical and horizontal orifice flow "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=F7l7sG0aR24k&line=4&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab que compara el flujo de orificios vertical y "
+"horizontal <https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=F7l7sG0aR24k&line=4&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:71
+msgid "Horizontal vs. Vertical Orifice Orientation"
+msgstr "Orientación horizontal vs. vertical del orificio"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:73
+msgid ""
+"**3)** Write a paragraph about what the graph means by explaining the "
+"following two items: - Explain why the vertical orifice equation predicts "
+"more flow when the water level is below the center of the orifice and "
+"predicts less flow when the water level is above the center of the orifice. "
+"It might help to draw a picture of what the equations are describing to "
+"understand what is happening here! - Explain how the horizontal orifice "
+"equation function from ``physchem.py`` predicts the flow rate for "
+"submergence depths that are negative. You will need to find the function and"
+" look at the code."
+msgstr ""
+"**3)** Escribe un párrafo sobre lo que significa el gráfico explicando los "
+"siguientes dos elementos: - Explica por qué la ecuación del orificio "
+"vertical predice más flujo cuando el nivel del agua está por debajo del "
+"centro del orificio y predice menos flujo cuando el nivel del agua está por "
+"encima del centro del orificio. ¡Puede ayudar dibujar una imagen de lo que "
+"describen las ecuaciones para entender lo que está ocurriendo aquí! - "
+"Explica cómo la función de ecuación del orificio horizontal de "
+"``physchem.py`` predice el caudal para profundidades de sumergencia que son "
+"negativas. Tendrás que encontrar la función y mirar el código."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:76
+msgid "Explanation"
+msgstr "Explicación"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:78
+msgid ""
+"The vertical orifice has the lower part of the orifice partially submerged "
+"before the horizontal orifice has any part submerged. This explains why the "
+"vertical orifice has more flow than the horizontal orifice between -0.5 and "
+"0."
+msgstr ""
+"El orificio vertical tiene la parte inferior parcialmente sumergida antes de"
+" que el orificio horizontal tenga alguna parte sumergida. Esto explica por "
+"qué el orificio vertical tiene más flujo que el orificio horizontal entre "
+"-0,5 y 0."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:80
+msgid ""
+"The horizontal orifice has higher flow rates between 0 and 0.5 because it is"
+" fully submerged when the vertical orifice is still not fully submerged."
+msgstr ""
+"El orificio horizontal tiene caudales más altos entre 0 y 0,5 porque está "
+"completamente sumergido cuando el orificio vertical aún no está "
+"completamente sumergido."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:82
+msgid ""
+"At the elevation where the vertical orifice is first fully submerged the "
+"flow rate through the vertical orifice is less than the flow rate through "
+"the horizontal orifice. This is a result of the nonlinear relationships "
+"between depth of submergence and velocity."
+msgstr ""
+"A la elevación en la que el orificio vertical está completamente sumergido "
+"por primera vez, la caudal a través del orificio vertical es menor que la "
+"caudal a través del orificio horizontal. Esto es resultado de las relaciones"
+" no lineales entre la profundidad de sumergimiento y la velocidad."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:84
+msgid ""
+"The difference between the two equations becomes negligible for submergence "
+"greater than 1 diameter."
+msgstr ""
+"La diferencia entre ambas ecuaciones se vuelve insignificante para "
+"sumergencias mayores a 1 de diámetro."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:86
+msgid ""
+"For negative depths of submergence the horizontal orifice function uses an "
+"if statement to set the flow rate through the orifice equal to zero."
+msgstr ""
+"Para profundidades negativas de sumergencia, la función de orificio "
+"horizontal utiliza una sentencia if para colocar el caudal a través del "
+"orificio igual a cero."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:89
+msgid "Linear Flow Orifice Meter (LFOM)"
+msgstr "Medidor de orificio de flujo lineal (LFOM)"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:91
+msgid ""
+"A linear flow orifice meter is used in AguaClara plants to measure the plant"
+" flow rate and to provide a linear relationship between flow rate and the "
+"depth of water in the entrance tank. Below, we use the LFOM code to obtain a"
+" design for a linear flow orifice meter. Your task will be to test this "
+"design using the orifice equations to see if it is correct. We have a custom"
+" `LFOM class <https://aguaclara.github.io/aguaclara/design/lfom.html>`_ that"
+" defines the LFOM properties. This code will be updated soon based on the "
+"code below. In the meantime, the code below can be used for calculations."
+msgstr ""
+"En las plantas de AguaClara se utiliza un medidor de orificio de flujo "
+"lineal para medir el caudal de la planta y para proporcionar una relación "
+"lineal entre caudal y la profundidad del agua en el tanque de entrada. A "
+"continuación, usamos el código LFOM para obtener un diseño de un medidor de "
+"orificio de flujo lineal. Tu tarea será probar este diseño usando las "
+"ecuaciones del orificio para ver si es correcto. Disponemos de una clase "
+"personalizada `LFOM "
+"<https://aguaclara.github.io/aguaclara/design/lfom.html>`_ que define las "
+"propiedades del LFOM. Este código se actualizará pronto en función del "
+"código que aparece a continuación. Mientras tanto, el código siguiente puede"
+" utilizarse para cálculos."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:93
+msgid ""
+"The following questions are all answered in one big block of code to make it"
+" easy to change values and then see the resulting graph."
+msgstr ""
+"Las siguientes preguntas se responden en un gran bloque de código para "
+"facilitar el cambio de valores y luego ver el gráfico resultante."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:95
+msgid ""
+"**4)** Create a function that calculates the flow rate through the LFOM as a"
+" function of only water elevation using the vertical orifice function. Use "
+"the arrays for LFOM key parameters, given above as "
+"``my_LFOM.orifice_diameter``, ``my_LFOM.n_orifices_per_row``, and "
+"``my_LFOM.height_orifices``."
+msgstr ""
+"**4)** Crea una función que calcule el caudal a través del LFOM solo en "
+"función de la elevación del agua usando la función de orificio vertical. "
+"Utiliza los arrays para los parámetros clave del LFOM, indicados arriba como"
+" ``my_LFOM.orifice_diameter``, ``my_LFOM.n_orifices_per_row``, y "
+"``my_LFOM.height_orifices``."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:97
+msgid ""
+"Create an array for depth of submergence for each row of orifices at a given"
+" a height of water in the LFOM. This array is dependent on the water "
+"elevation (which should be your function input) and the height of the LFOM "
+"orifices (which is from the LFOM key parameters). Use this submergence depth"
+" array as the “height” input to your vertical orifice function. The array "
+"should be created within your function."
+msgstr ""
+"Crea un array para la profundidad de sumergimiento de cada fila de orificios"
+" a una altura dada del agua en el LFOM. Este array depende de la elevación "
+"del agua (que debería ser tu función de entrada) y de la altura de los "
+"orificios del LFOM (que proviene de los parámetros clave del LFOM). Usa este"
+" array de profundidad de sumergencia como la entrada de \"altura\" para tu "
+"función de orificio vertical. El array debe crearse dentro de tu función."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:99
+msgid ""
+"To calculate the flow rate through the LFOM, multiply the calculated flow "
+"for each row of orifices by the number of orifices in that row "
+"(``my_LFOM.n_orifices_per_row``) to get an array of flows through each row "
+"of orifices. Note: the vertical orifice function will report zero flow for "
+"any orifices that aren’t submerged, so you can send the whole array of depth"
+" of submergence for each row of orifices."
+msgstr ""
+"Para calcular la caudal a través del LFOM, multiplica el flujo calculado "
+"para cada fila de orificios por el número de orificios en esa fila "
+"(``my_LFOM.n_orifices_per_row``) para obtener un array de flujos a través de"
+" cada fila de orificios. Nota: la función de orificio vertical informará de "
+"flujo cero para cualquier orificio que no esté sumergido, por lo que puedes "
+"enviar todo el array de profundidad de sumersión para cada fila de "
+"orificios."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:101
+msgid ""
+"At the end of your function, sum flows from each row of the LFOM and return "
+"that value with the correct units."
+msgstr ""
+"Al final de tu función, la suma fluye de cada fila del LFOM y devuelve ese "
+"valor con las unidades correctas."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:103
+msgid ""
+"Add a comment under the function definition to explain what the function "
+"does (see any of the aguaclara design files for examples of descriptive "
+"comments)."
+msgstr ""
+"Añade un comentario bajo la definición de función para explicar qué hace la "
+"función (consulta cualquiera de los archivos de diseño de aguaclara para "
+"ejemplos de comentarios descriptivos)."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:105
+msgid ""
+"**5)** Calculate the total flow through the LFOM using the vertical orifice "
+"equation for the case when the water level is at the maximum water level for"
+" the LFOM, ``HeadlossLfom``. You are checking to make sure that the LFOM "
+"produces the correct target flow (given as ``Flow``) at the maximum height. "
+"Does it?"
+msgstr ""
+"**5)** Calcula el caudal total a través del LFOM usando la ecuación del "
+"orificio vertical para el caso en que el nivel del agua esté en el nivel del"
+" agua máximo para el LFOM, ``HeadlossLfom``. Estás comprobando que el LFOM "
+"produce el flujo objetivo correcto (dado como ``Flow``) a la altura máxima. "
+"¿Lo hace?"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:110
+msgid ""
+"**6)** We want to compare the actual flow rate through the LFOM to the "
+"expected flow rate through the elevation as a function of water depth. "
+"Create a graph of the normalized actual and expected flow rates, using the "
+"following steps:"
+msgstr ""
+"**6)** Queremos comparar la caudal real a través del LFOM con la caudal "
+"esperada a través de la elevación en función de la profundidad del agua. "
+"Crea un gráfico de los caudales reales y esperados normalizados, usando los "
+"siguientes pasos:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:112
+msgid ""
+"Create an 100-unit long array of water depths using ``np.linspace``. Note: "
+"the expected flow rate at elevation zero is zero, which makes the normalized"
+" flow rate undefined for zero elevation. An undefined normalized flow will "
+"not run and Python will report an error. You can solve this by beginning "
+"your water depth array at a very small (nonzero) elevation. You can end your"
+" water depth array at the maximum water depth. Recall that an array of "
+"elevations should have units of length."
+msgstr ""
+"Crea un array de profundidades de agua de 100 unidades usando "
+"``np.linspace``. Nota: el caudal esperado en elevación cero es cero, lo que "
+"hace que el caudal normalizado sea indefinido para elevación cero. Un flujo "
+"normalizado indefinido no se ejecutará y Python reportará un error. Puedes "
+"solucionar esto comenzando tu array de profundidad de agua en una elevación "
+"muy pequeña (distinta de cero). Puedes terminar tu array de profundidad de "
+"agua en la profundidad máxima del agua. Recuerda que un array de elevaciones"
+" debe tener unidades de longitud."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:113
+msgid ""
+"Create an array of normalized actual flow rates at each water depth; use the"
+" function you created in Problem 4 and a ``for`` loop (the function you "
+"created in Problem 4 probably can’t handle an array of depths as input, so "
+"you need the ``for`` loop to cycle through each depth value to make your "
+"array of flows)."
+msgstr ""
+"Crea un array de caudales reales normalizados en cada profundidad de agua; "
+"usa la función que creaste en el Problema 4 y un bucle de ``for`` (la "
+"función que creaste en el Problema 4 probablemente no pueda manejar un array"
+" de profundidades como entrada, así que necesitas que el bucle de ``for`` "
+"cicle entre cada valor de profundidad para crear tu array de flujos)."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:115
+msgid ""
+"Start by creating an empty array for actual flow rates that is the same "
+"shape as the 100-unit water depth array you just created."
+msgstr ""
+"Empieza creando un array vacío para caudales reales que tenga la misma forma"
+" que el array de profundidad de agua de 100 unidades que acabas de crear."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:116
+msgid ""
+"In your ``for`` loop, normalize the actual flow rates by using the following"
+" relationship: normalized actual flow rate = (actual flow rate)/[(water "
+"depth \\* target flow rate)/maximum water level]"
+msgstr ""
+"En tu bucle de ``for`` , normaliza los caudales reales usando la siguiente "
+"relación: caudal real normalizado = ( caudal real )/[(profundidad del agua "
+"\\* objetivo caudal)/máximo nivel del agua]"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:118
+msgid ""
+"Plot a straight horizontal line at y = 1, which is your normalized expected "
+"flow value if the LFOM were perfect."
+msgstr ""
+"Traza una línea horizontal recta en y = 1, que es tu valor esperado de flujo"
+" normalizado si el LFOM fuera perfecto."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:129
+msgid "Normalized Flow Rate vs. Water Depth"
+msgstr " caudal normalizada vs. profundidad del agua"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:131
+msgid ""
+"**7)** Play with the value for the plant flow rate, ``LFOM_flow``, and try a"
+" bunch of different flows over the range 1 to 100 L/s. The LFOM isn’t "
+"accurate for the first couple of rows."
+msgstr ""
+"**7)** Juega con el valor de la planta caudal, ``LFOM_flow``, y prueba "
+"varios caudales diferentes en el rango de 1 a 100 L/s. El LFOM no es preciso"
+" para las primeras hileras."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:134
+msgid ""
+"**8)** Do you observe any failure modes where the design produces very "
+"inaccurate flow measurements? If so, then create an issue!"
+msgstr ""
+"**8)** ¿Observas algún modo de fallo en el que el diseño produzca mediciones"
+" de flujo muy inexactas? Si es así, ¡entonces crea un problema!"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:137
+msgid ""
+"**9)** Explain why all LFOMs perform poorly when the water depth is in the "
+"first row of orifices."
+msgstr ""
+"**9)** Explica por qué todos los LFOMs rinden mal cuando la profundidad del "
+"agua está en la primera fila de orificios."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:139
+msgid ""
+"The relationship between head and flow is nonlinear for a single row of "
+"orifices. Thus it is impossible for the LFOM to be accurate when there is "
+"only one row of orifices."
+msgstr ""
+"La relación entre la cabeza y el flujo no es lineal para una sola fila de "
+"orificios. Por tanto, es imposible que el LFOM sea preciso cuando solo hay "
+"una fila de orificios."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:143
+msgid "Laminar Flow Based Flow Controller"
+msgstr "Controlador de flujo basado en flujo laminar"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:145
+msgid ""
+"You will design (by completing the following questions) a laminar flow "
+"controller for chlorine feed for a plant design flow rate of 50 L/s."
+msgstr ""
+"Diseñarás (completando las siguientes preguntas) un controlador de flujo "
+"laminar para alimentación con cloro para un caudal de diseño de planta de 50"
+" L/s."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:147
+msgid ""
+"For the following steps do NOT use the aguaclara cdc code. Instead, create "
+"the functions that you need to solve this problem. At the end, we will "
+"compare your solution to the aguaclara cdc solution."
+msgstr ""
+"Para los siguientes pasos, NO uses el código CDC de Aguaclara. En su lugar, "
+"crea las funciones que necesitas para resolver este problema. Al final, "
+"compararemos tu solución con la solución CDC de Aguaclara."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:149
+msgid ""
+"You may assume that the chlorine stock solution kinematic viscosity is "
+"approximately the same as water. The dose controller is to have a maximum "
+"head loss of 20 cm through the dosing tubes. We will start with commercially"
+" available liquid bleach (equivalent to 51.4 gm/L of chlorine gas), which we"
+" will use in our chemical stock tanks without dilution. Our goal is to "
+"provide a constant chlorine dose of 2 mg/L to the water entering the storage"
+" tank. We will be following the guidelines given below."
+msgstr ""
+"Puede suponer que la viscosidad cinemática del cloro solución madre es "
+"aproximadamente la misma que la del agua. El controlador de dosis debe tener"
+" un pérdida de carga máximo de 20 cm a través de los tubos de dosificación. "
+"Comenzaremos con lejía líquida disponible comercialmente (equivalente a 51,4"
+" gm/L de gas cloro), que utilizaremos en nuestros tanques químicos sin "
+"dilución. Nuestro objetivo es proporcionar una dosis constante de cloro de 2"
+" mg/L al agua que entra en el tanque de almacenamiento. Seguiremos las "
+"directrices que se indican a continuación."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:151
+msgid ""
+"Calculate the maximum flow rate through each available dosing tube diameter "
+"that keeps error due to minor losses below 10%."
+msgstr ""
+"Calcula el caudal máximo a través de cada diámetro de tubo de dosificación "
+"disponible que mantenga el error debido a pérdidas menores por debajo del "
+"10%."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:153
+msgid ""
+"Calculate the total chemical flow rate that would be required by the "
+"treatment system for the maximum chemical dose and the maximum allowable "
+"stock concentration."
+msgstr ""
+"Calcular el caudal químico total que el sistema de tratamiento requeriría "
+"para la dosis máxima y la concentración máxima permitida de stock."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:155
+msgid ""
+"Calculate the number of dosing tubes required if the tubes flow at maximum "
+"capacity (round up)."
+msgstr ""
+"Calcula el número de tubos de dosificación necesarios si los tubos fluyen a "
+"máxima capacidad (redondeo hacia arriba)."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:157
+msgid ""
+"Calculate the length of the dosing tubes that correspond to each available "
+"tube diameter."
+msgstr ""
+"Calcula la longitud de los tubos de dosificación que corresponden a cada "
+"diámetro disponible."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:159
+msgid ""
+"Select the longest dosing tube that is shorter than the maximum tube length "
+"allowable based on geometric constraints."
+msgstr ""
+"Selecciona el tubo de dosificación más largo que sea más corto que la "
+"longitud máxima permitida según las restricciones geométricas."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:161
+msgid ""
+"Select the dosing tube diameter, flow rate, and stock concentration "
+"corresponding to the selected tube length."
+msgstr ""
+"Seleccione el diámetro del tubo dosificador, caudal y la concentración de "
+"stock correspondientes a la longitud seleccionada del tubo."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:163
+msgid ""
+"`Solution for dosing tube diameter, flow rate, and stock concentration "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=hLjYn9CzR-Jv&line=3&uniqifier=1>`_"
+msgstr ""
+"`Solución para diámetro del tubo de dosificación, caudal y concentración de "
+"stock <https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=hLjYn9CzR-Jv&line=3&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:166
+msgid ""
+"**11)** At the given water treatment plant design flow rate, what is the "
+"required flow of bleach (the chlorine stock solution)?"
+msgstr ""
+"**11)** En el caudal de diseño de planta tratamiento de agua dado, ¿cuál es "
+"el flujo requerido de lejía (el solución madre de cloro)?"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:168
+msgid ""
+"`Solution for flow of bleach <https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=mVINIWLbSL51&line=2&uniqifier=1>`_"
+msgstr ""
+"`Solución para el flujo de lejía <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=mVINIWLbSL51&line=2&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:171
+msgid ""
+"**12)** How many liters of liquid bleach are required in one day? (you can "
+"simply change the units on the flow rate!)"
+msgstr ""
+"**12)** ¿Cuántos litros de lejía líquida se necesitan al día? (¡Simplemente "
+"puedes cambiar las unidades en el caudal!)"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:173
+msgid ""
+"`Solution for liters of liquid bleach "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=fPuBw6MZSNPg&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para litros de lejía líquida "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=fPuBw6MZSNPg&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:176
+msgid ""
+"**13)** Our next big goal is to choose a tubing size for the dosing tube (or"
+" tubes). This requires multiple steps. Begin by first creating a numpy array"
+" of tubing sizes between 1/16\" and 5/16\" with a 1/16\" interval. Your list"
+" should contain 5 elements. Does ``np.linspace`` work here? What about "
+"``np.arange``? Remember to always attach the units to the entire array and "
+"not to array elements!"
+msgstr ""
+"**13)** Nuestro siguiente gran objetivo es elegir el tamaño de un tubo para "
+"el tubo dosificador (o tubos). Esto requiere varios pasos. Empieza primero "
+"creando un array indefinido de tamaños de tubo entre 1/16\" y 5/16\" con un "
+"intervalo de 1/16\". Tu lista debería contener 5 elementos. ¿Funciona "
+"``np.linspace`` aquí? ¿Y ``np.arange``? Recuerda siempre conectar las "
+"unidades a toda la matriz y no a los elementos de la matriz."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:178
+msgid ""
+"`Solution for tubing size arrays <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=Dy4MxbuHSQpL&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para matrices de tamaño de tubos "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=Dy4MxbuHSQpL&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:180
+msgid ""
+"**14)** What is the maximum average velocity in a dosing tube based on the "
+"constraint that minor losses must be small? This means that the minor losses"
+" account for ``RatioError`` fraction of the total losses (10% when "
+"``RatioError`` is 0.1). Note that this velocity is independent of the tube "
+"diameter."
+msgstr ""
+"**14)** ¿Cuál es la velocidad media máxima en un tubo dosificador basada en "
+"la restricción de que las pérdidas menores deben ser pequeñas? Esto "
+"significa que las pérdidas menores representan ``RatioError`` fracción de "
+"las pérdidas totales (10% cuando ``RatioError`` es 0,1). Ten en cuenta que "
+"esta velocidad es independiente del diámetro del tubo."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:182
+msgid ""
+"`Solution for maximum average velocity "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=sR2IN1hYSUaR&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para la velocidad media máxima "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=sR2IN1hYSUaR&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:184
+msgid "The maximum average velocity in a dosing tube is 0.443 m/s"
+msgstr "La velocidad media máxima en un tubo dosificador es de 0,443 m/s"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:186
+msgid ""
+"**15)** What is the head loss due to minor losses in the tube when the tube "
+"is flowing at maximum capacity? Solve for this value algebraically by "
+"substituting your equation for the velocity in the tube into the minor loss "
+"equation and then calculate the value."
+msgstr ""
+"**15)** ¿Cuál es la pérdida de carga debida a pequeñas pérdidas en el tubo "
+"cuando el tubo fluye a máxima capacidad? Resuelve este valor algebraicamente"
+" sustituyendo tu ecuación por la velocidad en el tubo en la ecuación de "
+"pérdida menor y luego calcula el valor."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:188
+msgid ""
+"`Solution for minor head losses <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=kQ0RVEOBSVag&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para pérdidas menores de cabeza "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=kQ0RVEOBSVag&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:191
+msgid ""
+"**16)** Create an array of the maximum flow rates corresponding to the array"
+" of tubing diameters. The flow rates must meet the error constraint."
+msgstr ""
+"**16)** Crear un array de los caudales máximos correspondientes al array de "
+"diámetros de tubería. Los caudales deben cumplir con la restricción de "
+"error."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:193
+msgid "Q_{max} = \\frac{\\pi D^2}{4}\\sqrt{\\frac{2gh_L \\Pi_{error}}{\\sum K_e}}"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:197
+msgid ""
+"First, create a function that uses diameter and velocity as inputs to return"
+" flow rate. Note that ``ac.area_circle(diam)`` returns a circle’s area given"
+" its diameter, and you have already calculated the maximum average velocity "
+"in Problem 14. Create the array of maximum flow rates using the array of "
+"tubing diameters and the maximum head loss through the dosing tubes."
+msgstr ""
+"Primero, crea una función que use diámetro y velocidad como entradas para "
+"devolver caudal. Ten en cuenta que ``ac.area_circle(diam)`` devuelve el área"
+" de un círculo dado su diámetro, y ya has calculado la velocidad media "
+"máxima en el Problema 14. Crea el array de caudales máximos usando el array "
+"de diámetros de tubería y el máximo pérdida de carga a través de los tubos "
+"dosificadores."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:200
+msgid ""
+"`Solution for dosing tube flow rate <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=6fqFroCkSYch&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para el tubo de dosificación caudal "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=6fqFroCkSYch&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:203
+msgid ""
+"**17)** Find the minimum number of tubes for each of the available tube "
+"diameters that would be required to deliver the maximum flow of bleach."
+msgstr ""
+"**17)** Encontrar el número mínimo de tubos para cada uno de los diámetros "
+"disponibles que se requerirían para proporcionar el máximo flujo de lejía."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:205
+msgid ""
+"`Solution for maximum bleach flow rate "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=bKpCtXdGSbdp&line=1&uniqifier=1>`_"
+msgstr ""
+"`Solución para obtener el máximo de lejía caudal "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=bKpCtXdGSbdp&line=1&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:208
+msgid ""
+"**18)** Create an array of the maximum flow rate per tube for each of the "
+"available tubing diameters, given the number of tubes that would be used. "
+"This will be the flow through each dosing tube at the maximum flow of "
+"bleach."
+msgstr ""
+"**18)** Crear un conjunto de caudal máximo por tubo para cada uno de los "
+"diámetros de tubo disponibles, dado el número de tubos que se utilizarán. "
+"Este será el flujo a través de cada tubo dosificador al máximo flujo de "
+"lejía."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:210
+msgid ""
+"`Solution for maximum flow rate per tube "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=Ogt6D8WaSjqz&line=2&uniqifier=1>`_"
+msgstr ""
+"`Solución para caudal máximo por tubo "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=Ogt6D8WaSjqz&line=2&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:212
+msgid ""
+"**19)** We now know the target flow in the dosing tubes, the diameter of the"
+" tubes, and the target head loss through the tubes. Thus, we can solve for "
+"the length of the tube that will deliver that target flow. Write a function "
+"to find the length of each tube that could handle the entire flow. Your "
+"function should use the following equation:"
+msgstr ""
+"**19)** Ahora conocemos el flujo objetivo en los tubos de dosificación, el "
+"diámetro de los tubos y el pérdida de carga objetivo a través de los tubos. "
+"Así, podemos resolver la longitud del tubo que entregará ese flujo objetivo."
+" Escribe una función para encontrar la longitud de cada tubo que pueda "
+"soportar todo el flujo. Tu función debe usar la siguiente ecuación:"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:214
+msgid ""
+"L = \\frac{g h_{L}\\pi D^4}{128 \\nu Q_{max}}-\\frac{Q_{max}}{16 \\pi "
+"\\nu}\\sum K_{e}\n"
+"\n"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:216
+msgid ""
+"Call your function to return the length of tubing required for each tube "
+"size."
+msgstr ""
+"Llama a tu oficina para que devuelva la longitud de tubo necesaria para cada"
+" tamaño de tubo."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:219
+msgid ""
+"`Solution for length of the tubing <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=znrdVDf5SmCs&line=3&uniqifier=1>`_"
+msgstr ""
+"`Solución para la longitud de la tubería "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=znrdVDf5SmCs&line=3&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:221
+msgid ""
+"**20)** Which option do you think is best? You can simply set the array "
+"index to your choice and then display your solution by using that index "
+"value on your arrays for number of tubes, flow rates, tube diameters, and "
+"length of tubes."
+msgstr ""
+"**20)** ¿Qué opción crees que es la mejor? Simplemente puedes establecer el "
+"índice de la matriz a tu elección y luego mostrar tu solución usando ese "
+"valor de índice en tus matrices para el número de tubos, caudales, diámetros"
+" de los tubos y longitud de los tubos."
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:223
+msgid ""
+"`Selected solution for doser design <https://colab.research.google.com/drive"
+"/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=sc07AVmCS6fw&line=2&uniqifier=1>`_"
+msgstr ""
+"`Solución seleccionada para el diseño del dosificador "
+"<https://colab.research.google.com/drive/1fWZQ-"
+"BsXeINM31NgzbJO2Piv7NZug0cI#scrollTo=sc07AVmCS6fw&line=2&uniqifier=1>`_"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:225
+msgid ""
+"**21)** What physical constraints might you use to select the best solution?"
+" How did you make your selection in Problem 19?"
+msgstr ""
+"**21)** ¿Qué limitaciones físicas podrías usar para seleccionar la mejor "
+"solución? ¿Cómo hiciste tu selección en el Problema 19?"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:227
+msgid ""
+"The ideal solution will have - a “reasonable” number of tubes and thus one "
+"possibility is to select the smallest diameter of tubing that uses a single "
+"tube. However, this won’t work for plants with high flow rates of chemicals."
+" - tubes that are short enough to mount in the water treatment plant"
+msgstr ""
+"La solución ideal tendrá - un número \"razonable\" de tubos y, por tanto, "
+"una posibilidad es seleccionar el diámetro más pequeño de tubería que "
+"utilice un solo tubo. Sin embargo, esto no funcionará para plantas con altos"
+" caudales de productos químicos. - tubos lo suficientemente cortos para "
+"montarse en la planta tratamiento de agua "
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:229
+msgid ""
+"**22)** AguaClara has coded these dosing tube size functions in the CDC "
+"Functions (ac.CDC). Find the function calls for the length, diameter, and "
+"number of dosing tubes and use those functions to calculate the values for "
+"the problem that you solved above. Compare your answers. Your answers should"
+" agree!"
+msgstr ""
+"**22)** AguaClara ha codificado estas funciones de tamaño del tubo "
+"dosificador en las Funciones CDC (ac. CDC). Encuentra la función que pide la"
+" longitud, diámetro y número de tubos de dosificación y usa esas funciones "
+"para calcular los valores del problema que has resuelto arriba. Compara tus "
+"respuestas. ¡Tus respuestas deberían coincidir!"
+
+#: ../../Flow_Control_and_Measurement/FCM_Solution.rst:231
+msgid "Pending new solution using updated CDC code."
+msgstr "Pendiente de nueva solución usando código CDC actualizado."
+

@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Rapid_Mix/RM_Design_Solution.rst:11
+msgid "Rapid Mix Design Solution"
+msgstr "mezcla rápida Solución de diseño"
+
+#: ../../Rapid_Mix/RM_Design_Solution.rst:13
+msgid ""
+"Create a function to return maximum energy dissipation rate along the "
+"centerline of a free jet given inputs of distance downstream of the jet "
+"(along the centerline), jet velocity, and initial jet diameter. You will "
+"find the Rapid Mix powerpoint useful in finding a relationship between these"
+" variables."
+msgstr ""
+"Crea una función para devolver la tasa máxima de disipación de energía a lo "
+"largo de la línea central de un chorro libre dadas las señales de distancia "
+"aguas abajo del chorro (a lo largo de la línea central), la velocidad del "
+"chorro y el diámetro inicial del chorro. Encontrarás útil la mezcla rápida "
+"presentación para encontrar una relación entre estas variables."
+
+#: ../../Rapid_Mix/RM_Design_Solution.rst:15
+msgid ""
+"Use your function to create a graph of the centerline (maximum) energy "
+"dissipation rate as a function of distance from jet origin. \\* Use an "
+"initial diameter of DiamJet = 10 cm and a velocity of VelJet = 1 m/s. \\* "
+"Use a range of 7 to 20 jet diameters when creating the graph. \\* Use units "
+"of meters for the x-axis and W/kg for the y-axis. Make sure to label your "
+"axes correctly."
+msgstr ""
+"Usa tu función para crear un gráfico de la velocidad de disipación de "
+"energía (máxima en línea central) en función de la distancia desde el origen"
+" del chorro. Usa un diámetro inicial de DiamJet = 10 cm y una velocidad de "
+"VelJet = 1 m/s. Utiliza un rango de 7 a 20 diámetros de chorro al crear el "
+"gráfico. Usa unidades de metros para el eje x y W/kg para el eje y. "
+"Asegúrate de etiquetar correctamente tus ejes."
+
+#: ../../Rapid_Mix/RM_Design_Solution.rst:17
+msgid ""
+"`Colab worksheet plotting centerline energy dissipation rate "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=S_eMUbTWFRfR&line=5&uniqifier=1>`_"
+msgstr ""
+"`Hoja de trabajo de Colab que grafica la tasa de disipación de energía de la"
+" línea central "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=S_eMUbTWFRfR&line=5&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Design_Solution.rst:26
+msgid "Energy dissipation rate vs Distance from jet origin"
+msgstr "Tasa de disipación de energía frente a distancia desde el origen del chorro"
+

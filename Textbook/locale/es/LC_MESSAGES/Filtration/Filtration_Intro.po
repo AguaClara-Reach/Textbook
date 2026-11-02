@@ -1,0 +1,1356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Filtration/Filtration_Intro.rst:12
+msgid "Filtration  Introduction"
+msgstr "Introducción a la filtración"
+
+#: ../../Filtration/Filtration_Intro.rst:14
+msgid ""
+"\"If the water is dirty, then filter it.\" That is a common misunderstanding"
+" of what we should do if the water is dirty. And that misunderstanding has "
+"led to many, many failures of water treatment technologies. There are slow "
+"sand filters and multistage filters abandoned in many corners of Honduras. "
+"The first AguaClara plant at Marcala, Honduras was built in an abandoned "
+"filtration plant. In many cases the failed filters were installed in "
+"locations where the raw water carried far too much sediment to be treated by"
+" filtration. This common misunderstanding of the capabilities of sand "
+"filters has a long history."
+msgstr ""
+"\"Si el agua está sucia, entonces filúrala.\" Es un malentendido común sobre"
+" lo que deberíamos hacer si el agua está sucia. Y ese malentendido ha "
+"provocado muchos, muchos fallos en las tecnologías tratamiento de agua . Hay"
+" filtros lentos de arena y filtros de varias etapas abandonados en muchos "
+"rincones de Honduras. La primera planta de AguaClara en Marcala, Honduras, "
+"se construyó en una planta de filtración abandonada. En muchos casos, los "
+"filtros fallidos se instalaron en lugares donde el agua cruda transportaba "
+"demasiado sedimento para ser tratado mediante filtración. Este malentendido "
+"común sobre las capacidades de los filtros de arena tiene una larga "
+"historia."
+
+#: ../../Filtration/Filtration_Intro.rst:23
+#: ../../Filtration/Filtration_Intro.rst:39
+msgid "photomicrograph"
+msgstr "Fotomicrografía"
+
+#: ../../Filtration/Filtration_Intro.rst:23
+msgid ""
+"Abandoned multiple stage filtration plant in the valley north of "
+"Tegucigalpa, Honduras."
+msgstr ""
+"Planta de filtración de múltiples etapas abandonada en el valle al norte de "
+"Tegucigalpa, Honduras."
+
+#: ../../Filtration/Filtration_Intro.rst:28
+msgid "History of Filtration"
+msgstr "Historia de la filtración"
+
+#: ../../Filtration/Filtration_Intro.rst:30
+msgid ""
+"Starting in 1829 surface water treatment plants in England used slow sand "
+"filters. Decades later in 1885 they discovered that slow sand filters "
+"actually remove bacteria. That was quite a surprise given that the pores in "
+"slow sand filters are perhaps 50 times larger than the bacteria that they "
+"remove! Clearly filters were doing something more interesting than simply "
+"straining out particles that were bigger than the pores."
+msgstr ""
+"A partir de 1829, las plantas de tratamiento de agua de superficie en "
+"Inglaterra usaron filtros de arena lentos. Décadas después, en 1885, "
+"descubrieron que los filtros de arena lentos en realidad eliminan bacterias."
+" Eso fue bastante sorprendente, dado que los poros de los filtros de arena "
+"lentos son quizás 50 veces más grandes que las bacterias que eliminan. "
+"Claramente, los filtros hacían algo más interesante que simplemente filtrar "
+"partículas más grandes que los poros."
+
+#: ../../Filtration/Filtration_Intro.rst:39
+msgid ""
+"Sample taken from the top of a slow sand filter made with glass beads. Note "
+"the constriction that is building in the narrowest part of the void between "
+"4 glass beads."
+msgstr ""
+"Muestra tomada de la parte superior de un filtro de arena lento hecha con "
+"cuentas de vidrio. Fíjate en la constricción que se está formando en la "
+"parte más estrecha del vacío entre 4 cuentas de vidrio."
+
+#: ../../Filtration/Filtration_Intro.rst:41
+msgid ""
+"Slow sand filtration ran into big trouble when they were installed in cities"
+" along the Ohio and Mississippi Rivers in the United States. The high "
+"sediment load carried by those rivers could not be removed using slow sand "
+"filters. The need to treat water with high sediment loads (high turbidities)"
+" led to the innovation of coupling flocculation, sedimentation, and a new "
+"kind of filter - rapid sand filters. The early emphasis on filtration as the"
+" primary process persisted and continues even today. For example, the "
+"surface water treatment plant that provides drinking water to the Cornell "
+"University campus is called Cornell Water Filtration Plant."
+msgstr ""
+"La filtración lenta de arena tuvo grandes problemas cuando se instaló en "
+"ciudades a lo largo de los ríos Ohio y Misisipi en Estados Unidos. La alta "
+"carga sedimentaria transportada por esos ríos no podía eliminarse usando "
+"filtros de arena lentos. La necesidad de tratar agua con altas cargas "
+"sedimentarias (altas turbidezs) llevó a la innovación de acoplar "
+"floculación, sedimentación y un nuevo tipo de filtro: los filtros rápidos de"
+" arena. El énfasis inicial en la filtración como proceso principal persistió"
+" y continúa incluso hoy en día. Por ejemplo, la planta de tratamiento de "
+"agua superficial que proporciona agua potable al campus de la Universidad de"
+" Cornell se llama Planta de Filtración de Agua de Cornell."
+
+#: ../../Filtration/Filtration_Intro.rst:43
+msgid ""
+"The process that removes most of the particles in the Cornell Water "
+"Filtration Plant is the clarifier with big assistance from the flocculators."
+" The rapid sand filters are a polishing step that removes approximately 1 "
+"NTU or about 1 mg/L of solids. This is not to diminish the importance of "
+"filtration. After all, this chapter is all about filtration. The goal is to "
+"put filtration in context and remind all of us that both slow and rapid sand"
+" filters are limited to polishing water that is already very clean."
+msgstr ""
+"El proceso que elimina la mayoría de las partículas en la Planta de "
+"Filtración de Agua de Cornell es el clarificador con gran ayuda de los "
+"floculadores. Los filtros rápidos de arena son un paso de pulido que elimina"
+" aproximadamente 1 NTU o aproximadamente 1 mg/L de sólidos. Esto no pretende"
+" restar importancia a la filtración. Al fin y al cabo, este capítulo trata "
+"sobre la filtración. El objetivo es poner la filtración en contexto y "
+"recordarnos a todos que tanto los filtros de arena lentos como los rápidos "
+"se limitan a pulir agua que ya está muy limpia."
+
+#: ../../Filtration/Filtration_Intro.rst:46
+msgid "Slow Sand Filters"
+msgstr "Filtros de arena lentos"
+
+#: ../../Filtration/Filtration_Intro.rst:48
+msgid ""
+"Slow sand filters don't use coagulants or pretreatment. They are suited for "
+"surface waters coming from pristine watersheds. They are a passive "
+"technology in that there is no way for an operator to improve performance "
+"other than to clean the filter."
+msgstr ""
+"Los filtros de arena lentos no utilizan coagulantes ni pretratamiento. Son "
+"adecuados para aguas superficiales que provienen de cuencas prístinas. Son "
+"una tecnología pasiva en el sentido de que no hay forma para que un operador"
+" mejore el rendimiento salvo limpiando el filtro."
+
+#: ../../Filtration/Filtration_Intro.rst:50
+msgid ""
+"Slow sand filters are sometimes called bio filters, a misunderstanding that "
+"has persisted from the early observations that biofilms grow (or are "
+"imported) in the sand bed. Although biofilms do form in slow sand filters it"
+" is unlikely that they play a role in particle removal. Weber-Shirk "
+"demonstrated that removal of E. coli by slow sand filters was insignificant "
+"even when the filters had 1 m of head loss due to biofilm growth. Weber-"
+"Shirk also demonstrated that slow sand filters perform well even when "
+"poisoned with azide. Weber-Shirk also demonstrated that predation by a small"
+" protozoan, a chrysophyte, can play a role in the removal of bacteria. The "
+"chrysophyte is too small to ingest protozoan pathogens such as "
+"cryptosporidium or Giardia lamblia and thus those organisms are likely only "
+"removed by physical-chemical means. Similarly it is unlikely that the "
+"chrysophyte wastes energy on ingesting virus particles. The dominant "
+"particle removal mechanism in slow sand filters is physical-chemical and is "
+"the same mechanisms at work in rapid sand filters. Naturally occurring "
+"aluminum creates sticky surfaces in the sand bed and makes some of the "
+"influent particles sticky. It is likely that aluminum content in the raw "
+"water plays a significant role in slow sand filter performance. The aluminum"
+" hydroxide nanoparticle \"glue\" is likely able to effect the removal of a "
+"wide range of particle sizes."
+msgstr ""
+"Los filtros lentos de arena a veces se llaman biofiltros, un malentendido "
+"que persiste desde las primeras observaciones de que los biofilms crecen (o "
+"se importan) en el lecho de arena. Aunque los biofilms se forman en filtros "
+"lentos de arena, es poco probable que jueguen un papel en la eliminación de "
+"partículas. Weber-Shirk demostró que la eliminación de E. coli por filtros "
+"lentos de arena era insignificante incluso cuando los filtros tenían 1 m de "
+"pérdida de carga debido al crecimiento de biofilm. Weber-Shirk también "
+"demostró que los filtros lentos de arena funcionan bien incluso cuando están"
+" envenenados con azida. Weber-Shirk también demostró que la depredación por "
+"un pequeño protozoo, un crisófito, puede desempeñar un papel en la "
+"eliminación de bacterias. La crisófito es demasiado pequeña para ingerir "
+"patógenos protozoarios como cryptosporidium o Giardia lamblia, por lo que "
+"esos organismos probablemente solo se eliminan por medios físico-químicos. "
+"De igual modo, es poco probable que el crisófito desperdicie energía "
+"ingiriendo partículas virales. El mecanismo dominante de eliminación de "
+"partículas en los filtros de arena lenta es físico-químico y es el mismo "
+"mecanismo que actúan en los filtros de arena rápidos. El aluminio natural "
+"crea superficies pegajosas en el lecho de arena y hace que algunas de las "
+"partículas influyentes sean pegajosas. Es probable que el contenido de "
+"aluminio en el agua cruda juegue un papel significativo en el rendimiento "
+"lento de la filtro de arena . El \"pegamento\" de nanopartículas de "
+"hidróxido de aluminio probablemente pueda eliminar una amplia variedad de "
+"tamaños de partículas."
+
+#: ../../Filtration/Filtration_Intro.rst:52
+msgid ""
+"Slow sand filters remove the majority of the particles in the top cm of the "
+"sand bed. A schmutzdecke (filter cake or layer of dirt) generally forms on "
+"top of the sand and this layer of dirt causes the majority of the head loss "
+"through the filter bed. It is this thin layer that is removed when the head "
+"loss is too high to achieve the desired flow rate through the filter. Most "
+"slow sand filters are cleaned by hand using shovels to remove a thin layer "
+"of the schmutzdecke. The cleaning process is labor intensive and requires "
+"taking the filter offline for a day or longer."
+msgstr ""
+"Los filtros de arena lentos eliminan la mayoría de las partículas en la "
+"parte superior del lecho de arena. Generalmente se forma una capa de capa de"
+" espuma (capa de filtro) sobre la arena y esta capa de suciedad provoca que "
+"la mayor parte de la pérdida de carga atraviese la lecho filtrante. Es esta "
+"capa fina la que se elimina cuando la pérdida de carga es demasiado alta "
+"para lograr la caudal deseada a través del filtro. La mayoría de los filtros"
+" de arena lentos se limpian a mano con palas para eliminar una capa fina de "
+"la capa de la capa de despacho. El proceso de limpieza es laborioso y "
+"requiere desconectar el filtro durante un día o más."
+
+#: ../../Filtration/Filtration_Intro.rst:61
+#: ../../Filtration/Filtration_Intro.rst:94
+#: ../../Filtration/Filtration_Intro.rst:138
+msgid "filter set"
+msgstr "Conjunto de filtros"
+
+#: ../../Filtration/Filtration_Intro.rst:61
+msgid ""
+"Slow sand filters at Jesus de Otoro, Honduras. Slow sand filters require "
+"extensive areas of flat terrain or extensive earthwork to create a level "
+"spot. In the tropics the filters are open to the sky and that results in "
+"nuisance growth of algae. In climates where freezing is a problem the "
+"filters are covered."
+msgstr ""
+"Filtros lentos de arena en Jesús de Otoro, Honduras. Los filtros lentos "
+"requieren extensas áreas de terreno llano o extensas obras de tierra para "
+"crear un punto nivelado. En los trópicos los filtros están abiertos al cielo"
+" y eso provoca un crecimiento molesto de algas. En climas donde la "
+"congelación es un problema, los filtros están cubiertos."
+
+#: ../../Filtration/Filtration_Intro.rst:64
+msgid "Multistage Filters"
+msgstr "Filtros multietapa"
+
+#: ../../Filtration/Filtration_Intro.rst:66
+#, python-format
+msgid ""
+"Multistage filters were invented to extend the range of applicability of "
+"slow sand filters. Slow sand filters were viewed as an appropriate "
+"technology for rural communities, but their very limited ability to treat "
+"water with suspended solids made them inappropriate for communities that "
+"have surface water sources with high turbidity during runoff events. "
+"Roughing filters made with various sizes of gravel were added to remove "
+"sediment. The roughing filters were essentially inefficient clarifiers with "
+"60% of their volume occupied by rocks! Roughing filters were also difficult "
+"to clean and without using coagulants their particle removal efficiency was "
+"poor. Nonetheless, multistage filters have been built in many rural "
+"communities in Latin America."
+msgstr ""
+"Se inventaron los filtros de varias etapas para ampliar el rango de "
+"aplicabilidad de los filtros de arena lentos. Los filtros de arena lentos se"
+" consideraban una tecnología adecuada para las comunidades rurales, pero su "
+"capacidad muy limitada para tratar agua con sólidos suspendidos los hacía "
+"inapropiados para comunidades con fuentes de agua superficial con alta "
+"turbidez durante los episodios de escorrentía. Se añadieron filtros de "
+"desbaste fabricados con varios tamaños de grava para eliminar sedimentos. "
+"Los filtros de desbaste eran esencialmente clarificadores ineficientes, ¡con"
+" el 60% de su volumen ocupado por rocas! Los filtros de desbaste también "
+"eran difíciles de limpiar y, sin el uso de coagulantes, su eficiencia de "
+"eliminación de partículas era pobre. No obstante, se han construido filtros "
+"de varias etapas en muchas comunidades rurales de América Latina."
+
+#: ../../Filtration/Filtration_Intro.rst:69
+msgid "Rapid Sand Filters"
+msgstr "Filtros rápidos de arena"
+
+#: ../../Filtration/Filtration_Intro.rst:71
+msgid ""
+"It is always interesting to try to understand why different technologies "
+"were invented and specifically what problem they were trying to solve. One "
+"possibility is that the goal was to reduce the labor required for cleaning "
+"slow sand filters by devising a system to clean the sand in place. Given the"
+" idea of fluidizing the bed of sand with a high upflow velocity it then "
+"became tempting to evolve to higher flow rates during filtration because "
+"having to clean the filter frequently was no longer a problem. Another "
+"possibility is that rapid sand filters were invented to handle higher "
+"turbidity water, but that isn't supported by the capabilities of rapid sand "
+"filters. Slow and rapid sand filters have very similar maximum influent "
+"water turbidity limits. Thus the real advantage to rapid sand filters is "
+"that they can be cleaned quickly."
+msgstr ""
+"Siempre es interesante intentar entender por qué se inventaron diferentes "
+"tecnologías y qué problema intentaban resolver. Una posibilidad es que el "
+"objetivo fuera reducir el trabajo necesario para limpiar filtros de arena "
+"lentos ideando un sistema para limpiar la arena en el lugar. Dada la idea de"
+" fluidizar el lecho de arena con una alta velocidad de flujo ascendente, se "
+"volvió tentador evolucionar hacia caudales más altos durante la filtración, "
+"ya que tener que limpiar el filtro con frecuencia dejó de ser un problema. "
+"Otra posibilidad es que se inventaron los filtros de arena rápidos para "
+"manejar agua con mayor turbidez, pero eso no está respaldado por las "
+"capacidades de los filtros de arena rápidos. Los filtros de arena lentos y "
+"rápidos tienen límites máximos de turbidez del agua influyente muy "
+"similares. Por tanto, la verdadera ventaja de los filtros de arena rápidos "
+"es que pueden limpiarse rápidamente."
+
+#: ../../Filtration/Filtration_Intro.rst:73
+msgid ""
+"Many rapid sand filters use 2 or 3 different densities and sizes of filter "
+"media to achieve a system with large pores at the surface of the filter and "
+"smaller pores deeper within the filter. If sand with a wide range of sizes "
+"is fluidized, the small sand grains quickly rise to the top and the large "
+"sand grains fall to the bottom. Thus a poorly sieved sand will have small "
+"pores at the top and large pores at the bottom after backwash. The trick to "
+"creating a mix of filter media that results in big pores on the top is to "
+"use low density, large diameter media with a lower terminal velocity rather "
+"than a higher density, small diameter media. During backwash the less dense "
+"media ends up on top and thus this reverse stratification is achieved."
+msgstr ""
+"Muchos filtros rápidos de arena utilizan 2 o 3 densidades y tamaños "
+"diferentes de medio filtrante para lograr un sistema con poros grandes en la"
+" superficie del filtro y poros más pequeños más profundos dentro del filtro."
+" Si la arena de un amplio rango de tamaños se fluidiza, los pequeños granos "
+"de arena ascienden rápidamente a la superficie y los grandes caen al fondo. "
+"Así, una arena mal tamizada tendrá poros pequeños en la parte superior y "
+"poros grandes en la parte inferior tras el retrolavado. El truco para crear "
+"una mezcla de medio filtrante que resulte en poros grandes en la parte "
+"superior es usar medios de baja densidad, gran diámetro y menor velocidad "
+"terminal, en lugar de medios de mayor densidad y pequeño diámetro. Durante "
+"el retrolavado, el medio menos denso acaba en la parte superior y así se "
+"logra esta estratificación inversa."
+
+#: ../../Filtration/Filtration_Intro.rst:75
+msgid ""
+"Given that many installed rapid sand filters are dual media it is worth "
+"reflecting on what problem the dual media filters are designed to solve. One"
+" possible problem is surface clogging of the sand filter when large, strong "
+"flocs bridge across sand pores and then support a layer of flocs above the "
+"sand bed. This surface layer would be similar to the schmutzdecke in slow "
+"sand filters and could be the location of significant head loss. It appears "
+"that rapid sand filters do suffer from surface clogging in some instances. "
+"Of course, it is possible that this failure is related to the use of "
+"flocculent aids that result in excessively strong flocs and/or clarifiers "
+"that don't effectively capture large flocs."
+msgstr ""
+"Dado que muchos filtros de arena rápidos instalados son de doble medio, "
+"merece la pena reflexionar sobre qué problema están diseñados para resolver "
+"los filtros de doble medio. Un posible problema es el obstrucción "
+"superficial del filtro de arena cuando flócs grandes y fuertes cruzan los "
+"poros de arena y luego soportan una capa de flócs sobre el lecho de arena. "
+"Esta capa superficial sería similar a la capa de schmutzdecke en filtros de "
+"arena lentos y podría ser el lugar de pérdida de carga significativos. "
+"Parece que los filtros de arena rápidos sufren obstrucciones superficiales "
+"en algunos casos. Por supuesto, es posible que este fallo esté relacionado "
+"con el uso de ayudas floculentas que resultan en flócs demasiado fuertes y/o"
+" clarificadores que no capturan eficazmente flócs grandes."
+
+#: ../../Filtration/Filtration_Intro.rst:77
+msgid ""
+"Additional potential benefits of dual media filtration include the "
+"possibility that they can hold a larger mass of particles before requiring "
+"backwash or that they may be able to achieve higher particle removal "
+"efficiency. `Zouboulis et al. "
+"<https://doi.org/10.1016/j.desal.2006.02.102>`_ compared single and dual "
+"media filtration and demonstrated that the main advantage to dual media "
+"filtration was that it had a lower rate of head loss accumulation. Given "
+"that the rate of increase of head loss for the dual media filters was "
+"constant over time, this suggests that the pores that were doing the "
+"filtration were exclusively in the larger of the two media. This suggests "
+"that larger diameter media (rather than dual media) might be a better choice"
+" for rapid sand filters."
+msgstr ""
+"Beneficios adicionales de la filtración con medios dobles incluyen la "
+"posibilidad de que puedan contener una masa mayor de partículas antes de "
+"requerir retrolavado, o que puedan lograr una mayor eficiencia en la "
+"eliminación de partículas. `Zouboulis et al. "
+"<https://doi.org/10.1016/j.desal.2006.02.102>`_ compararon la filtración de "
+"medio simple y dual y demostraron que la principal ventaja de la filtración "
+"con medio dual era que tenía una menor tasa de acumulación de pérdida de "
+"carga . Dado que la tasa de aumento de pérdida de carga para los filtros de "
+"medio dual fue constante a lo largo del tiempo, esto sugiere que los poros "
+"que realizaban la filtración estaban exclusivamente en el medio más grande "
+"de los dos. Esto sugiere que medios de mayor diámetro (en lugar de medios "
+"duales) podrían ser una mejor opción para filtros de arena rápidos."
+
+#: ../../Filtration/Filtration_Intro.rst:79
+msgid ""
+"Dual media filters face more challenges during cleaning. The use of "
+"relatively low density media for the top layer results in a lower density "
+"fluidized bed. This lower density fluidized bed makes it possible for flocs "
+"to form mudballs that are sufficiently dense to fall through the top layer "
+"of media during backwash (page 221 of Water and Wastewater Technology, 6th "
+"edition, by Hammer and Hammer, 2008). The formation of these mudballs is one"
+" of the reasons that dual media filters use air scour before or during "
+"backwash to breakup the mudballs."
+msgstr ""
+"Los filtros de doble medio enfrentan más desafíos durante la limpieza. El "
+"uso de medios de densidad relativamente baja para la capa superior da lugar "
+"a un lecho fluidizado de menor densidad. Este lecho fluidizado de menor "
+"densidad permite que los flocos formen bolas de barro lo suficientemente "
+"densas como para atravesar la capa superior del medio durante el retrolavado"
+" (página 221 de Water and Wastewater Technology, 6ª edición, de Hammer and "
+"Hammer, 2008). La formación de estas bolas de barro es una de las razones "
+"por las que los filtros de doble medio utilizan la erosión por aire antes o "
+"durante el retrolavado para romper las bolas de barro."
+
+#: ../../Filtration/Filtration_Intro.rst:81
+msgid ""
+"The addition of flocculation and sedimentation prior to filtration changes "
+"the properties of the incoming particles. The settled water contains small "
+"flocs and primary particles with some coagulant nanoparticles attached. "
+"These particles are sticky and the stickiness undoubtedly influences the "
+"physics of the particle attachment processes inside the sand bed. We will "
+"talk more about the mysteries of life inside a filter bed later in this "
+"chapter."
+msgstr ""
+"La adición de floculación y sedimentación antes de la filtración cambia las "
+"propiedades de las partículas entrantes. El agua sedimentada contiene "
+"pequeños flócs y partículas primarias con algunas nanopartículas coagulantes"
+" adheridas. Estas partículas son pegajosas y su pegajosidad sin duda influye"
+" en la física de los procesos de unión de partículas dentro del lecho "
+"arenoso. Hablaremos más adelante en este capítulo sobre los misterios de la "
+"vida en un lecho filtrante ."
+
+#: ../../Filtration/Filtration_Intro.rst:83
+msgid ""
+"Rapid sand filters rely on a backwash system.  It takes a relatively high "
+"velocity of water to fluidize a bed of sand and that water has to come from "
+"somewhere. In conventional water treatment plants that water comes from a "
+"clearwell that is filled with filtered water. During backwash water from the"
+" clearwell is pumped through the filter and then either wasted or returned "
+"to the head of the plant for another pass through the treatment processes. "
+"The need for pumps is one of the big disadvantages of conventional rapid "
+"sand filters. Conventional rapid sand filters fail if they lose power or if "
+"there isn't enough filtered water in the clearwell when the filter needs to "
+"be backwashed. This raises an interesting question about how rapid sand "
+"filters are initially commissioned at water treatment plants given that the "
+"clearwell is initially empty and given that filters must be filled with "
+"water from the bottom. If you dump water on top of a dry filter bed the "
+"water will create a few paths down through the sand and the majority of the "
+"sand pores will remain filled with air even when the level of water floods "
+"the top of the filter bed. Thus the first operation in rapid sand filter "
+"startup must be backwash!"
+msgstr ""
+"Los filtros rápidos de arena dependen de un sistema de contralavado. Se "
+"necesita una velocidad relativamente alta del agua para fluidificar un lecho"
+" de arena y ese agua tiene que provenir de algún sitio. En las plantas de "
+"tratamiento de agua convencionales, el agua proviene de un pozo claro lleno "
+"de agua filtrada. Durante el retrolavado, el agua del pozo claro se bombea a"
+" través del filtro y luego se desperdicia o se regresa a la cabeza de la "
+"planta para otro paso por los procesos de tratamiento. La necesidad de "
+"bombas es una de las grandes desventajas de los filtros de arena rápidos "
+"convencionales. Los filtros rápidos convencionales de arena fallan si "
+"pierden potencia o si no hay suficiente agua filtrada en el pozo claro "
+"cuando el filtro necesita ser contralavado. Esto plantea una pregunta "
+"interesante sobre cómo se ponen inicialmente en marcha los filtros de arena "
+"rápidos en tratamiento de agua plantas, dado que el pozo claro está "
+"inicialmente vacío y que los filtros deben llenarse con agua del fondo. Si "
+"viertes agua sobre un lecho filtrante seco, el agua creará algunos caminos "
+"hacia abajo a través de la arena y la mayoría de los poros de arena "
+"permanecerán llenos de aire incluso cuando el nivel de agua inunde la parte "
+"superior del lecho filtrante. Por tanto, la primera operación en arranque "
+"rápido filtro de arena debe ser el retrolavado."
+
+#: ../../Filtration/Filtration_Intro.rst:85
+msgid ""
+"One solution for eliminating the need for backwash pumps is to design a set "
+"of filters that work together to backwash one of the filters. This "
+"eliminates the need for a clearwell for backwash water. This system of a set"
+" of filters is used by `CEPIS <http://cepis.org.pe/sobre-el-cepis/>`_ in "
+"their design of `rapid sand filters "
+"<../_static/references/CEPIS/CEPIS5_Batería_de_filtros.pdf>`_ This system is"
+" an elegant solution that works well for small cities, but the requirement "
+"of 6 filters is onerous for towns where 2 filters should have been "
+"sufficient."
+msgstr ""
+"Una solución para eliminar la necesidad de bombas de retrolavado es diseñar "
+"un conjunto de filtros que trabajen juntos para contralavar uno de los "
+"filtros. Esto elimina la necesidad de un pozo claro para el agua de "
+"retrolavado. Este sistema de un conjunto de filtros es utilizado por "
+"`<http://cepis.org.pe/sobre-el-cepis/>`CEPIS _ en su diseño de `filtros "
+"rápidos de arena "
+"<../_static/references/CEPIS/CEPIS5_Batería_de_filtros.pdf>`_ Este sistema "
+"es una solución elegante que funciona bien para ciudades pequeñas, pero el "
+"requisito de 6 filtros es gravoso para pueblos donde 2 filtros deberían "
+"haber sido suficientes."
+
+#: ../../Filtration/Filtration_Intro.rst:94
+msgid ""
+"6 filters form a complete set such that 5 filters can work together to "
+"backwash one filter without using pumps."
+msgstr ""
+"6 filtros forman un conjunto completo de modo que 5 filtros pueden trabajar "
+"juntos para retrolavar un filtro sin necesidad de bombas."
+
+#: ../../Filtration/Filtration_Intro.rst:98
+msgid "Stacked Rapid Sand Filters"
+msgstr "Filtros rápidos de arena apilados"
+
+#: ../../Filtration/Filtration_Intro.rst:100
+msgid ""
+"Stacked Rapid Sand, StaRS, filters were invented in 2010 by the AguaClara "
+"Cornell program in response to the need for a new technology that would both"
+" eliminate the need for backwash pumps AND not require the construction of 6"
+" filters for small towns. StaRS filters use 6 20 cm deep layers of sand (no "
+"dual media here) with the layers stacked vertically. The six layers give a "
+"total sand depth of 1.2 m. The filter operates with the same design flow "
+"rate for both backwash and filtration modes and uses settled water for "
+"backwash. This eliminates the startup problem for rapid sand filters that "
+"don't have an initial source of backwash water. The shallow filter layers "
+"take advantage of new insights into the filtration mechanisms (more on that "
+"soon)."
+msgstr ""
+"Los filtros de arena rápida apilada, StaRS, fueron inventados en 2010 por el"
+" programa AguaClara Cornell en respuesta a la necesidad de una nueva "
+"tecnología que eliminara la necesidad de bombas de retrolavado Y no "
+"requiriera la construcción de 6 filtros para pueblos pequeños. Los filtros "
+"StaRS utilizan 6 capas de arena de 20 cm de profundidad (sin doble medio "
+"aquí) con las capas apiladas verticalmente. Las seis capas proporcionan una "
+"profundidad total de arena de 1,2 m. El filtro funciona con el mismo caudal "
+"de diseño tanto para los modos de retrolavado como para filtración y utiliza"
+" agua sedimentada para el retrolavado. Esto elimina el problema de arranque "
+"para filtros de arena rápidos que no tienen una fuente inicial de agua de "
+"retrolavado. Las capas filtrantes superficiales aprovechan nuevos "
+"conocimientos sobre los mecanismos de filtración (ya hablaré de eso)."
+
+#: ../../Filtration/Filtration_Intro.rst:102
+msgid ""
+"StaRS filters come in two configuration parameters. Open StaRS (OStaRS) are "
+"used for flow rates greater than about 8 L/s. An 8 L/s filter has a plan "
+"view area of 85 cm x 85 cm. This is considered the minimum size that can be "
+"constructed with a human working inside the filter. For lower flow rates, "
+"Enclosed StaRS (EStaRS) filters can be assembled using PVC pipe as the body "
+"of the filter. The inner plumbing can be accessed through openings in the "
+"top and bottom of the main filter body."
+msgstr ""
+"Los filtros StaRS tienen dos parámetros de configuración. Los StaRS abiertos"
+" (OStaRS) se utilizan para caudales superiores a unos 8 L/s. Un filtro de 8 "
+"L/s tiene un área de vista en planta de 85 cm x 85 cm. Este se considera el "
+"tamaño mínimo que puede construirse con una persona trabajando dentro del "
+"filtro. Para caudales más bajos, los filtros StaRS cerrados (EStaRS) pueden "
+"ensamblarse utilizando tubería de PVC como cuerpo del filtro. La fontanería "
+"interior puede accederse a través de aberturas en la parte superior e "
+"inferior del cuerpo principal del filtro."
+
+#: ../../Filtration/Filtration_Intro.rst:104
+msgid ""
+"`See this Colab worksheet for determining the filter width for a specific "
+"flow rate "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=xAc_E3A85-ai&line=1&uniqifier=1>`_"
+msgstr ""
+"`See this Colab worksheet for determining the filter width for a specific "
+"flow rate "
+"<https://colab.research.google.com/drive/15IrqdHgnk3NZVTiIuhQc6YdwFgquIHD1#scrollTo=xAc_E3A85-ai&line=1&uniqifier=1>`_"
+
+#: ../../Filtration/Filtration_Intro.rst:108
+msgid "Relative velocities and areas for different unit processes."
+msgstr "Velocidades relativas y áreas para diferentes procesos unitarios."
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Filter Type"
+msgstr "Tipo de filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Velocity (mm/s)"
+msgstr "Velocidad (mm/s)"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Cleaning (mm/s)"
+msgstr "Limpieza (mm/s)"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "max (NTU)"
+msgstr "max (NTU)"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "pC*"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Area :math:`(m^2)` for 1 L/s"
+msgstr "Superficie :math:`(m^2)` para 1 L/s"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Dynamic"
+msgstr "Dinámica"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.4"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "2.5"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Roughing"
+msgstr "Rugado"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.17"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "5.5 mm/s downflow"
+msgstr "Caudal descendente de 5,5 mm/s"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.5"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "5.9"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Slow"
+msgstr "Despacio"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.04"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Scrape surface"
+msgstr "Superficie de raspado"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "10"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.8"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "25"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Multistage"
+msgstr "Multietapa"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.03"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "100"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "1.3"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "33.4"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "Rapid"
+msgstr "Rápido"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.7 - 2.8"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "11 mm/s backwash"
+msgstr "Retrolavado de 11 mm/s"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.55"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC Entrance"
+msgstr "Entrada AC"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.125"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC Flocculation"
+msgstr "Floculación AC"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "4"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.25"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC Clarification"
+msgstr "Aclaración sobre AC"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC Floc Hopper"
+msgstr "AC tolva de lodos"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.2"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC Stacked Rapid"
+msgstr "Corriente alterna apilada rápida"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "1.8*6"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.093"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "AC total"
+msgstr "Total de AC"
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "0.6"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "1000"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "3.5"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:1
+msgid "1.67"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:125
+msgid ""
+"The slowest (and hence largest) unit process in the AguaClara surface water "
+"treatment train is clarification. Thus clarifiers represents the most likely"
+" opportunity for significant cost reduction. The entire AguaClara treatment "
+"train is a fraction of the size of the dynamic filters that are used in "
+"multiple stage filtration plants."
+msgstr ""
+"El proceso unitario más lento (y por tanto el más grande) en el tren de "
+"tratamiento de agua de superficie AguaClara es la clarificación. Por tanto, "
+"los clarificadores representan la oportunidad más probable para una "
+"reducción significativa de costes. Todo el tren de tratamiento de Agua Clara"
+" es una fracción del tamaño de los filtros dinámicos que se utilizan en "
+"plantas de filtración de múltiples etapas."
+
+#: ../../Filtration/Filtration_Intro.rst:127
+msgid ""
+"Filters remove the least amount of contaminants in a surface water treatment"
+" plant."
+msgstr ""
+"Los filtros eliminan la menor cantidad de contaminantes en una planta "
+"tratamiento de agua superficie."
+
+#: ../../Filtration/Filtration_Intro.rst:129
+msgid ""
+"Filters have a huge range in velocities that correspond to a huge range in "
+"size. This is illustrated in the city of Jesus de Otoro, Honduras. They have"
+" both a 20 L/s multiple stage filtration plant and a 20 L/s AguaClara plant "
+"serving different sections of the city. The plants can both be seen in "
+"`Google Maps "
+"<https://www.google.com/maps/d/u/0/viewer?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&ll=14.491993514824715%2C-87.97505904373156&z=16>`_."
+msgstr ""
+"Los filtros tienen un rango enorme de velocidades que corresponde a un gran "
+"rango de tamaño. Esto se ilustra en la ciudad de Jesús de Otoro, Honduras. "
+"Cuentan tanto con una planta de filtración de múltiples etapas de 20 L/s "
+"como con una planta AguaClara de 20 L/s que sirve a diferentes zonas de la "
+"ciudad. Las plantas pueden verse en `Google Maps "
+"<https://www.google.com/maps/d/u/0/viewer?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&ll=14.491993514824715%2C-87.97505904373156&z=16>`_."
+
+#: ../../Filtration/Filtration_Intro.rst:138
+msgid ""
+"Two water treatment plants using different technologies and serving the same"
+" city illustrate the high construction cost of low technologies simply based"
+" on the required size of the low tech facilities."
+msgstr ""
+"Dos plantas tratamiento de agua que utilizan tecnologías diferentes y sirven"
+" a la misma ciudad ilustran el alto coste de construcción de las tecnologías"
+" bajas simplemente basándose en el tamaño requerido de las instalaciones de "
+"baja tecnología."
+
+#: ../../Filtration/Filtration_Intro.rst:145
+msgid "Porosity"
+msgstr "Porosidad"
+
+#: ../../Filtration/Filtration_Intro.rst:147
+msgid ""
+"Porosity of a sand bed refers to the ratio of the void volume to the total "
+"volume of the sand bed."
+msgstr ""
+"La porosidad de un lecho de arena se refiere a la relación entre el volumen "
+"de vacío y el volumen total del lecho de arena."
+
+#: ../../Filtration/Filtration_Intro.rst:149
+msgid " \\phi_{FiSand} = \\frac{\\forall_{voids}}{\\forall_{total}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:155
+msgid ""
+"Porosity is determined by the geometry of the material and the size "
+"distribution (or uniformity of the particle sizes) and not by the average "
+"size of the particles. If you have three different sized spheres (such as  1"
+" um clay, 0.2 mm sand, and 1 cm gravel) in three different buckets, each "
+"bucket will have the same porosity as seen in :numref:`figure_porosity`. To "
+"minimize the porosity, the three materials could be mixed because the "
+"smaller materials would be filling the pore space of the larger material."
+msgstr ""
+"La porosidad está determinada por la geometría del material y la "
+"distribución de tamaño (o uniformidad de los tamaños de las partículas) y no"
+" por el tamaño medio de las partículas. Si tienes tres esferas de tamaños "
+"diferentes (como 1 um de arcilla, 0,2 mm de arena y 1 cm de grava) en tres "
+"cubos distintos, cada cubo tendrá la misma porosidad que en "
+":numref:`figure_porosity`. Para minimizar la porosidad, los tres materiales "
+"podrían mezclarse porque los materiales más pequeños llenarían el espacio "
+"poroso del material mayor."
+
+#: ../../Filtration/Filtration_Intro.rst:163
+msgid ""
+"This figure illustrates how different sized materials have the same total "
+"bulk porosity"
+msgstr ""
+"Esta figura ilustra cómo los materiales de diferentes tamaños tienen la "
+"misma porosidad total a granel"
+
+#: ../../Filtration/Filtration_Intro.rst:163
+msgid ""
+"Within each box, the spheres are different sizes. However the total porosity"
+" is the same. To minimize the pore space, the smaller particles could be "
+"used to fill the spore space between the larger particles, though in a "
+"filter this is not necessarily ideal."
+msgstr ""
+"Dentro de cada caja, las esferas tienen tamaños diferentes. Sin embargo, la "
+"porosidad total es la misma. Para minimizar el espacio poroso, las "
+"partículas más pequeñas podrían usarse para llenar el espacio de esporas "
+"entre las partículas más grandes, aunque en un filtro esto no es "
+"necesariamente ideal."
+
+#: ../../Filtration/Filtration_Intro.rst:165
+#, python-format
+msgid ""
+"One way that the relative size of particles is characterized is by "
+"describing the size of the smallest 10% of grains, and the smallest 60% of "
+"grains. That is:"
+msgstr ""
+"Una forma de caracterizar el tamaño relativo de las partículas es "
+"describiendo el tamaño del menor 10% de granos y del menor 60% de granos. Es"
+" decir:"
+
+#: ../../Filtration/Filtration_Intro.rst:167
+msgid ":math:`D_{10}` = the sieve size that passes 10% by mass of sand through"
+msgstr ""
+":math:`D_{10}` = el tamaño del tamiz que pasa un 10% en masa de arena a "
+"través"
+
+#: ../../Filtration/Filtration_Intro.rst:169
+msgid ":math:`D_{60}` = the sieve size that passes 60% by mass of sand through"
+msgstr ":math:`D_{60}` = el tamaño del tamiz que atraviesa un 60% en masa de arena"
+
+#: ../../Filtration/Filtration_Intro.rst:171
+msgid ""
+":math:`D_{10}` is used for particle removal models, and :math:`D_{60}` is "
+"used for hydraulic modeling."
+msgstr ""
+":math:`D_{10}` se utiliza para modelos de eliminación de partículas y "
+":math:`D_{60}` para modelado hidráulico."
+
+#: ../../Filtration/Filtration_Intro.rst:173
+msgid "The ratio of the two is the uniformity coefficient:"
+msgstr "La razón de ambos es el coeficiente de uniformidad:"
+
+#: ../../Filtration/Filtration_Intro.rst:175
+msgid "  UC = \\frac{D_{60}}{D_{10}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:180
+msgid ""
+"The uniformity coefficient describes the uniformity of the sand. A :math:`UC"
+" = 1` indicates that every grain of sand is the same size, which is the "
+"ideal case. A large :math:`UC` is indicative of a wide range of grain sizes "
+"which will result in stratification of the sand bed after backwash with fine"
+" sand on top. This will result in more rapid development of head loss during"
+" filtration. The fine sand on top will also expand more during backwash and "
+"could result in loss of sand during backwash."
+msgstr ""
+"El coeficiente de uniformidad describe la uniformidad de la arena. Un "
+":math:`UC = 1` indica que cada grano de arena tiene el mismo tamaño, lo cual"
+" es el caso ideal. Un gran :math:`UC` indica una amplia gama de tamaños de "
+"grano, lo que resultará en estratificación del lecho de arena tras el "
+"contralavado con arena fina encima. Esto resultará en un desarrollo más "
+"rápido de pérdida de carga durante la filtración. La arena fina en la "
+"superficie también se expandirá más durante el retrolavado y podría provocar"
+" la pérdida de arena durante el contralavado."
+
+#: ../../Filtration/Filtration_Intro.rst:183
+msgid ""
+"During backwash, the sand is fluidized and the sand bed expands. This "
+"expansion causes a change in porosity of the sand bed (as the volume of "
+"water occupied by the sand is increased). The porosity and height of the "
+"sand bed are directly related through the following equation:"
+msgstr ""
+"Durante el contralavado, la arena se fluidifica y la cama de arena se "
+"expande. Esta expansión provoca un cambio en la porosidad de la cama de "
+"arena (a medida que aumenta el volumen de agua ocupada por la arena). La "
+"porosidad y la altura de la capa de arena están directamente relacionadas "
+"mediante la siguiente ecuación:"
+
+#: ../../Filtration/Filtration_Intro.rst:185
+msgid ""
+" \\phi_{FiSandBw} = \\frac{\\phi_{FiSand} H_{FiSand} A_{Fi} + \\left( "
+"H_{FiSandBw} - H_{FiSand} \\right) A_{Fi}}{H_{FiSandBw} A_{Fi}}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:190
+#: ../../Filtration/Filtration_Intro.rst:204
+#: ../../Filtration/Filtration_Intro.rst:261
+#: ../../Filtration/Filtration_Intro.rst:276
+msgid "Such that:"
+msgstr "Tal que:"
+
+#: ../../Filtration/Filtration_Intro.rst:191
+msgid ":math:`\\phi_{FiSandBw}` = sand porosity during backwash"
+msgstr ":math:`\\phi_{FiSandBw}` = porosidad de arena durante el retrolavado"
+
+#: ../../Filtration/Filtration_Intro.rst:192
+msgid ":math:`\\phi_{FiSand}` = settled sand porosity"
+msgstr ":math:`\\phi_{FiSand}` = porosidad de arena sedimentada"
+
+#: ../../Filtration/Filtration_Intro.rst:193
+#: ../../Filtration/Filtration_Intro.rst:206
+msgid ":math:`H_{FiSand}` = height of sand in the filter"
+msgstr ":math:`H_{FiSand}` = altura de la arena en el filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:194
+#: ../../Filtration/Filtration_Intro.rst:207
+msgid ":math:`H_{FiSandBw}` = height of sand during backwash"
+msgstr ":math:`H_{FiSandBw}` = altura de la arena durante el retrolavamiento"
+
+#: ../../Filtration/Filtration_Intro.rst:195
+msgid ":math:`A_{Fi}` = filter area"
+msgstr ":math:`A_{Fi}` = área del filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:197
+msgid ""
+"From this it becomes possible to directly relate porosity (as above) to the "
+"filter expansion ratio, which is simply the ratio of the heights of the "
+"expanded sand bed and the settled sand bed:"
+msgstr ""
+"A partir de esto se puede relacionar directamente la porosidad (como antes) "
+"con la relación de expansión del filtro, que es simplemente la relación "
+"entre las alturas del lecho de arena expandido y el lecho de arena "
+"sedimentado:"
+
+#: ../../Filtration/Filtration_Intro.rst:199
+msgid "H_{FiSandBw} = \\Pi_{Fi}^{Bw} H_{FiSand}"
+msgstr "H_{FiSandBw} = \\Pi_{Fi}^{Bw} H_{FiSand}"
+
+#: ../../Filtration/Filtration_Intro.rst:205
+msgid ":math:`\\Pi_{Fi}^{Bw}` = the expansion ratio value"
+msgstr ":math:`\\Pi_{Fi}^{Bw}` = valor de la razón de expansión"
+
+#: ../../Filtration/Filtration_Intro.rst:214
+msgid "Clean Bed Head Loss"
+msgstr "Cama limpia pérdida de carga"
+
+#: ../../Filtration/Filtration_Intro.rst:216
+msgid ""
+"The Carman Kozeny Equation, an adaptation of the Hagen-Poiseuille Equation "
+":eq:`` describes the head loss through a clean bed during filtration. The "
+"Ergun Equation :eq:`eq_Ergun` can also be used to estimate head loss in "
+"porous media."
+msgstr ""
+"La ecuación de Carman Kozeny, una adaptación de la ecuación de Hagen-"
+"Poiseuille, describe :eq:`` la pérdida de carga a través de un lecho limpio "
+"durante la filtración. La ecuación de Ergun :eq:`eq_Ergun` también puede "
+"usarse para estimar pérdida de carga en medios porosos."
+
+#: ../../Filtration/Filtration_Intro.rst:218
+msgid ""
+" \\frac{h_l}{H_{FiSand}} = 36 k \\frac{\\left( 1 - \\phi_{FiSand} "
+"\\right)^2}{\\phi_{FiSand}^3} \\frac{\\nu \\bar v_a}{g D_{60}^2}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:223
+msgid "where"
+msgstr "donde"
+
+#: ../../Filtration/Filtration_Intro.rst:224
+msgid ":math:`h_l` = head loss in sand bed"
+msgstr ":math:`h_l` = pérdida de carga en lecho de arena"
+
+#: ../../Filtration/Filtration_Intro.rst:225
+msgid ":math:`H_{FiSand}` = the sand bed depth/length of flow paths"
+msgstr ""
+":math:`H_{FiSand}` = la profundidad/longitud del lecho de arena de los "
+"caminos de flujo"
+
+#: ../../Filtration/Filtration_Intro.rst:226
+msgid ":math:`\\phi_{FiSand}` = porosity of sand"
+msgstr ":math:`\\phi_{FiSand}` = porosidad de la arena"
+
+#: ../../Filtration/Filtration_Intro.rst:227
+msgid ":math:`\\nu` = kinematic viscosity"
+msgstr ":math:`\\nu` = viscosidad cinemática"
+
+#: ../../Filtration/Filtration_Intro.rst:228
+msgid ""
+":math:`\\bar v_a` = the approach velocity (the velocity the water would have"
+" if the filter didn't have any sand!)"
+msgstr ""
+":math:`\\bar v_a` = la velocidad de aproximación (¡la velocidad que tendría "
+"el agua si el filtro no tuviera arena!)"
+
+#: ../../Filtration/Filtration_Intro.rst:229
+msgid ":math:`D_{60}` = the size of the sand"
+msgstr ":math:`D_{60}` = el tamaño de la arena"
+
+#: ../../Filtration/Filtration_Intro.rst:230
+msgid ":math:`g` = gravity"
+msgstr ":math:`g` = gravedad"
+
+#: ../../Filtration/Filtration_Intro.rst:231
+msgid ":math:`k` = Kozeny constant (5 for most filtration cases)"
+msgstr ""
+":math:`k` = constante de Kozeny (5 para la mayoría de los casos de "
+"filtración)"
+
+#: ../../Filtration/Filtration_Intro.rst:233
+msgid ""
+"This equation is valid for Reynolds numbers less than 6. Where: :math:`{\\rm"
+" Re}  = \\frac{D_{60} \\bar v_a}{\\nu}`"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:241
+msgid "Backwash Head Loss"
+msgstr "Retrolavado pérdida de carga"
+
+#: ../../Filtration/Filtration_Intro.rst:243
+msgid ""
+"To determine the head loss during backwash a force balance can be performed "
+"between the water and the sand per unit of filter area (see "
+":numref:`figure_force_balance`)."
+msgstr ""
+"Para determinar la pérdida de carga durante el contralavado, se puede "
+"realizar un balance de fuerzas entre el agua y la arena por unidad de área "
+"filtrada (véase :numref:`figure_force_balance`)."
+
+#: ../../Filtration/Filtration_Intro.rst:252
+msgid "This figure is a simplified schematic of the filter force balance"
+msgstr "Esta figura es un esquema simplificado del balance de fuerzas del filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:252
+msgid ""
+"The pressure required to hold up the fluidized sand must equal the pressure "
+"in the manometer."
+msgstr ""
+"La presión necesaria para sostener la arena fluidizada debe igualar la "
+"presión en el manómetro."
+
+#: ../../Filtration/Filtration_Intro.rst:255
+msgid "The pressure from the water in the manometer:"
+msgstr "La presión del agua en el manómetro:"
+
+#: ../../Filtration/Filtration_Intro.rst:257
+msgid ""
+"P_{Manometer} = \\rho_{Water} g \\left( H_{W_1} + H_{W_2} + \\phi_{FiSand} "
+"H_{FiSand} \\right) + \\rho_{Sand} g \\left( 1 - \\phi_{FiSand} \\right) "
+"H_{FiSand}"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:262
+msgid ""
+":math:`P_{Manometer} =` total height from the bottom of the filter to the "
+"inlet box"
+msgstr ""
+":math:`P_{Manometer} =` altura total desde la parte inferior del filtro "
+"hasta la caja de entrada"
+
+#: ../../Filtration/Filtration_Intro.rst:263
+msgid ":math:`\\rho_{Water} =` density of water"
+msgstr ":math:`\\rho_{Water} =` densidad del agua"
+
+#: ../../Filtration/Filtration_Intro.rst:264
+msgid ""
+":math:`H_{W_1} =` the distnace from the top of the settled sand bed to the "
+"water surface in the filter"
+msgstr ""
+":math:`H_{W_1} =` la distensión desde la parte superior del lecho arenoso "
+"sedimentado hasta la superficie del agua en el filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:265
+msgid ""
+":math:`H_{W_2} =` the height of the water below the sand bed but within the "
+"filter"
+msgstr ""
+":math:`H_{W_2} =` la altura del agua por debajo del lecho de arena pero "
+"dentro del filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:266
+msgid ":math:`\\phi_{FiSand} =` porosity of sand"
+msgstr ":math:`\\phi_{FiSand} =` porosidad de la arena"
+
+#: ../../Filtration/Filtration_Intro.rst:267
+msgid ":math:`H_{FiSand} =` height of the filter bed"
+msgstr ":math:`H_{FiSand} =` altura del lecho filtrante"
+
+#: ../../Filtration/Filtration_Intro.rst:268
+msgid ":math:`\\rho_{Sand} =` density of sand"
+msgstr ":math:`\\rho_{Sand} =` densidad de arena"
+
+#: ../../Filtration/Filtration_Intro.rst:270
+msgid "The pressure from the sand and water in the filter:"
+msgstr "La presión de la arena y el agua en el filtro:"
+
+#: ../../Filtration/Filtration_Intro.rst:272
+msgid ""
+"P_{Manometer} = \\rho_{Water} g \\left( H_{W_1} + H_{W_2} + H_{FiSand} + "
+"h_{l_{FiBw}} \\right)\n"
+"\n"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:277
+msgid ""
+":math:`h_{l_{FiBw}} =` the difference in height of the inlet and water "
+"surface height during backwash; the backwash head loss"
+msgstr ""
+":math:`h_{l_{FiBw}} =` la diferencia de altura entre la entrada y la altura "
+"de la superficie del agua durante el retrolavado; el retrolavado pérdida de "
+"carga"
+
+#: ../../Filtration/Filtration_Intro.rst:280
+msgid "Setting them equal for a force balance:"
+msgstr "Establecerlos iguales para un equilibrio de fuerzas:"
+
+#: ../../Filtration/Filtration_Intro.rst:282
+msgid ""
+"\\rho_{Water} g \\left( H_{W_1} + H_{W_2} + \\phi_{FiSand} H_{FiSand} "
+"\\right) + \\rho_{Sand} g \\left( 1 - \\phi_{FiSand} \\right) H_{FiSand} = "
+"\\rho_{Water} g \\left( H_{W_1} + H_{W_2} + H_{FiSand} + h_{l_{FiBw}} "
+"\\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:286
+msgid "Which simplifies to:"
+msgstr "Lo que se simplifica a:"
+
+#: ../../Filtration/Filtration_Intro.rst:288
+msgid ""
+"h_{l_{FiBw}} = H_{FiSand} \\left( 1 - \\phi_{FiSand} \\right)  \\left( "
+"\\frac{\\rho_{Sand}}{\\rho_{Water}} - 1 \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:294
+msgid ""
+"This result gives a ratio of the head loss during backwash to the height "
+"difference during forward operation. With :math:`\\phi_{FiSand} = 0.4` and "
+":math:`\\rho_{Sand} = 2650 kg/m^3` the value of this ratio is:"
+msgstr ""
+"Este resultado da una relación entre la pérdida de carga durante el "
+"contralavado y la diferencia de altura durante la operación hacia adelante. "
+"Con :math:`\\phi_{FiSand} = 0.4` y :math:`\\rho_{Sand} = 2650 kg/m^3` el "
+"valor de esta relación es:"
+
+#: ../../Filtration/Filtration_Intro.rst:296
+msgid ""
+"\\left( 1- \\Phi_{FiSand} \\right) \\left( "
+"\\frac{\\rho_{FiSand}}{\\rho_{Water}} - 1 \\right) = 0.99"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:303
+msgid "Minimum Fluidization Velocity"
+msgstr "Velocidad mínima de fluidización"
+
+#: ../../Filtration/Filtration_Intro.rst:305
+msgid ""
+"The minimum fluidization velocity for a sand bed can be obtained by setting "
+"the head loss through the sand (Equation :eq:`eq_Carman_Kozeny`) equal to "
+"the head required to suspend the sand bed (Equation "
+":eq:`eq_Min_Fluidization_Velocity`)."
+msgstr ""
+"La velocidad mínima de fluidización para un lecho de arena puede obtenerse "
+"colocando el pérdida de carga a través de la arena (Ecuación "
+":eq:`eq_Carman_Kozeny`) igual a la altura necesaria para suspender el lecho "
+"de arena (Ecuación :eq:`eq_Min_Fluidization_Velocity`)."
+
+#: ../../Filtration/Filtration_Intro.rst:307
+msgid ""
+"Using these two equations the minimum velocity for sand fluidization can be "
+"found."
+msgstr ""
+"Usando estas dos ecuaciones se puede determinar la velocidad mínima para la "
+"fluidización de arena."
+
+#: ../../Filtration/Filtration_Intro.rst:309
+msgid ""
+"\\bar v_{MinFluidization} = \\frac{\\phi_{FiSand}^3 g D_{60}^2}{36 k \\nu "
+"\\left( 1 - \\phi_{FiSand} \\right)} \\left( "
+"\\frac{\\rho_{Sand}}{\\rho_{Water}} - 1 \\right)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:314
+msgid ""
+"From this equation it can easily be seen that if the diameter of the sand at"
+" the top is half the diameter of the sand at the bottom, it will fluidize at"
+" one quarter the velocity. This result indicates that fluidization occurring"
+" at the top of the filter does **not** imply that the sand at the bottom of "
+"the filter is fluidized."
+msgstr ""
+"De esta ecuación se puede ver fácilmente que si el diámetro de la arena en "
+"la parte superior es la mitad del diámetro de la arena en la parte inferior,"
+" se fluidizará a una cuarta parte de la velocidad. Este resultado indica que"
+" la fluidización que ocurre en la parte superior del filtro **no** implica "
+"que la arena en la parte inferior del filtro esté fluidizada."
+
+#: ../../Filtration/Filtration_Intro.rst:317
+msgid "Filter Box Depth"
+msgstr "Profundidad de la caja de filtro"
+
+#: ../../Filtration/Filtration_Intro.rst:319
+msgid ""
+"The full design for the filter dimensions can be found in the `Onshape "
+"Filter OStaRS "
+"<https://cad.onshape.com/documents/df017cf84042956843b898b5/w/5ea2e02b2dec2f39a7907b9c/e/14720b8e836529543a668762>`_."
+" The full design requires detailed calculations that include trunk, siphon, "
+"and branch dimensions, pipe head loss during backwash, sand expansion, as "
+"well as the head loss through the sand during both backwash and filtration."
+msgstr ""
+"El diseño completo de las dimensiones del filtro puede encontrarse en el "
+"`Onshape Filter OStaRS "
+"<https://cad.onshape.com/documents/df017cf84042956843b898b5/w/5ea2e02b2dec2f39a7907b9c/e/14720b8e836529543a668762>`_."
+" El diseño completo requiere cálculos detallados que incluyen dimensiones de"
+" tronco, sifón y rama, pérdida de carga de tubería durante el retrolavado, "
+"expansión de arena, así como la pérdida de carga a través de la arena tanto "
+"durante el contralavado como durante la filtración."
+
+#: ../../Filtration/Filtration_Intro.rst:328
+msgid "water levels during backwash"
+msgstr "Niveles de agua durante el retroceso"
+
+#: ../../Filtration/Filtration_Intro.rst:328
+msgid ""
+"The water levels in the filter during backwash show the required depth for "
+"the filter box."
+msgstr ""
+"Los niveles de agua en el filtro durante el retrolavado indican la "
+"profundidad requerida para la caja del filtro."
+
+#: ../../Filtration/Filtration_Intro.rst:331
+msgid ""
+"A simplified estimate of the filter box depth can be obtained that neglects "
+"the smaller details to illustrate the major contributors to the filter "
+"depth. The depth of sand in the filter, :math:`H_{FiSand}` is approximately"
+msgstr ""
+"Se puede obtener una estimación simplificada de la profundidad de la caja "
+"del filtro que omite los detalles menores para ilustrar los principales "
+"factores que contribuyen a la profundidad del filtro. La profundidad de "
+"arena en el filtro, :math:`H_{FiSand}` es aproximadamente"
+
+#: ../../Filtration/Filtration_Intro.rst:333
+msgid "H_{FiSand} = N_{layer} H_{layer}"
+msgstr "H_{FiSand} = N_{layer} H_{layer}"
+
+#: ../../Filtration/Filtration_Intro.rst:338
+msgid ""
+"where :math:`N_{layer}` is the number of filters in the stacked filter and "
+":math:`H_{layer}` is the height of one filter layer and the center to center"
+" distance of the filter trunks. The height of the sand when it is fluidized "
+"during backwash is given by"
+msgstr ""
+"donde :math:`N_{layer}` es el número de filtros en el filtro apilado y "
+":math:`H_{layer}` es la altura de una capa de filtro y la distancia centro-"
+"centro de los troncos del filtro. La altura de la arena cuando se fluidifica"
+" durante el retrolavado está dada por"
+
+#: ../../Filtration/Filtration_Intro.rst:340
+msgid "H_{sand_{bw}} = \\Pi_{Fi}^{Bw} H_{FiSand}"
+msgstr "H_{sand_{bw}} = \\Pi_{Fi}^{Bw} H_{FiSand}"
+
+#: ../../Filtration/Filtration_Intro.rst:345
+msgid ""
+"where :math:`\\Pi_{Fi}^{Bw}` is the depth of the fluidized bed during "
+"backwash normalized by the sand bed depth."
+msgstr ""
+"donde :math:`\\Pi_{Fi}^{Bw}` es la profundidad del lecho fluidizado durante "
+"el retrolavado, normalizada por la profundidad del lecho arenoso."
+
+#: ../../Filtration/Filtration_Intro.rst:347
+msgid ""
+"The head loss through silica sand (with density of :math:`2650 "
+"\\frac{kg}{m^3}`) during backwash is approximated as (see Equation "
+":eq:`headloss_bw_sand`)"
+msgstr ""
+
+#: ../../Filtration/Filtration_Intro.rst:349
+msgid "h_{l_{FiBw}} = H_{FiSand}"
+msgstr "h_{l_{FiBw}} = H_{FiSand}"
+
+#: ../../Filtration/Filtration_Intro.rst:354
+msgid ""
+"The approximate height of the water in the filter box at the end of a filter"
+" run is thus"
+msgstr ""
+"La altura aproximada del agua en la caja del filtro al final de una "
+"secuencia de filtración es la siguiente"
+
+#: ../../Filtration/Filtration_Intro.rst:356
+msgid "HW_{Fi_{max}} = h_{l_{FiBw}} + H_{sand_{bw}} + h_{l_{FiSand_{max}}}"
+msgstr "HW_{Fi_{max}} = h_{l_{FiBw}} + H_{sand_{bw}} + h_{l_{FiSand_{max}}}"
+
+#: ../../Filtration/Filtration_Intro.rst:361
+msgid ""
+"Substituting Equations :eq:`approximate_bw_HL`, :eq:`bw_sand_depth`, and "
+":eq:`sand_depth` we obtain an estimate of the depth of an open stacked rapid"
+" sand filter."
+msgstr ""
+"Sustituyendo las ecuaciones :eq:`approximate_bw_HL`, :eq:`bw_sand_depth`, y "
+":eq:`sand_depth` obtenemos una estimación de la profundidad de un filtro de "
+"arena rápido apilado abierto ."
+
+#: ../../Filtration/Filtration_Intro.rst:363
+msgid "HW_{Fi_{max}} = N_{layer} H_{layer}(1+\\Pi_{Fi}^{Bw}) + h_{l_{FiSand_{max}}}"
+msgstr "HW_{Fi_{max}} = N_{layer} H_{layer}(1+\\Pi_{Fi}^{Bw}) + h_{l_{FiSand_{max}}}"
+
+#: ../../Filtration/Filtration_Intro.rst:368
+msgid ""
+"This estimate of the depth of water in the filter box does not include all "
+"of the factors and is an underestimate of the actual value used in design."
+msgstr ""
+"Esta estimación de la profundidad del agua en la caja del filtro no incluye "
+"todos los factores y es una subestimación del valor real utilizado en el "
+"diseño."
+

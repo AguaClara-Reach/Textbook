@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Rapid_Mix/RM_Examples.rst:12
+msgid "Rapid Mix: Examples"
+msgstr "mezcla rápida: Ejemplos"
+
+#: ../../Rapid_Mix/RM_Examples.rst:17
+msgid "Example: pH Adjustment"
+msgstr "Ejemplo: Ajuste del pH"
+
+#: ../../Rapid_Mix/RM_Examples.rst:19
+msgid ""
+"Find the required dose of several bases to raise the pH at the Manzaragua "
+"Water Treatment Plant. The Manzaragua AguaClara plant consists of two 1 L/s "
+"plants operating in parallel. The plant is located in the municipality of "
+"Guinope, the department of El Paraiso, Honduras."
+msgstr ""
+"Encontrar la dosis necesaria de varias bases para elevar el pH en la planta "
+"de Manzaragua tratamiento de agua . La planta Manzaragua AguaClara consta de"
+" dos plantas de 1/s que operan en paralelo. La planta está situada en el "
+"municipio de Guinope, departamento de El Paraíso, Honduras."
+
+#: ../../Rapid_Mix/RM_Examples.rst:28
+msgid "Manzaragua WTP"
+msgstr "Manzaragua WTP"
+
+#: ../../Rapid_Mix/RM_Examples.rst:28
+msgid ""
+"Manzaragua water treatment plant using two of the AguaClara 1 L/s plants in "
+"parallel."
+msgstr ""
+"Manzaragua tratamiento de agua planta utilizando dos de las plantas "
+"AguaClara de 1 L/s en paralelo."
+
+#: ../../Rapid_Mix/RM_Examples.rst:30
+msgid ""
+"The plant performed very poorly from the first day of operation. The first "
+"attempted fix was to double the flocculator residence time by increasing the"
+" number of flocculator pipes (3 inch diameter by 1.5 m long) from 12 to 24. "
+"This improved performance, but the plant continued to perform poorly. A raw "
+"water sample was analyzed on May 30, 2018 and the following results were "
+"obtained."
+msgstr ""
+"La planta funcionó muy mal desde el primer día de funcionamiento. La primera"
+" solución intentada fue duplicar el tiempo de residencia del floculador "
+"aumentando el número de tuberías floculadoras (3 pulgadas de diámetro por "
+"1,5 m de largo) de 12 a 24. Esto mejoró el rendimiento, pero la planta "
+"siguió funcionando deficientemente. Se analizó una muestra agua cruda el 30 "
+"de mayo de 2018 y se obtuvieron los siguientes resultados."
+
+#: ../../Rapid_Mix/RM_Examples.rst:39
+msgid "Manzaragua Water Analysis"
+msgstr "Análisis del agua de Manzaragua"
+
+#: ../../Rapid_Mix/RM_Examples.rst:39
+msgid "Water quality analysis for Manzaragua."
+msgstr "calidad del agua análisis para Manzaragua."
+
+#: ../../Rapid_Mix/RM_Examples.rst:44
+msgid "Manzaragua water quality analysis"
+msgstr "Análisis calidad del agua Manzaragua"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Units"
+msgstr "Unidades"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Standard"
+msgstr "Estándar"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Results"
+msgstr "Resultados"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Turbidity"
+msgstr "Turbidez"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "NTU"
+msgstr "NTU"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "71"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Color"
+msgstr "Color"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "color units"
+msgstr "Unidades de color"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "15"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "150"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "pH"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "6.5 - 8.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "5.91"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Conductivity"
+msgstr "Conductividad"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`\\mu s/cm`"
+msgstr ":math:`\\mu s/cm`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "400"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "69.15"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Alkalinity"
+msgstr "Alcalinidad"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`mg/L` as :math:`CaCO_3`"
+msgstr ":math:`mg/L` como :math:`CaCO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "24.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Bicarbonates"
+msgstr "Bicarbonatos"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Carbonates"
+msgstr "Carbonatos"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Hardness"
+msgstr "Dureza"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "15.68"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:58
+msgid ""
+"This water has high color which suggests a high concentration of dissolved "
+"organic matter. The pH is a clear problem because the pH is too low for the "
+"coagulant nanoparticles to precipitate. As the water sample has a pH of 5.91"
+" a significant fraction of the coagulant will remain soluble."
+msgstr ""
+"Esta agua tiene un color alto, lo que sugiere una alta concentración de "
+"materia orgánica disuelta. El pH es un problema claro porque es demasiado "
+"bajo para que las nanopartículas coagulantes puedan precipitar. Como la "
+"muestra de agua tiene un pH de 5,91, una fracción significativa del "
+"coagulante permanecerá soluble."
+
+#: ../../Rapid_Mix/RM_Examples.rst:60
+msgid ""
+"Our goal is to determine how much base will need to be added to raise the "
+"pH. We do not have data on the *optimal* pH for treating high color water "
+"with PACl and so we will use pH 7 as the target."
+msgstr ""
+"Nuestro objetivo es determinar cuánta base habrá que añadir para aumentar el"
+" pH. No disponemos de datos sobre el pH *óptimo* para tratar agua de alto "
+"color con PACl, por lo que usaremos el pH 7 como objetivo."
+
+#: ../../Rapid_Mix/RM_Examples.rst:62
+msgid ""
+"At circumneutral pH (pH close to 7) the buffering capacity of the water is "
+"dominated by carbonate chemistry and specifically by the equilibrium between"
+" :math:`{H_2}CO_3^{\\star}` and :math:`HCO_3^-` . We will use the acid "
+"neutralizing capacity (reported as calcium carbonate alkalinity) and the pH "
+"from the sample analysis to estimate the total concentration of carbonates. "
+"We will not use the sample analysis carbonate concentrations because they "
+"can not be precisely correct."
+msgstr ""
+"A pH circunneutral (pH cercano a 7), la capacidad de amortiguamiento del "
+"agua está dominada por la química de carbonatos y, específicamente, por el "
+"equilibrio entre :math:`{H_2}CO_3^{\\star}` y :math:`HCO_3^-` . Utilizaremos"
+" la capacidad neutralizante de ácidos (reportada como alcalinidad del "
+"carbonato de calcio) y el pH del análisis de la muestra para estimar la "
+"concentración total de carbonatos. No utilizaremos las concentraciones de "
+"carbonato en el análisis de muestras porque no pueden ser precisamente "
+"correctas."
+
+#: ../../Rapid_Mix/RM_Examples.rst:64
+msgid ""
+"We will find the amount of base that must be added using Equation "
+":eq:`Base_for_pH_Adjust`."
+msgstr ""
+"Encontraremos la cantidad de base que debe sumarse usando la ecuación "
+":eq:`Base_for_pH_Adjust`."
+
+#: ../../Rapid_Mix/RM_Examples.rst:69
+msgid "ANC and carbonate values for several bases and acids"
+msgstr "Valores de ANC y carbonato para varias bases y ácidos"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Base/Acid"
+msgstr "Base/Ácido"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Pi_{ANC}`"
+msgstr ":math:`Pi_{ANC}`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Pi_{CO_3^{-2}}`"
+msgstr ":math:`Pi_{CO_3^{-2}}`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Na_2CO_3` or :math:`CaCO_3`"
+msgstr ":math:`Na_2CO_3` o :math:`CaCO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`NaHCO_3`"
+msgstr ":math:`NaHCO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`NaOH`"
+msgstr ":math:`NaOH`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`HCl` or :math:`HNO_3`"
+msgstr ":math:`HCl` o :math:`HNO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "-1"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`H_2SO_4`"
+msgstr ":math:`H_2SO_4`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "-2"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:80
+msgid ""
+"For :math:`Na_2CO_3` \\* :math:`\\Pi_{ANC}` = 2 we are adding "
+":math:`CO_3^{-2}` which is multiplied by two in the ANC equation because "
+":math:`CO_3^{-2}` can react with two protons. \\* :math:`\\Pi_{CO_3^{-2}}` ="
+" 1 because there is one mole of :math:`CO_3` per mole of :math:`Na_2CO_3`"
+msgstr ""
+"Para :math:`Na_2CO_3` \\* :math:`\\Pi_{ANC}` = 2 sumamos :math:`CO_3^{-2}` "
+"que se multiplica por dos en la ecuación ANC porque :math:`CO_3^{-2}` puede "
+"reaccionar con dos protones. \\* :math:`\\Pi_{CO_3^{-2}}` = 1 porque hay un "
+"mol de :math:`CO_3` por cada mole de :math:`Na_2CO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:86
+msgid ""
+"`Colab worksheet calculating the required base addition "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=EYj26XBJa9DD&line=6&uniqifier=1>`_."
+msgstr ""
+"`hoja de cálculo de Colab calculando la suma base requerida "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=EYj26XBJa9DD&line=6&uniqifier=1>`_."
+
+#: ../../Rapid_Mix/RM_Examples.rst:88
+msgid ""
+"In following through the example it becomes apparent that the choice of base"
+" matters. The most efficient (on a mass or mole basis) base is :math:`NaOH` "
+"because it doesn't add any carbonates that don't fully react with the "
+"hydrogen ions. The decision about which base to use will be influenced by "
+"economics, operator safety, and by whether additional carbonate buffering "
+"simplifies plant operation with changing raw water quality."
+msgstr ""
+"Al seguir el ejemplo, queda claro que la elección de la base importa. La "
+"base más eficiente (en masa o mol) es :math:`NaOH` porque no añade "
+"carbonatos que no reaccionen completamente con los iones de hidrógeno. La "
+"decisión sobre qué base usar estará influida por la economía, la seguridad "
+"del operador y por si un amortiguamiento adicional de carbonatos simplifica "
+"el funcionamiento de la planta con cambios en calidad del agua bruto."
+
+#: ../../Rapid_Mix/RM_Examples.rst:94
+msgid "Calcium base."
+msgstr "Base de calcio."
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Chemical Name"
+msgstr "Nombre químico"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Common Name"
+msgstr "Nombre común"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Chemical Formula"
+msgstr "Fórmula química"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium carbonate"
+msgstr "Carbonato cálcico"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Limestone or chalk"
+msgstr "Caliza o tiza"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`CaCO_3`"
+msgstr ":math:`CaCO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium hydroxide"
+msgstr "Hidróxido de calcio"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Slaked lime or hydrated lime"
+msgstr "Cal apagada o cal hidratada"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Ca(OH)_2`"
+msgstr ":math:`Ca(OH)_2`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Calcium oxide"
+msgstr "Óxido de calcio"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "Quicklime"
+msgstr "Cal viva"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`CaO`"
+msgstr ":math:`CaO`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:102
+msgid ""
+"The calcium bases are relatively inexpensive and have the disadvantage of "
+"lower solubility than sodium bases. Calcium carbonate has a low solubility, "
+"carbon dioxide is present in the atmosphere, and thus calcium carbonate "
+"precipitation limits the concentration that can be used for chemical feeds."
+msgstr ""
+"Las bases de calcio son relativamente económicas y tienen la desventaja de "
+"una menor solubilidad que las bases de sodio. El carbonato de calcio tiene "
+"una baja solubilidad, el dióxido de carbono está presente en la atmósfera, "
+"por lo que la precipitación de carbonato de calcio limita la concentración "
+"que puede utilizarse para alimentaciones químicas."
+
+#: ../../Rapid_Mix/RM_Examples.rst:111
+msgid "mole base for target pH"
+msgstr "Base molar para el pH objetivo"
+
+#: ../../Rapid_Mix/RM_Examples.rst:111
+msgid ""
+"Dose of three bases (in mole/L) required to achieve a target pH for the "
+"Manzaragua water. Carbonates provide more buffering and less change in the "
+"pH compared with :math:`NaOH`."
+msgstr ""
+"Se requiere una dosis de tres bases (en mol/L) para alcanzar un pH objetivo "
+"para el agua de Manzaragua. Los carbonatos proporcionan más tampón y menos "
+"cambios en el pH en comparación con :math:`NaOH`."
+
+#: ../../Rapid_Mix/RM_Examples.rst:120
+msgid "mg base for target pH"
+msgstr "Base en mg para el pH objetivo"
+
+#: ../../Rapid_Mix/RM_Examples.rst:120
+msgid ""
+"Dose of two bases (in mg/L) required to achieve a target pH for the "
+"Manzaragua water. Carbonates provide more buffering and less change in the "
+"pH compared with :math:`NaOH`."
+msgstr ""
+"Se requiere una dosis de dos bases (en mg/L) para alcanzar un pH objetivo "
+"para el agua de Manzaragua. Los carbonatos proporcionan más amortiguamiento "
+"y menos cambios en el pH en comparación con :math:`NaOH`."
+
+#: ../../Rapid_Mix/RM_Examples.rst:122
+msgid "The required dose for each of the bases is summarized below."
+msgstr "La dosis requerida para cada una de las bases se resume a continuación."
+
+#: ../../Rapid_Mix/RM_Examples.rst:126
+msgid "Dose of each base required to change the pH of the Manzaragua water to 7."
+msgstr "Dosis de cada base necesaria para cambiar el pH del agua de Manzaragua a 7."
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid ":math:`Na_2CO_3`"
+msgstr ":math:`Na_2CO_3`"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "[mmoles/L]"
+msgstr "[murmura/L]"
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0.45"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "2.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "0.53"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "[mg/L]"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "47.21"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "235.0"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:1
+msgid "21.19"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Examples.rst:138
+msgid "LFOM and Coagulant Injection Sizing"
+msgstr "LFOM y dimensionamiento por inyección de coagulante"
+
+#: ../../Rapid_Mix/RM_Examples.rst:140
+msgid ""
+"A water treatment plant that is treating 120 L/s of water injects the "
+"coagulant into the middle of the pipe that delivers the raw water to the "
+"plant and then splits the flow into 2 parallel treatment trains for "
+"subsequent flocculation. The pipe is PVC 24 inch nominal pipe diameter SDR "
+"26. The water temperature is :math:`0^{\\circ}C`. Estimate the minimum "
+"distance between the injection point and the flow split."
+msgstr ""
+"Una planta tratamiento de agua que trata 120 L/s de agua inyecta el "
+"coagulante en el centro de la tubería que entrega el agua cruda a la planta "
+"y luego divide el flujo en 2 trenes de tratamiento paralelos para la "
+"floculación posterior. La tubería es de PVC con diámetro nominal de tubería "
+"de 24 pulgadas y SDR 26. La temperatura del agua es :math:`0^{\\circ}C`. "
+"Estima la distancia mínima entre el punto de inyección y la división del "
+"flujo."
+
+#: ../../Rapid_Mix/RM_Examples.rst:142
+msgid ""
+"We will use a :ref:`linear flow orifice meter <heading_lfom>` with 20 cm of "
+"head loss. The first step is to determine the diameter of the LFOM."
+msgstr ""
+"Usaremos un :ref:`linear flow orifice meter <heading_lfom>` con 20 cm de "
+"pérdida de carga. El primer paso es determinar el diámetro del LFOM."
+
+#: ../../Rapid_Mix/RM_Examples.rst:144
+msgid ""
+"`Colab worksheet designing LFOM "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=900qlLctzxLj&line=9&uniqifier=1>`_."
+msgstr ""
+"`Colab worksheet designing LFOM "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=900qlLctzxLj&line=9&uniqifier=1>`_."
+
+#: ../../Rapid_Mix/RM_Examples.rst:146
+msgid "This analysis shows that the LFOM requires a 24 inch diameter pipe."
+msgstr ""
+"Este análisis muestra que el LFOM requiere una tubería de 24 pulgadas de "
+"diámetro."
+
+#: ../../Rapid_Mix/RM_Examples.rst:150
+msgid "Example Problem: Energy Dissipation Rate in a Straight Pipe"
+msgstr "Problema de ejemplo: Tasa de disipación de energía en una tubería recta"
+
+#: ../../Rapid_Mix/RM_Examples.rst:153
+msgid "Calculate the friction factor."
+msgstr "Calcula el factor de fricción."
+
+#: ../../Rapid_Mix/RM_Examples.rst:154
+msgid ""
+"Use Equation :eq:`mixing_pipe_diameters` to estimate the mixing length in "
+"pipe diameters."
+msgstr ""
+"Utiliza la Ecuación :eq:`mixing_pipe_diameters` para estimar la longitud de "
+"mezcla en diámetros de tubería."
+
+#: ../../Rapid_Mix/RM_Examples.rst:155
+msgid "Convert to pipe length in meters."
+msgstr "Convierte a la longitud de la tubería en metros."
+
+#: ../../Rapid_Mix/RM_Examples.rst:157
+msgid ""
+"`Colab worksheet calculating the mixing length in pipe diameters "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=tsf9Xo4a1Tjp&line=10&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab calculando la longitud de mezcla en diámetros de "
+"tubería "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=tsf9Xo4a1Tjp&line=10&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Examples.rst:159
+msgid ""
+"The previous analysis provides a minimum distance for sufficient mixing so "
+"that equal mass flux of coagulant will end up in both treatment trains. This"
+" assumes that the coagulant was injected in the pipe centerline. Injection "
+"at the wall of the pipe is a poor practice and would require many more pipe "
+"diameters because it takes significant time for the coagulant to be mixed "
+"out of the slower fluid at the wall. The time required for mixing at the "
+"scale of the flow in the plant is thus accomplished in a few seconds. This "
+"ends up being the fastest part of the transport of the coagulant "
+"nanoparticles on their way to attachment to the clay particles.  Next we "
+"will determine a typical flow rate of coagulant. **Aluminum** concentrations"
+" for polyaluminum chloride (PACl) typically range from 1 to 10 mg/L. The "
+"maximum PACl stock solution concentration is about 70 g/L as **Al**."
+msgstr ""
+"El análisis anterior proporciona una distancia mínima para una mezcla "
+"suficiente de modo que un flujo de masa igual de coagulante termine en ambos"
+" trenes de tratamiento. Esto supone que el coagulante fue inyectado en la "
+"línea central del tubo. La inyección en la pared del tubo es una práctica "
+"pobre y requeriría muchos más diámetros de tubería porque el coagulante "
+"tarda mucho en mezclarse con el fluido más lento en la pared. El tiempo "
+"requerido para mezclar a escala de flujo en la planta se logra así en pocos "
+"segundos. Esto acaba siendo la parte más rápida del transporte de las "
+"nanopartículas de coagulante en su camino hacia la unión a las partículas de"
+" arcilla. A continuación determinaremos un caudal típico de coagulante. Las "
+"concentraciones de **aluminio** para cloruro de polialuminio (PACl) suelen "
+"oscilar entre 1 y 10 mg/L. La concentración máxima de PACl solución madre es"
+" de unos 70 g/L como **Al**."
+
+#: ../../Rapid_Mix/RM_Examples.rst:161
+msgid ""
+"`Colab worksheet calculating the coagulant flow "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=Fly3_gop3GDZ&line=1&uniqifier=1>`_."
+msgstr ""
+"`hoja de cálculo de Colab calculando el flujo de coagulante "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=Fly3_gop3GDZ&line=1&uniqifier=1>`_."
+
+#: ../../Rapid_Mix/RM_Examples.rst:163
+msgid ""
+"We can estimate the diameter of the injection port by setting the kinetic "
+"energy loss where the coagulant is injected into the main flow to be large "
+"enough to exceed the pressure fluctuations downstream of the LFOM. The "
+"amount of energy we invest in injecting the coagulant into the raw water is "
+"a compromise between having to raise the entire chemical feed system "
+"including the stock tanks to increase the potential energy and a goal of not"
+" having pressure fluctuations inside the LFOM pipe cause flow oscillations "
+"in the chemical dosing tube. Thus our goal is to have the kinetic energy at "
+"the injection point be large compared with the expected pressure "
+"fluctuations in the LFOM. Given that the head loss through the LFOM is often"
+" 20 cm, we expect the pressure fluctuations from turbulence to be a small "
+"fraction of that head loss. Thus we set the kinetic energy to be equivalent "
+"to 2 cm."
+msgstr ""
+"Podemos estimar el diámetro del puerto de inyección ajustando la pérdida de "
+"energía cinética donde se inyecta el coagulante en el flujo principal para "
+"que sea lo suficientemente grande como para superar las fluctuaciones de "
+"presión aguas abajo del LFOM. La cantidad de energía que invertimos en "
+"inyectar el coagulante en el agua cruda es un compromiso entre tener que "
+"elevar todo el sistema de alimentación química, incluidos los tanques de "
+"stock, para aumentar la energía potencial, y el objetivo de evitar que "
+"fluctuaciones de presión dentro de la tubería del LFOM provoquen "
+"oscilaciones de flujo en el tubo de dosificación química. Por tanto, nuestro"
+" objetivo es que la energía cinética en el punto de inyección sea grande en "
+"comparación con las fluctuaciones de presión esperadas en el LFOM. Dado que "
+"la pérdida de carga a través del LFOM suele ser de 20 cm, esperamos que las "
+"fluctuaciones de presión por turbulencia sean una pequeña fracción de esa "
+"pérdida de carga. Por tanto, establecemos la energía cinética en equivalente"
+" a 2 cm."
+
+#: ../../Rapid_Mix/RM_Examples.rst:165
+msgid ""
+"`Colab worksheet calculating the diameter of the dosing tube "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=gO_quuJh4HpS&line=1&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando el diámetro del tubo dosificador "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=gO_quuJh4HpS&line=1&uniqifier=1>`_"
+

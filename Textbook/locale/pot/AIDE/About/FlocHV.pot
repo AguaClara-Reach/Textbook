@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "|ACRlogowithname|"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:0
+msgid "ACRlogowithname"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "|textbook|"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:0
+msgid "textbook"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "|donate|"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:0
+msgid "donate"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:6
+msgid "|reportabugbig|"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:0
+msgid "reportabugbig"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:12
+msgid "Flocculator HV Configurable Component"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:21
+#: ../../AIDE/About/FlocHV.rst:31
+msgid "Location of the Entrance Tank"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:21
+msgid "The flocculator use baffles to create a flow path with 180˚ bends. The flow contracts as it goes around the bend, expands, generates turbulence, and then deforms the fluid as viscosity converts the turbulent kinetic energy into heat. The fluid deformation causes collisions between particles."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:31
+msgid "The flocculator (outlined in red) is where the raw water particles collide and grow into flocs."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:34
+msgid "The flocculator has three design constraints:"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:36
+msgid "Deform the fluid so there are sufficient collision opportunities for particles."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:37
+msgid "Maintain a flow expansion geometric ratio (flow width to distance between expansions) that is greater than 4."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:38
+msgid "Limit the velocity gradient so that flocs can grow large enough to be captured by the plate settlers in the clarifier."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:41
+msgid "Generate New Models of the Flocculator"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:43
+msgid "Edit the configurations to create new models of the flocculator. Some models may fail because the constraints can't all be met. Send us `feedback to share how you are using the flocculator HV model, to give us suggestions for how to make these models easier to use, and to <https://forms.gle/cqDPapYkcSmLnDu4A>`_ |reportabug|."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:0
+msgid "reportabug"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:45
+msgid "Flocculator HV configuration parameters."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Configuration"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Flow (L/s)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The maximum flow rate sets the size of the flocculator. Vary it to see how the dimensions change."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Minimum temperature (˚C)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The water viscosity increases for low temperatures and thus more energy is required (greater head loss) to achieve the same total fluid deformation."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Channel length (m)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The inside length of the flocculator that enables fitting the flocculator next to the clarifier to make a compact plant layout. Specify a long channel length to create a flocculator with a single channel."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Water depth at exit (m)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The flocculator is built on the same slab as the clarifier and the elevation of the water leaving the flocculator must match the water level at the entrance of the clarifier."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Collision potential (Gt)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The collision potential is created by the total fluid deformation in the flocculator."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "Velocity gradient (1/s)"
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:1
+msgid "The velocity gradient influences the size of the flocs leaving the flocculator. High velocity gradients all require more energy input (more head loss)."
+msgstr ""
+
+#: ../../AIDE/About/FlocHV.rst:63
+msgid "Additional information is available in the chapter on :ref:`title_Flocculation_Design`."
+msgstr ""

@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:12
+msgid "Plant Hydraulics"
+msgstr "Hidráulica de plantas"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:14
+msgid "Pipes that carry the plant flow rate are used for:"
+msgstr "Las tuberías que transportan la planta caudal se utilizan para:"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:16
+msgid "source water from the surface water"
+msgstr "Fuente de agua a partir de las aguas superficiales"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:17
+msgid ""
+"linear flow orifice meter and connecting pipe from the entrance tank to the "
+"flocculator"
+msgstr ""
+"Medidor de orificio de flujo lineal y tubería de conexión desde el tanque de"
+" entrada hasta el floculador"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:18
+msgid ""
+"bypass the plant taking the water from the entrance tank (by moving the "
+"linear flow orifice meter to the bypass socket) to the filter outlet tank "
+"where it is chlorinated"
+msgstr ""
+"evita la planta que lleva el agua desde la tanque de entrada (moviendo el "
+"orificio lineal del orificio al enchufe de derivación) hasta el tanque de "
+"salida del filtro, donde se clora"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:19
+msgid "clarified water to filters"
+msgstr "agua clarificada a los filtros"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:20
+msgid "recycle backwash water to the entrance tank"
+msgstr "Recicla el agua de retrolavado al tanque de entrada"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:21
+msgid "filtered water to distribution tank"
+msgstr "agua filtrada al tanque de distribución"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:23
+msgid ""
+"Minor losses dominate the head loss in most pipes in a water treatment "
+"plant. An exception is the dosing tubes that are specifically designed to "
+"have major losses dominate. We can solve the minor loss Equation, "
+":eq:`minor_loss` for the maximum velocity in a pipe given a constraint of "
+"head loss and the sum of the minor loss coefficients."
+msgstr ""
+"Las pérdidas menores dominan la pérdida de carga en la mayoría de las "
+"tuberías de una planta tratamiento de agua . Una excepción son los tubos de "
+"dosificación que están diseñados específicamente para que dominen las "
+"pérdidas mayores. Podemos resolver la ecuación de pérdidas menores, "
+":eq:`minor_loss` para la velocidad máxima en una tubería dada una "
+"restricción de pérdida de carga y la suma de los coeficientes de pérdida "
+"menor."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:25
+msgid "\\bar v_{max}^2 = \\sqrt{\\frac{2gh_{e_{max}}}{K_e}}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:30
+msgid ""
+"This calculations for the maximum velocities for different sections of the "
+"plant piping are in the `PipeMap Onshape document "
+"<https://cad.onshape.com/documents/feb8f8b15585d57ecb0091f2/w/11145594f45115d4e255d7ae/e/b3519c65bc0794966e96cb8e>`_."
+msgstr ""
+"Estos cálculos para las velocidades máximas en diferentes secciones de la "
+"tubería de la planta se encuentran en el documento `PipeMap Onshape "
+"<https://cad.onshape.com/documents/feb8f8b15585d57ecb0091f2/w/11145594f45115d4e255d7ae/e/b3519c65bc0794966e96cb8e>`_."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:32
+msgid ""
+"Kawamura :cite:`plantHydraulics-kawamura2000integrated` recommends maximum "
+"velocities of about 2 m/s except where floc breakup is a concern. He also "
+"recommends that the plant hydraulics be designed to handle 1.2 to 1.5 of the"
+" plant design flow rate. If we use the less conservative factor we obtain a "
+"maximum plant pipe velocity of 1.7 m/s."
+msgstr ""
+"Kawamura :cite:`plantHydraulics-kawamura2000integrated` recomienda "
+"velocidades máximas de unos 2 m/s, salvo cuando la ruptura de flócs sea un "
+"problema. También recomienda que la hidráulica de la planta esté diseñada "
+"para soportar entre 1,2 y 1,5 de los caudal de diseño de la planta. Si "
+"usamos el factor menos conservador, obtenemos una velocidad máxima de "
+"tubería de 1,7 m/s."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:34
+msgid ""
+"The bypass line requires a careful design because the elevation difference "
+"is slightly greater than 1 m and contains an entrance (K = 0.5), 6 elbows (K"
+" = 0.9), and an exit (K = 1). The minor loss equation gives a maximum "
+"velocity of 1.7 m/s without any additional safety factor."
+msgstr ""
+"La línea de circunvalación requiere un diseño cuidadoso porque la diferencia"
+" de elevación es ligeramente mayor que 1 m y contiene una entrada (K = 0,5),"
+" 6 codos (K = 0,9) y una salida (K = 1). La ecuación de pérdida menor da una"
+" velocidad máxima de 1,7 m/s sin ningún factor de seguridad adicional."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:36
+msgid ""
+"The linear flow orifice (LFOM) is sized based on a maximum velocity of "
+"Equation :eq:`LFOM_V_max`. For the AguaClara standard LFOM head loss of 20 "
+"cm the maximum velocity is 0.84 m/s. With a safety factor of 1.2 this "
+"results in a maximum velocity of 0.7 m/s. Thus the LFOM requires a larger "
+"diameter pipe than the plant bypass line. Given the high cost of switching "
+"to larger pipes and fittings it is worth designing for the precise bypass "
+"line requirements rather than simple using the LFOM diameter for other "
+"pipes."
+msgstr ""
+"El orificio de flujo lineal (LFOM) se dimensiona en función de una velocidad"
+" máxima de la ecuación :eq:`LFOM_V_max`. Para el pérdida de carga estándar "
+"LFOM de AguaClara de 20 cm, la velocidad máxima es de 0,84 m/s. Con un "
+"factor de seguridad de 1,2, esto da lugar a una velocidad máxima de 0,7 m/s."
+" Por tanto, el LFOM requiere una tubería de mayor diámetro que la línea de "
+"derivación de la planta. Dado el alto coste de cambiar a tuberías y "
+"accesorios más grandes, merece la pena diseñar para los requisitos precisos "
+"de la línea de derivación en lugar de simplemente usar el diámetro del LFOM "
+"para otras tuberías."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:38
+msgid ""
+"The plant bypass line, backwash recycle line and source water pipes will all"
+" be designed using the bypass line nominal diameter. The bypass line will be"
+" designed based on the minor losses of the entrance, elbows, and exit as "
+"well as the total elevation difference between the entrance tank and the "
+"filter outlet tank."
+msgstr ""
+"La línea de derivación de la planta, la línea de reciclaje de retrolavado y "
+"las tuberías de agua fuente se diseñarán todas utilizando el diámetro "
+"nominal de la línea de derivación. La línea de derivación se diseñará en "
+"función de las pequeñas pérdidas de la entrada, los codos y la salida, así "
+"como en la diferencia total de elevación entre el depósito de tanque de "
+"entrada y el depósito de salida del filtro."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:40
+msgid ""
+"Pipes used to connect the clarifier to the filter need to be designed in "
+"context because the head loss directly influences the overall plant head "
+"loss and hence the height of the building. In that case the head loss should"
+" be limited to about 0.1 m. The velocity will be limited based on the number"
+" of elbows required. As plant flow rates increase the clarified pipe will "
+"quickly reach the maximum pipe diameter that the implementation partner is "
+"willing to install. In that case the options are to use multiple pipes or "
+"switch to open channel flow."
+msgstr ""
+"Las tuberías utilizadas para conectar el clarificador al filtro deben "
+"diseñarse en contexto porque el pérdida de carga influye directamente en la "
+"pérdida de carga general de la planta y, por tanto, en la altura del "
+"edificio. En ese caso, la pérdida de carga debe limitarse a unos 0,1 m. La "
+"velocidad estará limitada en función del número de codos necesarios. A "
+"medida que aumentan los caudales de la planta, la tubería clarificada "
+"alcanzará rápidamente el diámetro máximo que el socio de implementación esté"
+" dispuesto a instalar. En ese caso, las opciones son usar varias tuberías o "
+"cambiar a flujo de canal abierto."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:42
+msgid "The chemical pipes have three sections with different constraints."
+msgstr "Las tuberías químicas tienen tres secciones con diferentes restricciones."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:46
+msgid "Design constraints for the chemical feed piping."
+msgstr "Restricciones de diseño para las tuberías de alimentación química."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "Location"
+msgstr "Ubicación"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "Constraint"
+msgstr "Limitaciones"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "maximum velocity"
+msgstr "Velocidad máxima"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "stock tanks to float valves"
+msgstr "de los depósitos de stock a las válvulas de flotador"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "low head loss so that chem platform doesn't need to be raised significantly"
+msgstr ""
+"Bajo pérdida de carga para que la plataforma química no tenga que subirse "
+"significativamente"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "constant level tank through dosing tubes and to doser"
+msgstr "nivel constante tanque a través de tubos de dosificación y al dosificador"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "low head loss compared with dosing tube head loss"
+msgstr "Bajo pérdida de carga comparado con el tubo de dosificación pérdida de carga"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "drop tube to flexible tubing"
+msgstr "tubo de caída a tubo flexible"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "tube must contain air to the elevation where full pipe flow begins"
+msgstr ""
+"El tubo debe contener aire hasta la elevación donde comienza el flujo "
+"completo de la tubería"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing"
+msgstr "Tubería flexible"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "small head loss compared with the hydraulic safety factor (10 cm)"
+msgstr ""
+"Pequeño pérdida de carga comparado con el factor de seguridad hidráulico (10"
+" cm)"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing to injection point (coagulant)"
+msgstr "Tubo flexible al punto de inyección (coagulante)"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
+msgid "flexible tubing to drip point (chlorine)"
+msgstr "Tubo flexible hasta punto de goteo (cloro)"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:59
+msgid "Stock tanks to float valves"
+msgstr "Depósitos de stock a válvulas de flotador"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:64
+msgid "Constant level tank through dosing tubes and to the doser"
+msgstr "nivel constante tanque a través de tubos de dosificación y al dosificador"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:66
+#, python-format
+msgid ""
+"Any loses that scale with the velocity squared must be minimized in this "
+"section of tubing. The minor losses should be less than about 5% of the 20 "
+"cm doser tube head loss (1 cm of head loss). There are about 6 elbows in "
+"this trajectory and this sets the maximum velocity in this section of piping"
+" to 0.14 m/s."
+msgstr ""
+"Cualquier pérdida que escale con la velocidad al cuadrado debe minimizarse "
+"en esta sección de tubos. Las pérdidas menores deben ser menores que "
+"aproximadamente el 5% de la pérdida de carga de tubo dosificador de 20 cm (1"
+" cm de pérdida de carga). Hay unos 6 codos en esta trayectoria y esto "
+"establece la velocidad máxima en esta sección de tubería en 0,14 m/s."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:69
+msgid "Drop tube to flexible tubing"
+msgstr "Tubo de caída a tubo flexible"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:71
+msgid ""
+"The flow transitions from full pipe flow to open channel flow in the "
+"horizontal pipe leading to the drop tube. The vertical (or almost vertical) "
+"drop tube has supercritical open channel flow. In supercritical flow "
+"downstream conditions have no influence on the flow. An example of "
+"supercritical flow is flow down a spillway from a dam. The supercritical "
+"flow prevents the water level at the injection point for the coagulant from "
+"having any influence on the coagulant flow rate that is controlled by the "
+"head loss through the dosing tubes. The chemical will have the lowest "
+"vertical velocity at the point where it transitions from horizontal to "
+"vertical flow. The open channel flow condition must begin at the end of the "
+"horizontal section."
+msgstr ""
+"El flujo pasa de flujo completo en tubería a flujo abierto en la tubería "
+"horizontal que conduce al tubo de caída. El tubo de caída vertical (o casi "
+"vertical) tiene flujo abierto supercrítico. En condiciones de flujo "
+"supercrítico aguas abajo no influyen en el flujo. Un ejemplo de flujo "
+"supercrítico es el flujo descendiendo por un vertedero desde una presa. El "
+"flujo supercrítico impide que el nivel del agua en el punto de inyección del"
+" coagulante tenga alguna influencia sobre el caudal coagulante que controla "
+"el pérdida de carga a través de los tubos dosificadores. El químico tendrá "
+"la menor velocidad vertical en el punto donde transita de flujo horizontal a"
+" vertical. La condición de flujo de canal abierto debe comenzar al final de "
+"la sección horizontal."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:73
+#, python-format
+msgid ""
+"We can specify that the chemical depth at the end of the horizontal section "
+"should not exceed 50% of the pipe diameter. The flow at the transition from "
+"the horizontal to vertical pipe is critical flow. The equation for critical "
+"flow for an arbitrary channel cross section is given by:"
+msgstr ""
+"Podemos especificar que la profundidad química al final de la sección "
+"horizontal no debe superar el 50% del diámetro de la tubería. El flujo en la"
+" transición de la tubería horizontal a la vertical es flujo crítico. La "
+"ecuación para el flujo crítico para una sección transversal arbitraria del "
+"canal está dada por:"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:75
+msgid "Fr^2 = \\frac{Q^2 T}{gA^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:80
+msgid ""
+"where Fr is the Froude number, Q is the flow rate, T is the top width of the"
+" fluid surface, g is the acceleration due to gravity, and A is the cross "
+"sectional area of the flow. The Froude number has a value of 1 for critical "
+"flow. We can apply the constraint that the horizontal pipe be half full at "
+"the transition to the vertical pipe and replace the flow rate with velocity "
+"times area to obtain:"
+msgstr ""
+"donde Fr es el número de Froude, Q es el caudal, T es el ancho superior de "
+"la superficie del fluido, g es la aceleración debida a la gravedad y A es el"
+" área de la sección transversal del flujo. El número de Froude tiene un "
+"valor de 1 para el flujo crítico. Podemos aplicar la restricción de que la "
+"tubería horizontal esté medio llena en la transición a la tubería vertical y"
+" reemplazar la caudal por velocidad por área para obtener:"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:82
+msgid "1 = \\frac{V^2 A^2 D}{g A^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:87
+msgid ""
+"The area, A, in Equation :eq:`criticalFlow1` is half of the pipe cross "
+"sectional area, :math:`\\frac{\\pi D^2}{8}`."
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:89
+msgid "1 = \\frac{8 V^2 D}{g \\pi D^2}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:94
+msgid ""
+"Equation :eq:`criticalFlow2` can be solved for the maximum fluid velocity in"
+" half full pipe."
+msgstr ""
+"La ecuación :eq:`criticalFlow2` puede resolverse para obtener la velocidad "
+"máxima del fluido en medio tubo lleno."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:96
+msgid "V_{max_{halfPipe}} = \\frac{\\sqrt{2\\pi g D}}{4}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:101
+msgid ""
+"For design purposes we want a constraint on the maximum velocity over the "
+"entire pipe. The entire pipe has twice the area and thus the maximum "
+"velocity over the entire pipe is half of the value in Equation "
+":eq:`V_max_halfPipe`."
+msgstr ""
+"Para fines de diseño queremos una restricción sobre la velocidad máxima a lo"
+" largo de toda la tubería. La tubería entera tiene el doble de área y, por "
+"tanto, la velocidad máxima sobre toda la tubería es la mitad del valor de la"
+" Ecuación :eq:`V_max_halfPipe`."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:103
+msgid "V_{max_{dropTube}} =  \\frac{\\sqrt{2\\pi g D}}{8}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:109
+msgid ""
+"Try again using flow as the parameter. The flow area, A, is 1/2 of the pipe "
+"cross sectional area when T is the diameter."
+msgstr ""
+"Intenta de nuevo usando el flujo como parámetro. El área de flujo, A, es 1/2"
+" del área de la sección transversal de la tubería cuando T es el diámetro."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:111
+msgid "1 = \\frac{Q^2 D}{g\\left(\\frac{\\pi D^2}{8}\\right)^3}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:116
+msgid "Now solve for D."
+msgstr "Ahora resuelve para D."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:118
+msgid ""
+"D = \\left[\\frac{Q^2}{g "
+"}\\left(\\frac{8}{\\pi}\\right)^3\\right]^\\frac{1}{5}"
+msgstr ""
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:123
+msgid ""
+"The critical flow constraint is less severe than the constant level tank to "
+"the doser. To minimize the number of different sizes of piping that are used"
+" the drop tube will have the same diameter as the pipes leaving the constant"
+" level tank."
+msgstr ""
+"La restricción crítica de flujo es menos severa que la del tanque nivel "
+"constante al doser. Para minimizar el número de tamaños diferentes de "
+"tuberías utilizadas, el tubo de caída tendrá el mismo diámetro que las "
+"tuberías que salen del tanque nivel constante ."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:126
+msgid "Flexible tubing"
+msgstr "Tubería flexible"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:127
+msgid ""
+"All designed to have less than 1 cm of minor losses so the same tubing can "
+"be used both entering and exiting the doser."
+msgstr ""
+"Todos diseñados para tener menos de 1 cm de pérdidas menores, de modo que el"
+" mismo tubo pueda usarse tanto al entrar como al salir del dosificador."
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:130
+msgid "Doser to injection point (coagulant)"
+msgstr "Doser al punto de inyección (coagulante)"
+
+#: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:133
+msgid "Doser to drip point (chlorine)"
+msgstr "Doser al punto de goteo (cloro)"
+

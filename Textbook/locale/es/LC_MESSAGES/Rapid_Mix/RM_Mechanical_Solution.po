@@ -1,0 +1,950 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:11
+msgid "Rapid Mix Mechanical Solution"
+msgstr "mezcla rápida Solución Mecánica"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:13
+msgid ""
+"The Numpy command, fortunately, understands how to do matrix/array "
+"operations index by index. So if you have two length 5 arrays that you want "
+"to multiply index by index, you can simply multiply them! This will allow "
+"you to focus more on the rest of the code rather than frustrating indexing "
+"errors."
+msgstr ""
+"El comando Numpy, afortunadamente, entiende cómo hacer operaciones "
+"matriz/array índice por índice. Así que si tienes dos arrays de longitud 5 "
+"que quieres multiplicar por índice, simplemente puedes multiplicarlos. Esto "
+"te permitirá centrarte más en el resto del código en lugar de frustrar "
+"errores de indexación."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:15
+msgid "``array3 = array1*array2``"
+msgstr "``array3 = array1*array2``"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:17
+msgid "This is more elegant and easier to troubleshoot than:"
+msgstr "Esto es más elegante y fácil de solucionar que:"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:19
+msgid ""
+"``array3 = np.empty_like(array1) for i in range (0,len(array1)): array3[i] ="
+" array1[i]*array2[i]``"
+msgstr ""
+"``array3 = np.empty_like(array1) for i in range (0,len(array1)): array3[i] ="
+" array1[i]*array2[i]``"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:21
+msgid ""
+"Numpy can handle addition, subtraction, multiplication, and division between"
+" arrays."
+msgstr ""
+"Numpy puede manejar sumas, restas, multiplicaciones y divisiones entre "
+"arrays."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:24
+msgid ""
+"This design challenge contains two parts: - In the first section, we will "
+"explore the energy requirements and operating costs for conventional "
+"mechanized rapid mix. This provides an opportunity to learn about the "
+"consequences of failing to design for sustainability. Rapid mix is both "
+"poorly understood and potentially very important in determining the "
+"successful operation of a water treatment plant. - In the second section, we"
+" will explore the energy dissipation rate in a free jet."
+msgstr ""
+"Este reto de diseño consta de dos partes: - En la primera sección, "
+"exploraremos los requisitos energéticos y los costes operativos para mezcla "
+"rápida mecanizada convencional. Esto ofrece la oportunidad de aprender sobre"
+" las consecuencias de no diseñar para garantizar la sostenibilidad. mezcla "
+"rápida es tanto poco comprendida como potencialmente muy importante para "
+"determinar el funcionamiento exitoso de una planta tratamiento de agua . - "
+"En la segunda sección, exploraremos la tasa de disipación de energía en un "
+"chorro libre."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:27
+msgid "Part 1: Temperature effects, energy use, and operating costs"
+msgstr "Parte 1: Efectos de la temperatura, consumo de energía y costes operativos"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:29
+msgid ""
+"**1) Create a graph** of the kinematic viscosity of water as a function of "
+"temperature. Use the ``pc.viscosity_kinematic`` function."
+msgstr ""
+"**1) Crear un gráfico** de la viscosidad cinemática del agua en función de "
+"la temperatura. Utilizar la función ``pc.viscosity_kinematic`` ."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:31
+msgid ""
+"Create an array of temperatures (0 to 35) using ``np.linspace`` to create a "
+"dimensionless array. Then, attach appropriate temperature dimensions to the "
+"array by multiplying by the units. You can do this in one line!"
+msgstr ""
+"Crea un array de temperaturas (0 a 35) usando ``np.linspace`` para crear un "
+"array adimensional. Luego, adjunta las dimensiones de temperatura adecuadas "
+"al array multiplicando por las unidades. ¡Puedes hacerlo en una línea!"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:32
+msgid ""
+"Pass the entire array of temperatures to the kinematic viscosity function in"
+" aguaclara.core.pc to obtain an array of corresponding viscosities."
+msgstr ""
+"Pasa todo el array de temperaturas a la función de viscosidad cinemática en "
+"aguaclara.core.pc para obtener un array de viscosidades correspondientes."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:33
+msgid "Plot viscosity (mm^2/s) as a function of temperature (Celsius)."
+msgstr "Grafica la viscosidad (mm^2/s) en función de la temperatura (Celsius)."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:35
+msgid ""
+"`Colab worksheet plotting viscosity as a function temperature "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=KrQbKPFS9Trz&line=1&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab que grafica la viscosidad como función temperatura"
+" "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=KrQbKPFS9Trz&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:45
+msgid "Kinematic viscosity of water as a function of temperature"
+msgstr "Viscosidad cinemática del agua en función de la temperatura"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:45
+msgid ""
+"Kinematic viscosity decreases rapidly with temperature. This will influence "
+"the amount of fluid deformation obtained given an input of energy. It will "
+"also influence the flow rate in the AguaClara chemical dosing system."
+msgstr ""
+"La viscosidad cinemática disminuye rápidamente con la temperatura. Esto "
+"influirá en la cantidad de deformación del fluido obtenida dada una entrada "
+"de energía. También influirá en la caudal en el sistema de dosificación de "
+"químicos de AguaClara."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:48
+msgid ""
+"We will design a mechanized rapid mix unit and then analyze the energy costs"
+" of mixing for a conventional water treatment plant. Below is a table of "
+"conventional design parameters."
+msgstr ""
+"Diseñaremos una unidad de mezcla rápida mecanizada y luego analizaremos los "
+"costes energéticos de la mezcla para una planta de tratamiento de agua "
+"convencional. A continuación se muestra una tabla de parámetros de diseño "
+"convencionales."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:51
+msgid "Residence Time (s)"
+msgstr "Tiempo de residencia"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:51
+msgid "Velocity Gradient (G) (1/s)"
+msgstr "Gradiente de velocidad (G) (1/s)"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:51
+msgid "Equivalent Height (m)"
+msgstr "Altura equivalente (m)"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:53
+msgid "0.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:53
+msgid "4000"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:53
+msgid "0.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:55
+msgid "10 - 20"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:55
+msgid "1500"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:55
+msgid "2.3 - 4.6"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:57
+msgid "20 - 30"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:57
+msgid "950"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:57
+msgid "1.8 - 2.8"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:59
+msgid "30 - 40"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:59
+msgid "850"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:59
+msgid "2.2 - 2.9"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:61
+msgid "40 - 130"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:61
+msgid "750"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:61
+msgid "2.3 - 7.5"
+msgstr ""
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:64
+msgid ""
+"**2) Define a function** for the power required to run a rapid mix unit. The"
+" rapid mix shaft power function should have flow, velocity gradient, "
+"residence time (which can be described with t or :math:`\\theta`, as in the "
+"equation below), and temperature as its only inputs."
+msgstr ""
+"**2) Definir una función** para la potencia necesaria para hacer funcionar "
+"una unidad de mezcla rápida . La función de potencia del eje mezcla rápida "
+"debe tener flujo, gradiente de velocidad, tiempo de residencia (que puede "
+"describirse con t o :math:`\\theta`, como en la ecuación siguiente) y "
+"temperatura como únicas entradas."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:66
+msgid ""
+"P = G^2Q \\theta \\nu \\rho\n"
+"\n"
+msgstr ""
+"P = G^2Q \\theta \\nu \\rho\n"
+"\n"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:68
+msgid ""
+"Using your function, plot the shaft power (kW) required for a conventional "
+"rapid mix unit that has a residence time of t = 15s, a velocity gradient of "
+"G = 1500/s, and a flow rate of 50 L/s as a function of temperature "
+"(Celsius)."
+msgstr ""
+"Usando tu función, grafica la potencia del eje (kW) requerida para una "
+"unidad de mezcla rápida convencional que tenga un tiempo de residencia de t "
+"= 15s, un gradiente de velocidad de G = 1500/s y una caudal de 50 L/s en "
+"función de la temperatura (Celsius)."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:71
+msgid ""
+"<Colab worksheet to plot the shaft power "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=o25pKAfQ9dPu&line=2&uniqifier=1>`_"
+msgstr ""
+"<Colab worksheet to plot the shaft power "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=o25pKAfQ9dPu&line=2&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:80
+msgid "Rapid Mix shaft power"
+msgstr "mezcla rápida potencia del eje"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:80
+msgid ""
+"Rapid mix shaft power required as a function of temperature. Significantly "
+"more power is required at low temperatures to overcome the effects of "
+"viscosity. This does assume that the goal for rapid mix is to achieve a "
+"target"
+msgstr ""
+"mezcla rápida potencia del eje requerida en función de la temperatura. Se "
+"requiere mucha más potencia a bajas temperaturas para superar los efectos de"
+" la viscosidad. Esto asume que el objetivo para mezcla rápida es alcanzar un"
+" objetivo"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:82
+msgid ""
+"**3) Calculate the shaft power.** How would the shaft power for a "
+"conventional design be selected? You must consider the fact that temperature"
+" changes throughout the year, and temperature impacts the shaft power "
+"requirements as defined in your function above. Presumably, you should use "
+"the lowest water temperature that you expect to have to treat to make your "
+"design because low temperatures require the highest shaft power input (as "
+"shown in your graph above) and we want to design for the most conservative "
+"option."
+msgstr ""
+"**3) Calcular la potencia del eje.** ¿Cómo se seleccionaría la potencia del "
+"eje para un diseño convencional? Debes tener en cuenta que la temperatura "
+"cambia a lo largo del año, y la temperatura afecta a los requisitos de "
+"potencia del eje según se define en tu función anterior. Presumiblemente, "
+"deberías usar la temperatura del agua más baja que esperas tener que tratar "
+"para hacer tu diseño porque las bajas temperaturas requieren la mayor "
+"potencia de entrada del eje (como se muestra en tu gráfico anterior) y "
+"queremos diseñar la opción más conservadora."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:84
+msgid ""
+"Imagine you are designing a rapid mix unit for a water treatment plant in "
+"upstate NY. Water freezes in the winter, so the power requirements to run a "
+"rapid mix must be based on TempDesign = 0 °C."
+msgstr ""
+"Imagina que estás diseñando una unidad de mezcla rápida para una planta de "
+"tratamiento de agua en el norte del estado de Nueva York. El agua se congela"
+" en invierno, así que los requisitos de energía para hacer funcionar un "
+"mezcla rápida deben basarse en TempDesign = 0 °C."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:86
+msgid ""
+"What is the required shaft power **in horsepower** for your water treatment "
+"plant in upstate NY? Calculate the shaft power using the design temperature,"
+" and take other necessary parameters from Problem 2."
+msgstr ""
+"¿Cuál es la potencia requerida **en caballos de potencia** para tu planta de"
+" tratamiento de agua en el norte del estado de Nueva York? Calcula la "
+"potencia del eje usando la temperatura de diseño y toma otros parámetros "
+"necesarios del Problema 2."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:88
+msgid ""
+"You can `find pint’s unit registry here. "
+"<https://github.com/hgrecco/pint/blob/c5925bfdab09c75a26bb70cd29fb3d34eed56a5f/pint/default_en_0.6.txt>`__."
+" We recommend bookmarking this page!"
+msgstr ""
+"`puedes encontrar aquí el registro de la unidad de Pint. "
+"<https://github.com/hgrecco/pint/blob/c5925bfdab09c75a26bb70cd29fb3d34eed56a5f/pint/default_en_0.6.txt>`__."
+" ¡Recomendamos guardar esta página en favoritos!"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:91
+msgid ""
+"`Colab worksheet calculating the required power "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=IAoPyhsK9tRB&line=3&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando la potencia requerida "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=IAoPyhsK9tRB&line=3&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:93
+msgid "The required shaft power is 4.0 hp."
+msgstr "La potencia requerida en el eje es de 4,0 CV."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:95
+#, python-format
+msgid ""
+"**4) Find the equivalent height** in meters that this much shaft power could"
+" elevate the water in a pump, assuming the pump is 100% efficient? "
+"Dimensional analysis of units is useful for this question. How do you get "
+"from units of power to units of length, and what constants will get you "
+"there?"
+msgstr ""
+"**4) ¿Encontrar la altura equivalente** en metros a la que esta potencia de "
+"eje podría elevar el agua en una bomba, suponiendo que la bomba sea 100% "
+"eficiente? El análisis dimensional de unidades es útil para esta pregunta. "
+"¿Cómo se pasa de unidades de potencia a unidades de longitud y qué "
+"constantes te llevarán hasta allí?"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:97
+#, python-format
+msgid ""
+"You may assume 100% efficiency in conversion of shaft power to increased "
+"potential energy. For comparison, the difference in water level between the "
+"entrance tank and flocculator for an AguaClara plant is less than 40 cm, and"
+" 20 cm of that elevation drop is used for flow measurement in the LFOM."
+msgstr ""
+"Se puede asumir una eficiencia del 100% en la conversión de la potencia del "
+"eje a energía potencial aumentada. Para comparar, la diferencia de nivel del"
+" agua entre el tanque de entrada y el floculador en una planta AguaClara es "
+"inferior a 40 cm, y 20 cm de esa caída de elevación se utilizan para la "
+"medición de caudal en el LFOM."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:99
+msgid ""
+"`Colab worksheet calculating the equivalent height "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=iccuk41t91Fz&line=1&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando la altura equivalente "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=iccuk41t91Fz&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:101
+msgid "The equivalent height is 6.034 m"
+msgstr "La altura equivalente es de 6,034 m"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:103
+msgid ""
+"**5a) Select a motor** that can provide the required shaft power, as "
+"calculated in Problem 3."
+msgstr ""
+"**5a) Seleccionar un motor** que pueda proporcionar la potencia requerida al"
+" eje, según se calcula en el Problema 3."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:105
+msgid ""
+"First, bring in the ``motor_efficiency.xlsx`` file provided for this design "
+"challenge. You imported a similar file in Problem 13 of DC Python Tutorial "
+"2, but this time you will use ``pd.read_excel('filename.xlsx')`` since the "
+"file is .xlsx instead of .csv."
+msgstr ""
+"Primero, trae el archivo ``motor_efficiency.xlsx`` proporcionado para este "
+"reto de diseño. Importaste un archivo similar en el Problema 13 del Tutorial"
+" 2 de DC Python, pero esta vez usarás ``pd.read_excel('filename.xlsx')`` "
+"porque el archivo es .xlsx en lugar de .csv."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:106
+msgid "Display the extracted excel data, ``motor_efficiency.xlsx``."
+msgstr "Muestra los datos extraídos de Excel, ``motor_efficiency.xlsx``."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:107
+msgid ""
+"Extract the column of available horsepower and the column of premium "
+"efficiencies from the excel file and place them within their own 1D numpy "
+"arrays."
+msgstr ""
+"Extrae la columna de caballos de potencia disponible y la columna de "
+"eficiencias premium del archivo Excel y colócalas dentro de sus propios "
+"arreglos numpy 1D."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:108
+msgid "Apply appropriate units to the two extracted numpy arrays."
+msgstr "Aplicar las unidades apropiadas a los dos arreglos numpy extraídos."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:110
+msgid ""
+"**NOTE:** The variable to which you assign the extracted excel document is a"
+" special type of data structure called a `dataframe "
+"<https://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe>`__. "
+"You can call a column of data from a dataframe by ‘indexing’ by the columns "
+"title in the original file, like ``dataframe['Horsepower']``. Make sure the "
+"column header is input as a string!"
+msgstr ""
+"**NOTA:** La variable a la que asignas el documento de Excel extraído es un "
+"tipo especial de estructura de datos llamada `dataframe "
+"<https://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe>`__. "
+"Puedes llamar a una columna de datos desde un dataframe 'indexando' por el "
+"título de la columna en el archivo original, como "
+"``dataframe['Horsepower']``. ¡Asegúrate de que la cabecera de columna se "
+"introduce como cadena!"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:112
+msgid ""
+"`Colab worksheet creating the correct array "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo"
+"=nhp0DVic-B3K&line=8&uniqifier=1>`_"
+msgstr ""
+"`hoja de trabajo de Colab creando el array correcto "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo"
+"=nhp0DVic-B3K&line=8&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:115
+msgid ""
+"**5b) Find a motor that is large enough to drive the rapid mix impeller.** "
+"It is common in engineering design to have target design value that must be "
+"rounded up to the next available manufactured value. In the Flow Control and"
+" Measurement Design Challenge, we used this method to take a minimum pipe "
+"size required to deliver a target flow rate and then we rounded up to the "
+"nearest commonly available pipe size. We wrote a function, ``ceil_nearest`` "
+"in aguaclara.core.utility, that we used to select pipe sizes. Use that "
+"function to find a motor that is large enough to drive the rapid mix "
+"impeller (`What’s an impeller? "
+"<https://en.wikipedia.org/wiki/Impeller#In_pumps>`__)."
+msgstr ""
+"**5b) Encontrar un motor lo suficientemente grande para accionar el mezcla "
+"rápida impulsor.** Es común en el diseño de ingeniería tener un valor "
+"objetivo de diseño que debe redondearse al siguiente valor fabricado "
+"disponible. En el Desafío de Control y Medición de Flujo, usamos este método"
+" para tomar un tamaño mínimo de tubería necesario para entregar un caudal "
+"objetivo y luego redondeamos al tamaño de tubería más cercano comúnmente "
+"disponible. Escribimos una función, ``ceil_nearest`` en "
+"aguaclara.core.utility, que usamos para seleccionar tamaños de tubería. Usa "
+"esa función para encontrar un motor lo suficientemente grande para accionar "
+"el impulsor mezcla rápida (`¿Qué es un impulsor? "
+"<https://en.wikipedia.org/wiki/Impeller#In_pumps>`__)."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:118
+msgid ""
+"`See how the choose the correct motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=UEXCZ31D_hHl&line=1&uniqifier=1>`_"
+msgstr ""
+"`Ver cómo elegir el motor correcto "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=UEXCZ31D_hHl&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:120
+msgid "The rapid mix motor has 5 hp."
+msgstr "El motor mezcla rápida tiene 5 CV."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:123
+msgid "**6) Find the efficiency of this motor.**"
+msgstr "**6) Averigua la eficiencia de este motor.**"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:125
+msgid ""
+"6a) One way to do this is to find the index (row number) of this motor "
+"horsepower in the original dataframe (or in your created array) and then use"
+" that index to find its corresponding efficiency. Use the ``np.where`` "
+"function to find the index of the motor horsepower. The ``where`` function "
+"will return an array, so you will need to use indexes on the returned array "
+"to extract the index of the motor. If you display the returned results, it "
+"will help you figure out how to use indexes to get the desired element."
+msgstr ""
+"6a) Una forma de hacerlo es encontrar el índice (número de fila) de este "
+"motor en el dataframe original (o en tu array creado) y luego usar ese "
+"índice para encontrar su eficiencia correspondiente. Usa la función "
+"``np.where`` para encontrar el índice de la potencia del motor. La función "
+"``where`` devolverá un array, por lo que necesitarás usar índices en el "
+"array retornado para extraer el índice del motor. Si muestras los resultados"
+" devueltos, te ayudará a averiguar cómo usar los índices para obtener el "
+"elemento deseado."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:127
+msgid ""
+"The input in ``np.where(input)`` is ‘number you’re looking to match == array"
+" you’re looking to match it to’. Example: ``np.where(variable == array)``"
+msgstr ""
+"La entrada en ``np.where(input)`` es 'número que buscas emparejar == array "
+"al que quieres emparejarlo'. Ejemplo: ``np.where(variable == array)``"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:130
+msgid ""
+"It is likely you will get the following output: ``(array([8], "
+"dtype=int64),)``"
+msgstr "Es probable que obtengas la siguiente salida: ``(array([8], dtype=int64),)``"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:133
+msgid ""
+"How to make sense of this? The parentheses around the entire output specify "
+"an array (note the comma before the final parentheses, specifying a blank "
+"second index). So you can index with square brackets to call the value "
+"within the array (Perhaps try index 0?). You should then get another array. "
+"How do you extract the value within this new array?"
+msgstr ""
+"¿Cómo entender esto? Los paréntesis alrededor de toda la salida especifican "
+"un array (fíjate en la coma antes de los paréntesis finales, que especifica "
+"un segundo índice en blanco). Así que puedes indexar con corchetes para "
+"llamar al valor dentro del array (¿quizá probar con el índice 0?). Entonces "
+"deberías conseguir otro array. ¿Cómo extraes el valor dentro de este nuevo "
+"array?"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:135
+msgid ""
+"`Find the index of the motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=7bB7njbF_j1y&line=1&uniqifier=1>`_"
+msgstr ""
+"`Encuentra el índice del motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=7bB7njbF_j1y&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:137
+msgid ""
+"6b) You will now use the index of the motor horsepower that you just found "
+"to extract the efficiency of the motor. This can be done by calling the "
+"index on the array of efficiencies you created or by calling on data from "
+"the original dataframe. Dataframes have a method called `get_value "
+"<https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.get_value.html>`__ that can return an"
+" element in a dataframe given a row index and a column heading. This is done"
+" for you as an example."
+msgstr ""
+"6b) Ahora usarás el índice de la potencia del motor que acabas de encontrar "
+"para extraer la eficiencia del motor. Esto se puede hacer llamando al índice"
+" en el array de eficiencias que creaste o invocando datos del dataframe "
+"original. Los dataframes tienen un método llamado `get_value "
+"<https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.get_value.html>`__ que puede devolver"
+" un elemento en un dataframe dado un índice de fila y un encabezado de "
+"columna. Esto se hace para ti como ejemplo."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:139
+msgid ""
+"For this problem, **extract the efficiency of the motor by calling the index"
+" on the array you created in Problem 5a. Return the motor efficiency as a "
+"fraction rather than as a percent**."
+msgstr ""
+"Para este problema, **extrae la eficiencia del motor llamando al índice del "
+"array que creaste en el Problema 5a. Devuelve la eficiencia del motor como "
+"una fracción en lugar de un porcentaje**."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:141
+msgid ""
+"Note: it would have been much easier to simply define a variable and type in"
+" the efficiency. However, if we did that, it would have broken dependency; "
+"the notebook wouldn’t update correctly when you change the flow rate. Our "
+"goal is to create designs that scale correctly when the flow rate is "
+"changed."
+msgstr ""
+"Nota: habría sido mucho más fácil simplemente definir una variable y "
+"escribir la eficiencia. Sin embargo, si hubiéramos hecho eso, se habría roto"
+" la dependencia; el cuaderno no se actualizaría correctamente al cambiar el "
+"caudal. Nuestro objetivo es crear diseños que escalen correctamente cuando "
+"se cambia el caudal ."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:143
+msgid ""
+"`Get the motor efficiency "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=D5Xan45W_oHX&line=1&uniqifier=1>`_"
+msgstr ""
+"`Consigue la eficiencia del motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=D5Xan45W_oHX&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:145
+msgid "The motor efficiency is 0.896."
+msgstr "La eficiencia del motor es de 0,896."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:147
+msgid ""
+"You might think that the rapid mix unit will take less electrical power when"
+" the water is warmer. But that isn’t the case because the Reynolds number "
+"for the rapid mix propeller is quite high and thus the drag coefficient is "
+"independent of Re. This means that the torque required to spin the propeller"
+" doesn’t change as the viscosity of the water changes. It would be possible "
+"to run the propeller slower when the water is warmer because the required "
+"energy dissipation rate is lower, but that would require a variable speed "
+"drive. You could add a variable speed motor controller to take advantage of "
+"this. However, the bigger problem is that we don’t yet have a good model "
+"explaining what rapid mix does."
+msgstr ""
+"Podrías pensar que la unidad mezcla rápida consumirá menos energía eléctrica"
+" cuando el agua está más caliente. Pero no es así porque el número de "
+"Reynolds para la hélice mezcla rápida es bastante alto y, por tanto, el "
+"coeficiente de resistencia es independiente de Re. Esto significa que el par"
+" motor necesario para hacer girar la hélice no cambia a medida que cambia la"
+" viscosidad del agua. Sería posible hacer funcionar la hélice más despacio "
+"cuando el agua está más caliente porque la tasa de disipación de energía "
+"requerida es menor, pero eso requeriría un accionamiento de velocidad "
+"variable. Podrías añadir un controlador de motor de velocidad variable para "
+"aprovechar esto. Sin embargo, el problema mayor es que aún no tenemos un "
+"buen modelo que explique qué hace mezcla rápida ."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:149
+msgid "**7) Find a sufficient motor** and link to its specifications"
+msgstr "**7) Encontrar un motor suficiente** y enlazar a sus especificaciones"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:151
+msgid ""
+"Now, we want to find a 3 phase, 1800 rpm (approximately!) electric motor "
+"that is totally enclosed and fan cooled (TEFC), and that has enough power to"
+" operate your rapid mixer at `McMaster Carr <https://www.mcmaster.com/>`__. "
+"You can find the link to the CAD drawing if you pretend you are going to "
+"select the motor for purchase. This part of the design challenge breaks "
+"dependency."
+msgstr ""
+"Ahora, queremos encontrar un motor eléctrico de 3 fase, 1800 rpm "
+"(aproximadamente!) que esté totalmente cerrado y refrigerado por ventilador "
+"(TEFC), y que tenga suficiente potencia para hacer funcionar tu mezclador "
+"rápido a `McMaster Carr <https://www.mcmaster.com/>`__. Puedes encontrar el "
+"enlace al dibujo CAD si imaginas que vas a seleccionar el motor para "
+"comprar. Esta parte del reto de diseño rompe la dependencia."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:153
+msgid ""
+"Once you find a sufficient motor, **display the CAD drawing of the motor and"
+" create a hyperlink to the motor specifications**."
+msgstr ""
+"Una vez que encuentres un motor suficiente, **muestra el plano CAD del motor"
+" y crea un enlace a las especificaciones del motor**."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:155
+msgid ""
+"Notes: we don’t currently know how to select and link to the correct motor "
+"using python, which is why you need to go to the McMaster Carr website to "
+"find the correct motor. If you know of an easy way to do this, please let us"
+" know!"
+msgstr ""
+"Notas: actualmente no sabemos cómo seleccionar y enlazar al motor correcto "
+"usando Python, por eso necesitas ir a la web de McMaster Carr para encontrar"
+" el motor correcto. Si conoces una forma sencilla de hacerlo, ¡háznoslo "
+"saber!"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:157
+msgid "The motor specifications are given below."
+msgstr "Las especificaciones del motor se muestran a continuación."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:159
+msgid ""
+"The `motor specifications <https://www.mcmaster.com/#5990k314/=19d4hod>`__ "
+"indicate that the efficiency is 89.5% which is very close to the premium "
+"efficiency standard."
+msgstr ""
+"Las especificaciones `del motor "
+"<https://www.mcmaster.com/#5990k314/=19d4hod>`__ indican que la eficiencia "
+"es del 89,5%, muy cerca del estándar de eficiencia premium."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:161
+msgid "**8) Find the cost** of the motor."
+msgstr "**8) Averigua el coste** del motor."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:163
+msgid ""
+"How much does the motor cost? Create a variable showing the cost of the "
+"motor in USD. We have added USD to pint, so you will not find it in the "
+"original registry linked in Problem 3. The abbreviation for US Dollars is "
+"``u.USD``."
+msgstr ""
+"¿Cuánto cuesta el motor? Crea una variable que muestre el coste del motor en"
+" USD. Hemos añadido USD a la pinta, así que no lo encontrarás en el registro"
+" original enlazado en el Problema 3. La abreviatura de dólares "
+"estadounidenses es ``u.USD``."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:165
+msgid ""
+"`Get the cost of the motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=Wyub0oW6BFHt&line=1&uniqifier=1>`_"
+msgstr ""
+"`Obtener el coste del motor "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=Wyub0oW6BFHt&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:167
+msgid "The cost of the motor is 714.6 dollars."
+msgstr "El coste del motor es de 714,6 dólares."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:169
+msgid ""
+"**9) Determine the cost of electricity** to operate the rapid mix unit you "
+"sized for your water treatment plant in NY."
+msgstr ""
+"**9) Determina el coste de la electricidad** para operar la unidad mezcla "
+"rápida que hayas dimensionado para tu planta de tratamiento de agua en Nueva"
+" York."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:171
+msgid ""
+"9a) Find the commercial rate for electricity in NY state at the `U.S. Energy"
+" Administration Website "
+"<https://www.eia.gov/electricity/data/browser/#/topic/7?agg=0,1&geo=0002&endsec=vg&linechart=ELEC.PRICE"
+".NY-ALL.M~ELEC.PRICE.NY-RES.M~ELEC.PRICE.NY-COM.M~ELEC.PRICE.NY-"
+"IND.M~ELEC.PRICE.NY-TRA.M&columnchart=ELEC.PRICE.NY-ALL.M&map=ELEC.PRICE.NY-"
+"ALL.M&freq=M&start=200101&end=201706&chartindexed=0&ctype=linechart&ltype=pin&rtype=s&maptype=0&rse=0&pin=>`__."
+" Download the data file for NY and then import the data file using pandas "
+"(``read_csv``). There are two versions of the csv data file on this page. "
+"The one you should use in this problem is titled "
+"``Average_retail_price_of_electricity_monthly.csv``."
+msgstr ""
+"9a) Encuentra la tarifa comercial de electricidad en el estado de Nueva York"
+" en la página web de la Administración de Energía de EE. UU. "
+"`<https://www.eia.gov/electricity/data/browser/#/topic/7?agg=0,1&geo=0002&endsec=vg&linechart=ELEC.PRICE"
+".NY-ALL.M~ELEC.PRICE.NY-RES.M~ELEC.PRICE.NY-COM.M~ELEC.PRICE.NY-"
+"IND.M~ELEC.PRICE.NY-TRA.M&columnchart=ELEC.PRICE.NY-ALL.M&map=ELEC.PRICE.NY-"
+"ALL.M&freq=M&start=200101&end=201706&chartindexed=0&ctype=linechart&ltype=pin&rtype=s&maptype=0&rse=0&pin=>`__."
+" Descarga el archivo de datos de Nueva York e importala usando pandas "
+"(``read_csv``). En esta página hay dos versiones del archivo de datos csv. "
+"La que deberías usar en este problema se titula "
+"``Average_retail_price_of_electricity_monthly.csv``."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:173
+msgid ""
+"For this step, simply **display the resulting data table showing the most "
+"recent 12 months of electricity costs in NY**."
+msgstr ""
+"Para este paso, simplemente **muestra la tabla de datos resultante que "
+"muestra los últimos 12 meses de costes eléctricos en Nueva York**."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:175
+msgid ""
+"Note that this data file has meta information about the data in the first "
+"rows. You can `delete those rows by setting header = 4 "
+"<https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.read_csv.html>`__ in the function call to the "
+"``pd.read_csv``. You can read exactly one year of data by setting nrows = "
+"12. This will make it easy to calculate the average cost for the past year."
+msgstr ""
+"Ten en cuenta que este archivo de datos contiene metainformación sobre los "
+"datos de las primeras filas. Puedes `eliminar esas filas asignando cabecera "
+"= 4 <https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.read_csv.html>`__ en la función llamada a la "
+"``pd.read_csv``. Puedes leer exactamente un año de datos poniendo nrows = "
+"12. Esto facilitará calcular el coste medio del último año."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:177
+msgid ""
+"`Import the Electricity cost data "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=YkUI7CpyBIkC&line=4&uniqifier=1>`_"
+msgstr ""
+"`Importar los datos de coste eléctrico "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=YkUI7CpyBIkC&line=4&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:179
+msgid ""
+"9b) Calculate the average commercial electricity cost for the most recent 12"
+" months. Include the appropriate units. Don’t forget to correct for the fact"
+" that the prices are given in cents and not dollars."
+msgstr ""
+"9b) Calcular el coste medio de electricidad comercial para los últimos 12 "
+"meses. Incluir las unidades adecuadas. No olvides corregir que los precios "
+"se dan en céntimos y no en dólares."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:181
+msgid ""
+"`Get the New York State energy rate "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=nncam7WwEYcV&line=2&uniqifier=1>`_"
+msgstr ""
+"`Obtener la tarifa energética del Estado de Nueva York "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=nncam7WwEYcV&line=2&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:183
+msgid ""
+"The New York State commercial electricity cost for the past year was 0.14622"
+" USD/kWh."
+msgstr ""
+"El coste de la electricidad comercial del Estado de Nueva York durante el "
+"último año fue de 0,14622 USD/kWh."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:185
+msgid ""
+"9c) I think that we should buy electricity in giga Joules. KiloWatt-hr is "
+"what you get when someone who loves English units decides they don’t like "
+"seconds as the base unit of time that is the standard in the metric system."
+msgstr ""
+"9c) Creo que deberíamos comprar electricidad en gigajulios. KiloVatio-hora "
+"es lo que obtienes cuando alguien que adora las unidades inglesas decide que"
+" no le gustan los segundos como la unidad base de tiempo que es el estándar "
+"en el sistema métrico."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:187
+msgid ""
+"How much would a giga Joule cost for the most recent 12 months? All you have"
+" to do is change the displayed units!"
+msgstr ""
+"¿Cuánto costaría un giga Joule en los últimos 12 meses? ¡Solo tienes que "
+"cambiar las unidades que se exhiben!"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:189
+msgid ""
+"Look through the pint unit registry. To add orders of magnitude (like kilo, "
+"micro, giga, yotta), simply place the appropriate prefix before the usual "
+"unit abbreviation. A yotta-meter is ``u.Ym``, for example, as ‘``Y``’ "
+"represents yotta- in pint."
+msgstr ""
+"Consulta el registro de unidades pint. Para añadir órdenes de magnitud (como"
+" kilo, micro, giga, yotta), simplemente coloca el prefijo adecuado antes de "
+"la abreviatura habitual de unidades. Un yotta-medidor se ``u.Ym``, por "
+"ejemplo, ya que '``Y``' representa yotta- en pint."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:191
+msgid ""
+"`See the unit change "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=boIVOsdOEZcy&line=1&uniqifier=1>`_"
+msgstr ""
+"`Ver el cambio de unidad "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=boIVOsdOEZcy&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:193
+msgid "The price of electricity is 40.62 USD/GJ."
+msgstr "El precio de la electricidad es de 40,62 USD/GJ."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:195
+msgid ""
+"9d) Let’s look back to our design of a rapid mix unit for a water treatment "
+"plant in New York. Estimate the electricity demand \\* **in kilowatts** \\* "
+"for the rapid mix by taking the shaft power required and adjust for the "
+"efficiency of the motor that you have selected. Note that when a motor is "
+"running it does not necessarily operate at full load and hence at full "
+"power. Electric motors maintain their efficiency over a wide range of loads."
+" To calculate the electricity consumption, use the actual shaft power "
+"required by the rapid mix and the motor efficiency. Calculate the electrical"
+" power required by the motor when the water is at its coldest."
+msgstr ""
+"9d) Veamos atrás a nuestro diseño de una unidad de mezcla rápida para una "
+"planta de tratamiento de agua en Nueva York. Estima la demanda eléctrica \\*"
+" **en kilovatios** \\* para la mezcla rápida tomando la potencia del eje "
+"requerida y ajustando la eficiencia del motor que has seleccionado. Ten en "
+"cuenta que cuando un motor está en marcha no necesariamente funciona a plena"
+" carga y, por tanto, a máxima potencia. Los motores eléctricos mantienen su "
+"eficiencia en un amplio rango de cargas. Para calcular el consumo eléctrico,"
+" utiliza la potencia real del eje requerida por el mezcla rápida y la "
+"eficiencia del motor. Calcula la potencia eléctrica requerida por el motor "
+"cuando el agua está en su punto más frío."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:197
+msgid ""
+"`Determine the power required "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=3JdNPmgiEbvG&line=2&uniqifier=1>`_"
+msgstr ""
+"`Determinar la potencia requerida "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=3JdNPmgiEbvG&line=2&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:199
+msgid "The power required by the motor is 3.30 kW."
+msgstr "La potencia requerida por el motor es de 3,30 kW."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:201
+msgid ""
+"`Determine the power in horsepower "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=VFULuIx_EfHm&line=1&uniqifier=1>`_"
+msgstr ""
+"`Determinar la potencia en caballos de fuerza "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=VFULuIx_EfHm&line=1&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:203
+msgid "3.967125458280934 horsepower."
+msgstr "3,967125458280934 caballos de fuerza."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:205
+msgid ""
+"9e) Calculate the annual cost of electricity in dollars required to operate "
+"the rapid mix unit. `Colab worksheet calculating annual electricity cost "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=H62VQXODEjyn&line=2&uniqifier=1>`_"
+msgstr ""
+"9e) Calcular el coste anual de la electricidad en dólares necesarios para "
+"operar la unidad mezcla rápida . `Hoja de cálculo de Colab calculando el "
+"coste anual de la electricidad "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=H62VQXODEjyn&line=2&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:207
+msgid ""
+"The cost of electricity to operate the rapid mix unit is 4232 USD/year per "
+"3.302 kilowatts, or 0.1462 USD/kilowatt_hour."
+msgstr ""
+"El coste de la electricidad para operar la unidad mezcla rápida es de 4232 "
+"USD/año por 3,302 kilovatios, o 0,1462 USD/kilowatt_hour."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:209
+msgid ""
+"9f) What is the total cumulative energy costs for the rapid mix unit over a "
+"period of 25 years? Note that we are not including the projected increase in"
+" electricity costs over the next 25 years. That would be a nice addition to "
+"this analysis that would make the need for energy efficiency all the more "
+"apparent, but we are ignoring that complexity for this problem."
+msgstr ""
+"9f) ¿Cuál es el coste energético acumulado total de la unidad mezcla rápida "
+"durante un periodo de 25 años? Cabe destacar que no estamos incluyendo el "
+"aumento proyectado de los costes eléctricos en los próximos 25 años. Sería "
+"una buena adición a este análisis que haría aún más evidente la necesidad de"
+" eficiencia energética, pero estamos ignorando esa complejidad para este "
+"problema."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:211
+msgid ""
+"`Colab worksheet calculating the cumulative energy cost "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=TFup2VQLEp1K&line=2&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab calculando el coste energético acumulado "
+"<https://colab.research.google.com/drive/1tq6eHiIw47JGIPd4P_16AsewbC5GsEMk#scrollTo=TFup2VQLEp1K&line=2&uniqifier=1>`_"
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:213
+msgid "The cumulative energy costs for a period of 25 years is 105794.0 USD."
+msgstr "El coste energético acumulado para un periodo de 25 años es de 105.794,0 USD."
+
+#: ../../Rapid_Mix/RM_Mechanical_Solution.rst:216
+msgid ""
+"**10) Write a paragraph** describing what you learned from this design "
+"challenge. Include reflections on the temptation to use a standard design, "
+"the low capital cost of energy wasting designs, and the long term "
+"implications of engineering that isn’t guided by a goal of sustainability."
+msgstr ""
+"**10) Escribe un párrafo** describiendo lo que aprendiste de este reto de "
+"diseño. Incluye reflexiones sobre la tentación de usar un diseño estándar, "
+"el bajo coste de capital de los diseños que desperdician energía y las "
+"implicaciones a largo plazo de una ingeniería que no está guiada por un "
+"objetivo de sostenibilidad."
+

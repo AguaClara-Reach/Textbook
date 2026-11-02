@@ -1,0 +1,706 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:12
+msgid "Energy Dissipation Rate, Velocity Gradient, and Mixing"
+msgstr "Tasa de disipación de energía, gradiente de velocidad y mezcla"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:19
+msgid ""
+"In addition to the general fluids review "
+"(:ref:`title_review_fluid_mechanics`), there are a few extra fluid dynamics "
+"concepts that are important to know in order to understand drinking water "
+"treatment and AguaClara’s approach to it. These concepts are primarily "
+"focused on the relationships between:"
+msgstr ""
+"Además de la revisión general de fluidos "
+"(:ref:`title_review_fluid_mechanics`), hay algunos conceptos adicionales de "
+"dinámica de fluidos que es importante conocer para entender el tratamiento "
+"de agua de beber y el enfoque de AguaClara al respecto. Estos conceptos se "
+"centran principalmente en las relaciones entre:"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:15
+msgid "Turbulence"
+msgstr "Turbulencia"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:16
+msgid "Viscosity"
+msgstr "Viscosidad"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:17
+msgid "Shear"
+msgstr "Cizallamiento"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:18
+msgid "Velocity Gradients (:math:`G`),which serve as a measure of fluid deformation"
+msgstr ""
+"Gradientes de velocidad (:math:`G`), que sirven como medida de la "
+"deformación del fluido"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:19
+msgid "Energy Dissipation Rate (EDR, :math:`\\varepsilon`)"
+msgstr "Tasa de Disipación de Energía (EDR, :math:`\\varepsilon`)"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:21
+msgid ""
+"Knowledge of these concepts and how they interact is critical to understand "
+"rapid mix, flocculation, filtration, and disinfection. These concepts and "
+"their interactions first become relevant in rapid mix, the step in which the"
+" coagulant gets added to the raw water."
+msgstr ""
+"El conocimiento de estos conceptos y de cómo interactúan es fundamental para"
+" comprender mezcla rápida, floculación, filtración y desinfección. Estos "
+"conceptos y sus interacciones se vuelven relevantes por primera vez en "
+"mezcla rápida, el paso en el que se añade el coagulante a la agua cruda."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:23
+msgid ""
+"The two concepts that were not covered in the previous chapter, "
+":ref:`title_review_fluid_mechanics`, are velocity gradient :math:`G` and "
+"energy dissipation rate :math:`\\varepsilon`. While these will be very "
+"thoroughly described over the course of this introduction, a brief and "
+"simple explanation is included to help get the ball rolling."
+msgstr ""
+"Los dos conceptos que no se trataron en el capítulo anterior, "
+":ref:`title_review_fluid_mechanics`, son el gradiente de velocidad :math:`G`"
+" y la tasa de disipación de energía :math:`\\varepsilon`. Aunque estos se "
+"describirán muy a fondo a lo largo de esta introducción, se incluye una "
+"explicación breve y sencilla para ayudar a poner en marcha el proceso."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:26
+msgid "Understanding :math:`G` and :math:`\\varepsilon`"
+msgstr "Comprender :math:`G` y :math:`\\varepsilon`"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:28
+msgid ""
+":math:`G`, or velocity gradient, is a measure of fluid deformation. It is "
+"defined by how quickly one point of water along one streamline moves in "
+"comparison to another point on another streamline (:math:`v_A` compared to "
+":math:`v_B`, for example), taking into account the distance between the "
+"streamlines, :math:`\\Delta h`. A visual example of a velocity gradient is "
+"shown in the image below:"
+msgstr ""
+":math:`G`, o gradiente de velocidad, es una medida de la deformación del "
+"fluido. Se define por la rapidez con la que se mueve un punto de agua a lo "
+"largo de una línea de corriente en comparación con otro punto en otra línea "
+"de corriente (:math:`v_A` comparado con :math:`v_B`, por ejemplo), teniendo "
+"en cuenta la distancia entre las líneas de corriente, :math:`\\Delta h`. Un "
+"ejemplo visual de gradiente de velocidad se muestra en la imagen de abajo:"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:37
+msgid "Velocity gradient image"
+msgstr "Imagen del gradiente de velocidad"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:37
+msgid ""
+"Velocity gradients cause relative velocities of fluid elements. Those "
+"relative velocities form the basis of particle collisions that are essential"
+" for the flocculation process."
+msgstr ""
+"Los gradientes de velocidad provocan velocidades relativas de los elementos "
+"del fluido. Esas velocidades relativas forman la base de las colisiones de "
+"partículas que son esenciales para el proceso de floculación."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:40
+msgid ""
+"**Note on terminology:** “Fluid deformation” is equivalent to “velocity "
+"gradient,” and the two terms can be used interchangeably. They are different"
+" ways of thinking about the same concept. Thus, :math:`G` is the measure of "
+"both terms."
+msgstr ""
+"**Nota sobre terminología:** \"Deformación de fluidos\" es equivalente a "
+"\"gradiente de velocidad\", y ambos términos pueden usarse indistintamente. "
+"Son formas diferentes de pensar sobre el mismo concepto. Así, :math:`G` es "
+"la medida de ambos términos."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:42
+msgid ""
+":math:`\\varepsilon`, or energy dissipation rate, is the rate that the "
+"kinetic energy of the fluid is being converted to heat. EDR is a very useful"
+" concept because the last step of converting kinetic energy into heat is "
+"accomplished by viscosity (:math:`\\nu`). This kinetic energy being "
+"dissipated by viscosity is the energy associated with velocity gradients "
+"(:math:`G`). Thus, through EDR there is a direct connection between "
+":math:`\\nu` and :math:`G`. This connection will be further covered later on"
+" in this introduction."
+msgstr ""
+":math:`\\varepsilon`, o tasa de disipación de energía, es la velocidad a la "
+"que la energía cinética del fluido se convierte en calor. EDR es un concepto"
+" muy útil porque el último paso para convertir energía cinética en calor se "
+"logra mediante la viscosidad (:math:`\\nu`). Esta energía cinética que se "
+"disipa por la viscosidad es la energía asociada a gradientes de velocidad "
+"(:math:`G`). Así, a través de EDR existe una conexión directa entre "
+":math:`\\nu` y :math:`G`. Esta conexión se abordará más adelante en esta "
+"introducción."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:44
+msgid ""
+"As mentioned above, EDR and velocity gradients play an important role in "
+"mixing and in causing suspended particles to collide with each other, both "
+"of which are important topics in flocculation. Their use is not limited to "
+"flocculation, they are also helpful in understanding failure modes of plate "
+"settlers and terminal head loss of sand filters"
+msgstr ""
+"Como se mencionó antes, la EDR y los gradientes de velocidad desempeñan un "
+"papel importante en la mezcla y en la colisión de partículas suspendidas "
+"entre sí, ambos temas importantes en la floculación. Su uso no se limita a "
+"la floculación, sino que también son útiles para entender los modos de fallo"
+" de los sedimentadores de placas y los pérdida de carga terminales de los "
+"filtros de arena"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:46
+msgid ""
+"We will begin by defining the concept of energy dissipation rate for a "
+"control volume. In a control volume that does not include pumps, turbines or"
+" other external energy sources or sinks, the mechanical energy lost is "
+"indicated by a change in elevation and quantified as :math:`g h_L`. That "
+"mechanical energy is lost in the time, :math:`\\theta`, that the fluid is in"
+" the control volume."
+msgstr ""
+"Comenzaremos definiendo el concepto de tasa de disipación de energía para un"
+" volumen de control. En un volumen de control que no incluye bombas, "
+"turbinas u otras fuentes o sumideros externos de energía, la energía "
+"mecánica perdida se indica mediante un cambio de elevación y se cuantifica "
+"como :math:`g h_L`. Esa energía mecánica se pierde en el tiempo, "
+":math:`\\theta`, en que el fluido está en el volumen de control."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:48
+msgid ""
+"\\bar\\varepsilon \\theta = g h_L\n"
+"\n"
+msgstr ""
+"\\bar\\varepsilon \\theta = g h_L\n"
+"\n"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:50
+msgid ""
+"This equation simply states that the average rate of energy dissipation "
+"times the time over which that dissipation occurs is equal to the total lost"
+" mechanical energy. The dimensions of :math:`\\varepsilon` are:"
+msgstr ""
+"Esta ecuación simplemente establece que la tasa media de disipación de "
+"energía multiplicada por el tiempo durante el cual ocurre esa disipación es "
+"igual a la energía mecánica total perdida. Las dimensiones de "
+":math:`\\varepsilon` son:"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:52
+msgid ""
+"\\varepsilon = \\frac{[m^2]}{[s^3]} = {\\rm \\frac{W}{kg}}\n"
+"\n"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:54
+msgid ""
+"These dimensions can be understood as a velocity squared per time, otherwise"
+" known as a rate of kinetic energy loss (recall that kinetic energy is "
+":math:`{\\rm Ke} = \\frac{\\bar v^2}{2g}`, or :math:`{\\rm Ke} \\propto "
+"\\bar v^2`), or as power per unit mass, which would be :math:`{\\rm  "
+"\\frac{W}{kg}}`."
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:56
+msgid ""
+"Velocity gradients are central to flocculation because they cause the "
+"deformation of the fluid, and this results in particle collisions. Consider "
+"a real-world example via the image below: if everyone on a sidewalk is "
+"walking in the same direction at exactly the same velocity, then there will "
+"never be any collisions between people (top). If, however, people at one "
+"side of the sidewalk stand still and people walk progressively faster as a "
+"function of how far they are away from the zero velocity side of the "
+"sidewalk, then there will be many collisions between the pedestrians (see "
+":numref:`figure_Pedestrians_on_sidewalk`). Indeed, the rate of collisions is"
+" proportional to the velocity gradient."
+msgstr ""
+"Los gradientes de velocidad son centrales en la floculación porque provocan "
+"la deformación del fluido, y esto provoca colisiones de partículas. "
+"Consideremos un ejemplo real a través de la imagen de abajo: si todos en una"
+" acera caminan en la misma dirección a exactamente la misma velocidad, "
+"entonces nunca habrá colisiones entre personas (arriba). Sin embargo, si las"
+" personas en un lado de la acera permanecen quietas y caminan "
+"progresivamente más rápido en función de la distancia que estén del lado de "
+"velocidad cero de la acera, entonces habrá muchas colisiones entre los "
+"peatones (véase :numref:`figure_Pedestrians_on_sidewalk`). De hecho, la tasa"
+" de colisiones es proporcional al gradiente de velocidad."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:65
+msgid "Pedestrians on sidewalk"
+msgstr "Peatones en la acera"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:65
+msgid "Pedestrians walking on a sidewalk serve as a model for velocity gradients."
+msgstr ""
+"Los peatones que caminan por una acera sirven como modelo para los "
+"gradientes de velocidad."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:68
+msgid "Common Flow Geometries that Dissipate Energy"
+msgstr "Geometrías de flujo comunes que disipan energía"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:70
+msgid ""
+"Water treatment plants at research and municipal scales deploy a wide range "
+"of flow geometries. The following list includes the flow geometries that are"
+" commonly used for mixing processes."
+msgstr ""
+"tratamiento de agua plantas a escala de investigación y municipales "
+"despliegan una amplia gama de geometrías de flujo. La siguiente lista "
+"incluye las geometrías de flujo que se utilizan comúnmente para procesos de "
+"mezcla."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:72
+msgid "Straight pipe (wall shear) - [uncommon, but included for completeness]"
+msgstr ""
+"Tubería recta (corte de pared) - [poco común, pero incluida para mayor "
+"completitud]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:73
+msgid "Coiled tube (wall shear and expansions) - [research scale mixing]"
+msgstr ""
+"Tubo en espiral (cizalladura de pared y expansiones) - [mezcla de escalas de"
+" investigación]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:74
+msgid "Series of expansions (expansions) - [hydraulic flocculators]"
+msgstr "Serie de expansiones (expansiones) - [floculadores hidráulicos]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:75
+msgid "Mechanical mixing - [mechanical rapid mix and flocculators]"
+msgstr "Mezcla mecánica - [ mezcla rápida mecánica y floculadores]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:76
+msgid "Between flat plates (wall shear) - [plate settlers]"
+msgstr "Entre placas planas (corte de pared) - [asentadores de placas]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:77
+msgid "Round jet (expansion) - [hydraulic rapid mix]"
+msgstr "Chorro redondo (expansión) - [ mezcla rápida hidráulica]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:78
+msgid "Plane jet (expansion) - [inlet into clarifier]"
+msgstr "Chorro plano (expansión) - [entrada en clarificador]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:79
+msgid "Behind a flat plate (expansion) - [mechanical mixers]"
+msgstr "Detrás de una placa plana (expansión) - [mezcladores mecánicos]"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:81
+msgid ""
+"The following tables can serve as a convenient reference to the equations "
+"describing head loss, energy dissipation rates, and velocity gradients in "
+"various flow geometries that are commonly encountered in water treatment "
+"plants. The :ref:`heading_Equations_Varying_Flow_Geometries` are available "
+"as a reference."
+msgstr ""
+"Las siguientes tablas pueden servir como referencia conveniente a las "
+"ecuaciones que describen pérdida de carga, tasas de disipación de energía y "
+"gradientes de velocidad en diversas geometrías de flujo que se encuentran "
+"comúnmente en tratamiento de agua plantas. Las "
+":ref:`heading_Equations_Varying_Flow_Geometries` están disponibles como "
+"referencia."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:85
+msgid ""
+"Equations for control volume averaged values of head loss, energy "
+"dissipation rate, and the Camp-Stein velocity gradient."
+msgstr ""
+"Las ecuaciones para el volumen de control promediaron valores de pérdida de "
+"carga, tasa de disipación de energía y el gradiente de velocidad de Camp-"
+"Stein."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Geometry"
+msgstr "Geometría"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`h_L`"
+msgstr ":math:`h_L`"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Energy dissipation rate"
+msgstr "Tasa de disipación de energía"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`tilde{G}(bar v)`"
+msgstr ":math:`tilde{G}(bar v)`"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`tilde{G}(Q)`"
+msgstr ":math:`tilde{G}(Q)`"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Straight pipe"
+msgstr "Tubería recta"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`h_{{\\rm f}} = {{\\rm f}} \\frac{L}{D} \\frac{\\bar v^2}{2g}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\bar\\varepsilon = \\frac{{\\rm f}}{2} \\frac{\\bar v^3}{D}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\tilde{G} = \\left(\\frac{{\\rm f}}{2\\nu} \\frac{\\bar v^3}{D} "
+"\\right)^\\frac{1}{2}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\tilde{G} = \\left(\\frac{\\rm{32f}}{ \\pi^3\\nu} \\frac{Q^3}{D^7} "
+"\\right)^\\frac{1}{2}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Straight pipe laminar"
+msgstr "Laminar de tubería recta"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`h_{{\\rm f}} = \\frac{32\\nu L\\bar v}{ g D^2}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\bar\\varepsilon =32\\nu \\left( \\frac{\\bar v}{D} \\right)^2`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\tilde{G} =4\\sqrt2 \\frac{\\bar v}{D}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\tilde{G} =\\frac{16\\sqrt2}{\\pi} \\frac{Q}{D^3}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Parallel plates laminar"
+msgstr "Placas paralelas laminares"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`h_{{\\rm f}} = 12\\frac{ \\nu L \\bar v }{gS^2}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\bar\\varepsilon = 12 \\nu \\left(\\frac{ \\bar v}{S} \\right)^2`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\tilde{G} = 2\\sqrt{3}\\frac{ \\bar v}{S}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Coiled tube laminar"
+msgstr "Laminar de tubo enrollado"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`h_{L_{coil}} = \\frac{32\\nu L\\bar v}{ g D^2} \\left[ 1 + "
+"0.033\\left(log_{10}De\\right)^4 \\right]`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\bar\\varepsilon = 32\\nu \\left( \\frac{\\bar v}{D} \\right)^2 "
+"\\left[ 1 + 0.033\\left(log_{10}De\\right)^4 \\right]`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`G_{CS_{coil}} = 4\\sqrt2 \\frac{\\bar v}{D}\\left[ 1 + "
+"0.033\\left(log_{10}De\\right)^4 \\right]^\\frac{1}{2}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Porous media"
+msgstr "Medios porosos"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`h_f = f_{\\phi} \\frac{L}{D_{sand}} \\frac{v_a^2}{2g} "
+"\\frac{(1-\\phi)}{\\phi^3}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\bar\\epsilon = \\frac{f_{\\phi}}{2} \\frac{v_a^3}{D_{sand}} "
+"\\frac{(1-\\phi)}{\\phi^4}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\tilde{G} = \\left(\\frac{f_{\\phi}}{2\\nu} \\frac{v_a^3}{D_{sand}} "
+"\\frac{(1-\\phi)}{\\phi^4}\\right)^{\\frac{1}{2}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Expansions"
+msgstr "Expansiones"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`h_e = K\\frac{\\bar v_{out}^2}{2g}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\bar\\varepsilon = K\\frac{\\bar v_{out}^3}{2H}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\tilde{G} = \\bar v_{out}\\sqrt{\\frac{K\\bar v_{out}}{2H\\nu}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:96
+msgid "The equations used to convert between columns in the table above are:"
+msgstr ""
+"Las ecuaciones utilizadas para convertir entre columnas en la tabla anterior"
+" son:"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:98
+msgid ""
+"\\bar\\varepsilon = \\frac{gh_{\\rm{L}}}{\\theta} \\qquad\\qquad\n"
+" \\tilde{G} = \\sqrt{\\frac{\\bar \\varepsilon}{\\nu}} \\qquad\\qquad\n"
+"\\bar v=\\frac{4Q}{\\pi D}"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:104
+msgid ""
+"Note that the velocity gradient is independent of viscosity (and hence "
+"temperature) for laminar flow. This is because the total amount of fluid "
+"deformation is simply based on geometry. The no slip condition, the "
+"diameter, and the length of the flow passage set the total fluid "
+"deformation. Of course, if temperature decreases and viscosity increases the"
+" amount of energy required to push the fluid through the flow passage will "
+"increase (head loss is proportional to viscosity for laminar flow)."
+msgstr ""
+"Nótese que el gradiente de velocidad es independiente de la viscosidad (y "
+"por tanto de la temperatura) para el flujo laminar. Esto se debe a que la "
+"cantidad total de deformación del fluido se basa simplemente en la "
+"geometría. La condición de no deslizamiento, el diámetro y la longitud del "
+"conducto determinan la deformación total del fluido. Por supuesto, si la "
+"temperatura disminuye y la viscosidad aumenta, la cantidad de energía "
+"necesaria para empujar el fluido a través del paso aumentará (pérdida de "
+"carga es proporcional a la viscosidad del flujo laminar)."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:106
+msgid ""
+"For turbulent flow and for flow expansions the amount of fluid deformation "
+"decreases as the viscosity increases and the total energy required to send "
+"the flow through the reactor is almost independent of the viscosity. The "
+"“almost” is because for wall shear under turbulent conditions there is a "
+"small effect of viscosity that is buried inside the friction factor."
+msgstr ""
+"Para el flujo turbulento y para las expansiones de flujo, la cantidad de "
+"deformación del fluido disminuye a medida que aumenta la viscosidad y la "
+"energía total necesaria para enviar el flujo a través del reactor es casi "
+"independiente de la viscosidad. El \"casi\" se debe a que para el corte de "
+"pared en condiciones turbulentas hay un pequeño efecto de viscosidad que "
+"queda oculto dentro del factor de fricción."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:110
+msgid ""
+"Equations for maximum (wall) energy dissipation rates and wall velocity "
+"gradients."
+msgstr ""
+"Ecuaciones para las tasas máximas de disipación de energía (de pared) y "
+"gradientes de velocidad de la pared."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Energy dissipation rate at the wall"
+msgstr "Tasa de disipación de energía en la pared"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Velocity gradient at the wall"
+msgstr "Gradiente de velocidad en la pared"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\varepsilon_{wall} = \\frac{1}{\\nu}\\left({\\rm f}  \\frac{\\bar "
+"v^2}{8} \\right)^2`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`G_{wall} ={\\rm f}  \\frac{\\bar v^2}{8\\nu}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\varepsilon_{wall} = \\left(\\frac{8\\bar v}{D} \\right)^2 \\nu`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`G_{wall} =  \\frac{8\\bar v}{D}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "parallel plates laminar"
+msgstr "Placas paralelas laminares"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\varepsilon_{wall} = 36\\left( \\frac{\\bar v}{S}\\right)^2 \\nu`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`G_{wall} = \\frac{6 \\bar v}{S}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Coiled pipe laminar"
+msgstr "Tubería laminar enrollada"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`G_{CS_{wall_{coil}}} ={\\rm f} \\left[ 1 + "
+"0.033\\left(log_{10}De\\right)^4 \\right]\\frac{\\bar v^2}{8\\nu}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:123
+msgid ""
+"Equations for maximum energy dissipation rates and velocity gradients for "
+"flow expansions."
+msgstr ""
+"Ecuaciones para tasas máximas de disipación de energía y gradientes de "
+"velocidad para expansiones de flujo."
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`Pi_{Jet}`"
+msgstr ":math:`Pi_{Jet}`"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Maximum energy dissipation rate"
+msgstr "Tasa máxima de disipación de energía"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Maximum velocity gradient"
+msgstr "Gradiente máximo de velocidad"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Round jet"
+msgstr "Chorro redondo"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "0.08"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\varepsilon_{max} = \\Pi_{JetRound}\\frac{  \\bar v_{Jet} "
+"^3}{D_{Jet}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`G_{max} = \\bar v_{Jet} \\sqrt{\\frac{\\Pi_{JetRound} \\bar v_{Jet} "
+"}{\\nu D_{Jet}}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Plane jet"
+msgstr "Jet de avión"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "0.04"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\varepsilon_{max} = \\Pi_{JetPlane} \\frac{  \\bar v_{Jet} "
+"^3}{S_{Jet}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`G_{max} = \\bar v_{Jet}\\sqrt{\\frac{\\Pi_{JetPlane} \\bar "
+"v_{Jet}}{\\nu S_{Jet}}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Behind a flat plate"
+msgstr "Detrás de una placa plana"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`\\varepsilon _{max} = \\Pi_{Plate}\\frac{\\bar v^3}{W_{Plate}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ":math:`G_{max} = \\bar v\\sqrt{\\frac{\\Pi_{Plate} \\bar v}{\\nu W_{Plate}}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "Flocculator baffle"
+msgstr "Deflector del floculador"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid "0.0124"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`\\varepsilon_{max} = \\Pi_{FlocBaffle} \\frac{  \\bar v_{Jet} "
+"^3}{S_{Jet}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:1
+msgid ""
+":math:`G_{max} = \\bar v_{Jet}\\sqrt{\\frac{\\Pi_{FlocBaffle} \\bar "
+"v_{Jet}}{\\nu S_{Jet}}}`"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:132
+msgid ""
+"For mechanical mixing where an impeller or other stirring device is adding "
+"shaft work to a control volume we have"
+msgstr ""
+"Para la mezcla mecánica, donde un impulsor u otro dispositivo de agitación "
+"añade trabajo de eje a un volumen de control, tenemos"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:134
+msgid ""
+"\\bar\\varepsilon = \\frac{P}{m} = \\frac{P}{\\rho \\forall}\n"
+"\n"
+msgstr ""
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:136
+msgid "where"
+msgstr "donde"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:137
+msgid ":math:`P` = power input into the control volume"
+msgstr ":math:`P` = entrada de potencia en el volumen de control"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:138
+msgid ":math:`m` = mass of fluid in the control volume"
+msgstr ":math:`m` = masa de fluido en el volumen de control"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:139
+msgid ":math:`\\forall` = volume of the control volume"
+msgstr ":math:`\\forall` = volumen del volumen de control"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:140
+msgid ":math:`\\rho` = density of the fluid"
+msgstr ":math:`\\rho` = densidad del fluido"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:142
+msgid "The Camp-Stein velocity gradient for a mechanically mixed reactor is"
+msgstr "El gradiente de velocidad Camp-Stein para un reactor mecánicamente mixto es"
+
+#: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Intro.rst:144
+msgid ""
+"\\tilde{G} = \\sqrt{\\frac{P}{\\rho \\nu \\forall}}\n"
+"\n"
+msgstr ""
+

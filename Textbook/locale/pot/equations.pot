@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../equations.rst:5
+msgid "Equation Quick Reference"
+msgstr ""
+
+#: ../../equations.rst:9
+msgid "Equations"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Number"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Equation"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`eq_laminar_terminal_velocity`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Particle terminal velocity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\bar v_t = \\frac{D_{particle}^2 g}{18 \\nu} \\frac{\\rho_p - \\rho_w}{\\rho_w}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`continuity_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Continuity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q = \\bar v A`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`reynolds_number_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Reynold's Number"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`{\\rm Re} = \\frac{\\bar vD}{\\nu} = \\frac{4Q}{\\pi D\\nu} = \\frac{\\rho \\bar vD}{\\mu}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`bernoulli_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Bernoulli"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\frac{p_1}{\\rho g} + {z_1} + \\frac{v_1^2}{2g} = \\frac{p_2}{\\rho g} + {z_2} + \\frac{v_2^2}{2g}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`energy_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Control Volume Energy"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\frac{p_{1}}{\\rho g} + z_{1} + \\frac{\\bar v_{1}^2}{2g} = \\frac{p_{2}}{\\rho g} + z_{2} + \\frac{\\bar v_{2}^2}{2g} + h_L`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`darcy_weisbach`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Darcy-Weisbach"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`h_{\\rm{f}}  = {\\rm{f}} \\frac{L}{D} \\frac{\\bar v^2}{2g}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`swamee_jain`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Swamee-Jain"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`{\\rm{f}} = \\frac{0.25} {\\left[ \\log \\left( \\frac{\\epsilon }{3.7D} + \\frac{5.74}{{\\rm Re}^{0.9}} \\right) \\right]^2}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`hagen_poiseuille`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Hagen-Poiseuille"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`h_{\\rm{f}} = \\frac{128\\mu L Q}{\\rho g\\pi D^4}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`orifice_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Orifice"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q = \\Pi_{vc} A_{or} \\sqrt{2g\\Delta h}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`minor_loss_equation`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Minor loss"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`{ {\\rm{ \\mathbf{Third form:} }} \\quad h_e = \\left( \\frac{A_{out}}{A_{in}} -1 \\right)^2 \\frac{\\bar v_{out}^2}{2g} = K_e \\frac{\\bar v_{out}^2}{2g} \\quad {\\rm where} \\quad K_e = \\left( \\frac{A_{out}}{A_{in}} - 1 \\right)^2 }`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`V_floc_of_n_cp`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Fractal floc volume"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\forall_{floc} = \\forall_{cp} n_{cp}^\\frac{3}{\\Pi_{fractal}}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`vt_of_floc`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Floc terminal velocity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`v_t = \\frac{D_{cp}^2g}{18\\nu}\\frac{\\rho_{cp} - \\rho_{H_2O}}{\\rho_{H_2O}} \\left( \\frac{D_{floc}}{D_{cp}} \\right) ^{\\Pi_{fractal}-1}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Gmax_of_d_floc`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "max floc velocity gradient"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`G_{max} = \\frac{4F_{bond}}{3 \\pi \\mu D_{floc_{max}}^2}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`G_Camp_Stein`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Camp-Stein velocity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\tilde{G} = \\sqrt{\\frac{P}{\\rho \\nu \\forall}}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`einstein_diffusion`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Einstein’s diffusion"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`D_{Diffusion} = \\frac{k_B T}{3 \\pi \\mu D_P}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`cdc_tube_Q_max`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Linear CDC"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q_{max Tube} = \\frac{\\pi D^2}{4} \\sqrt{\\frac{2 h_L g \\Pi_{Error}}{\\sum{K} }}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Q_tank_with_valve`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Tank with a valve"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\frac{Q}{Q_0} = 1 - \\frac{1}{2} \\frac{t}{t_{Design}} \\frac{h_{Tank}}{h_0}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`power_of_Q_h`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Mechanical power"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`P = \\rho g Q \\Delta h`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Q_max_served_per_injection_port`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Flow per chemical injection port"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q_{mixer} = g h_e t_{eddy}^2 \\bar v_{exp}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Gtheta_of_hL`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Collision potential"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\tilde{G} \\theta = \\sqrt{\\frac{g h_L \\theta}{\\nu}}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`W_min_HVFloc`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Channel width"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`W_{min \\Pi_{H_eS}} = \\frac{\\Pi_{H_eS}Q}{H_e}\\left( \\frac{K}{2 H_e \\nu \\tilde{G}^2} \\right)^\\frac{1}{3}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`floc_He_max_const_K`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Distance between expansions"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`H_{e_{max}} = \\left[ \\frac{K}{2 \\nu \\tilde{G}^2} \\left( \\frac{Q \\Pi_{{HS}_{max}}}{W_{channel}} \\right)^3 \\right]^\\frac{1}{4}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Floc_baffle_spacing_of_K`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Baffle spacing"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`S = \\left( \\frac{K}{2 H_e \\tilde{G}^2 \\nu } \\right)^\\frac{1}{3} \\frac{Q}{W_{channel}}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`planejet_v_max_of_q`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Maximum jet velocity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\bar v_{Jet_{max}} = \\left(\\frac{q\\nu G_{max}^2}{\\Pi_{JetPlane} }\\right)^\\frac{1}{4}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Q_tube_settler`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Tube settler flow"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q_{Tube}=\\frac{\\bar v_{c}\\pi D^2}{4} \\left(\\frac{L}{D} \\cos \\alpha +\\sin \\alpha \\right)`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Plate_S_min_of_fractal`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Minimum plate settler spacing"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`S_{min} \\approx \\frac{3 \\bar v_{z_{Plate}}}{\\sin^2 \\alpha} \\left( \\frac{18 \\nu}{g D_{cp}} \\frac{\\rho_{H_2O}}{\\rho_{cp} - \\rho_{H_2O}} \\right)`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`plate_settler_headloss`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Plate settler head loss"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`h_L = 2 \\frac{\\mu}{\\rho g} \\left( \\frac{6 \\bar v_{z_{Plate}}}{S sin^2 \\alpha cos\\alpha} \\right) \\left( \\frac{ \\bar v_{z_{Plate}}}{\\bar v_c} -1 \\right)`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`floc_filter_head_loss`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Floc filter head loss"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`h_L = H_{ff} \\left( \\frac{\\rho_{clay}}{\\rho_{H_2O}} - 1 \\right) \\frac{C_{clay}}{\\rho_{clay}}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`eq_Carman_Kozeny`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Clean bed head loss"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\frac{h_l}{H_{FiSand}} = 36 k \\frac{\\left( 1 - \\phi_{FiSand} \\right)^2}{\\phi_{FiSand}^3} \\frac{\\nu \\bar v_a}{g D_{60}^2}`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`headloss_bw_sand`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Backwash head loss"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`h_{l_{FiBw}} = H_{FiSand} \\left( 1 - \\phi_{FiSand} \\right)  \\left( \\frac{\\rho_{Sand}}{\\rho_{Water}} - 1 \\right)`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`minimum_fluidization_velocity_sand`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Fluidization velocity"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`\\bar v_{MinFluidization} = \\frac{\\phi_{FiSand}^3 g D_{60}^2}{36 k \\nu \\left( 1 - \\phi_{FiSand} \\right)} \\left( \\frac{\\rho_{Sand}}{\\rho_{Water}} - 1 \\right)`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":eq:`Sharp_weir_Q_of_channel_depth`"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid "Sharp crested weir"
+msgstr ""
+
+#: ../../equations.rst:1
+msgid ":math:`Q = \\Pi_{vc}\\frac{2}{3} \\sqrt{2g} w \\left(H_{channel}\\right)^\\frac{3}{2}`"
+msgstr ""

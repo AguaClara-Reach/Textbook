@@ -1,7 +1,6 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Textbook_Creation_Help/rst_intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

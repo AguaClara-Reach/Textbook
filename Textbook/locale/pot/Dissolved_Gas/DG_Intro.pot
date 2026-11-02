@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Dissolved_Gas/DG_Intro.rst:11
+msgid "Dissolved Gas Introduction"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:13
+msgid "Dissolved gas supersaturation and subsequent bubble formation can cause significant performance deterioration in drinking water treatment plants. Supersaturation means that the dissolved gas concentration is greater than the equilibrium concentration. The liquid phase equilibrium concentration of a gas is directly proportional to the absolute partial pressure of the gas in the gas phase. This relationship is described by Henry's law."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:20
+msgid "Henry's Law"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:25
+msgid "Effects of Gas Bubbles in Water Treatment Plants"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:27
+msgid "The American Water Works Association recognized the detrimental effects of gas bubble evolution in drinking water treatment plants and sponsored research at Virginia Polytechnic Institute and State University. `Paolo Scardina's Dissertation <../_static/references/PaoloScardinaDissertation2004.pdf>`_ provides an excellent review of the problems that are caused by gas bubbles."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:29
+msgid "Dissolved gas removal is also a goal after anaerobic wastewater treatment for enhanced removal of dissolved methane."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:34
+msgid "Flocculation"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:36
+msgid "Minimal adverse effects. Foam produced can dry and be blown around the water treatment plant. Nuisance and aesthetically unpleasing."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:41
+msgid "Floc Filters"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:43
+msgid "Disrupts floc filter, breaks flocs, carries flocs into plate settlers."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:48
+msgid "Clarification"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:50
+msgid "Bubbles carry flocs rapidly to the top of the clarifier where they form a surface mat of flocs. The surface mat of flocs isn't necessarily harmful to plant performance, but it is a nuisance and requires that the operators scrape the flocs to remove them from the clarifier. Some of the rising flocs are swept into the exit manifold and thus the settled water turbidity can be significantly increased by these rising flocs."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:56
+msgid "Filtration"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:58
+msgid "Filtration performance can be severely harmed by gas bubbles. The bubbles form in the pores of the filter and are unable to leave the pore due to surface tension. Filter media can fill rapidly with gas bubbles and this results in increased head loss or decreased flow through the filter. Bubble formation can significantly reduce the filter run time. The amount of bubble formation is strongly dependent on the pressure in the filter. Filters that operate with a deep column of water on top of the filter bed can be unaffected by dissolved gasses if the high pressure within the filter raises the equilibrium dissolved gas concentration above the actual dissolved gas concentration. Enclosed Stacked Rapid Sand Filters are more vulnerable to bubble formation that Open Stacked Rapid Sand Filters because of the difference in pressure in the sand bed. This pressure analysis also reveals that gas bubble formation will tend to occur at the lowest pressure zone in the filter bed. This low pressure zone can occur in a down flow filter right below the partially clogged section of the bed because of the decrease in pressure due to head loss."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:60
+msgid "At the El PODA Nicaragua AguaClara plant there was so much dissolved air in the influent water that the filters could only operate for one hour before requiring backwash."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:66
+msgid "Dissolved Gas Sources"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:68
+msgid "High pressure regions in transmission lines where the pipeline flow capacity exceeds the need AND where the flow control is restricted by upstream supply rather than by downstream head loss control (meaning by partially closing a valve!)."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:69
+msgid "Temperature increase that reduces the equilibrium concentration. This gas source is observed in the AguaClara lab facilities where hot and cold incoming tap water are mixed to produce \"room temperature\" water. The increase in water temperature results in bubble formation."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:75
+msgid "Dissolved Gas Concentration Reduction"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:78
+msgid "Methods to Provide Nucleation Sites"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:79
+msgid "Aeration"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:81
+msgid "Air can be pumped through diffusers."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:82
+msgid "Air can be sucked into the diffusers if the reactor operated at less than atmospheric pressure."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:83
+msgid "Fluidized bed containing particles that have nucleation sites."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:85
+msgid "The fluidized nucleation site particles must be dense enough and large enough so that attached gas bubbles can't carry them out of the degassing reactor."
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:88
+msgid "Methods to Reduce Degassing Reactor Pressure"
+msgstr ""
+
+#: ../../Dissolved_Gas/DG_Intro.rst:90
+msgid "The top of the degassing reactor can be located several meters above the entrance tank of the water treatment plant. The higher the tank (up to a max of 10 m) the more pronounced the pressure reduction will be and the more effective the reactor will be at degassing. The degassing reactor will produce a water and bubble effluent that must be"
+msgstr ""

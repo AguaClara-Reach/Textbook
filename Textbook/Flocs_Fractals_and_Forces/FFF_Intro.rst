@@ -1,7 +1,6 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/Flocs_Fractals_and_Forces/FFF_Intro.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 

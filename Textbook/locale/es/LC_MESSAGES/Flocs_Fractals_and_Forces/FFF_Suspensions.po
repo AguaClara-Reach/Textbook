@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:12
+msgid "Fluidized Suspensions"
+msgstr "Suspensiones fluidizadas"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:15
+msgid "Suspension Density"
+msgstr "Densidad de suspensión"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:17
+msgid ""
+"Suspension densities will be of interest both in understanding the physics "
+"of floc filters fluidized sand beds. The density of a suspension of "
+"particles is equal to the mass of the particles and water divided by the "
+"suspension volume. In the case of flocs we can track the concentration of "
+"the core particles in the suspension and ignore the diameter of the flocs "
+"when calculating the suspension density."
+msgstr ""
+"Las densidades de suspensión serán de interés tanto para entender la física "
+"de los filtros de flócs en los lechos de arena fluidizados. La densidad de "
+"una suspensión de partículas es igual a la masa de las partículas y el agua "
+"dividida por el volumen de la suspensión. En el caso de los flócs, podemos "
+"seguir la concentración de las partículas del núcleo en la suspensión e "
+"ignorar el diámetro de los flócs al calcular la densidad de la suspensión."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:19
+msgid ""
+"\\rho_{suspension}\n"
+"= \\frac{M_{H_2O} + M_{particles}}{\\forall_{suspension}}\n"
+"\n"
+"=\\frac{M_{H_2O} }{\\forall_{suspension}} + C_{particles}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:27
+msgid ""
+"The mass of water in a suspension, :math:`M_{H_2O}`, must take into account "
+"the fraction of the suspension volume occupied by the particles."
+msgstr ""
+"La masa de agua en una suspensión, :math:`M_{H_2O}`, debe tener en cuenta la"
+" fracción del volumen de suspensión ocupada por las partículas."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:29
+msgid ""
+"\\frac{M_{H_2O}}{\\forall_{suspension} } =\n"
+"\\rho_{H_2O} \\left( 1 - \\frac{C_{particles}}{\\rho_{particles}} \\right)"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:35
+msgid ""
+"where :math:`\\frac{C_{particles}}{\\rho_{particles}}` is the fraction of "
+"the suspension volume occupied by the particles. Substituting Equation "
+":eq:`water_mass_in_suspension` into Equation :eq:`density_suspension_1` we "
+"obtain the density of the suspension."
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:37
+msgid ""
+"\\rho_{suspension} =\n"
+"\\rho_{H_2O} \\left( 1 - \\frac{C_{particles}}{\\rho_{particles}} \\right) +"
+" C_{particles}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:44
+msgid ""
+"Equation :eq:`density_suspension_2` can be rewritten in terms of the buoyant"
+" density to obtain"
+msgstr ""
+"La ecuación :eq:`density_suspension_2` puede reescribirse en función de la "
+"densidad de flotabilidad para obtener"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:46
+msgid ""
+"\\rho_{suspension} - \\rho_{H_2O} =\n"
+"  C_{particles}\\left(1 - \\frac{\\rho_{H_2O}}{\\rho_{particles}}\\right)"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:54
+msgid "Fluidized Bed Porosity"
+msgstr "Porosidad del lecho fluidizado"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:56
+msgid ""
+"AguaClara plants have two fluidized beds. The first is the floc filter that "
+"forms in the bottom of the clarifiers and the second is the sand in the "
+"filters during backwash. The equations describing fluidized beds require "
+"multiple steps in the calculations and are easily handled in Python. The "
+"following equations are available in a `Colab worksheet "
+"<https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb>`_ and "
+"the equations are from `this paper "
+"<https://doi.org/10.1016/j.ijheatmasstransfer.2004.08.008>`_."
+msgstr ""
+"Las plantas de AguaClara tienen dos camas fluidizadas. La primera es la "
+"filtro de flóculos que se forma en la parte inferior de los clarificadores y"
+" la segunda es la arena de los filtros durante el retrolavado. Las "
+"ecuaciones que describen las camas fluidizadas requieren varios pasos en los"
+" cálculos y se manejan fácilmente en Python. Las siguientes ecuaciones están"
+" disponibles en una hoja de cálculo `Colab "
+"<https://colab.research.google.com/github/AguaClara-"
+"Reach/Textbook/blob/master/Flocs_Fractals_and_Forces/Colab/FFF.ipynb>`_ y "
+"las ecuaciones son de `este artículo "
+"<https://doi.org/10.1016/j.ijheatmasstransfer.2004.08.008>`_."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:58
+msgid ""
+"The hydraulic diameter is needed to account for wall effects for small "
+"reactors."
+msgstr ""
+"El diámetro hidráulico es necesario para tener en cuenta los efectos de "
+"pared en reactores pequeños."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:60
+msgid "D_{H}={\\frac {4A}{P}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:65
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:77
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:101
+msgid "where"
+msgstr "donde"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:66
+msgid ":math:`D_{H}` is the hydraulic diameter"
+msgstr ":math:`D_{H}` es el diámetro hidráulico"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:67
+msgid ":math:`A` is the plan view area"
+msgstr ":math:`A` es el área de vista en planta"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:68
+msgid ":math:`P` is the wetted perimeter"
+msgstr ":math:`P` es el perímetro mojado"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:70
+msgid ""
+"For reactors with dimensions that are not much larger than the dimensions of"
+" the flocs it is necessary to correct for wall effects. This correction will"
+" be important for laboratory scale and some pilot scale reactors. The "
+"terminal velocity of a particle corrected for wall effects is"
+msgstr ""
+"Para reactores cuyas dimensiones no son mucho mayores que las de los "
+"flóculos, es necesario corregir para efectos de pared. Esta corrección será "
+"importante para reactores a escala de laboratorio y algunos a escala piloto."
+" La velocidad terminal de una partícula corregida para efectos de pared es"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:72
+msgid "v_{t_w} = \\frac{v_t}{10^{\\frac{D_{particle}}{D_H}}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:78
+msgid ""
+":math:`v_t` terminal velocity in an infinite fluid obtained from Equation "
+":eq:`v_t_general`"
+msgstr ""
+":math:`v_t` velocidad terminal en un fluido infinito obtenida de la ecuación"
+" :eq:`v_t_general`"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:80
+msgid ""
+"The Reynolds number :math:`Re_t` is based on the terminal velocity of the "
+"particle."
+msgstr ""
+"El número de Reynolds :math:`Re_t` se basa en la velocidad terminal de la "
+"partícula."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:82
+msgid "Re_t = \\frac{v_t D_{particle}}{\\nu}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:87
+msgid ""
+"The fluidization index, z, is a function of the Reynolds number at the "
+"terminal velocity."
+msgstr ""
+"El índice de fluidización, z, es una función del número de Reynolds en la "
+"velocidad terminal."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:89
+msgid ""
+"z=\\frac{0.65\\left(2+0.5 Re_t^{0.65}\\right)}{\\left(1+0.5 "
+"Re_t^{0.65}\\right)}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:94
+msgid "The following equation is used to find the porosity of a fluidized bed."
+msgstr ""
+"La siguiente ecuación se utiliza para determinar la porosidad de un lecho "
+"fluidizado."
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:96
+msgid ""
+"\\phi=\\left(\\frac{\\bar v_z}{v_{t_w}}\\right)^{1 / "
+"z}\\left(1-\\phi_{\\mathrm{SB}}\\right)+\\phi_{\\mathrm{SB}}"
+msgstr ""
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:102
+msgid ":math:`v_{t_w}` particle terminal velocity corrected for wall effect"
+msgstr ":math:`v_{t_w}` velocidad terminal de partícula corregida por efecto muro"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:103
+msgid ":math:`\\bar v_z` superficial liquid velocity (our upflow velocity)"
+msgstr ""
+":math:`\\bar v_z` velocidad superficial del líquido (nuestra velocidad de "
+"flujo ascendente)"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:104
+msgid ":math:`z` is the fluidization index"
+msgstr ":math:`z` es el índice de fluidización"
+
+#: ../../Flocs_Fractals_and_Forces/FFF_Suspensions.rst:105
+msgid ""
+":math:`\\phi_{\\mathrm{SB}}` is the static bed pore volume fraction which we"
+" will assume is 0.4"
+msgstr ""
+

@@ -33,6 +33,11 @@ Contains working theories in the AguaClara lab and future research projects to b
 ## Publishing
 Every push to `master` automatically builds the textbook and publishes it with GitHub Pages. Pull requests run the same HTML build as a check before merging. A deployment can also be started manually from the **Documentation** workflow in the repository's **Actions** tab.
 
+The English edition retains the existing URLs. The developing Spanish edition
+is published under
+[`/Textbook/es/`](https://aguaclara-reach.github.io/Textbook/es/) from the PO
+catalogs in `locale/es/LC_MESSAGES`.
+
 ## Appendix A: Derivations
 Many of the equations that show up in the `Introduction` and `Design` sections have lengthy derivations that have been done by AguaClara in the past. The step-by-step derivations of these equations will be found in this section. Equations that require derivations will be noted as such in the text and linked to their derivations.
 

@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Textbook_Creation_Help/translating.rst:4
+msgid "Translating the Textbook"
+msgstr "Traduciendo el libro de texto"
+
+#: ../../Textbook_Creation_Help/translating.rst:6
+msgid ""
+"English is the authoritative source language for the textbook. Spanish is "
+"maintained in gettext PO catalogs so that both editions share the same "
+"structure, equations, figures, cross-references, and source files."
+msgstr ""
+"El inglés es el idioma fuente autorizado para el libro de texto. El español "
+"se mantiene en los catálogos de gettext PO para que ambas ediciones "
+"compartan la misma estructura, ecuaciones, cifras, referencias cruzadas y "
+"archivos fuente."
+
+#: ../../Textbook_Creation_Help/translating.rst:11
+msgid "Terminology"
+msgstr "Terminología"
+
+#: ../../Textbook_Creation_Help/translating.rst:13
+msgid ""
+"Follow the `English-Spanish technical translation guide <https://github.com"
+"/AguaClara-"
+"Reach/Textbook/blob/master/TECHNICAL_TRANSLATION_GUIDE_EN_ES.md>`_ for all "
+"technical terminology. Add new terms to that guide when translators agree on"
+" a preferred translation. Product names, equations, chemical formulas, and "
+"SI unit symbols should not be translated."
+msgstr ""
+"Sigue la `guía técnica de traducción inglés-español <https://github.com"
+"/AguaClara-"
+"Reach/Textbook/blob/master/TECHNICAL_TRANSLATION_GUIDE_EN_ES.md>`_ para toda"
+" la terminología técnica. Añade nuevos términos a esa guía cuando los "
+"traductores acuerden una traducción preferida. No se deben traducir nombres "
+"de productos, ecuaciones, fórmulas químicas ni símbolos de unidades SI."
+
+#: ../../Textbook_Creation_Help/translating.rst:20
+msgid "Updating the Spanish Catalogs"
+msgstr "Actualización de los catálogos españoles"
+
+#: ../../Textbook_Creation_Help/translating.rst:22
+msgid ""
+"From the ``Textbook`` directory, extract the current English messages and "
+"merge them into the Spanish catalogs::"
+msgstr ""
+"Del directorio ``Textbook`` , extrae los mensajes actuales en inglés y "
+"intégralos en los catálogos en español:"
+
+#: ../../Textbook_Creation_Help/translating.rst:28
+msgid ""
+"Edit files under ``locale/es/LC_MESSAGES``. Do not edit the generated POT "
+"files to translate content. Changed English messages become fuzzy or "
+"untranslated and are not displayed until they are translated and published "
+"by the automated translation workflow."
+msgstr ""
+"Editar archivos bajo ``locale/es/LC_MESSAGES``. No editar los archivos POT "
+"generados para traducir contenido. Los mensajes en inglés cambiados se "
+"vuelven borrosos o sin traducir y no se muestran hasta que son traducidos y "
+"publicados por el flujo de trabajo automatizado de traducción."
+
+#: ../../Textbook_Creation_Help/translating.rst:34
+msgid "Testing"
+msgstr "Pruebas"
+
+#: ../../Textbook_Creation_Help/translating.rst:36
+msgid "Build both editions before submitting a pull request::"
+msgstr "Compila ambas ediciones antes de enviar una solicitud de tirada::"
+
+#: ../../Textbook_Creation_Help/translating.rst:41
+msgid ""
+"Check that cross-references, equations, terminology, units, image captions, "
+"and the language switcher work in both editions. Pull requests automatically"
+" run both builds."
+msgstr ""
+"Comprueba que las referencias cruzadas, ecuaciones, terminología, unidades, "
+"leyendas de imagen y el cambiador de idioma funcionen en ambas ediciones. "
+"Las pull requests ejecutan automáticamente ambas versiones."
+
+#: ../../Textbook_Creation_Help/translating.rst:46
+msgid "Review Policy"
+msgstr "Política de Revisión"
+
+#: ../../Textbook_Creation_Help/translating.rst:48
+msgid ""
+"The Spanish edition is machine translated and clearly identified as such on "
+"every page. Azure translations that pass the structural checks may be "
+"published without prior human review. Corrections from Spanish-speaking "
+"subject-matter reviewers are encouraged, especially for specifications, "
+"operating instructions, safety information, and technical terminology."
+msgstr ""
+"La edición en español está traducida automáticamente y claramente "
+"identificada como tal en cada página. Las traducciones de Azure que superen "
+"las comprobaciones estructurales pueden publicarse sin revisión humana "
+"previa. Se fomentan correcciones de revisores de la materia de habla "
+"hispana, especialmente en cuanto a especificaciones, instrucciones de "
+"funcionamiento, información de seguridad y terminología técnica."
+
+#: ../../Textbook_Creation_Help/translating.rst:54
+msgid ""
+"RST authoring examples that demonstrate literal backtick and role syntax are"
+" intentionally retained in English. Their purpose is to show the exact "
+"source markup rather than provide textbook content to Spanish readers."
+msgstr ""
+"Los ejemplos de redacción de RST que demuestran la sintaxis literal de "
+"backtick y roles se mantienen intencionadamente en inglés. Su propósito es "
+"mostrar el marcado exacto de la fuente en lugar de proporcionar contenido de"
+" libro de texto a los lectores españoles."
+
+#: ../../Textbook_Creation_Help/translating.rst:59
+msgid "Weblate Integration"
+msgstr "Integración Weblate"
+
+#: ../../Textbook_Creation_Help/translating.rst:61
+msgid ""
+"The repository is ready to connect to a Weblate project. Configure Weblate "
+"to use the POT templates in ``Textbook/locale/pot`` and translations in "
+"``Textbook/locale/<language>/LC_MESSAGES``. Enable Weblate's **Update PO "
+"files to match POT (msgmerge)** add-on for the project. Weblate should "
+"submit translation changes through pull requests so that the bilingual "
+"Sphinx build must pass before catalogs are merged."
+msgstr ""
+"El repositorio está listo para conectarse a un proyecto Weblate. Configura "
+"Weblate para usar las plantillas POT en ``Textbook/locale/pot`` y "
+"traducciones en ``Textbook/locale/<language>/LC_MESSAGES``. Activa el "
+"complemento **Update PO files de Weblate para que coincida con POT "
+"(msgmerge)** para el proyecto. Weblate debe enviar cambios de traducción "
+"mediante pull requests para que la compilación bilingüe de Sphinx pase antes"
+" de que los catálogos se fusionen."
+
+#: ../../Textbook_Creation_Help/translating.rst:68
+msgid ""
+"The external Weblate project is not created automatically because its "
+"hosting, ownership, access, and reviewer permissions must be selected by an "
+"AguaClara Reach repository administrator."
+msgstr ""
+"El proyecto externo Weblate no se crea automáticamente porque sus permisos "
+"de alojamiento, propiedad, acceso y revisor deben ser seleccionados por un "
+"administrador del repositorio AguaClara Reach."
+
+#: ../../Textbook_Creation_Help/translating.rst:73
+msgid "Automated Translation with Azure"
+msgstr "Traducción automática con Azure"
+
+#: ../../Textbook_Creation_Help/translating.rst:75
+msgid ""
+"The repository includes ``scripts/translate_po_azure.py`` for preparing a "
+"terminology-guided machine translation. Copy ``.azure-"
+"translator.env.example`` to ``.azure-translator.env`` and enter the resource"
+" key, endpoint, and region. The credentials file is ignored by Git and must "
+"never be committed."
+msgstr ""
+"El repositorio incluye ``scripts/translate_po_azure.py`` for preparing a "
+"terminology-guided machine translation. Copy ``.azure-"
+"translator.env.example`` to ``.azure-translator.env`` e introduce la clave "
+"de recurso, el punto final y la región. El archivo de credenciales es "
+"ignorado por Git y nunca debe ser confirmado."
+
+#: ../../Textbook_Creation_Help/translating.rst:80
+msgid "Check the connection and preview the quota without modifying catalogs::"
+msgstr "Revisa la conexión y previsualiza la cuota sin modificar los catálogos:"
+
+#: ../../Textbook_Creation_Help/translating.rst:85
+msgid "Translate and publish a small sample for review::"
+msgstr "Traduce y publica una pequeña muestra para su revisión:"
+
+#: ../../Textbook_Creation_Help/translating.rst:89
+msgid ""
+"After reviewing the sample, translate and publish all remaining and fuzzy "
+"entries with::"
+msgstr ""
+"Después de revisar la muestra, traduce y publica todas las entradas "
+"restantes y difusas con::"
+
+#: ../../Textbook_Creation_Help/translating.rst:94
+msgid ""
+"The tool protects Sphinx roles, links, substitutions, numbers, and "
+"placeholders; applies multiword terminology from the technical translation "
+"guide; rate-limits requests for the Azure F0 tier; and rejects entries that "
+"fail structural checks. Details of rejected entries are written to ``_build"
+"/azure-translation-report.json``."
+msgstr ""
+"La herramienta protege los roles, enlaces, sustituciones, números y "
+"marcadores de posición de Sphinx; aplica terminología de múltiples palabras "
+"de la guía técnica de traducción; limita las solicitudes de velocidad para "
+"el nivel Azure F0; y rechaza entradas que no superan comprobaciones "
+"estructurales. Los detalles de las entradas rechazadas se escriben para "
+"``_build/azure-translation-report.json``."
+
+#~ msgid ""
+#~ "Machine translation may be used to "
+#~ "prepare a draft, but technical content "
+#~ "must be reviewed by a Spanish-"
+#~ "speaking subject-matter reviewer before the"
+#~ " PO entry is marked as complete. "
+#~ "Specifications, operating instructions, safety "
+#~ "information, and numerical limits require "
+#~ "particular care."
+#~ msgstr ""
+#~ "La traducción automática puede utilizarse "
+#~ "para preparar un borrador, pero el "
+#~ "contenido técnico debe ser revisado por "
+#~ "un revisor de la materia que parle"
+#~ " español antes de que la entrada "
+#~ "de la orden de compra sea marcada "
+#~ "como completa. Las especificaciones, "
+#~ "instrucciones operativas, información de "
+#~ "seguridad y límites numéricos requieren un"
+#~ " cuidado especial."
+

@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: 2026-11-01 15:15-0500\n"
+"Last-Translator: AguaClara Reach Translation Team\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Acknowledgements.rst:12
+msgid "Acknowledgements"
+msgstr "Agradecimientos"
+
+#: ../../Acknowledgements.rst:14
+msgid ""
+"We gratefully acknowledge the funding provided by the Environmental "
+"Protection Agency and the National Science Foundation. Together they have "
+"provided over $1 million in support of developing the next generation of "
+"sustainable drinking water treatment technologies."
+msgstr ""
+"Agradecemos con entusiasmo la financiación proporcionada por la Agencia de "
+"Protección Ambiental y la Fundación Nacional de Ciencias. Juntos han "
+"aportado más de 1 millón de dólares en apoyo al desarrollo de la próxima "
+"generación de tecnologías sostenibles de tratamiento de agua para beber."
+
+#: ../../Acknowledgements.rst:17
+msgid "Environmental Protection Agency statement"
+msgstr "Declaración de la Agencia de Protección Ambiental"
+
+#: ../../Acknowledgements.rst:19
+msgid ""
+"“This textbook was developed under numerous Assistance Agreements awarded by"
+" the U.S. Environmental Protection Agency to Cornell University. It has not "
+"been formally reviewed by EPA. The views expressed in this document are "
+"solely those of the authors and do not necessarily reflect those of the "
+"Agency. EPA does not endorse any products or commercial services mentioned "
+"in this publication.”"
+msgstr ""
+"\"Este libro de texto fue desarrollado bajo numerosos Acuerdos de Asistencia"
+" otorgados por la Agencia de Protección Ambiental de EE. UU. a la "
+"Universidad de Cornell. No ha sido revisado formalmente por la EPA. Las "
+"opiniones expresadas en este documento son únicamente de los autores y no "
+"reflejan necesariamente las de la Agencia. La EPA no respalda ningún "
+"producto o servicio comercial mencionado en esta publicación.\""
+
+#: ../../Acknowledgements.rst:22
+msgid "National Science Foundation statement"
+msgstr "Declaración de la Fundación Nacional de Ciencias"
+
+#: ../../Acknowledgements.rst:23
+msgid ""
+"This material is based upon work supported by the National Science "
+"Foundation under Grant numbers CBET-1704472 and CBET-1437961. Any opinions, "
+"findings, and conclusions or recommendations expressed in this material are "
+"those of the authors and do not necessarily reflect the views of the "
+"National Science Foundation."
+msgstr ""
+"Este material se basa en trabajos apoyados por la National Science "
+"Foundation bajo los números de subvención CBET-1704472 y CBET-1437961. "
+"Cualquier opinión, hallazgo, conclusión o recomendación expresada en este "
+"material es responsabilidad de los autores y no refleja necesariamente las "
+"opiniones de la National Science Foundation."
+
+#: ../../Acknowledgements.rst:27
+msgid ""
+"Table of funded research projects that contributed to the knowledge in this "
+"textbook."
+msgstr ""
+"Tabla de proyectos de investigación financiados que contribuyeron al "
+"conocimiento de este libro de texto."
+
+#: ../../Acknowledgements.rst:1
+msgid "Agency"
+msgstr "Agencia"
+
+#: ../../Acknowledgements.rst:1
+msgid "Proposal Title"
+msgstr "Título de la propuesta"
+
+#: ../../Acknowledgements.rst:1
+msgid "NSF"
+msgstr "NSF"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Wrf: Experimental Observation and Modeling of Coagulant Mediated Contaminant"
+" Removal: Flocculation, Floc Blankets, and Clarification"
+msgstr ""
+"Wrf: Observación experimental y modelado de la eliminación de contaminantes "
+"mediados por coagulantes: floculación, mantas de floc y aclaración"
+
+#: ../../Acknowledgements.rst:1
+msgid "USEPA"
+msgstr "USEPA"
+
+#: ../../Acknowledgements.rst:1
+msgid "AguaClara's Ram Pump for Zero Electricity Drinking Water Treatment"
+msgstr ""
+"La bomba de rams de AguaClara para no consumir electricidad tratamiento de "
+"agua"
+
+#: ../../Acknowledgements.rst:1
+msgid "Environment & Community Friendly Wastewater Treatment"
+msgstr "Tratamiento de aguas residuales amigable con el medio ambiente y la comunidad"
+
+#: ../../Acknowledgements.rst:1
+msgid "High Rate Clarification"
+msgstr "Aclaración de tarifas altas"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Novel Reactor Design for Enhanced Removal of Fluoride Using A Modified "
+"Nalgonda Method"
+msgstr ""
+"Diseño novedoso de reactor para mejorar la eliminación del flúor mediante un"
+" método de Nalgonda modificado"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Experimental Evaluation And Modeling Of Hydraulic Flocculation Systems Under"
+" Conditions of Turbulent Flow"
+msgstr ""
+"Evaluación experimental y modelado de sistemas de floculación hidráulica "
+"bajo condiciones de flujo turbulento"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Application of Foam Filtration to Water Treatment for Rapid Emergency "
+"Response"
+msgstr ""
+"Aplicación de filtración de espuma a tratamiento de agua para una respuesta "
+"rápida a emergencias"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Stacked Rapid Sand Filtration - A Robust Filtration Process for Sustainable "
+"Drinking Water"
+msgstr ""
+"Filtración rápida de arena apilada: un proceso de filtración robusto para "
+"una agua potable sostenible"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Sustainable Water Treatment Facility for Communities with Arsenic "
+"Contaminated Groundwater"
+msgstr ""
+"Instalación de tratamiento de agua sostenible para comunidades con aguas "
+"subterráneas contaminadas con arsénico"
+
+#: ../../Acknowledgements.rst:1
+msgid "Smart Turbidimeters for Remote Monitoring of Water Quality"
+msgstr "Turbidímetros inteligentes para monitorización remota de calidad del agua"
+
+#: ../../Acknowledgements.rst:1
+msgid ""
+"Stacked Rapid Sand Filtration - A Robust Filtration Process for Sustainable "
+"Drinking Water Infrastructure"
+msgstr ""
+"Filtración rápida de arena apilada: un proceso de filtración robusto para "
+"infraestructuras agua potable sostenibles"
+
+#: ../../Acknowledgements.rst:1
+msgid "Developing A Point-of-Use Filter Utilizing Polyurethane Foam"
+msgstr "Desarrollo de un filtro para el punto de uso utilizando espuma de poliuretano"
+
+#: ../../Acknowledgements.rst:1
+msgid "Dose Controller for AguaClara Water Treatment Plants"
+msgstr "Controlador de dosis para plantas de tratamiento de agua AguaClara"
+
+#: ../../Acknowledgements.rst:1
+msgid "AguaClara: Clean Water for Small Communities"
+msgstr "AguaClara: Agua limpia para pequeñas comunidades"
+
+#: ../../Acknowledgements.rst:54
+msgid "More gratitude below!"
+msgstr "¡Más agradecimientos a continuación!"
+
+#: ../../Acknowledgements.rst:50
+msgid "Ken Brown and the Sanjuan Foundation"
+msgstr "Ken Brown y la Fundación Sanjuan"
+
+#: ../../Acknowledgements.rst:51
+msgid "Duane Stiller"
+msgstr "Duane Stiller"
+
+#: ../../Acknowledgements.rst:52
+msgid ""
+"Countless other donors whose contributions have made it possible to develop "
+"new technologies and share those technologies with partner organizations and"
+" communities"
+msgstr ""
+"Innumerables otros donantes cuyas contribuciones han hecho posible "
+"desarrollar nuevas tecnologías y compartirlas con organizaciones y "
+"comunidades asociadas"
+
+#: ../../Acknowledgements.rst:53
+msgid ""
+"Many hundreds of students who gave their time and creativity so that others "
+"could have safe water on tap"
+msgstr ""
+"Cientos de estudiantes que dedicaron su tiempo y creatividad para que otros "
+"pudieran tener agua segura al grifo"
+
+#: ../../Acknowledgements.rst:54
+msgid ""
+"The Swiss Development Cooperation that has funded the construction of 5 "
+"AguaClara plants in Honduras and 2 in Nicaragua"
+msgstr ""
+"La Cooperación Suiza para el Desarrollo ha financiado la construcción de 5 "
+"plantas de AguaClara en Honduras y 2 en Nicaragua"
+
+#: ../../Acknowledgements.rst:55
+msgid "Cornell Engineering for providing generous funding in the startup years."
+msgstr ""
+"Cornell Engineering por proporcionar financiación generosa durante los años "
+"iniciales."
+

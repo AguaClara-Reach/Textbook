@@ -1,0 +1,15 @@
+{% extends "!layout.html" %}
+
+{% block sidebartitle %}
+  {{ super() }}
+  <nav class="sidebar-language-switcher" aria-label="{% if current_language == 'es' %}Selector de idioma{% else %}Language selector{% endif %}">
+    {%- for item in translation_links %}
+      {%- if item.code == current_language %}
+        <strong lang="{{ item.code }}" aria-current="page">{{ item.label }}</strong>
+      {%- else %}
+        <a href="{{ item.url }}" hreflang="{{ item.code }}" lang="{{ item.code }}">{{ item.label }}</a>
+      {%- endif %}
+      {%- if not loop.last %}<span aria-hidden="true"> | </span>{% endif %}
+    {%- endfor %}
+  </nav>
+{% endblock %}

@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:13
+msgid "Future Work"
+msgstr "Trabajo futuro"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:15
+msgid ""
+"Here we explore uncharted territory of particle removal mechanisms and "
+"failure modes found in clarifiers."
+msgstr ""
+"Aquí exploramos territorios desconocidos de los mecanismos de eliminación de"
+" partículas y los modos de fallo que se encuentran en los clarificadores."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:20
+msgid "Unsolved Clarifier Failure Modes"
+msgstr "Modos de fallo del clarificador sin resolver"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:22
+msgid ":ref:`Floc volcanoes <heading_Floc_Volcanoes>`"
+msgstr ":ref:`Floc volcanoes <heading_Floc_Volcanoes>`"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:23
+msgid ""
+"Dissolved air flotation that results from air coming out of solution. Two "
+"sources of air include compressed air traveling from the transmission line "
+"and dissolved air released due to increased temperature."
+msgstr ""
+"Flotación de aire disuelto que resulta de la salida del aire de la solución."
+" Dos fuentes de aire son el aire comprimido que sale del línea de conducción"
+" y el aire disuelto liberado debido al aumento de temperatura."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:24
+msgid "Slime growth from iron-oxidizing bacteria."
+msgstr "Crecimiento de baba por bacterias oxidantes de hierro."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:25
+msgid "NOM impact on floc density."
+msgstr "Impacto de la NOM en la densidad de flóculos."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:31
+msgid "Floc Filtration in Conventional Clarifiers"
+msgstr "Filtración por floc en clarificadores convencionales"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:33
+msgid ""
+"Flocs that are created by the flocculator settle through the water column in"
+" conventional sedimentation tanks. As the flocs settle a fraction of the "
+"water passes through the floc where the suspension experiences floc "
+"filtration. This particle removal mechanism increases in importance as the "
+"raw water turbidity increases and the resulting concentration of flocs "
+"increases. To describe the physics of this system we define three volumes."
+msgstr ""
+"Los flócs creados por el floculador se asientan a través de la columna de "
+"agua en tanques de sedimentación convencionales. A medida que los flócs se "
+"asientan, una fracción del agua pasa por el flóc, donde la suspensión "
+"experimenta filtración por flócs. Este mecanismo de eliminación de "
+"partículas cobra importancia a medida que aumenta la turbidez agua cruda y "
+"la concentración resultante de flócs. Para describir la física de este "
+"sistema definimos tres volúmenes."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:35
+msgid ""
+"The volume cleared, :math:`\\forall_{\\rm{Cleared}}` by a floc is equal to "
+"the cleared area as the floc moves relative to the suspension multiplied by "
+"the total distance traveled relative to the suspension. In a horizontal flow"
+" sedimentation tank the average distance traveled could be 1/2 the depth of "
+"water in the sedimentation basin. It is possible that the volume cleared is "
+"proportional to the fraction coverage of the particles by coagulant "
+"nanoparticles. The volume cleared may also be a function of the floc size."
+msgstr ""
+"El volumen liberado, :math:`\\forall_{\\rm{Cleared}}` por un flóc, es igual "
+"al área despejada a medida que el flóculum se mueve respecto a la "
+"suspensión, multiplicado por la distancia total recorrida respecto a la "
+"suspensión. En un tanque de sedimentación de flujo horizontal, la distancia "
+"media recorrida podría ser 1/2 la profundidad del agua en la cuenca de "
+"sedimentación. Es posible que el volumen eliminado sea proporcional a la "
+"cobertura fraccionaria de las partículas por nanopartículas coagulantes. El "
+"volumen despejado también puede ser función del tamaño del flóculo."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:37
+msgid ""
+"The volume surrounding a floc, :math:`\\forall_{\\rm{Surround}}`, is the "
+"volume of the suspension divided by the number of flocs in that suspension."
+msgstr ""
+"El volumen que rodea un flóculo, :math:`\\forall_{\\rm{Surround}}`, es el "
+"volumen de la suspensión dividido por el número de flóclos en esa "
+"suspensión."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:39
+msgid ""
+"The volume of the reactor or suspension that is an arbitrary large volume "
+"that will eventually drop out of the analysis, "
+":math:`\\forall_{\\rm{Suspension}}`."
+msgstr ""
+"El volumen del reactor o suspensión que es un volumen arbitrario y grande "
+"que eventualmente saldrá del análisis, :math:`\\forall_{\\rm{Suspension}}`."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:41
+msgid ""
+"We will treat the clearing events when a floc falls through the suspension "
+"as sequential events with complete mixing of the primary particles between "
+"clearing events. This assumption is based on the mixing caused by turbulence"
+" of the flow in the sedimentation tank and the initial random distribution "
+"of flocs. The initial nonsettleable particle concentration, :math:`C_{P_0}`,"
+" will be reduced by each clearing event. The nonsettleable particle "
+"concentration after the first clearing event, :math:`C_{P_{one floc}}`, is "
+"given by"
+msgstr ""
+"Trataremos los eventos de despeje cuando un flóc cae a través de la "
+"suspensión como eventos secuenciales con mezcla completa de las partículas "
+"primarias entre eventos de limpieza. Esta suposición se basa en la mezcla "
+"causada por la turbulencia del flujo en el tanque de sedimentación y la "
+"distribución aleatoria inicial de flócs. La concentración inicial de "
+"partículas no asentables, :math:`C_{P_0}`, se reducirá con cada evento de "
+"limpieza. La concentración de partículas no asentables tras el primer evento"
+" de limpieza, :math:`C_{P_{one floc}}`, se da por"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:43
+msgid ""
+"C_{P_{one floc}} = C_{P_0} \\left( 1 - "
+"\\frac{{\\forall_{\\rm{Cleared}}}}{\\forall_{\\rm{Suspension}}} \\right)"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:48
+msgid ""
+"The total number of clearing events is given by the total number of flocs in"
+" the suspension."
+msgstr ""
+"El número total de eventos de limpieza se determina por el número total de "
+"flócs en la suspensión."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:50
+msgid ""
+"N_{Clearing} = "
+"\\frac{{\\forall_{\\rm{Suspension}}}}{\\forall_{\\rm{Surround}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:55
+msgid ""
+"The nonsettleable particle concentration after :math:`N_{Clearing}` clearing"
+" events is given by"
+msgstr ""
+"La concentración de partículas no asentables tras :math:`N_{Clearing}` "
+"eventos de limpieza está dada por"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:57
+msgid ""
+"C_{P} = C_{P_0} \\left( 1 - "
+"\\frac{{\\forall_{\\rm{Cleared}}}}{\\forall_{\\rm{Suspension}}} "
+"\\right)^{\\frac{{\\forall_{\\rm{Suspension}}}}{\\forall_{\\rm{Surround}}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:62
+msgid ""
+"The exponent, "
+":math:`\\frac{{\\forall_{\\rm{Suspension}}}}{\\forall_{\\rm{Surround}}}`, "
+"can be multiplied by 1 in the form of "
+":math:`\\frac{{\\forall_{\\rm{Cleared}}}}{\\forall_{\\rm{Cleared}}}` to "
+"obtain"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:64
+msgid ""
+"C_{P} = C_{P_0} \\left( 1 - "
+"\\frac{{\\forall_{\\rm{Cleared}}}}{\\forall_{\\rm{Suspension}}} "
+"\\right)^{{\\frac{{\\forall_{\\rm{Suspension}}}}{\\forall_{\\rm{Cleared}}}}\\frac{{\\forall_{\\rm{Cleared}}}}{\\forall_{\\rm{Surround}}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:69
+msgid ""
+"For large n the term :math:`\\left( 1-\\frac{1}{n}\\right)^n` approaches "
+":math:`\\frac{1}{e}`. To meet this requirement we simply need the suspension"
+" volume to be large compared with the volume cleared by a single floc. "
+"Equation :eq:`sed_Cp_all_clearing_events_2` simplifies to"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:71
+msgid ""
+"\\frac{C_{TS_{flocFiltered}}}{C_{TS_{flocculated}}} = \\frac{C_{P}}{C_{P_0}}"
+" =  \\left( \\frac{1}{e} "
+"\\right)^\\frac{\\forall_{\\rm{Cleared}}}{\\forall_{\\rm{Surround}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:76
+msgid ""
+"where :math:`C_{TS_{flocFiltered}}` is the concentration of particles not "
+"removed by a tube settler (or equivalent) after passing through the "
+"clarifier and :math:`C_{TS_{flocculated}}` is the concentration of particles"
+" not removed by a tube settler after flocculation.  The exponent "
+":math:`\\frac{\\forall_{\\rm{Cleared}}}{\\forall_{\\rm{Surround}}}` "
+"increases as the volume surrounding each floc decreases. Thus the particle "
+"removal efficiency will increase as the floc concentration increases."
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:81
+msgid "Flocculator to Floc Filter Transition"
+msgstr "Floculador a transición filtro de flóculos "
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:83
+msgid ""
+"We now have a published AguaClara hydraulic flocculator model and we have "
+"strong evidence that primary particles are removed first order with respect "
+"to depth (or time) in the floc filter. Given these two models it is possible"
+" for the first time to optimize the design of a flocculator based on "
+"minimizing the volume of the flocculator and floc filter reactors."
+msgstr ""
+"Ahora disponemos de un modelo publicado de floculador hidráulico AguaClara y"
+" tenemos pruebas sólidas de que las partículas primarias se eliminan de "
+"primer orden respecto a la profundidad (o el tiempo) en el filtro de "
+"flóculos. Con estos dos modelos, es posible por primera vez optimizar el "
+"diseño de un floculador minimizando el volumen del floculador y filtro de "
+"flóculos reactores."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:85
+msgid "From the floc model we have"
+msgstr "Del modelo de floc tenemos"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:87
+msgid ""
+"       "
+"\\frac{dC_{P}}{dt}=-\\pi\\bar{\\alpha}kC_{P}\\left(\\frac{6}{\\pi}\\frac{C_{P}}{\\rho_P}\\right)^{2/3}"
+" \\tilde{G}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:93
+msgid ""
+"From the floc filter we know that particle removal is first order with "
+"respect to depth of the floc filter or time in the floc filter. We can use "
+"floc filter data to estimate the first order rate constant."
+msgstr ""
+"Por el filtro de flóculos sabemos que la eliminación de partículas es de "
+"primer orden respecto a la profundidad del filtro de flóculos o tiempo en el"
+" filtro de flóculos. Podemos usar filtro de flóculos datos para estimar la "
+"constante de tasa de primer orden."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:95
+msgid "       \\frac{dC_{P}}{dt}=-k_{ff}C_{P}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:100
+msgid "Separate variables to integrate this rate equation."
+msgstr "Variables separadas para integrar esta ecuación de tasa."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:102
+msgid "       \\frac{dC_{P}}{C_{P}}=-k_{ff}dt"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:107
+msgid "We integrate this to solve for the rate constant."
+msgstr "Integramos esto para resolver la constante de tasa."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:109
+msgid "       k_{ff} = -\\frac{1}{\\theta_{ff}}ln{\\frac{C_{P}}{C_{P_0}}}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:114
+msgid ""
+"We will use the previous equation to estimate the rate constant for the floc"
+" filter."
+msgstr ""
+"Usaremos la ecuación anterior para estimar la constante de tasa para la "
+"filtro de flóculos."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:116
+msgid ""
+"We can obtain a minimum volume design by setting the rate of primary "
+"particle loss at the end of the flocculator to be equal to the rate of "
+"primary particle loss at the beginning of the floc filter."
+msgstr ""
+"Podemos obtener un diseño de volumen mínimo estableciendo la tasa de pérdida"
+" de partículas primarias al final del floculador igual a la tasa de pérdida "
+"de partículas primarias al inicio del filtro de flóculos."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:118
+msgid ""
+"       "
+"-k_{ff}C_{P}=-\\pi\\bar{\\alpha}kC_{P}\\left(\\frac{6}{\\pi}\\frac{C_{P}}{\\rho_P}\\right)^{2/3}"
+" \\tilde{G}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:123
+msgid ""
+"Now we solve the previous equation for the target concentration of primary "
+"particles that we should design for at the end of the flocculator."
+msgstr ""
+"Ahora resolvemos la ecuación anterior para la concentración objetivo de "
+"partículas primarias que deberíamos diseñar al final del floculador."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:125
+msgid ""
+"      C_{P_{floc out}} = \\frac{\\pi \\rho_P}{6} \\left( "
+"\\frac{k_{ff}}{\\pi\\bar{\\alpha}k \\tilde{G}}\\right)^{3/2}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:131
+msgid ""
+"The concentration of primary particles at the flocculator effluent will be a"
+" function of the flocculator velocity gradient."
+msgstr ""
+"La concentración de partículas primarias en el efluente del floculador será "
+"función del gradiente de velocidad del floculador."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:133
+msgid ""
+"The next step is to determine the Gt for the flocculator given this effluent"
+" flocculator particle concentration. The approximate equation for"
+msgstr ""
+"El siguiente paso es determinar el Gt para el floculador dada la "
+"concentración de partículas floculadoras de este efluente. La ecuación "
+"aproximada para"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:135
+msgid ""
+" \\tilde{G}\\theta \\approx \\frac{3}{2} \\frac{\\Lambda^2}{k \\pi D_P^2 "
+"\\alpha}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:141
+msgid "where the particle separation distance is given by"
+msgstr "donde la distancia de separación de partículas viene dada por"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:143
+msgid ""
+"\\Lambda = \\left( \\frac{\\pi D_P^3}{6} \\frac{\\rho_P}{C_P} "
+"\\right)^\\frac{1}{3}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:148
+msgid "Putting the previous two equations together we have:"
+msgstr "Juntando las dos ecuaciones anteriores obtenemos:"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:150
+msgid ""
+" \\tilde{G}\\theta \\approx \\frac{3}{2} \\frac{1}{k \\pi D_P^2 \\alpha} "
+"\\left( \\frac{\\pi D_P^3}{6} \\frac{\\rho_P}{C_P} \\right)^\\frac{2}{3}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:155
+msgid "We can simplify this equation because the particle size cancels out."
+msgstr "Podemos simplificar esta ecuación porque el tamaño de la partícula se anula."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:157
+msgid ""
+" \\tilde{G}\\theta \\approx \\frac{3}{2} \\frac{1}{k \\pi \\alpha} \\left( "
+"\\frac{\\pi}{6} \\frac{\\rho_P}{C_P} \\right)^\\frac{2}{3}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:163
+msgid ""
+"Now we can substitute the equation for the optimal flocculated water primary"
+" particle concentrations into the flocculator performance equation."
+msgstr ""
+"Ahora podemos sustituir la ecuación de las concentraciones óptimas de "
+"partículas primarias de agua floculada en la ecuación de rendimiento del "
+"floculador."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:165
+msgid ""
+" \\tilde{G}\\theta \\approx \\frac{3}{2} \\frac{1}{k \\pi \\alpha} \\left( "
+"\\frac{\\pi\\bar{\\alpha}k \\tilde{G}}{k_{ff}}\\right)"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:170
+msgid ""
+"This simplifies to a very simple relationship that gives the optimal "
+"flocculator residence time. This analysis assumes that the cost per volume "
+"of flocculator is the same as the cost per volume of floc filter."
+msgstr ""
+"Esto se simplifica a una relación muy simple que proporciona el tiempo "
+"óptimo de residencia del floculador. Este análisis asume que el coste por "
+"volumen del floculador es el mismo que el coste por volumen de filtro de "
+"flóculos."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:172
+msgid "\\theta \\approx \\frac{3}{2} \\left( \\frac{1}{k_{ff}}\\right)"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:177
+msgid ""
+"We now have an equation for the optimal flocculator residence time! It is a "
+"function of the floc filter rate constant. The analysis below suggests that "
+"the optimal flocculator residence time is about 300 seconds (5 minutes). "
+"This analysis does not provide guidance on the optimal amount of energy to "
+"be used in that flocculator. Overall plant performance is a function of how "
+"much energy is used in flocculation and so that would need to be an economic"
+" analysis. Startup performance when the floc filter is not yet formed is a "
+"function of the energy dissipation rate."
+msgstr ""
+"¡Ahora tenemos una ecuación para el tiempo óptimo de residencia del "
+"floculador! Es función de la constante de tasa de filtro de flóculos . El "
+"análisis a continuación sugiere que el tiempo óptimo de residencia del "
+"floculador es de unos 300 segundos (5 minutos). Este análisis no proporciona"
+" orientación sobre la cantidad óptima de energía que se debe utilizar en ese"
+" floculador. El rendimiento general de la planta depende de cuánta energía "
+"se utilice en la floculación, por lo que eso debería ser un análisis "
+"económico. El rendimiento de arranque cuando el filtro de flóculos aún no se"
+" ha formado depende de la tasa de disipación de energía."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:179
+msgid ""
+"This analysis suggests that a residence time that is less than what we are "
+"currently using for civil works AguaClara plants (about 8 minutes) and "
+"greater than what we are using for the PF300 (1-2 minutes) is the optimal "
+"solution. High velocity gradients for flocculators with this long of a "
+"residence time will require a lot of head loss. We need to make sure that we"
+" are using a reasonable amount of energy."
+msgstr ""
+"Este análisis sugiere que un tiempo de residencia menor que el que usamos "
+"actualmente para las plantas de obras civiles de AguaClara (unos 8 minutos) "
+"y mayor que el que usamos para el PF300 (1-2 minutos) es la solución óptima."
+" Gradientes de velocidad elevados para floculadores con un tiempo de "
+"residencia tan largo requerirán mucha pérdida de carga. Debemos asegurarnos "
+"de que estamos usando una cantidad razonable de energía."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:182
+msgid "The flocculator head loss is given by"
+msgstr "El pérdida de carga floculador se da por"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:184
+msgid " h_{Floc} = \\tilde{G} \\theta \\frac{\\nu \\tilde{G}}{g}"
+msgstr ""
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:191
+msgid ""
+"`Colab worksheet calculating  head loss through the floc filter "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=fMlmtxm_YWJY&line=2&uniqifier=1>`_"
+msgstr ""
+"`hoja de cálculo de Colab  pérdida de carga a través del filtro de flóculos "
+"<https://colab.research.google.com/drive/1lE7cHu3TS1vMs0_yA3FmNdPnk3iktBJw#scrollTo=fMlmtxm_YWJY&line=2&uniqifier=1>`_"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:193
+msgid ""
+"The target flocculator Gt of 39,000 is crazy close to the current design. "
+"This value will undoubtedly change somewhat as we get better measurements "
+"for the floc filter rate constant."
+msgstr ""
+"El floculador objetivo Gt de 39.000 está increíblemente cerca del diseño "
+"actual. Este valor sin duda cambiará algo a medida que obtengamos mejores "
+"mediciones para la constante de tasa filtro de flóculos ."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:195
+msgid ""
+"This analysis suggests that the primary particle concentration after "
+"flocculation can be quite high when operating with a floc filter. Further "
+"work will be required to ensure that startup is not a problem."
+msgstr ""
+"Este análisis sugiere que la concentración primaria de partículas tras la "
+"floculación puede ser bastante alta cuando se opera con un filtro de "
+"flóculos. Se requerirá más trabajo para asegurar que el arranque no sea un "
+"problema."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:201
+msgid "Floc Volcanoes"
+msgstr "Volcanes Floc"
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:203
+msgid ""
+"Floc volcanoes are caused by differences in temperature between the water "
+"that is in a clarifier and the incoming water. If the incoming water is "
+"warmer than the water that is already in the clarifier, then the incoming "
+"water will be buoyant and will rise quickly to the top of the clarifier and "
+"carry flocs to the effluent launder."
+msgstr ""
+"Los volcanes floc son causados por diferencias de temperatura entre el agua "
+"que está en un clarificador y el agua entrante. Si el agua entrante está más"
+" caliente que el agua ya en el clarificador, entonces el agua entrante será "
+"flotante y subirá rápidamente hasta la parte superior del clarificador, "
+"llevando los floques al lavado de efluentes."
+
+#: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:205
+msgid ""
+"Temperature fluctuations can be especially pronounced with small scale water"
+" supplies where small streams and small diameter transmission lines can be "
+"exposed to the sun and can warm up dramatically during a few hours of "
+"sunshine. Given that temperature changes and density changes can not easily "
+"be engineered, the only solution that we have is to reduce the time that "
+"water spends in the clarifier so that the influent water is closer to the "
+"average temperature of the water in the clarifier. Solar heating causing the"
+" raw water temperature to go from a minimum at 6 am to a maximum at 1 pm. "
+"AguaClara clarifiers currently have a residence time of approximately 2 m / "
+"(1 mm/s) or 2000 s. We anticipate that by increasing the upflow velocity and"
+" by introducing floc recycle that the effects of temperature induced floc "
+"volcanoes will be reduced."
+msgstr ""
+"Las fluctuaciones de temperatura pueden ser especialmente pronunciadas en "
+"suministros de agua a pequeña escala, donde pequeños arroyos y líneas de "
+"transmisión de pequeño diámetro pueden estar expuestos al sol y pueden "
+"calentarse drásticamente durante unas pocas horas de sol. Dado que los "
+"cambios de temperatura y densidad no pueden ser fácilmente diseñados, la "
+"única solución que tenemos es reducir el tiempo que el agua pasa en el "
+"clarificador para que el agua influyente esté más cerca de la temperatura "
+"media del agua en el clarificador. El calentamiento solar hace que la "
+"temperatura agua cruda pase de un mínimo a las 6 de la mañana a un máximo a "
+"la 1 de la tarde. Los clarificadores AguaClara tienen actualmente un tiempo "
+"de residencia de aproximadamente 2 m / (1 mm/s) o 2000 s. Prevemos que "
+"aumentando la velocidad de flujo ascendente e introduciendo el reciclaje de "
+"flócs se reducirán los efectos de los volcanes floc inducidos por la "
+"temperatura."
+

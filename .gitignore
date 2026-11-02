@@ -2,3 +2,6 @@
 Technical_Report/_build
 .idea/
 /_build/
+.azure-translator.env
+__pycache__/
+*.pyc

@@ -1,0 +1,851 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:12
+msgid "Parameter Convention List"
+msgstr "Lista de convenciones de parámetros"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:16
+msgid "Relevant Dimensions"
+msgstr "Dimensiones relevantes"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Dimension"
+msgstr "Dimensión"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Abbreviation"
+msgstr "Abreviatura"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Base Unit"
+msgstr "Unidad Base"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Length"
+msgstr "Longitud"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`[L]`"
+msgstr ":math:`[L]`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "meter"
+msgstr "Medidor"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Mass"
+msgstr "Misa"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`[M]`"
+msgstr ":math:`[M]`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "kilogram"
+msgstr "kilogramo"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Time"
+msgstr "Tiempo"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`[T]`"
+msgstr ":math:`[T]`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "second"
+msgstr "Segundo"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:26
+msgid ""
+"If you would like to be able to ``ctrl+f`` some variables, click on 'View "
+"page source' on the top right of this window. If you want to know what a "
+"Greek variable is but don't know what it's called, you can view the source "
+"text on the file where you found the variable. nu, mu, eta, who actually "
+"remembers what these all look like? The letter 'v' should sue 'nu' for "
+"copyright infringement. Or is it the other way around?"
+msgstr ""
+"Si quieres poder ``ctrl+f`` algunas variables, haz clic en 'Ver fuente de la"
+" página' en la esquina superior derecha de esta ventana. Si quieres saber "
+"qué es una variable griega pero no sabes cómo se llama, puedes ver el texto "
+"fuente en el archivo donde encontraste la variable. Nu, mu, ETA, ¿quién "
+"recuerda realmente cómo son todas estas variables? La letra 'v' debería "
+"demandar a 'nu' por infracción de derechos de autor. ¿O es al revés?"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:30
+msgid "Parameter Guide"
+msgstr "Guía de parámetros"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Units"
+msgstr "Unidades"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "*Uppercase letters*"
+msgstr "*Letras mayúsculas*"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`A`"
+msgstr ":math:`A`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Area"
+msgstr "Área"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`[L]^2`"
+msgstr ":math:`[L]^2`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`A_{floc}`"
+msgstr ":math:`A_{floc}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Projected cross sectional area of particle"
+msgstr "Área proyectada de sección transversal de la partícula"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`A_p`"
+msgstr ":math:`A_p`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Plan view area"
+msgstr "Área de vista en planta"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`B`"
+msgstr ":math:`B`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Center-to-Center Spacing Between Two Objects"
+msgstr "Espaciado centro a centro entre dos objetos"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`C`"
+msgstr ":math:`C`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Concentration"
+msgstr "Concentración"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[M]}{[L]^3}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`C_D`"
+msgstr ":math:`C_D`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Drag coefficient"
+msgstr "Coeficiente de arrastre"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Dimensionless"
+msgstr "Adimensional"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`D`"
+msgstr ":math:`D`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Diameter"
+msgstr "Diámetro"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`D_{cp}`"
+msgstr ":math:`D_{cp}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Diameter of core particle"
+msgstr "Diámetro de la partícula central"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`F`"
+msgstr ":math:`F`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Force"
+msgstr "Fuerza"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[M][L]}{[T]^2}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`G`"
+msgstr ":math:`G`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Velocity Gradient/Fluid Deformation"
+msgstr "Gradiente de velocidad/Deformación del fluido"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{1}{[T]}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\tilde{G}`"
+msgstr ":math:`\\tilde{G}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Camp Stein velocity gradient"
+msgstr "Gradiente de velocidad de Camp Stein"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`G\\theta`"
+msgstr ":math:`G\\theta`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Collision potential"
+msgstr "Potencial de colisión"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`H`"
+msgstr ":math:`H`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Height"
+msgstr "Altura"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`H_c`"
+msgstr ":math:`H_c`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Critical height"
+msgstr "Altura crítica"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`H_e`"
+msgstr ":math:`H_e`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Distance Between Flow Expansions in a Flocculator"
+msgstr "Distancia entre expansiones de flujo en un floculador"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`H_{ff}`"
+msgstr ":math:`H_{ff}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Height of the floc filter"
+msgstr "Altura de la filtro de flóculos"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`K`"
+msgstr ":math:`K`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Minor Loss coefficient"
+msgstr "Coeficiente de pérdida menor"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`L`"
+msgstr ":math:`L`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`L_{SedActive}`"
+msgstr ":math:`L_{SedActive}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ""
+"Length of the plate settlers in the clarifier (not including the triangle at"
+" the end of the tank)"
+msgstr ""
+"Longitud de los estabilizadores de placas en el clarificador (sin incluir el"
+" triángulo al final del tanque)"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`L_{ff}`"
+msgstr ":math:`L_{ff}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Length of the floc filter in a clarifier"
+msgstr "Longitud de la filtro de flóculos en un clarificador"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`M`"
+msgstr ":math:`M`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Fluid Momentum"
+msgstr "Momento del fluido"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`P`"
+msgstr ":math:`P`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Power"
+msgstr "Energía"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[M][L]^2}{[T]^3}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`Q`"
+msgstr ":math:`Q`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Flow rate"
+msgstr "caudal"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]^3}{[T]}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`Q_{diff}`"
+msgstr ":math:`Q_{diff}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Flow rate through each diffuser"
+msgstr "caudal a través de cada difusor"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`Q_{Clarifier}`"
+msgstr ":math:`Q_{Clarifier}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Flow rate through each clarifier"
+msgstr "caudal a través de cada clarificador"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`{\\rm Re}`"
+msgstr ":math:`{\\rm Re}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Reynolds Number"
+msgstr "Número de Reynolds"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`S`"
+msgstr ":math:`S`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Spacing Between Two Objects"
+msgstr "Espaciamiento entre dos objetos"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`T`"
+msgstr ":math:`T`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Object Thickness"
+msgstr "Espesor del objeto"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\forall`"
+msgstr ":math:`\\forall`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Volume"
+msgstr "Volumen"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`[L]^3`"
+msgstr ":math:`[L]^3`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`W`"
+msgstr ":math:`W`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Width"
+msgstr "Anchura"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`W_{diff_{min}}`"
+msgstr ":math:`W_{diff_{min}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Minimum internal width of diffuser"
+msgstr "Anchura interna mínima del difusor"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`W_{floc}`"
+msgstr ":math:`W_{floc}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Gravitational weight of floc"
+msgstr "Peso gravitacional del flóculo"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`W_{Clarifier}`"
+msgstr ":math:`W_{Clarifier}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Width of each clarifier"
+msgstr "Ancho de cada clarificador"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "*Lowercase letters*"
+msgstr "*Letras minúsculas*"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\rm{f}`"
+msgstr ":math:`\\rm{f}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Darcy-Weisbach friction factor"
+msgstr "Factor de fricción de Darcy-Weisbach"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{du}{dy}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Velocity gradient between plate settlers"
+msgstr "Gradiente de velocidad entre los sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`g`"
+msgstr ":math:`g`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Acceleration due to Gravity"
+msgstr "Aceleración debida a la gravedad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]}{[T]^2}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`h`"
+msgstr ":math:`h`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Head, Elevation"
+msgstr "Cabeza, elevación"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`h_e`"
+msgstr ":math:`h_e`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Minor Loss (expansion)"
+msgstr "Pérdida menor (expansión)"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`h_{\\rm f}`"
+msgstr ":math:`h_{\\rm f}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Major Loss (friction)"
+msgstr "Pérdida mayor (fricción)"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`h_L`"
+msgstr ":math:`h_L`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Total headloss"
+msgstr "Pérdida total de cabeza"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`h_{L_{jet}}`"
+msgstr ":math:`h_{L_{jet}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Head loss in jet leaving jet reverser"
+msgstr "pérdida de carga en el inversor del chorro que sale"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`m`"
+msgstr ":math:`m`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`n`"
+msgstr ":math:`n`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Number, Amount"
+msgstr "Número, cantidad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`p`"
+msgstr ":math:`p`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Pressure"
+msgstr "Presión"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[M]}{[L][T]^2}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`r`"
+msgstr ":math:`r`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Radius"
+msgstr "Radio"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`t`"
+msgstr ":math:`t`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`u`"
+msgstr ":math:`u`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Velocity in the x-direction"
+msgstr "Velocidad en la dirección x"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]}{[T]}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v`"
+msgstr ":math:`v`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Velocity"
+msgstr "Velocidad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_{\\alpha_{Plate}}`"
+msgstr ":math:`\\bar v_{\\alpha_{Plate}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "average fluid velocity between plate settlers"
+msgstr "Velocidad media del fluido entre sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_{z_{Active}}`"
+msgstr ":math:`\\bar v_{z_{Active}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ""
+"Upflow velocity of the water entering the plate settlers; vertical velocity "
+"in the 'active' region"
+msgstr ""
+"Velocidad ascendente del agua que entra en los sedimentadores de placas; "
+"velocidad vertical en la región 'activa'"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_c`"
+msgstr ":math:`\\bar v_c`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Capture velocity"
+msgstr "Velocidad de captura"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_H`"
+msgstr ":math:`\\bar v_H`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Horizontal velocity"
+msgstr "Velocidad horizontal"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_{jet}`"
+msgstr ":math:`\\bar v_{jet}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Velocity of the jet exiting the diffuser"
+msgstr "Velocidad del chorro que sale del difusor"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_{x_{Plate}}`"
+msgstr ":math:`\\bar v_{x_{Plate}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Horizontal velocity through plate settlers"
+msgstr "Velocidad horizontal a través de los sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v_{particle}`"
+msgstr ":math:`v_{particle}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Net velocity of a particle between plate settlers"
+msgstr "Velocidad neta de una partícula entre sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v_{z_{Plate}}`"
+msgstr ":math:`v_{z_{Plate}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Average vertical velocity of the water between the plate settlers"
+msgstr "Velocidad vertical media del agua entre los sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v_{Settle}`"
+msgstr ":math:`v_{Settle}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Settling velocity"
+msgstr "Velocidad de asentamiento"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v_{Slide}`"
+msgstr ":math:`v_{Slide}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Clarification velocity of floc between plate settlers"
+msgstr "Velocidad de clarificación del floc entre sedimentadores de placas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\bar v_{z_{FB}}`"
+msgstr ":math:`\\bar v_{z_{FB}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Average vertical velocity of the water through the floc filter"
+msgstr "Velocidad vertical media del agua a través del filtro de flóculos"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`v_t`"
+msgstr ":math:`v_t`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Terminal velocity of particle"
+msgstr "Velocidad terminal de la partícula"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`z`"
+msgstr ":math:`z`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Elevation"
+msgstr "Altitud"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "*Greek lowercase letters*"
+msgstr "*Letras minúsculas griegas*"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\alpha`"
+msgstr ":math:`\\alpha`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Angle of plate settler"
+msgstr "Ángulo de placa sedimentadora"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Degrees"
+msgstr "Grados"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\epsilon`"
+msgstr ":math:`\\epsilon`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Surface roughness"
+msgstr "Rugosidad superficial"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\varepsilon`"
+msgstr ":math:`\\varepsilon`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Energy Dissipation Rate"
+msgstr "Tasa de disipación de energía"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]^2}{[T]^3}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\eta_K`"
+msgstr ":math:`\\eta_K`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Kolmogorov Length Scale"
+msgstr "Escala de longitud de Kolmogorov"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\lambda_\\nu`"
+msgstr ":math:`\\lambda_\\nu`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Inner Viscous Length Scale"
+msgstr "Escala de longitud viscosa interna"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\mu`"
+msgstr ":math:`\\mu`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Dynamic viscosity"
+msgstr "Viscosidad dinámica"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[M]}{[T][L]}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\nu`"
+msgstr ":math:`\\nu`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Kinematic viscosity"
+msgstr "Viscosidad cinemática"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]^2}{[T]}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\phi`"
+msgstr ":math:`\\phi`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Porosity"
+msgstr "Porosidad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\phi_{ff}`"
+msgstr ":math:`\\phi_{ff}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Porosity of floc filter"
+msgstr "Porosidad de filtro de flóculos"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\rho`"
+msgstr ":math:`\\rho`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Density"
+msgstr "Densidad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\theta`"
+msgstr ":math:`\\theta`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Residence Time"
+msgstr "Tiempo de residencia"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\tau`"
+msgstr ":math:`\\tau`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Shear"
+msgstr "Cizallamiento"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{[L]}{[M][T]^2}`"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "*Greek uppercase letters*"
+msgstr "*Letras griegos mayúsculas*"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Delta`"
+msgstr ":math:`\\Delta`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Change in"
+msgstr "Cambio en"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Lambda`"
+msgstr ":math:`\\Lambda`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Distance Between Particles"
+msgstr "Distancia entre partículas"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi`"
+msgstr ":math:`\\Pi`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Dimensionless Proportionality Ratio"
+msgstr "Razón de proporcionalidad adimensional"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{Error}`"
+msgstr ":math:`\\Pi_{Error}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Linearity Error Ratio"
+msgstr "Relación de error de linealidad"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{\\bar \\varepsilon}^{\\varepsilon_{max}}`"
+msgstr ":math:`\\Pi_{\\bar \\varepsilon}^{\\varepsilon_{max}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{\\varepsilon_{max}}{\\bar \\varepsilon}` Ratio in a Reactor"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{\\bar G}^{G_{max}}`"
+msgstr ":math:`\\Pi_{\\bar G}^{G_{max}}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\frac{G_{max}}{\\bar G}` Ratio in a Reactor"
+msgstr ""
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{HS}`"
+msgstr ":math:`\\Pi_{HS}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Height to Baffle Spacing in a Flocculator"
+msgstr "Altura a separación de los defletores en un floculador"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{K\\nu}`"
+msgstr ":math:`\\Pi_{K\\nu}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Ratio of Inner Viscous Length Scale to Kolmogorov Length Scale"
+msgstr ""
+"Relación entre la escala de longitud viscosa interna y la escala de longitud"
+" de Kolmogorov"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{vc}`"
+msgstr ":math:`\\Pi_{vc}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Vena Contracta Area Ratio"
+msgstr "Relación de área de la vena contracta"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid ":math:`\\Pi_{fractal}`"
+msgstr ":math:`\\Pi_{fractal}`"
+
+#: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
+msgid "Fractal Dimension"
+msgstr "Dimensión fractal"
+

@@ -1,7 +1,6 @@
 .. raw:: html
 
     <embed>
-       <link rel="canonical" href="https://aguaclara-reach.github.io/Textbook/index.html" />
        <script src="https://hypothes.is/embed.js" async></script>
     </embed>
 
@@ -165,6 +164,7 @@ The Physics of Water Treatment Design
   :maxdepth: 1
 
   Textbook_Creation_Help/rst_intro.rst
+  Textbook_Creation_Help/translating.rst
   Textbook_Creation_Help/example_aguaclara_rst.rst
   Textbook_Creation_Help/parameter_convention_list.rst
 

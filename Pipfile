@@ -6,9 +6,10 @@ name = "pypi"
 [packages]
 sphinx = "*"
 sphinxcontrib-bibtex = "*"
-setuptools = "*"
+setuptools = "==81.0.0"
 sphinxcontrib-disqus = "*"
 sphinx-ext-substitution = "*"
+sphinx-intl = "==2.4.0"
 sphinx-rtd-theme = "*"
 
 [dev-packages]

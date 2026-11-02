@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Flocculation/Floc_Design.rst:12
+msgid "Flocculation Design"
+msgstr "Diseño de floculación"
+
+#: ../../Flocculation/Floc_Design.rst:14
+msgid ""
+"**Important Note:** This chapter introduces uncertainty and empirical "
+"design. Some of the parameters used to design AguaClara flocculators are "
+"based on what has been shown to work in the field, as opposed to having been"
+" derived scientifically. To make sure that the reader is aware of these "
+"concepts and parameters that don’t yet have a thorough basis in research, "
+"they will be highlighted in red when they appear."
+msgstr ""
+"**Nota importante:** Este capítulo introduce la incertidumbre y el diseño "
+"empírico. Algunos de los parámetros utilizados para diseñar floculadores "
+"AguaClara se basan en lo que se ha demostrado que funciona en campo, en "
+"lugar de haber sido derivados científicamente. Para asegurarse de que el "
+"lector conozca estos conceptos y parámetros que aún no tienen una base "
+"sólida en la investigación, se resaltarán en rojo cuando aparezcan."
+
+#: ../../Flocculation/Floc_Design.rst:16
+msgid ""
+"AguaClara's approach to flocculator design is the same as it is for any "
+"other unit process. First, critical design criteria, called inputs, are "
+"established. These criteria represent the priorities that the rest of the "
+"design will be based around. Once these parameters are established, then the"
+" other parameters of the design, which are dependent on the inputs, are "
+"calculated based on certain constraints."
+msgstr ""
+"El enfoque de AguaClara para el diseño de floculadores es el mismo que para "
+"cualquier otro proceso unitario. Primero, se establecen criterios críticos "
+"de diseño, llamados entradas. Estos criterios representan las prioridades en"
+" torno a las cuales se basará el resto del diseño. Una vez establecidos "
+"estos parámetros, los demás parámetros del diseño, que dependen de las "
+"entradas, se calculan en función de ciertas restricciones."
+
+#: ../../Flocculation/Floc_Design.rst:18
+msgid ""
+"Take the CDC as an example of this design process in "
+":ref:`title_flow_control_design`; its inputs are :math:`h_{L_{max}}`, "
+":math:`\\sum K`, :math:`\\Pi_{Error}`, and the discrete dosing tube "
+"diameters  :math:`D` that are available at hardware stores or pipe "
+"suppliers. Its dependent variables include the number and length of the "
+"dosing tubes and the flow through the CDC system."
+msgstr ""
+"Tomemos el CDC como ejemplo de este proceso de diseño en "
+":ref:`title_flow_control_design`; sus entradas son :math:`h_{L_{max}}`, "
+":math:`\\sum K`, :math:`\\Pi_{Error}`, y los diámetros discretos de los "
+"tubos de dosificación  :math:`D` que están disponibles en ferreterías o "
+"proveedores de tuberías. Sus variables dependientes incluyen el número y la "
+"longitud de los tubos de dosificación y el flujo a través del sistema CDC."
+
+#: ../../Flocculation/Floc_Design.rst:20
+msgid ""
+"The flocculator is more complex to design than the CDC, as it has more "
+"details and parameters and the equations for those details and parameters "
+"are very interdependent. Therefore, there are many ways to design an "
+"AguaClara flocculator, and many different sets of critical design criteria "
+"to begin with. Below are design approaches for several of the different "
+"potential flocculator geometries."
+msgstr ""
+"El floculador es más complejo de diseñar que el CDC, ya que tiene más "
+"detalles y parámetros y las ecuaciones para esos detalles y parámetros son "
+"muy interdependientes. Por lo tanto, existen muchas formas de diseñar un "
+"floculador AguaClara y muchos conjuntos diferentes de criterios críticos de "
+"diseño para empezar. A continuación se presentan enfoques de diseño para "
+"varias de las diferentes geometrías de posibles floculadores."
+
+#: ../../Flocculation/Floc_Design.rst:22
+msgid ""
+"In all cases we will need equations relating head loss, velocity gradient, "
+"viscosity, and collision potential. Flocculators must operate effectively "
+"over a range of temperatures and the critical design temperature is the "
+"coldest operating temperature. The viscosity shown in subsequent equations "
+"is the viscosity at the coldest operating temperature."
+msgstr ""
+"En todos los casos necesitaremos ecuaciones que relacionen pérdida de carga,"
+" gradiente de velocidad, viscosidad y potencial de colisión. Los "
+"floculadores deben funcionar eficazmente en un rango de temperaturas y la "
+"temperatura crítica de diseño es la temperatura de funcionamiento más baja. "
+"La viscosidad mostrada en las ecuaciones posteriores es la viscosidad a la "
+"temperatura de funcionamiento más baja."
+
+#: ../../Flocculation/Floc_Design.rst:24
+msgid ""
+"The following equations describe the design process assuming that a velocity"
+" gradient is specified for the coldest operating temperature. Given "
+":math:`\\tilde{G}`, we can very easily find :math:`\\theta`:"
+msgstr ""
+"Las siguientes ecuaciones describen el proceso de diseño asumiendo que se "
+"especifica un gradiente de velocidad para la temperatura de funcionamiento "
+"más baja. Dada :math:`\\tilde{G}`, podemos encontrar fácilmente "
+":math:`\\theta`:"
+
+#: ../../Flocculation/Floc_Design.rst:26
+msgid "\\theta = \\frac{\\tilde{G} \\theta}{\\tilde{G}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:31
+msgid ""
+"Finally, we take retention time :math:`\\theta` over plant flow rate "
+":math:`Q` to get the required volume of the flocculator:"
+msgstr ""
+"Finalmente, tomamos el tiempo de retención :math:`\\theta` sobre el caudal "
+":math:`Q` de la planta para obtener el volumen requerido del floculador:"
+
+#: ../../Flocculation/Floc_Design.rst:33
+msgid "\\forall_{floc} = \\theta Q"
+msgstr "\\forall_{floc} = \\theta Q"
+
+#: ../../Flocculation/Floc_Design.rst:37
+msgid ""
+"Now that we have the basic parameters defined, we can start to design the "
+"details of the flocculator, starting from the physical dimensions."
+msgstr ""
+"Ahora que tenemos los parámetros básicos definidos, podemos empezar a "
+"diseñar los detalles del floculador, partiendo de las dimensiones físicas."
+
+#: ../../Flocculation/Floc_Design.rst:40
+msgid "Horizontal-Horizontal flow flocculators"
+msgstr "Floculadores de flujo horizontal-horizontal"
+
+#: ../../Flocculation/Floc_Design.rst:42
+msgid ""
+"Horizontal-Horizontal flocculators can be easily designed to have an optimal"
+" :math:`\\Pi_{H_eS}`. Our current understanding is that the optimal value to"
+" achieve uniform velocity gradients and to allow the flow to fully expand is"
+" when :math:`\\Pi_{H_eS} = 6`. The flow geometry can be optimized to reduce "
+"construction costs by varying the relationship between :math:`S` and "
+":math:`W`. The dimension :math:`W` is in the vertical direction and thus "
+"increasing W will increase the water depth and reduce the plan view area of "
+"the flocculator. If land area is constrained and the cost of roofing is "
+"considered it is very likely that the optimal solution will require "
+":math:`W>S`."
+msgstr ""
+"Los floculadores horizontales-horizontales pueden diseñarse fácilmente para "
+"tener una :math:`\\Pi_{H_eS}`óptima. Nuestra comprensión actual es que el "
+"valor óptimo para lograr gradientes de velocidad uniformes y permitir que el"
+" flujo se expanda completamente es cuando :math:`\\Pi_{H_eS} = 6`. La "
+"geometría del flujo puede optimizarse para reducir los costes de "
+"construcción variando la relación entre :math:`S` y :math:`W`. La dimensión "
+":math:`W` está en dirección vertical y, por tanto, aumentar W aumentará la "
+"profundidad del agua y reducirá el área de vista en planta del floculador. "
+"Si el área del terreno está limitada y se considera el coste del tejado, es "
+"muy probable que la solución óptima requiera :math:`W>S`."
+
+#: ../../Flocculation/Floc_Design.rst:46
+msgid "Horizontal-Vertical flow flocculators"
+msgstr "Floculadores de flujo horizontal-vertical"
+
+#: ../../Flocculation/Floc_Design.rst:58
+msgid "Input parameters"
+msgstr "Parámetros de entrada"
+
+#: ../../Flocculation/Floc_Design.rst:49
+msgid ""
+"Specify: - :math:`\\tilde{G}`, velocity gradient at the coldest operating "
+"temperature - :math:`\\tilde{G} \\theta`, collision potential at the coldest"
+" operating temperature - :math:`Q`, plant flow rate - :math:`H`, height of "
+"water *at the end of the flocculator* - :math:`L_{max, \\, sed}`, max length"
+" of a flocculator channel based on clarifier length - :math:`W_{min, \\, "
+"human}` minimum width of a single channel based on the width of the average "
+"human hip (someone's got to go down there...)"
+msgstr ""
+"Especifica: - :math:`\\tilde{G}`, gradiente de velocidad a la temperatura de"
+" funcionamiento más baja - :math:`\\tilde{G} \\theta`, potencial de colisión"
+" a la temperatura de funcionamiento más baja - :math:`Q`, caudal planta - "
+":math:`H`, altura del agua *al final del floculador* - :math:`L_{max, \\, "
+"sed}`, longitud máxima de un canal floculador según la longitud del "
+"clarificador - :math:`W_{min, \\, human}` ancho mínimo de un canal basado en"
+" el ancho medio de la cadera humana (alguien tiene que bajar allí...)"
+
+#: ../../Flocculation/Floc_Design.rst:56
+msgid ""
+"Find: - :math:`\\theta`, hydraulic retention time - :math:`\\forall_{floc}`,"
+" flocculator volume - :math:`h_{L_{floc}}`, head loss (independent of "
+"operating temperature)"
+msgstr ""
+"Hallazgo: - :math:`\\theta`, tiempo de retención hidráulica - "
+":math:`\\forall_{floc}`, volumen del floculador - :math:`h_{L_{floc}}`, "
+"pérdida de carga (independiente de la temperatura de funcionamiento)"
+
+#: ../../Flocculation/Floc_Design.rst:63
+msgid "Physical dimensions"
+msgstr "Dimensiones físicas"
+
+#: ../../Flocculation/Floc_Design.rst:61
+msgid ""
+"Calculate: - :math:`L_{channel}`, actual channel length - "
+":math:`n_{channels}`, amount of channels - :math:`W_{channel}`, actual "
+"channel width"
+msgstr ""
+"Calcular: - :math:`L_{channel}`, longitud real del canal - "
+":math:`n_{channels}`, cantidad de canales - :math:`W_{channel}`, ancho real "
+"del canal"
+
+#: ../../Flocculation/Floc_Design.rst:69
+msgid "Hydraulic parameters"
+msgstr "Parámetros hidráulicos"
+
+#: ../../Flocculation/Floc_Design.rst:66
+msgid ""
+"Calculate: - :math:`H_e`, distance between baffle/obstacle induced flow "
+"expansions - :math:`n_{obstacles}`, amount of obstacles per baffle space - "
+":math:`S`, baffle spacing, distance between baffles"
+msgstr ""
+"Calcular: - :math:`H_e`, distancia entre expansiones de flujo inducidas por "
+"el deflector/obstáculo - :math:`n_{obstacles}`, cantidad de obstáculos por "
+"espacio del deflector - :math:`S`, espaciado del deflector, distancia entre "
+"deflectores"
+
+#: ../../Flocculation/Floc_Design.rst:78
+msgid "physical floccuation parameter"
+msgstr "Parámetro físico de flocuación"
+
+#: ../../Flocculation/Floc_Design.rst:78
+msgid ""
+"Flocculator geometry definition including the effect of baffle thickness. "
+"Accounting for baffle thickness would be particularly important if "
+"`ferrocement <https://en.wikipedia.org/wiki/Ferrocement>`_ or wood were used"
+" for baffles."
+msgstr ""
+"Definición de geometría de floculadores incluyendo el efecto del grosor del "
+"deflector. Tener en cuenta el grosor del deflector sería especialmente "
+"importante si se usaran `ferrocement "
+"<https://en.wikipedia.org/wiki/Ferrocement>`_ o madera para los deflectores."
+
+#: ../../Flocculation/Floc_Design.rst:82
+msgid ""
+"We start by making sure that our flocculator will be able to flocculate "
+"effectively by defining :math:`h_{L_{floc}}` and :math:`\\tilde{G} \\theta`."
+" Fixing these two parameters initially allows us to easily find all other "
+"parameters which determine flocculator performance. Here are the current "
+"standards (effective 2023) in AguaClara flocculators:"
+msgstr ""
+"Comenzamos asegurándonos de que nuestro floculador pueda flocular "
+"eficazmente definiendo :math:`h_{L_{floc}}` y :math:`\\tilde{G} \\theta`. "
+"Fijar estos dos parámetros inicialmente nos permite encontrar fácilmente "
+"todos los demás parámetros que determinan el rendimiento del floculador. "
+"Aquí están los estándares actuales (efectivos desde 2023) en floculadores "
+"AguaClara:"
+
+#: ../../Flocculation/Floc_Design.rst:84
+msgid ":math:`\\tilde{G} = 50 Hz`"
+msgstr ":math:`\\tilde{G} = 50 Hz`"
+
+#: ../../Flocculation/Floc_Design.rst:85
+msgid ":math:`\\tilde{G} \\theta = 35,000`"
+msgstr ":math:`\\tilde{G} \\theta = 35,000`"
+
+#: ../../Flocculation/Floc_Design.rst:87
+msgid ""
+"The plant flow rate :math:`Q` is defined by the needs of the community that "
+"the plant is being desiged for. Additionally, the height of water *at the "
+"end* of the flocculator, :math:`H`, the *maximum* length of the flocculator "
+"based on the length of the clarifier length, :math:`L_{max, \\, sed}`, and "
+"the *minimum* width of a flocculator channel required for a human to fit "
+"inside, :math:`W_{min, \\, human}`, are also defined initially. Ordinarilly "
+"in AguaClara plants, the flocculator occupies the same length dimension as "
+"the clarifiers, which is why the length constraint exists. See "
+":numref:`figure_physical_design_criteria_floc` for a representation of how "
+"the flocculator and clarifiers are placed in a plant."
+msgstr ""
+"El caudal :math:`Q` vegetal se define por las necesidades de la comunidad "
+"para la que se diseña la planta. Además, la altura del agua *al final* del "
+"floculador, :math:`H`, la *longitud máxima* del floculador basada en la "
+"longitud del clarificador, :math:`L_{max, \\, sed}`, y el *mínimo* ancho de "
+"un canal de floculador necesario para que un humano encaje dentro, "
+":math:`W_{min, \\, human}`, también se definen inicialmente. Normalmente, en"
+" las plantas de AguaClara, el floculador ocupa la misma dimensión de "
+"longitud que los clarificadores, por lo que existe la restricción de "
+"longitud. Véase :numref:`figure_physical_design_criteria_floc` para una "
+"representación de cómo se colocan el floculador y los clarificadores en una "
+"planta."
+
+#: ../../Flocculation/Floc_Design.rst:89
+msgid ":math:`H = 2 \\, {\\rm m}`"
+msgstr ":math:`H = 2 \\, {\\rm m}`"
+
+#: ../../Flocculation/Floc_Design.rst:90
+msgid ":math:`L_{max, \\, sed} = 6 \\, {\\rm m}`"
+msgstr ":math:`L_{max, \\, sed} = 6 \\, {\\rm m}`"
+
+#: ../../Flocculation/Floc_Design.rst:91
+msgid ":math:`W_{min, \\, human} = 45 \\, {\\rm cm}`"
+msgstr ":math:`W_{min, \\, human} = 45 \\, {\\rm cm}`"
+
+#: ../../Flocculation/Floc_Design.rst:100
+msgid "physical design criteria"
+msgstr "Criterios de diseño físico"
+
+#: ../../Flocculation/Floc_Design.rst:100
+msgid ""
+"Layout of flocculator and clarifiers that was adopted starting with the 2nd "
+"AguaClara plant in Tamara, Honduras in 2008."
+msgstr ""
+"Diseño del floculador y clarificadores que se adoptó comenzando con la "
+"planta 2nd AguaClara en Tamara, Honduras, en 2008."
+
+#: ../../Flocculation/Floc_Design.rst:103
+msgid "Physical Dimensions"
+msgstr "Dimensiones físicas"
+
+#: ../../Flocculation/Floc_Design.rst:104
+msgid ""
+"Deriving the equations required to find the physical dimensions now and the "
+"hydraulic parameters (baffle/obstacle design) in the next section requires "
+"many steps. To simplify this design explanation the equation derivations are"
+" developed in :ref:`title_review_fluid_mechanics_derivations`. All complex "
+"equations which seemingly came out of nowhere will be derived in the "
+"derivation sheet."
+msgstr ""
+"Derivar las ecuaciones necesarias para encontrar las dimensiones físicas "
+"ahora y los parámetros hidráulicos (diseño de deflector/obstáculo) en la "
+"siguiente sección requiere muchos pasos. Para simplificar esta explicación "
+"del diseño, las derivaciones de ecuaciones se desarrollan en "
+":ref:`title_review_fluid_mechanics_derivations`. Todas las ecuaciones "
+"complejas que aparentemente surgieron de la nada se derivarán en la hoja de "
+"derivación."
+
+#: ../../Flocculation/Floc_Design.rst:107
+msgid "Length"
+msgstr "Longitud"
+
+#: ../../Flocculation/Floc_Design.rst:109
+msgid ""
+"Flocculator length, :math:`L_{channel}`` must meet two constraints: it must "
+"be less than or equal to the length of the clarifiers, as the flocculator is"
+" adjacent to the clarifier. This constraint is :math:`L_{max, \\, sed}`. "
+"Next, the flocculator must be short enough to make sure the target volume of"
+" the flocculator is met, while still allowing for a human to fit inside "
+":math:`L_{max, \\, \\forall}`. **The constraint that wins out is the one "
+"that results in the *smaller* length value**."
+msgstr ""
+"Longitud floculadora, :math:`L_{channel}`` must meet two constraints: it "
+"must be less than or equal to the length of the clarifiers, as the "
+"flocculator is adjacent to the clarifier. This constraint is :math:`L_{max, "
+"\\, sed}`. Next, the flocculator must be short enough to make sure the "
+"target volume of the flocculator is met, while still allowing for a human to"
+" fit inside :math:`L_{max, \\, \\forall}`. **La restricción que prevalece es"
+" la que da lugar al valor de longitud *smaller***."
+
+#: ../../Flocculation/Floc_Design.rst:111
+msgid ""
+"L_{max, \\, sed} = 6 \\, {\\rm m}\n"
+"L_{max, \\, \\forall} = \\frac{\\forall}{n_{min, \\, channels} W_{min, \\, "
+"human} H}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:116 ../../Flocculation/Floc_Design.rst:190
+msgid "Such that:"
+msgstr "Tal que:"
+
+#: ../../Flocculation/Floc_Design.rst:117
+msgid ":math:`n_{min, \\, channels} = 2`"
+msgstr ":math:`n_{min, \\, channels} = 2`"
+
+#: ../../Flocculation/Floc_Design.rst:119
+msgid ""
+"The reason why :math:`W_{min, \\, human}` is used is because it represents "
+"the absolute minimum of flocculator channel width. If the width ends up "
+"being larger, the length will decrease. :math:`n_{min, \\, channels} = 2`  "
+"to make sure that the flow ends up on the correct side of the clarifier, as "
+"the image below shows. Note that there can only be an even number of "
+"flocculator channels, as explained in the image's caption."
+msgstr ""
+"La razón por la que se usa :math:`W_{min, \\, human}` es porque representa "
+"el mínimo absoluto del ancho del canal del floculador. Si el ancho resulta "
+"mayor, la longitud disminuirá. :math:`n_{min, \\, channels} = 2`  asegurarse"
+" de que el flujo acabe en el lado correcto del clarificador, como muestra la"
+" imagen de abajo. Ten en cuenta que solo puede haber un número par de "
+"canales floculadores, como se explica en el pie de foto de la imagen."
+
+#: ../../Flocculation/Floc_Design.rst:121
+msgid "The equation for *actual* flocculator length is therefore:"
+msgstr "La ecuación para la longitud *real* del floculador es, por tanto:"
+
+#: ../../Flocculation/Floc_Design.rst:123
+msgid "L_{channel} = {\\rm min}(L_{max, \\, sed}, \\, L_{max, \\, \\forall})"
+msgstr "L_{channel} = {\\rm min}(L_{max, \\, sed}, \\, L_{max, \\, \\forall})"
+
+#: ../../Flocculation/Floc_Design.rst:134
+msgid "floc channels"
+msgstr "Canales FLOC"
+
+#: ../../Flocculation/Floc_Design.rst:134
+msgid ""
+"There are an even amount of flocculator channels to keep the AguaClara plant"
+" layout consistent for flows greater than 12 L/s. This ensures that the "
+"entrance tank, filter box, and filters can be kept in the same places across"
+" plants."
+msgstr ""
+"Hay una cantidad uniforme de canales floculadores para mantener la "
+"disposición de la planta AguaClara consistente en caudales superiores a 12 "
+"L/s. Esto garantiza que el tanque de entrada, la caja de filtros y los "
+"filtros puedan mantenerse en los mismos lugares entre plantas."
+
+#: ../../Flocculation/Floc_Design.rst:137
+msgid "Width and Number of Channels"
+msgstr "Anchura y número de canales"
+
+#: ../../Flocculation/Floc_Design.rst:139
+msgid ""
+"The width of a single flocculator channel must meet the following "
+"conditions: - Maintain :math:`\\tilde{G}` at the value found in the inputs "
+"section - Allow for :math:`3 < \\frac{H_e}{S} < 6`. Recall that "
+":math:`\\frac{H_e}{S} =  \\Pi_{H_eS}` - Allow for a human to be able to fit "
+"into a flocculator channel"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:144
+msgid ""
+"The first two conditions are wrapped up into the following equation, "
+":ref:`which is derived in <title_Flocculation_Derivations>`."
+msgstr ""
+"Las dos primeras condiciones se envuelven en la siguiente ecuación, "
+":ref:`which is derived in <title_Flocculation_Derivations>`."
+
+#: ../../Flocculation/Floc_Design.rst:146
+msgid ""
+"W_{Min_{H_eS}} = \\frac{\\Pi_{H_eS_{min}}Q}{H_e}\\left( \\frac{K}{2 H_e \\nu"
+" \\tilde{G}^2} \\right)^\\frac{1}{3}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:151
+msgid ""
+"Given that the baffle minor loss coefficient is now known to be a function "
+"of :math:`\\Pi_{H_eS}` we substitute :eq:`K_baffle_expanding`."
+msgstr ""
+"Dado que ahora se sabe que el coeficiente de pérdida menor del defletor es "
+"función de :math:`\\Pi_{H_eS}` sustituimos :eq:`K_baffle_expanding`."
+
+#: ../../Flocculation/Floc_Design.rst:153
+msgid ""
+"W_{Min_{H_eS}} = \\frac{\\Pi_{H_eS_{min}}Q}{H_e}\\left( \\frac{ "
+"\\left(\\frac{\\left(1 - \\Pi_{vc}^{baffle}\\right) ^ 2}{ \\Pi_{vc}^{baffle}"
+" \\Pi_{PlaneJet_{exp}} \\Pi_{H_eS_{min}}}\\right) ^ 2}{2 H_e \\nu "
+"\\tilde{G}^2} \\right)^\\frac{1}{3}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:158
+msgid ""
+"Group the parameters so that the dimensions inside the exponents are a "
+"simple as possible."
+msgstr ""
+"Agrupa los parámetros de modo que las dimensiones dentro de los exponentes "
+"sean lo más simples posible."
+
+#: ../../Flocculation/Floc_Design.rst:160
+msgid ""
+"W_{Min_{H_eS}} = \\frac{Q}{\\left(\\nu \\tilde{G}^2 "
+"H_e^4\\right)^\\frac{1}{3}}\\left( \\frac{ \\left(1 - "
+"\\Pi_{vc}^{baffle}\\right) ^ 4 \\Pi_{H_eS_{min}}}{2   \\left( "
+"\\Pi_{vc}^{baffle} \\Pi_{PlaneJet_{exp}} \\right)^2} \\right)^\\frac{1}{3}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:166
+msgid ""
+"This equation represents the absolute smallest width of a flocculator "
+"channel if we consider the lowest value of :math:`\\Pi_{H_eS}` and the "
+"highest possible value of :math:`H_e`:"
+msgstr ""
+"Esta ecuación representa el ancho absoluto menor de un canal floculador si "
+"consideramos el valor más bajo de :math:`\\Pi_{H_eS}` y el valor más alto "
+"posible de :math:`H_e`:"
+
+#: ../../Flocculation/Floc_Design.rst:168
+msgid ""
+":math:`H_e = H_{e_{max}} = H = 2 \\, {\\rm m}`, this implies that there are "
+"no obstacles between baffles :math:`\\Pi_{H_eS} = \\Pi_{ {HS}_{min} } = 3`"
+msgstr ""
+":math:`H_e = H_{e_{max}} = H = 2 \\, {\\rm m}`, esto implica que no hay "
+"obstáculos entre los deflectores :math:`\\Pi_{H_eS} = \\Pi_{ {HS}_{min} } = "
+"3`"
+
+#: ../../Flocculation/Floc_Design.rst:171
+msgid ""
+"Recall our other width constraint, :math:`W_{min, \\, human} = 45 \\, {\\rm "
+"cm}`, which is based on our desire to have a human be able to fit into the "
+"channels. The governing constraint is the *larger* value of :math:`W_{min}`:"
+msgstr ""
+"Recuerda nuestra otra restricción de ancho, :math:`W_{min, \\, human} = 45 "
+"\\, {\\rm cm}`, que se basa en nuestro deseo de que un humano pueda encajar "
+"en los canales. La restricción que rige es el valor *mayor* de "
+":math:`W_{min}`:"
+
+#: ../../Flocculation/Floc_Design.rst:173
+msgid "W_{min} = {\\rm max}(W_{min, \\, \\Pi_{H_eS}}, \\, W_{min, \\, human})"
+msgstr "W_{min} = {\\rm max}(W_{min, \\, \\Pi_{H_eS}}, \\, W_{min, \\, humano})"
+
+#: ../../Flocculation/Floc_Design.rst:177
+msgid ""
+"We can find the number of channels, :math:`n_{channels}` and their actual "
+"width in one last step, by finding the *total flocculator width* if there "
+"were no channels and dividing that by the minimum flocculator width, "
+":math:`W_{min}`, found above. The equation for total flocculator width is "
+"based on our target volume:"
+msgstr ""
+"Podemos encontrar el número de canales, :math:`n_{channels}` y su anchura "
+"real en un último paso, encontrando el *ancho total del floculador* si no "
+"hubiera canales y dividiéndolo por el ancho mínimo del floculador, "
+":math:`W_{min}`, hallado arriba. La ecuación para el ancho total del "
+"floculador se basa en nuestro volumen objetivo:"
+
+#: ../../Flocculation/Floc_Design.rst:179
+msgid "W_{total} = \\frac{\\forall}{H L_{channel}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:183
+msgid "Finally:"
+msgstr "Por último:"
+
+#: ../../Flocculation/Floc_Design.rst:185
+msgid "n_{channels} = \\frac{W_{total}}{W_{min}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:191
+msgid ""
+":math:`n_{channels}` is an even number and is not 0. Usually, "
+":math:`n_{channels}` is either 2 or 4."
+msgstr ""
+":math:`n_{channels}` es un número par y no es 0. Normalmente, "
+":math:`n_{channels}` es 2 o 4."
+
+#: ../../Flocculation/Floc_Design.rst:193
+msgid ""
+"Now that we know :math:`n_{channels}`, we can find the actual width of a "
+"channel, :math:`W_{channel}`."
+msgstr ""
+"Ahora que sabemos :math:`n_{channels}`, podemos encontrar el ancho real de "
+"un canal, :math:`W_{channel}`."
+
+#: ../../Flocculation/Floc_Design.rst:195
+msgid "W_{channel} = \\frac{W_{total}}{n_{channels}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:200
+msgid "Hydraulic Parameters"
+msgstr "Parámetros hidráulicos"
+
+#: ../../Flocculation/Floc_Design.rst:202
+msgid ""
+"Now that the physical dimensions of the flocculator have been defined, the "
+"baffle module needs to be designed. The parameter on which most others are "
+"based is the distance between flow expansions, :math:`H_e`. Recall that "
+":math:`H_e = H` when there are no obstacles in between baffles."
+msgstr ""
+"Ahora que se han definido las dimensiones físicas del floculador, es "
+"necesario diseñar el módulo de deflector. El parámetro en el que se basan la"
+" mayoría de los demás es la distancia entre expansiones de flujo, "
+":math:`H_e`. Recuerda que :math:`H_e = H` cuando no hay obstáculos entre los"
+" deflectores."
+
+#: ../../Flocculation/Floc_Design.rst:205
+msgid "Height Between Expansions"
+msgstr "Altura entre expansiones"
+
+#: ../../Flocculation/Floc_Design.rst:207
+msgid ""
+"We have a range of possible :math:`H_e` values based on our window of "
+":math:`3 < \\frac{H_e}{S} < 6`. However, we have a limitation and a "
+"preference which shape how we design :math:`H_e`. Our limitation is that "
+"there can only be an integer number of obstacles. Our preference is to have "
+"as few obstacles as possible to make the baffle module as easy to fabricate "
+"as possible. Therefore, we want :math:`\\frac{H_e}{S}` to be closer to "
+":math:`6` than it is to :math:`3`; we are looking for :math:`H_{e_{max}}`."
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:209
+msgid ""
+"We calculate :math:`H_{e_{max}}` based on the physical flocculator "
+"dimensions. The equation for :math:`H_e` is obtained by rearranging Equation"
+" :eq:`floc_channel_W_min_var_K`. Because we have already designed the "
+"channel width, we substitute :math:`W_{channel}` for :math:`W_{Min_{H_eS}}`."
+" Since we are looking for :math:`H_{e_{max}}`, we also substitute "
+":math:`\\Pi_{{H_eS}_{max}}` for :math:`\\Pi_{H_eS}`. The result is:"
+msgstr ""
+"Calculamos :math:`H_{e_{max}}` basándonos en las dimensiones físicas del "
+"floculador. La ecuación para :math:`H_e` se obtiene reordenando la Ecuación "
+":eq:`floc_channel_W_min_var_K`. Como ya hemos diseñado el ancho del canal, "
+"sustituimos :math:`W_{channel}` por :math:`W_{Min_{H_eS}}`. Como buscamos "
+":math:`H_{e_{max}}`, también sustituimos :math:`\\Pi_{{H_eS}_{max}}` por "
+":math:`\\Pi_{H_eS}`. El resultado es:"
+
+#: ../../Flocculation/Floc_Design.rst:211
+msgid ""
+"H_{e_{max}}^\\frac{4}{3}= \\frac{Q}{W_{Min_{H_eS}} \\left(\\nu \\tilde{G}^2 "
+"\\right)^\\frac{1}{3}}\\left( \\frac{ \\left(1 - \\Pi_{vc}^{baffle}\\right) "
+"^ 4 \\Pi_{{H_eS}_{max}}}{2   \\left( \\Pi_{vc}^{baffle} "
+"\\Pi_{PlaneJet_{exp}} \\right)^2} \\right)^\\frac{1}{3}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:216
+msgid "raise to 3/4"
+msgstr "Aumento a 3/4"
+
+#: ../../Flocculation/Floc_Design.rst:218
+msgid ""
+"H_{e_{max}}= \\left[ \\left(\\frac{Q^3}{W_{Min_{H_eS}}^3 \\nu "
+"\\tilde{G}^2}\\right)\\frac{  \\Pi_{{H_eS}_{max}}}{2   \\left( "
+"\\Pi_{vc}^{baffle} \\Pi_{PlaneJet_{exp}} \\right)^2} \\right]^\\frac{1}{4} "
+"\\left(1 - \\Pi_{vc}^{baffle}\\right)"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:223
+msgid ""
+"For :math:`\\Pi_{H_eS}` large enough such that the flow has fully expanded "
+"the following equation applies."
+msgstr ""
+"Para :math:`\\Pi_{H_eS}` lo suficientemente grande como para que el flujo se"
+" haya expandido completamente se aplica la siguiente ecuación."
+
+#: ../../Flocculation/Floc_Design.rst:225
+msgid ""
+"H_{e_{max}} = \\left[ \\frac{K}{2 \\nu \\tilde{G}^2} \\left( \\frac{Q "
+"\\Pi_{{HS}_{max}}}{W_{channel}} \\right)^3 \\right]^\\frac{1}{4}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:230
+msgid ""
+"Note that this is the *maximum* distance between flow expansions, and does "
+"not account for the limitation that there must be an integer number of "
+"obstacles per baffle space. Thus, we need to find the *actual* distance "
+"between flow expansions. To do this, we determine and round up the number of"
+" expansions per baffle space using the ceiling function:"
+msgstr ""
+"Nótese que esta es la distancia *máxima* entre expansiones de flujo, y no "
+"tiene en cuenta la limitación de que debe haber un número entero de "
+"obstáculos por espacio de deflector. Por tanto, necesitamos encontrar la "
+"distancia *real* entre expansiones de flujo. Para ello, determinamos y "
+"redondeamos el número de expansiones por espacio de defletor usando la "
+"función techo:"
+
+#: ../../Flocculation/Floc_Design.rst:232
+msgid "n_{expansions} = {\\rm ceil}\\left( \\frac{H}{H_{e_{max}}} \\right)"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:236
+msgid ""
+"If we had used the floor() function instead, we would find that :math:`H_e` "
+"would be larger than our upper bound, :math:`H_{e_{max}}`. From here, we can"
+" easily get to the actual number of flow expansions per baffle spacing:"
+msgstr ""
+"Si hubiéramos usado la función floor() en su lugar, encontraríamos que "
+":math:`H_e` sería mayor que nuestra cota superior, :math:`H_{e_{max}}`. A "
+"partir de aquí, podemos obtener fácilmente el número real de expansiones de "
+"flujo por espaciado de los deflectores:"
+
+#: ../../Flocculation/Floc_Design.rst:238
+msgid "H_e = \\frac{H}{n_{expansions}}"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:243
+msgid ""
+"Finally, we can obtain the number of obstacles per baffle space. The "
+":math:`- 1` in the equation is because the baffles themselves provide one "
+"flow expansion per baffle space."
+msgstr ""
+"Finalmente, podemos obtener el número de obstáculos por espacio de "
+"deflectores. La :math:`- 1` en la ecuación es que los propios deflectores "
+"proporcionan una expansión de flujo por espacio de deflectores."
+
+#: ../../Flocculation/Floc_Design.rst:245
+msgid "n_{obstacles} = \\frac{H}{H_e} - 1"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:250
+msgid "Baffle Spacing"
+msgstr "Espaciado de los deflectores"
+
+#: ../../Flocculation/Floc_Design.rst:252
+msgid "Finally, we can find the space between baffles, :math:`S`."
+msgstr "Finalmente, podemos encontrar el espacio entre los deflectores, :math:`S`."
+
+#: ../../Flocculation/Floc_Design.rst:256
+msgid "Checking the Flocculator Design"
+msgstr "Comprobando el diseño del floculador"
+
+#: ../../Flocculation/Floc_Design.rst:258
+msgid ""
+"We then compare :math:`n_{spaces, \\, required}` to :math:`n_{spaces, \\, "
+"actual}` to make sure that they are equal."
+msgstr ""
+"Luego comparamos :math:`n_{spaces, \\, required}` con :math:`n_{spaces, \\, "
+"actual}` para asegurarnos de que son iguales."
+
+#: ../../Flocculation/Floc_Design.rst:261
+msgid "Average Velocity"
+msgstr "Velocidad media"
+
+#: ../../Flocculation/Floc_Design.rst:263
+msgid ""
+"As water flows through the flocculators, the flocs will get larger and "
+"larger. As a result, their terminal velocity will increase. This is what we "
+"want. However, we need to make sure that the flocs don’t settle in the "
+"flocculator; that they instead all settle in the clarifier. To make sure of "
+"this, we need to make sure that the velocity of water in the flocculator is "
+"high enough to scour any flocs that fall to the bottom of the flocculator. "
+"The velocity required to scour flocs from the bottom and avoid floc "
+"accumulation is around :math:`v_{scour} = 15 \\, {\\rm \\frac{cm}{s}}`. We "
+"can check our average velocity :math:`\\bar v` against this value. "
+"Unfortunately, the only method to increase the velocity through the "
+"flocculator is to increase the space between baffles, S, and decrease the "
+"channel width, W. Generally those changes aren't practical and thus there "
+"isn't any way to increase the velocity."
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:265
+msgid ""
+"\\bar v = \\frac{Q}{W_{channel} S}\n"
+"\n"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:269
+msgid "Head loss"
+msgstr "pérdida de carga"
+
+#: ../../Flocculation/Floc_Design.rst:271
+msgid ""
+"Head loss is calculated for each expansion using the minor loss coefficient "
+"associated with that expansion in Equation :eq:`minor_loss`. The total head "
+"loss is simple a sum of the head loss for all of the expansions."
+msgstr ""
+"pérdida de carga se calcula para cada expansión usando el coeficiente de "
+"pérdida menor asociado a esa expansión en la ecuación :eq:`minor_loss`. El "
+"pérdida de carga total es simplemente, la suma de los pérdida de carga para "
+"todas las expansiones."
+
+#: ../../Flocculation/Floc_Design.rst:274
+msgid "Residence Time"
+msgstr "Tiempo de residencia"
+
+#: ../../Flocculation/Floc_Design.rst:276
+msgid ""
+"It is now time to make our final check. We need to make sure that our actual"
+" residence time is *at least* as much as we designed for. Fortunately, in "
+"our design we did not account for the change in water level throughout the "
+"flocculator due to head loss. Therefore, the actual volume of water in the "
+"flocculator is actually greater than :math:`\\forall_{floc}`. See "
+":numref:`figure_flocculator_head_loss` for clarification."
+msgstr ""
+"Ahora es momento de hacer la comprobación final. Debemos asegurarnos de que "
+"el tiempo real de residencia sea *al menos* el que hemos previsto. "
+"Afortunadamente, en nuestro diseño no tuvimos en cuenta el cambio de nivel "
+"del agua en todo el floculador debido a pérdida de carga. Por lo tanto, el "
+"volumen real de agua en el floculador es en realidad mayor que "
+":math:`\\forall_{floc}`. Consulta :numref:`figure_flocculator_head_loss` "
+"para aclarar."
+
+#: ../../Flocculation/Floc_Design.rst:285
+msgid "Flocculator_head_loss"
+msgstr "Flocculator_head_loss"
+
+#: ../../Flocculation/Floc_Design.rst:285
+msgid ""
+"The water level in the flocculator decreases due to head loss. Flocculators "
+"may occupy multiple channels, but this extra triangle of water exists in any"
+" case."
+msgstr ""
+"La nivel del agua en el floculador disminuye debido a pérdida de carga. Los "
+"floculadores pueden ocupar múltiples canales, pero este triángulo extra de "
+"agua existe en cualquier caso."
+
+#: ../../Flocculation/Floc_Design.rst:288
+msgid ""
+"Thus, the actual average water level in the flocculator is :math:`H + "
+"\\frac{h_{L_{floc}}}{2}`. Thus, the actual residence time is:"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:290
+msgid ""
+"\\theta_{actual} = \\frac{n_{channels} L_{channel} W_{channel} \\left( H + "
+"\\frac{h_{L_{floc}}}{2} \\right)} {Q}\n"
+"\n"
+msgstr ""
+
+#: ../../Flocculation/Floc_Design.rst:292
+msgid "Check to see if :math:`\\theta_{actual}` is greater than :math:`\\theta`."
+msgstr "Comprueba si :math:`\\theta_{actual}` es mayor que :math:`\\theta`."
+

@@ -1,0 +1,594 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Operation/Coagulant_Automation.rst:12
+msgid "Coagulant Automation"
+msgstr "Automatización de coagulantes"
+
+#: ../../Operation/Coagulant_Automation.rst:14
+msgid ""
+"Automating the coagulant dose is difficult because it hasn't been clear what"
+" measurement to use that could be driven to a target value by varying the "
+"coagulant dose and that would then provide the desired plant performance. "
+"Based on the previous understanding of coagulant neutralizing the negative "
+"charge of raw water particles, many water treatment plants have attempted to"
+" use streaming current meters to set the coagulant dose. That method doesn't"
+" work well because it is the fractional coverage of the primary particles "
+"with sticky coagulant nanoparticles that sets the attachment efficiency and "
+"that does not require a neutral surface charge."
+msgstr ""
+"Automatizar el dosis de coagulante es difícil porque no está claro qué "
+"medición usar que pueda llevarse a un valor objetivo variando el dosis de "
+"coagulante y que así proporcione el rendimiento deseado de la planta. "
+"Basándose en el entendimiento previo de que el coagulante neutraliza la "
+"carga negativa de agua cruda partículas, muchas plantas tratamiento de agua "
+"han intentado usar medidores de corriente de corriente para ajustar el dosis"
+" de coagulante. Ese método no funciona bien porque es la cobertura "
+"fraccionada de las partículas primarias con nanopartículas de coagulante "
+"pegajosas lo que determina la eficiencia de la unión y que no requiere una "
+"carga superficial neutra."
+
+#: ../../Operation/Coagulant_Automation.rst:16
+msgid ""
+"The concentration of primary particles exiting the flocculator could be used"
+" to guide the coagulant dose. The flocculated suspension can not be sampled "
+"directly with a particle counter because the particle concentration is too "
+"high. Given that we are only interested in the concentration of primary "
+"particles, we can use a tube settler to quickly reduce the particle "
+"concentration of the sample line going to the particle counter while still "
+"enabling an accurate count of the primary particle concentration."
+msgstr ""
+"La concentración de partículas primarias que salen del floculador podría "
+"usarse para guiar la dosis de coagulante. La suspensión floculada no puede "
+"muestrearse directamente con un contador de partículas porque la "
+"concentración de partículas es demasiado alta. Dado que solo nos interesa la"
+" concentración de partículas primarias, podemos usar un sedimentador de "
+"tubos para reducir rápidamente la concentración de partículas de la línea de"
+" muestra que va al contador de partículas, permitiendo aún así un recuento "
+"preciso de la concentración de partículas primarias."
+
+#: ../../Operation/Coagulant_Automation.rst:26
+msgid "TubeSettlerFlocMonitor"
+msgstr "TubeSettlerFlocMonitor"
+
+#: ../../Operation/Coagulant_Automation.rst:26
+msgid "Proposed particle counter monitoring of flocculation performance."
+msgstr ""
+"Propuesta de monitorización del rendimiento de floculación por contador de "
+"partículas."
+
+#: ../../Operation/Coagulant_Automation.rst:29
+msgid "Coagulant Dose for Suspended Particles"
+msgstr "dosis de coagulante para partículas suspendidas"
+
+#: ../../Operation/Coagulant_Automation.rst:31
+msgid ""
+"The relationship between attachment efficiency and primary particle "
+"concentration after flocculation is given by Equation :eq:`CpofGtlamSim`. "
+"For the simple case of no coagulant demand by dissolved organic matter it is"
+" reasonable to assume that the attachment efficiency is proportional to the "
+"ratio of the coagulant dose to the surface area of the particles in the raw "
+"water and the particle surface area is proportional to the particle "
+"concentration."
+msgstr ""
+"La relación entre la eficiencia de unión y la concentración de partículas "
+"primarias tras la floculación está dada por la ecuación :eq:`CpofGtlamSim`. "
+"Para el caso simple de que no haya demanda coagulante por parte de materia "
+"orgánica disuelta, es razonable suponer que la eficiencia de unión es "
+"proporcional a la relación entre el dosis de coagulante y el área "
+"superficial de las partículas en el agua cruda y que el área superficial de "
+"las partículas es proporcional a la concentración de partículas."
+
+#: ../../Operation/Coagulant_Automation.rst:33
+msgid "\\bar{\\alpha} = k' \\frac{C_{coag_{particle}}}{C_{P_0}}."
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:38
+msgid ""
+"This coagulant dose only refers to the coagulant that will end up coating "
+"the suspended particles. The coagulant nanoparticles that are coated by "
+"dissolved organic matter will be considered in the next section."
+msgstr ""
+"Esta dosis de coagulante solo se refiere al coagulante que acabará "
+"recubriendo las partículas en suspensión. Las nanopartículas coagulantes "
+"recubiertas por materia orgánica disuelta se considerarán en la siguiente "
+"sección."
+
+#: ../../Operation/Coagulant_Automation.rst:40
+msgid ""
+"The result of the AguaClara flocculation model (Equation :eq:`CPlamint`) is "
+"repeated here for convenience."
+msgstr ""
+"El resultado del modelo de floculación de AguaClara (Ecuación "
+":eq:`CPlamint`) se repite aquí para mayor comodidad."
+
+#: ../../Operation/Coagulant_Automation.rst:42
+msgid "\\frac{3}{2\\pi}\\left(\\rho_{P}\\frac{\\pi}{6}\\right)^{2/3}\\left(C_{P}^{-2/3}-C_{P_0}^{-2/3}\\right)=k\\bar{\\alpha}\\tilde{G}\\theta."
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:47
+msgid ""
+"Substituting Equation :eq:`coverageofdoseandCp` and solving for the "
+"coagulant dose we obtain"
+msgstr ""
+"Sustituyendo la ecuación :eq:`coverageofdoseandCp` y resolviendo para la "
+"dosis de coagulante obtenemos"
+
+#: ../../Operation/Coagulant_Automation.rst:49
+msgid ""
+"C_{coag_{particle}} =  \\frac{3}{2\\pi  k k' "
+"\\tilde{G}\\theta}\\left(\\rho_{P}\\frac{\\pi}{6}\\right)^{2/3} C_{P_0} "
+"\\left(C_{P}^{-2/3}-C_{P_0}^{-2/3}\\right)."
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:54
+msgid ""
+"The primary particle properties and flocculator design terms can be treated "
+"as a single unknown, :math:`k_{pf}`."
+msgstr ""
+"Las propiedades primarias de las partículas y los términos de diseño de "
+"floculadores pueden tratarse como una única incógnita, :math:`k_{pf}`."
+
+#: ../../Operation/Coagulant_Automation.rst:56
+msgid ""
+"k_{pf} =  \\frac{3}{2\\pi  k k' "
+"\\tilde{G}\\theta}\\left(\\rho_{P}\\frac{\\pi}{6}\\right)^{2/3}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:61
+msgid "Thus Equation :eq:`CcoagFlocModel` simplifies to"
+msgstr "Así, la ecuación :eq:`CcoagFlocModel` se simplifica a"
+
+#: ../../Operation/Coagulant_Automation.rst:63
+msgid ""
+"C_{coag_{particle}} =  k_{pf} C_{P_0} "
+"\\left(C_{P}^{-2/3}-C_{P_0}^{-2/3}\\right)"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:69
+msgid "Coagulant Dose for Dissolved Organic Matter"
+msgstr "dosis de coagulante para materia orgánica disuelta"
+
+#: ../../Operation/Coagulant_Automation.rst:71
+msgid ""
+"The next improvement in this simple model is to add a correction factor for "
+"dissolved organic matter. The dissolved organic matter effectively "
+"inactivates some of the coagulant. The dissolved organic matter is measured "
+"as absorbance at 254 nm. The amount of coagulant that is tied up with "
+"dissolved organic matter is"
+msgstr ""
+"La siguiente mejora en este modelo sencillo es añadir un factor de "
+"corrección para la materia orgánica disuelta. La materia orgánica disuelta "
+"inactiva efectivamente parte del coagulante. La materia orgánica disuelta se"
+" mide como absorbancia a 254 nm. La cantidad de coagulante que se atará a la"
+" materia orgánica disuelta es"
+
+#: ../../Operation/Coagulant_Automation.rst:73
+msgid "C_{coag_{DOM}}  = A_{254nm} K_{DOM}"
+msgstr "C_{coag_{DOM}} = A_{254nm} K_{DOM}"
+
+#: ../../Operation/Coagulant_Automation.rst:78
+msgid ""
+"The dissolved organic matter simply reduces the amount of coagulant that is "
+"available to make the inorganic particles sticky. The required coagulant "
+"dose can be obtained by adding :math:`C_{coag_{DOM}}` to Equation "
+":eq:`Ccoagkpf`."
+msgstr ""
+"La materia orgánica disuelta simplemente reduce la cantidad de coagulante "
+"disponible para que las partículas inorgánicas sean pegajosas. La dosis de "
+"coagulante necesaria puede obtenerse añadiendo :math:`C_{coag_{DOM}}` a la "
+"Ecuación :eq:`Ccoagkpf`."
+
+#: ../../Operation/Coagulant_Automation.rst:80
+msgid ""
+"C_{coag} =  k_{pf} C_{P_0} \\left(C_{P}^{-2/3}-C_{P_0}^{-2/3}\\right) + "
+"C_{coag_{DOM}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:85
+#, python-format
+msgid ""
+"One method to estimate :math:`K_{DOM}` is based on the experimental results "
+"obtained by Yingda Du (see :numref:`figure_floc_model_HA` `by Yingda Du, et "
+"al., 2019 <https://www.liebertpub.com/doi/abs/10.1089/ees.2018.0405>`_). "
+"Those results suggest that approximately 1 mg/L of aluminum is required to "
+"tie up 12 mg/L of humic acid.  The humic acid concentration was based on the"
+" dry weight and humic acid is approximately 48% carbon. Thus 6 mg of humic "
+"acid as carbon require 1 mg/L of aluminum. The absorbance at 254 nm was "
+"measured by `Rodrigues. et al., 2008 "
+"<https://core.ac.uk/reader/55618110?utm_source=linkout>`_  to be 0.055(humic"
+" acid as carbon in mg/L). Thus :math:`0.33A_{254nm}` is expected to consume "
+"1 mg/L of aluminum where :math:`A_{254nm}` is the UV 254 absorbance in a 1 "
+"cm sample cell. The remaining required conversion is from the concentration "
+"of aluminum to the coagulant dose as measured at the water treatment plant."
+msgstr ""
+"Un método para estimar :math:`K_{DOM}` se basa en los resultados "
+"experimentales obtenidos por Yingda Du (véase :numref:`figure_floc_model_HA`"
+" `de Yingda Du, et al., 2019 "
+"<https://www.liebertpub.com/doi/abs/10.1089/ees.2018.0405>`_). Estos "
+"resultados sugieren que se requiere aproximadamente 1 mg/L de aluminio para "
+"asegurar 12 mg/L de ácido húmico. La concentración de ácido húmico se basó "
+"en el peso seco y el ácido húmico es aproximadamente un 48% de carbono. Así,"
+" 6 mg de ácido húmico como carbono requieren 1 mg/L de aluminio. La "
+"absorbancia a 254 nm fue medida por `Rodrigues. et al., 2008 "
+"<https://core.ac.uk/reader/55618110?utm_source=linkout>`_ como 0,055 (ácido "
+"húmico como carbono en mg/L). Por tanto, se espera que :math:`0.33A_{254nm}`"
+" consuma 1 mg/L de aluminio, donde :math:`A_{254nm}` es la absorbancia UV "
+"254 en una celda de muestra de 1 cm. La conversión restante requerida es de "
+"la concentración de aluminio a la dosis de coagulante medida en la planta "
+"tratamiento de agua ."
+
+#: ../../Operation/Coagulant_Automation.rst:87
+msgid ""
+"Equation :eq:`Ccoagtotal` can be rewritten with subscripts that indicate "
+"when and where the samples are taken for the application of automatic "
+"coagulant dosing. The tube settler turbidity in the future, "
+":math:`C_{TS_{flocculated_{t + \\theta}}}` is the target turbidity of "
+"flocculated water after passing through a tube settler that we are trying to"
+" obtain."
+msgstr ""
+"La ecuación :eq:`Ccoagtotal` puede reescribirse con subíndices que indiquen "
+"cuándo y dónde se toman las muestras para la aplicación de la dosificación "
+"automática de coagulantes. La turbidez del sedimentador tubular en el futuro"
+" :math:`C_{TS_{flocculated_{t + \\theta}}}` es la turbidez objetivo del agua"
+" floculada tras pasar por un sedimentador tubular que intentamos obtener."
+
+#: ../../Operation/Coagulant_Automation.rst:89
+msgid ""
+"C_{coag_{t}} = k_{pf} C_{raw_{t}} \\left(C_{TS_{flocculated_{t + "
+"\\theta}}}^{-2/3}-C_{raw_{t}}^{-2/3}\\right) + C_{coag_{DOM_{t}}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:94
+msgid ""
+"Equation :eq:`CcoagplantFlocculatedTS` reveals that there is an important "
+"time lag due to the hydraulic retention time between the coagulant injection"
+" and the clarified water sample. This time lag will require that the dosing "
+"algorithm include data from the recent history to account for this time "
+"offset."
+msgstr ""
+"La ecuación :eq:`CcoagplantFlocculatedTS` revela que existe un retardo "
+"temporal importante debido al tiempo de retención hidráulica entre la "
+"inyección de coagulante y la muestra agua clarificada . Este retardo "
+"requerirá que el algoritmo de dosificación incluya datos del historial "
+"reciente para tener en cuenta este desplazamiento temporal."
+
+#: ../../Operation/Coagulant_Automation.rst:97
+msgid "Simple Corrector Method"
+msgstr "Método Simple Corrector"
+
+#: ../../Operation/Coagulant_Automation.rst:99
+msgid ""
+"An estimate for the coagulant demand of the DOM is obtained by solving "
+"Equation :eq:`CcoagplantFlocculatedTS` for :math:`C_{coag_{DOM_{t}}}` and "
+"shifting the time to one hydraulic residence time earlier."
+msgstr ""
+"Se obtiene una estimación de la demanda de coagulante del DOM resolviendo la"
+" Ecuación :eq:`CcoagplantFlocculatedTS` para :math:`C_{coag_{DOM_{t}}}` y "
+"desplazando el tiempo a un tiempo de residencia hidráulico antes."
+
+#: ../../Operation/Coagulant_Automation.rst:101
+msgid ""
+"C_{coag_{DOM_{t-\\theta}}} = C_{coag_{t-\\theta}} - k_{pf} "
+"C_{raw_{t-\\theta}} "
+"\\left(C_{TS_{flocculated_{t}}}^{-2/3}-C_{raw_{t-\\theta}}^{-2/3}\\right)"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:106
+msgid ""
+"Given the estimate of the DOM coagulant demand a hydraulic residence time "
+"earlier we can obtain an estimate of the current required coagulant dose. We"
+" will use Equation :eq:`CcoagplantFlocculatedTS` and the assumption that the"
+" coagulant DOM demand doesn't change significantly in one hydraulic "
+"residence time. The :math:`C_{TS_{flocculated_{t + \\theta}}` is the target "
+"tube settler turbidity."
+msgstr ""
+"Dada la estimación de la demanda de coagulante del DOM y un tiempo de "
+"residencia hidráulica anterior, podemos obtener una estimación de la "
+"corriente requerida dosis de coagulante. Utilizaremos la Ecuación "
+":eq:`CcoagplantFlocculatedTS` y la suposición de que la demanda del DOM del "
+"coagulante no cambia significativamente en un tiempo de residencia "
+"hidráulico. La :math:`C_{TS_{flocculated_{t + \\theta}}` es la turbidez del "
+"sedimentador del tubo objetivo."
+
+#: ../../Operation/Coagulant_Automation.rst:108
+msgid ""
+"C_{coag_{t}} =  k_{pf} C_{raw_{t}} \\left(C_{TS_{flocculated_{t + "
+"\\theta}}}^{-2/3}-C_{raw_{t}}^{-2/3}\\right) + C_{coag_{DOM_{t-\\theta}}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:113
+msgid ""
+"The coagulant dosing system must include guardrails to ensure that the "
+"coagulant dose is within a reasonable range. The potential failures include:"
+msgstr ""
+"El sistema de dosificación de coagulantes debe incluir barreras de seguridad"
+" para asegurar que el dosis de coagulante esté dentro de un rango razonable."
+" Los posibles fallos incluyen:"
+
+#: ../../Operation/Coagulant_Automation.rst:115
+msgid ""
+"incorrect reading from a turbidimeter due to an air bubble, a dirty sample "
+"cell, or during routine maintenance"
+msgstr ""
+"lectura incorrecta de un turbidímetro debido a una burbuja de aire, una "
+"celda de muestra sucia o durante el mantenimiento rutinario"
+
+#: ../../Operation/Coagulant_Automation.rst:116
+msgid ""
+"settled water turbidity that is very low because the plant is starting up "
+"after an extended shutdown"
+msgstr ""
+"agua sedimentada turbidez que es muy baja porque la planta arranca tras un "
+"apagado prolongado"
+
+#: ../../Operation/Coagulant_Automation.rst:118
+msgid ""
+"Another potential failure mode would occur if the raw water turbidity is "
+"lower than the target clarified turbidity. This would result in a coagulant "
+"dose that could be too low to achieve effective filtration."
+msgstr ""
+"Otro posible modo de fallo ocurriría si la turbidez agua cruda es menor que "
+"la turbidez clarificada objetivo. Esto resultaría en un dosis de coagulante "
+"que podría ser demasiado bajo para lograr una filtración efectiva."
+
+#: ../../Operation/Coagulant_Automation.rst:120
+msgid ""
+"To reduce the likelihood of a treatment failure the estimated DOM coagulant "
+"demand can be compared with a reasonable range and if it is out of that "
+"range the estimated DOM coagulant demand can be forced back into the "
+"reasonable range. To prevent an excessively low coagulant dose the DOM "
+"coagulant demand can be limited to positive values. If it is known that the "
+"DOM coagulant demand is always exceeds a larger value, that larger value can"
+" be used as a lower limit. The upper limit can be set based on observation "
+"of the raw water quality."
+msgstr ""
+"Para reducir la probabilidad de un fallo del tratamiento, la demanda "
+"estimada de coagulante DOM puede compararse con un rango razonable y, si "
+"está fuera de ese rango, la demanda estimada de coagulante DOM puede "
+"forzarse a volver al rango razonable. Para evitar un dosis de coagulante "
+"excesivamente bajo, la demanda de coagulante DOM puede limitarse a valores "
+"positivos. Si se sabe que la demanda de coagulante DOM siempre supera un "
+"valor mayor, ese valor mayor puede usarse como límite inferior. El límite "
+"superior puede establecerse basándose en la observación de la calidad del "
+"agua bruta."
+
+#: ../../Operation/Coagulant_Automation.rst:123
+msgid "Data processing"
+msgstr "Procesamiento de datos"
+
+#: ../../Operation/Coagulant_Automation.rst:125
+msgid "Acquire data at some high rate (perhaps 1 s intervals)"
+msgstr "Adquirir datos a una tasa alta (quizá cada 1 s)"
+
+#: ../../Operation/Coagulant_Automation.rst:126
+msgid ""
+"Set the number of coagulant dose updates per hydraulic residence time (HRT) "
+"(perhaps 10) and average the incoming data to that update interval"
+msgstr ""
+"Fija el número de actualizaciones de dosis de coagulante por tiempo de "
+"residencia hidráulica (HRT) (quizá 10) y promedia los datos entrantes a ese "
+"intervalo de actualización"
+
+#: ../../Operation/Coagulant_Automation.rst:127
+msgid "Hold the averaged data in a buffer with each data set including a time stamp."
+msgstr ""
+"Conserva los datos promediados en un búfer con cada conjunto de datos "
+"incluyendo una marca de tiempo."
+
+#: ../../Operation/Coagulant_Automation.rst:128
+msgid ""
+"For each coagulant dose update use Equation :eq:`DOMcoagDemand` to estimate "
+"the coagulant demand of the DOM and then use Equation :eq:`CcoagplantofDOM` "
+"to estimate the new coagulant dose."
+msgstr ""
+"Para cada actualización dosis de coagulante , utiliza la Ecuación "
+":eq:`DOMcoagDemand` para estimar la demanda de coagulante del DOM y luego "
+"utiliza la Ecuación :eq:`CcoagplantofDOM` para estimar la nueva dosis de "
+"coagulante."
+
+#: ../../Operation/Coagulant_Automation.rst:131
+msgid "Floc Filtration Modification"
+msgstr "Modificación por filtración de floc"
+
+#: ../../Operation/Coagulant_Automation.rst:133
+msgid ""
+"We hypothesize that there is significant particle removal by floc filtration"
+" both in conventional sedimentation tanks and in the floc filter of the "
+"AguaClara clarifier. This means that the :math:`C_{TS_{flocculated_{t + "
+"\\theta}}}` is not a constant value, since it needs to account for the "
+"removal efficiency of the floc filter. Equation "
+":eq:`Removal_in_sequential_floc_sed` calculates the total removal based on "
+"performance"
+msgstr ""
+"Hipotetizamos que existe una eliminación significativa de partículas por "
+"filtración por flócs tanto en tanques de sedimentación convencionales como "
+"en el filtro de flóculos del clarificador AguaClara. Esto significa que el "
+":math:`C_{TS_{flocculated_{t + \\theta}}}` no es un valor constante, ya que "
+"debe tener en cuenta la eficiencia de eliminación del filtro de flóculos. La"
+" ecuación :eq:`Removal_in_sequential_floc_sed` calcula la eliminación total "
+"en función del rendimiento"
+
+#: ../../Operation/Coagulant_Automation.rst:135
+msgid ""
+"C_{TS_{flocFiltered}} =  C_{raw} \\frac{C_{TS_{flocculated}}}{ C_{raw}} "
+"\\frac{ C_{TS_{flocFiltered}}}{C_{TS_{flocculated}}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:140
+msgid ""
+"where it is understood that these water samples are all passed through a "
+"tube settler, TS, before measuring the particle concentration."
+msgstr ""
+"donde se entiende que todas estas muestras de agua pasan por un sedimentador"
+" tubular, TS, antes de medir la concentración de partículas."
+
+#: ../../Operation/Coagulant_Automation.rst:142
+msgid ""
+"Instead of setting a target for :math:`C_{TS_{flocculated}}` we will set a "
+"target for :math:`C_{TS_{flocFiltered}}`. Equation "
+":eq:`sed_floc_filter_Cp_removal` describes particle removal by settling "
+"flocs. The Equation :eq:`eq_spacing_of_diameter` gives the relationship "
+"between floc concentration and its surrounding volume."
+msgstr ""
+"En lugar de establecer un objetivo para :math:`C_{TS_{flocculated}}` "
+"fijaremos un objetivo para :math:`C_{TS_{flocFiltered}}`. La ecuación "
+":eq:`sed_floc_filter_Cp_removal` describe la eliminación de partículas "
+"mediante el asentamiento de flócs. La ecuación :eq:`eq_spacing_of_diameter` "
+"da la relación entre la concentración de flócs y su volumen circundante."
+
+#: ../../Operation/Coagulant_Automation.rst:144
+msgid ""
+"\\forall_{\\rm{Surround}} =   \\bar{D_P}^3 "
+"\\left(\\frac{\\pi}{6}\\frac{\\rho_P}{C_P}\\right)"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:149
+msgid ""
+"The :math:`\\forall_{\\rm{Surround}}` is for the flocs that will be falling "
+"through the suspension. Thus it does not include the particles that are too "
+"small to settle significantly. The surrounding volume for the flocs in the "
+"sedimentation tank  :math:`\\forall_{\\rm{Surround}}` is a function of the "
+"floc concentration, :math:`\\left( C_{raw} - C_{TS_{flocculated}} \\right)`."
+" From Equation :eq:`surround_volume_of_Cp` we have"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:151
+msgid ""
+"{\\forall_{\\rm{Surround}}} =  \\bar{D_P}^3 "
+"\\left(\\frac{\\pi}{6}\\frac{\\rho_P}{C_{raw} - "
+"C_{TS_{flocculated}}}\\right)"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:156
+msgid ""
+"The volume cleared can also be thought of as inversely proportional to a "
+"high turbidity where the :math:`\\forall_{\\rm{Surround}}` is equal to the "
+":math:`\\forall_{\\rm{Cleared}}`. We designate this concentration or "
+"turbidity as :math:`C_{Cleared}`."
+msgstr ""
+"El volumen despejado también puede considerarse inversamente proporcional a "
+"una alta turbidez donde el :math:`\\forall_{\\rm{Surround}}` es igual al "
+":math:`\\forall_{\\rm{Cleared}}`. Designamos esta concentración o turbidez "
+"como :math:`C_{Cleared}`."
+
+#: ../../Operation/Coagulant_Automation.rst:158
+msgid ""
+"\\forall_{\\rm{Cleared}} =  \\bar{D_P}^3 "
+"\\left(\\frac{\\pi}{6}\\frac{\\rho_P}{C_{Cleared}}\\right)"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:163
+msgid ""
+"Combining Equations :eq:`surround_volume_of_raw_flocculated` and "
+":eq:`cleared_volume_as_C_equivalent` we obtain"
+msgstr ""
+"Combinando ecuaciones :eq:`surround_volume_of_raw_flocculated` y "
+":eq:`cleared_volume_as_C_equivalent` obtenemos"
+
+#: ../../Operation/Coagulant_Automation.rst:165
+msgid ""
+"\\frac{\\forall_{\\rm{Cleared}}}{\\forall_{\\rm{Surround}}} = \\frac{C_{raw}"
+" - C_{TS_{flocculated}}}{C_{Cleared}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:170
+msgid ""
+"Now we can simplify Equation :eq:`sed_floc_filter_Cp_removal` by "
+"substituting in Equation :eq:`volume_ratio_as_concentration_ratio`."
+msgstr ""
+"Ahora podemos simplificar la ecuación :eq:`sed_floc_filter_Cp_removal` "
+"sustituyendo en la ecuación :eq:`volume_ratio_as_concentration_ratio`."
+
+#: ../../Operation/Coagulant_Automation.rst:172
+msgid ""
+"\\frac{ C_{TS_{flocFiltered}}}{C_{TS_{flocculated}}} =  \\left( \\frac{1}{e}"
+" \\right)^\\frac{\\forall_{\\rm{Cleared}}}{\\forall_{\\rm{Surround}}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:177
+msgid ""
+"A possible solution method is to use a running approximation for the "
+"exponential term based on the previous measurement of  "
+":math:`C_{TS_{flocculated}}`."
+msgstr ""
+"Un posible método de solución es usar una aproximación ejecutiva para el "
+"término exponencial basada en la medición previa de  "
+":math:`C_{TS_{flocculated}}`."
+
+#: ../../Operation/Coagulant_Automation.rst:179
+msgid ""
+"C_{TS_{flocculated_{t + \\theta}}} = C_{TS_{flocFiltered_{t + \\theta}}}  "
+"e^\\frac{C_{raw_{t - \\theta}} - C_{TS_{flocculated_{t}}}}{C_{Cleared}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:184
+msgid ""
+"The value of :math:`C_{TS_{flocFiltered_{t + \\theta}}}` is the target "
+"performance for the water leaving the conventional sedimentation tank. At "
+"each time step first use Equation :eq:`C_TS_flocculated_of_flocFiltered` to "
+"obtain an estimate of the target for the turbidity after flocculation and a "
+"tube settler, :math:`C_{TS_{flocculated_{t + \\theta}}}`. The result from "
+"Equation :eq:`C_TS_flocculated_of_flocFiltered` can then be substituted into"
+" Equation :eq:`CcoagplantofDOM` to calculate the new coagulant dose."
+msgstr ""
+"El valor de :math:`C_{TS_{flocFiltered_{t + \\theta}}}` es el rendimiento "
+"objetivo del agua que sale del tanque convencional de sedimentación. En cada"
+" paso de tiempo, primero se utiliza la Ecuación "
+":eq:`C_TS_flocculated_of_flocFiltered` para obtener una estimación del "
+"objetivo para la turbidez tras la floculación y un sedimentador tubular, "
+":math:`C_{TS_{flocculated_{t + \\theta}}}`. El resultado de la Ecuación "
+":eq:`C_TS_flocculated_of_flocFiltered` puede sustituirse en la Ecuación "
+":eq:`CcoagplantofDOM` para calcular la nueva dosis de coagulante."
+
+#: ../../Operation/Coagulant_Automation.rst:186
+msgid ""
+"Still need to figure out the correction method for Need to think carefully "
+"about the time for measurement of each of these parameters and the various "
+":math:`\\theta` involved."
+msgstr ""
+"Todavía hay que averiguar el método de corrección para Need y pensar "
+"cuidadosamente en el tiempo de medición de cada uno de estos parámetros y en"
+" las distintas :math:`\\theta` implicadas."
+
+#: ../../Operation/Coagulant_Automation.rst:190
+msgid ""
+"C_{TS_{flocculated}} = C_{TS_{flocFiltered}}  e^\\frac{C_{raw} - "
+"C_{TS_{flocculated}}}{C_{Cleared}}"
+msgstr ""
+
+#: ../../Operation/Coagulant_Automation.rst:195
+msgid ""
+"Unfortunately this can't be solved for :math:`C_{TS_{flocculated}}`, but we "
+"can solve for the settled water turbidity, :math:`C_{TS_{flocFiltered}}`. We"
+" invert the fraction and put a negative sign in the exponent."
+msgstr ""
+"Desafortunadamente, esto no puede resolverse para "
+":math:`C_{TS_{flocculated}}`, pero sí podemos resolver para la agua "
+"sedimentada turbidez, :math:`C_{TS_{flocFiltered}}`. Invertimos la fracción "
+"y ponemos un signo negativo en el exponente."
+
+#: ../../Operation/Coagulant_Automation.rst:197
+msgid ""
+"C_{TS_{flocFiltered}} =  C_{TS_{flocculated}} e^\\frac{C_{TS_{flocculated}} "
+"- C_{raw}}{C_{Cleared}}"
+msgstr ""
+

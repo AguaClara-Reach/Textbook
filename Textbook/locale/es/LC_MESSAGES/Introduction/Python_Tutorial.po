@@ -1,0 +1,852 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../Introduction/Python_Tutorial.rst:12
+msgid "Python Tutorial"
+msgstr "Python Tutorial"
+
+#: ../../Introduction/Python_Tutorial.rst:18
+msgid "Code resources."
+msgstr "Código."
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Description"
+msgstr "Descripción"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Theme"
+msgstr "Tema"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Example function"
+msgstr "Función de ejemplo"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Function call"
+msgstr "Llamada de función"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "`Python functions <http://docs.python.org/3/library/functions.html>`_"
+msgstr "`Funciones en Python <http://docs.python.org/3/library/functions.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "low level programming functions"
+msgstr "Funciones de programación de bajo nivel"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "open a file"
+msgstr "abrir un archivo"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "open(file, mode='r')"
+msgstr "open(archivo, modo='r')"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"`Pint universal constants "
+"<https://github.com/hgrecco/pint/blob/master/pint/constants_en.txt>`_"
+msgstr ""
+"`Constantes universales de Pint "
+"<https://github.com/hgrecco/pint/blob/master/pint/constants_en.txt>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "physical constants with units"
+msgstr "constantes físicas con unidades"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Avogadro's number"
+msgstr "El número de Avogadro"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "u.avogadro_number"
+msgstr "u.avogadro_number"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"`Pint units "
+"<https://github.com/hgrecco/pint/blob/master/pint/default_en.txt>`_"
+msgstr ""
+"`Unidades Pint "
+"<https://github.com/hgrecco/pint/blob/master/pint/default_en.txt>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "units that can be attached to numbers and numpy arrays"
+msgstr "Unidades que pueden acoplarse a números y matrices numpy"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "5 m/s"
+msgstr ""
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "5* u.mm/u.s"
+msgstr ""
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"aguaclara.core. `physchem "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/core/physchem.py>`_"
+msgstr ""
+"aguaclara.core. `psico "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/core/physchem.py>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "pipeflow, orifices, viscosity of water, weirs, manifolds, Kozeny equation"
+msgstr ""
+"Flujo de tuberías, orificios, viscosidad del agua, presas, colectores, "
+"ecuación de Kozeny"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "total head loss in a straight pipe"
+msgstr " pérdida de carga total en una tubería recta"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "headloss(FlowRate, Diam, Length, Nu, PipeRough, KMinor)"
+msgstr "Pérdida de carga (Caudal, Diámetro, Longitud, Nu, TubeRough, KMinor)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"aguaclara.research. `floc_model "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/floc_model.py>`_"
+msgstr ""
+"aguaclara.research. `floc_model "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/floc_model.py>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "AguaClara flocculation model, velocity gradients, Kolmogorov length scales"
+msgstr ""
+"Modelo de floculación de AguaClara, gradientes de velocidad, escalas de "
+"longitud de Kolmogorov"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "velocity gradient in a coiled tube"
+msgstr "Gradiente de velocidad en un tubo enrollado"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "g_coil(FlowPlant, IDTube, RadiusCoil, Temp)"
+msgstr "g_coil(FlowPlant, IDTube, RadiusCoil, Temp)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"aguaclara.research. `environmental_processes_analysis "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/environmental_processes_analysis.py>`_"
+msgstr ""
+"aguaclara.research. `environmental_processes_analysis "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/environmental_processes_analysis.py>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "carbonate system, CMFR and advection dispersion reactor analysis"
+msgstr "sistema carbonatado, CMFR y análisis de reactores de dispersión por advección"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "extract data from ProCoDA generated Gran analysis file"
+msgstr "extraer datos del archivo de análisis Gran generado por ProCoDA"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Gran(data_file_path)"
+msgstr "Gran(data_file_path)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"aguaclara.research. `procoda_parser "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/procoda_parser.py>`_"
+msgstr ""
+"aguaclara.research. `procoda_parser "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/research/procoda_parser.py>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Extracts data from multiple ProCoDA files based on the state and data column"
+msgstr ""
+"Extrae datos de múltiples archivos ProCoDA basándose en la columna de estado"
+" y datos"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "extract a column of data from a ProCoDA data file"
+msgstr "extraer una columna de datos de un archivo de datos ProCoDA"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "column_of_data (data_file_path, start, column)"
+msgstr "column_of_data (data_file_path, inicio, columna)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "`SciPy <https://docs.scipy.org/doc/scipy/reference/>`_"
+msgstr "`SciPy <https://docs.scipy.org/doc/scipy/reference/>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"computing integrals numerically, solving differential equations, "
+"optimization, and sparse matrices"
+msgstr ""
+"Cálculo numérico de integrales, resolución de ecuaciones diferenciales, "
+"optimización y matrices dispersas"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "root finding"
+msgstr "Búsqueda de raíces"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "root(func, 0.3)"
+msgstr "raíz(función, 0.3)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "`NumPy <https://docs.scipy.org/doc/numpy/user/quickstart.html>`_"
+msgstr "`NumPy <https://docs.scipy.org/doc/numpy/user/quickstart.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Array manipulation and math functions"
+msgstr "Manipulación de matrices y funciones matemáticas"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "create an array with linearly spaced elements"
+msgstr "crear un array con elementos linealmente espaciados"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid ""
+"np. `linspace "
+"<https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html#numpy.linspace>`_"
+" (start,stop,num)"
+msgstr ""
+"NP. `Linspace "
+"<https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html#numpy.linspace>`_"
+" (inicio, detención, num)"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "`PyPlot <https://matplotlib.org/tutorials/index.html>`_"
+msgstr "`PyPlot <https://matplotlib.org/tutorials/index.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Graphs!"
+msgstr "¡Gráficos!"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "Create beautiful graphs"
+msgstr "Crea gráficos bonitos"
+
+#: ../../Introduction/Python_Tutorial.rst:1
+msgid "see below"
+msgstr "ver más abajo"
+
+#: ../../Introduction/Python_Tutorial.rst:35
+msgid "Import statements"
+msgstr "Extractos de importación"
+
+#: ../../Introduction/Python_Tutorial.rst:48
+msgid ""
+"Hint: If you are typing a function name and want to know what the options "
+"are for completing what you are typing, just hit the tab key for a menu of "
+"options."
+msgstr ""
+"Consejo: Si estás escribiendo el nombre de una función y quieres saber "
+"cuáles son las opciones para completar lo que estás escribiendo, solo tienes"
+" que pulsar la tecla tab para un menú de opciones."
+
+#: ../../Introduction/Python_Tutorial.rst:50
+msgid ""
+"Hint: If you want to see the source code associated with a function, you can"
+" do the following import inspect inspect.getsource(foo)"
+msgstr ""
+"Consejo: Si quieres ver el código fuente asociado a una función, puedes "
+"hacer la siguiente importación inspect inspect.getsource(foo)"
+
+#: ../../Introduction/Python_Tutorial.rst:53
+msgid "Where “foo” is the function that you’d like to learn about."
+msgstr "Donde \"foo\" es la función que te gustaría conocer."
+
+#: ../../Introduction/Python_Tutorial.rst:56
+msgid "Markdown"
+msgstr "Descuento"
+
+#: ../../Introduction/Python_Tutorial.rst:58
+msgid ""
+"Markdown allow you to mix code, beautiful Latex equations, nicely formatted "
+"text, figures, and tables."
+msgstr ""
+"Markdown te permite mezclar código, preciosas ecuaciones Latex, texto bien "
+"formateado, figuras y tablas."
+
+#: ../../Introduction/Python_Tutorial.rst:60
+msgid ""
+"c = \\sqrt{a^2 + b^2}\n"
+"\n"
+msgstr ""
+
+#: ../../Introduction/Python_Tutorial.rst:62
+msgid ""
+"Markdown does not handle automatic numbering of equations, figures, and "
+"tables."
+msgstr ""
+"Markdown no gestiona la numeración automática de ecuaciones, figuras y "
+"tablas."
+
+#: ../../Introduction/Python_Tutorial.rst:64
+msgid ""
+"The Python Kernel remembers all definitions (functions and variables) as "
+"they are defined based on execution. Thus if you fail to execute a line of "
+"code, the parameters defined in that line won’t be available. Similarly, if "
+"you define a parameter and then delete that line of code, that parameter "
+"remains defined until you reset all runtimes or restart."
+msgstr ""
+"El kernel de Python recuerda todas las definiciones (funciones y variables) "
+"tal como se definen según la ejecución. Así, si no ejecutas una línea de "
+"código, los parámetros definidos en esa línea no estarán disponibles. De "
+"manera similar, si defines un parámetro y luego eliminas esa línea de "
+"código, ese parámetro permanece definido hasta que reinicies todos los "
+"tiempos de ejecución o reinicies."
+
+#: ../../Introduction/Python_Tutorial.rst:66
+msgid ""
+"Before submitting a file for others to use, you need to verify that all of "
+"the dependencies are defined and that you didn't accidently delete a "
+"definition that is required. You can do this by resetting all runtimes "
+"(Runtime menu) and then running all."
+msgstr ""
+"Antes de enviar un archivo para que otros lo usen, necesitas verificar que "
+"todas las dependencias estén definidas y que no hayas eliminado "
+"accidentalmente una definición que es necesaria. Puedes hacerlo reiniciando "
+"todos los tiempos de ejecución (menú de tiempo de ejecución) y luego "
+"ejecutándolos todos."
+
+#: ../../Introduction/Python_Tutorial.rst:69
+msgid "Transitioning From Matlab To Python"
+msgstr "Transición de Matlab a Python"
+
+#: ../../Introduction/Python_Tutorial.rst:71
+msgid ""
+"**Indentation** - When writing functions or using statements, Python "
+"recognizes code blocks from the way they are indented. A code block is a "
+"group of statements that, together, perform a task. A block begins with a "
+"header that is followed by one or more statements that are indented with "
+"respect to the header. The indentation indicates to the Python interpreter, "
+"and to programmers that are reading the code, that the indented statements "
+"and the preceding header form a code block."
+msgstr ""
+"**Sangría** - Al escribir funciones o usar sentencias, Python reconoce "
+"bloques de código por la forma en que están sangrados. Un bloque de código "
+"es un grupo de sentencias que, juntas, realizan una tarea. Un bloque "
+"comienza con una cabecera seguida de una o más sentencias que están "
+"sangradas respecto a la cabecera. La sangría indica al intérprete de Python "
+"y a los programadores que leen el código, que las sentencias sangradas y el "
+"encabezado anterior forman un bloque de código."
+
+#: ../../Introduction/Python_Tutorial.rst:73
+msgid ""
+"**Suppressing Statements** - Unlike Matlab, you do not need a semi-colon to "
+"suppress a statement in Python;"
+msgstr ""
+"**Suprimir sentencias** - A diferencia de Matlab, no necesitas punto y coma "
+"para suprimir una sentencia en Python;"
+
+#: ../../Introduction/Python_Tutorial.rst:75
+msgid "**Indexing** - Matlab starts at index 1 whereas Python starts at index 0."
+msgstr ""
+"**Indexación** - Matlab comienza en el índice 1 mientras que Python empieza "
+"en el índice 0."
+
+#: ../../Introduction/Python_Tutorial.rst:77
+msgid ""
+"**Functions** - In Matlab, functions are written by invoking the keyword "
+"“function”, the return parameter(s), the equal to sign, the function name "
+"and the input parameters. A function is terminated with “end”.::"
+msgstr ""
+"**Funciones** - En Matlab, las funciones se escriben invocando la palabra "
+"clave \"function\", el(los) parámetro(s) de retorno, el igual a signo, el "
+"nombre de la función y los parámetros de entrada. Una función termina con "
+"\"end\".::"
+
+#: ../../Introduction/Python_Tutorial.rst:86
+msgid ""
+"In Python, functions can be written by using the keyword “def”, followed by "
+"the function name and then the input parameters in parenthesis followed by a"
+" colon. A function is terminated with “return”.::"
+msgstr ""
+"En Python, las funciones pueden escribirse usando la palabra clave \"def\", "
+"seguida del nombre de la función y después los parámetros de entrada entre "
+"paréntesis seguidos de dos puntos. Una función termina con \"return\".::"
+
+#: ../../Introduction/Python_Tutorial.rst:93
+msgid ""
+"**Statements** - for loops and if statements do not require the keyword "
+"“end” in Python. The loop header in Matlab varies from that of Python. Check"
+" examples below:"
+msgstr ""
+"**Sentencias** - las sentencias for y if no requieren la palabra clave "
+"\"end\" en Python. El encabezado del bucle en Matlab varía del de Python. "
+"Consulta los ejemplos a continuación:"
+
+#: ../../Introduction/Python_Tutorial.rst:95
+msgid "Matlab code::"
+msgstr "Código de Matlab::"
+
+#: ../../Introduction/Python_Tutorial.rst:105
+msgid "**Printing** - Use “print()” in Python instead of “disp” in Matlab."
+msgstr "**Impresión** - Usa \"print()\" en Python en lugar de \"disp\" en Matlab."
+
+#: ../../Introduction/Python_Tutorial.rst:107
+msgid "**Helpful Documents**"
+msgstr "**Documentos útiles**"
+
+#: ../../Introduction/Python_Tutorial.rst:109
+msgid ""
+"`Numpy for Matlab Users <https://numpy.org/doc/stable/user/numpy-for-matlab-"
+"users.html>`_"
+msgstr ""
+"`Numpy para usuarios de Matlab <https://numpy.org/doc/stable/user/numpy-for-"
+"matlab-users.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:110
+msgid ""
+"`Stepping from Matlab to Python <http://stsievert.com/blog/2015/09/01"
+"/matlab-to-python/>`_"
+msgstr ""
+"`Pasar de Matlab a Python <http://stsievert.com/blog/2015/09/01/matlab-to-"
+"python/>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:111
+msgid ""
+"`Python for Matlab Users, UC Boulder "
+"<https://web.archive.org/web/20200904210558/http://researchcomputing.github.io/meetup_fall_2014/pdfs/fall2014_meetup13_python_matlab.pdf>`_"
+msgstr ""
+"`Python para usuarios de Matlab, UC Boulder "
+"<https://web.archive.org/web/20200904210558/http://researchcomputing.github.io/meetup_fall_2014/pdfs/fall2014_meetup13_python_matlab.pdf>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:114
+msgid "Units"
+msgstr "Unidades"
+
+#: ../../Introduction/Python_Tutorial.rst:116
+msgid ""
+"Engineering requires calculations with units. Prior to modern computer "
+"languages engineers used paper and pencil, slide rules, calculators, and "
+"more recently spreadsheets to do calculations. All of these methods are "
+"prone to calculation errors because units aren't handled as an essential "
+"part of each value. Spreadsheets are especially notorious for calculation "
+"errors because unit conversions are buried in formulas that are hidden in "
+"the cells."
+msgstr ""
+"La ingeniería requiere cálculos con unidades. Antes de los lenguajes "
+"informáticos modernos, los ingenieros usaban papel y lápiz, reglas de "
+"cálculo, calculadoras y, más recientemente, hojas de cálculo para hacer "
+"cálculos. Todos estos métodos son propensos a errores de cálculo porque las "
+"unidades no se manejan como una parte esencial de cada valor. Las hojas de "
+"cálculo son especialmente conocidas por sus errores de cálculo porque las "
+"conversiones de unidades quedan enterradas en fórmulas que están ocultas en "
+"las celdas."
+
+#: ../../Introduction/Python_Tutorial.rst:118
+msgid ""
+"Operations on values with units follow very clear algebraic rules and thus "
+"units can be attached to numerical values and carried through math "
+"operations. This capability is implemented in Python using `Pint "
+"<https://pint.readthedocs.io/en/latest/>`_ . The Pint package includes a "
+"host of units and prefixes (such as :math:`\\mu` for :math:`10^{-6}`). As "
+"you master using Python and Pint you will say goodbye to mindless unit "
+"conversions forever!"
+msgstr ""
+"Las operaciones sobre valores con unidades siguen reglas algebraicas muy "
+"claras y, por tanto, las unidades pueden asociarse a valores numéricos y "
+"llevarse a cabo mediante operaciones matemáticas. Esta capacidad está "
+"implementada en Python usando `Pint "
+"<https://pint.readthedocs.io/en/latest/>`_ . El paquete Pint incluye una "
+"serie de unidades y prefijos (como :math:`\\mu` para :math:`10^{-6}`). "
+"¡Mientras domines el uso de Python y Pint, te despedirás para siempre de las"
+" conversiones de unidades sin sentido!"
+
+#: ../../Introduction/Python_Tutorial.rst:120
+msgid ""
+"Environmental engineers historically described surface loading rates for "
+"clarifiers using units of gal/min per square foot. How fast is "
+":math:`\\frac{1 gpm}{ft^2}` in :math:`\\frac{mm}{s}`?"
+msgstr ""
+
+#: ../../Introduction/Python_Tutorial.rst:128
+msgid "The surface loading rate is 0.6791 millimeter / second"
+msgstr "La tasa de carga superficial es de 0,6791 milímetros por segundo"
+
+#: ../../Introduction/Python_Tutorial.rst:130
+msgid ""
+"After reducing the number of significant digits to 2 we obtain: The surface "
+"loading rate is 0.68 millimeter / second"
+msgstr ""
+"Tras reducir el número de dígitos significativos a 2, obtenemos: La tasa de "
+"carga superficial es de 0,68 milímetros/segundo"
+
+#: ../../Introduction/Python_Tutorial.rst:133
+msgid ""
+"How long does it take to stop a car that is initially traveling at 60 mph if"
+" the coefficient of friction is 0.5?"
+msgstr ""
+"¿Cuánto tiempo tarda en parar un coche que inicialmente circula a 60 mph si "
+"el coeficiente de fricción es 0,5?"
+
+#: ../../Introduction/Python_Tutorial.rst:144
+msgid "The time to stop the car is 120 mile / hour / standard_gravity"
+msgstr "El tiempo para parar el coche es de 120 millas / hora / standard_gravity"
+
+#: ../../Introduction/Python_Tutorial.rst:146
+msgid "We add the .to_base_units() directive to force pint to simplify the units."
+msgstr ""
+"Añadimos la directiva .to_base_units() para forzar la pinta y así "
+"simplificar las unidades."
+
+#: ../../Introduction/Python_Tutorial.rst:148
+msgid "The time to stop the car is 5.47 second"
+msgstr "El tiempo para parar el coche es de 5,47 segundos"
+
+#: ../../Introduction/Python_Tutorial.rst:150
+msgid ""
+"Many functions written in Python do not yet handle units and thus it is "
+"sometimes necessary to remove the units. Examples include graphs (althougth "
+"units might be coming to matplotlib), SciPy functions, and the NumPy "
+"functions used to populate arrays. For these cases you can strip the units "
+"off a number using the .magnitude method. Be careful to make sure you know "
+"what the units are before you remove them otherwise you may be confused by "
+"the results!"
+msgstr ""
+"Muchas funciones escritas en Python aún no manejan unidades, por lo que a "
+"veces es necesario eliminar las unidades. Ejemplos incluyen grafos (aunque "
+"las unidades podrían estar llegando a matplotlib), funciones SciPy y las "
+"funciones NumPy usadas para llenar arrays. En estos casos puedes eliminar "
+"las unidades de un número usando el método .magnitud. Ten cuidado de saber "
+"cuáles son las unidades antes de eliminarlas, ¡si no, podrías confundirte "
+"con los resultados!"
+
+#: ../../Introduction/Python_Tutorial.rst:163
+msgid "The volume is 15 gallon * hour / minute"
+msgstr "El volumen es de 15 galones * hora/minuto"
+
+#: ../../Introduction/Python_Tutorial.rst:165
+msgid "The magnitude of the Volume is 15.0"
+msgstr "La magnitud del Volumen es 15,0"
+
+#: ../../Introduction/Python_Tutorial.rst:167
+msgid "The units of the flow are gallon * hour / minute"
+msgstr "Las unidades del caudal son galón * hora/minuto"
+
+#: ../../Introduction/Python_Tutorial.rst:169
+msgid "The volume is 3.41 kiloliter"
+msgstr "El volumen es de 3,41 kilolitros"
+
+#: ../../Introduction/Python_Tutorial.rst:171
+msgid "It is useful to force pint to display the result in the units of your choice."
+msgstr ""
+"Es útil forzar la pinta para mostrar el resultado en las unidades que "
+"prefieras."
+
+#: ../../Introduction/Python_Tutorial.rst:175
+msgid "Arrays and units"
+msgstr "Matrices y unidades"
+
+#: ../../Introduction/Python_Tutorial.rst:177
+msgid ""
+"Use NumPy arrays rather than Python lists to enable math with numbers and "
+"units. When creating arrays with units remember that"
+msgstr ""
+"Usa arrays NumPy en lugar de listas Python para habilitar matemáticas con "
+"números y unidades. Al crear arrays con unidades, recuerda eso"
+
+#: ../../Introduction/Python_Tutorial.rst:179
+msgid "Array elements don't have units!"
+msgstr "¡Los elementos del array no tienen unidades!"
+
+#: ../../Introduction/Python_Tutorial.rst:180
+msgid "Arrays can have units."
+msgstr "Los arreglos pueden tener unidades."
+
+#: ../../Introduction/Python_Tutorial.rst:182
+msgid ""
+"Therefore always attach units to the array after the array has been created."
+" This means that array elements should be dimensionless and thus arrays must"
+" be created using dimensionless values."
+msgstr ""
+"Por lo tanto, siempre se adjuntan unidades al array una vez que se ha creado"
+" el array. Esto significa que los elementos del array deben ser "
+"adimensionales y, por tanto, los arrays deben crearse usando valores "
+"adimensionales."
+
+#: ../../Introduction/Python_Tutorial.rst:184
+msgid ""
+"We can use NumPy linspace with a simple change to make it dimensionless. "
+"Usually linspace has start and stop elements that would logically have "
+"units: np.linspace(start, stop, num). But elements can't have units! We can "
+"make the inputs to linspace be dimensionless to create a dimensionless array"
+" and then multiplies it by the final value that includes the units to scale "
+"the array correctly. For evenly spaced arrays starting at the end of the "
+"first space we have either:"
+msgstr ""
+"Podemos usar el linspace NumPy con un cambio simple para hacerlo "
+"adimensional. Normalmente el linespace tiene elementos de inicio y fin que "
+"lógicamente tendrían unidades: np.linspace(inicio, fin, num). ¡Pero los "
+"elementos no pueden tener unidades! Podemos hacer que las entradas del "
+"linespace sean adimensionales para crear un array adimensional y luego "
+"multiplicarlo por el valor final que incluye las unidades para escalar "
+"correctamente el array. Para arrays espaciados uniformemente que comienzan "
+"al final del primer espacio tenemos o:"
+
+#: ../../Introduction/Python_Tutorial.rst:186
+msgid "np.linspace(start/stop, 1, num) * stop"
+msgstr "np.linspace(inicio/parada, 1, num) * parar"
+
+#: ../../Introduction/Python_Tutorial.rst:187
+msgid "np.linspace(1 / num, 1, num) * stop"
+msgstr "np.linspace(1 / num, 1, num) * stop"
+
+#: ../../Introduction/Python_Tutorial.rst:189
+msgid "For evenly spaced arrays starting with zero we have:"
+msgstr "Para arreglos espaciados uniformemente que empiezan por cero tenemos:"
+
+#: ../../Introduction/Python_Tutorial.rst:191
+msgid "np.linspace(0, 1, num+1) * stop!"
+msgstr "np.linspace(0, 1, num+1) * ¡Para!"
+
+#: ../../Introduction/Python_Tutorial.rst:193
+msgid ""
+"The print function can't currently handle arrays with units. The array can "
+"be printed nicely in two steps as shown below."
+msgstr ""
+"La función de impresión actualmente no puede manejar arrays con unidades. El"
+" array puede imprimirse bien en dos pasos, como se muestra a continuación."
+
+#: ../../Introduction/Python_Tutorial.rst:209
+msgid "[  2.   4.   6.   8.  10.  12.  14.  16.  18.  20.] liter / second"
+msgstr "[  2.   4. 6.   8. 10.  12. 14.  16. 18.  20.] litro / segundo"
+
+#: ../../Introduction/Python_Tutorial.rst:213
+msgid "Plotting"
+msgstr "Trama"
+
+#: ../../Introduction/Python_Tutorial.rst:215
+msgid ""
+"We will use this `pyplot coding style "
+"<https://matplotlib.org/tutorials/introductory/usage.html#coding-styles>`_ ."
+msgstr ""
+"Usaremos este estilo de codificación `pyplot "
+"<https://matplotlib.org/tutorials/introductory/usage.html#coding-styles>`_ ."
+
+#: ../../Introduction/Python_Tutorial.rst:217
+msgid "fig is a Figure instance—like a blank canvas"
+msgstr "fig es una instancia de Figura—como un lienzo en blanco"
+
+#: ../../Introduction/Python_Tutorial.rst:218
+msgid "ax is an AxesSubplot instance—think of a frame for plotting in"
+msgstr "ax es una instancia de subtrama de Axes—piensa en un marco para trazar en"
+
+#: ../../Introduction/Python_Tutorial.rst:220
+msgid ""
+"Create a graph showing flow rate vs depth for two linear flow orifice meters"
+" that have a depth range of 20 cm and flow ranges of 50 and 70 L/s."
+msgstr ""
+"Crea un gráfico mostrando caudal frente a profundidad para dos medidores de "
+"orificio de flujo lineal que tienen un rango de profundidad de 20 cm y "
+"rangos de caudal de 50 y 70 L/s."
+
+#: ../../Introduction/Python_Tutorial.rst:222
+msgid ""
+"`Legend location options "
+"<https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html>`_"
+msgstr ""
+"`Opciones de ubicación de leyendas "
+"<https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:223
+msgid "`Colors <https://matplotlib.org/api/colors_api.html>`_"
+msgstr "`Colores <https://matplotlib.org/api/colors_api.html>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:225
+msgid "'b', 'g', 'r', 'c', 'm', 'y', 'k', 'w'"
+msgstr ""
+
+#: ../../Introduction/Python_Tutorial.rst:226
+msgid "blue, green, red, cyan, magenta, yellow, black, white"
+msgstr "azul, verde, rojo, cian, magenta, amarillo, negro, blanco"
+
+#: ../../Introduction/Python_Tutorial.rst:228
+msgid ""
+"`Data markers (if you are plotting data and not a model or curve fit) "
+"<https://matplotlib.org/api/markers_api.html#module-matplotlib.markers>`_"
+msgstr ""
+"`Marcadores de datos (si estás representando datos y no un modelo o ajuste "
+"de curva) <https://matplotlib.org/api/markers_api.html#module-"
+"matplotlib.markers>`_"
+
+#: ../../Introduction/Python_Tutorial.rst:275
+msgid "LFOM flow vs height"
+msgstr "Caudal de LFOM frente a altura"
+
+#: ../../Introduction/Python_Tutorial.rst:275
+msgid ""
+"The flow through an LFOM is directly proportional to the height of the water"
+" above the bottom of the first row of orifices."
+msgstr ""
+"El flujo a través de un LFOM es directamente proporcional a la altura del "
+"agua sobre el fondo de la primera fila de orificios."
+
+#: ../../Introduction/Python_Tutorial.rst:280
+msgid ""
+"Indexing is done by row and then by column. To call all of the elements in a"
+" row or column, use a colon. As you can see in the following example, "
+"indexing in python begins at zero. So ``a[:,1]`` is calling all rows in the "
+"second column"
+msgstr ""
+"La indexación se hace por fila y luego por columna. Para llamar a todos los "
+"elementos de una fila o columna, usa dos puntos. Como puedes ver en el "
+"siguiente ejemplo, la indexación en Python comienza en cero. Así que "
+"``a[:,1]`` llama a todas las filas de la segunda columna"
+
+#: ../../Introduction/Python_Tutorial.rst:302
+msgid "Example problem"
+msgstr "Problema de ejemplo"
+
+#: ../../Introduction/Python_Tutorial.rst:304
+msgid ""
+"Calculate the number of moles of methane in a 20 L container at 15 psi above"
+" atmospheric pressure with a temperature of 30 C."
+msgstr ""
+"Calcular el número de moles de metano en un recipiente de 20 L a 15 psi por "
+"encima de la presión atmosférica con una temperatura de 30 °C."
+
+#: ../../Introduction/Python_Tutorial.rst:318
+msgid "There are  1.625 mole  of methane in the container."
+msgstr "Hay 1,625 moles de metano en el recipiente."
+
+#: ../../Introduction/Python_Tutorial.rst:322
+msgid "Functions"
+msgstr "Funciones"
+
+#: ../../Introduction/Python_Tutorial.rst:324
+msgid ""
+"When it becomes necessary to do the same calculation multiple times, it is "
+"useful to create a function to facilitate the calculation in the future."
+msgstr ""
+"Cuando sea necesario realizar el mismo cálculo varias veces, es útil crear "
+"una función que facilite el cálculo en el futuro."
+
+#: ../../Introduction/Python_Tutorial.rst:326
+msgid ""
+"Function blocks begin with the keyword def followed by the function name and"
+" parentheses ( )."
+msgstr ""
+"Los bloques de función comienzan con la palabra clave def seguida del nombre"
+" de la función y los paréntesis ( )."
+
+#: ../../Introduction/Python_Tutorial.rst:327
+msgid "Any input parameters or arguments should be placed within these parentheses."
+msgstr ""
+"Cualquier parámetro de entrada o argumento debe colocarse dentro de estos "
+"paréntesis."
+
+#: ../../Introduction/Python_Tutorial.rst:328
+msgid "The code block within every function starts with a colon (:) and is indented."
+msgstr ""
+"El bloque de código dentro de cada función comienza con dos puntos (:) y "
+"está indentado."
+
+#: ../../Introduction/Python_Tutorial.rst:329
+msgid ""
+"The statement return [expression] exits a function and returns an expression"
+" to the user. A return statement with no arguments is the same as return "
+"None."
+msgstr ""
+"La sentencia return [expresión] sale de una función y devuelve una expresión"
+" al usuario. Una sentencia return sin argumentos es lo mismo que return "
+"None."
+
+#: ../../Introduction/Python_Tutorial.rst:330
+msgid ""
+"(Optional) The first statement of a function can the documentation string of"
+" the function or docstring, written with apostrophes ."
+msgstr ""
+"(Opcional) La primera instrucción de una función puede ser la cadena de "
+"documentación de la función o docstring, escrita con apóstrofes ."
+
+#: ../../Introduction/Python_Tutorial.rst:332
+msgid ""
+"Below is an example of a function that takes three inputs, pressure, volume,"
+" and temperature, and returns the number of moles."
+msgstr ""
+"A continuación se muestra un ejemplo de una función que toma tres entradas: "
+"presión, volumen y temperatura, y devuelve el número de moles."
+
+#: ../../Introduction/Python_Tutorial.rst:340
+msgid ""
+"Try using the new function to solve the same problem as above. You can reuse"
+" the variables. You can use the new function call inside the print "
+"statement."
+msgstr ""
+"Prueba a usar la nueva función para resolver el mismo problema que antes. "
+"Puedes reutilizar las variables. Puedes usar la nueva llamada a la función "
+"dentro de la instrucción print."
+
+#: ../../Introduction/Python_Tutorial.rst:351
+msgid "Pipe Database"
+msgstr "Base de Datos de Tuberías"
+
+#: ../../Introduction/Python_Tutorial.rst:353
+msgid ""
+"The `pipes "
+"<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/core/pipes.py>`_"
+" has many useful functions concerning pipe sizing. It provides functions "
+"that calculate actual pipe inner and outer diameters given the nominal "
+"diameter of the pipe. Note that nominal diameter just means the diameter "
+"that it is called (hence the discriptor “nominal”) and thus a 1 inch nominal"
+" diameter pipe might not have any dimensions that are actually 1 inch!"
+msgstr ""
+"Las tuberías "
+"`<https://github.com/AguaClara/aguaclara/blob/master/aguaclara/core/pipes.py>`_"
+" tienen muchas funciones útiles relacionadas con el tamaño de las tuberías. "
+"Proporcionan funciones que calculan los diámetros internos y exteriores "
+"reales de la tubería dado el diámetro nominal de la tubería. Ten en cuenta "
+"que diámetro nominal simplemente significa el diámetro que se llama (de ahí "
+"el descriptor \"nominal\") y, por tanto, una tubería de 1 pulgada de "
+"diámetro nominal podría no tener dimensiones que sean realmente de 1 "
+"pulgada."
+
+#: ../../Introduction/Python_Tutorial.rst:361
+msgid "6.625 inch"
+msgstr "6,625 pulgadas"
+
+#: ../../Introduction/Python_Tutorial.rst:363
+msgid ""
+"The ND_SDR_available function returns the nominal diameter of a pipe that "
+"has an inner diameter equal to or greater than the requested inner diameter "
+"`SDR, standard diameter ratio <http://www.engineeringtoolbox.com/sdr-"
+"standard-dimension-ratio-d_318.html>`_ . Below we find the smallest "
+"available pipe that has an inner diameter of at least 7 cm"
+msgstr ""
+"La función ND_SDR_available devuelve el diámetro nominal de una tubería que "
+"tiene un diámetro interior igual o mayor que el diámetro interior solicitado"
+" `SDR, relación de diámetro estándar <http://www.engineeringtoolbox.com/sdr-"
+"standard-dimension-ratio-d_318.html>`_ . A continuación encontramos la "
+"tubería más pequeña disponible que tiene un diámetro interior de al menos 7 "
+"cm"
+
+#: ../../Introduction/Python_Tutorial.rst:372
+msgid "3.0 inch"
+msgstr "3,0 pulgadas"
+
+#: ../../Introduction/Python_Tutorial.rst:374
+msgid "The actual inner diameter of this pipe is"
+msgstr "El diámetro interior real de esta tubería es"
+
+#: ../../Introduction/Python_Tutorial.rst:385
+msgid "We can display the available nominal pipe sizes that are in our database."
+msgstr ""
+"Podemos mostrar los tamaños nominales de tuberías disponibles que están en "
+"nuestra base de datos."
+
