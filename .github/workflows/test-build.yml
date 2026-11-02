@@ -33,3 +33,6 @@ jobs:
         run: |
           python -m sphinx_intl build -d locale -l es
           python -m sphinx -b html -D language=es . _build/html-es
+
+      - name: Check Spanish headings
+        run: python scripts/lint_spanish_headings.py Textbook/_build/html Textbook/_build/html-es

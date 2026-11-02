@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../Dissolved_Gas/DG_Intro.rst:21
 msgid "Henry's Law"
-msgstr "La Ley de Henry"
+msgstr "La ley de Henry"
 
 #: ../../Dissolved_Gas/DG_Intro.rst:26
 msgid "Effects of Gas Bubbles in Water Treatment Plants"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../Dissolved_Gas/DG_Intro.rst:49
 msgid "Clarification"
-msgstr "Aclaración"
+msgstr "Clarificación"
 
 #: ../../Dissolved_Gas/DG_Intro.rst:51
 msgid ""

@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:46
 msgid "Drinking Water Challenges"
-msgstr "agua potable Desafíos"
+msgstr "Desafíos del agua potable"
 
 #: ../../Introduction/Challenges.rst:48
 msgid ""
@@ -248,7 +248,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:55
 msgid "Entrance Tank for Multi-Train Plant"
-msgstr "tanque de entrada para planta multi-tren"
+msgstr "Tanque de entrada para una planta con varios trenes"
 
 #: ../../Introduction/Challenges.rst:60
 msgid ""
@@ -391,7 +391,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:83
 msgid "Prefabricated AguaClara Plant"
-msgstr "Planta Prefabricada de AguaClara"
+msgstr "Planta prefabricada de AguaClara"
 
 #: ../../Introduction/Challenges.rst:88
 msgid ""
@@ -592,7 +592,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:133
 msgid "Trash Rack Design and Fabrication"
-msgstr "rejilla Diseño y fabricación"
+msgstr "Diseño y fabricación de la rejilla"
 
 #: ../../Introduction/Challenges.rst:135
 msgid ""
@@ -653,7 +653,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:152
 msgid "Fractal Floc Model"
-msgstr "Modelo de Floc Fractal"
+msgstr "Modelo fractal de flóculos"
 
 #: ../../Introduction/Challenges.rst:154
 msgid ""
@@ -1014,7 +1014,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:227
 msgid "Floc Filter"
-msgstr "filtro de flóculos"
+msgstr "Filtro de flóculos"
 
 #: ../../Introduction/Challenges.rst:229
 #, python-format
@@ -1233,7 +1233,7 @@ msgstr ""
 
 #: ../../Introduction/Challenges.rst:256
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../Introduction/Challenges.rst:258
 msgid ""

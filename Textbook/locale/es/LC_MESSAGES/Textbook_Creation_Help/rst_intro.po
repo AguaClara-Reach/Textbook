@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../Textbook_Creation_Help/rst_intro.rst:35
 msgid "Setting up RST for Development"
-msgstr "Establecimiento de RST para el Desarrollo"
+msgstr "Configuración de RST para el desarrollo"
 
 #: ../../Textbook_Creation_Help/rst_intro.rst:36
 msgid ""
@@ -183,7 +183,7 @@ msgstr ""
 
 #: ../../Textbook_Creation_Help/rst_intro.rst:63
 msgid "Building PDF Locally"
-msgstr "Edificio PDF localmente"
+msgstr "Generación local de PDF"
 
 #: ../../Textbook_Creation_Help/rst_intro.rst:64
 msgid ""

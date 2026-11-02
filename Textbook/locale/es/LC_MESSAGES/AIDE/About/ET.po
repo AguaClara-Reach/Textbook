@@ -53,11 +53,11 @@ msgstr "reportabugbig"
 
 #: ../../AIDE/About/ET.rst:12
 msgid "Entrance Tank Configurable Component"
-msgstr "tanque de entrada Componente configurable"
+msgstr "Componente configurable del tanque de entrada"
 
 #: ../../AIDE/About/ET.rst:21
 msgid "Entrance Tank"
-msgstr "tanque de entrada"
+msgstr "Tanque de entrada"
 
 #: ../../AIDE/About/ET.rst:21
 msgid ""

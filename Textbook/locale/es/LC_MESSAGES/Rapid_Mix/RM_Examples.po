@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Examples.rst:12
 msgid "Rapid Mix: Examples"
-msgstr "mezcla rápida: Ejemplos"
+msgstr "Mezcla rápida: ejemplos"
 
 #: ../../Rapid_Mix/RM_Examples.rst:17
 msgid "Example: pH Adjustment"
-msgstr "Ejemplo: Ajuste del pH"
+msgstr "Ejemplo: ajuste del pH"
 
 #: ../../Rapid_Mix/RM_Examples.rst:19
 msgid ""
@@ -507,7 +507,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Examples.rst:150
 msgid "Example Problem: Energy Dissipation Rate in a Straight Pipe"
-msgstr "Problema de ejemplo: Tasa de disipación de energía en una tubería recta"
+msgstr "Problema de ejemplo: tasa de disipación de energía en una tubería recta"
 
 #: ../../Rapid_Mix/RM_Examples.rst:153
 msgid "Calculate the friction factor."

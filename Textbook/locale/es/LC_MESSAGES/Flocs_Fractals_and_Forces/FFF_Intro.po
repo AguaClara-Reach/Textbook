@@ -460,7 +460,7 @@ msgstr ""
 
 #: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:161
 msgid "Floc Terminal Velocity"
-msgstr "Velocidad terminal de Floc"
+msgstr "Velocidad terminal del flóculo"
 
 #: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:163
 msgid ""
@@ -2529,7 +2529,7 @@ msgstr ""
 
 #: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:732
 msgid "Maximum Floc Terminal Velocity"
-msgstr "Velocidad máxima terminal de Floc"
+msgstr "Velocidad terminal máxima del flóculo"
 
 #: ../../Flocs_Fractals_and_Forces/FFF_Intro.rst:734
 msgid ""

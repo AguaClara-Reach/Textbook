@@ -960,7 +960,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Theory_and_Future_Work.rst:244
 msgid "Clarification Impacts"
-msgstr "Impactos de la aclaración"
+msgstr "Impactos de la clarificación"
 
 #: ../../Filtration/Filtration_Theory_and_Future_Work.rst:246
 msgid ""
@@ -1563,7 +1563,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Theory_and_Future_Work.rst:448
 msgid "Floc Volume"
-msgstr "Volumen Floc"
+msgstr "Volumen de flóculos"
 
 #: ../../Filtration/Filtration_Theory_and_Future_Work.rst:450
 msgid ""

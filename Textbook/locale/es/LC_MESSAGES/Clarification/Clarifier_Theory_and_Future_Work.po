@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:201
 msgid "Floc Volcanoes"
-msgstr "Volcanes Floc"
+msgstr "Volcanes de flóculos"
 
 #: ../../Clarification/Clarifier_Theory_and_Future_Work.rst:203
 msgid ""

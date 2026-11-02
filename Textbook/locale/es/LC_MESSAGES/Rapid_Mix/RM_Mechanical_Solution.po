@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Mechanical_Solution.rst:11
 msgid "Rapid Mix Mechanical Solution"
-msgstr "mezcla rápida Solución Mecánica"
+msgstr "Solución mecánica de mezcla rápida"
 
 #: ../../Rapid_Mix/RM_Mechanical_Solution.rst:13
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Mechanical_Solution.rst:27
 msgid "Part 1: Temperature effects, energy use, and operating costs"
-msgstr "Parte 1: Efectos de la temperatura, consumo de energía y costes operativos"
+msgstr "Parte 1: efectos de la temperatura, consumo de energía y costes operativos"
 
 #: ../../Rapid_Mix/RM_Mechanical_Solution.rst:29
 msgid ""

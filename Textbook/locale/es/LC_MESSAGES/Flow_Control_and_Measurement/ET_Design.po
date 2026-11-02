@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design.rst:11
 msgid "Entrance Tank Design"
-msgstr "tanque de entrada Diseño"
+msgstr "Diseño del tanque de entrada"
 
 #: ../../Flow_Control_and_Measurement/ET_Design.rst:13
 msgid ""
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design.rst:49
 msgid "Trash Rack Design"
-msgstr "rejilla Diseño"
+msgstr "Diseño de la rejilla"
 
 #: ../../Flow_Control_and_Measurement/ET_Design.rst:51
 msgid ""

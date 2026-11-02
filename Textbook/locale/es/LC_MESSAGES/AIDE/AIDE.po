@@ -37,7 +37,7 @@ msgstr "Dona"
 
 #: ../../AIDE/AIDE.rst:20
 msgid "AguaClara Infrastructure Design Engine"
-msgstr "Motor de Diseño de Infraestructura AguaClara"
+msgstr "Herramienta de diseño de infraestructura de AguaClara"
 
 #: ../../AIDE/AIDE.rst:22
 msgid ""
@@ -49,14 +49,14 @@ msgid ""
 "and so AguaClara implementation partners can explore our technologies (see "
 "our :ref:`Disclaimer <heading_Disclaimer>`)."
 msgstr ""
-"El Motor de Diseño de Infraestructura de AguaClara (AIDE) es creado y "
-"mejorado continuamente por AguaClara Reach utilizando la plataforma "
-"|Onshape| . AIDE es un esfuerzo a largo plazo que comenzó en 2005 y "
+"La Herramienta de diseño de infraestructura de AguaClara (AIDE) es creada y "
+"mejorada continuamente por AguaClara Reach utilizando la plataforma "
+"|Onshape|. AIDE es un esfuerzo a largo plazo que comenzó en 2005 y "
 "representa las contribuciones de miles de personas. AguaClara Reach está "
 "proporcionando acceso abierto a esta versión beta de los componentes "
 "configurables de AIDE con fines educativos para que los socios de "
 "implementación de AguaClara puedan explorar nuestras tecnologías (véase "
-"nuestro :ref:`Disclaimer <heading_Disclaimer>`)."
+"nuestro :ref:`Aviso legal <heading_Disclaimer>`)."
 
 #: ../../AIDE/AIDE.rst
 msgid "Onshape"
@@ -258,11 +258,11 @@ msgstr "|OStaRS|"
 
 #: ../../AIDE/AIDE.rst
 msgid "OStaRS"
-msgstr "OStaRS"
+msgstr "FRAMCA"
 
 #: ../../AIDE/AIDE.rst:1
 msgid "OStaRS: Open Stacked Rapid Sand Filter"
-msgstr "OStaRS: Rápido Apilado Abierto filtro de arena"
+msgstr "FRAMCA: filtro rápido de arena de múltiples capas"
 
 #: ../../AIDE/AIDE.rst:1
 msgid "25"

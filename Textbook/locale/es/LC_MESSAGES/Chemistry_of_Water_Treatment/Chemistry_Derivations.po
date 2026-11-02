@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:65
 msgid "Alpha Notation"
-msgstr "Notación Alfa"
+msgstr "Notación alfa"
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Derivations.rst:67
 msgid ""

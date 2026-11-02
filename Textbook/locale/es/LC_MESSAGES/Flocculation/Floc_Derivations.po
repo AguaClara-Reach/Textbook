@@ -25,7 +25,7 @@ msgstr "Derivaciones de floculación"
 
 #: ../../Flocculation/Floc_Derivations.rst:19
 msgid "Baffle Minor Loss Coefficient"
-msgstr "Coeficiente de Pérdida Menor del Deflector"
+msgstr "Coeficiente de pérdida menor del deflector"
 
 #: ../../Flocculation/Floc_Derivations.rst:21
 msgid ""

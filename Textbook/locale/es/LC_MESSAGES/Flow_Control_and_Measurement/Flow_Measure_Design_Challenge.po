@@ -41,7 +41,7 @@ msgstr "¡Encuentra un error en la lógica de diseño y luego arréglalo!"
 
 #: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:22
 msgid "Part 1 - Feature Studio Steps"
-msgstr "Parte 1 - Pasos de Estudio Principal"
+msgstr "Parte 1: pasos en Feature Studio"
 
 #: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:24
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:30
 msgid "Part 2 - Part Studio Steps"
-msgstr "Parte 2 - Parte pasos de estudio"
+msgstr "Parte 2: pasos en Part Studio"
 
 #: ../../Flow_Control_and_Measurement/Flow_Measure_Design_Challenge.rst:32
 msgid ""

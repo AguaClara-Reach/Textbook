@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../Textbook_Creation_Help/translating.rst:46
 msgid "Review Policy"
-msgstr "Política de Revisión"
+msgstr "Política de revisión"
 
 #: ../../Textbook_Creation_Help/translating.rst:48
 msgid ""

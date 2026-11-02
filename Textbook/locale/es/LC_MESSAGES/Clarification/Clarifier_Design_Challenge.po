@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design_Challenge.rst:11
 msgid "Clarification Design Challenge"
-msgstr "Desafío de diseño de aclaración"
+msgstr "Desafío de diseño de clarificación"
 
 #: ../../Clarification/Clarifier_Design_Challenge.rst:13
 msgid ""

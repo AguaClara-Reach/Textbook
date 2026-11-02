@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:12
 msgid "Rapid Mix Theory and Future Work"
-msgstr "mezcla rápida Teoría y trabajo futuro"
+msgstr "Teoría y trabajo futuro de la mezcla rápida"
 
 #: ../../Rapid_Mix/RM_Theory_and_Future_Work.rst:15
 msgid ""

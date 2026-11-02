@@ -20,8 +20,8 @@ msgstr ""
 "Generated-By: Babel 2.15.0\n"
 
 #: ../../AIDE/Specifications_BIP.rst:13
-msgid "AguaClara Specifications"
-msgstr "Especificaciones de AguaClara"
+msgid "Specifications for the Built-in-Place Series"
+msgstr "Especificaciones de la serie de obra civil"
 
 #: ../../AIDE/Specifications_BIP.rst:15
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:26
 msgid "Water Quality Parameters"
-msgstr "calidad del agua Parámetros"
+msgstr "Parámetros de calidad del agua"
 
 #: ../../AIDE/Specifications_BIP.rst:28
 msgid ""
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:46
 msgid "Entrance Tank |EntranceTank|"
-msgstr "tanque de entrada |EntranceTank|"
+msgstr "Tanque de entrada |EntranceTank|"
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "EntranceTank"
@@ -293,7 +293,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:74
 msgid "Trash Rack"
-msgstr "rejilla"
+msgstr "Rejilla"
 
 #: ../../AIDE/Specifications_BIP.rst:76
 msgid ""
@@ -392,7 +392,7 @@ msgstr "Ejemplo de un medidor de orificio de flujo lineal"
 
 #: ../../AIDE/Specifications_BIP.rst:104
 msgid "Chemical Dosing System"
-msgstr "sistema de dosificación de químicos"
+msgstr "Sistema de dosificación de químicos"
 
 #: ../../AIDE/Specifications_BIP.rst:106
 msgid ""
@@ -971,7 +971,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:273
 msgid "Baffles"
-msgstr "Baffles"
+msgstr "Deflectores"
 
 #: ../../AIDE/Specifications_BIP.rst:275
 msgid ""
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:359
 msgid "Inlet Manifold"
-msgstr "manifold de entrada"
+msgstr "Colector de entrada"
 
 #: ../../AIDE/Specifications_BIP.rst:361
 msgid ""
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:398
 msgid "Floc Filter (Floc Blanket)"
-msgstr "filtro de flóculos (Manta Floc)"
+msgstr "Filtro de flóculos (manto de flóculos)"
 
 #: ../../AIDE/Specifications_BIP.rst:400
 msgid ""
@@ -1453,7 +1453,7 @@ msgstr ""
 #: ../../AIDE/Specifications_BIP.rst:418 ../../AIDE/Specifications_BIP.rst:431
 #: ../../AIDE/Specifications_BIP.rst:494
 msgid "Floc Hopper"
-msgstr "tolva de lodos"
+msgstr "Tolva de lodos"
 
 #: ../../AIDE/Specifications_BIP.rst:420
 msgid ""
@@ -1505,7 +1505,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:434
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../AIDE/Specifications_BIP.rst:436
 msgid ""
@@ -1716,7 +1716,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:478
 msgid "Outlet Channel"
-msgstr "Canal de Emisión"
+msgstr "Canal de salida"
 
 #: ../../AIDE/Specifications_BIP.rst:480
 msgid ""
@@ -1731,11 +1731,11 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:483
 msgid "Stacked Rapid Sand Filter |OStaRS|"
-msgstr "Rápido apilado filtro de arena |OStaRS|"
+msgstr "Filtro rápido de arena de múltiples capas |OStaRS|"
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "OStaRS"
-msgstr "OStaRS"
+msgstr "FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:485
 msgid ""
@@ -1790,7 +1790,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:508
 msgid "OStaRS filtration mode"
-msgstr "Modo de filtración OStaRS"
+msgstr "Modo de filtración de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:508
 msgid ""
@@ -1802,7 +1802,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:518
 msgid "OStaRS backwash mode"
-msgstr "Modo de retrolavado OStaRS"
+msgstr "Modo de retrolavado de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:518
 msgid ""
@@ -1863,8 +1863,8 @@ msgid ""
 "of the filter box that can be constructed and that enable filter "
 "maintenance."
 msgstr ""
-"StaRS abierto (OStaRS) con 6 capas de filtro, se utiliza para caudales "
-"superiores a unos 20 L/s. El caudal mínimo de OStaRS se establece por las "
+"FRAMCA con 6 capas de filtro se utiliza para caudales superiores a unos 20 "
+"L/s. El caudal mínimo de FRAMCA se establece por las "
 "dimensiones mínimas de la caja de filtros que se pueden construir y que "
 "permiten el mantenimiento del filtro."
 
@@ -1873,7 +1873,7 @@ msgid ""
 "Open StaRS (OStaRS) with 2 filter layers - used for flow between about 3 and"
 " 12 L/s. This technology is under development."
 msgstr ""
-"StaRS abierto (OStaRS) con 2 capas de filtro, se utiliza para flujo entre "
+"FRAMCA con 2 capas de filtro se utiliza para caudales entre "
 "aproximadamente 3 y 12 L/s. Esta tecnología está en desarrollo."
 
 #: ../../AIDE/Specifications_BIP.rst:539
@@ -2031,7 +2031,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:580
 msgid "OStaRS internal piping"
-msgstr "Tubería interna OStaRS"
+msgstr "Tubería interna de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:580
 msgid ""
@@ -2046,7 +2046,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:589
 msgid "OStaRS inlet branch"
-msgstr "Rama de entrada de OStaRS"
+msgstr "Rama de entrada de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:589
 msgid ""
@@ -2060,7 +2060,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:598
 msgid "OStaRS outlet branch"
-msgstr "Sucursal de salida OStaRS"
+msgstr "Rama de salida de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:598
 msgid "The outlet branches use 0.2 mm slots to keep the sand in the filter bed."
@@ -2135,7 +2135,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:622
 msgid "OStaRS hydraulic controls"
-msgstr "Controles hidráulicos OStaRS"
+msgstr "Controles hidráulicos de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:622
 msgid ""
@@ -2202,7 +2202,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:647
 msgid "OStaRS sand dump"
-msgstr "Vertido de arena OStaRS"
+msgstr "Descarga de arena de FRAMCA"
 
 #: ../../AIDE/Specifications_BIP.rst:647
 msgid ""

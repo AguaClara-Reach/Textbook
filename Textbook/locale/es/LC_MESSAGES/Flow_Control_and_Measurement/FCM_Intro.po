@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Intro.rst:12
 msgid "Constant Head Tanks"
-msgstr "carga constante Tanques"
+msgstr "Tanques de carga constante"
 
 #: ../../Flow_Control_and_Measurement/FCM_Intro.rst:18
 msgid "Flow :math:`Q` and Water Level :math:`h` as a Function of Time"

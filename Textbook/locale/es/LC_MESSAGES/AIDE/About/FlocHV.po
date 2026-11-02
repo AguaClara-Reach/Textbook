@@ -53,7 +53,7 @@ msgstr "reportabugbig"
 
 #: ../../AIDE/About/FlocHV.rst:12
 msgid "Flocculator HV Configurable Component"
-msgstr "Componente configurable HV de floculador"
+msgstr "Componente configurable del floculador HV"
 
 #: ../../AIDE/About/FlocHV.rst:21 ../../AIDE/About/FlocHV.rst:31
 msgid "Location of the Entrance Tank"

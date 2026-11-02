@@ -53,7 +53,7 @@ msgstr "reportabugbig"
 
 #: ../../AIDE/About/OStaRS.rst:12
 msgid "Open Stacked Rapid Sand Filter Configurable Component"
-msgstr "Componente Rápido Apilado filtro de arena Configurable"
+msgstr "Componente configurable de FRAMCA"
 
 #: ../../AIDE/About/OStaRS.rst:14
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../AIDE/About/OStaRS.rst:23
 msgid "OStaRS"
-msgstr "OStaRS"
+msgstr "FRAMCA"
 
 #: ../../AIDE/About/OStaRS.rst:23
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../AIDE/About/OStaRS.rst:33
 msgid "Location of the OStaRS filter"
-msgstr "Ubicación del filtro OStaRS"
+msgstr "Ubicación del filtro FRAMCA"
 
 #: ../../AIDE/About/OStaRS.rst:33
 msgid ""
@@ -135,7 +135,7 @@ msgid ""
 msgstr ""
 "Edita las configuraciones para crear nuevos modelos del filtro de arena "
 "rápido apilado. Envíanos `tus comentarios para compartir cómo estás usando "
-"el modelo OStaRS, para darnos sugerencias sobre cómo hacer estos modelos más"
+"el modelo FRAMCA, para darnos sugerencias sobre cómo hacer estos modelos más"
 " fáciles de usar y para <https://forms.gle/cqDPapYkcSmLnDu4A>`_ "
 "|reportabug|."
 

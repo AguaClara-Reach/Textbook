@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Introduction/Python_Tutorial.rst:12
 msgid "Python Tutorial"
-msgstr "Python Tutorial"
+msgstr "Tutorial de Python"
 
 #: ../../Introduction/Python_Tutorial.rst:18
 msgid "Code resources."
@@ -795,7 +795,7 @@ msgstr ""
 
 #: ../../Introduction/Python_Tutorial.rst:351
 msgid "Pipe Database"
-msgstr "Base de Datos de Tuberías"
+msgstr "Base de datos de tuberías"
 
 #: ../../Introduction/Python_Tutorial.rst:353
 msgid ""

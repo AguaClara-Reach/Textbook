@@ -143,7 +143,7 @@ msgstr ""
 
 #: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:66
 msgid "Inlet Manifold Flow Distribution"
-msgstr "manifold de entrada Distribución del flujo"
+msgstr "Distribución del flujo en el colector de entrada"
 
 #: ../../Fluids_and_Hydraulics/Manifold_Hydraulics.rst:68
 msgid ""
