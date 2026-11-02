@@ -53,7 +53,7 @@ msgstr "reportabugbig"
 
 #: ../../AIDE/About/Clarifier.rst:12
 msgid "Clarifier Configurable Component"
-msgstr "Componente configurable de Clarifier"
+msgstr "Componente configurable del clarificador"
 
 #: ../../AIDE/About/Clarifier.rst:21
 msgid "Clarifier"

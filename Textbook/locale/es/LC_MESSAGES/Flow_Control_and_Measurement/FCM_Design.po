@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Design.rst:12
 msgid "AguaClara Flow Control and Measurement Technologies"
-msgstr "Tecnologías de Control y Medición de Flujo AguaClara"
+msgstr "Tecnologías de control y medición de caudal de AguaClara"
 
 #: ../../Flow_Control_and_Measurement/FCM_Design.rst:14
 msgid ""
@@ -414,7 +414,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Design.rst:93
 msgid "Linear Chemical Dose Controller (CDC)"
-msgstr "Controlador de Dosis Química Lineal (CDC)"
+msgstr "Controlador lineal de dosis química (CDC)"
 
 #: ../../Flow_Control_and_Measurement/FCM_Design.rst:94
 msgid ""

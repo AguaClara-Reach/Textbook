@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Design.rst:13
 msgid "Open Stacked Rapid Sand Filter Design"
-msgstr "Diseño de filtro de arena Rápida Apilada Abierta"
+msgstr "Diseño del filtro rápido de arena apilado y abierto"
 
 #: ../../Filtration/Filtration_Design.rst:22
 msgid "Floc Hopper"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Design.rst:59
 msgid "Side Exit Sharp Crested Weir"
-msgstr "Salida lateral Sharp Crested Weir"
+msgstr "Vertedero de cresta afilada con salida lateral"
 
 #: ../../Filtration/Filtration_Design.rst:61
 msgid ""
@@ -1782,7 +1782,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Design.rst:723
 msgid "Backwash Initiation Forces"
-msgstr "Fuerzas de Iniciación de Contracorriente"
+msgstr "Fuerzas de inicio del retrolavado"
 
 #: ../../Filtration/Filtration_Design.rst:725
 msgid ""

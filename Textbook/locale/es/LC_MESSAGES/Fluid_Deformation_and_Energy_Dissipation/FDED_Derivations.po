@@ -26,8 +26,8 @@ msgstr "Derivaciones de deformación de fluidos y disipación de energía"
 #: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.rst:17
 msgid "Equations for :math:`\\varepsilon` and :math:`G` in Varying Flow Geometries"
 msgstr ""
-"Ecuaciones para :math:`\\varepsilon` y :math:`G` en Geometrías de Flujo "
-"Variables"
+"Ecuaciones para :math:`\\varepsilon` y :math:`G` en geometrías de flujo "
+"variables"
 
 #: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.rst:19
 msgid ""
@@ -1808,7 +1808,7 @@ msgstr "Gradientes de velocidad máxima"
 
 #: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.rst:751
 msgid "Straight Pipe (Major Losses)"
-msgstr "Tubería recta (Pérdidas Mayores)"
+msgstr "Tubería recta (pérdidas mayores)"
 
 #: ../../Fluid_Deformation_and_Energy_Dissipation/FDED_Derivations.rst:753
 msgid ""

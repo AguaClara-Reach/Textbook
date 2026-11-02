@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Filtration/Filtration_Design_Solution.rst:10
 msgid "Filtration Design Solution"
-msgstr "Solución de Diseño de Filtración"
+msgstr "Solución de diseño de filtración"
 
 #: ../../Filtration/Filtration_Design_Solution.rst:12
 msgid ""

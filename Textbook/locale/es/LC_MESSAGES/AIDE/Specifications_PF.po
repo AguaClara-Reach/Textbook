@@ -19,8 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.15.0\n"
 
 #: ../../AIDE/Specifications_PF.rst:54
-msgid "Specifications for AguaClara PF Series"
-msgstr "Especificaciones para la Serie PF de AguaClara"
+msgid "Specifications for the Prefabricated Series"
+msgstr "Especificaciones de la serie prefabricada"
 
 #: ../../AIDE/Specifications_PF.rst:59
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:62
 msgid "PF Series Application and Design Basis"
-msgstr "Aplicación y bases de diseño de la Serie PF"
+msgstr "Aplicación y bases de diseño de la serie PF"
 
 #: ../../AIDE/Specifications_PF.rst:64
 msgid ""
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:126
 msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
-msgstr "Medidor Lineal de Caudal por Orificios (LFOM) o equivalente |LFOM|"
+msgstr "Medidor lineal de caudal por orificios (LFOM) o equivalente |LFOM|"
 
 #: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:143
 msgid "LFOM"
@@ -792,7 +792,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:288
 msgid "Baffles"
-msgstr "Baffles"
+msgstr "Deflectores"
 
 #: ../../AIDE/Specifications_PF.rst:290
 msgid ""
@@ -971,7 +971,7 @@ msgstr "Para garantizar una operación y mantenimiento sencillos."
 
 #: ../../AIDE/Specifications_PF.rst:354
 msgid "Inlet Manifold"
-msgstr "manifold de entrada"
+msgstr "Colector de entrada"
 
 #: ../../AIDE/Specifications_PF.rst:356
 msgid ""
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:391
 msgid "Floc Filter"
-msgstr "filtro de flóculos"
+msgstr "Filtro de flóculos"
 
 #: ../../AIDE/Specifications_PF.rst:393
 msgid ""
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:411 ../../AIDE/Specifications_PF.rst:424
 msgid "Floc Hopper"
-msgstr "tolva de lodos"
+msgstr "Tolva de lodos"
 
 #: ../../AIDE/Specifications_PF.rst:413
 msgid ""
@@ -1230,7 +1230,7 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:427
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../AIDE/Specifications_PF.rst:429
 msgid ""

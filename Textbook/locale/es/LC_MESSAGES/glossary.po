@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../glossary.rst:1
 msgid "Baffles"
-msgstr "Baffles"
+msgstr "Deflectores"
 
 #: ../../glossary.rst:1
 msgid ""
@@ -414,7 +414,7 @@ msgstr "Ver Cabeza hidráulica."
 
 #: ../../glossary.rst:1
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../glossary.rst:1
 msgid ""
@@ -582,7 +582,7 @@ msgstr ""
 
 #: ../../glossary.rst:1
 msgid "Vena Contracta"
-msgstr "Vena Contracta"
+msgstr "Vena contracta"
 
 #: ../../glossary.rst:1
 msgid ""

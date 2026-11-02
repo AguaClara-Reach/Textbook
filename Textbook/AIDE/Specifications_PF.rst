@@ -48,9 +48,9 @@
 
 .. _title_AguaClara_PF_Specifications:
 
-**************************************
-Specifications for AguaClara PF Series
-**************************************
+*******************************************
+Specifications for the Prefabricated Series
+*******************************************
 
 .. check that all numrefs are pointing to the correct thing
 .. change where the links to onshape lead. see bottom of this document for those.

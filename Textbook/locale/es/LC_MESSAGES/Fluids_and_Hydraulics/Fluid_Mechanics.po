@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:123
 msgid "Streamlines and Control Volumes"
-msgstr "Líneas de Corriente y Volúmenes de Control"
+msgstr "Líneas de corriente y volúmenes de control"
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:125
 msgid ""
@@ -706,7 +706,7 @@ msgstr ""
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:222
 msgid "Head Loss"
-msgstr "pérdida de carga"
+msgstr "Pérdida de carga"
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:224
 msgid ""
@@ -1388,7 +1388,7 @@ msgstr ""
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:470
 msgid "Vena Contracta"
-msgstr "Vena Contracta"
+msgstr "Vena contracta"
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics.rst:472
 msgid ""

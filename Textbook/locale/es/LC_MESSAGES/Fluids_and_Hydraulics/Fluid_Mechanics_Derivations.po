@@ -25,7 +25,7 @@ msgstr "Derivaciones en mecánica de fluidos"
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:19
 msgid "Minor Loss Equation"
-msgstr "Ecuación de Pérdida Menor"
+msgstr "Ecuación de pérdida menor"
 
 #: ../../Fluids_and_Hydraulics/Fluid_Mechanics_Derivations.rst:21
 msgid ""

@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:12
 msgid "Clarifier Derivations"
-msgstr "Derivaciones de Clarifier"
+msgstr "Derivaciones del clarificador"
 
 #: ../../Clarification/Clarifier_Derivations.rst:15
 msgid "Floc Filter Design"
-msgstr "filtro de flóculos Diseño"
+msgstr "Diseño del filtro de flóculos"
 
 #: ../../Clarification/Clarifier_Derivations.rst:19
 msgid "Velocity Gradient"
@@ -492,7 +492,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:158
 msgid "Head Loss"
-msgstr "pérdida de carga"
+msgstr "Pérdida de carga"
 
 #: ../../Clarification/Clarifier_Derivations.rst:160
 msgid ""
@@ -536,7 +536,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:178
 msgid "Flocculator and Floc Filter Paradox"
-msgstr "Floculador y filtro de flóculos Paradoja"
+msgstr "Paradoja del floculador y el filtro de flóculos"
 
 #: ../../Clarification/Clarifier_Derivations.rst:180
 msgid ""
@@ -731,7 +731,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:208
 msgid "Plate Settler Design"
-msgstr "placa sedimentadora Diseño"
+msgstr "Diseño de las placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Derivations.rst:210
 msgid ""
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:338
 msgid "Floc Rollup"
-msgstr "Floc Rollup"
+msgstr "Enrollamiento de flóculos"
 
 #: ../../Clarification/Clarifier_Derivations.rst:340
 msgid ""
@@ -1379,7 +1379,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Derivations.rst:486
 msgid "Head Loss Through Plate Settlers"
-msgstr "pérdida de carga a través de los colonizadores de placas"
+msgstr "Pérdida de carga a través de las placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Derivations.rst:488
 msgid ""

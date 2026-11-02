@@ -764,7 +764,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:175
 msgid "Introduction to Surface Water Treatment"
-msgstr "Introducción a Surface tratamiento de agua"
+msgstr "Introducción al tratamiento de aguas superficiales"
 
 #: ../../Introduction/Introduction.rst:177
 msgid ""
@@ -1119,7 +1119,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:1
 msgid "Clarification"
-msgstr "Aclaración"
+msgstr "Clarificación"
 
 #: ../../Introduction/Introduction.rst:1
 msgid "horizontal flow"
@@ -1388,7 +1388,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:287
 msgid "The AguaClara Treatment Train"
-msgstr "El tren de tratamiento AguaClara"
+msgstr "El tren de tratamiento de AguaClara"
 
 #: ../../Introduction/Introduction.rst:290
 msgid ""
@@ -1562,7 +1562,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:333
 msgid "Comparison with Croton Water Treatment Plant"
-msgstr "Comparación con Croton tratamiento de agua Plant"
+msgstr "Comparación con la planta de tratamiento de agua de Croton"
 
 #: ../../Introduction/Introduction.rst:335
 msgid ""
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:473
 msgid "Mechanized or Smart Hydraulics"
-msgstr "Hidráulica Mecanizada o Inteligente"
+msgstr "Hidráulica mecanizada o inteligente"
 
 #: ../../Introduction/Introduction.rst:475
 msgid ""
@@ -2303,7 +2303,7 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:520
 msgid "Rapid mix"
-msgstr "mezcla rápida"
+msgstr "Mezcla rápida"
 
 #: ../../Introduction/Introduction.rst:521
 msgid ""
@@ -2336,7 +2336,7 @@ msgstr "Floculadores compactos de flujo vertical para plantas de bajo flujo"
 
 #: ../../Introduction/Introduction.rst:530
 msgid "Floc Filter and Plate Settlers"
-msgstr "filtro de flóculos y colonos de la placa"
+msgstr "Filtro de flóculos y placas sedimentadoras"
 
 #: ../../Introduction/Introduction.rst:531
 msgid "Four channel inlet/outlet system that enables"

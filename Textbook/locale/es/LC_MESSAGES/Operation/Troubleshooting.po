@@ -131,7 +131,7 @@ msgid ""
 "operate at very low pressure (compared with OStaRS)"
 msgstr ""
 "El agua que entra en la planta está sobresaturada de aire y los filtros "
-"EStaRS funcionan a muy baja presión (en comparación con OStaRS)"
+"EStaRS funcionan a muy baja presión (en comparación con FRAMCA)"
 
 #: ../../Operation/Troubleshooting.rst:1
 msgid "Eliminate air entrainment in transmission line"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: ../../Operation/Troubleshooting.rst:123
 msgid "Floc Volcanoes"
-msgstr "Volcanes Floc"
+msgstr "Volcanes de flóculos"
 
 #: ../../Operation/Troubleshooting.rst:125
 msgid ""

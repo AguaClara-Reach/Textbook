@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Textbook_Creation_Help/example_aguaclara_rst.rst:12
 msgid "Functionality in RST and AguaClara Convention"
-msgstr "Funcionalidad en RST y la Convención AguaClara"
+msgstr "Funcionalidad de RST y convenciones de AguaClara"
 
 #: ../../Textbook_Creation_Help/example_aguaclara_rst.rst:13
 msgid ""

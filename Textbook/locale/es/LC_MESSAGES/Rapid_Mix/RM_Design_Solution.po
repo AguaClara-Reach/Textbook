@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Design_Solution.rst:11
 msgid "Rapid Mix Design Solution"
-msgstr "mezcla rápida Solución de diseño"
+msgstr "Solución de diseño de mezcla rápida"
 
 #: ../../Rapid_Mix/RM_Design_Solution.rst:13
 msgid ""

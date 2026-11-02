@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Examples.rst:12
 msgid "Clarification Examples"
-msgstr "Ejemplos de aclaración"
+msgstr "Ejemplos de clarificación"
 
 #: ../../Clarification/Clarifier_Examples.rst:14
 msgid "These are a few short examples of calculations required for clarifier design."
@@ -673,7 +673,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Examples.rst:186
 msgid "Manifolds and Launders"
-msgstr "Variedades y Lavados"
+msgstr "Colectores y canales de salida"
 
 #: ../../Clarification/Clarifier_Examples.rst:187
 msgid ""
@@ -1071,7 +1071,7 @@ msgstr "**Respuesta:** El número de tuberías difusoras por clarificador es 98.
 
 #: ../../Clarification/Clarifier_Examples.rst:283
 msgid "Plate Settler Design"
-msgstr "placa sedimentadora Diseño"
+msgstr "Diseño de las placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Examples.rst:285
 msgid ""

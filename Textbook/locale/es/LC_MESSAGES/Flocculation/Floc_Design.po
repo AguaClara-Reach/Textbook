@@ -734,7 +734,7 @@ msgstr ""
 
 #: ../../Flocculation/Floc_Design.rst:269
 msgid "Head loss"
-msgstr "pérdida de carga"
+msgstr "Pérdida de carga"
 
 #: ../../Flocculation/Floc_Design.rst:271
 msgid ""

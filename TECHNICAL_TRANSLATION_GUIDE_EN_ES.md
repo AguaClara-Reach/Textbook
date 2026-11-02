@@ -181,6 +181,7 @@ in the project glossary.
 
 | English convention | Spanish convention | Usage note |
 | --- | --- | --- |
+| AIDE (AguaClara Infrastructure Design Engine) | AIDE (Herramienta de diseño de infraestructura de AguaClara) | Translate **Design Engine** as **Herramienta de diseño**, not the literal *Motor de diseño*. Retain **AIDE** in both languages. |
 | AguaClara PF70 | AguaClara PF70 | Do not shorten the plant name to **PF70** in formal prose. |
 | CFE (combined filter effluent) | CFE (efluente combinado de los filtros) | Regulatory abbreviation; define at first mention. |
 | FRAMCA | FRAMCA (Filtro Rápido de Arena de Múltiples Capas) | Spanish name for the AguaClara stacked rapid-sand filter. |
@@ -189,7 +190,7 @@ in the project glossary.
 | PAC (polyaluminum chloride) | PAC (policloruro de aluminio) | Retain **PAC** in both languages. Do not confuse it with powdered activated carbon in contexts where both chemicals may appear. |
 | PlaCoDA | PlaCoDA | Product/system name; do not translate. |
 | PRDOH (Puerto Rico Department of Health) | DSPR (Departamento de Salud de Puerto Rico) | Use the abbreviation corresponding to the document language. |
-| ShOStaRS (Short, Open Stacked Rapid Sand filter) | FRAMCA (Filtro Rápido de Arena de Múltiples Capas) | Parallel AguaClara ecosystem names used in the English and Spanish manuals. Define the relevant name at first mention. |
+| OStaRS (Open Stacked Rapid Sand filter) | FRAMCA (Filtro Rápido de Arena de Múltiples Capas) | Use **FRAMCA** throughout the Spanish edition. Retain **OStaRS** only in English text, URLs, code identifiers, filenames, and reference targets. |
 | US EPA (United States Environmental Protection Agency) | EPA de EE. UU. (Agencia de Protección Ambiental de Estados Unidos) | Follow the cited agency's preferred styling when reproducing an official title. |
 
 ## Units and notation

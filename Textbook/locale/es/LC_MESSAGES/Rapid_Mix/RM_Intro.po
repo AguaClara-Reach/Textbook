@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Intro.rst:12
 msgid "Rapid Mix Introduction"
-msgstr "mezcla rápida Introducción"
+msgstr "Introducción a la mezcla rápida"
 
 #: ../../Rapid_Mix/RM_Intro.rst:20
 msgid ""
@@ -870,7 +870,7 @@ msgstr ""
 
 #: ../../Rapid_Mix/RM_Intro.rst:223
 msgid "Suspended Solids"
-msgstr "sólidos suspendidos"
+msgstr "Sólidos suspendidos"
 
 #: ../../Rapid_Mix/RM_Intro.rst:225
 msgid ""

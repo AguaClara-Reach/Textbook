@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design.rst:36
 msgid "Inlet: Flocculator to Floc Filter"
-msgstr "Entrada: Floculador a filtro de flóculos"
+msgstr "Entrada: del floculador al filtro de flóculos"
 
 #: ../../Clarification/Clarifier_Design.rst:38
 msgid ""
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design.rst:129
 msgid "Inlet Manifold"
-msgstr "manifold de entrada"
+msgstr "Colector de entrada"
 
 #: ../../Clarification/Clarifier_Design.rst:131
 msgid ""
@@ -1256,7 +1256,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design.rst:355
 msgid "Floc Filter"
-msgstr "filtro de flóculos"
+msgstr "Filtro de flóculos"
 
 #: ../../Clarification/Clarifier_Design.rst:357
 msgid ""
@@ -1277,7 +1277,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design.rst:362
 msgid "Floc Hopper"
-msgstr "tolva de lodos"
+msgstr "Tolva de lodos"
 
 #: ../../Clarification/Clarifier_Design.rst:364
 msgid ""
@@ -1538,7 +1538,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Design.rst:427
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Design.rst:429
 msgid ""
@@ -1863,7 +1863,7 @@ msgstr "Figura de canales clarificadores."
 
 #: ../../Clarification/Clarifier_Design.rst:517
 msgid "Clarifier Summary"
-msgstr "Resumen de Clarifier"
+msgstr "Resumen del clarificador"
 
 #: ../../Clarification/Clarifier_Design.rst:519
 msgid "Let's recap some important points about the clarifier."

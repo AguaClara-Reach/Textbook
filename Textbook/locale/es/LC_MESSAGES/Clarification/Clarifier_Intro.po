@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Intro.rst:12
 msgid "Clarification Introduction"
-msgstr "Aclaración Introducción"
+msgstr "Introducción a la clarificación"
 
 #: ../../Clarification/Clarifier_Intro.rst:25
 msgid "The floc interactions in the clarifier include four processes."
@@ -1588,7 +1588,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Intro.rst:472
 msgid "Plate Settlers"
-msgstr "Colonos de Placas"
+msgstr "Placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Intro.rst:474
 msgid ""
@@ -2195,7 +2195,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Intro.rst:657
 msgid "Floc Rollup"
-msgstr "Floc Rollup"
+msgstr "Enrollamiento de flóculos"
 
 #: ../../Clarification/Clarifier_Intro.rst:659
 msgid ""
@@ -2357,7 +2357,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Intro.rst:698
 msgid "Plate Settler Head Loss"
-msgstr "placa sedimentadora pérdida de carga"
+msgstr "Pérdida de carga en las placas sedimentadoras"
 
 #: ../../Clarification/Clarifier_Intro.rst:700
 msgid ""

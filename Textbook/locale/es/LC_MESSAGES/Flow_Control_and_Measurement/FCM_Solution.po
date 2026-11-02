@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Solution.rst:25
 msgid "A Brief Design Challenge guide"
-msgstr "Una breve guía para el Reto de Diseño"
+msgstr "Una breve guía para el reto de diseño"
 
 #: ../../Flow_Control_and_Measurement/FCM_Solution.rst:27
 msgid ""

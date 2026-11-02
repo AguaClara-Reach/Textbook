@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../Operation/Coagulant_Automation.rst:29
 msgid "Coagulant Dose for Suspended Particles"
-msgstr "dosis de coagulante para partículas suspendidas"
+msgstr "Dosis de coagulante para partículas suspendidas"
 
 #: ../../Operation/Coagulant_Automation.rst:31
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../Operation/Coagulant_Automation.rst:69
 msgid "Coagulant Dose for Dissolved Organic Matter"
-msgstr "dosis de coagulante para materia orgánica disuelta"
+msgstr "Dosis de coagulante para materia orgánica disuelta"
 
 #: ../../Operation/Coagulant_Automation.rst:71
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 
 #: ../../Operation/Coagulant_Automation.rst:97
 msgid "Simple Corrector Method"
-msgstr "Método Simple Corrector"
+msgstr "Método de corrección simple"
 
 #: ../../Operation/Coagulant_Automation.rst:99
 msgid ""

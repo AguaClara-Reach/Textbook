@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
 msgid "constant level tank through dosing tubes and to doser"
-msgstr "nivel constante tanque a través de tubos de dosificación y al dosificador"
+msgstr "del tanque de nivel constante, a través de los tubos, al dosificador"
 
 #: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:1
 msgid "low head loss compared with dosing tube head loss"
@@ -247,7 +247,7 @@ msgstr "Depósitos de stock a válvulas de flotador"
 
 #: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:64
 msgid "Constant level tank through dosing tubes and to the doser"
-msgstr "nivel constante tanque a través de tubos de dosificación y al dosificador"
+msgstr "Del tanque de nivel constante, a través de los tubos, al dosificador"
 
 #: ../../Fluids_and_Hydraulics/Plant_Hydraulics.rst:66
 #, python-format

@@ -7,9 +7,9 @@
 
 .. _title_AguaClara_Specifications:
 
-************************
-AguaClara Specifications
-************************
+********************************************
+Specifications for the Built-in-Place Series
+********************************************
 
 This document specifies the design goals, the raw water quality parameters, and the design and construction requirements for an AguaClara drinking water treatment plant. The plant will produce safe, potable drinking water from a source water that may be contaminated with particles, pathogens, and dissolved organics.
 
