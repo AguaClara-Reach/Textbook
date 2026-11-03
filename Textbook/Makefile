@@ -18,7 +18,13 @@ help:
 pdf:
 	$(SPHINXBUILD) -M latexpdf $(SPHINXOPTS) $(SOURCEDIR) "$(BUILDDIR)"/pdf
 
-.PHONY: help Makefile
+pdf-pf:
+	$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)/pf" -c pdf/pf $(SPHINXOPTS) $(O)
+
+pdf-pf-prdoh:
+	$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)/pf-prdoh" -c pdf/pf-prdoh $(SPHINXOPTS) $(O)
+
+.PHONY: help Makefile pdf-pf pdf-pf-prdoh
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
