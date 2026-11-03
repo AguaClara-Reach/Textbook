@@ -42,7 +42,8 @@ in the project glossary.
 
 | English | Español | Usage note |
 | --- | --- | --- |
-| backwash (noun, verb) | retrolavado; retrolavar | Use **backwashing** when naming the process in running English text. |
+| backwash (noun, verb) | retrolavado; retrolavar | Preferred textbook terminology. **Contralavado** and **lavado a contracorriente** are accepted regional synonyms, but do not alternate terms within one document. Use **backwashing** when naming the process in running English text. |
+| alum | sulfato de aluminio | Use the chemical name; do not translate as *alumbre*. |
 | clarification | clarificación |  |
 | clarified water | agua clarificada |  |
 | coagulant | coagulante |  |
@@ -107,25 +108,32 @@ in the project glossary.
 | volumetric flow measurement | aforo volumétrico | In the manual, shortened **volumetric measurement** is used when the flow context is already clear. |
 | water level | nivel del agua |  |
 | weir | vertedero | Add a modifier when needed, such as **hanging weir**. |
+| Sutro weir | vertedero Sutro | Treat **Sutro** as the proper name; do not use *azud Sutro*. |
 
 ## Plant units and components
 
 | English | Español | Usage note |
 | --- | --- | --- |
 | chemical dosing system | sistema de dosificación de químicos | Complete system, not one individual component. |
+| baffle | deflector | Internal flocculator element that redirects the flow. |
+| baffle module | módulo de deflectores | Removable assembly containing the flocculator baffles. |
 | clarifier | clarificador |  |
+| clarifier bay | celda de clarificación | Independently operated parallel subdivision of a clarifier. Use **compartimiento** only for a passive physical subdivision. |
 | coagulant slider | deslizador de coagulante | AguaClara component used to select the coagulant dose. |
 | constant-level tank | caja de nivel constante | Retain **tank** in English even though the Spanish house term uses `caja`. |
 | dosing balance | balanza dosificadora | AguaClara house term. Do not shorten to **scale**, which suggests a weighing instrument. |
+| dose slider | deslizador de dosis | Adjustable component used to select the chemical dose. |
+| doser | dosificador | AguaClara chemical-feed mechanism; use **balanza dosificadora** when the balance assembly is specifically meant. |
 | drain valve | válvula de drenaje; válvula de desagüe | Use the Spanish term established for the particular component. |
 | filter bed | lecho filtrante |  |
-| filter cell | celda del filtro |  |
+| filter cell | celda de filtración | Independently operated subdivision of a filter. Use **compartimiento** only for a passive physical subdivision. |
 | filter core | núcleo del filtro | AguaClara filter component. |
 | filter media | medio filtrante | **Media** is plural in formal technical usage but is also widely treated as a mass noun. |
 | float | flotador |  |
 | float valve | válvula de flotador |  |
 | floc filter | filtro de flóculos | AguaClara clarification process/component; not a sand filter. |
 | floc hopper | tolva de lodos | The established English manual term emphasizes the floc entering the hopper; the Spanish term emphasizes the collected sludge. |
+| floc weir | vertedero de flóculos | Weir over which flocs pass into the sludge hopper. |
 | flocculator | floculador |  |
 | graduated sight tube | tubo visor con escala | Use **sight tube** when the graduated function is already clear. |
 | hanging weir | vertedero colgante |  |
@@ -133,12 +141,16 @@ in the project glossary.
 | inlet | entrada |  |
 | inlet manifold | manifold de entrada | Retain **manifold** as an established AguaClara ecosystem term. |
 | inlet pipe | tubería de entrada |  |
+| jet reverser | inversor de chorro | AguaClara clarifier component that redirects diffuser jets upward. |
 | entrance tank | tanque de entrada | AguaClara PF70 manual convention. In other technical sources this may be called an **inlet tank**. |
 | nipple | niple | Short pipe fitting; do not replace with **pipe** when the fitting is meant. |
+| pipe stub | niple; tramo corto de tubería | Prefer **niple** for the removable short pipe sections used in AguaClara plants in Honduras. Use **tramo corto de tubería** when a neutral regional description is needed or when the piece is not a fitting. Do not use **muñón**, which normally means a trunnion, journal, or projecting support in technical Spanish. |
 | outlet | salida |  |
 | outlet collector | colector de salida |  |
 | overflow | rebose; desbordamiento | Select according to whether a component/flow path or an event is meant. |
 | plate settler | placa sedimentadora | Use plural **plate settlers** / **placas sedimentadoras** for the full bank of plates. |
+| plate settler module | módulo de placas sedimentadoras | Removable assembly of plate-settler sheets. |
+| receptor pipe | tubería receptora | Specialized dead-end pipe used to align filter branches and prevent uplift during retrolavado; it is not intended to carry flow. |
 | rapid-mix unit | unidad de mezcla rápida | Use when referring to the physical unit rather than the process. |
 | sand filter | filtro de arena |  |
 | sight tube | tubo visor | External transparent tube used to read water level or flow rate. |
@@ -190,7 +202,9 @@ in the project glossary.
 | PAC (polyaluminum chloride) | PAC (policloruro de aluminio) | Retain **PAC** in both languages. Do not confuse it with powdered activated carbon in contexts where both chemicals may appear. |
 | PlaCoDA | PlaCoDA | Product/system name; do not translate. |
 | PRDOH (Puerto Rico Department of Health) | DSPR (Departamento de Salud de Puerto Rico) | Use the abbreviation corresponding to the document language. |
-| OStaRS (Open Stacked Rapid Sand filter) | FRAMCA (Filtro Rápido de Arena de Múltiples Capas) | Use **FRAMCA** throughout the Spanish edition. Retain **OStaRS** only in English text, URLs, code identifiers, filenames, and reference targets. |
+| StaRS (Stacked Rapid Sand filter) | FRAMCA (Filtro Rápido de Arena de Múltiples Capas) | Name of the filter family in Spanish. |
+| OStaRS (Open Stacked Rapid Sand filter) | FRAMCA convencional | Use **FRAMCA** alone when the conventional configuration is clear from context. Retain **OStaRS** only in English text, URLs, code identifiers, filenames, and reference targets. |
+| ShOStaRS (Shallow Open Stacked Rapid Sand filter) | FRAMCA compacto | Use **FRAMCA** alone when the compact configuration is clear from context. Retain **ShOStaRS** only in English text, URLs, code identifiers, filenames, and reference targets. |
 | US EPA (United States Environmental Protection Agency) | EPA de EE. UU. (Agencia de Protección Ambiental de Estados Unidos) | Follow the cited agency's preferred styling when reproducing an official title. |
 
 ## Units and notation

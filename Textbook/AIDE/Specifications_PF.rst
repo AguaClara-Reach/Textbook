@@ -5,11 +5,11 @@
     </embed>
 
 
-.. |LFOM| image:: https://cad.onshape.com/api/thumbnails/d/49035a16b895fd8095d17a02/w/b76e9410efc3d9f5861e9516/s/300x170
+.. |LFOM| image:: ../Images/Onshape_Thumbnails/LFOM.png
   :width: 100
   :target: https://cad.onshape.com/documents/49035a16b895fd8095d17a02/w/b76e9410efc3d9f5861e9516/e/c063acb14de8f1f558b02d2d?configuration=HL_min%3D0.2%2Bmeter%3BND_max%3D12.0%3BQm_max%3D5.0%3BTEMP_min%3D10.0%3BdrillD_max%3D0.1%2Bmeter%3BprintParams%3Dfalse&renderMode=0&uiState=626fea458d39dd1e3b6106e1
 
-.. |Doser| image:: https://cad.onshape.com/api/thumbnails/d/e71bb0c05d9e7241822776b7/w/533d9612b07de271291829dc/s/300x170
+.. |Doser| image:: ../Images/Onshape_Thumbnails/Dose_Controller.png
   :width: 100
   :target: https://cad.onshape.com/documents/e71bb0c05d9e7241822776b7/w/533d9612b07de271291829dc/e/20f111b627e4c6d59c3f0ff9?configuration=HL_max%3D0.2%2Bmeter%3BQ_pi%3D1.0%3BchlorineC_pi%3D0.6%3BcoagC_pi%3D0.5%3BprintParams%3Dfalse%3Brep%3Dtrue%3BtankOW%3D1.0%2Bmeter&renderMode=0&uiState=6273e0ecd685467dff5c17c4
 
@@ -62,7 +62,7 @@ PF Series Application and Design Basis
 
 AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies are not intended to treat low-turbidity groundwater where the primary contaminants are chemicals such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution.
 
-AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier. A PF plant can be configured with all of these processes. For source water with turbidity consistently below approximately 3 NTU, a project-specific configuration can omit flocculation, the floc filter, and sedimentation.
+AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier. A PF plant can be configured with all of these processes. For source water with turbidity consistently below approximately 2 NTU, a project-specific configuration can omit flocculation, the floc filter, and sedimentation after necessary pilot testing.
 
 
 Water Quality Parameters
@@ -76,7 +76,7 @@ The table below summarizes the raw water quality parameters for which AguaClara 
    :header: "Water Quality Parameter", "Comments"
    :align: left
 
-   Turbidity, "PF plants are designed to consistently treat raw water with turbidity below 600 NTU to a turbidity below 1 NTU. Treatment of higher turbidities requires a customized clarifier design."
+   Turbidity, "PF plants are designed to consistently treat raw water with turbidity below 600 NTU to a turbidity below 0.3 NTU. Treatment of higher turbidities requires a customized clarifier design."
    "Color/Dissolved Organic Matter (DOM)", "For raw water with high color or total organic matter content, pilot studies are recommended to confirm the efficacy of the coagulant and the ability of the flocs to settle."
    pH, "pH can be lowered to prevent calcium carbonate scaling in distribution piping or increased to reduce corrosion potential."
    Microbiological contamination, "The AguaClara treatment processes are designed to remove pathogens through particle removal and deactivate pathogens through disinfection."
@@ -99,13 +99,46 @@ For more detailed information, see :ref:`Entrance Tank Design <title_entrance_ta
 
 .. _figure_spec_PF_ET_Diagram_Labeled:
 
-.. figure:: ../Images/PF_Images/PFETdiagram.png
+.. figure:: ../Images/PF_Images/tanque-entrada-lfom-escala-onshape-optimized.png
     :width: 900px
     :align: center
-    :alt: entrance tank diagram
+    :alt: Entrance tank showing the sight tube and LFOM
+
+    Entrance tank showing the sight tube and LFOM.
 
 
-    Cross-section of an entrance tank. Chemical dosing system not shown.
+.. list-table:: Component key for :numref:`figure_spec_PF_ET_Diagram_Labeled`
+   :name: table_spec_PF_entrance_tank_components
+   :widths: 6 28 66
+   :header-rows: 1
+
+   * - No.
+     - Component
+     - Function
+   * - 1
+     - Dosing balance
+     - Adjusts chemical flow according to the water level in the entrance tank.
+   * - 2
+     - Linear Flow Orifice Meter (LFOM)
+     - Relates water level to flow so the operator can read it directly from the sight tube.
+   * - 3
+     - Flow-measurement hose (graduated sight tube)
+     - Allows the water level and flow to be read directly outside the tank.
+   * - 4
+     - Water level
+     - Reflects the flow entering the plant and actuates the dosing system.
+   * - 5
+     - Raw-water inlet
+     - Conveys water from the source to the tank.
+   * - 6
+     - Float
+     - Transmits changes in water level to the dosing balance.
+   * - 7
+     - Drain or bypass nipple
+     - Allows water to be diverted or discharged when it must not pass through the plant.
+   * - 8
+     - Trash rack
+     - Retains leaves, branches, and coarse debris to protect downstream units.
 
 Grit Removal
 ------------
@@ -124,11 +157,9 @@ A. The trash rack openings are smaller than the diffusers in the clarifier and t
 Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|
 -----------------------------------------------------
 
-A. The plant entrance tank is equipped with a flow-measurement device designed to produce a linear relationship between plant flow and the water level in the entrance chamber. The standard device is the Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank. A demonstrated equivalent, such as a Sutro weir, can be substituted in a project-specific configuration.
+A. The plant entrance tank is equipped with a flow-measurement device designed to produce a linear relationship between plant flow and the water level in the entrance chamber. The standard device is the Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank.
 
-#. The orifice pattern is designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_PF_LFOM`. Depending on the configuration, the orifices are drilled in a flat plate or in the walls of a vertical pipe.
-
-#. The LFOM measures flows from at least 25 percent to 100 percent of the maximum plant design flow. Project-specific configurations can extend the measurement range to lower flow rates.
+#. The orifice pattern is designed so that the water level in the entrance tank (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_PF_LFOM`.
 
 #. To provide adequate flow-measurement resolution, the water level changes by at least 20 cm from no flow to the design flow rate.
 
@@ -181,12 +212,49 @@ The plant is equipped with a chemical feed system configured as shown in :numref
 
 .. _figure_spec_PF_chemDoseController:
 
-.. figure:: ../Images/CDC_derivation.png
+.. figure:: ../Images/PF_Images/tanque-entrada-nivel-constante-concentracion-madre-schematic.png
     :width: 500px
     :align: center
-    :alt: chemDoseController
+    :alt: Chemical dosing system components
 
-    Gravity-powered chemical feed system schematic.
+    Entrance tank, constant level, and stock-solution concentration.
+
+
+.. list-table:: Component key for :numref:`figure_spec_PF_chemDoseController`
+   :name: table_spec_PF_chemical_feed_components
+   :widths: 6 28 66
+   :header-rows: 1
+
+   * - No.
+     - Component
+     - Function
+   * - 1
+     - Coagulant stock-solution tank
+     - Stores the coagulant stock solution.
+   * - 2
+     - Chlorine stock-solution tank
+     - Stores the chlorine stock solution.
+   * - 3
+     - Coagulant constant-level tank
+     - Maintains a constant hydraulic head for coagulant dosing.
+   * - 4
+     - Chlorine constant-level tank
+     - Maintains a constant hydraulic head for chlorine dosing.
+   * - 5
+     - Resistor
+     - Produces the head loss that controls dosing flow.
+   * - 6
+     - Slider and dosing tube
+     - Regulate the dose of each chemical; PlaCoDA can automatically adjust the coagulant dose.
+   * - 7
+     - Chemical-injection hose
+     - Conveys the chemical to the application point.
+   * - 8
+     - Dosing balance
+     - Links plant flow to chemical flow.
+   * - 9
+     - Calibration column and tank level
+     - Allow verification of actual flow and the volume of solution available.
 
 A. Constant Level Tank
 
@@ -197,22 +265,62 @@ A. Constant Level Tank
 
 .. _figure_spec_PF_constantLevelTank:
 
-.. figure:: ../Images/CLT.png
-    :width: 600px
+.. figure:: ../Images/PF_Images/tanque-carga-constante-coagulante-onshape-optimized.png
+    :width: 300px
     :align: center
-    :alt: Constant Level Tank
+    :alt: Coagulant constant-level tank
 
-    Constant level tank module for coagulant and chlorine.
+    Coagulant constant-level tank.
 
-B. Dosing Tubes
 
-   1. Chemical flows from the constant level tank through resistors and then through tubes that terminate in a free discharge at the dose slider on the doser balance.
+.. list-table:: Component key for :numref:`figure_spec_PF_constantLevelTank`
+   :name: table_spec_PF_constant_level_tank_components
+   :widths: 6 28 66
+   :header-rows: 1
+
+   * - No.
+     - Component
+     - Function
+   * - 1
+     - Vent
+     - Prevents a vacuum or overpressure in the tank.
+   * - 2
+     - Coagulant-tank selection valve
+     - Selects the tank placed in service.
+   * - 3
+     - Connection from the coagulant tank
+     - Supplies the constant-level tank.
+   * - 4
+     - Connection to the dosing balance
+     - Conveys the solution to the dosing point.
+   * - 5
+     - Resistor
+     - Regulates coagulant flow.
+   * - 6
+     - Drain and cleaning valve
+     - Facilitates tank maintenance.
+   * - 7
+     - Coagulant level
+     - Provides a visual reference for the normal operating level.
+   * - 8
+     - Float valve
+     - Keeps the level constant.
+   * - 9
+     - Constant-level-tank selection valve
+     - Allows switching between tanks.
+   * - 10
+     - Sight tube
+     - Allows the coagulant volume to be observed.
+
+B. Resistors
+
+   1. Chemical flows from the constant level tank through resistors and then through a tube that terminates in a free discharge at the hanging weir attached to the slider on the doser balance.
 
    #. The resistors are sized to provide laminar flow over the desired range of chemical flow rates. Under laminar-flow conditions, the flow rate through the resistors is directly proportional to the elevation difference between the chemical level in the constant level tank and the dose slider.
 
    #. The plant includes a spare set of resistors for each chemical feed so that one set of tubes can be cleaned while the other set is in use.
 
-   #. Head loss through all other tubes and fittings connecting the constant level tank to the free discharge at the dose slider is less than 5% of the head loss through the resistors.
+   #. Head loss through all other tubes and fittings connecting the constant level tank to the hanging weir at the dose slider is less than 5% of the head loss through the resistors.
 
 #. Chemical Dose Controller |Doser|
 
@@ -221,12 +329,52 @@ B. Dosing Tubes
 
 .. _figure_spec_PF_doser:
 
-.. figure:: ../Images/doser.png
-    :width: 500px
+.. figure:: ../Images/PF_Images/balanza-dosificadora-onshape-optimized.png
+    :width: 400px
     :align: center
-    :alt: Doser
+    :alt: Chemical-system dosing balance
 
-    Chemical dose controller designed for two independent chemical feeds.
+    Chemical-system dosing balance.
+
+
+.. list-table:: Component key for :numref:`figure_spec_PF_doser`
+   :name: table_spec_PF_doser_components
+   :widths: 6 28 66
+   :header-rows: 1
+
+   * - No.
+     - Component
+     - Function
+   * - 1
+     - Coagulant slider
+     - Sets the coagulant dose; it can be adjusted manually or by the PlaCoDA-controlled motor.
+   * - 2
+     - Chlorine slider
+     - Manually adjusts the chlorine dose.
+   * - 3
+     - Weir leveler
+     - Aligns the discharge point for stable dosing.
+   * - 4
+     - Idler pulley
+     - Guides the drive that moves the coagulant slider.
+   * - 5
+     - Counterweight
+     - Offsets the weight of the moving assembly.
+   * - 6
+     - Adjustable hanging weir
+     - Establishes the hydraulic head available for dosing.
+   * - 7
+     - Mounting support
+     - Supports the dosing balance.
+   * - 8
+     - Float
+     - Detects changes in the entrance-tank water level.
+   * - 9
+     - Stepper motor
+     - Automatically moves the coagulant slider as commanded by PlaCoDA.
+   * - 10
+     - Balance pivot
+     - Serves as the system's pivot point.
 
 
 D. Function
@@ -235,9 +383,9 @@ D. Function
 
    #. When the plant flow is zero, the lever is horizontal and chemical flow is zero.
 
-   #. When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser balance to rise. This, in turn, causes the other end of the balance, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser.
+   #. When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser balance to rise. This, in turn, causes the other end of the balance, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the hanging weir attached to the dose slider. The greater driving head increases the chemical flow through the doser.
 
-   #. The water level in the entrance tank is directly proportional to the plant flow rate (due to the LFOM). The dose slider elevation is directly proportional to the entrance tank water level. The chemical flow is directly proportional to the dose slider elevation. Therefore, the chemical flow is directly proportional to the plant flow, and changes in the slider position directly set the chemical dose.
+   #. The water level in the entrance tank is directly proportional to the plant flow rate (due to the LFOM). The hanging weir elevation is directly proportional to the entrance tank water level. The chemical flow is directly proportional to the hanging weir elevation. Therefore, the chemical flow is directly proportional to the plant flow, and changes in the slider position that moves the hanging weir directly set the chemical dose.
 
 
 Flocculator
@@ -310,12 +458,58 @@ The clarifier configuration is based on the coldest design water temperature and
 
 .. _figure_spec_PFclarifierElevation:
 
-.. figure:: ../Images/PF_Images/PFclarifierElevation.png
+.. figure:: ../Images/PF_Images/clarificador-componentes-onshape-optimized.png
   :align: center
   :width: 500px
-  :alt: Clarifier elevation view
+  :alt: Clarifier with inlet manifold, floc filter, and plate settlers
 
-  Elevation view of the clarifier with no wall, showing location of the floc filter, plate settlers, and floc hopper.
+  Clarifier with inlet manifold, floc filter, and plate settlers.
+
+
+.. list-table:: Component key for :numref:`figure_spec_PFclarifierElevation`
+   :name: table_spec_PF_clarifier_components
+   :widths: 6 28 66
+   :header-rows: 1
+
+   * - No.
+     - Component
+     - Function
+   * - 1
+     - Outlet manifold
+     - Collects clarified water and conveys it to the filter.
+   * - 2
+     - Clarifier tank
+     - Contains the settling process.
+   * - 3
+     - Plate settler support
+     - Supports the plate settler modules.
+   * - 4
+     - Floc hopper
+     - Accumulates sludge for purging.
+   * - 5
+     - Clarifier inlet
+     - Receives water from the flocculator.
+   * - 6
+     - Clarifier bottom drain
+     - Purges sludge accumulated on the bottom and empties the clarifier for cleaning.
+   * - 7
+     - Half-pipe
+     - Receives sediment and promotes its resuspension.
+   * - 8
+     - Diffusers
+     - Distribute flow across the bottom of the clarifier.
+   * - 9
+     - Settling hoppers
+     - Guide solids toward the lower zone.
+   * - 10
+     - Inlet manifold
+     - Supplies the diffusers.
+   * - 11
+     - Plate settlers
+     - Increase the effective settling area.
+   * - 12
+     - Clarified-water collection pipe
+     - Conveys water to the outlet manifold.
 
 The clarifier can be configured with multiple bays (see :numref:`figure_PF_clarifier_internals`) that work in parallel to treat the design flow.
 

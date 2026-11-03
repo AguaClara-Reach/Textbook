@@ -170,8 +170,8 @@ msgid ""
 " use a different inlet/outlet system."
 msgstr ""
 "El máximo caudal determina el tamaño del clarificador. Varía para ver cómo "
-"cambian las dimensiones. Caudales inferiores a 2 L/s crean una única bahía "
-"de clarificador y usan un sistema de entrada/salida diferente."
+"cambian las dimensiones. Caudales inferiores a 2 L/s crean una única celda "
+"de clarificación y usan un sistema de entrada/salida diferente."
 
 #: ../../AIDE/About/Clarifier.rst:1
 msgid "Minimum temperature (˚C)"

@@ -16,7 +16,7 @@ This document specifies the design goals, the raw water quality parameters, and 
 AguaClara Plant Design Goals |20-80Lpsplant|
 ============================================
 
-AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and to deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution.
+AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution.
 
 AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The  :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier.  An AguaClara treatment plant may be designed with all of these processes, or if raw water turbidity is consistently less than about 3 NTU, the treatment plant may be designed without flocculation, floc filter, and sedimentation.
 
@@ -81,7 +81,7 @@ Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|
 
 A. The plant entrance tank shall be equipped with a device that will result in a linear relationship between the plant flow and the water level in the entrance chamber. The Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank, is described below. An equivalent device, such as a Sutro weir, can also be used if demonstrated to function equivalently.
 
-#. The pattern of orifices shall be designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the offices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate or in the walls of a vertical pipe.
+#. The pattern of orifices shall be designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate or in the walls of a vertical pipe.
 
 #. At a minimum, the LFOM shall be capable of measuring flow ranging from 25 percent to 100 percent of the maximum plant design flow. If needed the lowest flow rate measured can be further reduced.
 
@@ -195,7 +195,7 @@ D. Function
 
    #. When the plant flow is zero, the lever is horizontal and chemical flow is zero.
 
-   #. When plant flow increases, the water level in the entrance tank increases (due additional head loss through the LFOM), causing one end of the doser lever to rise. This, in turn, causes the other end of the lever, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser.
+   #. When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser lever to rise. This, in turn, causes the other end of the lever, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser.
 
    #. The water level in the entrance tank level is directly proportional to the plant flow rate (due to the LFOM). The dose slider elevation is directly proportional to the entrance tank water level. The chemical flow is directly proportional to the dose slider elevation. Therefore the chemical flow is directly proportional to the plant flow and changes in the slider position directly set the chemical dose.
 
@@ -248,7 +248,7 @@ A. The length of the flocculator channels is typically determined by the length 
 
 #. The spacing between baffles is designed to achieve the target velocity gradient, G, at the design flow rate.
 
-#. The ports between flocculator channels (see :numref:`figure_flocChannelPort` should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width.
+#. The ports between flocculator channels (see :numref:`figure_flocChannelPort`) should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width.
 
 .. _figure_flocChannelPort:
 
@@ -275,7 +275,7 @@ A. The flocculation baffles must be constructed to be removable. A baffle module
 
 #. The flocculation baffles should be constructed from polycarbonate sheets, and the frame for holding together baffle modules should be made from PVC pipe. Other materials may be used if justification is provided, including the use of ferrocement baffles for horizontal flocculators in large plants.
 
-#. The width of each baffle should be approximately 5 millimeters wider than the channel width so they deform slightly and created a tighter seal with the channel wall.
+#. The width of each baffle should be approximately 5 millimeters wider than the channel width so they deform slightly and create a tighter seal with the channel wall.
 
 
 .. _figure_spec_baffleModule:
@@ -285,7 +285,7 @@ A. The flocculation baffles must be constructed to be removable. A baffle module
   :width: 500px
   :alt:  Baffle Module
 
-  The baffle modules transfer the force of the water to the downstream wall through the PVC pipe frame. Each flocculator channels holds one baffle module.
+  The baffle modules transfer the force of the water to the downstream wall through the PVC pipe frame. Each flocculator channel holds one baffle module.
 
 
 Clarifier |Clarifier|
@@ -658,11 +658,11 @@ Disinfection
 Sodium or calcium hypochlorite is metered into the filtered water as it exits the filter hydraulic controls and enters the pipe that carries the water to a chlorine contact tank or directly to the community distribution tank. The chlorine is added after the previous treatment processes to reduce the production of disinfection byproducts and to enable biofiltration. The chlorine concentration is set by adjusting the position of the slider on the doser (see :numref:`figure_spec_doser`).
 
 
-.. |LFOM| image:: https://cad.onshape.com/api/thumbnails/d/49035a16b895fd8095d17a02/w/b76e9410efc3d9f5861e9516/s/300x170
+.. |LFOM| image:: ../Images/Onshape_Thumbnails/LFOM.png
   :width: 100
   :target: https://cad.onshape.com/documents/49035a16b895fd8095d17a02/w/b76e9410efc3d9f5861e9516/e/c063acb14de8f1f558b02d2d?configuration=HL_min%3D0.2%2Bmeter%3BND_max%3D12.0%3BQm_max%3D5.0%3BTEMP_min%3D10.0%3BdrillD_max%3D0.1%2Bmeter%3BprintParams%3Dfalse&renderMode=0&uiState=626fea458d39dd1e3b6106e1
 
-.. |Doser| image:: https://cad.onshape.com/api/thumbnails/d/e71bb0c05d9e7241822776b7/w/533d9612b07de271291829dc/s/300x170
+.. |Doser| image:: ../Images/Onshape_Thumbnails/Dose_Controller.png
   :width: 100
   :target: https://cad.onshape.com/documents/e71bb0c05d9e7241822776b7/w/533d9612b07de271291829dc/e/20f111b627e4c6d59c3f0ff9?configuration=HL_max%3D0.2%2Bmeter%3BQ_pi%3D1.0%3BchlorineC_pi%3D0.6%3BcoagC_pi%3D0.5%3BprintParams%3Dfalse%3Brep%3Dtrue%3BtankOW%3D1.0%2Bmeter&renderMode=0&uiState=6273e0ecd685467dff5c17c4
 

@@ -20,11 +20,11 @@
     "-b",
     "html",
     "Textbook",
-    "${defaultBuildDir}"
+    "C:\\Users\\monro\\Documents\\GitHub\\Textbook\\_build\\esbonio"
   ],
   "esbonio.sphinx.buildTriggers": {
     "onSave": true,
-    "onChange": false
+    "onChange": true
   },
   "esbonio.preview.bind": "127.0.0.1",
   "esbonio.preview.synchronizeScroll": "editorWithPreview"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"POT-Creation-Date: 2026-11-03 08:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,11 @@ msgid "Glossary"
 msgstr ""
 
 #: ../../glossary.rst:4
-msgid "To add a term to this glossary please add it with the definition in quote marks so that the whole thing is treated as a string rather than further separated by commas."
+msgid "This glossary defines water-treatment terms and AguaClara-specific names used throughout the textbook. The AguaClara terminology section includes names for technologies and components whose meanings may not be available in general engineering references."
+msgstr ""
+
+#: ../../glossary.rst:10
+msgid "AguaClara Terminology"
 msgstr ""
 
 #: ../../glossary.rst:1
@@ -33,6 +37,126 @@ msgid "Definition"
 msgstr ""
 
 #: ../../glossary.rst:1
+msgid "AguaClara Infrastructure Design Engine (AIDE)"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "The AguaClara design system used to configure treatment processes and generate plant designs."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Branch pipe"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "A smaller distribution or collection pipe connected to a trunk or manifold. Filter branches contain orifices that distribute or collect flow across the filter."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Built-in-Place (BIP) Series"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "AguaClara treatment plants whose civil works and treatment units are constructed at the project site."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Chemical Dose Controller (CDC)"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "A gravity-driven AguaClara mechanism that uses the entrance-tank water level and an adjustable dose slider to maintain chemical flow in proportion to plant flow."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Clarifier cell"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "An independently operated parallel subdivision of an AguaClara clarifier; translated as *celda de clarificación* in Spanish."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Filter cell"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "An independently operated subdivision of a filter; translated as *celda de filtración* in Spanish."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "FRAMCA"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "The Spanish name for the AguaClara Stacked Rapid Sand filter family and an abbreviation of *Filtro Rápido de Arena de Múltiples Capas*."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "FRAMCA compacto"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "The Spanish name for the compact or shallow open Stacked Rapid Sand filter (ShOStaRS). It uses a compact arrangement of filtration cells."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "FRAMCA convencional"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "The Spanish name for the conventional Open Stacked Rapid Sand filter (OStaRS)."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Linear Flow Orifice Meter (LFOM)"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "An AguaClara flow-measurement device with an orifice pattern that makes the entrance-tank water level approximately proportional to plant flow."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Pipe stub"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "A short removable pipe section or fitting used to block or open a flow path; normally called a *niple* in AguaClara plants in Honduras."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Prefabricated (PF) Series"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Integrated AguaClara treatment plants fabricated and supplied by AguaClara Reach and configured for the project design conditions."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Receptor pipe"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "A specialized dead-end filter pipe that aligns branch pipes and prevents them from lifting during backwash; it is not intended to carry flow."
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Trunk pipe"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "A larger distribution or collection pipe that connects a group of smaller branch pipes."
+msgstr ""
+
+#: ../../glossary.rst:33
+msgid "Water-Treatment Terminology"
+msgstr ""
+
+#: ../../glossary.rst:35
+msgid "When editing a CSV table below, enclose definitions containing commas in quotation marks so each definition remains in one table cell."
+msgstr ""
+
+#: ../../glossary.rst:1
 msgid "Alkalinity"
 msgstr ""
 
@@ -41,11 +165,19 @@ msgid "The ability of a water sample to react with and neutralize an input of ac
 msgstr ""
 
 #: ../../glossary.rst:1
+msgid "Alum"
+msgstr ""
+
+#: ../../glossary.rst:1
+msgid "Aluminum sulfate, a coagulant used in water treatment. In this textbook, alum refers to aluminum sulfate rather than other aluminum salts."
+msgstr ""
+
+#: ../../glossary.rst:1
 msgid "Backwash"
 msgstr ""
 
 #: ../../glossary.rst:1
-msgid "The process of pumping water upward through a filter to flush captured particles out of the filter media."
+msgid "The process of reversing flow upward through a filter to flush captured particles out of the filter media."
 msgstr ""
 
 #: ../../glossary.rst:1

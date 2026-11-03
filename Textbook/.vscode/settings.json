@@ -1,4 +1,32 @@
 {
-    "iis.configDir": "",
-    "esbonio.sphinx.confDir": ""
+  "iis.configDir": "",
+  "esbonio.server.pythonCommand": {
+    "command": [
+      "C:\\Users\\monro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    ],
+    "env": {
+      "PYTHONPATH": "C:\\Users\\monro\\.vscode\\extensions\\swyddfa.esbonio-2.1.0\\bundled\\libs"
+    }
+  },
+  "esbonio.sphinx.pythonCommand": {
+    "command": [
+      "C:\\Users\\monro\\.virtualenvs\\Textbook-o_W9HAaq\\Scripts\\python.exe"
+    ],
+    "cwd": "C:\\Users\\monro\\Documents\\GitHub\\Textbook",
+    "env": {
+      "PYTHONPATH": "C:\\Users\\monro\\.vscode\\extensions\\swyddfa.esbonio-2.1.0\\bundled\\libs"
+    }
+  },
+  "esbonio.sphinx.buildArguments": [
+    "-b",
+    "html",
+    "Textbook",
+    "C:\\Users\\monro\\Documents\\GitHub\\Textbook\\_build\\esbonio"
+  ],
+  "esbonio.sphinx.buildTriggers": {
+    "onSave": true,
+    "onChange": true
+  },
+  "esbonio.preview.bind": "127.0.0.1",
+  "esbonio.preview.synchronizeScroll": "editorWithPreview"
 }

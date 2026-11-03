@@ -982,7 +982,7 @@ msgstr ""
 
 #: ../../Clarification/Clarifier_Examples.rst:259
 msgid "Clarifier Bays and Number of Diffusers"
-msgstr "Bahías de clarificadores y número de difusores"
+msgstr "Celdas de clarificación y número de difusores"
 
 #: ../../Clarification/Clarifier_Examples.rst:260
 msgid "The design will be for a 60 liter per second plant."

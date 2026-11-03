@@ -1787,15 +1787,15 @@ msgstr ""
 
 #: ../../Introduction/Introduction.rst:392
 msgid "Kathmandu alum dosing"
-msgstr "Dosificación de alumbre de Katmandú"
+msgstr "Dosificación de sulfato de aluminio de Katmandú"
 
 #: ../../Introduction/Introduction.rst:392
 msgid ""
 "Alum dosing system based on the rate that 25 kg blocks of alum are placed in"
 " the inlet channel of the plant."
 msgstr ""
-"Sistema de dosificación de alumbre basado en la velocidad a la que se "
-"colocan bloques de 25 kg de alumbre en el canal de entrada de la planta."
+"Sistema de dosificación de sulfato de aluminio basado en la velocidad a la que se "
+"colocan bloques de 25 kg de sulfato de aluminio en el canal de entrada de la planta."
 
 #: ../../Introduction/Introduction.rst:394
 msgid ""

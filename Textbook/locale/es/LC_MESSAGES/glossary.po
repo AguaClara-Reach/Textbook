@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 15:03-0500\n"
+"POT-Creation-Date: 2026-11-03 08:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../glossary.rst:2
 msgid "Glossary"
@@ -25,13 +25,20 @@ msgstr "Glosario"
 
 #: ../../glossary.rst:4
 msgid ""
-"To add a term to this glossary please add it with the definition in quote "
-"marks so that the whole thing is treated as a string rather than further "
-"separated by commas."
+"This glossary defines water-treatment terms and AguaClara-specific names "
+"used throughout the textbook. The AguaClara terminology section includes "
+"names for technologies and components whose meanings may not be available in"
+" general engineering references."
 msgstr ""
-"Para añadir un término a este glosario, por favor añádelo con la definición "
-"entre comillas para que todo se trate como una cadena en lugar de estar "
-"separado por comas."
+"Este glosario define los términos de tratamiento de agua y los nombres "
+"específicos de AguaClara utilizados en todo el libro de texto. La sección de"
+" terminología de AguaClara incluye nombres de tecnologías y componentes "
+"cuyos significados podrían no encontrarse en referencias generales de "
+"ingeniería."
+
+#: ../../glossary.rst:10
+msgid "AguaClara Terminology"
+msgstr "Terminología de AguaClara"
 
 #: ../../glossary.rst:1
 msgid "Term"
@@ -40,6 +47,194 @@ msgstr "Término"
 #: ../../glossary.rst:1
 msgid "Definition"
 msgstr "Definición"
+
+#: ../../glossary.rst:1
+msgid "AguaClara Infrastructure Design Engine (AIDE)"
+msgstr "Herramienta de Diseño de Infraestructura AguaClara (AIDE)"
+
+#: ../../glossary.rst:1
+msgid ""
+"The AguaClara design system used to configure treatment processes and "
+"generate plant designs."
+msgstr ""
+"El sistema de diseño de AguaClara utilizado para configurar los procesos de "
+"tratamiento y generar diseños de plantas."
+
+#: ../../glossary.rst:1
+msgid "Branch pipe"
+msgstr "Rama"
+
+#: ../../glossary.rst:1
+msgid ""
+"A smaller distribution or collection pipe connected to a trunk or manifold. "
+"Filter branches contain orifices that distribute or collect flow across the "
+"filter."
+msgstr ""
+"Una tubería de distribución o recolección de menor diámetro conectada a una "
+"tubería troncal o a un manifold. Las ramas del filtro contienen orificios "
+"que distribuyen o recolectan el flujo a través del filtro."
+
+#: ../../glossary.rst:1
+msgid "Built-in-Place (BIP) Series"
+msgstr "Serie de obra civil (BIP)"
+
+#: ../../glossary.rst:1
+msgid ""
+"AguaClara treatment plants whose civil works and treatment units are "
+"constructed at the project site."
+msgstr ""
+"Plantas de tratamiento AguaClara cuyas obras civiles y unidades de "
+"tratamiento se construyen en el sitio del proyecto."
+
+#: ../../glossary.rst:1
+msgid "Chemical Dose Controller (CDC)"
+msgstr "Controlador de dosis químicas (CDC)"
+
+#: ../../glossary.rst:1
+msgid ""
+"A gravity-driven AguaClara mechanism that uses the entrance-tank water level"
+" and an adjustable dose slider to maintain chemical flow in proportion to "
+"plant flow."
+msgstr ""
+"Mecanismo AguaClara accionado por gravedad que utiliza el nivel del agua del"
+" tanque de entrada y un deslizador de dosis ajustable para mantener el "
+"caudal del químico proporcional al caudal de la planta."
+
+#: ../../glossary.rst:1
+msgid "Clarifier cell"
+msgstr "Celda de clarificación"
+
+#: ../../glossary.rst:1
+msgid ""
+"An independently operated parallel subdivision of an AguaClara clarifier; "
+"translated as *celda de clarificación* in Spanish."
+msgstr ""
+"Subdivisión paralela de un clarificador AguaClara que funciona de manera "
+"independiente."
+
+#: ../../glossary.rst:1
+msgid "Filter cell"
+msgstr "Celda de filtración"
+
+#: ../../glossary.rst:1
+msgid ""
+"An independently operated subdivision of a filter; translated as *celda de "
+"filtración* in Spanish."
+msgstr "Subdivisión de un filtro que funciona de manera independiente."
+
+#: ../../glossary.rst:1
+msgid "FRAMCA"
+msgstr "FRAMCA"
+
+#: ../../glossary.rst:1
+msgid ""
+"The Spanish name for the AguaClara Stacked Rapid Sand filter family and an "
+"abbreviation of *Filtro Rápido de Arena de Múltiples Capas*."
+msgstr ""
+"Nombre en español de la familia de filtros rápidos de arena de múltiples "
+"capas de AguaClara y abreviatura de *Filtro Rápido de Arena de Múltiples "
+"Capas*."
+
+#: ../../glossary.rst:1
+msgid "FRAMCA compacto"
+msgstr "FRAMCA compacto"
+
+#: ../../glossary.rst:1
+msgid ""
+"The Spanish name for the compact or shallow open Stacked Rapid Sand filter "
+"(ShOStaRS). It uses a compact arrangement of filtration cells."
+msgstr ""
+"Nombre en español del filtro rápido de arena de múltiples capas compacto o "
+"abierto de poca profundidad (ShOStaRS). Utiliza una disposición compacta de "
+"celdas de filtración."
+
+#: ../../glossary.rst:1
+msgid "FRAMCA convencional"
+msgstr "FRAMCA convencional"
+
+#: ../../glossary.rst:1
+msgid ""
+"The Spanish name for the conventional Open Stacked Rapid Sand filter "
+"(OStaRS)."
+msgstr ""
+"Nombre en español del filtro rápido de arena de múltiples capas abierto "
+"convencional (OStaRS)."
+
+#: ../../glossary.rst:1
+msgid "Linear Flow Orifice Meter (LFOM)"
+msgstr "Medidor Lineal de Caudal por Orificios (LFOM)"
+
+#: ../../glossary.rst:1
+msgid ""
+"An AguaClara flow-measurement device with an orifice pattern that makes the "
+"entrance-tank water level approximately proportional to plant flow."
+msgstr ""
+"Dispositivo AguaClara de medición de caudal con un patrón de orificios que "
+"hace que el nivel del agua del tanque de entrada sea aproximadamente "
+"proporcional al caudal de la planta."
+
+#: ../../glossary.rst:1
+msgid "Pipe stub"
+msgstr "Niple"
+
+#: ../../glossary.rst:1
+msgid ""
+"A short removable pipe section or fitting used to block or open a flow path;"
+" normally called a *niple* in AguaClara plants in Honduras."
+msgstr ""
+"Tramo corto de tubería o accesorio removible que se utiliza para bloquear o "
+"abrir una trayectoria de flujo; normalmente se denomina *niple* en las "
+"plantas AguaClara de Honduras."
+
+#: ../../glossary.rst:1
+msgid "Prefabricated (PF) Series"
+msgstr "Serie prefabricada (PF)"
+
+#: ../../glossary.rst:1
+msgid ""
+"Integrated AguaClara treatment plants fabricated and supplied by AguaClara "
+"Reach and configured for the project design conditions."
+msgstr ""
+"Plantas de tratamiento AguaClara integradas, fabricadas y suministradas por "
+"AguaClara Reach y configuradas para las condiciones de diseño del proyecto."
+
+#: ../../glossary.rst:1
+msgid "Receptor pipe"
+msgstr "Tubería receptora"
+
+#: ../../glossary.rst:1
+msgid ""
+"A specialized dead-end filter pipe that aligns branch pipes and prevents "
+"them from lifting during backwash; it is not intended to carry flow."
+msgstr ""
+"Tubería especializada de extremo cerrado del filtro que alinea las ramas e "
+"impide que se levanten durante el retrolavado; no está diseñada para "
+"transportar flujo."
+
+#: ../../glossary.rst:1
+msgid "Trunk pipe"
+msgstr "Tubería troncal"
+
+#: ../../glossary.rst:1
+msgid ""
+"A larger distribution or collection pipe that connects a group of smaller "
+"branch pipes."
+msgstr ""
+"Tubería de distribución o recolección de mayor diámetro que conecta un grupo"
+" de ramas de menor diámetro."
+
+#: ../../glossary.rst:33
+msgid "Water-Treatment Terminology"
+msgstr "Terminología de tratamiento de agua"
+
+#: ../../glossary.rst:35
+msgid ""
+"When editing a CSV table below, enclose definitions containing commas in "
+"quotation marks so each definition remains in one table cell."
+msgstr ""
+"Al editar una tabla CSV a continuación, encierre entre comillas las "
+"definiciones que contengan comas para que cada definición permanezca en una "
+"sola celda de la tabla."
 
 #: ../../glossary.rst:1
 msgid "Alkalinity"
@@ -55,16 +250,29 @@ msgstr ""
 "(CNA)."
 
 #: ../../glossary.rst:1
-msgid "Backwash"
-msgstr "Contracorriente"
+msgid "Alum"
+msgstr "Sulfato de aluminio"
 
 #: ../../glossary.rst:1
 msgid ""
-"The process of pumping water upward through a filter to flush captured "
+"Aluminum sulfate, a coagulant used in water treatment. In this textbook, "
+"alum refers to aluminum sulfate rather than other aluminum salts."
+msgstr ""
+"Sulfato de aluminio, un coagulante utilizado en el tratamiento de agua. En "
+"este libro de texto, el término se refiere al sulfato de aluminio y no a otras "
+"sales de aluminio."
+
+#: ../../glossary.rst:1
+msgid "Backwash"
+msgstr "Retrolavado"
+
+#: ../../glossary.rst:1
+msgid ""
+"The process of reversing flow upward through a filter to flush captured "
 "particles out of the filter media."
 msgstr ""
-"El proceso de bombear agua hacia arriba a través de un filtro para eliminar "
-"las partículas capturadas del medio filtrante."
+"El proceso de invertir el flujo hacia arriba a través de un filtro para "
+"expulsar del medio filtrante las partículas capturadas."
 
 #: ../../glossary.rst:1
 msgid "Baffles"
@@ -394,7 +602,7 @@ msgstr "Compuestos a base de carbono presentes en el medio ambiente."
 
 #: ../../glossary.rst:1
 msgid "pH"
-msgstr ""
+msgstr "pH"
 
 #: ../../glossary.rst:1
 msgid ""
@@ -514,7 +722,7 @@ msgstr "Una mezcla de fluido heterogénea que contiene partículas."
 
 #: ../../glossary.rst:1
 msgid "Sutro Weir"
-msgstr "Presa de Sutro"
+msgstr "Vertedero Sutro"
 
 #: ../../glossary.rst:1
 msgid ""
@@ -524,7 +732,7 @@ msgid ""
 msgstr ""
 "Un desbordamiento rectangular en lados de presa que se curvan "
 "parabólicamente hacia afuera en la base, haciendo que el flujo de descarga "
-"sea proporcional a la carga; también conocido como azud proporcional."
+"sea proporcional a la carga; también conocido como vertedero proporcional."
 
 #: ../../glossary.rst:1
 msgid "Terminal Velocity"
@@ -605,4 +813,17 @@ msgstr ""
 "La resistencia de un fluido al flujo o deformación, también conocida como el"
 " \"grosor\" del líquido, está relacionada con la fuerza aplicada (viscosidad"
 " dinámica) o la velocidad de movimiento (viscosidad cinemática)."
+
+#~ msgid ""
+#~ "To add a term to this glossary "
+#~ "please add it with the definition in"
+#~ " quote marks so that the whole "
+#~ "thing is treated as a string rather"
+#~ " than further separated by commas."
+#~ msgstr ""
+#~ "Para añadir un término a este "
+#~ "glosario, por favor añádelo con la "
+#~ "definición entre comillas para que todo "
+#~ "se trate como una cadena en lugar "
+#~ "de estar separado por comas."
 

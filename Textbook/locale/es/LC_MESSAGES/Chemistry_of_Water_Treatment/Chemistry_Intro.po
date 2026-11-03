@@ -112,7 +112,7 @@ msgid ""
 "precipitates as :math:`Al(OH)_3`. In the process, protons (:math:`H^+`) are "
 "released and thus the pH (:math:`-log[H^+]`) decreases."
 msgstr ""
-"Cuando se añade sulfato de aluminio (alumbre) al agua, este se disocia y "
+"Cuando se añade sulfato de aluminio al agua, este se disocia y "
 "luego precipita como :math:`Al(OH)_3`. En el proceso, se liberan protones "
 "(:math:`H^+`) y, por tanto, el pH (:math:`-log[H^+]`) disminuye."
 
@@ -138,16 +138,16 @@ msgstr ""
 " ANC (también conocida como alcalinidad) del agua. La ANC se mide "
 "tradicionalmente con unidades de mg/L de :math:`CaCO_3` en lugar de eq/L.  "
 ":numref:`table_ANC_consumed_by_alum` muestra la relación entre la ANC medida"
-" como mg/L de :math:`CaCO_3` y el alumbre (:math:`Al_2(SO_4)_3 \\cdot "
+" como mg/L de :math:`CaCO_3` y el sulfato de aluminio (:math:`Al_2(SO_4)_3 \\cdot "
 "14H_2O`)"
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:40
 msgid "Reduction in ANC caused by addition of alum."
-msgstr "Reducción del ANC causada por la adición de alumbre."
+msgstr "Reducción del ANC causada por la adición de sulfato de aluminio."
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
 msgid "Alum"
-msgstr "Alumbre"
+msgstr "Sulfato de aluminio"
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
 msgid "Calcium Carbonate"
@@ -207,7 +207,7 @@ msgstr "Guía sencilla"
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
 msgid "1 mg/L alum consumes"
-msgstr "1 mg/L de alumbre consume"
+msgstr "1 mg/L de sulfato de aluminio consume"
 
 #: ../../Chemistry_of_Water_Treatment/Chemistry_Intro.rst:1
 msgid "0.5 mg/L calcium carbonate ANC"
@@ -240,14 +240,14 @@ msgid ""
 "the cost of the coagulant."
 msgstr ""
 "El cloruro de polialuminio (PACl) es otro coagulante a base de aluminio que "
-"funciona de forma similar al alumbre. El PACl se fabrica titulando "
+"funciona de forma similar al sulfato de aluminio. El PACl se fabrica titulando "
 "lentamente una solución ácida que contiene aluminio disuelto con una base "
 "(en la planta química) para producir un aluminio polimérico metaestable y "
 "soluble. El PACl consume menos alcalinidad (ANC) porque queda parcialmente "
 "neutralizado por la titulación con una base. Además, la fracción mássica de "
-"aluminio del PACl es mayor que en el alumbre porque no hay moléculas de agua"
+"aluminio del PACl es mayor que en el sulfato de aluminio porque no hay moléculas de agua"
 " adheridas. La masa de PACl requerida para la floculación es menor que la "
-"masa de alumbre requerida. Esto se debe en gran parte a la mayor fracción de"
+"masa de sulfato de aluminio requerida. Esto se debe en gran parte a la mayor fracción de"
 " aluminio. La menor masa de PACl requerida es un beneficio económico cuando "
 "el envío representa una parte significativa del coste del coagulante."
 
@@ -336,7 +336,7 @@ msgid ""
 "calculating the :math:`ANC_{Al}` will be used to calculate the amount of "
 "base that must be added to achieve a target pH."
 msgstr ""
-"Así, la ANC del alumbre (con 0 hidróxidos) es :math:`-3[Al]`. El método de "
+"Así, la ANC del sulfato de aluminio (con 0 hidróxidos) es :math:`-3[Al]`. El método de "
 "cálculo de la :math:`ANC_{Al}` se utilizará para calcular la cantidad de "
 "base que debe añadirse para alcanzar un pH objetivo."
 

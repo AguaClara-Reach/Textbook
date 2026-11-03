@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-03 09:53-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../AIDE/Specifications_PF.rst:53
-msgid "Specifications for AguaClara PF Series"
+msgid "Specifications for the Prefabricated Series"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:58
@@ -33,7 +33,7 @@ msgid "AguaClara drinking water treatment technologies remove turbidity and path
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:65
-msgid "AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier. A PF plant can be configured with all of these processes. For source water with turbidity consistently below approximately 3 NTU, a project-specific configuration can omit flocculation, the floc filter, and sedimentation."
+msgid "AguaClara treatment technologies include trash and grit removal, flow measurement, chemical dosing, rapid mix, flocculation, floc filter, sedimentation, filtration, and disinfection. The :ref:`floc filter <title_Clarification_Intro>` is a fluidized suspension of flocs located in the bottom of the clarifier. A PF plant can be configured with all of these processes. For source water with turbidity consistently below approximately 2 NTU, a project-specific configuration can omit flocculation, the floc filter, and sedimentation after necessary pilot testing."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:69
@@ -61,7 +61,7 @@ msgid "Turbidity"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:1
-msgid "PF plants are designed to consistently treat raw water with turbidity below 600 NTU to a turbidity below 1 NTU. Treatment of higher turbidities requires a customized clarifier design."
+msgid "PF plants are designed to consistently treat raw water with turbidity below 600 NTU to a turbidity below 0.3 NTU. Treatment of higher turbidities requires a customized clarifier design."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:1
@@ -128,488 +128,993 @@ msgstr ""
 msgid "Inject the coagulant and any other amendments required for flocculation"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:108
-msgid "entrance tank diagram"
+#: ../../AIDE/Specifications_PF.rst:107
+msgid "Entrance tank showing the sight tube and LFOM"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:108
-msgid "Cross-section of an entrance tank. Chemical dosing system not shown."
+#: ../../AIDE/Specifications_PF.rst:107
+msgid "Entrance tank showing the sight tube and LFOM."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:111
-msgid "Grit Removal"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:113
-msgid "The entrance tank is designed as a horizontal-flow sedimentation tank for grit removal with a capture velocity below 15 mm/s."
+#: ../../AIDE/Specifications_PF.rst:110
+msgid "Component key for :numref:`figure_spec_PF_ET_Diagram_Labeled`"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:115
-msgid "The bottom of the entrance tank can easily be cleaned by temporarily removing the pipe stub that blocks the drain."
+#: ../../AIDE/Specifications_PF.rst:228
+#: ../../AIDE/Specifications_PF.rst:281
+#: ../../AIDE/Specifications_PF.rst:345
+#: ../../AIDE/Specifications_PF.rst:474
+msgid "No."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:116
+#: ../../AIDE/Specifications_PF.rst:229
+#: ../../AIDE/Specifications_PF.rst:282
+#: ../../AIDE/Specifications_PF.rst:346
+#: ../../AIDE/Specifications_PF.rst:475
+msgid "Component"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:117
+#: ../../AIDE/Specifications_PF.rst:230
+#: ../../AIDE/Specifications_PF.rst:283
+#: ../../AIDE/Specifications_PF.rst:347
+#: ../../AIDE/Specifications_PF.rst:380
+#: ../../AIDE/Specifications_PF.rst:476
+msgid "Function"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:118
-msgid "Trash Rack"
+#: ../../AIDE/Specifications_PF.rst:231
+#: ../../AIDE/Specifications_PF.rst:284
+#: ../../AIDE/Specifications_PF.rst:348
+#: ../../AIDE/Specifications_PF.rst:477
+msgid "1"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:119
+#: ../../AIDE/Specifications_PF.rst:253
+msgid "Dosing balance"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:120
-msgid "The trash rack openings are smaller than the diffusers in the clarifier and the orifices in the stacked rapid sand filter inlet branches."
+msgid "Adjusts chemical flow according to the water level in the entrance tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:121
+#: ../../AIDE/Specifications_PF.rst:234
+#: ../../AIDE/Specifications_PF.rst:287
+#: ../../AIDE/Specifications_PF.rst:351
+#: ../../AIDE/Specifications_PF.rst:480
+msgid "2"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:122
-msgid "The trash rack area accommodates at least 80% clogging without exceeding the available head loss in the entrance tank."
+msgid "Linear Flow Orifice Meter (LFOM)"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:123
+msgid "Relates water level to flow so the operator can read it directly from the sight tube."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:124
+#: ../../AIDE/Specifications_PF.rst:237
+#: ../../AIDE/Specifications_PF.rst:290
+#: ../../AIDE/Specifications_PF.rst:354
+#: ../../AIDE/Specifications_PF.rst:483
+msgid "3"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:125
+msgid "Flow-measurement hose (graduated sight tube)"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:126
+msgid "Allows the water level and flow to be read directly outside the tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:127
+#: ../../AIDE/Specifications_PF.rst:240
+#: ../../AIDE/Specifications_PF.rst:293
+#: ../../AIDE/Specifications_PF.rst:357
+#: ../../AIDE/Specifications_PF.rst:486
+msgid "4"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:128
+msgid "Water level"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:129
+msgid "Reflects the flow entering the plant and actuates the dosing system."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:130
+#: ../../AIDE/Specifications_PF.rst:243
+#: ../../AIDE/Specifications_PF.rst:296
+#: ../../AIDE/Specifications_PF.rst:360
+#: ../../AIDE/Specifications_PF.rst:489
+msgid "5"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:131
+msgid "Raw-water inlet"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:132
+msgid "Conveys water from the source to the tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:133
+#: ../../AIDE/Specifications_PF.rst:246
+#: ../../AIDE/Specifications_PF.rst:299
+#: ../../AIDE/Specifications_PF.rst:363
+#: ../../AIDE/Specifications_PF.rst:492
+msgid "6"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:134
+#: ../../AIDE/Specifications_PF.rst:370
+msgid "Float"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:135
+msgid "Transmits changes in water level to the dosing balance."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:136
+#: ../../AIDE/Specifications_PF.rst:249
+#: ../../AIDE/Specifications_PF.rst:302
+#: ../../AIDE/Specifications_PF.rst:366
+#: ../../AIDE/Specifications_PF.rst:495
+msgid "7"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:137
+msgid "Drain or bypass nipple"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:138
+msgid "Allows water to be diverted or discharged when it must not pass through the plant."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:139
+#: ../../AIDE/Specifications_PF.rst:252
+#: ../../AIDE/Specifications_PF.rst:305
+#: ../../AIDE/Specifications_PF.rst:369
+#: ../../AIDE/Specifications_PF.rst:498
+msgid "8"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:140
+msgid "Trash rack"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:141
+msgid "Retains leaves, branches, and coarse debris to protect downstream units."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:144
+msgid "Grit Removal"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:146
+msgid "The entrance tank is designed as a horizontal-flow sedimentation tank for grit removal with a capture velocity below 15 mm/s."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:148
+msgid "The bottom of the entrance tank can easily be cleaned by temporarily removing the pipe stub that blocks the drain."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:151
+msgid "Trash Rack"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:153
+msgid "The trash rack openings are smaller than the diffusers in the clarifier and the orifices in the stacked rapid sand filter inlet branches."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:155
+msgid "The trash rack area accommodates at least 80% clogging without exceeding the available head loss in the entrance tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:158
 msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:0
-#: ../../AIDE/Specifications_PF.rst:142
+#: ../../AIDE/Specifications_PF.rst:173
 msgid "LFOM"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:127
-msgid "The plant entrance tank is equipped with a flow-measurement device designed to produce a linear relationship between plant flow and the water level in the entrance chamber. The standard device is the Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank. A demonstrated equivalent, such as a Sutro weir, can be substituted in a project-specific configuration."
+#: ../../AIDE/Specifications_PF.rst:160
+msgid "The plant entrance tank is equipped with a flow-measurement device designed to produce a linear relationship between plant flow and the water level in the entrance chamber. The standard device is the Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:129
-msgid "The orifice pattern is designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_PF_LFOM`. Depending on the configuration, the orifices are drilled in a flat plate or in the walls of a vertical pipe."
+#: ../../AIDE/Specifications_PF.rst:162
+msgid "The orifice pattern is designed so that the water level in the entrance tank (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_PF_LFOM`."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:131
-msgid "The LFOM measures flows from at least 25 percent to 100 percent of the maximum plant design flow. Project-specific configurations can extend the measurement range to lower flow rates."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:133
+#: ../../AIDE/Specifications_PF.rst:164
 msgid "To provide adequate flow-measurement resolution, the water level changes by at least 20 cm from no flow to the design flow rate."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:142
+#: ../../AIDE/Specifications_PF.rst:173
 msgid "Example of a Linear Flow Orifice Meter."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:146
+#: ../../AIDE/Specifications_PF.rst:177
 msgid "Chemical Dosing System"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:148
+#: ../../AIDE/Specifications_PF.rst:179
 msgid "For more detailed information, see :ref:`Linear chemical dosing system <heading_linear_cdc>`."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:151
+#: ../../AIDE/Specifications_PF.rst:182
 msgid "Capabilities and Design Features"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:153
+#: ../../AIDE/Specifications_PF.rst:184
 msgid "The system is capable of dosing chemicals for the following purposes. All wetted materials are compatible with the chemicals being dosed."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:155
+#: ../../AIDE/Specifications_PF.rst:186
 msgid "Disinfectant (normally sodium or calcium hypochlorite)"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:157
+#: ../../AIDE/Specifications_PF.rst:188
 msgid "Coagulant (typically polyaluminum chloride [PACl]). Use of another coagulant, such as alum, requires justification and bench-scale jar testing confirming that the proposed coagulant successfully forms flocs."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:159
+#: ../../AIDE/Specifications_PF.rst:190
 msgid "pH adjustment (if necessary)"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:161
+#: ../../AIDE/Specifications_PF.rst:192
 msgid "The chemical dosing system operates by gravity and does not depend on pumps or electrical power."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:163
+#: ../../AIDE/Specifications_PF.rst:194
 msgid "Chemical dosing is flow-paced: the rate of chemical application automatically adjusts in proportion to the flow rate of water moving through the plant."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:165
+#: ../../AIDE/Specifications_PF.rst:196
 msgid "The system is designed for easy disassembly and cleaning by the plant operator, including cleaning with vinegar to remove calcium carbonate deposits."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:167
+#: ../../AIDE/Specifications_PF.rst:198
 msgid "The plant operator adjusts the chemical dose (mass of chemical per volume of water passing through the plant) using the dose slider."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:171
+#: ../../AIDE/Specifications_PF.rst:202
 msgid "Chemical Storage"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:173
+#: ../../AIDE/Specifications_PF.rst:204
 msgid "The plant includes at least two storage tanks for each chemical. Tank and fitting materials are compatible with the stored chemical. Compatible plastic storage tanks can be used."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:175
+#: ../../AIDE/Specifications_PF.rst:206
 msgid "The combined storage volume for each chemical supplies the plant at maximum flow and maximum chemical dose for at least 48 hours."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:178
+#: ../../AIDE/Specifications_PF.rst:209
 msgid "Chemical Feed System"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:180
+#: ../../AIDE/Specifications_PF.rst:211
 msgid "The plant is equipped with a chemical feed system configured as shown in :numref:`figure_spec_PF_chemDoseController`. Materials that contact chemicals are compatible with each chemical and suitable for use with potable water."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:189
-msgid "chemDoseController"
+#: ../../AIDE/Specifications_PF.rst:220
+msgid "Chemical dosing system components"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:189
-msgid "Gravity-powered chemical feed system schematic."
+#: ../../AIDE/Specifications_PF.rst:220
+msgid "Entrance tank, constant level, and stock-solution concentration."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:191
-#: ../../AIDE/Specifications_PF.rst:205
+#: ../../AIDE/Specifications_PF.rst:223
+msgid "Component key for :numref:`figure_spec_PF_chemDoseController`"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:232
+msgid "Coagulant stock-solution tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:233
+msgid "Stores the coagulant stock solution."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:235
+msgid "Chlorine stock-solution tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:236
+msgid "Stores the chlorine stock solution."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:238
+#: ../../AIDE/Specifications_PF.rst:273
+msgid "Coagulant constant-level tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:239
+msgid "Maintains a constant hydraulic head for coagulant dosing."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:241
+msgid "Chlorine constant-level tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:242
+msgid "Maintains a constant hydraulic head for chlorine dosing."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:244
+#: ../../AIDE/Specifications_PF.rst:297
+msgid "Resistor"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:245
+msgid "Produces the head loss that controls dosing flow."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:247
+msgid "Slider and dosing tube"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:248
+msgid "Regulate the dose of each chemical; PlaCoDA can automatically adjust the coagulant dose."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:250
+msgid "Chemical-injection hose"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:251
+msgid "Conveys the chemical to the application point."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:254
+msgid "Links plant flow to chemical flow."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:255
+#: ../../AIDE/Specifications_PF.rst:308
+#: ../../AIDE/Specifications_PF.rst:372
+#: ../../AIDE/Specifications_PF.rst:501
+msgid "9"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:256
+msgid "Calibration column and tank level"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:257
+msgid "Allow verification of actual flow and the volume of solution available."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:259
 msgid "Constant Level Tank"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:193
+#: ../../AIDE/Specifications_PF.rst:261
 msgid "From the chemical storage tanks, the chemical passes via gravity to a constant level tank (see :numref:`figure_spec_PF_constantLevelTank`). The chemical enters the constant level tank via a float valve, which maintains a constant level of chemical, providing a constant head to drive the chemical through the doser."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:195
+#: ../../AIDE/Specifications_PF.rst:263
 msgid "The chemical level in the constant level tank is at the same elevation as the hanging weir when the slider is at the minimum position of the dosing lever."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:205
-msgid "Constant level tank module for coagulant and chlorine."
+#: ../../AIDE/Specifications_PF.rst:273
+msgid "Coagulant constant-level tank."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:207
-msgid "Dosing Tubes"
+#: ../../AIDE/Specifications_PF.rst:276
+msgid "Component key for :numref:`figure_spec_PF_constantLevelTank`"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:209
-msgid "Chemical flows from the constant level tank through resistors and then through tubes that terminate in a free discharge at the dose slider on the doser balance."
+#: ../../AIDE/Specifications_PF.rst:285
+msgid "Vent"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:211
+#: ../../AIDE/Specifications_PF.rst:286
+msgid "Prevents a vacuum or overpressure in the tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:288
+msgid "Coagulant-tank selection valve"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:289
+msgid "Selects the tank placed in service."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:291
+msgid "Connection from the coagulant tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:292
+msgid "Supplies the constant-level tank."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:294
+msgid "Connection to the dosing balance"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:295
+msgid "Conveys the solution to the dosing point."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:298
+msgid "Regulates coagulant flow."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:300
+msgid "Drain and cleaning valve"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:301
+msgid "Facilitates tank maintenance."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:303
+msgid "Coagulant level"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:304
+msgid "Provides a visual reference for the normal operating level."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:306
+msgid "Float valve"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:307
+msgid "Keeps the level constant."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:309
+msgid "Constant-level-tank selection valve"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:310
+msgid "Allows switching between tanks."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:311
+#: ../../AIDE/Specifications_PF.rst:375
+#: ../../AIDE/Specifications_PF.rst:504
+msgid "10"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:312
+msgid "Sight tube"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:313
+msgid "Allows the coagulant volume to be observed."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:315
+msgid "Resistors"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:317
+msgid "Chemical flows from the constant level tank through resistors and then through a tube that terminates in a free discharge at the hanging weir attached to the slider on the doser balance."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:319
 msgid "The resistors are sized to provide laminar flow over the desired range of chemical flow rates. Under laminar-flow conditions, the flow rate through the resistors is directly proportional to the elevation difference between the chemical level in the constant level tank and the dose slider."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:213
+#: ../../AIDE/Specifications_PF.rst:321
 msgid "The plant includes a spare set of resistors for each chemical feed so that one set of tubes can be cleaned while the other set is in use."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:215
-msgid "Head loss through all other tubes and fittings connecting the constant level tank to the free discharge at the dose slider is less than 5% of the head loss through the resistors."
+#: ../../AIDE/Specifications_PF.rst:323
+msgid "Head loss through all other tubes and fittings connecting the constant level tank to the hanging weir at the dose slider is less than 5% of the head loss through the resistors."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:217
+#: ../../AIDE/Specifications_PF.rst:325
 msgid "Chemical Dose Controller |Doser|"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:0
-#: ../../AIDE/Specifications_PF.rst:229
 msgid "Doser"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:219
+#: ../../AIDE/Specifications_PF.rst:327
 msgid "One end of the chemical doser balance (see :numref:`figure_spec_PF_doser`) is connected to a float in the plant entrance tank. The dose slider and the ends of the doser hoses are located on the other end of the chemical doser balance."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:229
-msgid "Chemical dose controller designed for two independent chemical feeds."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:232
-msgid "Function"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:234
-msgid "The doser balance is designed so that the operator can select a chemical dose (mass of chemical per volume of water) by moving the dose slider to a specific position along the lever. The lever, LFOM, and constant level tank then work together to adjust the chemical flow in proportion to the plant flow to maintain a constant chemical dose."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:236
-msgid "When the plant flow is zero, the lever is horizontal and chemical flow is zero."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:238
-msgid "When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser balance to rise. This, in turn, causes the other end of the balance, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:240
-msgid "The water level in the entrance tank is directly proportional to the plant flow rate (due to the LFOM). The dose slider elevation is directly proportional to the entrance tank water level. The chemical flow is directly proportional to the dose slider elevation. Therefore, the chemical flow is directly proportional to the plant flow, and changes in the slider position directly set the chemical dose."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:244
-msgid "Flocculator"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:246
-msgid "For more detailed information, see :ref:`Flocculation Design <title_Flocculation_Design>`."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:249
-#: ../../AIDE/Specifications_PF.rst:333
-msgid "Design Basis"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:251
-msgid "The AguaClara flocculator is designed to:"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:253
-msgid "Provide a head loss of 5 cm to provide gentle mixing and a residence time of approximately 1200 seconds (20 minutes), allowing aggregation of individual particles and small flocs into flocs large enough to settle out in the clarifier. This results in a velocity gradient of approximately 15 :math:`\\mathrm{s}^{-1}`."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:255
-msgid "Facilitate manual sludge draining and maintenance by one person."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:258
-msgid "Flow Paths"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:260
-msgid "The flow passages are designed to be as close to square as possible given the constraints of the circular geometry and fabrication."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:262
-msgid "The upstream water depth of the flocculator is determined by the depth required by the filter and is approximately 115 cm."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:264
-msgid "The spacing between baffles is designed to achieve the target head loss at the design flow rate."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:266
-msgid "The ports between flocculator channels (see :numref:`figure_PFflocChannelPort`) have the same flow area as the space between the baffles so that each port improves flocculation without breaking flocs."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:275
-msgid "ports"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:275
-msgid "Flocculator with side walls removed to show the port between channels. Water flows between flocculator channels through a port that has the same flow dimensions as the space between baffles."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:278
-msgid "Channel Construction"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:280
-msgid "The walls of the flocculation channels are vertical and maintain the channel width along both the length and height of each flocculator channel."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:282
-msgid "The drain pipe is activated via a valve and is sized to empty the flocculator in less than 20 minutes."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:284
-msgid "Operation requires sufficient ambient lighting for the operator to observe floc formation. Operators need a flashlight to observe floc formation during power outages."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:287
-msgid "Baffles"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:289
-msgid "The flocculation baffles are removable. One operator working alone can raise a baffle module (see :numref:`figure_spec_PFbaffleModule`) so that water flows beneath the baffle and drains from the flocculator channel. Large flocculator configurations can have baffle modules that require more than one person for complete removal."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:291
-msgid "The flocculation baffles are constructed from stainless steel or polycarbonate sheets. The baffle-module frames are constructed from PVC and PEX pipe."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:301
-msgid "Baffle Module"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:301
-msgid "The baffle modules transfer the force of the water to the downstream wall through the PVC and PEX pipe frame. Each flocculator channel holds one baffle module."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:305
-msgid "Clarifier"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:307
-msgid "For more detailed information, see :ref:`Clarifier Design <title_Clarifier_Design>`. The clarifier (see :numref:`figure_spec_PFclarifierElevation`) contains three separate processes: filtration in the floc filter, sedimentation in the plate settlers, and consolidation in the floc hopper. Flocculated water flows to the inlet manifold and then through the diffusers, jet reverser, floc filter, and plate settlers. Clarified water flows into the outlet manifold and out of the clarifier to the filter."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:309
-msgid "The clarifier configuration is based on the coldest design water temperature and the lowest-density primary particles to be captured. Surface waters with high concentrations of dissolved organic matter and low concentrations of suspended solids produce low-density flocs; for these source waters, the design uses a lower velocity gradient in the inlet manifold and jet reverser. Some source-water conditions require a larger clarifier plan-view area to reduce the floc filter upflow velocity and plate settler capture velocity."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:318
-msgid "Clarifier elevation view"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:318
-msgid "Elevation view of the clarifier with no wall, showing location of the floc filter, plate settlers, and floc hopper."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:320
-msgid "The clarifier can be configured with multiple bays (see :numref:`figure_PF_clarifier_internals`) that work in parallel to treat the design flow."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:330
-msgid "Clarifier internals, showing two bays"
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:330
-msgid "Clarifier with two bays."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:335
-msgid "The high-rate, vertical-flow clarifier is designed to:"
+#: ../../AIDE/Specifications_PF.rst:337
+msgid "Chemical-system dosing balance"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:337
-msgid "To deliver flocs to the clarifier bay without breaking them into pieces with terminal velocities below the capture velocity of the plate settlers. This sets the maximum velocity gradient for the transfer of the flocs from the flocculator to the floc filter in the clarifier bay. The design limits the maximum velocity gradient to less than 360 :math:`\\mathrm{s}^{-1}`. Lower design values are used for raw waters with high concentrations of dissolved organic matter."
+msgid "Chemical-system dosing balance."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:339
-msgid "To provide a mechanism for the operator to dump poorly flocculated water before it enters the clarifier. This is important to reduce the recovery time when there is a flocculation failure."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:341
-msgid "To produce a stable floc filter (fluidized suspension of flocs) that reduces the clarified water turbidity."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:343
-msgid "To provide evenly distributed low-velocity flow through the plate settlers."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:345
-msgid "To prevent accumulation of sludge that would tend to become anaerobic and release both dissolved organics (taste and odor issues) and methane bubbles that would carry flocs to the top of the clarifier."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:347
-msgid "To remove the solids without requiring power or moving mechanical parts."
+#: ../../AIDE/Specifications_PF.rst:340
+msgid "Component key for :numref:`figure_spec_PF_doser`"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:349
-msgid "To ensure easy operation and maintenance."
+msgid "Coagulant slider"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:350
+msgid "Sets the coagulant dose; it can be adjusted manually or by the PlaCoDA-controlled motor."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:352
+msgid "Chlorine slider"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:353
-msgid "Inlet Manifold"
+msgid "Manually adjusts the chlorine dose."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:355
-msgid "Flocculated water enters the inlet manifold and then exits through a series of diffusers in the bottom of the pipe. The end of the inlet manifold is capped. The minimum diameter of the inlet manifold is set by the velocity gradient downstream of the 90-degree elbow (see Equation :eq:`D_pipe_min_of_K_and_jet_G_max`)."
+msgid "Weir leveler"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:356
+msgid "Aligns the discharge point for stable dosing."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:358
-msgid "Diffusers"
+msgid "Idler pulley"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:360
-msgid "The diffusers point down to the bottom of the clarifier bay and extend along the length of the pipe at regular intervals to ensure that water is evenly distributed within the bay. Diffusers are designed to ensure that the jet exiting the jet reverser has a maximum velocity gradient that is less than the design constraint to prevent excessive floc breakup (see Equation :eq:`planejet_v_max_of_q`)."
+#: ../../AIDE/Specifications_PF.rst:359
+msgid "Guides the drive that moves the coagulant slider."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:361
+msgid "Counterweight"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:362
-msgid "Diffusers are shaped so that one end is molded to a reduced diameter that fits into the inlet manifold port, and the other end is deformed to the shape of a rectangle (:numref:`figure_spec_PF_diffuser_dimensions`). This deformation is done to create a line jet entering the jet reverser in the bottom of the clarifier bay and to enhance flow distribution by maximizing the jet velocity given the constraints of Equation :eq:`planejet_v_max_of_q`."
+msgid "Offsets the weight of the moving assembly."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:364
+msgid "Adjustable hanging weir"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:365
+msgid "Establishes the hydraulic head available for dosing."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:367
+msgid "Mounting support"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:368
+msgid "Supports the dosing balance."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:371
-msgid "Diffuser dimension definition"
+msgid "Detects changes in the entrance-tank water level."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:371
-msgid "Dimensions and geometry of a diffuser. The image on the left shows a view of a diffuser from the end of a clarifier bay. The image on the right shows a view of a diffuser from the side of a clarifier bay."
+#: ../../AIDE/Specifications_PF.rst:373
+msgid "Stepper motor"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:374
-msgid "Jet Reverser"
+msgid "Automatically moves the coagulant slider as commanded by PlaCoDA."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:376
-msgid "The jet reverser consists of a longitudinally cut half-pipe that is laid in the bottom of the bay (see :numref:`figure_spec_PF_clarifierEndView`). It keeps flocs suspended in the clarifier by ensuring that the force of the diffuser jet propels settled flocs back upward."
+msgid "Balance pivot"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:378
-msgid "The diffusers are offset from the jet reverser centerline. This is intentionally done to promote the resuspension of flocs, which form a floc filter for primary filtration."
+#: ../../AIDE/Specifications_PF.rst:377
+msgid "Serves as the system's pivot point."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:387
-msgid "Clarifier showing jet reverser"
+#: ../../AIDE/Specifications_PF.rst:382
+msgid "The doser balance is designed so that the operator can select a chemical dose (mass of chemical per volume of water) by moving the dose slider to a specific position along the lever. The lever, LFOM, and constant level tank then work together to adjust the chemical flow in proportion to the plant flow to maintain a constant chemical dose."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:387
-msgid "End view of a clarifier bay showing the sloped bottom, inlet manifold, diffusers, and jet reverser. The diffusers direct a jet of water into one side of the jet reverser."
+#: ../../AIDE/Specifications_PF.rst:384
+msgid "When the plant flow is zero, the lever is horizontal and chemical flow is zero."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:390
-msgid "Floc Filter"
+#: ../../AIDE/Specifications_PF.rst:386
+msgid "When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser balance to rise. This, in turn, causes the other end of the balance, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the hanging weir attached to the dose slider. The greater driving head increases the chemical flow through the doser."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:388
+msgid "The water level in the entrance tank is directly proportional to the plant flow rate (due to the LFOM). The hanging weir elevation is directly proportional to the entrance tank water level. The chemical flow is directly proportional to the hanging weir elevation. Therefore, the chemical flow is directly proportional to the plant flow, and changes in the slider position that moves the hanging weir directly set the chemical dose."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:392
-msgid "Floc filters significantly improve the performance of a clarifier and reduce the clarified water turbidity."
+msgid "Flocculator"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:394
-msgid "The line jet from the diffusers enters the jet reverser to force flow up through the clarifier bay. The vertical upward jet momentum is used to resuspend flocs that have settled to the bottom of the clarifier bay. The resuspended flocs form a fluidized bed, which is a floc filter. Small particles are captured by the flocs in the floc filter as the small particles flow through the flocs. The bed is fluidized because flocs are kept in suspension by the upflowing water."
+msgid "For more detailed information, see :ref:`Flocculation Design <title_Flocculation_Design>`."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:396
-msgid "Clarifiers use an upflow velocity of 1 mm/s in the floc filter. This velocity is measured above the sloped bottom in the section of the clarifier bay with vertical walls."
+#: ../../AIDE/Specifications_PF.rst:397
+#: ../../AIDE/Specifications_PF.rst:527
+msgid "Design Basis"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:398
-msgid "For a floc filter to form, a clarifier requires that:"
+#: ../../AIDE/Specifications_PF.rst:399
+msgid "The AguaClara flocculator is designed to:"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:400
-msgid "The plate settlers capture small flocs and cause them to aggregate into larger flocs as they avalanche back into the floc filter zone. The increased terminal velocity of the larger flocs enables them to create a stable floc filter."
+#: ../../AIDE/Specifications_PF.rst:401
+msgid "Provide a head loss of 5 cm to provide gentle mixing and a residence time of approximately 1200 seconds (20 minutes), allowing aggregation of individual particles and small flocs into flocs large enough to settle out in the clarifier. This results in a velocity gradient of approximately 15 :math:`\\mathrm{s}^{-1}`."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:402
-msgid "All settled flocs are resuspended by the vertical jet of water exiting the jet reverser."
+#: ../../AIDE/Specifications_PF.rst:403
+msgid "Facilitate manual sludge draining and maintenance by one person."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:405
-msgid "Sloped Bottom Geometry"
+#: ../../AIDE/Specifications_PF.rst:406
+msgid "Flow Paths"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:407
-msgid "The clarifier bottom geometry (see :numref:`figure_spec_PF_clarifierEndView`) prevents sludge accumulation while also ensuring good flow distribution. The slope on either side of the diffusers is at a 60-degree angle above horizontal. The bottom geometry allows for smooth flow expansion to the entire plan-view area of the bay and ensures that all flocs that settle are transported to the jet reverser. The diffusers do not touch the bottom of the tank so that flocs on both sides of the diffuser can return to the jet reverser for resuspension. Thus, there is no accumulation of settled flocs in the main clarifier bays."
+#: ../../AIDE/Specifications_PF.rst:408
+msgid "The flow passages are designed to be as close to square as possible given the constraints of the circular geometry and fabrication."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:410
-#: ../../AIDE/Specifications_PF.rst:423
-msgid "Floc Hopper"
+msgid "The upstream water depth of the flocculator is determined by the depth required by the filter and is approximately 115 cm."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:412
-msgid "The floc hopper (:numref:`figure_spec_PFflocHopper`) provides an opportunity for floc consolidation. The floc weir controls the depth of the floc filter because as the floc filter grows, it will eventually reach the top of the floc weir. Because flocs are denser than water, the flocs “spill” over the edge of the floc weir, which allows the floc filter to stay at a constant height while sludge accumulates and consolidates in the floc hopper. Operators can use a flashlight to observe the floc filter moving into the lower end of the plate settlers, indicating that the floc hopper is full. The sludge is drained from the floc hopper by opening a valve or by lowering the end of a flexible tube. The operator can observe that the sludge has completely drained from the floc hopper by the clarity of the water exiting from the floc hopper drain."
+msgid "The spacing between baffles is designed to achieve the target head loss at the design flow rate."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:414
-msgid "The floc hopper allows for a self-cleaning clarifier. Operators only have to clean the clarifier once every three to six months because there is no stagnant accumulation of anoxic sludge."
+msgid "The ports between flocculator channels (see :numref:`figure_PFflocChannelPort`) have the same flow area as the space between the baffles so that each port improves flocculation without breaking flocs."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:423
-msgid "Flocs enter the hopper by flowing over the floc weir. Sludge is drained from the bottom of the hopper."
+msgid "ports"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:423
+msgid "Flocculator with side walls removed to show the port between channels. Water flows between flocculator channels through a port that has the same flow dimensions as the space between baffles."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:426
-msgid "Plate Settlers"
+msgid "Channel Construction"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:428
-msgid "After flowing through the floc filter, flocs reach the plate settlers. Plate settlers are sloped surfaces that provide additional settling area for flocs, thereby increasing the effective settling area of the clarifier without increasing the plan view area. AguaClara plate settlers are sloped at 50 degrees. The spacing between plates is 1.5 cm."
+msgid "The walls of the flocculation channels are vertical and maintain the channel width along both the length and height of each flocculator channel."
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:430
+msgid "The drain pipe is activated via a valve and is sized to empty the flocculator in less than 20 minutes."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:432
+msgid "Operation requires sufficient ambient lighting for the operator to observe floc formation. Operators need a flashlight to observe floc formation during power outages."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:435
+msgid "Baffles"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:437
+msgid "The flocculation baffles are removable. One operator working alone can raise a baffle module (see :numref:`figure_spec_PFbaffleModule`) so that water flows beneath the baffle and drains from the flocculator channel. Large flocculator configurations can have baffle modules that require more than one person for complete removal."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:439
+msgid "The flocculation baffles are constructed from stainless steel or polycarbonate sheets. The baffle-module frames are constructed from PVC and PEX pipe."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:449
+msgid "Baffle Module"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:449
+msgid "The baffle modules transfer the force of the water to the downstream wall through the PVC and PEX pipe frame. Each flocculator channel holds one baffle module."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:453
+msgid "Clarifier"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:455
+msgid "For more detailed information, see :ref:`Clarifier Design <title_Clarifier_Design>`. The clarifier (see :numref:`figure_spec_PFclarifierElevation`) contains three separate processes: filtration in the floc filter, sedimentation in the plate settlers, and consolidation in the floc hopper. Flocculated water flows to the inlet manifold and then through the diffusers, jet reverser, floc filter, and plate settlers. Clarified water flows into the outlet manifold and out of the clarifier to the filter."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:457
+msgid "The clarifier configuration is based on the coldest design water temperature and the lowest-density primary particles to be captured. Surface waters with high concentrations of dissolved organic matter and low concentrations of suspended solids produce low-density flocs; for these source waters, the design uses a lower velocity gradient in the inlet manifold and jet reverser. Some source-water conditions require a larger clarifier plan-view area to reduce the floc filter upflow velocity and plate settler capture velocity."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:466
+msgid "Clarifier with inlet manifold, floc filter, and plate settlers"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:466
+msgid "Clarifier with inlet manifold, floc filter, and plate settlers."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:469
+msgid "Component key for :numref:`figure_spec_PFclarifierElevation`"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:478
+msgid "Outlet manifold"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:479
+msgid "Collects clarified water and conveys it to the filter."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:481
+msgid "Clarifier tank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:482
+msgid "Contains the settling process."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:484
+msgid "Plate settler support"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:485
+msgid "Supports the plate settler modules."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:487
+msgid "Floc hopper"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:488
+msgid "Accumulates sludge for purging."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:490
+msgid "Clarifier inlet"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:491
+msgid "Receives water from the flocculator."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:493
+msgid "Clarifier bottom drain"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:494
+msgid "Purges sludge accumulated on the bottom and empties the clarifier for cleaning."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:496
+msgid "Half-pipe"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:497
+msgid "Receives sediment and promotes its resuspension."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:499
+#: ../../AIDE/Specifications_PF.rst:552
+msgid "Diffusers"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:500
+msgid "Distribute flow across the bottom of the clarifier."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:502
+msgid "Settling hoppers"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:503
+msgid "Guide solids toward the lower zone."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:505
+msgid "Inlet manifold"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:506
+msgid "Supplies the diffusers."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:507
+msgid "11"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:508
+msgid "Plate settlers"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:509
+msgid "Increase the effective settling area."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:510
+msgid "12"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:511
+msgid "Clarified-water collection pipe"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:512
+msgid "Conveys water to the outlet manifold."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:514
+msgid "The clarifier can be configured with multiple bays (see :numref:`figure_PF_clarifier_internals`) that work in parallel to treat the design flow."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:524
+msgid "Clarifier internals, showing two bays"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:524
+msgid "Clarifier with two bays."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:529
+msgid "The high-rate, vertical-flow clarifier is designed to:"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:531
+msgid "To deliver flocs to the clarifier bay without breaking them into pieces with terminal velocities below the capture velocity of the plate settlers. This sets the maximum velocity gradient for the transfer of the flocs from the flocculator to the floc filter in the clarifier bay. The design limits the maximum velocity gradient to less than 360 :math:`\\mathrm{s}^{-1}`. Lower design values are used for raw waters with high concentrations of dissolved organic matter."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:533
+msgid "To provide a mechanism for the operator to dump poorly flocculated water before it enters the clarifier. This is important to reduce the recovery time when there is a flocculation failure."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:535
+msgid "To produce a stable floc filter (fluidized suspension of flocs) that reduces the clarified water turbidity."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:537
+msgid "To provide evenly distributed low-velocity flow through the plate settlers."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:539
+msgid "To prevent accumulation of sludge that would tend to become anaerobic and release both dissolved organics (taste and odor issues) and methane bubbles that would carry flocs to the top of the clarifier."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:541
+msgid "To remove the solids without requiring power or moving mechanical parts."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:543
+msgid "To ensure easy operation and maintenance."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:547
+msgid "Inlet Manifold"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:549
+msgid "Flocculated water enters the inlet manifold and then exits through a series of diffusers in the bottom of the pipe. The end of the inlet manifold is capped. The minimum diameter of the inlet manifold is set by the velocity gradient downstream of the 90-degree elbow (see Equation :eq:`D_pipe_min_of_K_and_jet_G_max`)."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:554
+msgid "The diffusers point down to the bottom of the clarifier bay and extend along the length of the pipe at regular intervals to ensure that water is evenly distributed within the bay. Diffusers are designed to ensure that the jet exiting the jet reverser has a maximum velocity gradient that is less than the design constraint to prevent excessive floc breakup (see Equation :eq:`planejet_v_max_of_q`)."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:556
+msgid "Diffusers are shaped so that one end is molded to a reduced diameter that fits into the inlet manifold port, and the other end is deformed to the shape of a rectangle (:numref:`figure_spec_PF_diffuser_dimensions`). This deformation is done to create a line jet entering the jet reverser in the bottom of the clarifier bay and to enhance flow distribution by maximizing the jet velocity given the constraints of Equation :eq:`planejet_v_max_of_q`."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:565
+msgid "Diffuser dimension definition"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:565
+msgid "Dimensions and geometry of a diffuser. The image on the left shows a view of a diffuser from the end of a clarifier bay. The image on the right shows a view of a diffuser from the side of a clarifier bay."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:568
+msgid "Jet Reverser"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:570
+msgid "The jet reverser consists of a longitudinally cut half-pipe that is laid in the bottom of the bay (see :numref:`figure_spec_PF_clarifierEndView`). It keeps flocs suspended in the clarifier by ensuring that the force of the diffuser jet propels settled flocs back upward."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:572
+msgid "The diffusers are offset from the jet reverser centerline. This is intentionally done to promote the resuspension of flocs, which form a floc filter for primary filtration."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:581
+msgid "Clarifier showing jet reverser"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:581
+msgid "End view of a clarifier bay showing the sloped bottom, inlet manifold, diffusers, and jet reverser. The diffusers direct a jet of water into one side of the jet reverser."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:584
+msgid "Floc Filter"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:586
+msgid "Floc filters significantly improve the performance of a clarifier and reduce the clarified water turbidity."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:588
+msgid "The line jet from the diffusers enters the jet reverser to force flow up through the clarifier bay. The vertical upward jet momentum is used to resuspend flocs that have settled to the bottom of the clarifier bay. The resuspended flocs form a fluidized bed, which is a floc filter. Small particles are captured by the flocs in the floc filter as the small particles flow through the flocs. The bed is fluidized because flocs are kept in suspension by the upflowing water."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:590
+msgid "Clarifiers use an upflow velocity of 1 mm/s in the floc filter. This velocity is measured above the sloped bottom in the section of the clarifier bay with vertical walls."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:592
+msgid "For a floc filter to form, a clarifier requires that:"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:594
+msgid "The plate settlers capture small flocs and cause them to aggregate into larger flocs as they avalanche back into the floc filter zone. The increased terminal velocity of the larger flocs enables them to create a stable floc filter."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:596
+msgid "All settled flocs are resuspended by the vertical jet of water exiting the jet reverser."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:599
+msgid "Sloped Bottom Geometry"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:601
+msgid "The clarifier bottom geometry (see :numref:`figure_spec_PF_clarifierEndView`) prevents sludge accumulation while also ensuring good flow distribution. The slope on either side of the diffusers is at a 60-degree angle above horizontal. The bottom geometry allows for smooth flow expansion to the entire plan-view area of the bay and ensures that all flocs that settle are transported to the jet reverser. The diffusers do not touch the bottom of the tank so that flocs on both sides of the diffuser can return to the jet reverser for resuspension. Thus, there is no accumulation of settled flocs in the main clarifier bays."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:604
+#: ../../AIDE/Specifications_PF.rst:617
+msgid "Floc Hopper"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:606
+msgid "The floc hopper (:numref:`figure_spec_PFflocHopper`) provides an opportunity for floc consolidation. The floc weir controls the depth of the floc filter because as the floc filter grows, it will eventually reach the top of the floc weir. Because flocs are denser than water, the flocs “spill” over the edge of the floc weir, which allows the floc filter to stay at a constant height while sludge accumulates and consolidates in the floc hopper. Operators can use a flashlight to observe the floc filter moving into the lower end of the plate settlers, indicating that the floc hopper is full. The sludge is drained from the floc hopper by opening a valve or by lowering the end of a flexible tube. The operator can observe that the sludge has completely drained from the floc hopper by the clarity of the water exiting from the floc hopper drain."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:608
+msgid "The floc hopper allows for a self-cleaning clarifier. Operators only have to clean the clarifier once every three to six months because there is no stagnant accumulation of anoxic sludge."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:617
+msgid "Flocs enter the hopper by flowing over the floc weir. Sludge is drained from the bottom of the hopper."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:620
+msgid "Plate Settlers"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:622
+msgid "After flowing through the floc filter, flocs reach the plate settlers. Plate settlers are sloped surfaces that provide additional settling area for flocs, thereby increasing the effective settling area of the clarifier without increasing the plan view area. AguaClara plate settlers are sloped at 50 degrees. The spacing between plates is 1.5 cm."
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:624
 msgid "The plate settlers are made from clear polycarbonate sheets or stainless steel. The sheets are assembled in modules (see :numref:`figure_spec_PFplateSettlerModule`). The modules are light enough to be removed from the clarifier by hand. A PVC pipe frame attached to the clarifier walls supports the plate settler modules."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:439
+#: ../../AIDE/Specifications_PF.rst:633
 msgid "Plate settler module"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:439
+#: ../../AIDE/Specifications_PF.rst:633
 msgid "Plate settler module assembled from sheets and piping."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:444
+#: ../../AIDE/Specifications_PF.rst:638
 msgid "Plate Settler Design Parameters"
 msgstr ""
 
@@ -701,186 +1206,186 @@ msgstr ""
 msgid "approximately 110 cm"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:456
+#: ../../AIDE/Specifications_PF.rst:650
 msgid "Submerged Outlet Manifold"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:458
+#: ../../AIDE/Specifications_PF.rst:652
 msgid "The submerged outlet manifold, sometimes called a launder, collects clarified water from the top of the clarifier. It is a horizontal pipe that extends along the length of the clarifier bay and is located above the plate settlers but below the surface of the water. The submerged pipe has orifices drilled into its top; water enters the pipe through the orifices and the pipe leads out of the clarifier bay."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:460
+#: ../../AIDE/Specifications_PF.rst:654
 msgid "The outlet manifold is designed to generate 1 cm of head loss to ensure uniform flow distribution between clarifier bays and to have the majority of the head loss through the orifices to obtain uniform flow distribution between the orifices. The outlet manifold leads into the outlet pipe that takes water from the clarifier to the filter."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:463
+#: ../../AIDE/Specifications_PF.rst:657
 msgid "Shallow Open Stacked Rapid Sand Filter"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:465
+#: ../../AIDE/Specifications_PF.rst:659
 msgid "For more detailed information, see :ref:`Filtration Design <title_Filtration_Design>`. Stacked Rapid Sand (StaRS) filters were invented in 2010 by the AguaClara Cornell program in response to the need for a new technology that would both eliminate the need for backwash pumps and not require the construction of six filters for small towns. As shown in :numref:`figure_spec_PF_ShOStaRSfilterMode`, this filter is divided into four independent cells, each with two inlets, one outlet, and two 20 cm layers of sand. Clarified water enters the filter bed, passes through the sand, and is collected by a central slotted pipe. Accumulated sediment increases head loss over time, so operation requires regular filter backwashing."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:474
+#: ../../AIDE/Specifications_PF.rst:668
 msgid "ShOStaRS filter overview"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:474
+#: ../../AIDE/Specifications_PF.rst:668
 msgid "The open stacked rapid sand filters include advanced hydraulic controls to ensure stable operation during both filtration and backwash modes."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:477
+#: ../../AIDE/Specifications_PF.rst:671
 msgid "Operation"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:479
+#: ../../AIDE/Specifications_PF.rst:673
 msgid "The filter operates at the same design flow rate in both filtration mode (see :numref:`figure_spec_PF_ShOStaRSfilterMode`) and backwash mode (see :numref:`figure_spec_PF_ShOStaRSbackwashMode`) and uses clarified water for backwash. This eliminates the need for backwash pumps and ensures that the filters can be backwashed as long as clarified water is available."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:488
+#: ../../AIDE/Specifications_PF.rst:682
 msgid "ShOStaRS filtration mode"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:488
+#: ../../AIDE/Specifications_PF.rst:682
 msgid "In filtration mode, the flow divides equally between the eight inlets and the four compartments. The eight sand layers operate in parallel during filtration."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:498
+#: ../../AIDE/Specifications_PF.rst:692
 msgid "ShOStaRS backwash mode"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:498
+#: ../../AIDE/Specifications_PF.rst:692
 msgid "In backwash mode, one pipe stub is removed at a time to backwash each of the four compartments. The water then exits through the backwash drain pipe."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:502
+#: ../../AIDE/Specifications_PF.rst:696
 msgid "Design Features"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:504
+#: ../../AIDE/Specifications_PF.rst:698
 msgid "Stacked Rapid Sand (StaRS) filters were developed to eliminate the need for backwash pumps and minimize the plan area required."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:506
+#: ../../AIDE/Specifications_PF.rst:700
 msgid "The filters are designed to facilitate emptying the sand, removing and cleaning the modules, replacing the modules, and replacing the sand."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:508
+#: ../../AIDE/Specifications_PF.rst:702
 msgid "During backwash, the hydraulic controls isolate all outlets and all inlets except the bottommost inlet. All flow enters through the bottom inlet and exits through the backwash drain pipe."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:511
+#: ../../AIDE/Specifications_PF.rst:705
 msgid "Configuration"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:513
+#: ../../AIDE/Specifications_PF.rst:707
 msgid "Shallow Open StaRS (ShOStaRS) with four filter compartments."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:516
+#: ../../AIDE/Specifications_PF.rst:710
 msgid "Sand Specification"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:518
+#: ../../AIDE/Specifications_PF.rst:712
 msgid "ShOStaRS filters use two 20-cm-deep layers of silica sand (no dual media required), with the layers stacked vertically. The two layers give an active sand depth of 40 cm. The grain size is 0.45 to 0.55 mm."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:521
+#: ../../AIDE/Specifications_PF.rst:715
 msgid "Filter Modules"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:523
+#: ../../AIDE/Specifications_PF.rst:717
 msgid "The sand layers are contiguous, and the only distinction between layers is the direction of flow during filtration. Each layer of sand sits between an inlet and outlet of the filter. The branch pipes are supported between the filter walls, with one end of the branch inserted into a pipe socket embedded in the wall and the other end supported by a pipe bracket. The inlet at the top of the filter does not require a branch pipe because the water enters the filter above the sand through the port."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:526
+#: ../../AIDE/Specifications_PF.rst:720
 msgid "Inlet Filter Branches"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:528
+#: ../../AIDE/Specifications_PF.rst:722
 msgid "Small holes (orifices) are drilled into the inlet branches (see :numref:`figure_spec_ShOStaRSinletManifold`). The orifice diameter is selected for constructability and to minimize the risk of clogging. The diameter is between 4 and 10 mm."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:530
+#: ../../AIDE/Specifications_PF.rst:724
 msgid "During filtration mode, water flows out of the inlet branches through small holes, into the space created by the wing, and then into the sand."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:532
+#: ../../AIDE/Specifications_PF.rst:726
 msgid "During the transition from backwash mode to filtration mode, a small volume of water may flow back into the inlet branches. The “wings,” PVC pipes cut longitudinally, are affixed to the inlet branches to prevent sand from flowing into the inlet pipe."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:534
+#: ../../AIDE/Specifications_PF.rst:728
 msgid "Outlet Filter Branches"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:536
+#: ../../AIDE/Specifications_PF.rst:730
 msgid "The 0.2 mm slots in the outlet branches (see :numref:`figure_spec_ShOStaRSoutletManifold`) prevent sand from passing through. The filter modules are supported to limit deflection of each module pipe to 2 mm or less, preventing significant opening or closing of the slots."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:538
+#: ../../AIDE/Specifications_PF.rst:732
 msgid "During filtration mode, water flows from the filter media into the slots and through the pipe to the filter exit box."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:540
+#: ../../AIDE/Specifications_PF.rst:734
 msgid "During backwash mode, the outlet branches are blocked."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:549
+#: ../../AIDE/Specifications_PF.rst:743
 msgid "ShOStaRS internal piping"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:549
+#: ../../AIDE/Specifications_PF.rst:743
 msgid "The four filter cells are arranged side by side in the filter box. Each filter cell contains an inlet and outlet branch."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:558
+#: ../../AIDE/Specifications_PF.rst:752
 msgid "ShOStaRS inlet branch"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:558
+#: ../../AIDE/Specifications_PF.rst:752
 msgid "The inlet branches use orifices to obtain uniform flow distribution and a wing system to prevent sand from entering the branches during backwash and filter-mode transitions."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:567
+#: ../../AIDE/Specifications_PF.rst:761
 msgid "ShOStaRS outlet branch"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:567
+#: ../../AIDE/Specifications_PF.rst:761
 msgid "The outlet branches use 0.2 mm slots to keep the sand in the filter bed."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:571
+#: ../../AIDE/Specifications_PF.rst:765
 msgid "Backwash Drain"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:573
+#: ../../AIDE/Specifications_PF.rst:767
 msgid "The backwash drain pipe is designed to quickly lower the water level in the filter box to initiate backwash and to remove the dirty backwash water. The backwash drain pipe is connected to the filter box with a pipe stub that can be removed to allow the water to flow out of the filter box. The backwash drain pipe is designed to keep the water level in the filter box less than 5 cm above the top of the drain pipe entrance."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:576
+#: ../../AIDE/Specifications_PF.rst:770
 msgid "Sand Removal"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:578
+#: ../../AIDE/Specifications_PF.rst:772
 msgid "Sand can be removed from the filter using a custom-made shovel that is narrow enough to fit between the cell divider and the branches. Activating backwash in the filter cell will fluidize the sand and allow it to be removed with the shovel."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:581
+#: ../../AIDE/Specifications_PF.rst:775
 msgid "Backwash Recycle"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:583
+#: ../../AIDE/Specifications_PF.rst:777
 msgid "Backwash recycle is recommended for all communities where low flow conditions are likely to require water rationing. The backwash water storage tank is designed to hold the flow from one backwash event. A centrifugal pump can then be used to meter the water back to the entrance tank at a flow rate that empties the backwash water storage tank before the next filter needs to be backwashed."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:585
+#: ../../AIDE/Specifications_PF.rst:779
 msgid "In the event of a power failure, the backwash recycle system instead uses backwash to waste to dispose of the spent backwash water."
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:588
+#: ../../AIDE/Specifications_PF.rst:782
 msgid "Disinfection"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:590
+#: ../../AIDE/Specifications_PF.rst:784
 msgid "Sodium or calcium hypochlorite is metered into the filtered water as it exits the filter box and enters the pipe that carries the water to a chlorine contact tank or directly to the community distribution tank. The chlorine is added after the previous treatment processes to reduce the production of disinfection byproducts and to enable biofiltration. The chlorine concentration is set by adjusting the position of the slider on the doser (see :numref:`figure_spec_PF_doser`)."
 msgstr ""
