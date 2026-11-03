@@ -1,7 +1,39 @@
 Glossary
 ********
 
-To add a term to this glossary please add it with the definition in quote marks so that the whole thing is treated as a string rather than further separated by commas.
+This glossary defines water-treatment terms and AguaClara-specific names used
+throughout the textbook. The AguaClara terminology section includes names for
+technologies and components whose meanings may not be available in general
+engineering references.
+
+AguaClara Terminology
+=====================
+
+.. csv-table::
+    :header: Term, Definition
+    :widths: 30, 70
+    :align: center
+
+    AguaClara Infrastructure Design Engine (AIDE), "The AguaClara design system used to configure treatment processes and generate plant designs."
+    Branch pipe, "A smaller distribution or collection pipe connected to a trunk or manifold. Filter branches contain orifices that distribute or collect flow across the filter."
+    Built-in-Place (BIP) Series, "AguaClara treatment plants whose civil works and treatment units are constructed at the project site."
+    Chemical Dose Controller (CDC), "A gravity-driven AguaClara mechanism that uses the entrance-tank water level and an adjustable dose slider to maintain chemical flow in proportion to plant flow."
+    Clarifier cell, "An independently operated parallel subdivision of an AguaClara clarifier; translated as *celda de clarificación* in Spanish."
+    Filter cell, "An independently operated subdivision of a filter; translated as *celda de filtración* in Spanish."
+    FRAMCA, "The Spanish name for the AguaClara Stacked Rapid Sand filter family and an abbreviation of *Filtro Rápido de Arena de Múltiples Capas*."
+    FRAMCA compacto, "The Spanish name for the compact or shallow open Stacked Rapid Sand filter (ShOStaRS). It uses a compact arrangement of filtration cells."
+    FRAMCA convencional, "The Spanish name for the conventional Open Stacked Rapid Sand filter (OStaRS)."
+    Linear Flow Orifice Meter (LFOM), "An AguaClara flow-measurement device with an orifice pattern that makes the entrance-tank water level approximately proportional to plant flow."
+    Pipe stub, "A short removable pipe section or fitting used to block or open a flow path; normally called a *niple* in AguaClara plants in Honduras."
+    Prefabricated (PF) Series, "Integrated AguaClara treatment plants fabricated and supplied by AguaClara Reach and configured for the project design conditions."
+    Receptor pipe, "A specialized dead-end filter pipe that aligns branch pipes and prevents them from lifting during backwash; it is not intended to carry flow."
+    Trunk pipe, "A larger distribution or collection pipe that connects a group of smaller branch pipes."
+
+Water-Treatment Terminology
+===========================
+
+When editing a CSV table below, enclose definitions containing commas in
+quotation marks so each definition remains in one table cell.
 
 .. _glossary_table:
 
@@ -11,7 +43,8 @@ To add a term to this glossary please add it with the definition in quote marks 
     :align: center
 
     Alkalinity, "The ability of a water sample to react with and neutralize an input of acid; also referred to as acid neutralizing capacity (ANC)."
-    Backwash, "The process of pumping water upward through a filter to flush captured particles out of the filter media."
+    Alum, "Aluminum sulfate, a coagulant used in water treatment. In this textbook, alum refers to aluminum sulfate rather than other aluminum salts."
+    Backwash, "The process of reversing flow upward through a filter to flush captured particles out of the filter media."
     Baffles, "Obstructions in the channel of a flocculator that restrain flow in a particular direction."
     Buffer, "A solution containing a weak acid-base pair that resists pH change by maintaining its hydrogen ion concentration."
     Capture Velocity, "The velocity of the slowest settling particle that a clarifier can reliably capture."

@@ -3,41 +3,34 @@
 # This file is distributed under the same license as the AguaClara package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: AguaClara \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 15:03-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Project-Id-Version: AguaClara \nReport-Msgid-Bugs-To: \nPOT-Creation-Dat"
+"e: 2026-11-03 09:31-0500\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-"
+"Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage: es\nLanguage-Team: es <"
+"LL@li.org>\nPlural-Forms: nplurals=2; plural=(n!= 1);\nMIME-Version: 1.0"
+"\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8b"
+"it\nGenerated-By: Babel 2.15.0\n"
 
-#: ../../AIDE/Specifications_BIP.rst:13
+#: ../../AIDE/Specifications_BIP.rst:12
 msgid "Specifications for the Built-in-Place Series"
 msgstr "Especificaciones de la serie de obra civil"
 
-#: ../../AIDE/Specifications_BIP.rst:15
+#: ../../AIDE/Specifications_BIP.rst:14
 msgid ""
-"This document specifies the design goals, the raw water quality parameters, "
-"and the design and construction requirements for an AguaClara drinking water"
-" treatment plant. The plant will produce safe, potable drinking water from a"
-" source water that may be contaminated with particles, pathogens, and "
-"dissolved organics."
+"This document specifies the design goals, the raw water quality "
+"parameters, and the design and construction requirements for an AguaClara"
+" drinking water treatment plant. The plant will produce safe, potable "
+"drinking water from a source water that may be contaminated with "
+"particles, pathogens, and dissolved organics."
 msgstr ""
-"Este documento especifica los objetivos de diseño, los parámetros de calidad"
-" del agua en bruto y los requisitos de diseño y construcción para una planta"
-" de tratamiento de agua potable de AguaClara. La planta producirá agua "
-"potable segura y potable a partir de un agua fuente que pueda estar "
-"contaminada con partículas, patógenos y compuestos orgánicos disueltos."
+"Este documento especifica los objetivos de diseño, los parámetros de c"
+"alidad del agua cruda y los requisitos de diseño y construcción para u"
+"na planta de tratamiento de agua potable de AguaClara. La planta produ"
+"cirá agua potable a partir de agua de la fuente que pueda estar contam"
+"inada con partículas, patógenos y compuestos orgánicos disueltos."
 
-#: ../../AIDE/Specifications_BIP.rst:18
+#: ../../AIDE/Specifications_BIP.rst:17
 msgid "AguaClara Plant Design Goals |20-80Lpsplant|"
 msgstr "Objetivos de diseño de plantas de AguaClara |20-80Lpsplant|"
 
@@ -45,69 +38,71 @@ msgstr "Objetivos de diseño de plantas de AguaClara |20-80Lpsplant|"
 msgid "20-80Lpsplant"
 msgstr "20-80Lpsplant"
 
-#: ../../AIDE/Specifications_BIP.rst:20
+#: ../../AIDE/Specifications_BIP.rst:19
 msgid ""
 "AguaClara drinking water treatment technologies remove turbidity and "
-"pathogens from raw water and to deactivate remaining pathogens before "
-"distribution. AguaClara technologies are best suited for centralized water "
-"treatment in communities of at least 200 people. AguaClara technologies "
-"would not be appropriate for treatment of low-turbidity groundwater where "
-"the primary contamination issues are chemical, such as nitrate, fluoride, or"
-" heavy metals. AguaClara technologies are gravity-driven and do not require "
-"electricity. When required by the topography, pumps can raise the source "
-"water to the elevation necessary for water treatment and water distribution."
+"pathogens from raw water and deactivate remaining pathogens before "
+"distribution. AguaClara technologies are best suited for centralized "
+"water treatment in communities of at least 200 people. AguaClara "
+"technologies would not be appropriate for treatment of low-turbidity "
+"groundwater where the primary contamination issues are chemical, such as "
+"nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-"
+"driven and do not require electricity. When required by the topography, "
+"pumps can raise the source water to the elevation necessary for water "
+"treatment and water distribution."
 msgstr ""
 "Las tecnologías de tratamiento de agua potable AguaClara eliminan la "
-"turbidez y los patógenos de agua cruda y desactivan los patógenos restantes "
-"antes de su distribución. Las tecnologías AguaClara son más adecuadas para "
-"tratamiento de agua centralizadas en comunidades de al menos 200 personas. "
-"Las tecnologías AguaClara no serían adecuadas para el tratamiento de aguas "
-"subterráneas de baja turbidez donde los principales problemas de "
-"contaminación son químicos, como nitratos, flúor o metales pesados. Las "
-"tecnologías AguaClara son impulsadas por gravedad y no requieren "
-"electricidad. Cuando la topografía lo requiere, las bombas pueden elevar el "
-"agua fuente a la elevación necesaria para la tratamiento de agua y la "
-"distribución del agua."
+"turbidez y los patógenos de agua cruda y desactivan los patógenos "
+"restantes antes de su distribución. Las tecnologías AguaClara son más "
+"adecuadas para el tratamiento centralizado del agua en comunidades de al "
+"menos 200 personas. Las tecnologías AguaClara no serían adecuadas para el"
+" tratamiento de aguas subterráneas de baja turbidez donde los principales"
+" problemas de contaminación son sustancias químicas, como nitratos, "
+"fluoruro o metales pesados. Las tecnologías AguaClara son accionadas por "
+"gravedad y no requieren electricidad. Cuando la topografía lo requiere, "
+"las bombas pueden elevar el agua de la fuente a la elevación necesaria "
+"para el tratamiento y la distribución del agua."
 
-#: ../../AIDE/Specifications_BIP.rst:22
+#: ../../AIDE/Specifications_BIP.rst:21
 msgid ""
 "AguaClara treatment technologies include trash and grit removal, flow "
 "measurement, chemical dosing, rapid mix, flocculation, floc filter, "
 "sedimentation, filtration, and disinfection. The  :ref:`floc filter "
-"<title_Clarification_Intro>` is a fluidized suspension of flocs located in "
-"the bottom of the clarifier.  An AguaClara treatment plant may be designed "
-"with all of these processes, or if raw water turbidity is consistently less "
-"than about 3 NTU, the treatment plant may be designed without flocculation, "
-"floc filter, and sedimentation."
+"<title_Clarification_Intro>` is a fluidized suspension of flocs located "
+"in the bottom of the clarifier.  An AguaClara treatment plant may be "
+"designed with all of these processes, or if raw water turbidity is "
+"consistently less than about 3 NTU, the treatment plant may be designed "
+"without flocculation, floc filter, and sedimentation."
 msgstr ""
-"Las tecnologías de tratamiento AguaClara incluyen la eliminación de residuos"
-" y arena, medición de caudal, dosificación química, mezcla rápida, "
-"floculación, filtro de flóculos, sedimentación, filtración y desinfección. "
-"El  :ref:`floc filter <title_Clarification_Intro>` es una suspensión "
-"fluidizada de flócs situada en el fondo del clarificador. Una planta de "
-"tratamiento AguaClara puede diseñarse con todos estos procesos, o si agua "
-"cruda turbidez es consistentemente inferior a unos 3 NTU, la planta puede "
-"diseñarse sin floculación, filtro de flóculos y sedimentación."
+"Las tecnologías de tratamiento AguaClara incluyen la eliminación de "
+"residuos y arena, medición de caudal, dosificación química, mezcla "
+"rápida, floculación, filtro de flóculos, sedimentación, filtración y "
+"desinfección. El :ref:`filtro de flóculos <title_Clarification_Intro>` es"
+" una suspensión fluidizada de flóculos situada en el fondo del "
+"clarificador. Una planta de tratamiento AguaClara puede diseñarse con "
+"todos estos procesos; si la turbiedad del agua cruda se mantiene por "
+"debajo de aproximadamente 3 UTN, la planta puede diseñarse sin "
+"floculación, filtro de flóculos y sedimentación."
 
-#: ../../AIDE/Specifications_BIP.rst:26
+#: ../../AIDE/Specifications_BIP.rst:25
 msgid "Water Quality Parameters"
 msgstr "Parámetros de calidad del agua"
 
-#: ../../AIDE/Specifications_BIP.rst:28
+#: ../../AIDE/Specifications_BIP.rst:27
 msgid ""
 "The tables below summarize the raw water quality parameters for which "
 "AguaClara treatment technologies are appropriate."
 msgstr ""
-"Las tablas siguientes resumen los parámetros calidad del agua en bruto para "
-"los que las tecnologías de tratamiento AguaClara son adecuadas."
+"Las tablas siguientes resumen los parámetros de calidad del agua cruda "
+"para los que las tecnologías de tratamiento AguaClara son adecuadas."
 
-#: ../../AIDE/Specifications_BIP.rst:32
+#: ../../AIDE/Specifications_BIP.rst:31
 msgid "Water Quality Parameters Treated by AguaClara Plants"
-msgstr "calidad del agua Parámetros tratados por las plantas de AguaClara"
+msgstr "Parámetros de calidad del agua tratados por las plantas AguaClara"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Water Quality Parameter"
-msgstr "calidad del agua Parámetro"
+msgstr "Parámetro de calidad del agua"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Comments"
@@ -115,44 +110,44 @@ msgstr "Comentarios"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Turbidity"
-msgstr "Turbidez"
+msgstr "Turbiedad"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid ""
-"Raw water with turbidity less than 600 NTU can consistently be treated to "
-"less than 1 NTU. Treatment of higher turbidities may require a customized "
-"clarifier design."
+"Raw water with turbidity less than 600 NTU can consistently be treated to"
+" less than 1 NTU. Treatment of higher turbidities may require a "
+"customized clarifier design."
 msgstr ""
-"agua cruda con turbidez inferior a 600 NTU pueden tratarse consistentemente "
-"con menos de 1 NTU. El tratamiento de turbidez mayor puede requerir un "
-"diseño de clarificador personalizado."
+"El agua cruda con turbiedad inferior a 600 UTN puede tratarse de manera "
+"constante hasta alcanzar menos de 1 UTN. El tratamiento de turbiedades "
+"mayores puede requerir un diseño de clarificador personalizado."
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Color/Dissolved Organic Matter (DOM)"
-msgstr "Materia orgánica disuelta en color/(DOM)"
+msgstr "Color/materia orgánica disuelta (MOD)"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid ""
-"For raw water with high color or total organic matter content, pilot studies"
-" are recommended to confirm the efficacy of the coagulant and the ability of"
-" the flocs to settle."
+"For raw water with high color or total organic matter content, pilot "
+"studies are recommended to confirm the efficacy of the coagulant and the "
+"ability of the flocs to settle."
 msgstr ""
-"Para agua cruda con alto contenido de color o materia orgánica total, se "
-"recomiendan estudios piloto para confirmar la eficacia del coagulante y la "
-"capacidad de los flóculos para asentarse."
+"Para agua cruda con alto contenido de color o materia orgánica total, "
+"se recomiendan estudios piloto para confirmar la eficacia del coagulan"
+"te y la capacidad de los flóculos para sedimentarse."
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "pH"
-msgstr ""
+msgstr "pH"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid ""
 "pH can be lowered to prevent calcium carbonate scaling in distribution "
 "piping or increased to reduce corrosion potential."
 msgstr ""
-"El pH puede reducirse para evitar la incrustación de carbonato de calcio en "
-"las tuberías de distribución o aumentarse para reducir el potencial de "
-"corrosión."
+"El pH puede reducirse para evitar la incrustación de carbonato de calcio "
+"en las tuberías de distribución o aumentarse para reducir el potencial de"
+" corrosión."
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Microbiological contamination"
@@ -160,40 +155,41 @@ msgstr "Contaminación microbiológica"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid ""
-"The AguaClara treatment processes are designed to remove pathogens through "
-"particle removal and deactivate pathogens through disinfection."
+"The AguaClara treatment processes are designed to remove pathogens "
+"through particle removal and deactivate pathogens through disinfection."
 msgstr ""
 "Los procesos de tratamiento AguaClara están diseñados para eliminar "
-"patógenos mediante la eliminación de partículas y desactivar patógenos "
-"mediante la desinfección."
+"patógenos mediante la remoción de partículas y para desactivar los "
+"patógenos restantes mediante la desinfección."
 
-#: ../../AIDE/Specifications_BIP.rst:41
+#: ../../AIDE/Specifications_BIP.rst:40
 msgid ""
-"AguaClara plants are designed to treat the water quality parameters listed "
-"above. Some other contaminants may also be removed, but that must be "
-"verified by jar and/or pilot scale testing. All other parameters should be "
-"within acceptable ranges in the raw water or should be treated by other "
-"means."
+"AguaClara plants are designed to treat the water quality parameters "
+"listed above. Some other contaminants may also be removed, but that must "
+"be verified by jar and/or pilot scale testing. All other parameters "
+"should be within acceptable ranges in the raw water or should be treated "
+"by other means."
 msgstr ""
-"Las plantas AguaClara están diseñadas para tratar los calidad del agua "
-"parámetros mencionados anteriormente. También pueden eliminarse otros "
-"contaminantes, pero eso debe verificarse mediante pruebas a escala de frasco"
-" y/o piloto. Todos los demás parámetros deben estar dentro de los rangos "
-"aceptables en el agua cruda o deben tratarse por otros medios."
+"Las plantas AguaClara están diseñadas para tratar los parámetros de "
+"calidad del agua indicados anteriormente. También pueden eliminarse otros"
+" contaminantes, pero esto debe verificarse mediante pruebas de jarras y/o"
+" pruebas a escala piloto. Todos los demás parámetros deben encontrarse "
+"dentro de intervalos aceptables en el agua cruda o tratarse por otros "
+"medios."
 
-#: ../../AIDE/Specifications_BIP.rst:43
+#: ../../AIDE/Specifications_BIP.rst:42
 msgid ""
-"Before beginning construction of an AguaClara treatment plant, bench-scale "
-"jar testing should be performed to confirm that polyaluminum chloride, "
-"aluminum sulfate, or another proposed coagulant is able to successfully form"
-" flocs that settle."
+"Before beginning construction of an AguaClara treatment plant, bench-"
+"scale jar testing should be performed to confirm that polyaluminum "
+"chloride, aluminum sulfate, or another proposed coagulant is able to "
+"successfully form flocs that settle."
 msgstr ""
-"Antes de comenzar la construcción de una planta de tratamiento AguaClara, se"
-" deben realizar pruebas a escala de banco para confirmar que el cloruro de "
-"polialuminio, sulfato de aluminio u otro coagulante propuesto puede formar "
-"con éxito flócs que se asienten."
+"Antes de comenzar la construcción de una planta de tratamiento AguaClara,"
+" se deben realizar pruebas de jarras a escala de laboratorio para "
+"confirmar que el cloruro de polialuminio, el sulfato de aluminio u otro "
+"coagulante propuesto puede formar flóculos sedimentables."
 
-#: ../../AIDE/Specifications_BIP.rst:46
+#: ../../AIDE/Specifications_BIP.rst:45
 msgid "Entrance Tank |EntranceTank|"
 msgstr "Tanque de entrada |EntranceTank|"
 
@@ -201,689 +197,704 @@ msgstr "Tanque de entrada |EntranceTank|"
 msgid "EntranceTank"
 msgstr "Tanque de entrada"
 
-#: ../../AIDE/Specifications_BIP.rst:48
+#: ../../AIDE/Specifications_BIP.rst:47
 msgid ""
 "For more detailed information see :ref:`Entrance Tank Design "
 "<title_entrance_tank_design>`. The entrance tank (see "
 ":numref:`figure_spec_ET_Diagram_Labeled`) has multiple functions in a "
 "drinking water treatment plant."
 msgstr ""
-"Para información más detallada, véase :ref:`Entrance Tank Design "
-"<title_entrance_tank_design>`. El tanque de entrada (véase "
-":numref:`figure_spec_ET_Diagram_Labeled`) tiene múltiples funciones en una "
-"planta de tratamiento de agua bebedora."
+"Para obtener información más detallada, véase :ref:`Diseño del tanque de "
+"entrada <title_entrance_tank_design>`. El tanque de entrada (véase "
+":numref:`figure_spec_ET_Diagram_Labeled`) tiene múltiples funciones en "
+"una planta de tratamiento de agua potable."
+
+#: ../../AIDE/Specifications_BIP.rst:49
+msgid ""
+"Remove air bubbles to reduce splashing, turbulence, and unsteady motion "
+"of the chemical feed surface tracking lever system"
+msgstr ""
+"Eliminar las burbujas de aire para reducir las salpicaduras, la "
+"turbulencia y el movimiento inestable del sistema de palanca de "
+"dosificación que sigue el nivel de la superficie del agua"
 
 #: ../../AIDE/Specifications_BIP.rst:50
-msgid ""
-"Remove air bubbles to reduce splashing, turbulence, and unsteady motion of "
-"the chemical feed surface tracking lever system"
-msgstr ""
-"Elimina las burbujas de aire para reducir salpicaduras, turbulencias y el "
-"movimiento inestable del sistema de seguimiento superficial de la "
-"alimentación química"
+msgid "Remove grit to prevent accumulation in the flocculator"
+msgstr "Retirar la arena para evitar su acumulación en el floculador"
 
 #: ../../AIDE/Specifications_BIP.rst:51
-msgid "Remove grit to prevent accumulation in the flocculator"
-msgstr "Retira la arena para evitar la acumulación en el floculador"
+msgid ""
+"Remove leaves and other debris to prevent clogging of the diffusers in "
+"the clarifier inlet"
+msgstr ""
+"Retirar las hojas y otros residuos para evitar que se obstruyan los "
+"difusores de la entrada del clarificador"
 
 #: ../../AIDE/Specifications_BIP.rst:52
 msgid ""
-"Remove leaves and other debris to prevent clogging of the diffusers in the "
-"clarifier inlet"
+"Dissipate kinetic energy to keep the water level steady for accurate flow"
+" measurement"
 msgstr ""
-"Retira hojas y otros residuos para evitar que los difusores se obstruyan en "
-"la entrada del clarificador"
+"Disipar la energía cinética para mantener estable el nivel del agua y "
+"medir el caudal con precisión"
 
 #: ../../AIDE/Specifications_BIP.rst:53
 msgid ""
-"Dissipate kinetic energy to keep the water level steady for accurate flow "
-"measurement"
+"Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) "
+"so that operators can make adjustments and respond to changes in water "
+"demand"
 msgstr ""
-"Disipa la energía cinética para mantener la nivel del agua estable y así "
-"medir el flujo con precisión"
+"Medir el caudal de entrada con el Medidor Lineal de Caudal por Orificios "
+"(LFOM) para que los operadores puedan realizar ajustes y responder a los "
+"cambios en la demanda de agua"
 
 #: ../../AIDE/Specifications_BIP.rst:54
-msgid ""
-"Measure the incoming flow rate with the Linear Flow Orifice Meter (LFOM) so "
-"that operators can make adjustments and respond to changes in water demand"
-msgstr ""
-"Mide el caudal entrante con el Medidor de Orificio de Flujo Lineal (LFOM) "
-"para que los operadores puedan realizar ajustes y responder a los cambios en"
-" la demanda de agua"
-
-#: ../../AIDE/Specifications_BIP.rst:55
 msgid "Inject the coagulant and any other amendments required for flocculation"
 msgstr ""
-"Inyecta el coagulante y cualquier otra corrección necesaria para la "
+"Inyectar el coagulante y cualquier otro aditivo necesario para la "
 "floculación"
 
-#: ../../AIDE/Specifications_BIP.rst:64
+#: ../../AIDE/Specifications_BIP.rst:63
 msgid "entrance tank diagram"
-msgstr "tanque de entrada diagrama"
+msgstr "Diagrama del tanque de entrada"
 
-#: ../../AIDE/Specifications_BIP.rst:64
+#: ../../AIDE/Specifications_BIP.rst:63
 msgid "Cross-section of an entrance tank. Chemical dosing system not shown."
 msgstr ""
-"Sección transversal de un tanque de entrada. sistema de dosificación de "
-"químicos no se muestra."
+"Sección transversal de un tanque de entrada. No se muestra el sistema de "
+"dosificación de productos químicos."
 
-#: ../../AIDE/Specifications_BIP.rst:67
+#: ../../AIDE/Specifications_BIP.rst:66
 msgid "Grit Removal"
-msgstr "Eliminación de la arena"
+msgstr "Remoción de arena"
 
-#: ../../AIDE/Specifications_BIP.rst:69
+#: ../../AIDE/Specifications_BIP.rst:68
 msgid ""
-"The entrance tank shall be designed as a horizontal flow sedimentation tank "
-"for the removal of grit with a recommended capture velocity of less than 15 "
-"mm/s."
+"The entrance tank shall be designed as a horizontal flow sedimentation "
+"tank for the removal of grit with a recommended capture velocity of less "
+"than 15 mm/s."
 msgstr ""
-"El tanque de entrada debe diseñarse como un tanque de sedimentación de flujo"
-" horizontal para la eliminación de grano con una velocidad de captura "
+"El tanque de entrada debe diseñarse como un tanque de sedimentación de "
+"flujo horizontal para la remoción de arena con una velocidad de captura "
 "recomendada inferior a 15 mm/s."
 
-#: ../../AIDE/Specifications_BIP.rst:71
+#: ../../AIDE/Specifications_BIP.rst:70
 msgid ""
-"The bottom of the entrance tank shall be a series of grit hoppers that can "
-"easily be cleaned by temporarily removing the pipe stub that blocks the "
-"outlet of each hopper."
+"The bottom of the entrance tank shall be a series of grit hoppers that "
+"can easily be cleaned by temporarily removing the pipe stub that blocks "
+"the outlet of each hopper."
 msgstr ""
-"La parte inferior de la tanque de entrada debe ser una serie de tolvas de "
-"grano que se pueden limpiar fácilmente retirando temporalmente el muñón de "
-"tubería que bloquea la salida de cada tolva."
+"La parte inferior del tanque de entrada debe ser una serie de tolvas de "
+"arena que se pueden limpiar fácilmente retirando temporalmente el niple "
+"que bloquea la salida de cada tolva."
 
-#: ../../AIDE/Specifications_BIP.rst:74
+#: ../../AIDE/Specifications_BIP.rst:73
 msgid "Trash Rack"
 msgstr "Rejilla"
 
-#: ../../AIDE/Specifications_BIP.rst:76
+#: ../../AIDE/Specifications_BIP.rst:75
 msgid ""
-"The trash rack shall have an opening size that is smaller than the diffusers"
-" in the clarifier and the orifices in the stacked rapid sand filter inlet "
-"branches."
+"The trash rack shall have an opening size that is smaller than the "
+"diffusers in the clarifier and the orifices in the stacked rapid sand "
+"filter inlet branches."
 msgstr ""
-"El rejilla debe tener un tamaño de apertura menor que los difusores del "
-"clarificador y los orificios en las ramas apiladas de filtro de arena "
-"rápidas de entrada."
+"La rejilla debe tener aberturas más pequeñas que los difusores del "
+"clarificador y que los orificios de las ramas de entrada del filtro de "
+"arena rápida apilada."
 
-#: ../../AIDE/Specifications_BIP.rst:78
+#: ../../AIDE/Specifications_BIP.rst:77
 #, python-format
 msgid ""
 "The trash rack area shall be sufficient such that it can be at least 80% "
 "clogged before exceeding the available head loss in the entrance tank."
 msgstr ""
-"El área rejilla debe ser suficiente para que pueda estar al menos un 80% "
-"obstruida antes de superar el pérdida de carga disponible en el tanque de "
-"entrada."
+"El área de la rejilla debe permitir una obstrucción de al menos el 80 % "
+"sin superar la pérdida de carga disponible en el tanque de entrada."
 
-#: ../../AIDE/Specifications_BIP.rst:81
+#: ../../AIDE/Specifications_BIP.rst:80
 msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
-msgstr "Medidor de orificio de flujo lineal (LFOM) o equivalente |LFOM|"
+msgstr "Medidor lineal de caudal por orificios (LFOM) o equivalente |LFOM|"
 
-#: ../../AIDE/Specifications_BIP.rst ../../AIDE/Specifications_BIP.rst:100
+#: ../../AIDE/Specifications_BIP.rst ../../AIDE/Specifications_BIP.rst:99
 msgid "LFOM"
 msgstr "LFOM"
 
-#: ../../AIDE/Specifications_BIP.rst:83
+#: ../../AIDE/Specifications_BIP.rst:82
 msgid ""
-"The plant entrance tank shall be equipped with a device that will result in "
-"a linear relationship between the plant flow and the water level in the "
-"entrance chamber. The Linear Flow Orifice Meter (LFOM), which has a pattern "
-"of orifices through which flow exits the entrance tank, is described below. "
-"An equivalent device, such as a Sutro weir, can also be used if demonstrated"
-" to function equivalently."
+"The plant entrance tank shall be equipped with a device that will result "
+"in a linear relationship between the plant flow and the water level in "
+"the entrance chamber. The Linear Flow Orifice Meter (LFOM), which has a "
+"pattern of orifices through which flow exits the entrance tank, is "
+"described below. An equivalent device, such as a Sutro weir, can also be "
+"used if demonstrated to function equivalently."
 msgstr ""
-"La tanque de entrada de la planta debe estar equipada con un dispositivo que"
-" establezca una relación lineal entre el flujo de la planta y la nivel del "
-"agua en la cámara de entrada. El Medidor de Orificio de Flujo Lineal (LFOM),"
-" que tiene un patrón de orificios por los cuales el flujo sale del tanque de"
-" entrada, se describe a continuación. Un dispositivo equivalente, como un "
-"azud Sutro, también puede usarse si se demuestra que funciona de forma "
-"equivalente."
+"El tanque de entrada de la planta debe estar equipado con un dispositivo "
+"que establezca una relación lineal entre el caudal de la planta y el "
+"nivel del agua en la cámara de entrada. El Medidor Lineal de Caudal por "
+"Orificios (LFOM), que tiene un patrón de orificios por los cuales el "
+"flujo sale del tanque de entrada, se describe a continuación. Un "
+"dispositivo equivalente, como un vertedero Sutro, también puede usarse si"
+" se demuestra que funciona de forma equivalente."
 
-#: ../../AIDE/Specifications_BIP.rst:85
+#: ../../AIDE/Specifications_BIP.rst:84
 msgid ""
 "The pattern of orifices shall be designed so that the water level in the "
-"entrance chamber (equal to the hydrostatic head pushing water through the "
-"offices) is linearly proportional to the total flow through the orifices "
-"(equal to the plant flow). An example of an LFOM is shown in "
-":numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate or "
-"in the walls of a vertical pipe."
+"entrance chamber (equal to the hydrostatic head pushing water through the"
+" orifices) is linearly proportional to the total flow through the "
+"orifices (equal to the plant flow). An example of an LFOM is shown in "
+":numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate "
+"or in the walls of a vertical pipe."
 msgstr ""
-"El patrón de los orificios debe diseñarse de modo que el nivel del agua en "
-"la cámara de entrada (igual a la carga hidrostática que empuja el agua a "
-"través de los oficines) sea linealmente proporcional al flujo total a través"
-" de los orificios (igual al flujo de la planta). Un ejemplo de LFOM se "
-"muestra en :numref:`figure_spec_LFOM`. Los orificios pueden perforarse en "
-"una placa plana o en las paredes de una tubería vertical."
+"El patrón de orificios debe diseñarse de modo que el nivel del agua "
+"en la cámara de entrada (igual a la carga hidrostática que empuja el agua"
+" a través de los orificios) sea linealmente proporcional al caudal total "
+"a través de los orificios (igual al caudal de la planta). Un ejemplo de "
+"LFOM se muestra en :numref:`figure_spec_LFOM`. Los orificios pueden "
+"perforarse en una placa plana o en las paredes de una tubería vertical."
 
-#: ../../AIDE/Specifications_BIP.rst:87
+#: ../../AIDE/Specifications_BIP.rst:86
 msgid ""
-"At a minimum, the LFOM shall be capable of measuring flow ranging from 25 "
-"percent to 100 percent of the maximum plant design flow. If needed the "
+"At a minimum, the LFOM shall be capable of measuring flow ranging from 25"
+" percent to 100 percent of the maximum plant design flow. If needed the "
 "lowest flow rate measured can be further reduced."
 msgstr ""
-"Como mínimo, el LFOM debe ser capaz de medir caudales que oscilan entre el "
-"25 por ciento y el 100 por ciento del caudal máximo de diseño de la planta. "
-"Si es necesario, el caudal más bajo medido puede reducirse aún más."
+"Como mínimo, el LFOM debe ser capaz de medir caudales que oscilan entre "
+"el 25 por ciento y el 100 por ciento del caudal máximo de diseño de la "
+"planta. Si es necesario, el caudal más bajo medido puede reducirse aún "
+"más."
 
-#: ../../AIDE/Specifications_BIP.rst:89
+#: ../../AIDE/Specifications_BIP.rst:88
 msgid ""
 "To ensure that plant flow is measured with adequate resolution the water "
-"level should change a minimum of 20 cm from no flow to the design flow rate."
-" Larger water level changes can be used to enable use of smaller diameter "
-"LFOMs."
+"level should change a minimum of 20 cm from no flow to the design flow "
+"rate. Larger water level changes can be used to enable use of smaller "
+"diameter LFOMs."
 msgstr ""
-"Para asegurar que el caudal de la planta se mida con resolución adecuada, el"
-" nivel del agua debe cambiar un mínimo de 20 cm desde ningún flujo hasta el "
-"caudal de diseño. Se pueden utilizar cambios de nivel del agua mayores para "
-"permitir el uso de LFOMs de menor diámetro."
+"Para asegurar que el caudal de la planta se mida con resolución adecuada,"
+" el nivel del agua debe cambiar un mínimo de 20 cm desde un caudal nulo "
+"hasta el caudal de diseño. Se pueden utilizar cambios de nivel del agua "
+"mayores para permitir el uso de LFOMs de menor diámetro."
 
-#: ../../AIDE/Specifications_BIP.rst:91
+#: ../../AIDE/Specifications_BIP.rst:90
 msgid ""
 "Depending on the plant flow, the LFOM may consist of orifices in one or "
 "multiple riser pipes or in a flat plate."
 msgstr ""
-"Dependiendo del caudal de la planta, el LFOM puede consistir en orificios en"
-" uno o varios tubos de subida o en una placa plana."
+"Dependiendo del caudal de la planta, el LFOM puede consistir en orificios"
+" en uno o varios tubos verticales o en una placa plana."
 
-#: ../../AIDE/Specifications_BIP.rst:100
+#: ../../AIDE/Specifications_BIP.rst:99
 msgid "Example of a Linear Flow Orifice Meter"
-msgstr "Ejemplo de un medidor de orificio de flujo lineal"
+msgstr "Ejemplo de un medidor lineal de caudal por orificios"
 
-#: ../../AIDE/Specifications_BIP.rst:104
+#: ../../AIDE/Specifications_BIP.rst:103
 msgid "Chemical Dosing System"
-msgstr "Sistema de dosificación de químicos"
+msgstr "Sistema de dosificación de productos químicos"
 
-#: ../../AIDE/Specifications_BIP.rst:106
+#: ../../AIDE/Specifications_BIP.rst:105
 msgid ""
 "For more detailed information see :ref:`Linear chemical dosing system "
 "<heading_linear_cdc>`."
 msgstr ""
-"Para información más detallada, véase :ref:`Linear chemical dosing system "
-"<heading_linear_cdc>`."
+"Para obtener información más detallada, véase :ref:`Sistema lineal de "
+"dosificación de productos químicos <heading_linear_cdc>`."
 
-#: ../../AIDE/Specifications_BIP.rst:109 ../../AIDE/Specifications_BIP.rst:227
-#: ../../AIDE/Specifications_BIP.rst:321 ../../AIDE/Specifications_BIP.rst:522
+#: ../../AIDE/Specifications_BIP.rst:108 ../../AIDE/Specifications_BIP.rst:226
+#: ../../AIDE/Specifications_BIP.rst:320 ../../AIDE/Specifications_BIP.rst:521
 msgid "Design Goals"
 msgstr "Objetivos de diseño"
 
-#: ../../AIDE/Specifications_BIP.rst:111
+#: ../../AIDE/Specifications_BIP.rst:110
 msgid ""
-"The system will be capable of dosing chemicals for the following purposes. "
-"All materials shall be compatible with the chemicals being dosed."
+"The system will be capable of dosing chemicals for the following "
+"purposes. All materials shall be compatible with the chemicals being "
+"dosed."
 msgstr ""
-"El sistema será capaz de dosificar productos químicos para los siguientes "
-"fines. Todos los materiales serán compatibles con los productos químicos que"
-" se administren."
+"El sistema será capaz de dosificar productos químicos para los siguientes"
+" fines. Todos los materiales serán compatibles con los productos químicos"
+" que se administren."
 
-#: ../../AIDE/Specifications_BIP.rst:113
+#: ../../AIDE/Specifications_BIP.rst:112
 msgid "Disinfectant (normally sodium or calcium hypochlorite)"
 msgstr "Desinfectante (normalmente hipoclorito de sodio o calcio)"
 
-#: ../../AIDE/Specifications_BIP.rst:115
+#: ../../AIDE/Specifications_BIP.rst:114
 msgid ""
-"Coagulant (typically polyaluminum chloride [PACl], but other coagulants such"
-" as alum can be used if justification is provided. Bench-scale jar testing "
-"should be performed to confirm that the proposed coagulant is able to "
-"successfully form flocs.)"
+"Coagulant (typically polyaluminum chloride [PACl], but other coagulants "
+"such as alum can be used if justification is provided. Bench-scale jar "
+"testing should be performed to confirm that the proposed coagulant is "
+"able to successfully form flocs.)"
 msgstr ""
 "Coagulante (normalmente cloruro de polialuminio [PACl], pero otros "
-"coagulantes como el alumbre pueden usarse si se justifica. Se deben realizar"
-" pruebas a escala de banco para confirmar que el coagulante propuesto es "
-"capaz de formar flócs con éxito.)"
+"coagulantes como el sulfato de aluminio pueden usarse si se justifica. Se"
+" deben realizar pruebas de jarras a escala de laboratorio para confirmar "
+"que el coagulante propuesto puede formar flóculos.)"
 
-#: ../../AIDE/Specifications_BIP.rst:117
+#: ../../AIDE/Specifications_BIP.rst:116
 msgid "pH adjustment (if necessary)"
 msgstr "Ajuste de pH (si es necesario)"
 
-#: ../../AIDE/Specifications_BIP.rst:119
+#: ../../AIDE/Specifications_BIP.rst:118
 msgid ""
-"The chemical dosing system shall function by gravity and not depend on pumps"
-" or electrical power."
+"The chemical dosing system shall function by gravity and not depend on "
+"pumps or electrical power."
 msgstr ""
-"El sistema de dosificación de químicos debe funcionar por gravedad y no "
-"depender de bombas ni de energía eléctrica."
+"El sistema de dosificación de productos químicos debe funcionar por "
+"gravedad y no depender de bombas ni de energía eléctrica."
 
-#: ../../AIDE/Specifications_BIP.rst:121
+#: ../../AIDE/Specifications_BIP.rst:120
 msgid ""
-"The chemical dosing shall be flow-paced, meaning that the rate of chemical "
-"application is automatically adjusted proportional to the flow rate of water"
-" moving through the plant."
+"The chemical dosing shall be flow-paced, meaning that the rate of "
+"chemical application is automatically adjusted proportional to the flow "
+"rate of water moving through the plant."
 msgstr ""
-"La dosificación química debe ser a ritmo de flujo, lo que significa que la "
-"velocidad de aplicación del químico se ajusta automáticamente proporcional "
-"al caudal de agua que se mueve a través de la planta."
+"La dosificación de productos químicos debe ser proporcional al caudal; es"
+" decir, la tasa de aplicación se ajusta automáticamente en proporción al "
+"caudal de agua que atraviesa la planta."
 
-#: ../../AIDE/Specifications_BIP.rst:123
+#: ../../AIDE/Specifications_BIP.rst:122
 msgid ""
-"The system shall be easily disassembled by the plant operator for cleaning, "
-"including with vinegar to remove calcium carbonate deposits."
+"The system shall be easily disassembled by the plant operator for "
+"cleaning, including with vinegar to remove calcium carbonate deposits."
 msgstr ""
-"El sistema debe ser fácilmente desmontado por el operador de la planta para "
-"su limpieza, incluyendo vinagre para eliminar depósitos de carbonato "
-"cálcico."
+"El sistema debe ser fácilmente desmontado por el operador de la planta "
+"para su limpieza, incluso con vinagre para eliminar depósitos de "
+"carbonato de calcio."
 
-#: ../../AIDE/Specifications_BIP.rst:125
+#: ../../AIDE/Specifications_BIP.rst:124
 msgid ""
-"The chemical dose (mass chemical per volume water passing through the plant)"
-" shall be easily adjustable by the plant operator."
+"The chemical dose (mass chemical per volume water passing through the "
+"plant) shall be easily adjustable by the plant operator."
 msgstr ""
-"La dosis química (masa química por volumen de agua que pasa por la planta) "
-"debe ser fácilmente ajustable por el operador de la planta."
+"La dosis química (masa de producto químico por volumen de agua que pasa "
+"por la planta) debe ser fácilmente ajustable por el operador de la "
+"planta."
 
-#: ../../AIDE/Specifications_BIP.rst:129
+#: ../../AIDE/Specifications_BIP.rst:128
 msgid "Chemical Storage"
-msgstr "Almacenamiento químico"
+msgstr "Almacenamiento de productos químicos"
 
-#: ../../AIDE/Specifications_BIP.rst:131
+#: ../../AIDE/Specifications_BIP.rst:130
 msgid ""
-"For each chemical, the plant shall include two or more storage tanks. The "
-"tank and fitting materials shall be compatible with the chemical. Storage "
-"tanks can be plastic or concrete, as long as they are confirmed to be "
-"compatible with the chemical being stored."
+"For each chemical, the plant shall include two or more storage tanks. The"
+" tank and fitting materials shall be compatible with the chemical. "
+"Storage tanks can be plastic or concrete, as long as they are confirmed "
+"to be compatible with the chemical being stored."
 msgstr ""
-"Para cada producto químico, la planta deberá incluir dos o más tanques de "
-"almacenamiento. El tanque y los materiales de acoplamiento deben ser "
-"compatibles con el químico. Los tanques de almacenamiento pueden ser de "
-"plástico o hormigón, siempre que se confirme que son compatibles con el "
-"químico que se almacena."
+"Para cada producto químico, la planta deberá incluir dos o más tanques de"
+" almacenamiento. Los materiales del tanque y de los accesorios deben ser "
+"compatibles con el producto químico. Los tanques de almacenamiento pueden"
+" ser de plástico o hormigón, siempre que se confirme que son compatibles "
+"con el químico que se almacena."
 
-#: ../../AIDE/Specifications_BIP.rst:133
+#: ../../AIDE/Specifications_BIP.rst:132
 msgid ""
-"The combined volume of all tanks used for a chemical shall allow for storage"
-" of sufficient chemical to supply the plant at maximum flow and maximum "
-"chemical dose for at least 48 hours."
+"The combined volume of all tanks used for a chemical shall allow for "
+"storage of sufficient chemical to supply the plant at maximum flow and "
+"maximum chemical dose for at least 48 hours."
 msgstr ""
 "El volumen combinado de todos los tanques utilizados para un producto "
-"químico permitirá almacenar suficiente producto químico para suministrar a "
-"la planta al máximo caudal y dosis química máxima durante al menos 48 horas."
+"químico permitirá almacenar suficiente producto químico para suministrar "
+"a la planta al máximo caudal y dosis química máxima durante al menos 48 "
+"horas."
 
-#: ../../AIDE/Specifications_BIP.rst:136
+#: ../../AIDE/Specifications_BIP.rst:135
 msgid "Chemical Feed System"
-msgstr "Sistema de alimentación química"
+msgstr "Sistema de alimentación de productos químicos"
 
-#: ../../AIDE/Specifications_BIP.rst:138
+#: ../../AIDE/Specifications_BIP.rst:137
 msgid ""
-"The plant shall be equipped with a chemical feed system configured as shown "
-"in :numref:`figure_spec_chemDoseController`. Materials that will be in "
-"contact with chemicals must be compatible with the chemical and suitable for"
-" use with potable water."
+"The plant shall be equipped with a chemical feed system configured as "
+"shown in :numref:`figure_spec_chemDoseController`. Materials that will be"
+" in contact with chemicals must be compatible with the chemical and "
+"suitable for use with potable water."
 msgstr ""
 "La planta debe estar equipada con un sistema de alimentación química "
-"configurado como se muestra en :numref:`figure_spec_chemDoseController`. Los"
-" materiales que entren en contacto con productos químicos deben ser "
-"compatibles con el químico y aptos para su uso con agua potable."
+"configurado como se muestra en :numref:`figure_spec_chemDoseController`. "
+"Los materiales que entren en contacto con productos químicos deben ser "
+"compatibles con el producto químico y aptos para su uso con agua potable."
 
-#: ../../AIDE/Specifications_BIP.rst:147
+#: ../../AIDE/Specifications_BIP.rst:146
 msgid "chemDoseController"
-msgstr "chemDoseController"
+msgstr "controlador de dosificación de productos químicos"
 
-#: ../../AIDE/Specifications_BIP.rst:147
+#: ../../AIDE/Specifications_BIP.rst:146
 msgid "Gravity powered chemical feed system schematic."
-msgstr "Esquema del sistema de alimentación química alimentado por gravedad."
+msgstr ""
+"Esquema del sistema de alimentación de productos químicos accionado por "
+"gravedad."
 
-#: ../../AIDE/Specifications_BIP.rst:149 ../../AIDE/Specifications_BIP.rst:165
+#: ../../AIDE/Specifications_BIP.rst:148 ../../AIDE/Specifications_BIP.rst:164
 msgid "Constant Level Tank"
-msgstr "nivel constante Tank"
+msgstr "Caja de nivel constante"
 
-#: ../../AIDE/Specifications_BIP.rst:151
+#: ../../AIDE/Specifications_BIP.rst:150
 msgid ""
 "From the chemical storage tanks, the chemical passes via gravity to a "
 "constant level tank (see :numref:`figure_spec_constantLevelTank`). The "
-"chemical enters the constant level tank via a float valve, which maintains a"
-" constant level of chemical, providing a constant head to drive the chemical"
-" through the doser."
+"chemical enters the constant level tank via a float valve, which "
+"maintains a constant level of chemical, providing a constant head to "
+"drive the chemical through the doser."
 msgstr ""
-"Desde los tanques de almacenamiento de productos químicos, el producto pasa "
-"por gravedad a un tanque de nivel constante (véase "
-":numref:`figure_spec_constantLevelTank`). El químico entra en el tanque de "
-"nivel constante a través de un válvula de flotador, que mantiene un nivel "
-"constante de sustancia química, proporcionando una carga constante para "
-"impulsar el químico a través del dosificador."
+"Desde los tanques de almacenamiento de productos químicos, el producto "
+"pasa por gravedad a una caja de nivel constante (véase "
+":numref:`figure_spec_constantLevelTank`). El producto químico entra en la"
+" caja de nivel constante a través de una válvula de flotador, que "
+"mantiene constante el nivel del producto químico y proporciona una carga "
+"constante para impulsarlo a través del dosificador."
 
-#: ../../AIDE/Specifications_BIP.rst:153
+#: ../../AIDE/Specifications_BIP.rst:152
 msgid ""
 "The chemical level in the constant level tank shall be level with the "
 "fulcrum of the dosing lever."
 msgstr ""
-"El nivel químico en el tanque de nivel constante debe estar al nivel del "
-"fulcro de la palanca dosificadora."
+"El nivel del producto químico en la caja de nivel constante debe estar a "
+"la misma elevación que el punto de apoyo de la palanca dosificadora."
 
-#: ../../AIDE/Specifications_BIP.rst:155
+#: ../../AIDE/Specifications_BIP.rst:154
 msgid ""
-"The vertical distance from the constant level tank level to the end of the "
-"dosing hose at max flow and max dose shall be 20 cm."
+"The vertical distance from the constant level tank level to the end of "
+"the dosing hose at max flow and max dose shall be 20 cm."
 msgstr ""
-"La distancia vertical desde el nivel del tanque de nivel constante hasta el "
-"final de la manguera dosificadora al máximo caudal y dosis máxima será de 20"
-" cm."
+"La distancia vertical desde el nivel de la caja de nivel constante hasta "
+"el extremo de la manguera dosificadora, al caudal y la dosis máximos, "
+"será de 20 cm."
 
-#: ../../AIDE/Specifications_BIP.rst:165
+#: ../../AIDE/Specifications_BIP.rst:164
 msgid "Constant level tank module for coagulant and chlorine."
-msgstr "nivel constante módulo de tanque para coagulante y cloro."
+msgstr "Módulo de caja de nivel constante para coagulante y cloro."
 
-#: ../../AIDE/Specifications_BIP.rst:167
+#: ../../AIDE/Specifications_BIP.rst:166
 msgid "Dosing Tubes"
 msgstr "Tubos de dosificación"
 
-#: ../../AIDE/Specifications_BIP.rst:169
+#: ../../AIDE/Specifications_BIP.rst:168
 msgid ""
 "Chemical flows from the constant level tank into dosing tubes, which "
 "terminate in a free discharge at the dose slider on the doser lever."
 msgstr ""
-"El químico fluye desde el tanque de nivel constante hacia tubos de "
-"dosificación, que terminan en una descarga libre en el control deslizante de"
-" dosis de la palanca del dosificador."
+"El producto químico fluye desde la caja de nivel constante hacia tubos de"
+" dosificación que terminan en una descarga libre junto al deslizador de "
+"dosis de la palanca del dosificador."
 
-#: ../../AIDE/Specifications_BIP.rst:171
+#: ../../AIDE/Specifications_BIP.rst:170
 msgid ""
-"The diameter of the tubes shall be designed to provide laminar flow over the"
-" desired range of chemical flows. Given the laminar flow, the flowrate "
-"through the dosing tubes will be directly proportional to elevation "
+"The diameter of the tubes shall be designed to provide laminar flow over "
+"the desired range of chemical flows. Given the laminar flow, the flowrate"
+" through the dosing tubes will be directly proportional to elevation "
 "difference between the chemical level in the constant level tank and the "
 "dose slider."
 msgstr ""
-"El diámetro de los tubos debe diseñarse para proporcionar un flujo laminar "
-"en el rango deseado de flujos químicos. Dado el flujo laminar, el caudal a "
-"través de los tubos de dosificación será directamente proporcional a la "
-"diferencia de elevación entre el nivel químico en el tanque de nivel "
-"constante y el control deslizante de dosis."
+"El diámetro de los tubos debe diseñarse para proporcionar un flujo "
+"laminar en el intervalo deseado de caudales de producto químico. En "
+"régimen laminar, el caudal a través de los tubos de dosificación será "
+"directamente proporcional a la diferencia de elevación entre el nivel del"
+" producto químico en la caja de nivel constante y el deslizador de dosis."
 
-#: ../../AIDE/Specifications_BIP.rst:173
+#: ../../AIDE/Specifications_BIP.rst:172
 msgid ""
-"The plant shall have a spare set of dosing tubes on hand for each chemical "
-"feed so that one set of tubes can be cleaned while the other set is in use."
+"The plant shall have a spare set of dosing tubes on hand for each "
+"chemical feed so that one set of tubes can be cleaned while the other set"
+" is in use."
 msgstr ""
-"La planta dispondrá de un juego de tubos de dosificación de repuesto para "
-"cada alimento químico, de modo que uno pueda limpiarse mientras el otro "
-"juego está en uso."
+"La planta dispondrá de un juego de tubos de dosificación de repuesto para"
+" cada alimentación de producto químico, de modo que un juego pueda "
+"limpiarse mientras el otro esté en uso."
 
-#: ../../AIDE/Specifications_BIP.rst:175
+#: ../../AIDE/Specifications_BIP.rst:174
 #, python-format
 msgid ""
-"Head loss through all other tubes and fittings connecting the constant level"
-" tank to the free discharge at the dose slide shall be less than 5% of the "
-"head loss through the dosing tubes."
+"Head loss through all other tubes and fittings connecting the constant "
+"level tank to the free discharge at the dose slide shall be less than 5% "
+"of the head loss through the dosing tubes."
 msgstr ""
-"pérdida de carga a través de todos los demás tubos y conexiones que conectan"
-" el tanque de nivel constante con la descarga libre en la lámina "
-"dosificadora debe ser inferior al 5% del pérdida de carga a través de los "
-"tubos de dosificación."
+"La pérdida de carga en todos los demás tubos y accesorios que conectan la"
+" caja de nivel constante con la descarga libre en el deslizador de dosis "
+"debe ser inferior al 5 % de la pérdida de carga en los tubos de "
+"dosificación."
 
-#: ../../AIDE/Specifications_BIP.rst:177
+#: ../../AIDE/Specifications_BIP.rst:176
 msgid "Chemical Dose Controller |Doser|"
-msgstr "Controlador de dosis química |Doser|"
+msgstr "Controlador de dosificación de productos químicos |Doser|"
 
-#: ../../AIDE/Specifications_BIP.rst ../../AIDE/Specifications_BIP.rst:190
+#: ../../AIDE/Specifications_BIP.rst ../../AIDE/Specifications_BIP.rst:189
 msgid "Doser"
-msgstr "Doser"
+msgstr "Dosificador"
 
-#: ../../AIDE/Specifications_BIP.rst:179
+#: ../../AIDE/Specifications_BIP.rst:178
 msgid ""
-"One end of the chemical dose controller (see :numref:`figure_spec_doser`) is"
-" connected to a float in the plant entrance tank. The dose slider and thus "
-"the ends of the doser hoses are located on the other end of the chemical "
-"dose controller lever."
+"One end of the chemical dose controller (see :numref:`figure_spec_doser`)"
+" is connected to a float in the plant entrance tank. The dose slider and "
+"thus the ends of the doser hoses are located on the other end of the "
+"chemical dose controller lever."
 msgstr ""
 "Un extremo del controlador de dosis química (véase "
-":numref:`figure_spec_doser`) está conectado a un flotador en la planta "
-"tanque de entrada. El deslizador de dosis y, por tanto, los extremos de las "
-"mangueras del dosificador están situados en el otro extremo de la palanca "
-"del controlador químico."
+":numref:`figure_spec_doser`) está conectado a un flotador en el tanque de"
+" entrada de la planta. El deslizador de dosis y, por tanto, los extremos "
+"de las mangueras del dosificador están situados en el otro extremo de la "
+"palanca del controlador de dosificación."
 
-#: ../../AIDE/Specifications_BIP.rst:181
+#: ../../AIDE/Specifications_BIP.rst:180
 msgid ""
-"The lever on the float side shall be at least two times as long as the LFOM "
-"change in water depth (typically 20 cm) to provide a reasonable maximum "
-"angle of the lever system."
+"The lever on the float side shall be at least two times as long as the "
+"LFOM change in water depth (typically 20 cm) to provide a reasonable "
+"maximum angle of the lever system."
 msgstr ""
-"La palanca en el lado del flotador debe ser al menos el doble de larga que "
-"el cambio de profundidad del agua del LFOM (normalmente 20 cm) para "
+"La palanca en el lado del flotador debe ser al menos el doble de larga "
+"que el cambio de profundidad del agua del LFOM (normalmente 20 cm) para "
 "proporcionar un ángulo máximo razonable del sistema de palancas."
 
-#: ../../AIDE/Specifications_BIP.rst:190
+#: ../../AIDE/Specifications_BIP.rst:189
 msgid "Chemical dose controller designed for two independent chemical feeds."
 msgstr ""
 "Controlador de dosis química diseñado para dos alimentaciones químicas "
 "independientes."
 
-#: ../../AIDE/Specifications_BIP.rst:193
+#: ../../AIDE/Specifications_BIP.rst:192
 msgid "Function"
 msgstr "Función"
 
-#: ../../AIDE/Specifications_BIP.rst:195
+#: ../../AIDE/Specifications_BIP.rst:194
 msgid ""
-"The doser is designed so that the operator can select a chemical dose (mass "
-"of chemical per volume of water) by moving the dose slider to a specific "
-"position along the lever. The lever, LFOM and constant level tank then work "
-"together to adjust the chemical flow proportional to the plant flow to "
-"maintain a constant chemical dose."
+"The doser is designed so that the operator can select a chemical dose "
+"(mass of chemical per volume of water) by moving the dose slider to a "
+"specific position along the lever. The lever, LFOM and constant level "
+"tank then work together to adjust the chemical flow proportional to the "
+"plant flow to maintain a constant chemical dose."
 msgstr ""
 "El dosificador está diseñado para que el operador pueda seleccionar una "
 "dosis química (masa de producto químico por volumen de agua) moviendo el "
-"control deslizante de dosis a una posición específica a lo largo de la "
-"palanca. La palanca, el LFOM y nivel constante tanque trabajan juntos para "
-"ajustar el flujo químico proporcional al caudal de la planta y mantener una "
-"dosis química constante."
+"deslizador de dosis a una posición específica a lo largo de la palanca. "
+"La palanca, el LFOM y la caja de nivel constante trabajan juntos para "
+"ajustar el caudal del producto químico en proporción al caudal de la "
+"planta y mantener una dosis química constante."
 
-#: ../../AIDE/Specifications_BIP.rst:197
+#: ../../AIDE/Specifications_BIP.rst:196
 msgid ""
-"When the plant flow is zero, the lever is horizontal and chemical flow is "
-"zero."
+"When the plant flow is zero, the lever is horizontal and chemical flow is"
+" zero."
 msgstr ""
-"Cuando el flujo de la planta es cero, la palanca es horizontal y el flujo "
-"químico es cero."
+"Cuando el flujo de la planta es cero, la palanca es horizontal y el flujo"
+" químico es cero."
 
-#: ../../AIDE/Specifications_BIP.rst:199
+#: ../../AIDE/Specifications_BIP.rst:198
 msgid ""
-"When plant flow increases, the water level in the entrance tank increases "
-"(due additional head loss through the LFOM), causing one end of the doser "
-"lever to rise. This, in turn, causes the other end of the lever, and the "
-"dose slider, to fall, increasing the elevation difference between the "
-"chemical level in the constant level tank and the dose slider. The greater "
-"driving head increases the chemical flow through the doser."
+"When plant flow increases, the water level in the entrance tank increases"
+" (due to additional head loss through the LFOM), causing one end of the "
+"doser lever to rise. This, in turn, causes the other end of the lever, "
+"and the dose slider, to fall, increasing the elevation difference between"
+" the chemical level in the constant level tank and the dose slider. The "
+"greater driving head increases the chemical flow through the doser."
 msgstr ""
-"Cuando aumenta el caudal de la planta, la nivel del agua en la tanque de "
-"entrada aumenta (debido a pérdida de carga adicionales a través del LFOM), "
-"haciendo que un extremo de la palanca del dosificador se eleve. Esto, a su "
-"vez, provoca que el otro extremo de la palanca y el control deslizante de "
-"dosis bajen, aumentando la diferencia de elevación entre el nivel químico en"
-" el tanque de nivel constante y el deslizador de dosis. La mayor cabeza de "
-"impulso aumenta el flujo químico a través del dosificador."
+"Cuando aumenta el caudal de la planta, el nivel del agua en el tanque de "
+"entrada aumenta (debido a la pérdida de carga adicional en el LFOM), "
+"haciendo que un extremo de la palanca del dosificador se eleve. Esto, a "
+"su vez, provoca que el otro extremo de la palanca y el deslizador de "
+"dosis bajen, aumentando la diferencia de elevación entre el nivel del "
+"producto químico en la caja de nivel constante y el deslizador. La mayor "
+"carga motriz aumenta el caudal del producto químico a través del "
+"dosificador."
 
-#: ../../AIDE/Specifications_BIP.rst:201
+#: ../../AIDE/Specifications_BIP.rst:200
 msgid ""
-"The water level in the entrance tank level is directly proportional to the "
-"plant flow rate (due to the LFOM). The dose slider elevation is directly "
-"proportional to the entrance tank water level. The chemical flow is directly"
-" proportional to the dose slider elevation. Therefore the chemical flow is "
-"directly proportional to the plant flow and changes in the slider position "
-"directly set the chemical dose."
+"The water level in the entrance tank level is directly proportional to "
+"the plant flow rate (due to the LFOM). The dose slider elevation is "
+"directly proportional to the entrance tank water level. The chemical flow"
+" is directly proportional to the dose slider elevation. Therefore the "
+"chemical flow is directly proportional to the plant flow and changes in "
+"the slider position directly set the chemical dose."
 msgstr ""
-"La nivel del agua en el nivel de tanque de entrada es directamente "
-"proporcional al caudal de la planta (debido al LFOM). La elevación del "
-"deslizador de dosis es directamente proporcional al tanque de entrada nivel "
-"del agua. El flujo químico es directamente proporcional a la elevación del "
-"deslizador de dosis. Por lo tanto, el flujo químico es directamente "
-"proporcional al flujo de la planta y los cambios en la posición del "
-"deslizador fijan directamente la dosis química."
+"El nivel del agua en el tanque de entrada es directamente proporcional al"
+" caudal de la planta (debido al LFOM). La elevación del deslizador de "
+"dosis es directamente proporcional al nivel del agua en el tanque de "
+"entrada. El caudal del producto químico es directamente proporcional a la"
+" elevación del deslizador de dosis. Por lo tanto, el caudal del producto "
+"químico es directamente proporcional al caudal de la planta y los cambios"
+" en la posición del deslizador fijan directamente la dosis química."
 
-#: ../../AIDE/Specifications_BIP.rst:205
+#: ../../AIDE/Specifications_BIP.rst:204
 msgid "Flocculator"
 msgstr "Floculador"
 
-#: ../../AIDE/Specifications_BIP.rst:207
+#: ../../AIDE/Specifications_BIP.rst:206
 msgid ""
 "For more detailed information see :ref:`Flocculation Design "
-"<title_Flocculation_Design>`. AguaClara flocculators have three potential "
-"flow patterns (see :numref:`figure_spec_flocculator_Geometry`) depending on "
-"the flow rate, plant layout, and velocity gradient. There is overlap between"
-" the different flow geometries and ongoing work to assess how to select the "
-"best type of flocculator given a flow that could be handled by two different"
-" types."
+"<title_Flocculation_Design>`. AguaClara flocculators have three potential"
+" flow patterns (see :numref:`figure_spec_flocculator_Geometry`) depending"
+" on the flow rate, plant layout, and velocity gradient. There is overlap "
+"between the different flow geometries and ongoing work to assess how to "
+"select the best type of flocculator given a flow that could be handled by"
+" two different types."
 msgstr ""
-"Para información más detallada, véase :ref:`Flocculation Design "
-"<title_Flocculation_Design>`. Los floculadores de AguaClara tienen tres "
-"patrones de flujo potencial (véase "
+"Para obtener información más detallada, véase :ref:`Diseño de la "
+"floculación <title_Flocculation_Design>`. Los floculadores de AguaClara "
+"tienen tres patrones de flujo potencial (véase "
 ":numref:`figure_spec_flocculator_Geometry`) dependiendo del caudal, la "
-"disposición de la planta y el gradiente de velocidad. Existe solapamiento "
-"entre las diferentes geometrías de flujo y trabajos en curso para evaluar "
-"cómo seleccionar el mejor tipo de floculador dado un flujo que pueda ser "
-"gestionado por dos tipos diferentes."
+"disposición de la planta y el gradiente de velocidad. Existe solapamiento"
+" entre las diferentes geometrías de flujo y trabajos en curso para "
+"evaluar cómo seleccionar el mejor tipo de floculador dado un flujo que "
+"pueda ser gestionado por dos tipos diferentes."
 
-#: ../../AIDE/Specifications_BIP.rst:209
+#: ../../AIDE/Specifications_BIP.rst:208
 msgid ""
-"The flocculator geometries are specified by two flow directions. The first "
-"direction is the flow direction in a channel from the channel inlet to the "
-"channel outlet. The second direction is the flow direction around a baffle."
+"The flocculator geometries are specified by two flow directions. The "
+"first direction is the flow direction in a channel from the channel inlet"
+" to the channel outlet. The second direction is the flow direction around"
+" a baffle."
 msgstr ""
-"Las geometrías de floculadores se especifican mediante dos direcciones de "
-"flujo. La primera es la dirección de flujo en un canal desde la entrada del "
-"canal hasta la salida del canal. La segunda dirección es la dirección del "
-"flujo alrededor de un deflector."
+"Las geometrías de floculadores se especifican mediante dos direcciones de"
+" flujo. La primera es la dirección de flujo en un canal desde la entrada "
+"del canal hasta la salida del canal. La segunda dirección es la dirección"
+" del flujo alrededor de un deflector."
 
-#: ../../AIDE/Specifications_BIP.rst:211
+#: ../../AIDE/Specifications_BIP.rst:210
 msgid ""
-"|FlocculatorVH| Vertical - Horizontal: Plant design flows between about 0.5 "
-"L/s and 20 L/s. See :numref:`figure_VHflocculator`."
+"|FlocculatorVH| Vertical - Horizontal: Plant design flows between about "
+"0.5 L/s and 20 L/s. See :numref:`figure_VHflocculator`."
 msgstr ""
-"|FlocculatorVH| Vertical - Horizontal: El diseño de la planta fluye entre "
-"aproximadamente 0,5 L/s y 20 L/s. Véase :numref:`figure_VHflocculator`."
+"|FlocculatorVH| Vertical - Horizontal: El diseño de la planta fluye entre"
+" aproximadamente 0,5 L/s y 20 L/s. Véase :numref:`figure_VHflocculator`."
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "FlocculatorVH"
 msgstr "FlocculatorVH"
 
-#: ../../AIDE/Specifications_BIP.rst:213
+#: ../../AIDE/Specifications_BIP.rst:212
 msgid ""
-"|FlocculatorHV| Horizontal - Vertical: Plant design flows between about 3 "
-"and 200 L/s. See :numref:`figure_HVflocculator`. This geometry is also "
+"|FlocculatorHV| Horizontal - Vertical: Plant design flows between about 3"
+" and 200 L/s. See :numref:`figure_HVflocculator`. This geometry is also "
 "referred to as over-under."
 msgstr ""
-"|FlocculatorHV| Horizontal - Vertical: El diseño de la planta fluye entre "
-"aproximadamente 3 y 200 L/s. Véase :numref:`figure_HVflocculator`. Esta "
-"geometría también se denomina sobre-submersión."
+"|FlocculatorHV| Horizontal - Vertical: El diseño de la planta fluye entre"
+" aproximadamente 3 y 200 L/s. Véase :numref:`figure_HVflocculator`. Esta "
+"geometría también se denomina flujo por encima y por debajo."
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "FlocculatorHV"
 msgstr "FlocculatorHV"
 
-#: ../../AIDE/Specifications_BIP.rst:215
+#: ../../AIDE/Specifications_BIP.rst:214
 msgid ""
-"|FlocculatorHH| Horizontal - Horizontal: Plant design flows above about 100 "
-"L/s. See :numref:`figure_HHflocculator`. This geometry is also referred to "
-"as around-the-end."
+"|FlocculatorHH| Horizontal - Horizontal: Plant design flows above about "
+"100 L/s. See :numref:`figure_HHflocculator`. This geometry is also "
+"referred to as around-the-end."
 msgstr ""
-"|FlocculatorHH| Horizontal - Horizontal: El diseño de la planta tiene flujos"
-" superiores a unos 100 L/s. Véase :numref:`figure_HHflocculator`. Esta "
-"geometría también se denomina alrededor del extremo."
+"|FlocculatorHH| Horizontal - Horizontal: El diseño de la planta tiene "
+"flujos superiores a unos 100 L/s. Véase :numref:`figure_HHflocculator`. "
+"Esta geometría también se denomina alrededor del extremo."
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "FlocculatorHH"
 msgstr "FloculadorHH"
 
-#: ../../AIDE/Specifications_BIP.rst:224
+#: ../../AIDE/Specifications_BIP.rst:223
 msgid "3 flocculator geometries"
 msgstr "3 Geometrías de floculadores"
 
-#: ../../AIDE/Specifications_BIP.rst:224
+#: ../../AIDE/Specifications_BIP.rst:223
 msgid ""
 "The optimal flocculator geometry transitions as the flow rate increases. "
 "Note that each of these flocculators has approximately the same depth."
 msgstr ""
-"La geometría óptima del floculador cambia a medida que el caudal aumenta. "
-"Obsé que cada uno de estos floculadores tiene aproximadamente la misma "
-"profundidad."
+"La geometría óptima del floculador cambia a medida que el caudal aumenta."
+" Observe que cada uno de estos floculadores tiene aproximadamente la "
+"misma profundidad."
 
-#: ../../AIDE/Specifications_BIP.rst:229
+#: ../../AIDE/Specifications_BIP.rst:228
 msgid "The AguaClara flocculator is designed with the following goals:"
 msgstr "El floculador AguaClara está diseñado con los siguientes objetivos:"
 
-#: ../../AIDE/Specifications_BIP.rst:231
+#: ../../AIDE/Specifications_BIP.rst:230
 msgid ""
 "Provide a velocity gradient and residence time allowing aggregation of "
-"individual particles and small flocs into flocs large enough to settle out "
-"in the clarifier. The product of velocity gradient (G) and residence time "
-"(ϴ) is a dimensionless number known as collision potential or Gϴ."
+"individual particles and small flocs into flocs large enough to settle "
+"out in the clarifier. The product of velocity gradient (G) and residence "
+"time (ϴ) is a dimensionless number known as collision potential or Gϴ."
 msgstr ""
-"Proporcionar un gradiente de velocidad y un tiempo de residencia que "
-"permitan la agregación de partículas individuales y pequeños flócs en flócs "
-"lo suficientemente grandes como para asentarse en el clarificador. El "
-"producto del gradiente de velocidad (G) y el tiempo de residencia (Θ) es un "
-"número adimensional conocido como potencial de colisión o GΘ."
+"Proporcionar un gradiente de velocidad y un tiempo de residencia que p"
+"ermitan la agregación de partículas individuales y flóculos pequeños e"
+"n flóculos lo suficientemente grandes como para sedimentarse en el cla"
+"rificador. El producto del gradiente de velocidad (G) y el tiempo de r"
+"esidencia (Θ) es un número adimensional conocido como potencial de col"
+"isión o GΘ."
 
-#: ../../AIDE/Specifications_BIP.rst:233
+#: ../../AIDE/Specifications_BIP.rst:232
 msgid ""
-"Set the retention time to reach a design Gϴ of approximately 35,000. This "
-"determines the minimum total volume of the flocculator. The design volume of"
-" the flocculator may be larger due to construction constraints, such as "
-"making the length of the flocculator the same as the length of the clarifier"
-" bays or keeping the flocculator channels wide enough to fit a human body "
-"for ease of cleaning and maintenance."
+"Set the retention time to reach a design Gϴ of approximately 35,000. This"
+" determines the minimum total volume of the flocculator. The design "
+"volume of the flocculator may be larger due to construction constraints, "
+"such as making the length of the flocculator the same as the length of "
+"the clarifier bays or keeping the flocculator channels wide enough to fit"
+" a human body for ease of cleaning and maintenance."
 msgstr ""
 "Establece el tiempo de retención para alcanzar un GΘ de diseño de "
 "aproximadamente 35.000. Esto determina el volumen total mínimo del "
 "floculador. El volumen de diseño del floculador puede ser mayor debido a "
-"limitaciones de construcción, como hacer que la longitud del floculador sea "
-"igual a la de las bahías del clarificador o mantener los canales del "
-"floculador lo suficientemente anchos para caber un cuerpo humano y facilitar"
-" la limpieza y el mantenimiento."
+"limitaciones de construcción, como hacer que la longitud del floculador "
+"sea igual a la de las celdas de clarificación o mantener los canales del "
+"floculador lo suficientemente anchos para caber un cuerpo humano y "
+"facilitar la limpieza y el mantenimiento."
 
-#: ../../AIDE/Specifications_BIP.rst:235
+#: ../../AIDE/Specifications_BIP.rst:234
 msgid ""
 "Minimize “dead zones” in the flocculator and reduce the opportunity for "
 "short circuiting of the flocculator."
 msgstr ""
-"Minimizar las \"zonas muertas\" en el floculador y reducir la posibilidad de"
-" cortocircuitos en el floculador."
+"Minimizar las \"zonas muertas\" en el floculador y reducir la posibilidad"
+" de cortocircuitos en el floculador."
 
-#: ../../AIDE/Specifications_BIP.rst:237
+#: ../../AIDE/Specifications_BIP.rst:236
 msgid "Facilitate the draining of sludge and maintenance manually by one person"
-msgstr "Facilitar el drenaje de lodos y el mantenimiento manual por una sola persona"
+msgstr ""
+"Facilitar el drenaje de lodos y el mantenimiento manual por una sola "
+"persona"
 
-#: ../../AIDE/Specifications_BIP.rst:240
+#: ../../AIDE/Specifications_BIP.rst:239
 msgid "Flow Paths"
-msgstr "Trayectos de flujo"
+msgstr "Trayectorias del flujo"
 
-#: ../../AIDE/Specifications_BIP.rst:242
+#: ../../AIDE/Specifications_BIP.rst:241
 msgid ""
-"The length of the flocculator channels is typically determined by the length"
-" of the clarifier to create a compact plant layout."
+"The length of the flocculator channels is typically determined by the "
+"length of the clarifier to create a compact plant layout."
 msgstr ""
-"La longitud de los canales del floculador suele determinarse por la longitud"
-" del clarificador para crear un diseño compacto de plantas."
+"La longitud de los canales del floculador suele determinarse por la "
+"longitud del clarificador para crear un diseño compacto de plantas."
 
-#: ../../AIDE/Specifications_BIP.rst:244
+#: ../../AIDE/Specifications_BIP.rst:243
 msgid ""
-"The width of each flocculation channel is determined by material constraints"
-" and to facilitate cleaning and maintenance. The flocculator baffles are "
-"made of polycarbonate sheets, so the width of the channel should be no "
-"larger than the width of a polycarbonate sheet. The width of the channel "
-"should be no smaller than 50 cm so an operator can safely enter the tank. "
-"Large plants treating more than about 200 L/s may be designed with "
-"horizontal flocculation channels and may use ferrocement baffles."
+"The width of each flocculation channel is determined by material "
+"constraints and to facilitate cleaning and maintenance. The flocculator "
+"baffles are made of polycarbonate sheets, so the width of the channel "
+"should be no larger than the width of a polycarbonate sheet. The width of"
+" the channel should be no smaller than 50 cm so an operator can safely "
+"enter the tank. Large plants treating more than about 200 L/s may be "
+"designed with horizontal flocculation channels and may use ferrocement "
+"baffles."
 msgstr ""
-"El ancho de cada canal de floculación está determinado por las limitaciones "
-"del material y para facilitar la limpieza y el mantenimiento. Los "
-"deflectores del floculador están hechos de láminas de policarbonato, por lo "
-"que el ancho del canal no debe ser mayor que el ancho de una lámina de "
-"policarbonato. El ancho del canal no debe ser menor que 50 cm para que el "
-"operador pueda entrar en el tanque con seguridad. Las grandes plantas que "
-"tratan más de unos 200 L/s pueden diseñarse con canales de floculación "
-"horizontales y pueden utilizar deflectores de ferrocemento."
+"El ancho de cada canal de floculación está determinado por las "
+"limitaciones del material y para facilitar la limpieza y el "
+"mantenimiento. Los deflectores del floculador están hechos de láminas de "
+"policarbonato, por lo que el ancho del canal no debe ser mayor que el "
+"ancho de una lámina de policarbonato. El ancho del canal no debe ser "
+"menor que 50 cm para que el operador pueda entrar en el tanque con "
+"seguridad. Las grandes plantas que tratan más de unos 200 L/s pueden "
+"diseñarse con canales de floculación horizontales y pueden utilizar "
+"deflectores de ferrocemento."
 
-#: ../../AIDE/Specifications_BIP.rst:246
+#: ../../AIDE/Specifications_BIP.rst:245
 msgid ""
 "The depth of the flocculation channels is determined by construction "
-"constraints and to minimize the plan view area of the flocculators and thus "
-"the plant. Typically the flocculator and clarifier share the same slab."
+"constraints and to minimize the plan view area of the flocculators and "
+"thus the plant. Typically the flocculator and clarifier share the same "
+"slab."
 msgstr ""
 "La profundidad de los canales de floculación está determinada por las "
-"restricciones de construcción y para minimizar el área de vista en planta de"
-" los floculadores y, por tanto, de la planta. Normalmente, el floculador y "
-"el clarificador comparten la misma losa."
+"restricciones de construcción y para minimizar el área en planta de los "
+"floculadores y, por tanto, de la planta. Normalmente, el floculador y el "
+"clarificador comparten la misma losa."
 
-#: ../../AIDE/Specifications_BIP.rst:248
+#: ../../AIDE/Specifications_BIP.rst:247
 msgid ""
 "The overall volume of the flocculator is determined by the individual "
 "constraints on each dimension of the flocculator, but the collision "
@@ -892,10 +903,10 @@ msgid ""
 msgstr ""
 "El volumen total del floculador está determinado por las restricciones "
 "individuales en cada dimensión del floculador, pero el potencial de "
-"colisión, GΘ, del floculador debe ser al menos 35.000 en el flujo de diseño "
-"de la planta."
+"colisión, GΘ, del floculador debe ser al menos 35.000 en el flujo de "
+"diseño de la planta."
 
-#: ../../AIDE/Specifications_BIP.rst:250
+#: ../../AIDE/Specifications_BIP.rst:249
 msgid ""
 "The spacing between baffles is designed to achieve the target velocity "
 "gradient, G, at the design flow rate."
@@ -903,130 +914,133 @@ msgstr ""
 "El espaciado entre deflectores está diseñado para lograr el gradiente de "
 "velocidad objetivo, G, en el diseño caudal."
 
-#: ../../AIDE/Specifications_BIP.rst:252
+#: ../../AIDE/Specifications_BIP.rst:251
 msgid ""
-"The ports between flocculator channels (see :numref:`figure_flocChannelPort`"
-" should be designed with the same flow area as the space between the baffles"
-" so that the port improves flocculation without breaking flocs. The width of"
-" the port is equal to the spacing between baffles and the height of the port"
-" is equal to the channel width."
+"The ports between flocculator channels (see "
+":numref:`figure_flocChannelPort`) should be designed with the same flow "
+"area as the space between the baffles so that the port improves "
+"flocculation without breaking flocs. The width of the port is equal to "
+"the spacing between baffles and the height of the port is equal to the "
+"channel width."
 msgstr ""
-"Los puertos entre canales de floculador (véase "
-":numref:`figure_flocChannelPort` deben diseñarse con la misma área de flujo "
-"que el espacio entre los deflectores para que el puerto mejore la "
-"floculación sin romper los defledores. El ancho del puerto es igual al "
-"espacio entre los deflectores y la altura del puerto es igual al ancho del "
-"canal."
+"Los puertos entre los canales del floculador (véase "
+":numref:`figure_flocChannelPort`) deben diseñarse con la misma área de "
+"flujo que el espacio entre los deflectores para que el puerto mejore la "
+"floculación sin romper los flóculos. El ancho del puerto es igual al "
+"espaciamiento entre los deflectores y la altura del puerto es igual al ancho "
+"del canal."
 
-#: ../../AIDE/Specifications_BIP.rst:261
+#: ../../AIDE/Specifications_BIP.rst:260
 msgid "ports"
-msgstr "Versiones"
+msgstr "puertos"
 
-#: ../../AIDE/Specifications_BIP.rst:261
+#: ../../AIDE/Specifications_BIP.rst:260
 msgid ""
 "Flocculator with end and side walls removed to show the port between "
-"channels. Water flows between flocculator channels through a port that has "
-"the same flow dimensions as the space between baffles."
+"channels. Water flows between flocculator channels through a port that "
+"has the same flow dimensions as the space between baffles."
 msgstr ""
 "Floculador con paredes extremas y laterales eliminadas para mostrar el "
-"puerto entre canales. El agua fluye entre canales de floculador a través de "
-"un puerto que tiene las mismas dimensiones de flujo que el espacio entre "
-"deflectores."
+"puerto entre canales. El agua fluye entre canales de floculador a través "
+"de un puerto que tiene las mismas dimensiones de flujo que el espacio "
+"entre deflectores."
 
-#: ../../AIDE/Specifications_BIP.rst:264
+#: ../../AIDE/Specifications_BIP.rst:263
 msgid "Channel Construction"
 msgstr "Construcción del canal"
 
-#: ../../AIDE/Specifications_BIP.rst:266
+#: ../../AIDE/Specifications_BIP.rst:265
 msgid ""
-"The walls of the flocculation channels should be vertical, maintaining the "
-"channel width along both the length and height of each flocculator channel."
+"The walls of the flocculation channels should be vertical, maintaining "
+"the channel width along both the length and height of each flocculator "
+"channel."
 msgstr ""
-"Las paredes de los canales de floculación deben ser verticales, manteniendo "
-"el ancho del canal tanto a lo largo como a la altura de cada canal "
-"floculador."
+"Las paredes de los canales de floculación deben ser verticales, "
+"manteniendo el ancho del canal tanto a lo largo como a la altura de cada "
+"canal floculador."
 
-#: ../../AIDE/Specifications_BIP.rst:268
+#: ../../AIDE/Specifications_BIP.rst:267
 msgid ""
-"The drain pipes are activated by removing a vertical pipe stub. The drain "
-"pipes must be large enough to empty the flocculation channels in 20 minutes."
-" The drains are placed near a port between channels so that each drain can "
-"serve two channels."
+"The drain pipes are activated by removing a vertical pipe stub. The drain"
+" pipes must be large enough to empty the flocculation channels in 20 "
+"minutes. The drains are placed near a port between channels so that each "
+"drain can serve two channels."
 msgstr ""
-"Las tuberías de desagüe se activan retirando un muñón vertical de la "
-"tubería. Las tuberías de desagüe deben ser lo suficientemente grandes para "
-"vaciar los canales de floculación en 20 minutos. Los desagües se colocan "
-"cerca de un puerto entre canales para que cada drenaje pueda servir a dos "
-"canales."
+"Las tuberías de desagüe se activan retirando un niple vertical. Las "
+"tuberías de desagüe deben ser lo suficientemente grandes para vaciar los "
+"canales de floculación en 20 minutos. Los desagües se colocan cerca de un"
+" puerto entre canales para que cada drenaje pueda servir a dos canales."
 
-#: ../../AIDE/Specifications_BIP.rst:270
+#: ../../AIDE/Specifications_BIP.rst:269
 msgid ""
-"The flocculator should have sufficient lighting for the operator to observe "
-"floc formation. The operator should also have a flashlight to observe floc "
-"formation during power outages."
+"The flocculator should have sufficient lighting for the operator to "
+"observe floc formation. The operator should also have a flashlight to "
+"observe floc formation during power outages."
 msgstr ""
-"El floculador debe tener suficiente iluminación para que el operador pueda "
-"observar formación de flóculos. El operador también debe tener una linterna "
-"para observar formación de flóculos durante cortes de luz."
+"El floculador debe tener suficiente iluminación para que el operador "
+"pueda observar formación de flóculos. El operador también debe tener una "
+"linterna para observar formación de flóculos durante cortes de luz."
 
-#: ../../AIDE/Specifications_BIP.rst:273
+#: ../../AIDE/Specifications_BIP.rst:272
 msgid "Baffles"
 msgstr "Deflectores"
 
-#: ../../AIDE/Specifications_BIP.rst:275
+#: ../../AIDE/Specifications_BIP.rst:274
 msgid ""
 "The flocculation baffles must be constructed to be removable. A baffle "
-"module (see :numref:`figure_spec_baffleModule`) should be raisable by one "
-"operator working alone so that water can flow beneath the baffle and drain "
-"from the flocculator channel. Large flocculators may have baffle modules "
-"that require more than one person to completely remove from the flocculator "
-"channel."
+"module (see :numref:`figure_spec_baffleModule`) should be raisable by one"
+" operator working alone so that water can flow beneath the baffle and "
+"drain from the flocculator channel. Large flocculators may have baffle "
+"modules that require more than one person to completely remove from the "
+"flocculator channel."
 msgstr ""
 "Los deflectores de floculación deben construirse para ser extraíbles. Un "
-"módulo de deflector (véase :numref:`figure_spec_baffleModule`) debe poder "
-"elevarse con un operador que trabaje solo, de modo que el agua pueda fluir "
-"por debajo del deflector y drenar desde el canal del floculador. Los "
-"floculadores grandes pueden tener módulos de deflector que requieren a más "
-"de una persona para ser eliminados completamente del canal del floculador."
+"módulo de deflector (véase :numref:`figure_spec_baffleModule`) debe poder"
+" elevarse con un operador que trabaje solo, de modo que el agua pueda "
+"fluir por debajo del deflector y drenar desde el canal del floculador. "
+"Los floculadores grandes pueden tener módulos de deflector que requieren "
+"a más de una persona para ser eliminados completamente del canal del "
+"floculador."
 
-#: ../../AIDE/Specifications_BIP.rst:277
+#: ../../AIDE/Specifications_BIP.rst:276
 msgid ""
-"The flocculation baffles should be constructed from polycarbonate sheets, "
-"and the frame for holding together baffle modules should be made from PVC "
-"pipe. Other materials may be used if justification is provided, including "
-"the use of ferrocement baffles for horizontal flocculators in large plants."
+"The flocculation baffles should be constructed from polycarbonate sheets,"
+" and the frame for holding together baffle modules should be made from "
+"PVC pipe. Other materials may be used if justification is provided, "
+"including the use of ferrocement baffles for horizontal flocculators in "
+"large plants."
 msgstr ""
 "Los deflectores de floculación deben construirse con láminas de "
-"policarbonato, y el marco para sujetar los módulos de floculación debe estar"
-" hecho de tubería de PVC. Se pueden utilizar otros materiales si se "
+"policarbonato, y el marco para sujetar los módulos de floculación debe "
+"estar hecho de tubería de PVC. Se pueden utilizar otros materiales si se "
 "justifica, incluyendo el uso de deflectores de ferrocemento para "
 "floculadores horizontales en grandes plantas."
 
-#: ../../AIDE/Specifications_BIP.rst:279
+#: ../../AIDE/Specifications_BIP.rst:278
 msgid ""
-"The width of each baffle should be approximately 5 millimeters wider than "
-"the channel width so they deform slightly and created a tighter seal with "
-"the channel wall."
+"The width of each baffle should be approximately 5 millimeters wider than"
+" the channel width so they deform slightly and create a tighter seal with"
+" the channel wall."
 msgstr ""
-"El ancho de cada defletor debe ser aproximadamente 5 milímetros más ancho "
-"que el ancho del canal para que se deformen ligeramente y creen un sellado "
-"más hermético con la pared del canal."
+"El ancho de cada deflector debe ser aproximadamente 5 milímetros mayor "
+"que el ancho del canal para que se deformen ligeramente y creen un "
+"sellado más hermético con la pared del canal."
 
-#: ../../AIDE/Specifications_BIP.rst:289
+#: ../../AIDE/Specifications_BIP.rst:288
 msgid "Baffle Module"
-msgstr "Módulo de Deflector"
+msgstr "Módulo de deflectores"
 
-#: ../../AIDE/Specifications_BIP.rst:289
+#: ../../AIDE/Specifications_BIP.rst:288
 msgid ""
-"The baffle modules transfer the force of the water to the downstream wall "
-"through the PVC pipe frame. Each flocculator channels holds one baffle "
+"The baffle modules transfer the force of the water to the downstream wall"
+" through the PVC pipe frame. Each flocculator channel holds one baffle "
 "module."
 msgstr ""
 "Los módulos de deflector transfieren la fuerza del agua a la pared aguas "
 "abajo a través del marco de tubería de PVC. Cada canal de floculador "
 "contiene un módulo de deflector."
 
-#: ../../AIDE/Specifications_BIP.rst:293
+#: ../../AIDE/Specifications_BIP.rst:292
 msgid "Clarifier |Clarifier|"
 msgstr "Clarificador |Clarifier|"
 
@@ -1034,523 +1048,543 @@ msgstr "Clarificador |Clarifier|"
 msgid "Clarifier"
 msgstr "Clarificador"
 
-#: ../../AIDE/Specifications_BIP.rst:295
+#: ../../AIDE/Specifications_BIP.rst:294
 msgid ""
 "For more detailed information see :ref:`Clarifier Design "
 "<title_Clarifier_Design>`. The clarifier (see "
-":numref:`figure_spec_clarifierElevation`) contains three separate processes:"
-" filtration in the floc filter, sedimentation in the plate settlers, and "
-"consolidation in the floc hopper."
+":numref:`figure_spec_clarifierElevation`) contains three separate "
+"processes: filtration in the floc filter, sedimentation in the plate "
+"settlers, and consolidation in the floc hopper."
 msgstr ""
-"Para información más detallada, véase :ref:`Clarifier Design "
-"<title_Clarifier_Design>`. El clarificador (véase "
-":numref:`figure_spec_clarifierElevation`) contiene tres procesos separados: "
-"filtración en el filtro de flóculos, sedimentación en los sedimentadores de "
-"placas y consolidación en el tolva de lodos."
+"Para información más detallada, véase :ref:`Clarifier Design <title_Cl"
+"arifier_Design>`. El clarificador (véase :numref:`figure_spec_clarifie"
+"rElevation`) contiene tres procesos separados: filtración en el filtro"
+" de flóculos, sedimentación en las placas sedimentadoras y consolidaci"
+"ón en la tolva de lodos."
 
-#: ../../AIDE/Specifications_BIP.rst:297
+#: ../../AIDE/Specifications_BIP.rst:296
 msgid ""
-"The clarifier must be designed based on the coldest water temperature and "
-"based on the lowest density primary particles that will need to be captured."
-" Surface waters with high concentrations of dissolved organic matter and low"
-" concentrations of suspended solids produce low density flocs and thus the "
-"velocity gradient in the inlet manifold and jet reverser must be reduced. In"
-" some cases it may also be necessary to reduce the floc filter upflow "
-"velocity and plate settler capture velocity by increasing the clarifier plan"
-" view area."
+"The clarifier must be designed based on the coldest water temperature and"
+" based on the lowest density primary particles that will need to be "
+"captured. Surface waters with high concentrations of dissolved organic "
+"matter and low concentrations of suspended solids produce low density "
+"flocs and thus the velocity gradient in the inlet manifold and jet "
+"reverser must be reduced. In some cases it may also be necessary to "
+"reduce the floc filter upflow velocity and plate settler capture velocity"
+" by increasing the clarifier plan view area."
 msgstr ""
-"El clarificador debe diseñarse en función de la temperatura del agua más "
-"fría y de las partículas primarias de menor densidad que deberán ser "
-"capturadas. Las aguas superficiales con altas concentraciones de materia "
-"orgánica disuelta y bajas concentraciones de sólidos suspendidos producen "
-"flócs de baja densidad y, por tanto, el gradiente de velocidad en el "
-"manifold de entrada y el inversor del chorro debe reducirse. En algunos "
-"casos también puede ser necesario reducir la velocidad de filtro de flóculos"
-" de ascenso y la velocidad de captura placa sedimentadora aumentando el área"
-" de vista en plano del clarificador."
+"El clarificador debe diseñarse en función de la temperatura del agua m"
+"ás fría y de las partículas primarias de menor densidad que deberán se"
+"r capturadas. Las aguas superficiales con altas concentraciones de mat"
+"eria orgánica disuelta y bajas concentraciones de sólidos suspendidos "
+"producen flóculos de baja densidad y, por tanto, el gradiente de veloc"
+"idad en el manifold de entrada y el inversor del chorro debe reducirse"
+". En algunos casos también puede ser necesario reducir la velocidad de"
+"l filtro de flóculos ascendente del filtro de flóculos y la velocidad "
+"de captura de las placas sedimentadoras aumentando el área de vista en"
+" plano del clarificador."
 
-#: ../../AIDE/Specifications_BIP.rst:306
+#: ../../AIDE/Specifications_BIP.rst:305
 msgid "Clarifier Elevation view"
 msgstr "Vista de elevación del clarificador"
 
-#: ../../AIDE/Specifications_BIP.rst:306
+#: ../../AIDE/Specifications_BIP.rst:305
 msgid ""
-"Elevation view of a clarifier bay showing location of the floc filter, plate"
-" settlers, and floc hopper."
+"Elevation view of a clarifier bay showing location of the floc filter, "
+"plate settlers, and floc hopper."
 msgstr ""
-"Vista en elevación de una bahía clarificadora que muestra la ubicación de la"
-" filtro de flóculos, los sedimentadores de placas y tolva de lodos."
+"Vista en elevación de una celda de clarificación que muestra la ubicación"
+" del filtro de flóculos, las placas sedimentadoras y la tolva de lodos."
 
-#: ../../AIDE/Specifications_BIP.rst:308
+#: ../../AIDE/Specifications_BIP.rst:307
 msgid ""
 "The clarifier may have multiple bays (see "
-":numref:`figure_clarifier_with_4_bays`) that work in parallel to treat the "
-"required plant flow."
+":numref:`figure_clarifier_with_4_bays`) that work in parallel to treat "
+"the required plant flow."
 msgstr ""
-"El clarificador puede tener varias bahías (véase "
-":numref:`figure_clarifier_with_4_bays`) que trabajan en paralelo para tratar"
-" el caudal necesario de la planta."
+"El clarificador puede tener varias celdas de clarificación (véase "
+":numref:`figure_clarifier_with_4_bays`) que trabajan en paralelo para "
+"tratar el caudal necesario de la planta."
 
-#: ../../AIDE/Specifications_BIP.rst:318
+#: ../../AIDE/Specifications_BIP.rst:317
 msgid "Clarifier showing 4 bays"
-msgstr "Clarificador que muestra 4 bahías"
+msgstr "Clarificador que muestra 4 celdas de clarificación"
 
-#: ../../AIDE/Specifications_BIP.rst:318
+#: ../../AIDE/Specifications_BIP.rst:317
 msgid ""
-"Clarifier with four bays. Each bay has its own inlet, outlet, floc filter, "
-"plate settlers, and floc hopper so that a bay can be taken offline while the"
-" other bays continue to operate."
+"Clarifier with four bays. Each bay has its own inlet, outlet, floc "
+"filter, plate settlers, and floc hopper so that a bay can be taken "
+"offline while the other bays continue to operate."
 msgstr ""
-"Clarificador con cuatro bahías. Cada bahía tiene su propia entrada, salida, "
-"filtro de flóculos, sedimentadores de placas y tolva de lodos para que una "
-"bahía pueda estar fuera de servicio mientras las otras bahías continúan "
-"funcionando."
+"Clarificador con cuatro celdas de clarificación. Cada celda de "
+"clarificación tiene su propia entrada, salida, filtro de flóculos, placas"
+" sedimentadoras y tolva de lodos para que una celda de clarificación "
+"pueda estar fuera de servicio mientras las otras celdas de clarificación "
+"continúan funcionando."
 
-#: ../../AIDE/Specifications_BIP.rst:323
-msgid "The high-rate, vertical flow clarifier is designed with the following goals:"
+#: ../../AIDE/Specifications_BIP.rst:322
+msgid ""
+"The high-rate, vertical flow clarifier is designed with the following "
+"goals:"
 msgstr ""
-"El clarificador de flujo vertical de alta velocidad está diseñado con los "
+"El clarificador de flujo vertical de alta tasa está diseñado con los "
 "siguientes objetivos:"
 
-#: ../../AIDE/Specifications_BIP.rst:325
+#: ../../AIDE/Specifications_BIP.rst:324
 msgid ""
-"To deliver flocs to the clarifier bay without breaking them into pieces with"
-" terminal velocities below the capture velocity of the plate settlers. This "
-"sets the maximum velocity gradient for the transfer of the flocs from the "
-"flocculator to the floc filter in the clarifier bay. The maximum velocity "
-"gradient shall be less than 250 Hz. Lower values will be required for raw "
-"waters with high concentrations of dissolved organic matter."
+"To deliver flocs to the clarifier bay without breaking them into pieces "
+"with terminal velocities below the capture velocity of the plate "
+"settlers. This sets the maximum velocity gradient for the transfer of the"
+" flocs from the flocculator to the floc filter in the clarifier bay. The "
+"maximum velocity gradient shall be less than 250 Hz. Lower values will be"
+" required for raw waters with high concentrations of dissolved organic "
+"matter."
 msgstr ""
-"Suministrar los flócs a la bahía clarificadora sin romperlos en pedazos con "
-"velocidades terminales inferiores a la velocidad de captura de los "
-"sedimentadores de placas. Esto establece el gradiente máximo de velocidad "
-"para la transferencia de los flócs desde el floculador hasta la filtro de "
-"flóculos en la bahía clarificadora. El gradiente máximo de velocidad será "
-"menor de 250 Hz. Se requerirán valores más bajos para aguas crudas con altas"
-" concentraciones de materia orgánica disuelta."
+"Transportar los flóculos a la celda de clarificación sin romperlos en "
+"fragmentos con velocidades terminales inferiores a la velocidad de cap"
+"tura de las placas sedimentadoras. Esto establece el gradiente máximo "
+"de velocidad para la transferencia de los flóculos desde el floculador"
+" hasta el filtro de flóculos en la celda de clarificación. El gradient"
+"e máximo de velocidad será menor de 250 Hz. Se requerirán valores más "
+"bajos para aguas crudas con altas concentraciones de materia orgánica "
+"disuelta."
 
-#: ../../AIDE/Specifications_BIP.rst:327
+#: ../../AIDE/Specifications_BIP.rst:326
 msgid ""
 "To provide a mechanism for the operator to dump poorly flocculated water "
 "before it enters the clarifier. This is important to reduce the recovery "
 "time when there is a flocculation failure."
 msgstr ""
-"Proporcionar un mecanismo para que el operador vacie agua mal floculada "
-"antes de que entre en el clarificador. Esto es importante para reducir el "
-"tiempo de recuperación cuando hay un fallo de floculación."
+"Proporcionar un mecanismo para que el operador descargue el agua mal "
+"floculada antes de que entre en el clarificador. Esto es importante para "
+"reducir el tiempo de recuperación cuando hay un fallo de floculación."
 
-#: ../../AIDE/Specifications_BIP.rst:329
+#: ../../AIDE/Specifications_BIP.rst:328
 msgid ""
-"To produce a stable floc filter (fluidized suspension of flocs) that reduces"
-" the clarified water turbidity."
+"To produce a stable floc filter (fluidized suspension of flocs) that "
+"reduces the clarified water turbidity."
 msgstr ""
-"Para producir una filtro de flóculos estable (suspensión fluidizada de "
-"flocos) que reduzca la turbidez agua clarificada ."
+"Producir un filtro de flóculos estable (suspensión fluidizada de "
+"flóculos) que reduzca la turbiedad del agua clarificada."
 
-#: ../../AIDE/Specifications_BIP.rst:331
-msgid "To provide evenly distributed low-velocity flow through the plate settlers."
-msgstr ""
-"Proporcionar un flujo uniformemente distribuido a baja velocidad a través de"
-" los sedimentadores de placas."
-
-#: ../../AIDE/Specifications_BIP.rst:333
+#: ../../AIDE/Specifications_BIP.rst:330
 msgid ""
-"To prevent accumulation of sludge that would tend to become anaerobic and "
-"release both dissolved organics (taste and odor issues) and methane bubbles "
-"that would carry flocs to the top of the clarifier."
+"To provide evenly distributed low-velocity flow through the plate "
+"settlers."
 msgstr ""
-"Para evitar la acumulación de lodos que tenderían a volverse anaeróbicos y "
-"liberarían tanto orgánicos disueltos (problemas de sabor y olor) como "
-"burbujas de metano que llevarían los flócs a la parte superior del "
-"clarificador."
+"Proporcionar un flujo uniformemente distribuido a baja velocidad a través"
+" de las placas sedimentadoras."
 
-#: ../../AIDE/Specifications_BIP.rst:335
+#: ../../AIDE/Specifications_BIP.rst:332
+msgid ""
+"To prevent accumulation of sludge that would tend to become anaerobic and"
+" release both dissolved organics (taste and odor issues) and methane "
+"bubbles that would carry flocs to the top of the clarifier."
+msgstr ""
+"Evitar la acumulación de lodos que tenderían a volverse anaeróbicos y a "
+"liberar tanto compuestos orgánicos disueltos (que causan problemas de "
+"sabor y olor) como burbujas de metano que transportarían flóculos a la "
+"parte superior del clarificador."
+
+#: ../../AIDE/Specifications_BIP.rst:334
 msgid "To remove the solids without requiring power or moving mechanical parts."
 msgstr ""
 "Para eliminar los sólidos sin necesidad de energía ni piezas mecánicas "
 "móviles."
 
-#: ../../AIDE/Specifications_BIP.rst:337
+#: ../../AIDE/Specifications_BIP.rst:336
 msgid "To ensure easy operation and maintenance."
 msgstr "Para garantizar una operación y mantenimiento sencillos."
 
-#: ../../AIDE/Specifications_BIP.rst:339
+#: ../../AIDE/Specifications_BIP.rst:338
 msgid ""
-"To be able to take any clarifier bay offline for maintenance while the other"
-" clarifier bays continue to operate."
+"To be able to take any clarifier bay offline for maintenance while the "
+"other clarifier bays continue to operate."
 msgstr ""
-"Poder desconectar cualquier bahía de clarificadores para mantenimiento "
+"Poder desconectar cualquier celda de clarificación para mantenimiento "
 "mientras las otras siguen funcionando."
 
-#: ../../AIDE/Specifications_BIP.rst:341
+#: ../../AIDE/Specifications_BIP.rst:340
 msgid ""
-"To be able to refill a clarifier bay with clarified water for rapid return "
-"to service."
+"To be able to refill a clarifier bay with clarified water for rapid "
+"return to service."
 msgstr ""
-"Poder rellenar una bahía de clarificadores con agua clarificada para una "
+"Poder rellenar una celda de clarificación con agua clarificada para una "
 "rápida devolución al servicio."
 
-#: ../../AIDE/Specifications_BIP.rst:345
+#: ../../AIDE/Specifications_BIP.rst:344
 msgid "Inlet Channel"
 msgstr "Canal de entrada"
 
-#: ../../AIDE/Specifications_BIP.rst:347
+#: ../../AIDE/Specifications_BIP.rst:346
 msgid ""
-"The inlet channel (see :numref:`figure_spec_ClarifierInletOutletHydraulics`)"
-" is designed to have a velocity head that is very small compared with the "
-"head loss in the outlet manifold orifices to achieve uniform flow "
-"distribution between clarifier bays. The inlet channel is sloped up in the "
-"direction of flow to maintain relatively uniform velocity for improved flow "
-"distribution and to reduce floc deposition in the channel."
+"The inlet channel (see "
+":numref:`figure_spec_ClarifierInletOutletHydraulics`) is designed to have"
+" a velocity head that is very small compared with the head loss in the "
+"outlet manifold orifices to achieve uniform flow distribution between "
+"clarifier bays. The inlet channel is sloped up in the direction of flow "
+"to maintain relatively uniform velocity for improved flow distribution "
+"and to reduce floc deposition in the channel."
 msgstr ""
 "El canal de entrada (véase "
 ":numref:`figure_spec_ClarifierInletOutletHydraulics`) está diseñado para "
-"tener una altura de velocidad muy pequeña en comparación con la pérdida de "
-"carga en los orificios del colector de salida, para lograr una distribución "
-"uniforme del flujo entre las bahías de clarificadores. El canal de entrada "
-"está inclinado hacia arriba en la dirección del flujo para mantener una "
-"velocidad relativamente uniforme, mejorando la distribución del flujo y "
-"reduciendo la deposición de flóclos en el canal."
+"tener una altura de velocidad muy pequeña en comparación con la pérdida "
+"de carga en los orificios del colector de salida, para lograr una "
+"distribución uniforme del flujo entre las celdas de clarificación. El "
+"canal de entrada está inclinado hacia arriba en la dirección del flujo "
+"para mantener una velocidad relativamente uniforme, mejorando la "
+"distribución del flujo y reduciendo la deposición de flóculos en el "
+"canal."
 
-#: ../../AIDE/Specifications_BIP.rst:356
+#: ../../AIDE/Specifications_BIP.rst:355
 msgid "Clarifier Inlet Outlet Hydraulics"
-msgstr "Hidráulica de salida de entrada del clarificador"
+msgstr "Hidráulica de entrada y salida del clarificador"
 
-#: ../../AIDE/Specifications_BIP.rst:356
+#: ../../AIDE/Specifications_BIP.rst:355
 msgid ""
 "Flocculated water flows from the inlet channel to the inlet manifold and "
-"then through the diffusers, jet reverser, floc filter, and plate settlers. "
-"Clarified water flows into the outlet manifold, the collector channel, "
-"across the outlet weir, and into the outlet channel."
+"then through the diffusers, jet reverser, floc filter, and plate "
+"settlers. Clarified water flows into the outlet manifold, the collector "
+"channel, across the outlet weir, and into the outlet channel."
 msgstr ""
 "El agua floculada fluye desde el canal de entrada hacia el manifold de "
-"entrada y luego a través de los difusores, el inversor de chorro, el filtro "
-"de flóculos y los sedimentadores de placas. agua clarificada fluye hacia el "
-"colector de salida, el canal del colector, a través del azud de salida y "
-"hacia el canal de salida."
+"entrada y luego a través de los difusores, el inversor de chorro, el "
+"filtro de flóculos y las placas sedimentadoras. El agua clarificada fluye"
+" hacia el colector de salida, el canal del colector, a través del azud de"
+" salida y hacia el canal de salida."
 
-#: ../../AIDE/Specifications_BIP.rst:359
+#: ../../AIDE/Specifications_BIP.rst:358
 msgid "Inlet Manifold"
 msgstr "Colector de entrada"
 
-#: ../../AIDE/Specifications_BIP.rst:361
+#: ../../AIDE/Specifications_BIP.rst:360
 msgid ""
-"Flocculated water enters a pipe in the bottom of the inlet channel. Water "
-"flows down the pipe, through a 90-degree elbow, into the inlet manifold. "
-"Water exits the inlet manifold through a series of orifices and diffusers in"
-" the bottom of the pipe. The end of the inlet manifold is capped. The "
-"minimum diameter of the inlet manifold is set by the velocity gradient "
-"downstream of the 90-degree elbow (see Equation "
+"Flocculated water enters a pipe in the bottom of the inlet channel. Water"
+" flows down the pipe, through a 90-degree elbow, into the inlet manifold."
+" Water exits the inlet manifold through a series of orifices and "
+"diffusers in the bottom of the pipe. The end of the inlet manifold is "
+"capped. The minimum diameter of the inlet manifold is set by the velocity"
+" gradient downstream of the 90-degree elbow (see Equation "
 ":eq:`D_pipe_min_of_K_and_jet_G_max`)."
 msgstr ""
-"El agua floculada entra en una tubería en el fondo del canal de entrada. El "
-"agua fluye por la tubería, a través de un codo de 90 grados, hacia el "
-"manifold de entrada. El agua sale del manifold de entrada a través de una "
-"serie de orificios y difusores en el fondo de la tubería. El extremo del "
-"manifold de entrada está tapado. El diámetro mínimo del manifold de entrada "
-"se determina por el gradiente de velocidad aguas abajo del codo de 90 grados"
-" (véase la Ecuación :eq:`D_pipe_min_of_K_and_jet_G_max`)."
+"El agua floculada entra en una tubería en el fondo del canal de entrada. "
+"El agua fluye por la tubería, a través de un codo de 90 grados, hacia el "
+"manifold de entrada. El agua sale del manifold de entrada a través de una"
+" serie de orificios y difusores en el fondo de la tubería. El extremo del"
+" manifold de entrada está tapado. El diámetro mínimo del manifold de "
+"entrada se determina por el gradiente de velocidad aguas abajo del codo "
+"de 90 grados (véase la Ecuación :eq:`D_pipe_min_of_K_and_jet_G_max`)."
 
-#: ../../AIDE/Specifications_BIP.rst:363
+#: ../../AIDE/Specifications_BIP.rst:362
 msgid ""
-"Achieving reasonable flow distribution between diffusers may require a flow "
-"equalization chamber inside the inlet manifold (see "
+"Achieving reasonable flow distribution between diffusers may require a "
+"flow equalization chamber inside the inlet manifold (see "
 ":numref:`figure_2stageInletManifold`)."
 msgstr ""
-"Lograr una distribución razonable del flujo entre difusores puede requerir "
-"una cámara de igualación de flujo dentro del manifold de entrada (véase "
-":numref:`figure_2stageInletManifold`)."
+"Lograr una distribución razonable del flujo entre difusores puede "
+"requerir una cámara de igualación de flujo dentro del manifold de entrada"
+" (véase :numref:`figure_2stageInletManifold`)."
 
-#: ../../AIDE/Specifications_BIP.rst:366
+#: ../../AIDE/Specifications_BIP.rst:365
 msgid "Diffusers"
 msgstr "Difusores"
 
-#: ../../AIDE/Specifications_BIP.rst:368
+#: ../../AIDE/Specifications_BIP.rst:367
 msgid ""
-"The orifices and diffusers point down to the bottom of the clarifier bay and"
-" extend along the length of the pipe at regular intervals to ensure that "
-"water is evenly distributed within the bay. Diffusers are designed to ensure"
-" that the jet exiting the jet reverser has a maximum velocity gradient that "
-"is less than the design constraint to prevent excessive floc breakup (see "
-"Equation :eq:`planejet_v_max_of_q`)."
+"The orifices and diffusers point down to the bottom of the clarifier bay "
+"and extend along the length of the pipe at regular intervals to ensure "
+"that water is evenly distributed within the bay. Diffusers are designed "
+"to ensure that the jet exiting the jet reverser has a maximum velocity "
+"gradient that is less than the design constraint to prevent excessive "
+"floc breakup (see Equation :eq:`planejet_v_max_of_q`)."
 msgstr ""
-"Los orificios y difusores apuntan hacia el fondo de la bahía clarificadora y"
-" se extienden a lo largo de la tubería a intervalos regulares para asegurar "
-"que el agua se distribuya uniformemente dentro de la bahía. Los difusores "
-"están diseñados para asegurar que el chorro que sale del inversor del chorro"
-" tenga un gradiente de velocidad máximo menor que la restricción de diseño "
-"para evitar una ruptura excesiva de flócs (véase la Ecuación "
+"Los orificios y difusores apuntan hacia el fondo de la celda de "
+"clarificación y se extienden a lo largo de la tubería a intervalos "
+"regulares para asegurar que el agua se distribuya uniformemente dentro de"
+" la celda de clarificación. Los difusores están diseñados para asegurar "
+"que el chorro que sale del inversor del chorro tenga un gradiente de "
+"velocidad máximo menor que la restricción de diseño para evitar una "
+"ruptura excesiva de flóculos (véase la Ecuación "
 ":eq:`planejet_v_max_of_q`)."
 
-#: ../../AIDE/Specifications_BIP.rst:370
+#: ../../AIDE/Specifications_BIP.rst:369
 msgid ""
-"Diffusers are shaped so that one end is molded to be a reduced diameter that"
-" fits into the influent manifold port, and the other end is deformed to the "
-"shape of a rectangle (:numref:`figure_spec_diffuser_dimensions`). This "
-"deformation is done to create a line jet entering the jet reverser in the "
-"bottom of the clarifier bay and to enhance flow distribution by maximizing "
-"the jet velocity given the constraints of Equation "
+"Diffusers are shaped so that one end is molded to be a reduced diameter "
+"that fits into the influent manifold port, and the other end is deformed "
+"to the shape of a rectangle (:numref:`figure_spec_diffuser_dimensions`). "
+"This deformation is done to create a line jet entering the jet reverser "
+"in the bottom of the clarifier bay and to enhance flow distribution by "
+"maximizing the jet velocity given the constraints of Equation "
 ":eq:`planejet_v_max_of_q`."
 msgstr ""
-"Los difusores están moldeados de modo que un extremo se moldea de diámetro "
-"reducido que encajaría en el puerto influyente del varietor, y el otro "
-"extremo se deforme con la forma de un rectángulo "
-"(:numref:`figure_spec_diffuser_dimensions`). Esta deformación se realiza "
-"para crear un chorro de línea que entra en el inversor del chorro en el "
-"fondo de la bahía del clarificador y para mejorar la distribución del flujo "
-"maximizando la velocidad del chorro dadas las restricciones de la ecuación "
-":eq:`planejet_v_max_of_q`."
+"Los difusores están moldeados de modo que un extremo se moldea de diám"
+"etro reducido que encajaría en el puerto del manifold de entrada, y el"
+" otro extremo se deforme con la forma de un rectángulo (:numref:`figur"
+"e_spec_diffuser_dimensions`). Esta deformación se realiza para crear u"
+"n chorro de línea que entra en el inversor del chorro en el fondo de l"
+"a celda de clarificación y para mejorar la distribución del flujo maxi"
+"mizando la velocidad del chorro dadas las restricciones de la ecuación"
+" :eq:`planejet_v_max_of_q`."
 
-#: ../../AIDE/Specifications_BIP.rst:379
+#: ../../AIDE/Specifications_BIP.rst:378
 msgid "Diffuser dimension definition"
-msgstr "Definición de dimensión del difusor"
+msgstr "Definición de las dimensiones del difusor"
 
-#: ../../AIDE/Specifications_BIP.rst:379
+#: ../../AIDE/Specifications_BIP.rst:378
 msgid ""
-"Dimensions and geometry of a diffuser. The first image at the left shows a "
-"view of a diffuser from the end of a clarifier bay. The second image shows a"
-" view of a diffuser from the side of a clarifier bay."
+"Dimensions and geometry of a diffuser. The first image at the left shows "
+"a view of a diffuser from the end of a clarifier bay. The second image "
+"shows a view of a diffuser from the side of a clarifier bay."
 msgstr ""
 "Dimensiones y geometría de un difusor. La primera imagen a la izquierda "
-"muestra una vista de un difusor desde el extremo de una bahía clarificadora."
-" La segunda imagen muestra una vista de un difusor desde el lateral de una "
-"bahía clarificadora."
+"muestra una vista de un difusor desde el extremo de una celda de "
+"clarificación. La segunda imagen muestra una vista de un difusor desde el"
+" lateral de una celda de clarificación."
 
-#: ../../AIDE/Specifications_BIP.rst:382
+#: ../../AIDE/Specifications_BIP.rst:381
 msgid "Jet Reverser"
 msgstr "Inversor de chorro"
 
-#: ../../AIDE/Specifications_BIP.rst:384
+#: ../../AIDE/Specifications_BIP.rst:383
 msgid ""
-"The jet reverser consists of a longitudinally-cut half-pipe that is laid in "
-"the bottom of the bay (see :numref:`figure_spec_clarifierEndView`). It "
-"functions as a way to keep flocs suspended in the clarifier by ensuring that"
-" any sludge that settles will be propelled back up by the force of the "
-"diffuser jet."
+"The jet reverser consists of a longitudinally-cut half-pipe that is laid "
+"in the bottom of the bay (see :numref:`figure_spec_clarifierEndView`). It"
+" functions as a way to keep flocs suspended in the clarifier by ensuring "
+"that any sludge that settles will be propelled back up by the force of "
+"the diffuser jet."
 msgstr ""
-"El inversor de chorro consiste en un medio tubo cortado longitudinalmente "
-"que se coloca en el fondo de la bahía (véase "
-":numref:`figure_spec_clarifierEndView`). Funciona como una forma de mantener"
-" los flocos suspendidos en el clarificador asegurando que cualquier lodo que"
-" se asiente sea impulsado hacia arriba por la fuerza del chorro difusor."
+"El inversor de chorro consiste en un medio tubo cortado longitudinalme"
+"nte que se coloca en el fondo de la celda de clarificación (véase :num"
+"ref:`figure_spec_clarifierEndView`). Funciona como una forma de manten"
+"er los flóculos suspendidos en el clarificador asegurando que cualquie"
+"r lodo que se sedimente sea impulsado hacia arriba por la fuerza del c"
+"horro difusor."
 
-#: ../../AIDE/Specifications_BIP.rst:386
+#: ../../AIDE/Specifications_BIP.rst:385
 msgid ""
 "The diffusers are offset from the jet reverser centerline. This is "
-"intentionally done to promote the resuspension of flocs, which form a floc "
-"filter for primary filtration."
+"intentionally done to promote the resuspension of flocs, which form a "
+"floc filter for primary filtration."
 msgstr ""
-"Los difusores están desplazados respecto a la línea central del inversor del"
-" chorro. Esto se hace intencionadamente para promover la resuspensión de los"
-" flocos, que forman un filtro de flóculos para la filtración primaria."
+"Los difusores están desplazados respecto a la línea central del inversor "
+"del chorro. Esto se hace intencionadamente para promover la resuspensión "
+"de los flóculos, que forman un filtro de flóculos para la filtración "
+"primaria."
 
-#: ../../AIDE/Specifications_BIP.rst:395
+#: ../../AIDE/Specifications_BIP.rst:394
 msgid "Clarifier showing jet reverser"
 msgstr "Clarificador que muestra inversor de chorro"
 
-#: ../../AIDE/Specifications_BIP.rst:395
+#: ../../AIDE/Specifications_BIP.rst:394
 msgid ""
 "End view of a clarifier bay showing the sloped bottom, inlet manifold, "
-"diffusers, and jet reverser. The diffusers direct a jet of water into one "
-"side of the jet reverser."
+"diffusers, and jet reverser. The diffusers direct a jet of water into one"
+" side of the jet reverser."
 msgstr ""
-"Vista final de una bahía clarificadora mostrando el fondo inclinado, "
-"manifold de entrada, difusores y inversor de chorro. Los difusores dirigen "
-"un chorro de agua hacia un lado del inversor de chorro."
+"Vista del extremo de una celda de clarificación que muestra el fondo "
+"inclinado, el manifold de entrada, los difusores y el inversor de chorro."
+" Los difusores dirigen un chorro de agua hacia un lado del inversor de "
+"chorro."
 
-#: ../../AIDE/Specifications_BIP.rst:398
+#: ../../AIDE/Specifications_BIP.rst:397
 msgid "Floc Filter (Floc Blanket)"
 msgstr "Filtro de flóculos (manto de flóculos)"
 
-#: ../../AIDE/Specifications_BIP.rst:400
+#: ../../AIDE/Specifications_BIP.rst:399
 msgid ""
-"Floc filters significantly improve the performance of a clarifier and reduce"
-" the clarified water turbidity."
+"Floc filters significantly improve the performance of a clarifier and "
+"reduce the clarified water turbidity."
 msgstr ""
-"Los filtros de flóculo mejoran significativamente el rendimiento de un "
-"clarificador y reducen la agua clarificada turbidez."
+"Los filtros de flóculos mejoran significativamente el rendimiento de un "
+"clarificador y reducen la turbiedad del agua clarificada."
 
-#: ../../AIDE/Specifications_BIP.rst:402
+#: ../../AIDE/Specifications_BIP.rst:401
 msgid ""
 "The line jet from the diffusers enters the jet reverser to force flow up "
 "through the clarifier bay. The vertical upward jet momentum is used to "
-"resuspend flocs that have settled to the bottom of the clarifier bay. The "
-"resuspended flocs form a fluidized bed which is a floc filter. Small "
+"resuspend flocs that have settled to the bottom of the clarifier bay. The"
+" resuspended flocs form a fluidized bed which is a floc filter. Small "
 "particles are captured by the flocs in the floc filter as the small "
-"particles flow into a floc.  The bed is fluidized because flocs are kept in "
-"suspension by the upflowing water."
+"particles flow into a floc.  The bed is fluidized because flocs are kept "
+"in suspension by the upflowing water."
 msgstr ""
-"El chorro de línea de los difusores entra en el inversor del chorro para "
-"forzar el flujo hacia arriba a través de la bahía del clarificador. El "
-"momento vertical hacia arriba del chorro se utiliza para resuspender los "
-"flócs que se han depositado en el fondo de la bahía del clarificador. Los "
-"flócs resuspendidos forman un lecho fluidizado que es un filtro de flóculos."
-" Las partículas pequeñas son capturadas por los flócs en el filtro de "
-"flóculos mientras fluyen hacia un flóc. El lecho se fluidiza porque los "
-"flócs se mantienen en suspensión por el agua que fluye hacia arriba."
+"El chorro de línea de los difusores entra en el inversor del chorro pa"
+"ra forzar el flujo hacia arriba a través de la celda de clarificación."
+" El momento vertical hacia arriba del chorro se utiliza para resuspend"
+"er los flóculos que se han depositado en el fondo de la celda de clari"
+"ficación. Los flóculos resuspendidos forman un lecho fluidizado que es"
+" un filtro de flóculos. Las partículas pequeñas son capturadas por los"
+" flóculos en el filtro de flóculos mientras fluyen hacia un flóculo. E"
+"l lecho se fluidiza porque los flóculos se mantienen en suspensión por"
+" el agua que fluye hacia arriba."
 
-#: ../../AIDE/Specifications_BIP.rst:404
+#: ../../AIDE/Specifications_BIP.rst:403
 msgid ""
 "Clarifiers use an upflow velocity of 1 mm/s in the floc filter. This "
-"velocity is measured above the sloped bottom in the section of the clarifier"
-" bay with vertical walls."
+"velocity is measured above the sloped bottom in the section of the "
+"clarifier bay with vertical walls."
 msgstr ""
-"Los clarificadores utilizan una velocidad de flujo ascendente de 1 mm/s en "
-"el filtro de flóculos. Esta velocidad se mide por encima del fondo inclinado"
-" en la sección de la bahía del clarificador con paredes verticales."
+"Los clarificadores utilizan una velocidad de flujo ascendente de 1 mm/s "
+"en el filtro de flóculos. Esta velocidad se mide por encima del fondo "
+"inclinado en la sección de la celda de clarificación con paredes "
+"verticales."
 
-#: ../../AIDE/Specifications_BIP.rst:406
+#: ../../AIDE/Specifications_BIP.rst:405
 msgid "For a floc filter to form, a clarifier requires that:"
-msgstr "Para que se forme un filtro de flóculos , un clarificador requiere que:"
+msgstr "Para que se forme un filtro de flóculos, el clarificador requiere que:"
 
-#: ../../AIDE/Specifications_BIP.rst:408
+#: ../../AIDE/Specifications_BIP.rst:407
 msgid ""
 "The plate settlers capture small flocs and cause them to aggregate into "
-"larger flocs as they avalanche back into the floc filter zone. The increased"
-" terminal velocity of the larger flocs enables them to create a stable floc "
-"filter."
+"larger flocs as they avalanche back into the floc filter zone. The "
+"increased terminal velocity of the larger flocs enables them to create a "
+"stable floc filter."
 msgstr ""
-"Los asentadores de placas capturan pequeños flócs y hacen que se agreguen en"
-" flócs más grandes mientras avalanchan de nuevo a la zona filtro de flóculos"
-" . El aumento de la velocidad terminal de los flócs más grandes les permite "
-"crear un filtro de flóculos estable."
+"Las placas sedimentadoras capturan flóculos pequeños y hacen que se "
+"agrupen en flóculos mayores mientras descienden nuevamente hacia la zona "
+"del filtro de flóculos. El aumento de la velocidad terminal de los "
+"flóculos mayores les permite crear un filtro de flóculos estable."
 
-#: ../../AIDE/Specifications_BIP.rst:410
+#: ../../AIDE/Specifications_BIP.rst:409
 msgid ""
-"All settled flocs are resuspended by the vertical jet of water exiting the "
-"jet reverser."
+"All settled flocs are resuspended by the vertical jet of water exiting "
+"the jet reverser."
 msgstr ""
-"Todos los flócs sedimentados son resuspendidos por el chorro vertical de "
-"agua que sale del inversor del chorro."
+"Todos los flóculos sedimentados son resuspendidos por el chorro vertical "
+"de agua que sale del inversor del chorro."
 
-#: ../../AIDE/Specifications_BIP.rst:413
+#: ../../AIDE/Specifications_BIP.rst:412
 msgid "Sloped Bottom Geometry"
-msgstr "Geometría de fondo inclinado"
+msgstr "Geometría del fondo inclinado"
 
-#: ../../AIDE/Specifications_BIP.rst:415
+#: ../../AIDE/Specifications_BIP.rst:414
 msgid ""
-"The clarifier bottom geometry (see :numref:`figure_spec_clarifierEndView`) "
-"prevents sludge accumulation while also ensuring good flow distribution. The"
-" slope on either side of the diffusers is at a 50 degree angle above "
-"horizontal. The bottom geometry allows for smooth flow expansion to the "
-"entire plan view area of the bay, and ensures that all flocs that settle are"
-" transported to the jet reverser. The diffusers do not touch the bottom of "
-"the tank so that flocs on both sides of the diffuser can return to the jet "
-"reverser for resuspension. Thus, there is no accumulation of settled flocs "
-"in the main clarifier bays."
+"The clarifier bottom geometry (see "
+":numref:`figure_spec_clarifierEndView`) prevents sludge accumulation "
+"while also ensuring good flow distribution. The slope on either side of "
+"the diffusers is at a 50 degree angle above horizontal. The bottom "
+"geometry allows for smooth flow expansion to the entire plan view area of"
+" the bay, and ensures that all flocs that settle are transported to the "
+"jet reverser. The diffusers do not touch the bottom of the tank so that "
+"flocs on both sides of the diffuser can return to the jet reverser for "
+"resuspension. Thus, there is no accumulation of settled flocs in the main"
+" clarifier bays."
 msgstr ""
 "La geometría del fondo del clarificador (véase "
-":numref:`figure_spec_clarifierEndView`) previene la acumulación de lodos y "
-"también asegura una buena distribución del flujo. La pendiente a ambos lados"
-" de los difusores está en un ángulo de 50 grados sobre la horizontal. La "
-"geometría inferior permite una expansión suave del flujo en toda la zona de "
-"visión en planta de la bahía y asegura que todos los flócs que se asientan "
-"se transporten al inversor de chorro. Los difusores no tocan el fondo del "
-"tanque, por lo que los flócs a ambos lados del difusor pueden regresar al "
-"inversor de chorro para su resuspensión. Por tanto, no hay acumulación de "
-"flócs asentados en las bahías principales del clarificador."
+":numref:`figure_spec_clarifierEndView`) previene la acumulación de lodos "
+"y también asegura una buena distribución del flujo. La pendiente a ambos "
+"lados de los difusores está en un ángulo de 50 grados sobre la "
+"horizontal. La geometría inferior permite una expansión suave del flujo "
+"en toda la zona de superficie en planta de la celda de clarificación y "
+"asegura que todos los flóculos que sedimentan se transporten al inversor "
+"de chorro. Los difusores no tocan el fondo del tanque, por lo que los "
+"flóculos a ambos lados del difusor pueden regresar al inversor de chorro "
+"para su resuspensión. Por tanto, no hay acumulación de flóculos "
+"sedimentados en las celdas de clarificación principales del clarificador."
 
-#: ../../AIDE/Specifications_BIP.rst:418 ../../AIDE/Specifications_BIP.rst:431
-#: ../../AIDE/Specifications_BIP.rst:494
+#: ../../AIDE/Specifications_BIP.rst:417 ../../AIDE/Specifications_BIP.rst:430
+#: ../../AIDE/Specifications_BIP.rst:493
 msgid "Floc Hopper"
 msgstr "Tolva de lodos"
 
-#: ../../AIDE/Specifications_BIP.rst:420
+#: ../../AIDE/Specifications_BIP.rst:419
 msgid ""
-"The floc hopper (:numref:`figure_spec_flocHopper`) provides an opportunity "
-"for floc consolidation. The floc weir controls the depth of the floc filter "
-"because as the floc filter grows, it will eventually reach the top of the "
-"floc weir. Because flocs are more dense than water, the flocs “spill” over "
-"the edge of the floc weir which allows the floc filter to stay a constant "
-"height while sludge accumulates and consolidates in the floc hopper. "
-"Operators can use a flashlight to observe the floc filter moving into the "
-"lower end of the plate settlers indicating that the floc hopper is full. The"
-" sludge is drained from the floc hopper by opening a valve. The operator can"
-" observe that the sludge has completely drained from the floc hopper by the "
-"clarity of the water exiting from the drain valve."
+"The floc hopper (:numref:`figure_spec_flocHopper`) provides an "
+"opportunity for floc consolidation. The floc weir controls the depth of "
+"the floc filter because as the floc filter grows, it will eventually "
+"reach the top of the floc weir. Because flocs are more dense than water, "
+"the flocs “spill” over the edge of the floc weir which allows the floc "
+"filter to stay a constant height while sludge accumulates and "
+"consolidates in the floc hopper. Operators can use a flashlight to "
+"observe the floc filter moving into the lower end of the plate settlers "
+"indicating that the floc hopper is full. The sludge is drained from the "
+"floc hopper by opening a valve. The operator can observe that the sludge "
+"has completely drained from the floc hopper by the clarity of the water "
+"exiting from the drain valve."
 msgstr ""
-"El tolva de lodos (:numref:`figure_spec_flocHopper`) ofrece una oportunidad "
-"para la consolidación de flócs. El azud de flócs controla la profundidad del"
-" filtro de flóculos porque, a medida que el filtro de flóculos crece, "
-"eventualmente llegará a la parte superior del azud de floc. Como los flócs "
-"son más densos que el agua, estos \"se derraman\" por el borde del azud de "
-"flócs, lo que permite que el filtro de flóculos mantenga una altura "
-"constante mientras el lodo se acumula y se consolida en el tolva de lodos. "
-"Los operadores pueden usar una linterna para observar cómo el filtro de "
-"flóculos se mueve hacia el extremo inferior de los sedimentadores de placas,"
-" indicando que el tolva de lodos está lleno. El lodo se drena del tolva de "
-"lodos abriendo una válvula. El operador puede observar que el lodo se ha "
-"drenado completamente del tolva de lodos por la claridad del agua que sale "
-"del válvula de drenaje."
+"La tolva de lodos (:numref:`figure_spec_flocHopper`) permite para la "
+"consolidación de flóculos. El vertedero de flóculos controla la "
+"profundidad del filtro de flóculos porque, a medida que el filtro de "
+"flóculos crece, finalmente llegará a la parte superior del vertedero de "
+"flóculos. Como los flóculos son más densos que el agua, estos \"se "
+"derraman\" por el borde del azud de vertedero, lo que permite que el "
+"filtro de flóculos mantenga una altura constante mientras el lodo se "
+"acumula y se consolida en la tolva de lodos. Los operadores pueden usar "
+"una linterna para observar cómo el filtro de flóculos se mueve hacia el "
+"extremo inferior de las placas sedimentadoras, lo que indica que la tolva"
+" de lodos está llena. El lodo se drena de la tolva de lodos abriendo una "
+"válvula. El operador puede observar que el lodo se ha drenado "
+"completamente del tolva de lodos por la claridad del agua que sale de la "
+"válvula de drenaje."
 
-#: ../../AIDE/Specifications_BIP.rst:422
+#: ../../AIDE/Specifications_BIP.rst:421
 msgid ""
-"The floc hopper allows for a self-cleaning clarifier. Operators only have to"
-" clean the clarifier once every three to six months because there is no "
-"stagnant accumulation of anoxic sludge."
+"The floc hopper allows for a self-cleaning clarifier. Operators only have"
+" to clean the clarifier once every three to six months because there is "
+"no stagnant accumulation of anoxic sludge."
 msgstr ""
-"El tolva de lodos permite un clarificador autolimpiante. Los operadores solo"
-" tienen que limpiar el clarificador una vez cada tres a seis meses porque no"
-" hay acumulación estancada de lodos anóxicos."
+"La tolva de lodos permite que el clarificador sea autolimpiante. Los "
+"operadores solo tienen que limpiar el clarificador una vez cada tres a "
+"seis meses porque no hay acumulación estancada de lodos anóxicos."
 
-#: ../../AIDE/Specifications_BIP.rst:431
+#: ../../AIDE/Specifications_BIP.rst:430
 msgid ""
 "The floc hopper is located beneath the inlet and outlet channels. Flocs "
-"enter the hopper by flowing over the floc weir. Sludge is drained from the "
-"bottom of the hopper."
+"enter the hopper by flowing over the floc weir. Sludge is drained from "
+"the bottom of the hopper."
 msgstr ""
-"El tolva de lodos se encuentra debajo de los canales de entrada y salida. "
-"Los flócs entran en la tolva fluyendo sobre la trampa de flocs. El lodo se "
-"drena desde el fondo de la tolva."
+"La tolva de lodos se encuentra debajo de los canales de entrada y salida."
+" Los flóculos entran en la tolva al pasar sobre el vertedero de flóculos."
+" El lodo se drena desde el fondo de la tolva."
 
-#: ../../AIDE/Specifications_BIP.rst:434
+#: ../../AIDE/Specifications_BIP.rst:433
 msgid "Plate Settlers"
 msgstr "Placas sedimentadoras"
 
-#: ../../AIDE/Specifications_BIP.rst:436
+#: ../../AIDE/Specifications_BIP.rst:435
 msgid ""
-"After flowing through the floc filter, flocs reach the plate settlers. Plate"
-" settlers are sloped surfaces that provide additional settling area for "
-"flocs, thereby increasing the effective settling area of the clarifier "
-"without increasing the plan view area. AguaClara plate settlers are sloped "
-"at 60 degrees. The spacing between plates is 2.5 cm."
+"After flowing through the floc filter, flocs reach the plate settlers. "
+"Plate settlers are sloped surfaces that provide additional settling area "
+"for flocs, thereby increasing the effective settling area of the "
+"clarifier without increasing the plan view area. AguaClara plate settlers"
+" are sloped at 60 degrees. The spacing between plates is 2.5 cm."
 msgstr ""
-"Tras fluir a través del filtro de flóculos, los flócs llegan a los "
-"sedimentadores de placas. Los sedimentadores de placas son superficies "
-"inclinadas que proporcionan un área adicional de sedimentación para los "
-"floques, aumentando así el área efectiva de sedimentación del clarificador "
-"sin aumentar el área de vista en planta. Los sedimentadores de placas de "
-"AguaClara tienen una pendiente de 60 grados. El espacio entre placas es de "
-"2,5 cm."
+"Tras fluir a través del filtro de flóculos, los flóculos llegan a las "
+"placas sedimentadoras. Estas son superficies inclinadas que proporcionan "
+"un área adicional de sedimentación para los flóculos, aumentando así el "
+"área efectiva de sedimentación del clarificador sin aumentar el área en "
+"planta. Las placas sedimentadoras de AguaClara tienen una pendiente de 60"
+" grados. El espacio entre placas es de 2,5 cm."
 
-#: ../../AIDE/Specifications_BIP.rst:438
+#: ../../AIDE/Specifications_BIP.rst:437
 msgid ""
-"The plate settlers are made from clear polycarbonate sheets. The sheets are "
-"assembled in modules (see :numref:`figure_spec_plateSettlerModule`). The "
-"modules are light enough to be removed from the clarifier by hand. The plate"
-" settler modules are supported by ledges along the clarifier bay walls and "
-"by a PVC pipe frame."
+"The plate settlers are made from clear polycarbonate sheets. The sheets "
+"are assembled in modules (see :numref:`figure_spec_plateSettlerModule`). "
+"The modules are light enough to be removed from the clarifier by hand. "
+"The plate settler modules are supported by ledges along the clarifier bay"
+" walls and by a PVC pipe frame."
 msgstr ""
-"Los sedimentadores de placas están hechos de láminas de policarbonato "
+"Las placas sedimentadoras están hechas de láminas de policarbonato "
 "transparente. Las láminas se ensamblan en módulos (véase "
 ":numref:`figure_spec_plateSettlerModule`). Los módulos son lo "
-"suficientemente ligeros como para retirarse manualmente del clarificador. "
-"Los módulos placa sedimentadora están soportados por repisas a lo largo de "
-"las paredes del compartimento clarificador y por un marco de tubería de PVC."
+"suficientemente ligeros como para retirarse manualmente del clarificador."
+" Los módulos de placas sedimentadoras se apoyan en repisas a lo largo de "
+"las paredes del compartimento clarificador y por un marco de tubería de "
+"PVC."
 
-#: ../../AIDE/Specifications_BIP.rst:447
+#: ../../AIDE/Specifications_BIP.rst:446
 msgid "Plate settler module"
-msgstr "placa sedimentadora módulo"
+msgstr "Módulo de placas sedimentadoras"
 
-#: ../../AIDE/Specifications_BIP.rst:447
+#: ../../AIDE/Specifications_BIP.rst:446
 msgid "Plate settler module assembled from polycarbonate sheets and PVC piping."
 msgstr ""
-"placa sedimentadora módulo ensamblado con láminas de policarbonato y "
-"tuberías de PVC."
+"Módulo de placas sedimentadoras ensamblado con láminas de policarbonato y"
+" tuberías de PVC."
 
-#: ../../AIDE/Specifications_BIP.rst:452
+#: ../../AIDE/Specifications_BIP.rst:451
 msgid "Plate Settler Design Parameters"
-msgstr "placa sedimentadora Parámetros de diseño"
+msgstr "Parámetros de diseño de las placas sedimentadoras"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Parameter"
@@ -1574,11 +1608,11 @@ msgstr "Velocidad de flujo ascendente"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Floc blanket"
-msgstr "Manta Floc"
+msgstr "Manto de flóculos"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Plan view area of tank"
-msgstr "Área de vista en planta del tanque"
+msgstr "Área en planta del tanque"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "1 mm/s maximum value"
@@ -1590,7 +1624,7 @@ msgstr "Velocidad de captura"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Target turbidity"
-msgstr "Turbidez del objetivo"
+msgstr "Turbiedad objetivo"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Particle size distribution"
@@ -1610,7 +1644,7 @@ msgstr "Requisito de autolimpieza"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Plate settler length"
-msgstr "placa sedimentadora longitud"
+msgstr "Longitud de las placas sedimentadoras"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "60 deg"
@@ -1618,21 +1652,21 @@ msgstr "60 grados"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Plate spacing"
-msgstr "Espaciado de placas"
+msgstr "Separación entre placas"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Clogging and floc rollup constraints"
-msgstr "Restricciones de obstrucción y rollup de floc"
+msgstr "Restricciones por obstrucción y arrastre ascendente de flóculos"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "2.5 cm"
-msgstr ""
+msgstr "2,5 cm"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Upflow velocity, Capture velocity, Plate angle, Plate spacing"
 msgstr ""
-"Velocidad de subida, velocidad de captura, ángulo de placa, espaciado de "
-"placas"
+"Velocidad ascendente, velocidad de captura, ángulo de las placas y "
+"separación entre placas"
 
 #: ../../AIDE/Specifications_BIP.rst:1
 msgid "Tank depth"
@@ -1642,386 +1676,390 @@ msgstr "Profundidad del tanque"
 msgid "Calculated for each plant"
 msgstr "Calculado para cada planta"
 
-#: ../../AIDE/Specifications_BIP.rst:464
+#: ../../AIDE/Specifications_BIP.rst:463
 msgid "Submerged Outlet Manifold"
 msgstr "Colector de salida sumergido"
 
-#: ../../AIDE/Specifications_BIP.rst:466
+#: ../../AIDE/Specifications_BIP.rst:465
 msgid ""
 "The submerged outlet manifold, sometimes called a launder, collects "
-"clarified water from the top of the clarifier. It is a horizontal pipe that "
-"extends along the length of the clarifier bay and is located above the plate"
-" settlers but below the surface of the water. The submerged pipe has "
-"orifices drilled into its top; water enters the pipe through the orifices "
-"and the pipe leads out of the clarifier bay."
+"clarified water from the top of the clarifier. It is a horizontal pipe "
+"that extends along the length of the clarifier bay and is located above "
+"the plate settlers but below the surface of the water. The submerged pipe"
+" has orifices drilled into its top; water enters the pipe through the "
+"orifices and the pipe leads out of the clarifier bay."
 msgstr ""
-"El colector de salida sumergido, a veces llamado lavandería, recoge agua "
-"clarificada de la parte superior del clarificador. Es un tubo horizontal que"
-" se extiende a lo largo de la bahía del clarificador y está situado por "
-"encima de los sedimentadores de placas pero por debajo de la superficie del "
-"agua. El tubo sumergido tiene orificios perforados en su parte superior; el "
-"agua entra en el tubo a través de los orificios y el tubo sale desde la "
-"bahía del clarificador."
+"El colector de salida sumergido, a veces llamado canal colector, recoge "
+"agua clarificada de la parte superior del clarificador. Es un tubo "
+"horizontal que se extiende a lo largo de la celda de clarificación y está"
+" situado por encima de las placas sedimentadoras pero por debajo de la "
+"superficie del agua. El tubo sumergido tiene orificios perforados en su "
+"parte superior; el agua entra en el tubo a través de los orificios y el "
+"tubo sale desde la celda de clarificación."
 
-#: ../../AIDE/Specifications_BIP.rst:468
+#: ../../AIDE/Specifications_BIP.rst:467
 msgid ""
 "The outlet manifold is designed to generate 5 cm of head loss to ensure "
-"uniform flow distribution between clarifier bays and to have the majority of"
-" the head loss through the orifices to obtain uniform flow distribution "
-"between the orifices."
+"uniform flow distribution between clarifier bays and to have the majority"
+" of the head loss through the orifices to obtain uniform flow "
+"distribution between the orifices."
 msgstr ""
-"El colector de salida está diseñado para generar 5 cm de pérdida de carga "
-"para asegurar una distribución uniforme del flujo entre las bahías "
-"clarificadoras y para que la mayor parte del pérdida de carga pase por los "
-"orificios y así obtener una distribución uniforme del flujo entre los "
-"orificios."
+"El colector de salida está diseñado para generar 5 cm de pérdida de carga"
+" para asegurar una distribución uniforme del flujo entre las celdas de "
+"clarificación del clarificador y para que la mayor parte de la pérdida de"
+" carga ocurra en los orificios y así obtener una distribución uniforme "
+"del flujo entre los orificios."
 
-#: ../../AIDE/Specifications_BIP.rst:471
+#: ../../AIDE/Specifications_BIP.rst:470
 msgid "Outlet Weir"
-msgstr "Vertedera"
+msgstr "Vertedero de salida"
 
-#: ../../AIDE/Specifications_BIP.rst:473
+#: ../../AIDE/Specifications_BIP.rst:472
 msgid ""
-"The submerged outlet manifold transports water from the clarifier bay to a "
-"collector channel that runs perpendicular to the clarifier bays (see "
-":numref:`figure_spec_diffuser_dimensions`). All of the clarifier bay outlet "
-"manifolds deliver the clarified water to the collector channel. Water leaves"
-" the collector channel by flowing over the outlet weir. The elevation of the"
-" outlet weir controls the water levels in the clarifier and in the "
-"flocculator. The outlet weir does not need to be adjustable and small "
-"elevation errors are accommodated because water can flow in the collector "
-"channel with less head loss than the orifice head loss."
+"The submerged outlet manifold transports water from the clarifier bay to "
+"a collector channel that runs perpendicular to the clarifier bays (see "
+":numref:`figure_spec_diffuser_dimensions`). All of the clarifier bay "
+"outlet manifolds deliver the clarified water to the collector channel. "
+"Water leaves the collector channel by flowing over the outlet weir. The "
+"elevation of the outlet weir controls the water levels in the clarifier "
+"and in the flocculator. The outlet weir does not need to be adjustable "
+"and small elevation errors are accommodated because water can flow in the"
+" collector channel with less head loss than the orifice head loss."
 msgstr ""
-"El colector de salida sumergido transporta agua desde la bahía del "
-"clarificador a un canal colector que corre perpendicular a las bahías del "
-"clarificador (véase :numref:`figure_spec_diffuser_dimensions`). Todos los "
-"colectores de salida de la bahía del clarificador entregan el agua "
-"clarificada al canal del colector. El agua sale del canal colector fluyendo "
-"sobre la presa de salida. La elevación de la presa de salida controla los "
-"niveles de agua en el clarificador y en el floculador. La presa de salida no"
-" necesita ser ajustable y se acomodan pequeños errores de elevación porque "
-"el agua puede fluir en el canal del colector con menos pérdida de carga que "
-"la pérdida de carga del orificio."
+"El colector de salida sumergido transporta agua desde la celda de "
+"clarificación hasta un canal colector perpendicular a las celdas de "
+"clarificación (véase :numref:`figure_spec_diffuser_dimensions`). Todos "
+"los colectores de salida de la celda de clarificación entregan el agua "
+"clarificada al canal del colector. El agua sale del canal colector "
+"fluyendo sobre la presa de salida. La elevación de la presa de salida "
+"controla los niveles de agua en el clarificador y en el floculador. La "
+"presa de salida no necesita ser ajustable y se acomodan pequeños errores "
+"de elevación porque el agua puede fluir en el canal del colector con "
+"menos pérdida de carga que la pérdida de carga del orificio."
 
-#: ../../AIDE/Specifications_BIP.rst:475
+#: ../../AIDE/Specifications_BIP.rst:474
 msgid ""
-"The outlet weir makes it possible to refill and empty individual clarifier "
-"bays with clarified water to ensure that after returning a clarifier bay to "
-"service the first water is of high quality."
+"The outlet weir makes it possible to refill and empty individual "
+"clarifier bays with clarified water to ensure that after returning a "
+"clarifier bay to service the first water is of high quality."
 msgstr ""
-"El vertedero de salida permite rellenar y vaciar las bahías de "
-"clarificadores individuales con agua clarificada para asegurar que, tras "
-"devolver una bahía de clarificador a servicio, el primer agua sea de alta "
-"calidad."
+"El vertedero de salida permite rellenar y vaciar las celdas de "
+"clarificación individuales con agua clarificada para asegurar que, tras "
+"devolver una celda de clarificación al servicio, la primera agua sea de "
+"alta calidad."
 
-#: ../../AIDE/Specifications_BIP.rst:478
+#: ../../AIDE/Specifications_BIP.rst:477
 msgid "Outlet Channel"
 msgstr "Canal de salida"
 
-#: ../../AIDE/Specifications_BIP.rst:480
+#: ../../AIDE/Specifications_BIP.rst:479
 msgid ""
-"After the water flows over the outlet weir, it is collected in the outlet "
-"channel. The water can be transported from the clarifier outlet channel to "
-"the filter inlet channel by pipes or by a channel."
+"After the water flows over the outlet weir, it is collected in the outlet"
+" channel. The water can be transported from the clarifier outlet channel "
+"to the filter inlet channel by pipes or by a channel."
 msgstr ""
-"Después de que el agua fluye sobre la presa de salida, se recoge en el canal"
-" de salida. El agua puede transportarse desde el canal de salida del "
-"clarificador hasta el canal de entrada del filtro mediante tuberías o por un"
-" canal."
+"Después de que el agua fluye sobre la presa de salida, se recoge en el "
+"canal de salida. El agua puede transportarse desde el canal de salida del"
+" clarificador hasta el canal de entrada del filtro mediante tuberías o "
+"por un canal."
 
-#: ../../AIDE/Specifications_BIP.rst:483
+#: ../../AIDE/Specifications_BIP.rst:482
 msgid "Stacked Rapid Sand Filter |OStaRS|"
-msgstr "Filtro rápido de arena de múltiples capas |OStaRS|"
+msgstr "FRAMCA convencional |OStaRS|"
 
 #: ../../AIDE/Specifications_BIP.rst
 msgid "OStaRS"
 msgstr "FRAMCA"
 
-#: ../../AIDE/Specifications_BIP.rst:485
+#: ../../AIDE/Specifications_BIP.rst:484
 msgid ""
 "For more detailed information see :ref:`Filtration Design "
 "<title_Filtration_Design>`. Stacked Rapid Sand, StaRS, filters (see "
-":numref:`figure_spec_OStaRSoverview`) were invented in 2010 by the AguaClara"
-" Cornell program in response to the need for a new technology that would "
-"both eliminate the need for backwash pumps and not require the construction "
-"of 6 filters for small towns. As shown in "
+":numref:`figure_spec_OStaRSoverview`) were invented in 2010 by the "
+"AguaClara Cornell program in response to the need for a new technology "
+"that would both eliminate the need for backwash pumps and not require the"
+" construction of 6 filters for small towns. As shown in "
 ":numref:`figure_spec_OStaRSfilterMode`, StaRS filters use six 20 cm deep "
 "layers of sand with the layers stacked vertically. The six layers give a "
 "total active sand depth of 1.2 m."
 msgstr ""
-"Para información más detallada, véase :ref:`Filtration Design "
-"<title_Filtration_Design>`. Los filtros de arena rápida apilada, StaRS "
-"(véase :numref:`figure_spec_OStaRSoverview`) fueron inventados en 2010 por "
-"el programa AguaClara Cornell en respuesta a la necesidad de una nueva "
-"tecnología que eliminara la necesidad de bombas de retrolavado y que no "
-"requiriera la construcción de 6 filtros para pequeños pueblos. Como se "
-"muestra en :numref:`figure_spec_OStaRSfilterMode`, los filtros StaRS "
-"utilizan seis capas de arena de 20 cm de profundidad con las capas apiladas "
-"verticalmente. Las seis capas proporcionan una profundidad total de arena "
-"activa de 1,2 m."
+"Para obtener información más detallada, véase :ref:`Diseño de la "
+"filtración <title_Filtration_Design>`. Los filtros rápidos de arena de "
+"múltiples capas, FRAMCA, (véase :numref:`figure_spec_OStaRSoverview`) "
+"fueron inventados en 2010 por el programa AguaClara Cornell en respuesta "
+"a la necesidad de una nueva tecnología que eliminara la necesidad de "
+"bombas de retrolavado y que no requiriera la construcción de 6 filtros "
+"para pequeños pueblos. Como se muestra en "
+":numref:`figure_spec_OStaRSfilterMode`, los FRAMCA convencionales "
+"utilizan seis capas de arena de 20 cm de profundidad con las capas "
+"apiladas verticalmente. Las seis capas proporcionan una profundidad total"
+" de arena activa de 1,2 m."
 
-#: ../../AIDE/Specifications_BIP.rst:494
+#: ../../AIDE/Specifications_BIP.rst:493
 msgid ""
-"The open stacked rapid sand filters include advanced hydraulic controls to "
-"ensure stable operation during both filtration and backwash modes."
+"The open stacked rapid sand filters include advanced hydraulic controls "
+"to ensure stable operation during both filtration and backwash modes."
 msgstr ""
-"Los filtros rápidos de arena apilados abiertos incluyen controles "
-"hidráulicos avanzados para asegurar un funcionamiento estable tanto en modo "
-"de filtración como de retrolavado."
+"Los FRAMCA convencionales incluyen controles hidráulicos avanzados para "
+"asegurar un funcionamiento estable tanto en modo de filtración como de "
+"retrolavado."
 
-#: ../../AIDE/Specifications_BIP.rst:497
+#: ../../AIDE/Specifications_BIP.rst:496
 msgid "Operation"
 msgstr "Funcionamiento"
 
-#: ../../AIDE/Specifications_BIP.rst:499
+#: ../../AIDE/Specifications_BIP.rst:498
 msgid ""
-"The filter operates with the same design flow rate for both filtration (see "
-":numref:`figure_spec_OStaRSfilterMode`) and backwash (see "
-":numref:`figure_spec_OStaRSbackwashMode`) modes and uses clarified water for"
-" backwash. This eliminates the need for backwash pumps and ensures that the "
-"filters can be backwashed as long as clarified water is available."
+"The filter operates with the same design flow rate for both filtration "
+"(see :numref:`figure_spec_OStaRSfilterMode`) and backwash (see "
+":numref:`figure_spec_OStaRSbackwashMode`) modes and uses clarified water "
+"for backwash. This eliminates the need for backwash pumps and ensures "
+"that the filters can be backwashed as long as clarified water is "
+"available."
 msgstr ""
 "El filtro funciona con el mismo caudal de diseño tanto para los modos de "
-"filtración (véase :numref:`figure_spec_OStaRSfilterMode`) como para el de "
-"retrolavado (véase :numref:`figure_spec_OStaRSbackwashMode`) y utiliza agua "
-"clarificada para el retrolavado. Esto elimina la necesidad de bombas de "
-"retrolavado y garantiza que los filtros puedan ser contralavados siempre que"
-" haya agua clarificada disponible."
+"filtración (véase :numref:`figure_spec_OStaRSfilterMode`) como para el de"
+" retrolavado (véase :numref:`figure_spec_OStaRSbackwashMode`) y utiliza "
+"agua clarificada para el retrolavado. Esto elimina la necesidad de bombas"
+" de retrolavado y garantiza que los filtros puedan retrolavarse siempre "
+"que haya agua clarificada disponible."
 
-#: ../../AIDE/Specifications_BIP.rst:508
+#: ../../AIDE/Specifications_BIP.rst:507
 msgid "OStaRS filtration mode"
-msgstr "Modo de filtración de FRAMCA"
+msgstr "Modo de filtración del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:508
+#: ../../AIDE/Specifications_BIP.rst:507
 msgid ""
 "In filtration mode the flow divides between the six sand layers. The six "
 "sand layers operate in parallel during filtration."
 msgstr ""
-"En modo filtración, el flujo se divide entre las seis capas de arena. Las "
-"seis capas de arena operan en paralelo durante la filtración."
+"En modo filtración, el flujo se divide entre las seis capas de arena. Las"
+" seis capas de arena operan en paralelo durante la filtración."
 
-#: ../../AIDE/Specifications_BIP.rst:518
+#: ../../AIDE/Specifications_BIP.rst:517
 msgid "OStaRS backwash mode"
-msgstr "Modo de retrolavado de FRAMCA"
+msgstr "Modo de retrolavado del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:518
+#: ../../AIDE/Specifications_BIP.rst:517
 msgid ""
-"In backwash mode all of the flow enters at the bottom of the filter box and "
-"flows up through the six sand layers. The six sand layers operate in series "
-"during backwash."
+"In backwash mode all of the flow enters at the bottom of the filter box "
+"and flows up through the six sand layers. The six sand layers operate in "
+"series during backwash."
 msgstr ""
-"En modo de retrolavado, todo el flujo entra por la parte inferior de la caja"
-" de filtros y sube a través de las seis capas de arena. Las seis capas de "
-"arena operan en serie durante el retrolavado."
+"En modo de retrolavado, todo el flujo entra por la parte inferior de la "
+"caja de filtros y sube a través de las seis capas de arena. Las seis "
+"capas de arena operan en serie durante el retrolavado."
 
-#: ../../AIDE/Specifications_BIP.rst:524
+#: ../../AIDE/Specifications_BIP.rst:523
 msgid ""
-"Stacked Rapid Sand (StaRS) filters were developed to eliminate the need for "
-"backwash pumps and minimize the plan area required."
+"Stacked Rapid Sand (StaRS) filters were developed to eliminate the need "
+"for backwash pumps and minimize the plan area required."
 msgstr ""
-"Se desarrollaron filtros de arena rápida apilada (StaRS) para eliminar la "
-"necesidad de bombas de retrolavado y minimizar el área de planta requerida."
+"Los FRAMCA se desarrollaron para eliminar la necesidad de bombas de "
+"retrolavado y minimizar el área en planta requerida."
 
-#: ../../AIDE/Specifications_BIP.rst:526
+#: ../../AIDE/Specifications_BIP.rst:525
 msgid ""
-"The filters should be designed so that the process of emptying the sand from"
-" the filter, removing the modules, cleaning the modules, replacing the "
-"modules, and replacing the sand is as easy as possible."
+"The filters should be designed so that the process of emptying the sand "
+"from the filter, removing the modules, cleaning the modules, replacing "
+"the modules, and replacing the sand is as easy as possible."
 msgstr ""
 "Los filtros deben diseñarse para que el proceso de vaciar la arena del "
-"filtro, retirar los módulos, limpiarlos, reemplazarlos y reemplazar la arena"
-" sea lo más sencillo posible."
+"filtro, retirar los módulos, limpiarlos, reemplazarlos y reemplazar la "
+"arena sea lo más sencillo posible."
 
-#: ../../AIDE/Specifications_BIP.rst:528
+#: ../../AIDE/Specifications_BIP.rst:527
 msgid ""
-"During backwash, all outlets and all inlets besides the bottom most inlet "
-"must be hydraulically isolated so all flow enters through the bottom inlet "
-"and flows out through the backwash siphon pipe."
+"During backwash, all outlets and all inlets besides the bottom most inlet"
+" must be hydraulically isolated so all flow enters through the bottom "
+"inlet and flows out through the backwash siphon pipe."
 msgstr ""
-"Durante el contralavado, todas las salidas y todas las entradas excepto la "
-"más baja deben aislarse hidráulicamente para que todo el flujo entre por la "
-"entrada inferior y salga por el tubo de sifón de contralavado."
+"Durante el retrolavado, todas las salidas y todas las entradas excepto la"
+" más baja deben aislarse hidráulicamente para que todo el flujo entre por"
+" la entrada inferior y salga por el tubo de sifón de retrolavado."
 
-#: ../../AIDE/Specifications_BIP.rst:530
+#: ../../AIDE/Specifications_BIP.rst:529
 msgid ""
-"The plant shall have a minimum of two StaRS filters so that one of the StaRS"
-" filters can be in operation while the other is offline for maintenance or "
-"repairs."
+"The plant shall have a minimum of two StaRS filters so that one of the "
+"StaRS filters can be in operation while the other is offline for "
+"maintenance or repairs."
 msgstr ""
-"La planta debe tener un mínimo de dos filtros StaRS para que uno de los "
-"filtros StaRS pueda estar en funcionamiento mientras el otro está fuera de "
-"servicio para mantenimiento o reparaciones."
+"La planta debe tener un mínimo de dos FRAMCA convencionales para que uno "
+"pueda estar en funcionamiento mientras el otro está fuera de servicio "
+"para mantenimiento o reparaciones."
 
-#: ../../AIDE/Specifications_BIP.rst:533
+#: ../../AIDE/Specifications_BIP.rst:532
 msgid "Configurations"
 msgstr "Configuraciones"
 
-#: ../../AIDE/Specifications_BIP.rst:535
+#: ../../AIDE/Specifications_BIP.rst:534
 msgid ""
-"Open StaRS (OStaRS) with 6 filter layers - used for flow rates greater than "
-"about 20 L/s. The minimum OStaRS flow rate is set by the minimum dimensions "
-"of the filter box that can be constructed and that enable filter "
-"maintenance."
+"Open StaRS (OStaRS) with 6 filter layers - used for flow rates greater "
+"than about 20 L/s. The minimum OStaRS flow rate is set by the minimum "
+"dimensions of the filter box that can be constructed and that enable "
+"filter maintenance."
 msgstr ""
-"FRAMCA con 6 capas de filtro se utiliza para caudales superiores a unos 20 "
-"L/s. El caudal mínimo de FRAMCA se establece por las "
+"El FRAMCA convencional con 6 capas de filtración se utiliza para caudales"
+" superiores a unos 20 L/s. Su caudal mínimo se establece por las "
 "dimensiones mínimas de la caja de filtros que se pueden construir y que "
 "permiten el mantenimiento del filtro."
 
-#: ../../AIDE/Specifications_BIP.rst:537
+#: ../../AIDE/Specifications_BIP.rst:536
 msgid ""
-"Open StaRS (OStaRS) with 2 filter layers - used for flow between about 3 and"
-" 12 L/s. This technology is under development."
+"Open StaRS (OStaRS) with 2 filter layers - used for flow between about 3 "
+"and 12 L/s. This technology is under development."
 msgstr ""
-"FRAMCA con 2 capas de filtro se utiliza para caudales entre "
-"aproximadamente 3 y 12 L/s. Esta tecnología está en desarrollo."
+"El FRAMCA convencional con 2 capas de filtración se utiliza para caudales"
+" entre aproximadamente 3 y 12 L/s. Esta tecnología está en desarrollo."
 
-#: ../../AIDE/Specifications_BIP.rst:539
+#: ../../AIDE/Specifications_BIP.rst:538
 msgid ""
-"Enclosed StaRS (EStaRS) filters - used for lower flow rates. This technology"
-" is under development"
+"Enclosed StaRS (EStaRS) filters - used for lower flow rates. This "
+"technology is under development"
 msgstr ""
-"Filtros cerrados StaRS (EStaRS) - utilizados para caudales más bajos. Esta "
-"tecnología está en desarrollo"
+"Filtros FRAMCA cerrados (EStaRS), utilizados para caudales más bajos. "
+"Esta tecnología está en desarrollo"
+
+#: ../../AIDE/Specifications_BIP.rst:540
+msgid ""
+"Can be located on the same slab as the clarifier and flocculator because "
+"the EStaRS is operated under vacuum in backwash mode to achieve the "
+"necessary head for fluidizing the sand."
+msgstr ""
+"Puede ubicarse en la misma losa que el clarificador y el floculador "
+"porque el EStaRS se opera bajo vacío en modo de retrolavado para lograr "
+"la carga necesaria para fluidizar la arena."
 
 #: ../../AIDE/Specifications_BIP.rst:541
-msgid ""
-"Can be located on the same slab as the clarifier and flocculator because the"
-" EStaRS is operated under vacuum in backwash mode to achieve the necessary "
-"head for fluidizing the sand."
-msgstr ""
-"Puede ubicarse en la misma losa que el clarificador y el floculador porque "
-"el EStaRS se opera bajo vacío en modo de retrolavado para lograr la cabeza "
-"necesaria para fluidizar la arena."
-
-#: ../../AIDE/Specifications_BIP.rst:542
 msgid "Assembled using PVC pipe as the body of the filter"
 msgstr "Montado usando tubería de PVC como cuerpo del filtro"
 
-#: ../../AIDE/Specifications_BIP.rst:543
+#: ../../AIDE/Specifications_BIP.rst:542
 msgid ""
-"Inner plumbing accessed through openings in the top and bottom of the main "
-"filter body"
+"Inner plumbing accessed through openings in the top and bottom of the "
+"main filter body"
 msgstr ""
-"Acceso a la fontanería interior a través de aberturas en la parte superior e"
+"Acceso a la tubería interior a través de aberturas en la parte superior e"
 " inferior del cuerpo principal del filtro"
 
-#: ../../AIDE/Specifications_BIP.rst:546
+#: ../../AIDE/Specifications_BIP.rst:545
 msgid "Sand Specification"
 msgstr "Especificación de arena"
 
-#: ../../AIDE/Specifications_BIP.rst:548
+#: ../../AIDE/Specifications_BIP.rst:547
 msgid ""
-"StaRS filters use (6) six 20 cm deep layers of silica sand (no dual-media "
-"required) with the layers stacked vertically. The six layers give an active "
-"sand depth of 1.2 m. The grain size is 0.45 to 0.55 mm."
+"StaRS filters use (6) six 20 cm deep layers of silica sand (no dual-media"
+" required) with the layers stacked vertically. The six layers give an "
+"active sand depth of 1.2 m. The grain size is 0.45 to 0.55 mm."
 msgstr ""
-"Los filtros StaRS utilizan (6) seis capas de arena de sílice de 20 cm de "
-"profundidad (sin necesidad de doble medio) con las capas apiladas "
-"verticalmente. Las seis capas proporcionan una profundidad activa de arena "
-"de 1,2 m. El tamaño del grano es de 0,45 a 0,55 mm."
+"Los FRAMCA convencionales utilizan (6) seis capas de arena de sílice de "
+"20 cm de profundidad (sin necesidad de doble medio) con las capas "
+"apiladas verticalmente. Las seis capas proporcionan una profundidad "
+"activa de arena de 1,2 m. El tamaño del grano es de 0,45 a 0,55 mm."
 
-#: ../../AIDE/Specifications_BIP.rst:551
+#: ../../AIDE/Specifications_BIP.rst:550
 msgid "Filter Modules"
 msgstr "Módulos de filtro"
 
-#: ../../AIDE/Specifications_BIP.rst:553
+#: ../../AIDE/Specifications_BIP.rst:552
 msgid ""
-"The sand layers are contiguous and the only distinction between layers is "
-"the direction of flow during filtration. Each layer of sand sits in between "
-"an inlet and outlet filter module. Each module consists of a large diameter "
-"trunk inlet/outlet pipe, which connects to a row of smaller branch pipes. "
-"The branch pipes are supported along the filter walls by receptor pipes."
+"The sand layers are contiguous and the only distinction between layers is"
+" the direction of flow during filtration. Each layer of sand sits in "
+"between an inlet and outlet filter module. Each module consists of a "
+"large diameter trunk inlet/outlet pipe, which connects to a row of "
+"smaller branch pipes. The branch pipes are supported along the filter "
+"walls by receptor pipes."
 msgstr ""
 "Las capas de arena son contiguas y la única diferencia entre capas es la "
-"dirección del flujo durante la filtración. Cada capa de arena se sitúa entre"
-" un módulo de entrada y un de salida filtrante. Cada módulo consta de un "
-"tubo de entrada/salida tronco de gran diámetro, que conecta a una fila de "
-"tubos ramificados más pequeños. Los tubos de ramificación están soportados a"
-" lo largo de las paredes del filtro por tubos receptores."
+"dirección del flujo durante la filtración. Cada capa de arena se sitúa "
+"entre un módulo de entrada y uno de salida. Cada módulo consta de una "
+"tubería troncal de entrada o salida de gran diámetro, conectada a una "
+"hilera de ramas más pequeñas. Las ramas se apoyan a lo largo de las "
+"paredes del filtro mediante tuberías receptoras."
 
-#: ../../AIDE/Specifications_BIP.rst:555
+#: ../../AIDE/Specifications_BIP.rst:554
 msgid ""
-"The filter modules are anchored to the concrete slab to prevent uplift at "
-"the transition to backwash. The uplift forces are considerable and are "
+"The filter modules are anchored to the concrete slab to prevent uplift at"
+" the transition to backwash. The uplift forces are considerable and are "
 "detailed in :ref:`Backwash Initiation Forces "
 "<heading_StaRS_Backwash_Forces>`."
 msgstr ""
-"Los módulos de filtración están anclados a la losa de hormigón para evitar "
-"el levantamiento en la transición al retrolavado. Las fuerzas de "
-"levantamiento son considerables y se detallan en :ref:`Backwash Initiation "
-"Forces <heading_StaRS_Backwash_Forces>`."
+"Los módulos de filtración están anclados a la losa de hormigón para "
+"evitar el levantamiento en la transición al retrolavado. Las fuerzas de "
+"levantamiento son considerables y se detallan en :ref:`Backwash "
+"Initiation Forces <heading_StaRS_Backwash_Forces>`."
 
-#: ../../AIDE/Specifications_BIP.rst:557
+#: ../../AIDE/Specifications_BIP.rst:556
 msgid "Inlet Filter Module"
 msgstr "Módulo de filtro de entrada"
 
-#: ../../AIDE/Specifications_BIP.rst:559
+#: ../../AIDE/Specifications_BIP.rst:558
 msgid ""
 "Small holes (orifices) are drilled into the inlet branches (see "
-":numref:`figure_spec_OStaRSinletBranches`). The orifice diameter is selected"
-" based on constructability and not being too small to risk clogging (between"
-" 4 and 10 mm)."
+":numref:`figure_spec_OStaRSinletBranches`). The orifice diameter is "
+"selected based on constructability and not being too small to risk "
+"clogging (between 4 and 10 mm)."
 msgstr ""
-"Se perforan pequeños orificios (orificios) en las ramas de entrada (véase "
-":numref:`figure_spec_OStaRSinletBranches`). El diámetro del orificio se "
-"selecciona en función de su capacidad de construcción y de no ser demasiado "
-"pequeño como para arriesgarse a obstruir (entre 4 y 10 mm)."
+"Se perforan pequeños orificios (orificios) en las ramas de entrada (véase"
+" :numref:`figure_spec_OStaRSinletBranches`). El diámetro del orificio se "
+"selecciona en función de su capacidad de construcción y de no ser "
+"demasiado pequeño como para arriesgarse a obstruir (entre 4 y 10 mm)."
 
-#: ../../AIDE/Specifications_BIP.rst:561
+#: ../../AIDE/Specifications_BIP.rst:560
 msgid ""
-"During filtration mode, water flows into the inlet filter modules through "
-"the inlet trunk and into the branches. Water flows out of the branches "
-"through small holes, into the space created by the wing, and then into the "
-"sand."
+"During filtration mode, water flows into the inlet filter modules through"
+" the inlet trunk and into the branches. Water flows out of the branches "
+"through small holes, into the space created by the wing, and then into "
+"the sand."
 msgstr ""
-"Durante el modo de filtración, el agua fluye hacia los módulos filtrantes de"
-" entrada a través del tronco de entrada y hacia las ramas. El agua fluye por"
-" las ramas a través de pequeños agujeros, hacia el espacio creado por el ala"
-" y luego hacia la arena."
+"Durante el modo de filtración, el agua fluye hacia los módulos filtrantes"
+" de entrada a través del tronco de entrada y hacia las ramas. El agua "
+"fluye por las ramas a través de pequeños agujeros, hacia el espacio "
+"creado por el ala y luego hacia la arena."
 
-#: ../../AIDE/Specifications_BIP.rst:563
+#: ../../AIDE/Specifications_BIP.rst:562
 msgid ""
-"During the transition from the backwash to filtration modes, a small volume "
-"of water flows back into the inlet pipes. The “wings,” PVC pipes cut "
-"longitudinally, are affixed to the inlet branches to prevent sand from "
-"flowing into the inlet pipe. Wings are only included on the inlet filter "
-"modules."
+"During the transition from the backwash to filtration modes, a small "
+"volume of water flows back into the inlet pipes. The “wings,” PVC pipes "
+"cut longitudinally, are affixed to the inlet branches to prevent sand "
+"from flowing into the inlet pipe. Wings are only included on the inlet "
+"filter modules."
 msgstr ""
-"Durante la transición del modo de contralavado a los modos de filtración, un"
-" pequeño volumen de agua regresa a las tuberías de entrada. Las \"alas\", "
-"tuberías de PVC cortadas longitudinalmente, se fijan a las ramas de entrada "
-"para evitar que la arena fluya hacia el tubería de entrada. Las alas solo "
-"están incluidas en los módulos de filtro de entrada."
+"Durante la transición del modo de retrolavado al de filtración, un "
+"pequeño volumen de agua regresa a las tuberías de entrada. Las \"alas\", "
+"tuberías de PVC cortadas longitudinalmente, se fijan a las ramas de "
+"entrada para evitar que la arena fluya hacia el tubería de entrada. Las "
+"alas solo están incluidas en los módulos de filtro de entrada."
 
-#: ../../AIDE/Specifications_BIP.rst:565
+#: ../../AIDE/Specifications_BIP.rst:564
 msgid "Outlet Filter Module"
 msgstr "Módulo de filtro de salida"
 
-#: ../../AIDE/Specifications_BIP.rst:567
+#: ../../AIDE/Specifications_BIP.rst:566
 msgid ""
 "The slots in the outlet branches (see "
-":numref:`figure_spec_OStaRSoutletBranches`) are small enough to prevent sand"
-" from passing through. The filter modules shall be adequately supported to "
-"limit deflection of any of the module pipes to 2 millimeters or less to "
-"prevent significant opening or closing of the slots."
+":numref:`figure_spec_OStaRSoutletBranches`) are small enough to prevent "
+"sand from passing through. The filter modules shall be adequately "
+"supported to limit deflection of any of the module pipes to 2 millimeters"
+" or less to prevent significant opening or closing of the slots."
 msgstr ""
 "Las ranuras en las ramas de salida (véase "
-":numref:`figure_spec_OStaRSoutletBranches`) son lo suficientemente pequeñas "
-"como para impedir el paso de arena. Los módulos de filtro deben estar "
-"adecuadamente soportados para limitar la deflexión de cualquiera de los "
-"tubos del módulo a 2 milímetros o menos, evitando una apertura o cierre "
-"significativo de las ranuras."
+":numref:`figure_spec_OStaRSoutletBranches`) son lo suficientemente "
+"pequeñas como para impedir el paso de arena. Los módulos de filtro deben "
+"estar apoyados adecuadamente para limitar la deflexión de cualquiera de "
+"las tuberías del módulo a 2 milímetros o menos, evitando una apertura o "
+"cierre significativo de las ranuras."
 
-#: ../../AIDE/Specifications_BIP.rst:569
+#: ../../AIDE/Specifications_BIP.rst:568
 msgid ""
-"During filtration mode, water flows from the filter media into the slots and"
-" then through the branches and into the trunk pipes."
+"During filtration mode, water flows from the filter media into the slots "
+"and then through the branches and into the trunk pipes."
 msgstr ""
-"Durante el modo de filtración, el agua fluye desde el medio filtrante hacia "
-"las ranuras y luego a través de las ramas y hacia las tuberías del tronco."
+"Durante el modo de filtración, el agua fluye desde el medio filtrante "
+"hacia las ranuras y luego atraviesa las ramas hasta las tuberías "
+"troncales."
 
-#: ../../AIDE/Specifications_BIP.rst:571
+#: ../../AIDE/Specifications_BIP.rst:570
 msgid ""
 "During backwash mode, the outlet trunks are closed or isolated and water "
 "does not flow through the outlet modules."
@@ -2029,239 +2067,242 @@ msgstr ""
 "Durante el modo de retrolavado, los troncos de salida están cerrados o "
 "aislados y el agua no fluye a través de los módulos de salida."
 
-#: ../../AIDE/Specifications_BIP.rst:580
+#: ../../AIDE/Specifications_BIP.rst:579
 msgid "OStaRS internal piping"
-msgstr "Tubería interna de FRAMCA"
+msgstr "Tubería interna del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:580
+#: ../../AIDE/Specifications_BIP.rst:579
 msgid ""
-"The seven filter modules stack inside the filter box. Each module is held "
-"together using band clamps. The only pipe connections that are glued in the "
-"filter modules are the end caps on the trunks and receptors."
+"The seven filter modules stack inside the filter box. Each module is held"
+" together using band clamps. The only pipe connections that are glued in "
+"the filter modules are the end caps on the trunks and receptors."
 msgstr ""
 "Los siete módulos de filtro se apilan dentro de la caja de filtros. Cada "
 "módulo se mantiene unido mediante abrazaderas de banda. Las únicas "
 "conexiones de tubería que están pegadas en los módulos de filtro son las "
 "tapas finales de los troncos y receptores."
 
-#: ../../AIDE/Specifications_BIP.rst:589
+#: ../../AIDE/Specifications_BIP.rst:588
 msgid "OStaRS inlet branch"
-msgstr "Rama de entrada de FRAMCA"
+msgstr "Rama de entrada del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:589
+#: ../../AIDE/Specifications_BIP.rst:588
 msgid ""
-"The inlet branches use orifices to obtain uniform flow distribution and a "
-"wing system to prevent sand from entering into the branches during backwash "
-"and filter mode transitions."
+"The inlet branches use orifices to obtain uniform flow distribution and a"
+" wing system to prevent sand from entering into the branches during "
+"backwash and filter mode transitions."
 msgstr ""
 "Las ramas de entrada utilizan orificios para obtener una distribución "
-"uniforme del flujo y un sistema de alas para evitar que la arena entre en "
-"las ramas durante las transiciones de retrolavado y de modo filtrado."
+"uniforme del flujo y un sistema de alas para evitar que la arena entre en"
+" las ramas durante las transiciones entre el retrolavado y la filtración."
 
-#: ../../AIDE/Specifications_BIP.rst:598
+#: ../../AIDE/Specifications_BIP.rst:597
 msgid "OStaRS outlet branch"
-msgstr "Rama de salida de FRAMCA"
+msgstr "Rama de salida del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:598
+#: ../../AIDE/Specifications_BIP.rst:597
 msgid "The outlet branches use 0.2 mm slots to keep the sand in the filter bed."
 msgstr ""
 "Las ramas de salida usan ranuras de 0,2 mm para mantener la arena en el "
 "lecho filtrante."
 
-#: ../../AIDE/Specifications_BIP.rst:602
+#: ../../AIDE/Specifications_BIP.rst:601
 msgid "Backwash Siphon"
 msgstr "Sifón de retrolavado"
 
-#: ../../AIDE/Specifications_BIP.rst:604
+#: ../../AIDE/Specifications_BIP.rst:603
 msgid ""
 "The siphon should be designed so the airlock can hold the water in the "
-"filter box at least until the filter reaches the design maximum head loss. "
-"Backwash is initiated when the operator briefly opens a small diameter air "
-"release valve to remove the trapped air from the siphon pipe. The siphon "
-"diameter must be sufficient to lower the water in the filter at an average "
-"velocity that is equal to or exceeds the backwash velocity."
+"filter box at least until the filter reaches the design maximum head "
+"loss. Backwash is initiated when the operator briefly opens a small "
+"diameter air release valve to remove the trapped air from the siphon "
+"pipe. The siphon diameter must be sufficient to lower the water in the "
+"filter at an average velocity that is equal to or exceeds the backwash "
+"velocity."
 msgstr ""
-"El sifón debe diseñarse para que la esclusa de aire pueda contener el agua "
-"en la caja del filtro al menos hasta que el filtro alcance el máximo de "
-"pérdida de carga de diseño. El contralavado se inicia cuando el operador "
-"abre brevemente una válvula de escape de aire de pequeño diámetro para "
-"eliminar el aire atrapado del tubo del sifón. El diámetro del sifón debe ser"
-" suficiente para bajar el agua en el filtro a una velocidad media igual o "
-"superior a la velocidad de retrolavado."
+"El sifón debe diseñarse para que la esclusa de aire pueda contener el "
+"agua en la caja del filtro al menos hasta que el filtro alcance el máximo"
+" de pérdida de carga de diseño. El retrolavado se inicia cuando el "
+"operador abre brevemente una válvula de escape de aire de pequeño "
+"diámetro para eliminar el aire atrapado del tubo del sifón. El diámetro "
+"del sifón debe ser suficiente para bajar el agua en el filtro a una "
+"velocidad media igual o superior a la velocidad de retrolavado."
 
-#: ../../AIDE/Specifications_BIP.rst:607
+#: ../../AIDE/Specifications_BIP.rst:606
 msgid "Backwash Flow Control Weirs"
-msgstr "Trampas de control de flujo de retrolavado"
+msgstr "Vertederos de control del caudal de retrolavado"
 
-#: ../../AIDE/Specifications_BIP.rst:609
+#: ../../AIDE/Specifications_BIP.rst:608
 msgid ""
 "The backwash gate (see :numref:`figure_spec_OStaRShydraulicControls`) "
-"ensures there is adequate flow to backwash one filter as long as there is at"
-" least that much flow entering the plant. This is important because many "
-"water treatment plants operate under reduced flow during the dry season."
+"ensures there is adequate flow to backwash one filter as long as there is"
+" at least that much flow entering the plant. This is important because "
+"many water treatment plants operate under reduced flow during the dry "
+"season."
 msgstr ""
-"La compuerta de contralavado (véase "
-":numref:`figure_spec_OStaRShydraulicControls`) garantiza que haya un flujo "
-"adecuado para retrolavar un filtro siempre que haya al menos ese flujo "
-"entrando en la planta. Esto es importante porque muchas tratamiento de agua "
-"plantas operan bajo un caudal reducido durante la estación seca."
+"La compuerta de retrolavado (véase "
+":numref:`figure_spec_OStaRShydraulicControls`) garantiza que haya un "
+"flujo adecuado para retrolavar un filtro siempre que haya al menos ese "
+"flujo entrando en la planta. Esto es importante porque muchas plantas de"
+" tratamiento de agua operan con un caudal reducido durante la estación seca."
 
-#: ../../AIDE/Specifications_BIP.rst:611
+#: ../../AIDE/Specifications_BIP.rst:610
 msgid ""
 "Removing the backwash gate in front of the desired backwash filter will "
 "create the desired backwash flow rate for the filter, while evenly "
-"distributing the remaining flow rate to the other filters. By removing the "
-"backwash gate the flow control for that filter is shifted from the wide weir"
-" to the slot weir."
+"distributing the remaining flow rate to the other filters. By removing "
+"the backwash gate the flow control for that filter is shifted from the "
+"wide weir to the slot weir."
 msgstr ""
-"Retirar la compuerta de contralavado delante del filtro deseado creará la "
-"caudal de contralavado deseada para el filtro, mientras se distribuye de "
-"manera uniforme el caudal restante entre los otros filtros. Al quitar la "
-"compuerta de contralavado, el control de flujo de ese filtro se desplaza del"
-" vertedero ancho al azud de ranura."
+"Retirar la compuerta de retrolavado delante del filtro deseado producirá "
+"el caudal de retrolavado deseado para el filtro, mientras se distribuye "
+"de manera uniforme el caudal restante entre los otros filtros. Al quitar "
+"la compuerta de retrolavado, el control de flujo de ese filtro se "
+"desplaza del vertedero ancho al vertedero de ranura."
 
-#: ../../AIDE/Specifications_BIP.rst:613
+#: ../../AIDE/Specifications_BIP.rst:612
 msgid ""
-"The slot weir sets the backwash flow rate and ensures that the backwash flow"
-" doesn't cause sand loss by expanding the sand bed excessively. The slot "
-"weir can be partially filled at plant commissioning to reduce the maximum "
-"backwash flow if needed."
+"The slot weir sets the backwash flow rate and ensures that the backwash "
+"flow doesn't cause sand loss by expanding the sand bed excessively. The "
+"slot weir can be partially filled at plant commissioning to reduce the "
+"maximum backwash flow if needed."
 msgstr ""
-"La presa de ranura establece el caudal de contralavado y asegura que el "
-"flujo de contralavado no cause pérdida de arena al expandir excesivamente la"
-" cama de arena. La presa de ranura puede rellenarse parcialmente en la "
-"puesta en marcha de la planta para reducir el flujo máximo de contralavado "
-"si es necesario."
+"El vertedero de ranura establece el caudal de retrolavado y asegura que "
+"el flujo de retrolavado no cause pérdida de arena al expandir "
+"excesivamente el lecho de arena. El vertedero de ranura puede rellenarse "
+"parcialmente durante la puesta en marcha de la planta para reducir el "
+"flujo máximo de retrolavado si es necesario."
 
-#: ../../AIDE/Specifications_BIP.rst:622
+#: ../../AIDE/Specifications_BIP.rst:621
 msgid "OStaRS hydraulic controls"
-msgstr "Controles hidráulicos de FRAMCA"
+msgstr "Controles hidráulicos del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:622
+#: ../../AIDE/Specifications_BIP.rst:621
 msgid ""
-"The hydraulic controls give the operator full control of filter operation "
-"while ensuring that the flow is distributed evenly between filters in "
+"The hydraulic controls give the operator full control of filter operation"
+" while ensuring that the flow is distributed evenly between filters in "
 "filtration mode and that a filter in backwash mode receives the correct "
 "backwash flow rate."
 msgstr ""
 "Los controles hidráulicos otorgan al operador el control total del "
-"funcionamiento del filtro, asegurando que el flujo se distribuya de manera "
-"uniforme entre los filtros en modo filtrado y que un filtro en modo de "
-"retrolavado reciba el caudal correcto de retrolavado."
+"funcionamiento del filtro, asegurando que el flujo se distribuya de "
+"manera uniforme entre los filtros en modo de filtración y que un filtro "
+"en modo de retrolavado reciba el caudal correcto de retrolavado."
 
-#: ../../AIDE/Specifications_BIP.rst:626
+#: ../../AIDE/Specifications_BIP.rst:625
 msgid "Sand Dump"
 msgstr "Vertedero de arena"
 
-#: ../../AIDE/Specifications_BIP.rst:628
+#: ../../AIDE/Specifications_BIP.rst:627
 msgid ""
-"The sand dump is critical for StaRS filters because the filter bed piping "
-"would make manual removal very difficult."
+"The sand dump is critical for StaRS filters because the filter bed piping"
+" would make manual removal very difficult."
 msgstr ""
-"El vertido de arena es fundamental para los filtros StaRS porque la tubería "
-"lecho filtrante dificultaría mucho la extracción manual."
+"La descarga de arena es fundamental para los FRAMCA convencionales porque"
+" la tubería del lecho filtrante dificultaría mucho la extracción manual."
 
-#: ../../AIDE/Specifications_BIP.rst:630
+#: ../../AIDE/Specifications_BIP.rst:629
 msgid ""
 "A sand dump pipe shall be installed in the filter box to allow for the "
-"filter media to be removed when the filter is in backwash mode and the sand "
-"bed is fluidized."
+"filter media to be removed when the filter is in backwash mode and the "
+"sand bed is fluidized."
 msgstr ""
-"Se debe instalar una tubería de descarga de arena en la caja del filtro para"
-" permitir que se retire el medio filtrante cuando el filtro esté en modo de "
-"contralavado y el lecho de arena esté fluidificado."
+"Se debe instalar una tubería de descarga de arena en la caja del filtro "
+"para permitir que se retire el medio filtrante cuando el filtro esté en "
+"modo de retrolavado y el lecho de arena esté fluidificado."
 
-#: ../../AIDE/Specifications_BIP.rst:632
+#: ../../AIDE/Specifications_BIP.rst:631
 msgid ""
-"The sand dump pipe must be designed so that the sand doesn’t collect at one "
-"location in the pipe and cause a clog when the flow of the sand slurry is "
-"stopped. This requirement is met by using a single straight pipe with a "
-"slope less than the angle of repose of sand in water."
+"The sand dump pipe must be designed so that the sand doesn’t collect at "
+"one location in the pipe and cause a clog when the flow of the sand "
+"slurry is stopped. This requirement is met by using a single straight "
+"pipe with a slope less than the angle of repose of sand in water."
 msgstr ""
 "La tubería de vertido de arena debe diseñarse de modo que la arena no se "
-"acumule en un solo punto y provoque un atasco cuando se detiene el flujo de "
-"la suspensión de arena. Este requisito se cumple utilizando una sola tubería"
-" recta con una pendiente menor que el ángulo de reposo de la arena en el "
-"agua."
+"acumule en un solo punto y provoque un atasco cuando se detiene el flujo "
+"de la suspensión de arena. Este requisito se cumple utilizando una sola "
+"tubería recta con una pendiente menor que el ángulo de reposo de la arena"
+" en el agua."
 
-#: ../../AIDE/Specifications_BIP.rst:634
+#: ../../AIDE/Specifications_BIP.rst:633
 msgid ""
 "The sand dump velocity shall be at least 3 m/s to prevent the sand from "
 "settling in the sand dump pipe during operation."
 msgstr ""
-"La velocidad de vertido de arena debe ser al menos de 3 m/s para evitar que "
-"la arena se asiente en la tubería de descarga durante la operación."
+"La velocidad de vertido de arena debe ser al menos de 3 m/s para evita"
+"r que la arena se sedimente en la tubería de descarga durante la opera"
+"ción."
 
-#: ../../AIDE/Specifications_BIP.rst:636
+#: ../../AIDE/Specifications_BIP.rst:635
 msgid ""
-"The sand dump is activated by removing a clamp on connector and cap assembly"
-" from the end of the pipe."
+"The sand dump is activated by removing a clamp on connector and cap "
+"assembly from the end of the pipe."
 msgstr ""
 "El vaciado de arena se activa retirando un conector de abrazadera y un "
 "conjunto de tapa del extremo del tubo."
 
-#: ../../AIDE/Specifications_BIP.rst:647
+#: ../../AIDE/Specifications_BIP.rst:646
 msgid "OStaRS sand dump"
-msgstr "Descarga de arena de FRAMCA"
+msgstr "Descarga de arena del FRAMCA convencional"
 
-#: ../../AIDE/Specifications_BIP.rst:647
+#: ../../AIDE/Specifications_BIP.rst:646
 msgid ""
 "The sand dump is straight to prevent sand blockages and to minimize head "
 "loss."
 msgstr ""
-"El vertido de arena es recto para evitar obstrucciones y minimizar pérdida "
-"de carga."
+"La tubería de descarga de arena es recta para evitar obstrucciones y "
+"minimizar la pérdida de carga."
 
-#: ../../AIDE/Specifications_BIP.rst:650
+#: ../../AIDE/Specifications_BIP.rst:649
 msgid "Backwash Recycle"
 msgstr "Reciclaje de retrolavado"
 
-#: ../../AIDE/Specifications_BIP.rst:652
+#: ../../AIDE/Specifications_BIP.rst:651
 msgid ""
 "Backwash recycle is recommended for all communities where low flow "
-"conditions are likely to require water rationing. The backwash water storage"
-" tank is designed to hold the flow from one backwash event. A centrifugal "
-"pump can then be used to meter the water back to the entrance tank at a flow"
-" rate that empties the backwash water storage tank before the next filter "
-"needs to be backwashed."
+"conditions are likely to require water rationing. The backwash water "
+"storage tank is designed to hold the flow from one backwash event. A "
+"centrifugal pump can then be used to meter the water back to the entrance"
+" tank at a flow rate that empties the backwash water storage tank before "
+"the next filter needs to be backwashed."
 msgstr ""
-"Se recomienda el reciclaje de contralavado para todas las comunidades donde "
-"las condiciones de bajo caudal probablemente requieran racionamiento de "
-"agua. El depósito de almacenamiento de agua de retrolavado está diseñado "
-"para retener el flujo de un evento de contralavado. A continuación, se puede"
-" utilizar una bomba centrífuga para medir el agua de vuelta al tanque de "
-"entrada en un caudal que vacía el depósito de almacenamiento de agua de "
-"contralavado antes de que el siguiente filtro necesite ser contralavado."
+"Se recomienda el reciclaje de retrolavado para todas las comunidades "
+"donde las condiciones de bajo caudal probablemente requieran "
+"racionamiento de agua. El tanque de almacenamiento de agua de retrolavado"
+" está diseñado para contener el volumen de un ciclo de retrolavado. A "
+"continuación, se puede utilizar una bomba centrífuga para devolver el "
+"agua de manera controlada al tanque de entrada, a un caudal que vacíe el "
+"tanque de almacenamiento de agua de retrolavado antes de que sea "
+"necesario retrolavar el siguiente filtro."
 
-#: ../../AIDE/Specifications_BIP.rst:654
+#: ../../AIDE/Specifications_BIP.rst:653
 msgid ""
-"In the event of a power failure the backwash recycle system will instead use"
-" backwash to waste to dispose of the spent backwash filter water."
+"In the event of a power failure the backwash recycle system will instead "
+"use backwash to waste to dispose of the spent backwash filter water."
 msgstr ""
-"En caso de fallo eléctrico, el sistema de reciclaje de contralavado "
-"utilizará en su lugar el contralavado hacia los residuos para desechar el "
-"agua gastada del filtro de relavado."
+"En caso de fallo eléctrico, el sistema de reciclaje descargará en su "
+"lugar el agua usada de retrolavado al desagüe."
 
-#: ../../AIDE/Specifications_BIP.rst:657
+#: ../../AIDE/Specifications_BIP.rst:656
 msgid "Disinfection"
 msgstr "Desinfección"
 
-#: ../../AIDE/Specifications_BIP.rst:659
+#: ../../AIDE/Specifications_BIP.rst:658
 msgid ""
 "Sodium or calcium hypochlorite is metered into the filtered water as it "
 "exits the filter hydraulic controls and enters the pipe that carries the "
-"water to a chlorine contact tank or directly to the community distribution "
-"tank. The chlorine is added after the previous treatment processes to reduce"
-" the production of disinfection byproducts and to enable biofiltration. The "
-"chlorine concentration is set by adjusting the position of the slider on the"
-" doser (see :numref:`figure_spec_doser`)."
+"water to a chlorine contact tank or directly to the community "
+"distribution tank. The chlorine is added after the previous treatment "
+"processes to reduce the production of disinfection byproducts and to "
+"enable biofiltration. The chlorine concentration is set by adjusting the "
+"position of the slider on the doser (see :numref:`figure_spec_doser`)."
 msgstr ""
-"El hipoclorito de sodio o calcio se dosifica en la agua filtrada al salir de"
-" los controles hidráulicos del filtro y entrar en la tubería que lleva el "
-"agua a un tanque de contacto con cloro o directamente al tanque de "
-"distribución comunitaria. El cloro se añade tras los procesos de tratamiento"
-" previos para reducir la producción de subproductos de desinfección y "
-"permitir la biofiltración. La concentración de cloro se establece ajustando "
-"la posición del deslizador en el dosificador (véase "
+"El hipoclorito de sodio o calcio se dosifica en el agua filtrada al salir"
+" de los controles hidráulicos del filtro y entrar en la tubería que lleva"
+" el agua a un tanque de contacto con cloro o directamente al tanque de "
+"distribución comunitaria. El cloro se añade tras los procesos de "
+"tratamiento previos para reducir la producción de subproductos de "
+"desinfección y permitir la biofiltración. La concentración de cloro se "
+"establece ajustando la posición del deslizador en el dosificador (véase "
 ":numref:`figure_spec_doser`)."
 

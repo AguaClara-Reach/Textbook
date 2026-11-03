@@ -419,9 +419,9 @@ Now that we know all of the parameters in this equation except for :math:`L`, we
      L_{min, \, head loss} = L = \left( \frac{g h_{L_{max}} \pi D^4}{128 \nu Q_{max}} - \frac{Q_{max}}{16 \pi \nu} \sum{K} \right)
      }
 
-.. seealso:: **Function in aguaclara:** ``cdc._length_cdc_tube_array(FlowPlant, ConcDoseMax, ConcStock, DiamTubeAvail, HeadlossCDC, temp, en_chem, KMinor)`` Returns :math:`{L_{min}`, takes in the flow rate input of *plant design flow rate*.
+.. seealso:: **Function in aguaclara:** ``cdc._length_cdc_tube_array(FlowPlant, ConcDoseMax, ConcStock, DiamTubeAvail, HeadlossCDC, temp, en_chem, KMinor)`` Returns :math:`L_{min}` and takes *plant design flow rate* as the flow-rate input.
 
-.. seealso:: **Function in aguaclara:** ``cdc._len_tube(Flow, Diam, HeadLoss, conc_chem, temp, en_chem, KMinor)`` Returns :math:`{L_{min}`, takes in the flow rate input of *max flow rate through the dosing tube(s)*.
+.. seealso:: **Function in aguaclara:** ``cdc._len_tube(Flow, Diam, HeadLoss, conc_chem, temp, en_chem, KMinor)`` Returns :math:`L_{min}` and takes *maximum flow rate through the dosing tube(s)* as the flow-rate input.
 
 If you decrease the max flow :math:`Q_{max}` and hold :math:`h_{L_{max}}` constant, :math:`\color{green}{L_{min, \, head loss}}` becomes larger. This means that a CDC system for a plant of 40 :math:`\frac{L}{s}` must be different than one for a plant of 20 :math:`\frac{L}{s}`. If we want to maintain the same head loss at maximum flow in both plants, then the dosing tube(s) will need to be a lot longer for the 20 :math:`\frac{L}{s}` plant.
 

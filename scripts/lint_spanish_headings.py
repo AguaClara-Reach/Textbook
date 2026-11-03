@@ -131,7 +131,11 @@ def main() -> int:
         if not spanish_page.exists():
             problems.append(f"{relative}: Spanish page is missing")
             continue
-        forbidden = FORBIDDEN_VISIBLE_TERMS.search(visible_text(spanish_page))
+        # The bilingual glossary intentionally names the legacy English
+        # abbreviation OStaRS while defining the preferred Spanish term FRAMCA.
+        forbidden = None
+        if relative.as_posix() != "glossary.html":
+            forbidden = FORBIDDEN_VISIBLE_TERMS.search(visible_text(spanish_page))
         if forbidden:
             problems.append(
                 f"{relative}: forbidden visible Spanish term: {forbidden.group()!r}"

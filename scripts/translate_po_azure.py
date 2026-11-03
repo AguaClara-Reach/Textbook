@@ -67,6 +67,7 @@ NUMBER_RE = re.compile(
 )
 WORD_RE = re.compile(r"[A-Za-z]{3,}")
 DISPLAY_MATH_RE = re.compile(r"\\(?:begin|end|frac|dfrac|sqrt|mathrm|mathbf|left|right)\b")
+INLINE_MATH_ROLE_RE = re.compile(r":math:`[^`]*`")
 HTML_TAG_RE = re.compile(r"</?(?:span|mstrans:dictionary)\b[^>]*>", re.IGNORECASE)
 
 
@@ -318,9 +319,14 @@ def translatable_messages(
             include_fuzzy and "fuzzy" in message.flags
         ):
             continue
-        if not WORD_RE.search(message.id):
+        prose_without_inline_math = INLINE_MATH_ROLE_RE.sub("", message.id)
+        if not WORD_RE.search(prose_without_inline_math):
             continue
-        if DISPLAY_MATH_RE.search(message.id):
+        # A raw display equation can contain alphabetic LaTeX commands such as
+        # ``\frac``. Prose containing protected inline ``:math:`` roles still
+        # needs translation and must not be discarded merely because an inline
+        # expression contains the same commands.
+        if DISPLAY_MATH_RE.search(message.id) and ":math:`" not in message.id:
             continue
         messages.append(message)
     return messages

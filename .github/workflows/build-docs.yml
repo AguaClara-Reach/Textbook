@@ -32,6 +32,11 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements-dev.txt
 
+      - name: Check Spanish translation catalogs
+        run: |
+          python scripts/lint_spanish_catalogs.py --exclude-catalog Python_Tutorial --exclude-catalog Textbook_Creation_Help
+          python scripts/lint_spanish_markup.py --exclude-catalog Python_Tutorial --exclude-catalog Textbook_Creation_Help
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

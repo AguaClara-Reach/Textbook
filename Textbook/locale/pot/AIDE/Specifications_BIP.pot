@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-03 09:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../AIDE/Specifications_BIP.rst:12
-msgid "AguaClara Specifications"
+msgid "Specifications for the Built-in-Place Series"
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:14
@@ -33,7 +33,7 @@ msgid "20-80Lpsplant"
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:19
-msgid "AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and to deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution."
+msgid "AguaClara drinking water treatment technologies remove turbidity and pathogens from raw water and deactivate remaining pathogens before distribution. AguaClara technologies are best suited for centralized water treatment in communities of at least 200 people. AguaClara technologies would not be appropriate for treatment of low-turbidity groundwater where the primary contamination issues are chemical, such as nitrate, fluoride, or heavy metals. AguaClara technologies are gravity-driven and do not require electricity. When required by the topography, pumps can raise the source water to the elevation necessary for water treatment and water distribution."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:21
@@ -182,7 +182,7 @@ msgid "The plant entrance tank shall be equipped with a device that will result 
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:84
-msgid "The pattern of orifices shall be designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the offices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate or in the walls of a vertical pipe."
+msgid "The pattern of orifices shall be designed so that the water level in the entrance chamber (equal to the hydrostatic head pushing water through the orifices) is linearly proportional to the total flow through the orifices (equal to the plant flow). An example of an LFOM is shown in :numref:`figure_spec_LFOM`. The orifices may be drilled in a flat plate or in the walls of a vertical pipe."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:86
@@ -351,7 +351,7 @@ msgid "When the plant flow is zero, the lever is horizontal and chemical flow is
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:198
-msgid "When plant flow increases, the water level in the entrance tank increases (due additional head loss through the LFOM), causing one end of the doser lever to rise. This, in turn, causes the other end of the lever, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser."
+msgid "When plant flow increases, the water level in the entrance tank increases (due to additional head loss through the LFOM), causing one end of the doser lever to rise. This, in turn, causes the other end of the lever, and the dose slider, to fall, increasing the elevation difference between the chemical level in the constant level tank and the dose slider. The greater driving head increases the chemical flow through the doser."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:200
@@ -447,7 +447,7 @@ msgid "The spacing between baffles is designed to achieve the target velocity gr
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:251
-msgid "The ports between flocculator channels (see :numref:`figure_flocChannelPort` should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width."
+msgid "The ports between flocculator channels (see :numref:`figure_flocChannelPort`) should be designed with the same flow area as the space between the baffles so that the port improves flocculation without breaking flocs. The width of the port is equal to the spacing between baffles and the height of the port is equal to the channel width."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:260
@@ -487,7 +487,7 @@ msgid "The flocculation baffles should be constructed from polycarbonate sheets,
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:278
-msgid "The width of each baffle should be approximately 5 millimeters wider than the channel width so they deform slightly and created a tighter seal with the channel wall."
+msgid "The width of each baffle should be approximately 5 millimeters wider than the channel width so they deform slightly and create a tighter seal with the channel wall."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:288
@@ -495,7 +495,7 @@ msgid "Baffle Module"
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:288
-msgid "The baffle modules transfer the force of the water to the downstream wall through the PVC pipe frame. Each flocculator channels holds one baffle module."
+msgid "The baffle modules transfer the force of the water to the downstream wall through the PVC pipe frame. Each flocculator channel holds one baffle module."
 msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:292

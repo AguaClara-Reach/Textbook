@@ -1,0 +1,20 @@
+[document]
+slug = "standard"
+title = "Specifications for AguaClara PF Series"
+author = "AguaClara Reach"
+output_basename = "PFSpecifications"
+language = "en"
+
+[cover]
+subtitle = ""
+prepared_for = ""
+project = ""
+location = ""
+revision = ""
+specification_url = ""
+
+[pagination]
+page_prefix = ""
+contents_numbering = "roman"
+include_list_of_figures_in_contents = true
+

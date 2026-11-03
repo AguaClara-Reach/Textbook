@@ -105,7 +105,7 @@ Deriving the equations required to find the physical dimensions now and the hydr
 Length
 ^^^^^^^^^^^^^^^^^^^^^
 
-Flocculator length, :math:`L_{channel}`` must meet two constraints: it must be less than or equal to the length of the clarifiers, as the flocculator is adjacent to the clarifier. This constraint is :math:`L_{max, \, sed}`. Next, the flocculator must be short enough to make sure the target volume of the flocculator is met, while still allowing for a human to fit inside :math:`L_{max, \, \forall}`. **The constraint that wins out is the one that results in the *smaller* length value**.
+Flocculator length, :math:`L_{channel}` must meet two constraints: it must be less than or equal to the length of the clarifiers, as the flocculator is adjacent to the clarifier. This constraint is :math:`L_{max, \, sed}`. Next, the flocculator must be short enough to make sure the target volume of the flocculator is met, while still allowing for a human to fit inside :math:`L_{max, \, \forall}`. **The constraint that wins out is the one that results in the *smaller* length value**.
 
 .. math::
 
