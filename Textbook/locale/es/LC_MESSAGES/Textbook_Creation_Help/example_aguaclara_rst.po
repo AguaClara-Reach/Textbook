@@ -297,14 +297,14 @@ msgstr ""
 #: ../../Textbook_Creation_Help/example_aguaclara_rst.rst
 msgid "Removing Plate Settlers from an AguaClara Clarification tank"
 msgstr ""
-"Retirando los sedimentadores de placas de un tanque de clarificación "
-"AguaClara"
+"Retirando las placas sedimentadoras de un tanque de clarificación Agua"
+"Clara"
 
 #: ../../Textbook_Creation_Help/example_aguaclara_rst.rst:163
 msgid "Plant operator removing plate settlers from an AguaClara clarifier."
 msgstr ""
-"El operador de la planta retira los sedimentadores de placas de un "
-"clarificador AguaClara."
+"El operador de la planta retira las placas sedimentadoras de un clarif"
+"icador AguaClara."
 
 #: ../../Textbook_Creation_Help/example_aguaclara_rst.rst:168
 msgid "Math and Equations"

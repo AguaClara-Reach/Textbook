@@ -257,7 +257,7 @@ msgstr ":math:`H_{ff}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Height of the floc filter"
-msgstr "Altura de la filtro de flóculos"
+msgstr "Altura del filtro de flóculos"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`K`"
@@ -280,8 +280,8 @@ msgid ""
 "Length of the plate settlers in the clarifier (not including the triangle at"
 " the end of the tank)"
 msgstr ""
-"Longitud de los estabilizadores de placas en el clarificador (sin incluir el"
-" triángulo al final del tanque)"
+"Longitud de las placas sedimentadoras en el clarificador (sin incluir "
+"el triángulo al final del tanque)"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`L_{ff}`"
@@ -289,7 +289,7 @@ msgstr ":math:`L_{ff}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Length of the floc filter in a clarifier"
-msgstr "Longitud de la filtro de flóculos en un clarificador"
+msgstr "Longitud del filtro de flóculos en un clarificador"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`M`"
@@ -425,7 +425,7 @@ msgstr ""
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Velocity gradient between plate settlers"
-msgstr "Gradiente de velocidad entre los sedimentadores de placas"
+msgstr "Gradiente de velocidad entre las placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`g`"
@@ -541,7 +541,7 @@ msgstr ":math:`\\bar v_{\\alpha_{Plate}}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "average fluid velocity between plate settlers"
-msgstr "Velocidad media del fluido entre sedimentadores de placas"
+msgstr "Velocidad media del fluido entre placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`\\bar v_{z_{Active}}`"
@@ -552,7 +552,7 @@ msgid ""
 "Upflow velocity of the water entering the plate settlers; vertical velocity "
 "in the 'active' region"
 msgstr ""
-"Velocidad ascendente del agua que entra en los sedimentadores de placas; "
+"Velocidad ascendente del agua que entra en las placas sedimentadoras; "
 "velocidad vertical en la región 'activa'"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
@@ -585,7 +585,7 @@ msgstr ":math:`\\bar v_{x_{Plate}}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Horizontal velocity through plate settlers"
-msgstr "Velocidad horizontal a través de los sedimentadores de placas"
+msgstr "Velocidad horizontal a través de las placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`v_{particle}`"
@@ -593,7 +593,7 @@ msgstr ":math:`v_{particle}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Net velocity of a particle between plate settlers"
-msgstr "Velocidad neta de una partícula entre sedimentadores de placas"
+msgstr "Velocidad neta de una partícula entre placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`v_{z_{Plate}}`"
@@ -601,7 +601,7 @@ msgstr ":math:`v_{z_{Plate}}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Average vertical velocity of the water between the plate settlers"
-msgstr "Velocidad vertical media del agua entre los sedimentadores de placas"
+msgstr "Velocidad vertical media del agua entre las placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`v_{Settle}`"
@@ -609,7 +609,7 @@ msgstr ":math:`v_{Settle}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Settling velocity"
-msgstr "Velocidad de asentamiento"
+msgstr "Velocidad de sedimentación"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`v_{Slide}`"
@@ -617,7 +617,7 @@ msgstr ":math:`v_{Slide}`"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid "Clarification velocity of floc between plate settlers"
-msgstr "Velocidad de clarificación del floc entre sedimentadores de placas"
+msgstr "Velocidad de clarificación del flóculo entre placas sedimentadoras"
 
 #: ../../Textbook_Creation_Help/parameter_convention_list.rst:1
 msgid ":math:`\\bar v_{z_{FB}}`"

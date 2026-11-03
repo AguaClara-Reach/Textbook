@@ -315,7 +315,7 @@ Since baffles are the source of head loss via minor losses, we need to find the 
 
 
 
-We can therefore state with reasonable accuracy that, when most contracted, the flow around a baffle goes through 37.3% of the area it does when expanded, or :math:`A_{contracted} = \Pi_{vc}^{baffle} A_{expanded}`. Through the `:ref:`third form of the minor loss equation <heading_minor_losses>`, :math:`h_e = K \frac{\bar v_{out}^2}{2g}` and its definition of the minor loss coefficient, :math:`K = \left( \frac{A_{out}}{A_{in}} -1 \right)^2`, we can determine the minimum minor loss coefficient for flow around a single baffle:
+We can therefore state with reasonable accuracy that, when most contracted, the flow around a baffle goes through 37.3% of the area it does when expanded, or :math:`A_{contracted} = \Pi_{vc}^{baffle} A_{expanded}`. Through the :ref:`third form of the minor loss equation <heading_minor_losses>`, :math:`h_e = K \frac{\bar v_{out}^2}{2g}` and its definition of the minor loss coefficient, :math:`K = \left( \frac{A_{out}}{A_{in}} -1 \right)^2`, we can determine the minimum minor loss coefficient for flow around a single baffle:
 
 .. math::
   :label: K_baffle_min

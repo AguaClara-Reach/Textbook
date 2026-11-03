@@ -43,6 +43,7 @@ in the project glossary.
 | English | Español | Usage note |
 | --- | --- | --- |
 | backwash (noun, verb) | retrolavado; retrolavar | Preferred textbook terminology. **Contralavado** and **lavado a contracorriente** are accepted regional synonyms, but do not alternate terms within one document. Use **backwashing** when naming the process in running English text. |
+| air scour | lavado con aire | Air-assisted cleaning of filter media, often used with retrolavado. |
 | alum | sulfato de aluminio | Use the chemical name; do not translate as *alumbre*. |
 | clarification | clarificación |  |
 | clarified water | agua clarificada |  |
@@ -60,7 +61,9 @@ in the project glossary.
 | floc; flocs | flóculo; flóculos | **Floc** may also be used as a collective mass noun in English. |
 | flocculation | floculación |  |
 | floc formation | formación de flóculos |  |
+| floc rollup | arrastre ascendente de flóculos | Failure mode in which viscous drag from the near-plate velocity profile overcomes the floc's downslope gravitational force and carries the floc upward along a plate settler. |
 | head loss | pérdida de carga | Hydraulic-energy loss, commonly observed as a water-level difference. |
+| influent | influente | Agua or flow entering a treatment unit. Do not use **influyente** (an influential person or factor) or **afluente** (commonly a tributary in this terminology). |
 | pathogen | patógeno |  |
 | plate settling | sedimentación con placas | Process name. |
 | rapid mix | mezcla rápida | Process or treatment unit; avoid *rapid mixing basin* unless a basin is specifically meant. |
