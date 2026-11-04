@@ -304,7 +304,7 @@ Discharge Characteristics and Management
 Aluminum in Residual Solids
 ---------------------------
 
-Aluminum coagulant contributes aluminum hydroxide to both residual streams. Assuming that all dosed elemental aluminum precipitates and remains in the residual solids, the coagulant-derived elemental-aluminum mass fraction is the elemental-aluminum dose divided by the total dry-solids production. Substituting Equation :eq:`residuals_cube_root_coagulant_dose` and Equation :eq:`residuals_total_solids_turbidity` gives
+Aluminum coagulant contributes aluminum hydroxide to both residual streams. The added aluminum is assumed to precipitate and remain in the residual solids because it has a low solubility at neutral pH. The reason that aluminum-based coagulants are used in drinking water treatment is precisely because of the low solubility. Assuming that all dosed elemental aluminum precipitates and remains in the residual solids, the coagulant-derived elemental-aluminum mass fraction is the elemental-aluminum dose divided by the total dry-solids production. Substituting Equation :eq:`residuals_cube_root_coagulant_dose` and Equation :eq:`residuals_total_solids_turbidity` gives
 
 .. math::
    :label: residuals_aluminum_mass_fraction

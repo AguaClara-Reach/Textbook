@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-04 12:22-0500\n"
+"POT-Creation-Date: 2026-11-04 14:56-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -464,7 +464,7 @@ msgid "Aluminum in Residual Solids"
 msgstr ""
 
 #: ../../Residuals/Residuals_Generation_and_Management.rst:307
-msgid "Aluminum coagulant contributes aluminum hydroxide to both residual streams. Assuming that all dosed elemental aluminum precipitates and remains in the residual solids, the coagulant-derived elemental-aluminum mass fraction is the elemental-aluminum dose divided by the total dry-solids production. Substituting Equation :eq:`residuals_cube_root_coagulant_dose` and Equation :eq:`residuals_total_solids_turbidity` gives"
+msgid "Aluminum coagulant contributes aluminum hydroxide to both residual streams. The added aluminum is assumed to precipitate and remain in the residual solids because it has a low solubility at neutral pH. The reason that aluminum-based coagulants are used in drinking water treatment is precisely because of the low solubility. Assuming that all dosed elemental aluminum precipitates and remains in the residual solids, the coagulant-derived elemental-aluminum mass fraction is the elemental-aluminum dose divided by the total dry-solids production. Substituting Equation :eq:`residuals_cube_root_coagulant_dose` and Equation :eq:`residuals_total_solids_turbidity` gives"
 msgstr ""
 
 #: ../../Residuals/Residuals_Generation_and_Management.rst:309
