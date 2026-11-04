@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:31-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1082,4 +1082,8 @@ msgstr ""
 
 #: ../../AIDE/Specifications_BIP.rst:658
 msgid "Sodium or calcium hypochlorite is metered into the filtered water as it exits the filter hydraulic controls and enters the pipe that carries the water to a chlorine contact tank or directly to the community distribution tank. The chlorine is added after the previous treatment processes to reduce the production of disinfection byproducts and to enable biofiltration. The chlorine concentration is set by adjusting the position of the slider on the doser (see :numref:`figure_spec_doser`)."
+msgstr ""
+
+#: ../../AIDE/Specifications_BIP.rst:0
+msgid "ACRlogowithname"
 msgstr ""

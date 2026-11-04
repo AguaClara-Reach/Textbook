@@ -5,74 +5,84 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: AguaClara \nReport-Msgid-Bugs-To: \nPOT-Creation-Dat"
-"e: 2026-11-01 15:03-0500\nPO-Revision-Date: 2026-11-01 15:15-0500\nLast-"
-"Translator: AguaClara Reach Translation Team\nLanguage: es\nLanguage-Tea"
-"m: es <LL@li.org>\nPlural-Forms: nplurals=2; plural=(n!= 1);\nMIME-Versi"
-"on: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encod"
-"ing: 8bit\nGenerated-By: Babel 2.15.0\n"
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
+"PO-Revision-Date: 2026-11-01 15:15-0500\n"
+"Last-Translator: AguaClara Reach Translation Team\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n!= 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-#: ../../index.rst:31
+#: ../../index.rst:30
 msgid "Acknowledgements"
 msgstr "Agradecimientos"
 
-#: ../../index.rst:38
+#: ../../index.rst:37
 msgid "Chapter 1: Introduction"
 msgstr "Capítulo 1: Introducción"
 
-#: ../../index.rst:46
+#: ../../index.rst:45
 msgid "Chapter 2: Fluids and Hydraulics"
 msgstr "Capítulo 2: Fluidos e hidráulica"
 
-#: ../../index.rst:56
+#: ../../index.rst:55
 msgid "Chapter 3: Fluid Deformation, Fractals, and Forces"
 msgstr "Capítulo 3: Deformación de fluidos, fractales y fuerzas"
 
-#: ../../index.rst:66
+#: ../../index.rst:65
 msgid "Chapter 4: Chemistry of Water Treatment"
 msgstr "Capítulo 4: Química del tratamiento de agua"
 
-#: ../../index.rst:73
+#: ../../index.rst:72
 msgid "Chapter 5: Flow Control and Measurement"
 msgstr "Capítulo 5: Control y medición de caudal"
 
-#: ../../index.rst:85
+#: ../../index.rst:84
 msgid "Chapter 6: Rapid Mix"
 msgstr "Capítulo 6: Mezcla rápida"
 
-#: ../../index.rst:96
+#: ../../index.rst:95
 msgid "Chapter 7: Flocculation"
 msgstr "Capítulo 7: Floculación"
 
-#: ../../index.rst:109
+#: ../../index.rst:108
 msgid "Chapter 8: Clarification"
 msgstr "Capítulo 8: Clarificación"
 
-#: ../../index.rst:120
+#: ../../index.rst:119
 msgid "Chapter 9: Filtration"
 msgstr "Capítulo 9: Filtración"
 
-#: ../../index.rst:131
-msgid "Chapter 10: Design and Implementation"
-msgstr "Capítulo 10: Diseño e implementación"
+#: ../../index.rst:130
+msgid "Chapter 10: Residuals Generation and Management"
+msgstr "Capítulo 10: Generación y gestión de residuos"
 
-#: ../../index.rst:139
-msgid "Chapter 11: Dissolved Gas"
-msgstr "Capítulo 11: Gases disueltos"
+#: ../../index.rst:137
+msgid "Chapter 11: Design and Implementation"
+msgstr "Capítulo 11: Diseño e implementación"
 
-#: ../../index.rst:146
-msgid "Chapter 12: Operation"
-msgstr "Capítulo 12: Operación"
+#: ../../index.rst:145
+msgid "Chapter 12: Dissolved Gas"
+msgstr "Capítulo 12: Gases disueltos"
 
-#: ../../index.rst:154
+#: ../../index.rst:152
+msgid "Chapter 13: Operation"
+msgstr "Capítulo 13: Operación"
+
+#: ../../index.rst:160
 msgid "Appendix 1 + Resources"
 msgstr "Apéndice 1 y recursos"
 
-#: ../../index.rst:163
+#: ../../index.rst:169
 msgid "Contributor's guide"
 msgstr "Guía para colaboradores"
 
-#: ../../index.rst:14
+#: ../../index.rst:13
 msgid "|ACRlogowithname|"
 msgstr "|ACRlogowithname|"
 
@@ -80,7 +90,7 @@ msgstr "|ACRlogowithname|"
 msgid "ACRlogowithname"
 msgstr "ACRlogowithname"
 
-#: ../../index.rst:15
+#: ../../index.rst:14
 msgid "|donate|"
 msgstr "|donate|"
 
@@ -88,24 +98,25 @@ msgstr "|donate|"
 msgid "donate"
 msgstr "Dona"
 
-#: ../../index.rst:29
+#: ../../index.rst:28
 msgid "The Physics of Water Treatment Design"
 msgstr "La física del diseño del tratamiento de agua"
 
-#: ../../index.rst:173
+#: ../../index.rst:179
 msgid ""
 "This textbook is written and maintained in `Github <https://github.com"
 "/AguaClara-Reach/Textbook>`_ via `Sphinx <http://www.sphinx-"
-"doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in"
-" the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python library."
+"doc.org/en/master/>`_. It uses and refers to AguaClara code and functions"
+" in the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python "
+"library."
 msgstr ""
 "Este libro de texto se escribe y mantiene en `Github <https://github.com"
 "/AguaClara-Reach/Textbook>`_ mediante `Sphinx <http://www.sphinx-"
-"doc.org/en/master/>`_. Utiliza y hace referencia al código y las funciones "
-"de AguaClara en la biblioteca de Python `aguaclara "
+"doc.org/en/master/>`_. Utiliza y hace referencia al código y las "
+"funciones de AguaClara en la biblioteca de Python `aguaclara "
 "<https://github.com/AguaClara/aguaclara>`_."
 
-#: ../../index.rst:175
+#: ../../index.rst:181
 msgid ""
 "Please use the annotation sidebar to leave comments with requests for "
 "improvements, additions, and corrections."
@@ -113,7 +124,7 @@ msgstr ""
 "Utilice la barra lateral de anotaciones para dejar comentarios con "
 "solicitudes de mejoras, adiciones y correcciones."
 
-#: ../../index.rst:177
+#: ../../index.rst:183
 msgid ""
 "`Please visit our GitHub site <https://github.com/AguaClara-"
 "Reach/Textbook>`_ to submit an issue, contribute, or comment."

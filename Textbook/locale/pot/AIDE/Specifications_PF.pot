@@ -8,13 +8,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:53-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../AIDE/Specifications_PF.rst:0
+#: ../../AIDE/Specifications_PF.rst:173
+msgid "LFOM"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "Doser"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "EntranceTank"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "FlocculatorVH"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "FlocculatorHV"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "FlocculatorHH"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+#: ../../AIDE/Specifications_PF.rst:453
+msgid "Clarifier"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "OStaRS"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "20-80Lpsplant"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst:0
+msgid "ACRlogowithname"
+msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:53
 msgid "Specifications for the Prefabricated Series"
@@ -323,11 +365,6 @@ msgstr ""
 msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:0
-#: ../../AIDE/Specifications_PF.rst:173
-msgid "LFOM"
-msgstr ""
-
 #: ../../AIDE/Specifications_PF.rst:160
 msgid "The plant entrance tank is equipped with a flow-measurement device designed to produce a linear relationship between plant flow and the water level in the entrance chamber. The standard device is the Linear Flow Orifice Meter (LFOM), which has a pattern of orifices through which flow exits the entrance tank."
 msgstr ""
@@ -623,10 +660,6 @@ msgstr ""
 msgid "Chemical Dose Controller |Doser|"
 msgstr ""
 
-#: ../../AIDE/Specifications_PF.rst:0
-msgid "Doser"
-msgstr ""
-
 #: ../../AIDE/Specifications_PF.rst:327
 msgid "One end of the chemical doser balance (see :numref:`figure_spec_PF_doser`) is connected to a float in the plant entrance tank. The dose slider and the ends of the doser hoses are located on the other end of the chemical doser balance."
 msgstr ""
@@ -822,10 +855,6 @@ msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:449
 msgid "The baffle modules transfer the force of the water to the downstream wall through the PVC and PEX pipe frame. Each flocculator channel holds one baffle module."
-msgstr ""
-
-#: ../../AIDE/Specifications_PF.rst:453
-msgid "Clarifier"
 msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:455

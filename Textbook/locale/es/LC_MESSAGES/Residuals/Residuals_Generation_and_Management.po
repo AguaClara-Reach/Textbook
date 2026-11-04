@@ -1,0 +1,1029 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, AguaClara Reach
+# This file is distributed under the same license as the AguaClara package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
+"PO-Revision-Date: 2026-11-04 13:00-0500\n"
+"Last-Translator: AguaClara Reach Translation Team\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:11
+msgid "Residuals Generation and Management"
+msgstr "Generación y gestión de residuos"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:13
+msgid ""
+"Drinking water treatment concentrates solids from the raw water into "
+"residual streams. Coagulant precipitation contributes additional solids. The"
+" solids contain particles including pathogens present in the raw water as "
+"well as dissolved organic matter that is adsorbed to the solids. The solids "
+"are removed from the treated water and discharged in residual streams. The "
+"two principal residual streams from an AguaClara plant are clarifier sludge "
+"purges and filter backwash. This chapter provides methods for estimating "
+"their solids loads, water volumes, and discharge characteristics for any "
+"plant capacity."
+msgstr ""
+"El tratamiento de agua potable concentra los sólidos del agua cruda en"
+" corrientes residuales. La precipitación coagulante aporta sólidos adi"
+"cionales. Los sólidos contienen partículas, incluyendo patógenos prese"
+"ntes en el agua cruda, así como materia orgánica disuelta que se adsor"
+"be a los sólidos. Los sólidos se extraen del agua tratada y se descarg"
+"an en corrientes residuales. Los dos principales flujos residuales de "
+"una planta de AguaClara son las purgas de lodos clarificadores y el re"
+"trolavado de filtros. Este capítulo proporciona métodos para estimar s"
+"us cargas de sólidos, volúmenes de agua y características de descarga "
+"para cualquier capacidad de planta."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:19
+msgid "Estimating Solids Production"
+msgstr "Estimación de la producción de sólidos"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:21
+msgid ""
+"Most solids removed by an AguaClara plant originate in the raw water. "
+"Aluminum coagulant also contributes solids as aluminum hydroxide. For a "
+"first estimate, the mass of solids generated per volume of raw water treated"
+" is"
+msgstr ""
+"La mayoría de los sólidos eliminados por una planta AguaClara se originan en"
+" el agua cruda. El coagulante de aluminio también aporta sólidos como "
+"hidróxido de aluminio. Para una primera estimación, la masa de sólidos "
+"generados por volumen de agua cruda tratada es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:23
+msgid "C_s = k_T^C T_{\\mathrm{in}} + Y_{\\mathrm{Al}} D"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:28
+#: ../../Residuals/Residuals_Generation_and_Management.rst:51
+#: ../../Residuals/Residuals_Generation_and_Management.rst:65
+#: ../../Residuals/Residuals_Generation_and_Management.rst:76
+#: ../../Residuals/Residuals_Generation_and_Management.rst:111
+#: ../../Residuals/Residuals_Generation_and_Management.rst:132
+#: ../../Residuals/Residuals_Generation_and_Management.rst:149
+#: ../../Residuals/Residuals_Generation_and_Management.rst:168
+#: ../../Residuals/Residuals_Generation_and_Management.rst:193
+#: ../../Residuals/Residuals_Generation_and_Management.rst:207
+#: ../../Residuals/Residuals_Generation_and_Management.rst:221
+#: ../../Residuals/Residuals_Generation_and_Management.rst:287
+#: ../../Residuals/Residuals_Generation_and_Management.rst:318
+msgid "where:"
+msgstr "donde:"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:30
+msgid ""
+":math:`C_s` is estimated solids production per volume of raw water treated, "
+"in kg/m³ (numerically equal to g/L);"
+msgstr ""
+":math:`C_s` es la producción estimada de sólidos por volumen de agua cruda "
+"tratada, en kg/m³ (numéricamente igual a g/L);"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:31
+#: ../../Residuals/Residuals_Generation_and_Management.rst:79
+msgid ""
+":math:`k_T^C` is the site-specific coefficient converting turbidity to "
+"suspended-solids concentration, in kg/(m³·NTU);"
+msgstr ""
+":math:`k_T^C` es el coeficiente específico del sitio que convierte la "
+"turbiedad en concentración de sólidos suspendidos, en kg/(m³·UTN);"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:32
+msgid ":math:`T_{\\mathrm{in}}` is the influent or raw-water turbidity, in NTU;"
+msgstr ""
+":math:`T_{\\mathrm{in}}` es la turbiedad del influente o del agua cruda, "
+"en UTN;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:33
+msgid ""
+":math:`Y_{\\mathrm{Al}}` is the mass yield of aluminum hydroxide per mass of"
+" elemental aluminum dosed, dimensionless; and"
+msgstr ""
+":math:`Y_{\\mathrm{Al}}` es el rendimiento en masa de hidróxido de aluminio "
+"por masa de aluminio elemental dosificado, adimensional; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:34
+msgid ":math:`D` is the elemental-aluminum dose, in kg Al/m³."
+msgstr ":math:`D` es la dosis de aluminio elemental, en kg Al/m³."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:36
+msgid ""
+"For complete precipitation as :math:`\\mathrm{Al(OH)_3}`, "
+":math:`Y_{\\mathrm{Al}}` is the ratio of the corresponding molar masses. The"
+" equation neglects dissolved constituents incorporated into the residuals "
+"and the small amount of solids leaving with treated water. The conversion "
+"factor :math:`k_T^C` is a function of the size distribution of the suspended"
+" solids."
+msgstr ""
+"Para precipitación completa como :math:`\\mathrm{Al(OH)_3}`, "
+":math:`Y_{\\mathrm{Al}}` es la razón de las masas molares correspondientes. "
+"La ecuación descuida los constituyentes disueltos incorporados en los "
+"residuos y la pequeña cantidad de sólidos que salen con agua tratada. El "
+"factor de conversión :math:`k_T^C` depende de la distribución de tamaños "
+"de los sólidos suspendidos."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:38
+msgid "0.68 mg/L per NTU: AguaClara's experimentally measured value for kaolin clay."
+msgstr ""
+"0.68 mg/L por UTN: valor medido experimentalmente por AguaClara para la "
+"arcilla de caolín."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:39
+msgid "1.0 mg/L per NTU: Representative preliminary design value for river water."
+msgstr ""
+"1.0 mg/L por UTN: valor representativo de diseño preliminar para el agua del"
+" río."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:40
+msgid ""
+"0.7 – 2.0 mg/L per NTU: Suggested sensitivity range for preliminary "
+"calculations."
+msgstr ""
+"0.7–2.0 mg/L por UTN: intervalo de sensibilidad sugerido para cálculos "
+"preliminares."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:42
+msgid ""
+"River water turbidity is often dominated by clay and silt particles, which "
+"are larger on average than kaolin clay. The larger particles have a smaller "
+"surface area per unit mass, which increases the mass per turbidity. The "
+"range of 0.7–2.0 mg/L per NTU is based on the observed range of turbidity "
+"per unit mass for different river waters. We will use :math:`k_T^C=0.001` "
+"kg/(m³·NTU) for preliminary calculations as this value should be within a "
+"factor of 2 and well within the range of uncertainty for residual "
+"management."
+msgstr ""
+"La turbiedad del agua de río suele estar dominada por partículas de arcilla "
+"y limo, que en promedio son mayores que las partículas de arcilla de caolín. "
+"Las partículas mayores tienen menos área superficial por unidad de masa, lo "
+"que aumenta la masa por unidad de turbiedad. El intervalo de 0.7–2.0 mg/L por "
+"UTN se basa en el intervalo observado de turbiedad por unidad de masa en "
+"diferentes aguas de río. Para los cálculos preliminares se usará "
+":math:`k_T^C=0.001` kg/(m³·UTN), ya que se espera que este valor esté dentro "
+"de un factor de 2 y, por tanto, dentro de la incertidumbre de la gestión de "
+"residuos."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:44
+msgid "When the elemental-aluminum dose follows the AguaClara cube-root model,"
+msgstr ""
+"Cuando la dosis de aluminio elemental sigue el modelo de raíz cúbica de "
+"AguaClara,"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:46
+msgid "D = D_{\\mathrm{DOM}} + k_T^D \\sqrt[3]{T_{\\mathrm{in}}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:53
+#: ../../Residuals/Residuals_Generation_and_Management.rst:321
+msgid ":math:`D` is the elemental-aluminum dose, in kg Al/m³;"
+msgstr ":math:`D` es la dosis de aluminio elemental, en kg Al/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:54
+msgid ""
+":math:`D_{\\mathrm{DOM}}` is the additive coagulant demand associated "
+"primarily with dissolved organic matter, in kg of Al/m³;"
+msgstr ""
+":math:`D_{\\mathrm{DOM}}` es la demanda aditiva de coagulante asociada "
+"principalmente a materia orgánica disuelta, en kg de Al/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:55
+msgid ""
+":math:`k_T^D` is the source-specific coefficient converting cube-root "
+"turbidity to elemental-aluminum dose, in kg Al/(m³·NTU\\ :sup:`1/3`); and"
+msgstr ""
+":math:`k_T^D` es el coeficiente específico de la fuente que convierte la "
+"raíz cúbica de la turbiedad en dosis de aluminio elemental, en kg Al/(m³·"
+"UTN\\ :sup:`1/3`); y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:56
+msgid ":math:`T_{\\mathrm{in}}` is the influent or raw-water turbidity, in NTU."
+msgstr ""
+":math:`T_{\\mathrm{in}}` es la turbiedad del influente o del agua cruda, "
+"en UTN."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:58
+msgid ""
+"The elemental-aluminum dose is the product of the coagulant dose and the "
+"mass fraction of elemental aluminum in the coagulant product:"
+msgstr ""
+"La dosis de aluminio elemental es el producto de la dosis de coagulante y la"
+" fracción másica de aluminio elemental en el producto coagulante:"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:60
+msgid " D = f_{\\mathrm{Al}}C_{\\mathrm{coag}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:67
+msgid ":math:`C_{\\mathrm{coag}}` is the coagulant-product dose, in kg/m³;"
+msgstr ":math:`C_{\\mathrm{coag}}` es la dosis del producto coagulante, en kg/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:68
+msgid ""
+":math:`f_{\\mathrm{Al}}` is the mass fraction of elemental aluminum in the "
+"coagulant product, dimensionless; and"
+msgstr ""
+":math:`f_{\\mathrm{Al}}` es la fracción másica de aluminio elemental en el "
+"producto coagulante, adimensional; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:69
+msgid ":math:`D` is the Al dose, in kg of Al/m³."
+msgstr ":math:`D` es la dosis de Al, en kg de Al/m³."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:71
+msgid ""
+"C_s = k_T^C T_{\\mathrm{in}} + Y_{\\mathrm{Al}} "
+"\\left(D_{\\mathrm{DOM}}+k_T^D \\sqrt[3]{T_{\\mathrm{in}}}\\right)"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:78
+msgid ""
+":math:`C_s` is estimated solids production per volume of raw water treated, "
+"in kg/m³;"
+msgstr ""
+":math:`C_s` es la producción estimada de sólidos por volumen de agua cruda "
+"tratada, en kg/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:80
+msgid ":math:`T_{\\mathrm{in}}` is raw-water turbidity, in NTU;"
+msgstr ":math:`T_{\\mathrm{in}}` es la turbiedad del agua cruda, en UTN;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:81
+msgid ""
+":math:`Y_{\\mathrm{Al}}` is the aluminum-hydroxide mass yield, "
+"dimensionless; and"
+msgstr ""
+":math:`Y_{\\mathrm{Al}}` es el rendimiento másico de hidróxido de aluminio, "
+"adimensional; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:82
+msgid ""
+":math:`D_{\\mathrm{DOM}}` and :math:`k_T^D` are the empirical dosing "
+"parameters defined above."
+msgstr ""
+":math:`D_{\\mathrm{DOM}}` y :math:`k_T^D` son los parámetros empíricos de "
+"dosificación definidos anteriormente."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:84
+msgid ""
+"In the absence of site-specific data, use the following preliminary values "
+"for calculations:"
+msgstr ""
+"En ausencia de datos específicos del sitio, utilice los siguientes valores "
+"preliminares para los cálculos:"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:86
+msgid ":math:`k_T^C=0.001` kg/(m³·NTU)"
+msgstr ":math:`k_T^C=0.001` kg/(m³·UTN)"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:87
+msgid ""
+":math:`Y_{\\mathrm{Al}}=\\frac{78}{27}` (for complete precipitation as "
+":math:`\\mathrm{Al(OH)_3}`)"
+msgstr ""
+":math:`Y_{\\mathrm{Al}}=\\frac{78}{27}` (para precipitación completa como "
+":math:`\\mathrm{Al(OH)_3}`)"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:88
+msgid ":math:`D_{\\mathrm{DOM}}=0.001` kg/m³ (highly dependent on the source water)"
+msgstr ":math:`D_{\\mathrm{DOM}}=0.001` kg/m³ (altamente dependiente del agua fuente)"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:89
+msgid ":math:`k_T^D=0.001 \\frac{kg Al}{m^3·\\sqrt[3]{NTU}}`"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:91
+msgid ""
+"If daily turbidity data are available, use Equation "
+":eq:`residuals_total_solids_turbidity` for every turbidity value to estimate"
+" the daily solids production. If only a single average estimated turbidity "
+"is available, use it to estimate the solids production for a typical day. "
+"When averaging the turbidity the resulting coagulant dose is not the same as"
+" the dose calculated from the average turbidity because of the cube-root "
+"relationship. Because coagulant dose increases with the cube root of "
+"turbidity, calculating the dose from average turbidity slightly "
+"overestimates average coagulant consumption. This overestimation has a "
+"negligible effect on the solids production estimate because the coagulant "
+"contribution is small compared to the solids from raw water. "
+":numref:`figure_residuals_solids_production` illustrates the component and "
+"total solids-production estimates."
+msgstr ""
+"Si se dispone de datos diarios de turbiedad, se usa la Ecuación "
+":eq:`residuals_total_solids_turbidity` con cada valor para estimar la "
+"producción diaria de sólidos. Si solo se dispone de una turbiedad promedio "
+"estimada, se usa para estimar la producción de sólidos de un día típico. Al "
+"promediar la turbiedad, la dosis de coagulante resultante no es igual a la "
+"dosis calculada a partir de la turbiedad promedio debido a la relación de "
+"raíz cúbica. Como la dosis de coagulante aumenta con la raíz cúbica de la "
+"turbiedad, calcular la dosis a partir de la turbiedad promedio sobrestima "
+"ligeramente el consumo promedio de coagulante. Esta sobrestimación tiene un "
+"efecto insignificante sobre la estimación de sólidos porque el aporte del "
+"coagulante es pequeño en comparación con los sólidos del agua cruda. La "
+":numref:`figure_residuals_solids_production` muestra las estimaciones de "
+"cada componente y de la producción total de sólidos."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:100
+msgid ""
+"Suspended-solids, coagulant, and total solids production as functions of "
+"average raw-water turbidity."
+msgstr ""
+"Producción de sólidos suspendidos, sólidos del coagulante y sólidos totales "
+"en función de la turbiedad promedio del agua cruda."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:100
+msgid ""
+"Estimated solids production as a function of average raw-water turbidity. "
+"The suspended-solids and coagulant-precipitate contributions use the "
+"preliminary coefficients listed above; total solids production is the sum of"
+" the two contributions. The dotted construction lines show that an average "
+"turbidity of 50 NTU produces approximately 0.0635 kg/m³ of total solids."
+msgstr ""
+"Producción estimada de sólidos en función de la turbiedad promedio del agua "
+"cruda. Las contribuciones de sólidos suspendidos y coagulantes-precipitados "
+"utilizan los coeficientes preliminares mencionados anteriormente; la "
+"producción total de sólidos es la suma de ambas contribuciones. Las líneas "
+"de construcción punteadas muestran que una turbiedad promedio de 50 UTN produce "
+"aproximadamente 0.0635 kg/m³ de sólidos totales."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:104
+msgid ""
+"For a plant treating :math:`V_d` cubic meters of raw water per day, the "
+"estimated dry-solids mass is"
+msgstr ""
+"Para una planta que trata :math:`V_d` metros cúbicos de agua cruda por día, "
+"la masa estimada de sólidos secos es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:106
+msgid "M_s = V_d C_s"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:113
+msgid ":math:`M_s` is the dry-solids mass generated per day, in kg/day;"
+msgstr ":math:`M_s` es la masa de sólidos secos generada por día, en kg/día;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:114
+msgid ":math:`V_d` is the raw-water volume treated per day, in m³/day; and"
+msgstr ":math:`V_d` es el volumen de agua cruda tratada por día, en m³/día; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:115
+msgid ""
+":math:`C_s` is estimated solids production per volume of raw water treated, "
+"in kg/m³."
+msgstr ""
+":math:`C_s` es la producción estimada de sólidos por volumen de agua cruda "
+"tratada, en kg/m³."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:117
+msgid ""
+"For example, a 70 m³/day plant treating raw water with an average turbidity "
+"of 50 NTU generates approximately 4.4 kg of solids per day."
+msgstr ""
+"Por ejemplo, una planta de 70 m³/día que trata agua cruda con una turbiedad "
+"promedio de 50 UTN genera aproximadamente 4.4 kg de sólidos por día."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:123
+msgid "Clarifier Sludge Purges"
+msgstr "Purgas de lodos del clarificador"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:125
+msgid ""
+"AguaClara clarifiers produce water with an average turbidity "
+":math:`T_{\\mathrm{clar}}` of approximately 0.5 NTU. The fraction of the "
+"solids production removed by the clarifier is"
+msgstr ""
+"Los clarificadores AguaClara producen agua con una turbiedad promedio "
+":math:`T_{\\mathrm{clar}}` de aproximadamente 0.5 UTN. La fracción de la "
+"producción de sólidos eliminada por el clarificador es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:127
+msgid ""
+"f_{\\mathrm{clar}} = \\frac{T_{\\mathrm{in}} - "
+"T_{\\mathrm{clar}}}{T_{\\mathrm{in}}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:134
+#: ../../Residuals/Residuals_Generation_and_Management.rst:152
+#: ../../Residuals/Residuals_Generation_and_Management.rst:171
+msgid ""
+":math:`f_{\\mathrm{clar}}` is the fraction of generated solids removed in "
+"the clarifier, dimensionless;"
+msgstr ""
+":math:`f_{\\mathrm{clar}}` es la fracción de sólidos generados eliminados en"
+" el clarificador, adimensional;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:135
+msgid ":math:`T_{\\mathrm{in}}` is the influent or raw-water turbidity, in NTU; and"
+msgstr ""
+":math:`T_{\\mathrm{in}}` es la turbiedad del influente o del agua cruda, "
+"en UTN; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:136
+msgid ":math:`T_{\\mathrm{clar}}` is the clarifier effluent turbidity, in NTU."
+msgstr ""
+":math:`T_{\\mathrm{clar}}` es la turbiedad del efluente del clarificador, "
+"en UTN."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:138
+msgid ""
+"For the example above, raw water with a turbidity of 50 NTU produces a "
+"clarifier effluent of approximately 0.5 NTU, which corresponds to a "
+"clarifier capture fraction of 0.99."
+msgstr ""
+"Para el ejemplo anterior, el agua cruda con una turbiedad de 50 UTN produce "
+"un efluente del clarificador de aproximadamente 0.5 UTN, lo que corresponde "
+"a una fracción de captura del clarificador de 0.99."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:140
+msgid ""
+"The clarifier purges remove most of the captured solids except for the case "
+"of pristine rivers with very low turbidity. The clarifier purge "
+"concentration has not been systematically measured across AguaClara plants. "
+"A provisional range of **0.5–10 g/L TSS** may be used for preliminary "
+"estimates, **not** as a guaranteed operating range. Purge concentration is "
+"highly dependent on the raw water turbidity and dissolved organic matter "
+"concentrations. The clarifier purge concentration is expected to be "
+"significantly higher than the filter backwash concentration because the "
+"clarifier provides an opportunity for consolidation of the captured solids."
+msgstr ""
+"Las purgas del clarificador eliminan la mayoría de los sólidos capturados, "
+"excepto en el caso de ríos prístinos con turbiedad muy baja. La concentración "
+"de la purga del clarificador no se ha medido sistemáticamente en las plantas "
+"de AguaClara. Se puede usar un intervalo provisional de **0.5–10 g/L de SST** "
+"para estimaciones preliminares, **no** como un intervalo operativo garantizado. "
+"La concentración de la purga depende en gran medida de la turbiedad del agua "
+"cruda y de las concentraciones de materia orgánica disuelta. Se espera que la "
+"concentración de la purga del clarificador sea significativamente mayor que la "
+"concentración del retrolavado del filtro, porque el clarificador permite que "
+"los sólidos capturados se consoliden."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:142
+msgid ""
+"If a fraction :math:`f_{\\mathrm{clar}}` of the total generated solids is "
+"removed in the clarifier, the daily purge volume is approximately"
+msgstr ""
+"Si se elimina una fracción :math:`f_{\\mathrm{clar}}` del total de sólidos "
+"generados en el clarificador, el volumen diario de purga es aproximadamente"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:144
+msgid ""
+"\\forall_{\\mathrm{clar}} = \\frac{f_{\\mathrm{clar}} "
+"M_s}{C_{\\mathrm{clar}}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:151
+#: ../../Residuals/Residuals_Generation_and_Management.rst:170
+msgid ""
+":math:`\\forall_{\\mathrm{clar}}` is the daily clarifier-purge volume, in "
+"m³/day;"
+msgstr ""
+":math:`\\forall_{\\mathrm{clar}}` es el volumen diario de clarificador-"
+"purga, en m³/día;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:153
+msgid ":math:`M_s` is the dry-solids mass generated per day, in kg/day; and"
+msgstr ":math:`M_s` es la masa de sólidos secos generada por día, en kg/día; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:154
+#: ../../Residuals/Residuals_Generation_and_Management.rst:174
+msgid ""
+":math:`C_{\\mathrm{clar}}` is the purge total suspended solids "
+"concentration, in kg/m³."
+msgstr ""
+":math:`C_{\\mathrm{clar}}` es la concentración total sólidos suspendidos "
+"purga, en kg/m³."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:156
+msgid ""
+"For example, if :math:`M_s=4.4` kg/day, :math:`f_{\\mathrm{clar}}=0.99`, and"
+" :math:`C_{\\mathrm{clar}}=5` kg/m³, the estimated purge volume is "
+":math:`\\forall_{\\mathrm{clar}}=0.87\\ \\mathrm{m^3/day}`."
+msgstr ""
+"Por ejemplo, si :math:`M_s=4.4` kg/día, :math:`f_{\\mathrm{clar}}=0.99`y "
+":math:`C_{\\mathrm{clar}}=5` kg/m³, el volumen estimado de purga es "
+":math:`\\forall_{\\mathrm{clar}}=0.87\\ \\mathrm{m^3/day}`."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:158
+msgid ""
+"Purge scheduling is being refined. Possible operating strategies include "
+"intermittent purges (for example, every 12 hours) for low raw water "
+"turbidities and a slow continuous purge. Sludge production and purge volume "
+"requirements increase with raw-water turbidity."
+msgstr ""
+"Se está perfeccionando la planificación de purgas. Las posibles estrategias "
+"operativas incluyen purgas intermitentes (por ejemplo, cada 12 horas) para "
+"aguas crudas de baja turbiedad y una purga continua lenta. Los requisitos "
+"de producción de lodos y volumen de purga aumentan con la turbiedad del agua "
+"cruda."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:160
+msgid ""
+"Combining Equations :eq:`residuals_daily_clarifier_purge_volume` and "
+":eq:`residuals_daily_solids_mass` gives the daily clarifier purge volume as "
+"a function of solids concentration as given in "
+":numref:`figure_residuals_solids_production`."
+msgstr ""
+"Combinando las ecuaciones :eq:`residuals_daily_clarifier_purge_volume` y "
+":eq:`residuals_daily_solids_mass` se obtiene el volumen de purga diario del "
+"clarificador en función de la concentración de sólidos según "
+":numref:`figure_residuals_solids_production`."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:163
+msgid ""
+"\\forall_{\\mathrm{clar}} = \\frac{f_{\\mathrm{clar}} V_d "
+"C_s}{C_{\\mathrm{clar}}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:172
+msgid ":math:`V_d` is the raw-water volume treated per day, in m³/day;"
+msgstr ":math:`V_d` es el volumen de agua cruda tratada por día, en m³/día;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:173
+msgid ""
+":math:`C_s` is the solids production per volume of raw water treated, in "
+"kg/m³; and"
+msgstr ""
+":math:`C_s` es la producción de sólidos por volumen de agua cruda tratada, "
+"en kg/m³; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:176
+msgid ""
+"Equation "
+":eq:`residuals_daily_clarifier_purge_volume_of_solids_concentration` can be "
+"used to estimate the clarifier purge volume for any plant capacity and raw-"
+"water turbidity. The purge volume is inversely proportional to the purge "
+"concentration, which is expected to vary with raw-water turbidity and "
+"dissolved organic matter concentration. The purge volume is directly "
+"proportional to the plant capacity and the solids production per unit volume"
+" of raw water treated. From :numref:`figure_residuals_solids_production`, "
+"the solids production per unit volume of raw water treated increases with "
+"raw-water turbidity."
+msgstr ""
+"La ecuación "
+":eq:`residuals_daily_clarifier_purge_volume_of_solids_concentration` puede "
+"utilizarse para estimar el volumen de purga del clarificador para cualquier "
+"capacidad de planta y turbidez del agua cruda. El volumen de purga es "
+"inversamente proporcional a la concentración de la purga, que se espera que "
+"varíe con la turbiedad del agua cruda y la concentración de materia orgánica "
+"disuelta. El volumen de purga es directamente proporcional a la capacidad de"
+" la planta y a la producción de sólidos por unidad de volumen de agua cruda "
+"tratada. La :numref:`figure_residuals_solids_production` muestra que la "
+"producción de sólidos por unidad de volumen de agua cruda tratada aumenta "
+"con la turbiedad del agua cruda."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:182
+msgid "Filter Backwash"
+msgstr "Retrolavado de filtros"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:184
+msgid ""
+"Filter backwash removes solids that pass through clarification and "
+"accumulate in the filter. Filtered-water turbidity, "
+":math:`T_{\\mathrm{fi}}`, is expected to be less than 0.1 NTU. For a "
+"clarifier effluent turbidity of 0.5 NTU, the filter therefore removes "
+"approximately 0.4 NTU."
+msgstr ""
+"El retrolavado del filtro elimina los sólidos que pasan por la clarificación "
+"y se acumulan en el filtro. Se espera que la turbiedad del agua filtrada, "
+":math:`T_{\\mathrm{fi}}`, sea menor que 0.1 UTN. Por lo tanto, para una "
+"turbiedad de 0.5 UTN en el efluente del clarificador, el filtro elimina "
+"aproximadamente 0.4 UTN."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:186
+msgid ""
+"For a filter whose backwash includes an initial discharge volume followed by"
+" discharge at approximately plant flow,"
+msgstr ""
+"Para un filtro cuyo retrolavado incluye un volumen inicial de descarga "
+"seguido de una descarga aproximadamente igual al caudal de la planta,"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:188
+msgid "\\forall_b = \\forall_0 + Q_p t_b"
+msgstr "\\forall_b = \\forall_0 + Q_p t_b"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:195
+#: ../../Residuals/Residuals_Generation_and_Management.rst:210
+msgid ":math:`\\forall_b` is the backwash volume per event, in m³;"
+msgstr ":math:`\\forall_b` es el volumen de retrolavado por evento, en m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:196
+msgid ":math:`\\forall_0` is the initial discharge volume, in m³;"
+msgstr ":math:`\\forall_0` es el volumen inicial de descarga, en m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:197
+msgid ""
+":math:`Q_p` is the plant flow rate during the subsequent discharge, in m³/s;"
+" and"
+msgstr ":math:`Q_p` es el caudal de la planta durante la descarga posterior, en m³/s; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:198
+msgid ""
+":math:`t_b` is the total backwash duration starting from the initial "
+"discharge, in s."
+msgstr ""
+":math:`t_b` es la duración total del retrolavado a partir de la descarga "
+"inicial, en s."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:200
+msgid ""
+"If backwashing occurs every :math:`t_i` seconds of operation, the backwash "
+"water fraction is"
+msgstr ""
+"Si se realiza un retrolavado cada :math:`t_i` segundos de operación, la "
+"fracción de agua usada para el retrolavado es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:202
+#, python-brace-format
+msgid "F_b = \\frac{\\forall_b}{Q_p t_i}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:209
+#: ../../Residuals/Residuals_Generation_and_Management.rst:224
+msgid ""
+":math:`F_b` is the fraction of treated water used for backwashing, "
+"dimensionless;"
+msgstr ""
+":math:`F_b` es la fracción de agua tratada utilizada para el retrolavado, "
+"adimensional;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:211
+#: ../../Residuals/Residuals_Generation_and_Management.rst:225
+msgid ":math:`Q_p` is the plant flow rate, in m³/s; and"
+msgstr ":math:`Q_p` es el caudal de la planta, en m³/s; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:212
+msgid ":math:`t_i` is the time between the start of backwash events, in s."
+msgstr ":math:`t_i` es el tiempo entre el inicio de dos retrolavados, en s."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:214
+msgid "The average daily backwash volume is"
+msgstr "El volumen medio diario de retrolavado es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:216
+#, python-brace-format
+msgid "\\forall_{b,d} = F_b Q_p t_d"
+msgstr "\\forall_{b,d} = F_b Q_p t_d"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:223
+#, python-brace-format
+msgid ":math:`\\forall_{b,d}` is the average daily backwash volume, in m³/day;"
+msgstr ":math:`\\forall_{b,d}` es el volumen medio diario de retrolavado, en m³/día;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:226
+msgid ":math:`t_d` is the number of operating seconds per day."
+msgstr ":math:`t_d` es el número de segundos de funcionamiento al día."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:228
+#, python-brace-format
+msgid ""
+"**PF70 example.** The ShOStaRS filter is expected to require a backwash "
+"every 12–30 hours of operation, depending on raw-water turbidity, coagulant "
+"dose, and clarifier performance. The backwash duration is expected to be "
+"approximately 15–20 minutes. For this example, use a plant flow of "
+":math:`Q_p=70\\ \\mathrm{m^3/day}`, an initial discharge volume of "
+":math:`\\forall_0=0.200\\ \\mathrm{m^3}`, a backwash duration of "
+":math:`t_b=15\\ \\mathrm{min}`, and an interval of :math:`t_i=18\\ "
+"\\mathrm{h}`."
+msgstr ""
+"**Ejemplo del PF70.** Se espera que el FRAMCA compacto requiera un retrolavado "
+"cada 12–30 horas de operación, dependiendo de la turbiedad del agua cruda, "
+"la dosis de coagulante y el desempeño del clarificador. Se espera que el "
+"retrolavado dure aproximadamente 15–20 minutos. Para este ejemplo, se usa un "
+"caudal de planta de :math:`Q_p=70\\ \\mathrm{m^3/day}`, un volumen inicial "
+"de descarga de :math:`\\forall_0=0.200\\ \\mathrm{m^3}`, una duración de "
+"retrolavado de :math:`t_b=15\\ \\mathrm{min}` y un intervalo de "
+":math:`t_i=18\\ \\mathrm{h}`."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:230
+msgid ""
+"Substitution into Equation :eq:`residuals_backwash_event_volume` gives the "
+"backwash volume per event:"
+msgstr ""
+"La sustitución en la Ecuación :eq:`residuals_backwash_event_volume` da el "
+"volumen de retrolavado por evento:"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:232
+msgid ""
+"\\forall_b\n"
+"= 0.200\\ \\mathrm{m^3}\n"
+"+ \\left(70\\ \\frac{\\mathrm{m^3}}{\\mathrm{day}}\\right)\n"
+"  \\left(15\\ \\mathrm{min}\\right)\n"
+"  \\left(\\frac{1\\ \\mathrm{day}}{1440\\ \\mathrm{min}}\\right)\n"
+"= 0.929\\ \\frac{\\mathrm{m^3}}{\\mathrm{event}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:242
+msgid ""
+"Using Equation :eq:`residuals_backwash_water_fraction`, the fraction of "
+"treated water used for backwashing is"
+msgstr ""
+"Usando la ecuación :eq:`residuals_backwash_water_fraction`, la fracción de "
+"agua tratada utilizada para el retrolavado es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:244
+msgid ""
+"F_b\n"
+"= \\frac{0.929\\ \\mathrm{m^3/event}}\n"
+"  {\\left(70\\ \\mathrm{m^3/day}\\right)\n"
+"   \\left(18\\ \\mathrm{h/event}\\right)\n"
+"   \\left(1\\ \\mathrm{day}/24\\ \\mathrm{h}\\right)}\n"
+"= 0.0177\n"
+"= 1.77\\%"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:255
+msgid ""
+"Equation :eq:`residuals_daily_backwash_volume` then gives the average daily "
+"backwash volume:"
+msgstr ""
+"La ecuación :eq:`residuals_daily_backwash_volume` da entonces el volumen "
+"medio diario de retrolavado:"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:257
+msgid ""
+"\\forall_{b,d}\n"
+"= F_b Q_p t_d\n"
+"= \\left(0.0177\\right)\n"
+"  \\left(70\\ \\frac{\\mathrm{m^3}}{\\mathrm{day}}\\right)\n"
+"= 1.24\\ \\frac{\\mathrm{m^3}}{\\mathrm{day}}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:266
+msgid ""
+"Preliminary estimates of backwash-water quality are **10–50 NTU** and "
+"**10–50 mg/L TSS**. If the clarifier effluent turbidity is "
+":math:`T_{\\mathrm{clar}}=0.5\\ \\mathrm{NTU}` and the filter effluent "
+"turbidity is :math:`T_{\\mathrm{fi}}=0.1\\ \\mathrm{NTU}`, the filter "
+"removes a turbidity equivalent of :math:`0.4\\ \\mathrm{NTU}`. Assuming this"
+" captured-solids concentration is conserved and released in the backwash "
+"fraction, the estimated backwash turbidity is"
+msgstr ""
+"Las estimaciones preliminares de la calidad del agua de retrolavado son "
+"**10–50 UTN** y **10–50 mg/L de SST**. Si la turbiedad del efluente del "
+"clarificador es :math:`T_{\\mathrm{clar}}=0.5\\ \\mathrm{NTU}` y la "
+"turbiedad del efluente del filtro es "
+":math:`T_{\\mathrm{fi}}=0.1\\ \\mathrm{NTU}`, el filtro elimina una "
+"concentración de sólidos equivalente a :math:`0.4\\ \\mathrm{NTU}` de "
+"turbiedad. Si se supone que esta concentración de sólidos capturados se "
+"conserva y se libera en la fracción de retrolavado, la turbiedad estimada "
+"del retrolavado es"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:268
+msgid ""
+"T_b\n"
+"\\approx \\frac{T_{\\mathrm{clar}}-T_{\\mathrm{fi}}}{F_b}\n"
+"= \\frac{0.5\\ \\mathrm{NTU}-0.1\\ \\mathrm{NTU}}{0.0177}\n"
+"= 22.6\\ \\mathrm{NTU}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:276
+msgid ""
+"where :math:`T_b` is the estimated backwash turbidity. This estimate falls "
+"within the preliminary range above."
+msgstr ""
+"donde :math:`T_b` es la turbiedad estimada del retrolavado. Esta estimación "
+"se encuentra dentro del intervalo preliminar anterior."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:278
+msgid ""
+"The formulas assume stable plant flow and a representative backwash "
+"interval. The actual event discharge hydrograph is needed to size conveyance"
+" or equalization facilities."
+msgstr ""
+"Las fórmulas suponen un caudal estable de la planta y un intervalo de "
+"retrolavado representativo. El hidrograma de descarga real del evento es "
+"necesario para dimensionar las instalaciones de conducción o ecualización."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:280
+msgid ""
+"At an assumed backwash concentration :math:`C_b` (kg/m³), the solids "
+"discharged per event are"
+msgstr ""
+"A una concentración de retrolavado asumida :math:`C_b` (kg/m³), los só"
+"lidos descargados por evento son"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:282
+msgid "M_b = \\forall_b C_b"
+msgstr "M_b = \\forall_b C_b"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:289
+msgid ":math:`M_b` is the solids discharged per backwash event, in kg/event;"
+msgstr ":math:`M_b` es la masa de sólidos descargada por retrolavado, en kg/evento;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:290
+msgid ":math:`\\forall_b` is the backwash volume per event, in m³/event; and"
+msgstr ":math:`\\forall_b` es el volumen de retrolavado por evento, en m³/evento; y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:291
+msgid ":math:`C_b` is the flow-weighted backwash solids concentration, in kg/m³."
+msgstr ""
+":math:`C_b` es la concentración de sólidos del retrolavado ponderada por "
+"caudal, en kg/m³."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:293
+msgid ""
+"The actual solids concentration changes during a backwash, so a flow-"
+"weighted composite sample is preferable to a single grab sample."
+msgstr ""
+"La concentración real de sólidos cambia durante un retrolavado, por lo que "
+"es preferible usar una muestra compuesta ponderada por caudal en vez de una "
+"sola muestra puntual."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:300
+msgid "Discharge Characteristics and Management"
+msgstr "Características y gestión de las descargas"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:305
+msgid "Aluminum in Residual Solids"
+msgstr "Aluminio en los sólidos residuales"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:307
+msgid ""
+"Aluminum coagulant contributes aluminum hydroxide to both residual streams. "
+"Assuming that all dosed elemental aluminum precipitates and remains in the "
+"residual solids, the coagulant-derived elemental-aluminum mass fraction is "
+"the elemental-aluminum dose divided by the total dry-solids production. "
+"Substituting Equation :eq:`residuals_cube_root_coagulant_dose` and Equation "
+":eq:`residuals_total_solids_turbidity` gives"
+msgstr ""
+"El coagulante de aluminio aporta hidróxido de aluminio a ambos flujos "
+"residuales. Suponiendo que todo el aluminio elemental dosificado precipita y"
+" permanece en los sólidos residuales, la fracción másica de aluminio "
+"elemental derivada del coagulante es la dosis de aluminio elemental dividida"
+" por la producción total de sólidos secos. Sustituyendo la ecuación "
+":eq:`residuals_cube_root_coagulant_dose` y la ecuación "
+":eq:`residuals_total_solids_turbidity` se obtiene"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:309
+msgid ""
+"w_{\\mathrm{Al,res}}\n"
+"= \\frac{D}{C_s}\n"
+"= \\frac{D_{\\mathrm{DOM}}+k_T^D\\sqrt[3]{T_{\\mathrm{in}}}}\n"
+"{k_T^C T_{\\mathrm{in}}\n"
+"+Y_{\\mathrm{Al}}\\left(D_{\\mathrm{DOM}}+k_T^D\\sqrt[3]{T_{\\mathrm{in}}}\\right)}"
+msgstr ""
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:320
+msgid ""
+":math:`w_{\\mathrm{Al,res}}` is the coagulant-derived elemental-aluminum "
+"mass fraction of the dry residual solids, in kg Al/kg dry solids;"
+msgstr ""
+":math:`w_{\\mathrm{Al,res}}` es la fracción másica de aluminio elemental "
+"derivada del coagulante en los sólidos residuales secos, en kg de Al/kg de "
+"sólidos secos;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:322
+msgid ""
+":math:`C_s` is the total dry-solids production per volume of raw water "
+"treated, in kg/m³;"
+msgstr ""
+":math:`C_s` es la producción total de sólidos secos por volumen de agua "
+"cruda tratada, en kg/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:323
+msgid ""
+":math:`D_{\\mathrm{DOM}}` is the additive elemental-aluminum demand "
+"associated primarily with dissolved organic matter, in kg Al/m³;"
+msgstr ""
+":math:`D_{\\mathrm{DOM}}` es la demanda aditiva de aluminio elemental "
+"asociada principalmente con materia orgánica disuelta, en kg Al/m³;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:324
+msgid ""
+":math:`k_T^D` is the site-specific turbidity-to-dose coefficient, in kg "
+"Al/(m³·NTU\\ :sup:`1/3`);"
+msgstr ""
+":math:`k_T^D` es el coeficiente turbidez-dosis específico del sitio, en kg "
+"Al/(m³· NTU\\ :sup:`1/3`);"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:325
+msgid ":math:`T_{\\mathrm{in}}` is the influent raw-water turbidity, in NTU;"
+msgstr ""
+":math:`T_{\\mathrm{in}}` es la turbiedad del agua cruda influente, en UTN;"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:326
+msgid ""
+":math:`k_T^C` is the site-specific suspended-solids-concentration-to-"
+"turbidity coefficient, in kg/(m³·NTU); and"
+msgstr ""
+":math:`k_T^C` es el coeficiente específico del sitio entre concentración de "
+"sólidos suspendidos y turbidez, en kg/(m³· NTU); y"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:327
+msgid ""
+":math:`Y_{\\mathrm{Al}}` is the aluminum-hydroxide mass yield per mass of "
+"elemental aluminum dosed, dimensionless."
+msgstr ""
+":math:`Y_{\\mathrm{Al}}` es el rendimiento másico de hidróxido de aluminio "
+"por masa dosificada de aluminio elemental, adimensional."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:329
+msgid ""
+"Equation :eq:`residuals_aluminum_mass_fraction` estimates aluminum added by "
+"the coagulant, not aluminum naturally present in clay, silt, or other "
+"source-water solids. It also excludes dissolved aluminum that does not "
+"precipitate. The corresponding aluminum-hydroxide mass fraction is "
+":math:`Y_{\\mathrm{Al}}w_{\\mathrm{Al,res}}`. Site-specific residuals "
+"characterization should be used when total aluminum concentration or "
+"disposal suitability must be established. The estimate applies to both "
+"clarifier purges and filter backwash."
+msgstr ""
+"La ecuación :eq:`residuals_aluminum_mass_fraction` estima el aluminio "
+"añadido por el coagulante, no aluminio presente de forma natural en la "
+"arcilla, el limo u otros sólidos del agua de la fuente. También excluye el aluminio"
+" disuelto que no precipita. La fracción másica correspondiente de hidróxido "
+"de aluminio es :math:`Y_{\\mathrm{Al}}w_{\\mathrm{Al,res}}`. La "
+"caracterización específica de residuos del sitio debe utilizarse cuando se "
+"deba establecer la concentración total de aluminio o la idoneidad para la "
+"disposición final. La estimación se aplica tanto a las purgas del clarificador como a los"
+" retrolavados de filtros."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:338
+msgid ""
+"Coagulant-derived elemental-aluminum mass fraction of dry residual solids as"
+" a function of average raw-water turbidity."
+msgstr ""
+"Fracción másica de aluminio elemental derivada del coagulante en los sólidos "
+"residuales secos en función de la turbiedad promedio del agua cruda."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:338
+msgid ""
+"Coagulant-derived elemental-aluminum mass fraction of the dry residual "
+"solids as a function of average raw-water turbidity. The curve uses Equation"
+" :eq:`residuals_aluminum_mass_fraction` and the preliminary coefficients "
+"listed in the solids-production section. This graph is based on the assumed "
+"dosing model and preliminary coefficients. Actual aluminum mass fraction may"
+" vary significantly with source water characteristics, coagulant product, "
+"and operating conditions."
+msgstr ""
+"Fracción másica de aluminio elemental derivada del coagulante en los "
+"sólidos residuales secos en función de la turbiedad promedio del agua cruda. La "
+"curva utiliza la Ecuación :eq:`residuals_aluminum_mass_fraction` y los "
+"coeficientes preliminares listados en la sección de producción de sólidos. "
+"Este gráfico se basa en el modelo de dosificación asumido y en los "
+"coeficientes preliminares. La fracción másica real del aluminio puede variar"
+" significativamente según las características del agua fuente, el producto "
+"coagulante y las condiciones de funcionamiento."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:344
+msgid "Other Discharge Characteristics"
+msgstr "Otras características de las descargas"
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:346
+msgid ""
+"**pH:** The pH of both streams is expected to be near raw-water pH, but "
+"coagulant chemistry and operating conditions can cause differences. Verify "
+"when pH is relevant to disposal approval."
+msgstr ""
+"**pH:** Se espera que el pH de ambas corrientes sea cercano al pH del agua "
+"cruda, pero la química del coagulante y las condiciones de funcionamiento "
+"pueden causar diferencias. Se debe verificar cuando el pH sea pertinente para "
+"la aprobación de la disposición final."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:347
+msgid ""
+"**Other treatment chemicals:** AguaClara uses an aluminum coagulant (such as"
+" polyaluminum chloride or aluminum sulfate); no separate polymer flocculant "
+"is normally added. The coagulant contributes aluminum hydroxide solids. "
+"Chlorine is generally dosed after filtration and is not normally a major "
+"constituent of clarifier purges or filter backwash."
+msgstr ""
+"**Otros productos químicos de tratamiento:** AguaClara utiliza un coagulante de aluminio "
+"(como cloruro de polialuminio o sulfato de aluminio); normalmente no se "
+"añade floculante de polímero separado. El coagulante aporta sólidos de "
+"hidróxido de aluminio. El cloro generalmente se dosifica tras la filtración "
+"y normalmente no es un componente principal en purgas de clarificadores o "
+"retrolavados de filtros."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:348
+msgid ""
+"**Hydraulics:** For the PF70 configuration described here, discharge pipe "
+"outlets are near the plant floor. Actual outlet elevations, pipe sizes, and "
+"discharge connections must be documented for each plant."
+msgstr ""
+"**Hidráulica:** Para la configuración PF70 descrita aquí, las salidas de las "
+"tuberías de descarga están cerca del piso de la planta. Para cada planta se "
+"deben documentar las elevaciones reales de las salidas, los diámetros de las "
+"tuberías y las conexiones de descarga."
+
+#: ../../Residuals/Residuals_Generation_and_Management.rst:349
+msgid ""
+"**Management options:** Depending on local requirements, residuals may be "
+"settled or thickened before further handling, with clarified supernatant "
+"managed separately. Reuse, irrigation, wetland treatment, or discharge to a "
+"receiving water requires site-specific evaluation and regulatory approval."
+msgstr ""
+"**Opciones de gestión:** Dependiendo de los requisitos locales, los residuos "
+"pueden ser sedimentados o engrosados antes de su manipulación adicional, "
+"gestionándose por separado el sobrenadante clarificado. La reutilización, "
+"riego, tratamiento de humedales o vertido en aguas receptoras requieren "
+"evaluación específica del sitio y aprobación regulatoria."
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -457,7 +457,7 @@ msgid "The 180° bend at the end of a baffle results in a dramatic flow contract
 msgstr ""
 
 #: ../../Flocculation/Floc_Intro.rst:318
-msgid "We can therefore state with reasonable accuracy that, when most contracted, the flow around a baffle goes through 37.3% of the area it does when expanded, or :math:`A_{contracted} = \\Pi_{vc}^{baffle} A_{expanded}`. Through the `:ref:`third form of the minor loss equation <heading_minor_losses>`, :math:`h_e = K \\frac{\\bar v_{out}^2}{2g}` and its definition of the minor loss coefficient, :math:`K = \\left( \\frac{A_{out}}{A_{in}} -1 \\right)^2`, we can determine the minimum minor loss coefficient for flow around a single baffle:"
+msgid "We can therefore state with reasonable accuracy that, when most contracted, the flow around a baffle goes through 37.3% of the area it does when expanded, or :math:`A_{contracted} = \\Pi_{vc}^{baffle} A_{expanded}`. Through the :ref:`third form of the minor loss equation <heading_minor_losses>`, :math:`h_e = K \\frac{\\bar v_{out}^2}{2g}` and its definition of the minor loss coefficient, :math:`K = \\left( \\frac{A_{out}}{A_{in}} -1 \\right)^2`, we can determine the minimum minor loss coefficient for flow around a single baffle:"
 msgstr ""
 
 #: ../../Flocculation/Floc_Intro.rst:320
