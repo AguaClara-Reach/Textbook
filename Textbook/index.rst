@@ -128,7 +128,14 @@ The Physics of Water Treatment Design
 
 
 .. toctree::
-  :caption: Chapter 10: Design and Implementation
+  :caption: Chapter 10: Residuals Generation and Management
+  :maxdepth: 1
+
+  Residuals/Residuals_Generation_and_Management.rst
+
+
+.. toctree::
+  :caption: Chapter 11: Design and Implementation
   :maxdepth: 1
 
   AIDE/AIDE.rst
@@ -136,14 +143,14 @@ The Physics of Water Treatment Design
   AIDE/Specifications_PF.rst
 
 .. toctree::
-  :caption: Chapter 11: Dissolved Gas
+  :caption: Chapter 12: Dissolved Gas
   :maxdepth: 1
 
   Dissolved_Gas/DG_Intro.rst
 
 
 .. toctree::
-  :caption: Chapter 12: Operation
+  :caption: Chapter 13: Operation
   :maxdepth: 1
 
   Operation/Coagulant_Automation.rst

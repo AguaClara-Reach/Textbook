@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,22 +57,26 @@ msgid "Chapter 9: Filtration"
 msgstr ""
 
 #: ../../index.rst:130
-msgid "Chapter 10: Design and Implementation"
+msgid "Chapter 10: Residuals Generation and Management"
 msgstr ""
 
-#: ../../index.rst:138
-msgid "Chapter 11: Dissolved Gas"
+#: ../../index.rst:137
+msgid "Chapter 11: Design and Implementation"
 msgstr ""
 
 #: ../../index.rst:145
-msgid "Chapter 12: Operation"
+msgid "Chapter 12: Dissolved Gas"
 msgstr ""
 
-#: ../../index.rst:153
+#: ../../index.rst:152
+msgid "Chapter 13: Operation"
+msgstr ""
+
+#: ../../index.rst:160
 msgid "Appendix 1 + Resources"
 msgstr ""
 
-#: ../../index.rst:162
+#: ../../index.rst:169
 msgid "Contributor's guide"
 msgstr ""
 
@@ -96,14 +100,14 @@ msgstr ""
 msgid "The Physics of Water Treatment Design"
 msgstr ""
 
-#: ../../index.rst:172
+#: ../../index.rst:179
 msgid "This textbook is written and maintained in `Github <https://github.com/AguaClara-Reach/Textbook>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in the `aguaclara <https://github.com/AguaClara/aguaclara>`_ python library."
 msgstr ""
 
-#: ../../index.rst:174
+#: ../../index.rst:181
 msgid "Please use the annotation sidebar to leave comments with requests for improvements, additions, and corrections."
 msgstr ""
 
-#: ../../index.rst:176
+#: ../../index.rst:183
 msgid "`Please visit our GitHub site <https://github.com/AguaClara-Reach/Textbook>`_ to submit an issue, contribute, or comment."
 msgstr ""

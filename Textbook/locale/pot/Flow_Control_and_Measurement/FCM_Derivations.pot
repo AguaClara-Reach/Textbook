@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -576,11 +576,11 @@ msgid "\\color{green}{\n"
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Derivations.rst:422
-msgid "**Function in aguaclara:** ``cdc._length_cdc_tube_array(FlowPlant, ConcDoseMax, ConcStock, DiamTubeAvail, HeadlossCDC, temp, en_chem, KMinor)`` Returns :math:`{L_{min}`, takes in the flow rate input of *plant design flow rate*."
+msgid "**Function in aguaclara:** ``cdc._length_cdc_tube_array(FlowPlant, ConcDoseMax, ConcStock, DiamTubeAvail, HeadlossCDC, temp, en_chem, KMinor)`` Returns :math:`L_{min}` and takes *plant design flow rate* as the flow-rate input."
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Derivations.rst:424
-msgid "**Function in aguaclara:** ``cdc._len_tube(Flow, Diam, HeadLoss, conc_chem, temp, en_chem, KMinor)`` Returns :math:`{L_{min}`, takes in the flow rate input of *max flow rate through the dosing tube(s)*."
+msgid "**Function in aguaclara:** ``cdc._len_tube(Flow, Diam, HeadLoss, conc_chem, temp, en_chem, KMinor)`` Returns :math:`L_{min}` and takes *maximum flow rate through the dosing tube(s)* as the flow-rate input."
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/FCM_Derivations.rst:426

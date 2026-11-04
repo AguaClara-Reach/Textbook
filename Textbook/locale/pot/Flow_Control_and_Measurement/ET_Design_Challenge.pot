@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AguaClara \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:38-0500\n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -276,6 +276,50 @@ msgstr ""
 msgid "Part 2: Part Studio Steps"
 msgstr ""
 
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:129
+msgid "ip"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:130
+msgid "H"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:131
+msgid "HW"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:132
+msgid "L"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:133
+msgid "W"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:134
+msgid "constants"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:135
+msgid "location"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:136
+msgid "iso"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:137
+msgid "mateAtEndOfTank"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:138
+msgid "clickToEditMate"
+msgstr ""
+
+#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:139
+msgid "editMate"
+msgstr ""
+
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:142
 msgid "Insert the Civil Tank feature into the part studio and link design variables that you created in the Entrance Tank.fs to the Civil Tank"
 msgstr ""
@@ -284,56 +328,28 @@ msgstr ""
 msgid "implementation partner |ip|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:129
-msgid "ip"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:145
 msgid "inside wall height |H|"
-msgstr ""
-
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:130
-msgid "H"
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:146
 msgid "water depth |HW|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:131
-msgid "HW"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:147
 msgid "tank length |L|"
-msgstr ""
-
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:132
-msgid "L"
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:148
 msgid "tank width |W|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:133
-msgid "W"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:149
 msgid "constants for other inputs |constants|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:134
-msgid "constants"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:150
 msgid "Location can be set by clicking in the blue box in the drop down menu labeled 'Location(s)' and then clicking on the origin of the Part Studio |location|"
-msgstr ""
-
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:135
-msgid "location"
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:153
@@ -348,10 +364,6 @@ msgstr ""
 msgid "|iso|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:136
-msgid "iso"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:159
 msgid "All of the parts we are using for design come from a database that includes costs. To view this information, access the bill of materials and cut list custom tables by clicking on custom tables."
 msgstr ""
@@ -364,10 +376,6 @@ msgstr ""
 msgid "|mateAtEndOfTank|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:137
-msgid "mateAtEndOfTank"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:165
 msgid "Click on the mate connector to select it. The blue location box should now have a reference to the selected mate connector."
 msgstr ""
@@ -376,20 +384,12 @@ msgstr ""
 msgid "|clickToEditMate|"
 msgstr ""
 
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:138
-msgid "clickToEditMate"
-msgstr ""
-
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:169
 msgid "Click on the reference to the mate connector in the location box to edit the mate connector. This is a cool feature that makes it easy to move the part to exactly where you want it. In this case we want to move the overflow pipe away from the very end of the tank by a distance of W/2. Enter the Y value move distance as shown."
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:171
 msgid "|editMate|"
-msgstr ""
-
-#: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:139
-msgid "editMate"
 msgstr ""
 
 #: ../../Flow_Control_and_Measurement/ET_Design_Challenge.rst:173

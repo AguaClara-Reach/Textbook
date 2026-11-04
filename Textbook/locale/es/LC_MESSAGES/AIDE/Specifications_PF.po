@@ -5,12 +5,62 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: AguaClara \nReport-Msgid-Bugs-To: \nPOT-Creation-Dat"
-"e: 2026-11-03 09:53-0500\nPO-Revision-Date: 2026-11-01 15:30-0500\nLast-"
-"Translator: AguaClara Reach Translation Team\nLanguage: es\nLanguage-Tea"
-"m: es <LL@li.org>\nPlural-Forms: nplurals=2; plural=(n!= 1);\nMIME-Versi"
-"on: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encod"
-"ing: 8bit\nGenerated-By: Babel 2.15.0\n"
+"Project-Id-Version: AguaClara \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 12:22-0500\n"
+"PO-Revision-Date: 2026-11-01 15:30-0500\n"
+"Last-Translator: AguaClara Reach Translation Team\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n!= 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:173
+msgid "LFOM"
+msgstr "LFOM"
+
+#: ../../AIDE/Specifications_PF.rst
+msgid "Doser"
+msgstr "Dosificador"
+
+#: ../../AIDE/Specifications_PF.rst
+#, fuzzy
+msgid "EntranceTank"
+msgstr "Tanque de entrada"
+
+#: ../../AIDE/Specifications_PF.rst
+#, fuzzy
+msgid "FlocculatorVH"
+msgstr "Floculador"
+
+#: ../../AIDE/Specifications_PF.rst
+#, fuzzy
+msgid "FlocculatorHV"
+msgstr "Floculador"
+
+#: ../../AIDE/Specifications_PF.rst
+#, fuzzy
+msgid "FlocculatorHH"
+msgstr "Floculador"
+
+#: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:453
+msgid "Clarifier"
+msgstr "Clarificador"
+
+#: ../../AIDE/Specifications_PF.rst
+msgid "OStaRS"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst
+msgid "20-80Lpsplant"
+msgstr ""
+
+#: ../../AIDE/Specifications_PF.rst
+msgid "ACRlogowithname"
+msgstr ""
 
 #: ../../AIDE/Specifications_PF.rst:53
 msgid "Specifications for the Prefabricated Series"
@@ -29,18 +79,18 @@ msgid ""
 "safe, potable drinking water from source water that may be contaminated "
 "with particles, pathogens, and dissolved organics."
 msgstr ""
-"Este documento describe el diseño estándar, el rendimiento, los materi"
-"ales y las características operativas de las plantas de tratamiento de"
-" agua potable prefabricadas de la serie AguaClara (PF). AguaClara fabr"
-"ica y suministra plantas PF como sistemas integrados de tratamiento. A"
-" menos que una característica se identifique como opcional o específic"
-"a del proyecto, las características descritas aquí se incluyen en la p"
-"lanta suministrada. Las dimensiones de la planta y ciertos componentes"
-" se configuran para el flujo de diseño del proyecto, la calidad del ag"
-"ua de la fuente, las condiciones del sitio y los requisitos regulatori"
-"os aplicables. La planta PF está diseñada para producir agua potable a"
-" partir de agua de la fuente que puede estar contaminada con partícula"
-"s, patógenos y compuestos orgánicos disueltos."
+"Este documento describe el diseño estándar, el rendimiento, los "
+"materiales y las características operativas de las plantas de tratamiento"
+" de agua potable prefabricadas de la serie AguaClara (PF). AguaClara "
+"fabrica y suministra plantas PF como sistemas integrados de tratamiento. "
+"A menos que una característica se identifique como opcional o específica "
+"del proyecto, las características descritas aquí se incluyen en la planta"
+" suministrada. Las dimensiones de la planta y ciertos componentes se "
+"configuran para el flujo de diseño del proyecto, la calidad del agua de "
+"la fuente, las condiciones del sitio y los requisitos regulatorios "
+"aplicables. La planta PF está diseñada para producir agua potable a "
+"partir de agua de la fuente que puede estar contaminada con partículas, "
+"patógenos y compuestos orgánicos disueltos."
 
 #: ../../AIDE/Specifications_PF.rst:61
 msgid "PF Series Application and Design Basis"
@@ -143,9 +193,9 @@ msgid ""
 "studies are recommended to confirm the efficacy of the coagulant and the "
 "ability of the flocs to settle."
 msgstr ""
-"Para agua cruda con alto contenido de color o materia orgánica total, "
-"se recomiendan estudios piloto para confirmar la eficacia del coagulan"
-"te y la capacidad de los flóculos para sedimentarse."
+"Para agua cruda con alto contenido de color o materia orgánica total, se "
+"recomiendan estudios piloto para confirmar la eficacia del coagulante y "
+"la capacidad de los flóculos para sedimentarse."
 
 #: ../../AIDE/Specifications_PF.rst:1
 msgid "pH"
@@ -461,10 +511,6 @@ msgstr ""
 #: ../../AIDE/Specifications_PF.rst:158
 msgid "Linear Flow Orifice Meter (LFOM) or Equivalent |LFOM|"
 msgstr "Medidor lineal de caudal por orificios (LFOM) o equivalente |LFOM|"
-
-#: ../../AIDE/Specifications_PF.rst ../../AIDE/Specifications_PF.rst:173
-msgid "LFOM"
-msgstr "LFOM"
 
 #: ../../AIDE/Specifications_PF.rst:160
 msgid ""
@@ -889,10 +935,6 @@ msgstr ""
 msgid "Chemical Dose Controller |Doser|"
 msgstr "Controlador de dosificación de productos químicos |Doser|"
 
-#: ../../AIDE/Specifications_PF.rst
-msgid "Doser"
-msgstr "Dosificador"
-
 #: ../../AIDE/Specifications_PF.rst:327
 msgid ""
 "One end of the chemical doser balance (see "
@@ -1082,6 +1124,7 @@ msgid "The AguaClara flocculator is designed to:"
 msgstr "El floculador AguaClara está diseñado para:"
 
 #: ../../AIDE/Specifications_PF.rst:401
+#, python-brace-format
 msgid ""
 "Provide a head loss of 5 cm to provide gentle mixing and a residence time"
 " of approximately 1200 seconds (20 minutes), allowing aggregation of "
@@ -1234,10 +1277,6 @@ msgstr ""
 "aguas abajo a través del marco de tubería de PVC y PEX. Cada canal del "
 "floculador contiene un módulo de deflectores."
 
-#: ../../AIDE/Specifications_PF.rst:453
-msgid "Clarifier"
-msgstr "Clarificador"
-
 #: ../../AIDE/Specifications_PF.rst:455
 msgid ""
 "For more detailed information, see :ref:`Clarifier Design "
@@ -1249,15 +1288,15 @@ msgid ""
 "filter, and plate settlers. Clarified water flows into the outlet "
 "manifold and out of the clarifier to the filter."
 msgstr ""
-"Para obtener información más detallada, véase :ref:`Diseño del clarifi"
-"cador <title_Clarifier_Design>`. El clarificador (véase :numref:`figur"
-"e_spec_PFclarifierElevation`) contiene tres procesos separados: filtra"
-"ción en el filtro de flóculos, sedimentación en las placas sedimentado"
-"ras y consolidación en la tolva de lodos. El agua floculada fluye haci"
-"a el manifold de entrada y luego atraviesa los difusores, el inversor "
-"de chorro, el filtro de flóculos y las placas sedimentadoras. El agua "
-"clarificada fluye hacia el colector de salida y sale del clarificador "
-"hacia el filtro."
+"Para obtener información más detallada, véase :ref:`Diseño del "
+"clarificador <title_Clarifier_Design>`. El clarificador (véase "
+":numref:`figure_spec_PFclarifierElevation`) contiene tres procesos "
+"separados: filtración en el filtro de flóculos, sedimentación en las "
+"placas sedimentadoras y consolidación en la tolva de lodos. El agua "
+"floculada fluye hacia el manifold de entrada y luego atraviesa los "
+"difusores, el inversor de chorro, el filtro de flóculos y las placas "
+"sedimentadoras. El agua clarificada fluye hacia el colector de salida y "
+"sale del clarificador hacia el filtro."
 
 #: ../../AIDE/Specifications_PF.rst:457
 msgid ""
@@ -1428,6 +1467,7 @@ msgid "The high-rate, vertical-flow clarifier is designed to:"
 msgstr "El clarificador de alta tasa y flujo vertical está diseñado para:"
 
 #: ../../AIDE/Specifications_PF.rst:531
+#, python-brace-format
 msgid ""
 "To deliver flocs to the clarifier bay without breaking them into pieces "
 "with terminal velocities below the capture velocity of the plate "
@@ -1469,8 +1509,8 @@ msgid ""
 "To provide evenly distributed low-velocity flow through the plate "
 "settlers."
 msgstr ""
-"Proporcionar un flujo uniformemente distribuido a baja velocidad a tra"
-"vés de las placas sedimentadoras."
+"Proporcionar un flujo uniformemente distribuido a baja velocidad a través"
+" de las placas sedimentadoras."
 
 #: ../../AIDE/Specifications_PF.rst:539
 msgid ""
@@ -1720,20 +1760,20 @@ msgid ""
 " floc hopper by the clarity of the water exiting from the floc hopper "
 "drain."
 msgstr ""
-"La tolva de lodos (:numref:`figure_spec_PFflocHopper`) permite la cons"
-"olidación de los flóculos. El vertedero de flóculos controla la profun"
-"didad del filtro de flóculos porque, a medida que el filtro de flóculo"
-"s crece, finalmente alcanza la parte superior del vertedero de flóculo"
-"s. Como los flóculos son más densos que el agua, se derraman sobre el "
-"borde del vertedero, lo que permite que el filtro de flóculos permanez"
-"ca a una altura constante mientras el lodo se acumula y consolida en l"
-"a tolva de lodos. Los operadores pueden usar una linterna para observa"
-"r el filtro de flóculos moviéndose hacia el extremo inferior de las pl"
-"acas sedimentadoras, lo que indica que la tolva de lodos está llena. E"
-"l lodo se drena de la tolva abriendo una válvula o bajando el extremo "
-"de un tubo flexible. El operador puede observar que el lodo se ha dren"
-"ado completamente de la tolva al observar la claridad del agua que sal"
-"e por el desagüe de la tolva."
+"La tolva de lodos (:numref:`figure_spec_PFflocHopper`) permite la "
+"consolidación de los flóculos. El vertedero de flóculos controla la "
+"profundidad del filtro de flóculos porque, a medida que el filtro de "
+"flóculos crece, finalmente alcanza la parte superior del vertedero de "
+"flóculos. Como los flóculos son más densos que el agua, se derraman sobre"
+" el borde del vertedero, lo que permite que el filtro de flóculos "
+"permanezca a una altura constante mientras el lodo se acumula y consolida"
+" en la tolva de lodos. Los operadores pueden usar una linterna para "
+"observar el filtro de flóculos moviéndose hacia el extremo inferior de "
+"las placas sedimentadoras, lo que indica que la tolva de lodos está "
+"llena. El lodo se drena de la tolva abriendo una válvula o bajando el "
+"extremo de un tubo flexible. El operador puede observar que el lodo se ha"
+" drenado completamente de la tolva al observar la claridad del agua que "
+"sale por el desagüe de la tolva."
 
 #: ../../AIDE/Specifications_PF.rst:608
 msgid ""
@@ -2014,9 +2054,9 @@ msgid ""
 "the four compartments. The water then exits through the backwash drain "
 "pipe."
 msgstr ""
-"En modo de retrolavado, se retira un niple a la vez para retrolavar ca"
-"da una de las cuatro celdas de filtración. El agua sale entonces por l"
-"a tubería de desagüe de retrolavado."
+"En modo de retrolavado, se retira un niple a la vez para retrolavar cada "
+"una de las cuatro celdas de filtración. El agua sale entonces por la "
+"tubería de desagüe de retrolavado."
 
 #: ../../AIDE/Specifications_PF.rst:696
 msgid "Design Features"
